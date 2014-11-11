@@ -18,13 +18,13 @@ namespace HistoryClassifier
     class Desktop : AppType
     {
         public string str_type;
-        public appType enum_type;
+     //   public appType enum_type;
         public int int_type;
 
         public Desktop()
         {
             str_type = "Desktop";
-            enum_type = appType.Desktop;
+        //    enum_type = appType.Desktop;
             int_type = 0;
         }
 
@@ -43,13 +43,13 @@ namespace HistoryClassifier
     class Mobile : AppType
     {
         public string str_type;
-        public appType enum_type;
+       // public appType enum_type;
         public int int_type;
 
         public Mobile()
         {
             str_type = "Mobile";
-            enum_type = appType.Mobile;
+        //    enum_type = appType.Mobile;
             int_type = 1;
         }
 
@@ -68,13 +68,13 @@ namespace HistoryClassifier
     class Sibling : AppType
     {
         public string str_type;
-        public appType enum_type;
+   //     public appType enum_type;
         public int int_type;
 
         public Sibling()
         {
             str_type = "Sibling";
-            enum_type = appType.Sibling;
+       //     enum_type = appType.Sibling;
             int_type = 2;
         }
 
@@ -93,13 +93,13 @@ namespace HistoryClassifier
     class AppNotClassified : AppType
     {
         public string str_type;
-        public appType enum_type;
+    //    public appType enum_type;
         public int int_type;
 
         public AppNotClassified()
         {
             str_type = "Not Classified";
-            enum_type = appType.NotClassified;
+     //       enum_type = appType.NotClassified;
             int_type = 3;
         }
 

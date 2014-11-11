@@ -61,6 +61,8 @@
             this.txtName = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.btnSet = new System.Windows.Forms.Button();
+            this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.lblSecVersionPattern = new System.Windows.Forms.ToolStripStatusLabel();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -248,6 +250,8 @@
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel1,
             this.lblVersionPat,
+            this.toolStripStatusLabel2,
+            this.lblSecVersionPattern,
             this.toolStripStatusLabel3,
             this.lblDatePattern,
             this.toolStripStatusLabel5,
@@ -261,8 +265,8 @@
             // toolStripStatusLabel1
             // 
             this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(93, 17);
-            this.toolStripStatusLabel1.Text = "Version Pattern: ";
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(111, 17);
+            this.toolStripStatusLabel1.Text = "1st Version Pattern: ";
             this.toolStripStatusLabel1.Click += new System.EventHandler(this.toolStripStatusLabel1_Click);
             // 
             // lblVersionPat
@@ -368,6 +372,18 @@
             this.btnSet.UseVisualStyleBackColor = true;
             this.btnSet.Click += new System.EventHandler(this.btnSet_Click);
             // 
+            // toolStripStatusLabel2
+            // 
+            this.toolStripStatusLabel2.Name = "toolStripStatusLabel2";
+            this.toolStripStatusLabel2.Size = new System.Drawing.Size(110, 17);
+            this.toolStripStatusLabel2.Text = "2nd Version Pattern";
+            // 
+            // lblSecVersionPattern
+            // 
+            this.lblSecVersionPattern.Name = "lblSecVersionPattern";
+            this.lblSecVersionPattern.Size = new System.Drawing.Size(10, 17);
+            this.lblSecVersionPattern.Text = " ";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -441,6 +457,8 @@
         private System.Windows.Forms.TextBox txtName;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnSet;
+        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel2;
+        private System.Windows.Forms.ToolStripStatusLabel lblSecVersionPattern;
     }
 }
 

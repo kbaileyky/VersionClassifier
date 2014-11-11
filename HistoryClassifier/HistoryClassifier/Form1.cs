@@ -19,7 +19,8 @@ namespace HistoryClassifier
 
         List<ReleaseContainer> ReleaseList = new List<ReleaseContainer>();
 
-        private string versionPattern = "\\d+\\.\\d+";
+        private string firstVersionPattern = "\\d+\\.\\d+";
+        private string SecondVersionPattern = "\\d+\\.\\d+";
         private string datePattern = "\\d{1,2}-\\d{1,2}-(\\d{4}|\\d{2})";
         private string dateFormat = String.Empty;
 
@@ -95,11 +96,12 @@ namespace HistoryClassifier
                             if(Regex.IsMatch(tempString, "\\S")){ //Not null or space
 
 
-                                if(Regex.IsMatch(tempString, versionPattern)){ //If this is the start of a new version's release notes
+                                if(Regex.IsMatch(tempString, firstVersionPattern)){ //If this is the start of a new version's release notes
+                                        
                                         newRelease.Set_Contents(VersionString);
                                         ReleaseList.Add(newRelease);
                                         VersionString = String.Empty;
-                                    newRelease = new ReleaseContainer(datePattern, Regex.Match(tempString, versionPattern).Value);
+                                    newRelease = new ReleaseContainer(datePattern, Regex.Match(tempString, SecondVersionPattern).Value);
                                     skip = true;
                                 }
 
@@ -459,7 +461,8 @@ namespace HistoryClassifier
 
                 using (txtReader)
                 {
-                    versionPattern = txtReader.ReadLine();
+                    firstVersionPattern = txtReader.ReadLine();
+                    SecondVersionPattern = txtReader.ReadLine();
                     datePattern = txtReader.ReadLine();
                     dateFormat = txtReader.ReadLine();
                    
@@ -476,8 +479,8 @@ namespace HistoryClassifier
 
             lblDateFormat.Text = dateFormat;
             lblDatePattern.Text = datePattern;
-            lblVersionPat.Text = versionPattern;
-
+            lblVersionPat.Text = firstVersionPattern;
+            lblSecVersionPattern.Text = SecondVersionPattern;
 
             }
 
