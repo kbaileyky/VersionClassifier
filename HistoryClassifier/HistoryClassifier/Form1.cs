@@ -159,15 +159,15 @@ namespace HistoryClassifier
             if (lsbxVersions.SelectedIndex >= 0)
             {
                 chkbFlag.Checked = ReleaseList[lsbxVersions.SelectedIndex].Get_Flag();
-                switch (ReleaseList[lsbxVersions.SelectedIndex].ApplicationType)
+                switch (ReleaseList[0].Get_App_Type_Int())
                 {
-                    case appType.Desktop:
+                    case 0:
                         rbDesktop.Checked = true;
                         break;
-                    case appType.Mobile:
+                    case 1:
                         rbMobile.Checked = true;
                         break;
-                    case appType.Sibling:
+                    case 2:
                         rbSibling.Checked = true;
                         break;
                     default:
@@ -203,41 +203,41 @@ namespace HistoryClassifier
         private void btnBug_Click(object sender, EventArgs e)
         {
 
-            Classify_Statement(desc.Bug);
+            Classify_Statement(new Bug());
            
         }
 
         private void btnFeature_Click(object sender, EventArgs e)
         {
-            Classify_Statement(desc.Feature);
+            Classify_Statement(new Feature());
 
             
         }
 
         private void btnEnhancement_Click(object sender, EventArgs e)
         {
-            Classify_Statement(desc.Enhancement);
+            Classify_Statement(new Enhancement());
                        
         }
 
         private void btnIrrelevant_Click(object sender, EventArgs e)
         {
 
-            Classify_Statement(desc.Junk);
+            Classify_Statement(new Junk());
 
         }
 
         private void btnAd_Click(object sender, EventArgs e)
         {
-            Classify_Statement(desc.Ads);
+            Classify_Statement(new Ad());
         }
 
         private void btnChangeRating_Click(object sender, EventArgs e)
         {
-            Classify_Statement(desc.RevChangeRequest);
+            Classify_Statement(new RevChangeRequest());
         }
 
-        public void Classify_Statement(desc type)
+        private void Classify_Statement(Classification type)
         {
             ReleaseList[lsbxVersions.SelectedIndex].classify_Entry(lsbxHistory.SelectedIndex, type);
             Repopulate_Entry_List(ReleaseList[lsbxVersions.SelectedIndex]);
@@ -264,27 +264,27 @@ namespace HistoryClassifier
         private void Form1_KeyPress(object sender, KeyPressEventArgs e)
         {
 
-            if (!(textBox1.Text.Equals(String.Empty)))
+            if (!(textBox1.Text.Equals(String.Empty)) && !(txtName.ContainsFocus))
             {
                 switch (e.KeyChar)
                 {
                     case 'q':
-                        Classify_Statement(desc.Bug);
+                        Classify_Statement(new Bug());
                         break;
                     case 'w':
-                        Classify_Statement(desc.Feature);
+                        Classify_Statement(new Feature());
                         break;
                     case 'e':
-                        Classify_Statement(desc.Enhancement);
+                        Classify_Statement(new Enhancement());
                         break;
                     case 'r':
-                        Classify_Statement(desc.Junk);
+                        Classify_Statement(new Junk());
                         break;
                     case 'u':
-                        Classify_Statement(desc.Ads);
+                        Classify_Statement(new Ad());
                         break;
                     case 'i':
-                        Classify_Statement(desc.RevChangeRequest);
+                        Classify_Statement(new RevChangeRequest());
                         break;
                     case '\r':
                         MoveToNextIndex();
@@ -481,19 +481,36 @@ namespace HistoryClassifier
 
             }
 
+        private void Set_App_Type(AppType newApp)
+        {
+            foreach (ReleaseContainer r in ReleaseList)
+            {
+                r.Set_App_Type(newApp);
+            }
+        }
+
         private void rbDesktop_CheckedChanged(object sender, EventArgs e)
         {
-            ReleaseList[lsbxVersions.SelectedIndex].Set_App_Type(appType.Desktop);
+            Set_App_Type(new Desktop());
+            
         }
 
         private void rbMobile_CheckedChanged(object sender, EventArgs e)
         {
-            ReleaseList[lsbxVersions.SelectedIndex].Set_App_Type(appType.Mobile);
+            Set_App_Type(new Mobile());
         }
 
         private void rbSibling_CheckedChanged(object sender, EventArgs e)
         {
-            ReleaseList[lsbxVersions.SelectedIndex].Set_App_Type(appType.Sibling);
+            Set_App_Type(new Sibling());
+        }
+
+        private void btnSet_Click(object sender, EventArgs e)
+        {
+            foreach (ReleaseContainer r in ReleaseList)
+            {
+                r.ApplicationName = txtName.Text;
+            }
         }
      
 

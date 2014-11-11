@@ -55,9 +55,12 @@
             this.toolStripStatusLabel5 = new System.Windows.Forms.ToolStripStatusLabel();
             this.lblDateFormat = new System.Windows.Forms.ToolStripStatusLabel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.rbDesktop = new System.Windows.Forms.RadioButton();
-            this.rbMobile = new System.Windows.Forms.RadioButton();
             this.rbSibling = new System.Windows.Forms.RadioButton();
+            this.rbMobile = new System.Windows.Forms.RadioButton();
+            this.rbDesktop = new System.Windows.Forms.RadioButton();
+            this.txtName = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.btnSet = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -303,17 +306,17 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Application Type";
             // 
-            // rbDesktop
+            // rbSibling
             // 
-            this.rbDesktop.AutoSize = true;
-            this.rbDesktop.Location = new System.Drawing.Point(6, 19);
-            this.rbDesktop.Name = "rbDesktop";
-            this.rbDesktop.Size = new System.Drawing.Size(65, 17);
-            this.rbDesktop.TabIndex = 0;
-            this.rbDesktop.TabStop = true;
-            this.rbDesktop.Text = "Desktop";
-            this.rbDesktop.UseVisualStyleBackColor = true;
-            this.rbDesktop.CheckedChanged += new System.EventHandler(this.rbDesktop_CheckedChanged);
+            this.rbSibling.AutoSize = true;
+            this.rbSibling.Location = new System.Drawing.Point(6, 65);
+            this.rbSibling.Name = "rbSibling";
+            this.rbSibling.Size = new System.Drawing.Size(56, 17);
+            this.rbSibling.TabIndex = 2;
+            this.rbSibling.TabStop = true;
+            this.rbSibling.Text = "Sibling";
+            this.rbSibling.UseVisualStyleBackColor = true;
+            this.rbSibling.CheckedChanged += new System.EventHandler(this.rbSibling_CheckedChanged);
             // 
             // rbMobile
             // 
@@ -327,23 +330,52 @@
             this.rbMobile.UseVisualStyleBackColor = true;
             this.rbMobile.CheckedChanged += new System.EventHandler(this.rbMobile_CheckedChanged);
             // 
-            // rbSibling
+            // rbDesktop
             // 
-            this.rbSibling.AutoSize = true;
-            this.rbSibling.Location = new System.Drawing.Point(6, 65);
-            this.rbSibling.Name = "rbSibling";
-            this.rbSibling.Size = new System.Drawing.Size(56, 17);
-            this.rbSibling.TabIndex = 2;
-            this.rbSibling.TabStop = true;
-            this.rbSibling.Text = "Sibling";
-            this.rbSibling.UseVisualStyleBackColor = true;
-            this.rbSibling.CheckedChanged += new System.EventHandler(this.rbSibling_CheckedChanged);
+            this.rbDesktop.AutoSize = true;
+            this.rbDesktop.Location = new System.Drawing.Point(6, 19);
+            this.rbDesktop.Name = "rbDesktop";
+            this.rbDesktop.Size = new System.Drawing.Size(65, 17);
+            this.rbDesktop.TabIndex = 0;
+            this.rbDesktop.TabStop = true;
+            this.rbDesktop.Text = "Desktop";
+            this.rbDesktop.UseVisualStyleBackColor = true;
+            this.rbDesktop.CheckedChanged += new System.EventHandler(this.rbDesktop_CheckedChanged);
+            // 
+            // txtName
+            // 
+            this.txtName.Location = new System.Drawing.Point(704, 116);
+            this.txtName.Name = "txtName";
+            this.txtName.Size = new System.Drawing.Size(107, 20);
+            this.txtName.TabIndex = 16;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(704, 97);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(90, 13);
+            this.label3.TabIndex = 17;
+            this.label3.Text = "Application Name";
+            // 
+            // btnSet
+            // 
+            this.btnSet.Location = new System.Drawing.Point(817, 114);
+            this.btnSet.Name = "btnSet";
+            this.btnSet.Size = new System.Drawing.Size(46, 23);
+            this.btnSet.TabIndex = 18;
+            this.btnSet.Text = "Set";
+            this.btnSet.UseVisualStyleBackColor = true;
+            this.btnSet.Click += new System.EventHandler(this.btnSet_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(871, 371);
+            this.Controls.Add(this.btnSet);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.txtName);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.btnChangeRating);
@@ -406,6 +438,9 @@
         private System.Windows.Forms.RadioButton rbSibling;
         private System.Windows.Forms.RadioButton rbMobile;
         private System.Windows.Forms.RadioButton rbDesktop;
+        private System.Windows.Forms.TextBox txtName;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button btnSet;
     }
 }
 

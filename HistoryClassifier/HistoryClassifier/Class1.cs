@@ -12,7 +12,9 @@ namespace HistoryClassifier
         public string ReleaseDate;
         public string ReleaseContents;
 
-        public appType ApplicationType;
+        public string ApplicationName;
+
+        public AppType ApplicationType;
 
         public string datePattern;
 
@@ -26,7 +28,8 @@ namespace HistoryClassifier
             ReleaseDate = String.Empty;
             ReleaseContents = String.Empty;
             datePattern = String.Empty;
-            ApplicationType = appType.NotClassified;
+            ApplicationType = new AppNotClassified();
+            ApplicationName = String.Empty;
 
             EntryList = new List<HistoryEntry>();
             return;
@@ -38,7 +41,8 @@ namespace HistoryClassifier
             ReleaseDate = String.Empty; 
             ReleaseContents = String.Empty;
             EntryList = new List<HistoryEntry>();
-            ApplicationType = appType.NotClassified;
+            ApplicationType = new AppNotClassified();
+            ApplicationName = String.Empty;
             
 
             datePattern = pat;
@@ -51,39 +55,27 @@ namespace HistoryClassifier
            ReleaseDate = String.Empty;
            ReleaseContents = String.Empty;
            EntryList = new List<HistoryEntry>();
-           ApplicationType = appType.NotClassified;
+           ApplicationType = new AppNotClassified();
+           ApplicationName = String.Empty;
 
             VersionNumber = number;
             datePattern = pat;
             return;
         }
 
-        public void Set_App_Type(appType newclass)
+        public void Set_App_Type(AppType newclass)
         {
             ApplicationType = newclass;
         }
 
         public string Get_App_Type_Str()
         {
-            string[] options = { "Desktop", "Mobile", "Sibling", "Not Classified" };
-            return options[Get_App_Type_Int()];
+            return ApplicationType.Get_String();
         }
 
         public int Get_App_Type_Int()
         {
-            switch (ApplicationType)
-            {
-                case appType.Desktop:
-                    return 0;
-                case appType.Mobile:
-                    return 1;
-                case appType.Sibling:
-                    return 2;
-                case appType.NotClassified:
-                    return 4;
-                default:
-                    throw new Exception("Invalid Classification (enum) value in class, something has gone horribly wrong");
-            }
+            return ApplicationType.Get_Int();
         }
 
         public void Set_Date(string newDate){
@@ -150,7 +142,8 @@ namespace HistoryClassifier
             return;
         }
 
-        public void classify_Entry(int index, desc type){
+        public void classify_Entry(int index, Classification type)
+        {
             if (index >= 0)
             {
                 EntryList[index].Set_Classification(type);

@@ -8,12 +8,6 @@ namespace HistoryClassifier
 {
     public enum desc { Bug, Feature, Enhancement, Junk , Ads, RevChangeRequest, NotClassified};
 
-    interface Classification
-    {
-        desc type { get; }
-
-    }
-
     public enum appType { Desktop, Mobile, Sibling, NotClassified };
 
     interface ApplucationType
