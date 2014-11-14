@@ -1,0 +1,1610 @@
+{
+    "pageData": {
+        "softwarePageData": {
+            "customerReviewsUrl": "https://itunes.apple.com/us/customer-reviews/id577789325?dataOnly=true&displayable-kind=11", 
+            "customersAlsoBoughtApps": [
+                762950096, 
+                373763461, 
+                593418681, 
+                412969819, 
+                494140836, 
+                442415567, 
+                578023255, 
+                540872054, 
+                766149271, 
+                559851814, 
+                580818602, 
+                664457128, 
+                582725370, 
+                468496056, 
+                469863705
+            ], 
+            "sellerLabel": "Seller", 
+            "isFatBinary": 1, 
+            "topApps": {
+                "ipad": {
+                    "ids": [
+                        308368164, 
+                        512350210, 
+                        412351574, 
+                        613398383, 
+                        893927401, 
+                        398860728, 
+                        664909593, 
+                        891450541, 
+                        540872054, 
+                        491771721, 
+                        509343934, 
+                        882931712, 
+                        565200595, 
+                        722910739, 
+                        551215116
+                    ], 
+                    "title": "Top Grossing iPad Education Apps"
+                }, 
+                "iphone": {
+                    "ids": [
+                        613398383, 
+                        467329677, 
+                        577232024, 
+                        435588892, 
+                        893927401, 
+                        565200595, 
+                        625614526, 
+                        891453663, 
+                        373493387, 
+                        518334522, 
+                        562413829, 
+                        369946804, 
+                        591626572, 
+                        540872054, 
+                        806223188
+                    ], 
+                    "title": "Top Grossing iPhone Education Apps"
+                }
+            }, 
+            "rating-and-advisories": {
+                "advisories": [
+                    "Infrequent/Mild Mature/Suggestive Themes", 
+                    "Infrequent/Mild Profanity or Crude Humor", 
+                    "Infrequent/Mild Horror/Fear Themes", 
+                    "Infrequent/Mild Realistic Violence"
+                ], 
+                "rating-text": "Rated 12+ for the following:"
+            }, 
+            "moreByThisDeveloper": [
+                326885152, 
+                579361967, 
+                925083573, 
+                857885013, 
+                674779851, 
+                639399872, 
+                624700709, 
+                579816499, 
+                497983366, 
+                481094346
+            ], 
+            "appRatingsLearnMoreUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/appRatings?cc=us", 
+            "versionHistory": [
+                {
+                    "releaseDate": "2013-12-12T01:02:56Z", 
+                    "releaseNotes": "This update to Poems By Heart includes:\n- 2 new free poems, including \"Eldorado\" by Edgar Allan Poe\n- A new \"Holiday\" pack of poems, including \"The Night Before Christmas\"\n- Upcoming, monthly releases of new packs of poems\n- The ability to buy volumes 1 and 2 at reduced prices\n- An improved look and feel, updated for iOS 7", 
+                    "versionString": "2.0"
+                }, 
+                {
+                    "releaseDate": "2013-09-13T23:18:06Z", 
+                    "releaseNotes": "This update solves compatibility issues with iOS 7.", 
+                    "versionString": "1.2"
+                }, 
+                {
+                    "releaseDate": "2013-04-19T20:58:53Z", 
+                    "releaseNotes": "Minor fixes and updates.", 
+                    "versionString": "1.1"
+                }, 
+                {
+                    "releaseDate": "2013-03-25T23:38:10Z", 
+                    "releaseNotes": null, 
+                    "versionString": "1.0"
+                }
+            ], 
+            "addOns": [
+                {
+                    "price": "$0.99", 
+                    "name": "Early Innovators"
+                }, 
+                {
+                    "price": "$0.99", 
+                    "name": "Gothic Tales"
+                }, 
+                {
+                    "price": "$0.99", 
+                    "name": "Love"
+                }, 
+                {
+                    "price": "$0.99", 
+                    "name": "Adventures"
+                }, 
+                {
+                    "price": "$0.99", 
+                    "name": "Romantic"
+                }, 
+                {
+                    "price": "$0.99", 
+                    "name": "Odes"
+                }, 
+                {
+                    "price": "$0.99", 
+                    "name": "Elizabethan"
+                }, 
+                {
+                    "price": "$5.99", 
+                    "name": "Volume 1"
+                }, 
+                {
+                    "price": "$5.99", 
+                    "name": "Volume 2"
+                }, 
+                {
+                    "price": "$0.99", 
+                    "name": "Life Wisdom"
+                }
+            ], 
+            "id": 577789325
+        }, 
+        "metricsBase": {
+            "pageDetails": "Penguin Group USA_Poems By Heart from Penguin Classics", 
+            "pageId": "577789325", 
+            "language": "1", 
+            "serverInstance": "2125063", 
+            "platformId": "28", 
+            "storeFront": "143441", 
+            "storeFrontHeader": "143441-1,28", 
+            "environmentDataCenter": "ST11", 
+            "pageType": "Software", 
+            "platformName": "iTunes12", 
+            "page": "Software_577789325"
+        }, 
+        "footerBreadcrumbs": [
+            {
+                "url": "https://itunes.apple.com/us/store", 
+                "label": "iTunes Store"
+            }, 
+            {
+                "url": "https://itunes.apple.com/us/genre/ios/id36?mt=8", 
+                "label": "App Store"
+            }, 
+            {
+                "url": "https://itunes.apple.com/us/genre/ios-education/id6017?mt=8", 
+                "label": "Education"
+            }, 
+            {
+                "url": "https://itunes.apple.com/us/artist/penguin-group-usa/id297541127", 
+                "label": "Penguin Group USA"
+            }, 
+            {
+                "url": "https://itunes.apple.com/us/app/poems-by-heart-from-penguin/id577789325?mt=8", 
+                "label": "Poems By Heart from Penguin Classics"
+            }
+        ], 
+        "copyright": "Copyright \u00a9 2014 Apple Inc.", 
+        "privacyLink": {
+            "url": "https://www.apple.com/legal/privacy/", 
+            "label": "Privacy Policy"
+        }, 
+        "breadcrumbs": [
+            {
+                "url": "https://itunes.apple.com/us/genre/ios/id36?mt=8", 
+                "label": "App Store"
+            }, 
+            {
+                "url": "https://itunes.apple.com/us/genre/ios-education/id6017?mt=8", 
+                "label": "Education"
+            }, 
+            {
+                "url": "https://itunes.apple.com/us/artist/penguin-group-usa/id297541127", 
+                "label": "Penguin Group USA"
+            }
+        ], 
+        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/1583/frameworks-sf6/images/", 
+        "omnitureMetrics": {
+            "shouldTrackBrowserPlugins": false, 
+            "format": "HTML", 
+            "isClickMetricsEnabled": false, 
+            "isBuyMetricsEnabled": true, 
+            "isPageMetricsEnabled": true, 
+            "products": "Penguin Group USA-Poems By Heart from Penguin Classics-577789325", 
+            "pageName": "Software-US-Penguin Group USA-Poems By Heart from Penguin Classics-577789325", 
+            "shouldIncludeRecommendationInfoInClickMetrics": true, 
+            "channel": "Software Pages"
+        }, 
+        "mediaType": "8", 
+        "navBarSelectedMenu": "App Store", 
+        "legalLink": {
+            "url": "https://www.apple.com/legal/", 
+            "label": "All rights reserved."
+        }, 
+        "metrics": {
+            "fields": {}, 
+            "config": {
+                "blacklistedFields": [
+                    "capacitySystem", 
+                    "capacitySystemAvailable", 
+                    "capacityDisk", 
+                    "capacityData", 
+                    "capacityDataAvailable"
+                ]
+            }
+        }, 
+        "resourceImagePath": "https://s.mzstatic.com/htmlResources/1583/di6-storefront/images/", 
+        "resourceBasePath": "/htmlResources/1583/files/", 
+        "flagLink": {
+            "url": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/countrySelectorPage?cc=us", 
+            "imageSrc": "https://s.mzstatic.com/images/flags/-dsi-30/usa.png", 
+            "imageAltText": "My Store: United States, Choose Store"
+        }, 
+        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/1583/frameworks-dt6/images/", 
+        "termsLink": {
+            "url": "https://www.apple.com/legal/itunes/us/terms.html", 
+            "label": "Terms and Conditions"
+        }, 
+        "pageComponent": "software_page", 
+        "footerLinks": {
+            "sections": [
+                {
+                    "links": [
+                        {
+                            "url": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?cc=us&id=1", 
+                            "label": "Music"
+                        }, 
+                        {
+                            "url": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?cc=us&id=39", 
+                            "label": "Movies"
+                        }, 
+                        {
+                            "url": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?cc=us&id=37", 
+                            "label": "TV Shows"
+                        }, 
+                        {
+                            "url": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?cc=us&id=25204&mt=8", 
+                            "label": "App Store"
+                        }, 
+                        {
+                            "url": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?cc=us&id=27820&mt=11", 
+                            "label": "Books"
+                        }, 
+                        {
+                            "url": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?cc=us&id=33&mt=2", 
+                            "label": "Podcasts"
+                        }, 
+                        {
+                            "url": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?cc=us&id=28", 
+                            "label": "Audiobooks"
+                        }, 
+                        {
+                            "url": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGenre?id=40000000&mt=10", 
+                            "label": "iTunes U"
+                        }
+                    ], 
+                    "title": "Explore"
+                }, 
+                {
+                    "links": [
+                        {
+                            "url": "itsradio://stations", 
+                            "target": "_blank", 
+                            "label": "iTunes Radio"
+                        }, 
+                        {
+                            "url": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/redirectToBrowse", 
+                            "label": "Browse"
+                        }, 
+                        {
+                            "url": "https://itunes.apple.com/us/collection/featured-pre-orders/id1?fcId=673203643", 
+                            "label": "Featured Pre-Orders"
+                        }, 
+                        {
+                            "url": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/purchases?cc=us", 
+                            "label": "Purchased"
+                        }, 
+                        {
+                            "url": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/learnMore?about=purchases", 
+                            "label": "iTunes Match"
+                        }
+                    ], 
+                    "title": "Features"
+                }, 
+                {
+                    "links": [
+                        {
+                            "url": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/gotoiTunesSupport", 
+                            "label": "Support"
+                        }, 
+                        {
+                            "url": "https://www.apple.com/itunes/how-to/", 
+                            "target": "_blank", 
+                            "label": "iTunes Tutorials"
+                        }, 
+                        {
+                            "url": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewStaticPage?name=MovieRentals", 
+                            "label": "Rent & Buy Movies"
+                        }, 
+                        {
+                            "url": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewCustomPage?name=LearnMoreAboutTV", 
+                            "label": "Learn More About TV"
+                        }, 
+                        {
+                            "url": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewCustomPage?name=LearnMoreAboutInAppPurchases", 
+                            "label": "In-App Purchases"
+                        }, 
+                        {
+                            "url": "https://www.apple.com/support/systemstatus/", 
+                            "target": "_blank", 
+                            "label": "System Status"
+                        }
+                    ], 
+                    "title": "Help"
+                }, 
+                {
+                    "links": [
+                        {
+                            "url": "https://buy.itunes.apple.com/WebObjects/MZFinance.woa/wa/accountSummary", 
+                            "label": "Account"
+                        }, 
+                        {
+                            "url": "https://buy.itunes.apple.com/WebObjects/MZFinance.woa/wa/redeemLandingPage", 
+                            "label": "Redeem"
+                        }, 
+                        {
+                            "url": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/viewWishlist?cc=us", 
+                            "label": "My Wish List"
+                        }, 
+                        {
+                            "url": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/countrySelectorPage", 
+                            "label": "Change Country"
+                        }
+                    ], 
+                    "title": "Manage"
+                }
+            ]
+        }
+    }, 
+    "storePlatformData": {
+        "product-dv-product": {
+            "version": 1, 
+            "results": {
+                "577789325": {
+                    "uber": null, 
+                    "hasInAppPurchases": true, 
+                    "releaseDate": "2013-04-04", 
+                    "artistId": 297541127, 
+                    "userRating": {
+                        "ratingCountCurrentVersion": 179, 
+                        "valueCurrentVersion": 4.5, 
+                        "value": 4, 
+                        "ratingCount": 321
+                    }, 
+                    "artistUrl": "https://itunes.apple.com/us/artist/penguin-group-usa/id297541127?mt=8", 
+                    "itunesNotes": {
+                        "standard": "Use a gorgeous interface and delightful teaching techniques to memorize poems from literary masters like William Shakespeare, Edgar Allan Poe, and W.B. Yeats. Whether you\u2019re a student reciting verses for class or a teacher looking to garner a deeper understanding of a work, Penguin Group\u2019s wonderful app makes learning poems a fun, accessible experience."
+                    }, 
+                    "id": 577789325, 
+                    "bundleId": "com.penguin.PoetryApp", 
+                    "genres": [
+                        {
+                            "url": "https://itunes.apple.com/us/genre/id6017", 
+                            "name": "Education"
+                        }, 
+                        {
+                            "url": "https://itunes.apple.com/us/genre/id6018", 
+                            "name": "Books"
+                        }
+                    ], 
+                    "copyright": "\u00a9 2013, Penguin Group (USA)", 
+                    "supportsPassbook": false, 
+                    "description": {
+                        "standard": "Poems By Heart from Penguin Classics celebrates classic poetry and challenges you to memorize perennial favorites by master wordsmiths. Memorizing and reciting poems helps you enjoy them at a deeper level, learn them for life, impress your friends, and improve your mind\u2014and Poems By Heart makes it fun, easy, and addictive. \n\nThe app features:\n-Four free poems, including a love sonnet by Shakespeare (\u201cShall I compare thee to a summer\u2019s day\u201d) and the classic \u201cEldorado\" by Edgar Allan Poe\n-37 poems available in the Poetry Shop (plus the first part of \u201cThe Rub\u00e1iy\u00e1t of Omar Khayy\u00e1m\u201d), with new additions every month through the first half of 2014\n-Works by Walt Whitman, Christina Rossetti, W.B. Yeats, James Weldon Johnson, and eighteen other iconic poets\n-Verses of adventure, romance, horror, and more, all carefully selected and edited by the experts at Penguin Classics\n-Five difficulty stages and twenty ranks of success\n\nRack up high scores and achievements on your way to reciting over two dozen poems from heart, with recordings you can share and email to your friends. Each new poem you learn becomes an important part of you who are, and the Huffington Post describes Poems By Heart as \u201cthe best poetry app I\u2019ve seen in a while.\u201d\nPoems By Heart uses brain-training techniques to make remembering poetry easy and fun \u2013 in a fast and responsive game. The National Endowment for the Arts calls the app \u201csmart and beautifully designed, with a skillful blend of iconic poetry, memorization techniques, and great gaming.\u201d Each poem features two new and exclusive dramatic readings, and all-new original art. Kirkus calls Poems By Heart \u201ca sophisticated, wildly addictive tool for avowed poetry lovers.\u201d MacLife recommends Poems By Heart as \u201ca great tool\u201d with a \u201cterrific, animated interface.\u201d \n\nApple has featured Poems By Heart in New & Noteworthy, in the Books and Education categories, and named it one of Apple's \"App Store Best of 2013.\""
+                    }, 
+                    "softwareInfo": {
+                        "privacyPolicyUrl": null, 
+                        "isGameCenter": true, 
+                        "supportUrl": "http://www.us.penguingroup.com/static/pages/features/amplified_editions/poems_by_heart_app.html", 
+                        "hasInAppPurchases": true, 
+                        "languagesDisplayString": "English", 
+                        "seller": "Pearson PLC", 
+                        "websiteUrl": null, 
+                        "requirementsString": "Requires iOS 4.3 or later. Compatible with iPhone, iPad, and iPod touch. This app is optimized for iPhone\u00a05.", 
+                        "eulaUrl": null
+                    }, 
+                    "contentRating": {
+                        "system": "GAMES", 
+                        "advisories": [
+                            "Infrequent/Mild Mature/Suggestive Themes", 
+                            "Infrequent/Mild Profanity or Crude Humor", 
+                            "Infrequent/Mild Horror/Fear Themes", 
+                            "Infrequent/Mild Realistic Violence"
+                        ], 
+                        "value": 300, 
+                        "rank": 3, 
+                        "name": "12+"
+                    }, 
+                    "appBundleAdamIds": [], 
+                    "shortUrl": "https://appsto.re/us/n2fCI.i", 
+                    "ageBand": null, 
+                    "familyShareEnabledDate": "0001-04-23T00:00:00Z", 
+                    "deviceFamilies": [
+                        "iphone", 
+                        "ipad", 
+                        "ipod"
+                    ], 
+                    "contentRatingsBySystem": {
+                        "appsApple": {
+                            "rank": 3, 
+                            "advisories": [
+                                "Infrequent/Mild Mature/Suggestive Themes", 
+                                "Infrequent/Mild Profanity or Crude Humor", 
+                                "Infrequent/Mild Horror/Fear Themes", 
+                                "Infrequent/Mild Realistic Violence"
+                            ], 
+                            "name": "12+", 
+                            "value": 300
+                        }
+                    }, 
+                    "offers": [
+                        {
+                            "actionText": {
+                                "downloaded": "Installed", 
+                                "medium": "Free", 
+                                "short": "Free", 
+                                "downloading": "Installing", 
+                                "long": "Free App"
+                            }, 
+                            "assets": [
+                                {
+                                    "flavor": "iosSoftware", 
+                                    "size": 38147896
+                                }
+                            ], 
+                            "priceFormatted": "$0.00", 
+                            "price": 0, 
+                            "version": {
+                                "externalId": 202272633, 
+                                "display": "2.0"
+                            }, 
+                            "buyParams": "productType=C&price=0&salableAdamId=577789325&pricingParameters=STDQ&appExtVrsId=202272633", 
+                            "type": "get"
+                        }
+                    ], 
+                    "editorialBadgeInfo": null, 
+                    "artwork": [
+                        {
+                            "url": "http://a1.mzstatic.com/us/r30/Purple/v4/05/2f/78/052f78aa-ab22-df1f-1d09-47f6095f1f98/icon1024x1024.jpeg", 
+                            "width": 1024, 
+                            "height": 1024
+                        }, 
+                        {
+                            "url": "http://a2.mzstatic.com/us/r30/Purple/v4/05/2f/78/052f78aa-ab22-df1f-1d09-47f6095f1f98/icon440x440.jpeg", 
+                            "width": 440, 
+                            "height": 440
+                        }, 
+                        {
+                            "url": "http://a2.mzstatic.com/us/r30/Purple/v4/05/2f/78/052f78aa-ab22-df1f-1d09-47f6095f1f98/icon220x220.png", 
+                            "width": 220, 
+                            "height": 220
+                        }, 
+                        {
+                            "url": "http://a1.mzstatic.com/us/r30/Purple/v4/05/2f/78/052f78aa-ab22-df1f-1d09-47f6095f1f98/icon256x256.jpeg", 
+                            "width": 256, 
+                            "height": 256
+                        }, 
+                        {
+                            "url": "http://a1.mzstatic.com/us/r30/Purple/v4/05/2f/78/052f78aa-ab22-df1f-1d09-47f6095f1f98/icon512x512.jpeg", 
+                            "width": 512, 
+                            "height": 512
+                        }
+                    ], 
+                    "requiredCapabilities": "armv7 ", 
+                    "name": "Poems By Heart from Penguin Classics", 
+                    "kind": "iosSoftware", 
+                    "tellAFriendMessageContentsUrl": "https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendEmailBody?cc=us&displayable-kind=11&id=577789325&name=s&type=14", 
+                    "nameRaw": "Poems By Heart from Penguin Classics", 
+                    "url": "https://itunes.apple.com/us/app/poems-by-heart-from-penguin/id577789325?mt=8", 
+                    "genreNames": [
+                        "Education", 
+                        "Books"
+                    ], 
+                    "artistName": "Penguin Group USA", 
+                    "screenshotsByType": {
+                        "ipad": [
+                            [
+                                {
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple4/v4/d5/eb/0b/d5eb0b19-0f25-4aba-27a7-3e5079f6723d/screen600x600.jpeg", 
+                                    "width": 600, 
+                                    "height": 438
+                                }, 
+                                {
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple4/v4/d5/eb/0b/d5eb0b19-0f25-4aba-27a7-3e5079f6723d/screen261x261-50.jpeg", 
+                                    "width": 261, 
+                                    "height": 191
+                                }, 
+                                {
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple4/v4/d5/eb/0b/d5eb0b19-0f25-4aba-27a7-3e5079f6723d/screen460x460.jpeg", 
+                                    "width": 460, 
+                                    "height": 336
+                                }, 
+                                {
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple4/v4/d5/eb/0b/d5eb0b19-0f25-4aba-27a7-3e5079f6723d/screen920x920.jpeg", 
+                                    "width": 920, 
+                                    "height": 672
+                                }, 
+                                {
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple4/v4/d5/eb/0b/d5eb0b19-0f25-4aba-27a7-3e5079f6723d/screen768x768.jpeg", 
+                                    "width": 768, 
+                                    "height": 561
+                                }, 
+                                {
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple4/v4/d5/eb/0b/d5eb0b19-0f25-4aba-27a7-3e5079f6723d/screen420x420.jpeg", 
+                                    "width": 420, 
+                                    "height": 307
+                                }
+                            ], 
+                            [
+                                {
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple6/v4/21/7f/38/217f3879-ffa6-f2ce-f1d0-637c9732f6b2/screen600x600.jpeg", 
+                                    "width": 600, 
+                                    "height": 438
+                                }, 
+                                {
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple6/v4/21/7f/38/217f3879-ffa6-f2ce-f1d0-637c9732f6b2/screen261x261-50.jpeg", 
+                                    "width": 261, 
+                                    "height": 191
+                                }, 
+                                {
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple6/v4/21/7f/38/217f3879-ffa6-f2ce-f1d0-637c9732f6b2/screen460x460.jpeg", 
+                                    "width": 460, 
+                                    "height": 336
+                                }, 
+                                {
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple6/v4/21/7f/38/217f3879-ffa6-f2ce-f1d0-637c9732f6b2/screen920x920.jpeg", 
+                                    "width": 920, 
+                                    "height": 672
+                                }, 
+                                {
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple6/v4/21/7f/38/217f3879-ffa6-f2ce-f1d0-637c9732f6b2/screen768x768.jpeg", 
+                                    "width": 768, 
+                                    "height": 561
+                                }, 
+                                {
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple6/v4/21/7f/38/217f3879-ffa6-f2ce-f1d0-637c9732f6b2/screen420x420.jpeg", 
+                                    "width": 420, 
+                                    "height": 307
+                                }
+                            ], 
+                            [
+                                {
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple/v4/b7/1f/d5/b71fd5cc-8aa5-41e3-27e9-fc8e9dcb1723/screen600x600.jpeg", 
+                                    "width": 600, 
+                                    "height": 438
+                                }, 
+                                {
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple/v4/b7/1f/d5/b71fd5cc-8aa5-41e3-27e9-fc8e9dcb1723/screen261x261-50.jpeg", 
+                                    "width": 261, 
+                                    "height": 191
+                                }, 
+                                {
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple/v4/b7/1f/d5/b71fd5cc-8aa5-41e3-27e9-fc8e9dcb1723/screen460x460.jpeg", 
+                                    "width": 460, 
+                                    "height": 336
+                                }, 
+                                {
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple/v4/b7/1f/d5/b71fd5cc-8aa5-41e3-27e9-fc8e9dcb1723/screen920x920.jpeg", 
+                                    "width": 920, 
+                                    "height": 672
+                                }, 
+                                {
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple/v4/b7/1f/d5/b71fd5cc-8aa5-41e3-27e9-fc8e9dcb1723/screen768x768.jpeg", 
+                                    "width": 768, 
+                                    "height": 561
+                                }, 
+                                {
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple/v4/b7/1f/d5/b71fd5cc-8aa5-41e3-27e9-fc8e9dcb1723/screen420x420.jpeg", 
+                                    "width": 420, 
+                                    "height": 307
+                                }
+                            ], 
+                            [
+                                {
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple4/v4/7e/50/cc/7e50ccac-5af7-f4dd-b932-517e89230bba/screen600x600.jpeg", 
+                                    "width": 600, 
+                                    "height": 438
+                                }, 
+                                {
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple4/v4/7e/50/cc/7e50ccac-5af7-f4dd-b932-517e89230bba/screen261x261-50.jpeg", 
+                                    "width": 261, 
+                                    "height": 191
+                                }, 
+                                {
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple4/v4/7e/50/cc/7e50ccac-5af7-f4dd-b932-517e89230bba/screen460x460.jpeg", 
+                                    "width": 460, 
+                                    "height": 336
+                                }, 
+                                {
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple4/v4/7e/50/cc/7e50ccac-5af7-f4dd-b932-517e89230bba/screen920x920.jpeg", 
+                                    "width": 920, 
+                                    "height": 672
+                                }, 
+                                {
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple4/v4/7e/50/cc/7e50ccac-5af7-f4dd-b932-517e89230bba/screen768x768.jpeg", 
+                                    "width": 768, 
+                                    "height": 561
+                                }, 
+                                {
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple4/v4/7e/50/cc/7e50ccac-5af7-f4dd-b932-517e89230bba/screen420x420.jpeg", 
+                                    "width": 420, 
+                                    "height": 307
+                                }
+                            ], 
+                            [
+                                {
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple4/v4/6e/09/de/6e09de0b-47ed-305f-90c3-803139632874/screen600x600.jpeg", 
+                                    "width": 600, 
+                                    "height": 438
+                                }, 
+                                {
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple4/v4/6e/09/de/6e09de0b-47ed-305f-90c3-803139632874/screen261x261-50.jpeg", 
+                                    "width": 261, 
+                                    "height": 191
+                                }, 
+                                {
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple4/v4/6e/09/de/6e09de0b-47ed-305f-90c3-803139632874/screen460x460.jpeg", 
+                                    "width": 460, 
+                                    "height": 336
+                                }, 
+                                {
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple4/v4/6e/09/de/6e09de0b-47ed-305f-90c3-803139632874/screen920x920.jpeg", 
+                                    "width": 920, 
+                                    "height": 672
+                                }, 
+                                {
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple4/v4/6e/09/de/6e09de0b-47ed-305f-90c3-803139632874/screen768x768.jpeg", 
+                                    "width": 768, 
+                                    "height": 561
+                                }, 
+                                {
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple4/v4/6e/09/de/6e09de0b-47ed-305f-90c3-803139632874/screen420x420.jpeg", 
+                                    "width": 420, 
+                                    "height": 307
+                                }
+                            ]
+                        ], 
+                        "iphone5": [
+                            [
+                                {
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple6/v4/bf/17/a6/bf17a635-cac4-b1f9-4e3b-156cb18f8542/screen920x920.jpeg", 
+                                    "width": 537, 
+                                    "height": 920
+                                }, 
+                                {
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple6/v4/bf/17/a6/bf17a635-cac4-b1f9-4e3b-156cb18f8542/screen320x320.jpeg", 
+                                    "width": 187, 
+                                    "height": 320
+                                }, 
+                                {
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple6/v4/bf/17/a6/bf17a635-cac4-b1f9-4e3b-156cb18f8542/screen460x460.jpeg", 
+                                    "width": 269, 
+                                    "height": 460
+                                }, 
+                                {
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple6/v4/bf/17/a6/bf17a635-cac4-b1f9-4e3b-156cb18f8542/screen568x568.jpeg", 
+                                    "width": 332, 
+                                    "height": 568
+                                }, 
+                                {
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple6/v4/bf/17/a6/bf17a635-cac4-b1f9-4e3b-156cb18f8542/screen348x348.jpeg", 
+                                    "width": 203, 
+                                    "height": 348
+                                }, 
+                                {
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple6/v4/bf/17/a6/bf17a635-cac4-b1f9-4e3b-156cb18f8542/screen696x696.jpeg", 
+                                    "width": 406, 
+                                    "height": 696
+                                }
+                            ], 
+                            [
+                                {
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple6/v4/f4/c5/08/f4c508a6-10a3-e3da-0dd3-39c693fd7791/screen920x920.jpeg", 
+                                    "width": 537, 
+                                    "height": 920
+                                }, 
+                                {
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple6/v4/f4/c5/08/f4c508a6-10a3-e3da-0dd3-39c693fd7791/screen320x320.jpeg", 
+                                    "width": 187, 
+                                    "height": 320
+                                }, 
+                                {
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple6/v4/f4/c5/08/f4c508a6-10a3-e3da-0dd3-39c693fd7791/screen460x460.jpeg", 
+                                    "width": 269, 
+                                    "height": 460
+                                }, 
+                                {
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple6/v4/f4/c5/08/f4c508a6-10a3-e3da-0dd3-39c693fd7791/screen568x568.jpeg", 
+                                    "width": 332, 
+                                    "height": 568
+                                }, 
+                                {
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple6/v4/f4/c5/08/f4c508a6-10a3-e3da-0dd3-39c693fd7791/screen348x348.jpeg", 
+                                    "width": 203, 
+                                    "height": 348
+                                }, 
+                                {
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple6/v4/f4/c5/08/f4c508a6-10a3-e3da-0dd3-39c693fd7791/screen696x696.jpeg", 
+                                    "width": 406, 
+                                    "height": 696
+                                }
+                            ], 
+                            [
+                                {
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple6/v4/cc/55/79/cc557951-3830-afe7-7f79-96094f3c3bc9/screen920x920.jpeg", 
+                                    "width": 537, 
+                                    "height": 920
+                                }, 
+                                {
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple6/v4/cc/55/79/cc557951-3830-afe7-7f79-96094f3c3bc9/screen320x320.jpeg", 
+                                    "width": 187, 
+                                    "height": 320
+                                }, 
+                                {
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple6/v4/cc/55/79/cc557951-3830-afe7-7f79-96094f3c3bc9/screen460x460.jpeg", 
+                                    "width": 269, 
+                                    "height": 460
+                                }, 
+                                {
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple6/v4/cc/55/79/cc557951-3830-afe7-7f79-96094f3c3bc9/screen568x568.jpeg", 
+                                    "width": 332, 
+                                    "height": 568
+                                }, 
+                                {
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple6/v4/cc/55/79/cc557951-3830-afe7-7f79-96094f3c3bc9/screen348x348.jpeg", 
+                                    "width": 203, 
+                                    "height": 348
+                                }, 
+                                {
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple6/v4/cc/55/79/cc557951-3830-afe7-7f79-96094f3c3bc9/screen696x696.jpeg", 
+                                    "width": 406, 
+                                    "height": 696
+                                }
+                            ], 
+                            [
+                                {
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple/v4/64/da/89/64da8948-4ac5-9828-1a00-5ff4046cd0d0/screen920x920.jpeg", 
+                                    "width": 537, 
+                                    "height": 920
+                                }, 
+                                {
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple/v4/64/da/89/64da8948-4ac5-9828-1a00-5ff4046cd0d0/screen320x320.jpeg", 
+                                    "width": 187, 
+                                    "height": 320
+                                }, 
+                                {
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple/v4/64/da/89/64da8948-4ac5-9828-1a00-5ff4046cd0d0/screen460x460.jpeg", 
+                                    "width": 269, 
+                                    "height": 460
+                                }, 
+                                {
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple/v4/64/da/89/64da8948-4ac5-9828-1a00-5ff4046cd0d0/screen568x568.jpeg", 
+                                    "width": 332, 
+                                    "height": 568
+                                }, 
+                                {
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple/v4/64/da/89/64da8948-4ac5-9828-1a00-5ff4046cd0d0/screen348x348.jpeg", 
+                                    "width": 203, 
+                                    "height": 348
+                                }, 
+                                {
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple/v4/64/da/89/64da8948-4ac5-9828-1a00-5ff4046cd0d0/screen696x696.jpeg", 
+                                    "width": 406, 
+                                    "height": 696
+                                }
+                            ], 
+                            [
+                                {
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple/v4/d5/09/0f/d5090fe9-d5cc-3dfa-3012-ddb7b255f9ad/screen920x920.jpeg", 
+                                    "width": 537, 
+                                    "height": 920
+                                }, 
+                                {
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple/v4/d5/09/0f/d5090fe9-d5cc-3dfa-3012-ddb7b255f9ad/screen320x320.jpeg", 
+                                    "width": 187, 
+                                    "height": 320
+                                }, 
+                                {
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple/v4/d5/09/0f/d5090fe9-d5cc-3dfa-3012-ddb7b255f9ad/screen460x460.jpeg", 
+                                    "width": 269, 
+                                    "height": 460
+                                }, 
+                                {
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple/v4/d5/09/0f/d5090fe9-d5cc-3dfa-3012-ddb7b255f9ad/screen568x568.jpeg", 
+                                    "width": 332, 
+                                    "height": 568
+                                }, 
+                                {
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple/v4/d5/09/0f/d5090fe9-d5cc-3dfa-3012-ddb7b255f9ad/screen348x348.jpeg", 
+                                    "width": 203, 
+                                    "height": 348
+                                }, 
+                                {
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple/v4/d5/09/0f/d5090fe9-d5cc-3dfa-3012-ddb7b255f9ad/screen696x696.jpeg", 
+                                    "width": 406, 
+                                    "height": 696
+                                }
+                            ]
+                        ], 
+                        "iphone": [
+                            [
+                                {
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple4/v4/c6/55/a9/c655a9ee-d1a0-6de5-b1cf-f08bc8adb8ec/screen800x800.jpeg", 
+                                    "width": 557, 
+                                    "height": 800
+                                }, 
+                                {
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple4/v4/c6/55/a9/c655a9ee-d1a0-6de5-b1cf-f08bc8adb8ec/screen263x263.jpeg", 
+                                    "width": 183, 
+                                    "height": 263
+                                }, 
+                                {
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple4/v4/c6/55/a9/c655a9ee-d1a0-6de5-b1cf-f08bc8adb8ec/screen320x480.jpeg", 
+                                    "width": 320, 
+                                    "height": 460
+                                }, 
+                                {
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple4/v4/c6/55/a9/c655a9ee-d1a0-6de5-b1cf-f08bc8adb8ec/screen400x400.jpeg", 
+                                    "width": 278, 
+                                    "height": 400
+                                }, 
+                                {
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple4/v4/c6/55/a9/c655a9ee-d1a0-6de5-b1cf-f08bc8adb8ec/screen640x960.jpeg", 
+                                    "width": 640, 
+                                    "height": 920
+                                }, 
+                                {
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple4/v4/c6/55/a9/c655a9ee-d1a0-6de5-b1cf-f08bc8adb8ec/screen526x526.jpeg", 
+                                    "width": 366, 
+                                    "height": 526
+                                }
+                            ], 
+                            [
+                                {
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple4/v4/b5/4f/5b/b54f5be1-683d-f866-a295-8da014dab976/screen800x800.jpeg", 
+                                    "width": 557, 
+                                    "height": 800
+                                }, 
+                                {
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple4/v4/b5/4f/5b/b54f5be1-683d-f866-a295-8da014dab976/screen263x263.jpeg", 
+                                    "width": 183, 
+                                    "height": 263
+                                }, 
+                                {
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple4/v4/b5/4f/5b/b54f5be1-683d-f866-a295-8da014dab976/screen320x480.jpeg", 
+                                    "width": 320, 
+                                    "height": 460
+                                }, 
+                                {
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple4/v4/b5/4f/5b/b54f5be1-683d-f866-a295-8da014dab976/screen400x400.jpeg", 
+                                    "width": 278, 
+                                    "height": 400
+                                }, 
+                                {
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple4/v4/b5/4f/5b/b54f5be1-683d-f866-a295-8da014dab976/screen640x960.jpeg", 
+                                    "width": 640, 
+                                    "height": 920
+                                }, 
+                                {
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple4/v4/b5/4f/5b/b54f5be1-683d-f866-a295-8da014dab976/screen526x526.jpeg", 
+                                    "width": 366, 
+                                    "height": 526
+                                }
+                            ], 
+                            [
+                                {
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple/v4/dc/96/70/dc967006-b217-26fc-292d-7c92d40332d2/screen800x800.jpeg", 
+                                    "width": 557, 
+                                    "height": 800
+                                }, 
+                                {
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple/v4/dc/96/70/dc967006-b217-26fc-292d-7c92d40332d2/screen263x263.jpeg", 
+                                    "width": 183, 
+                                    "height": 263
+                                }, 
+                                {
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple/v4/dc/96/70/dc967006-b217-26fc-292d-7c92d40332d2/screen320x480.jpeg", 
+                                    "width": 320, 
+                                    "height": 460
+                                }, 
+                                {
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple/v4/dc/96/70/dc967006-b217-26fc-292d-7c92d40332d2/screen400x400.jpeg", 
+                                    "width": 278, 
+                                    "height": 400
+                                }, 
+                                {
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple/v4/dc/96/70/dc967006-b217-26fc-292d-7c92d40332d2/screen640x960.jpeg", 
+                                    "width": 640, 
+                                    "height": 920
+                                }, 
+                                {
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple/v4/dc/96/70/dc967006-b217-26fc-292d-7c92d40332d2/screen526x526.jpeg", 
+                                    "width": 366, 
+                                    "height": 526
+                                }
+                            ], 
+                            [
+                                {
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple4/v4/98/53/77/9853775e-3d1a-132b-9bdd-90e1d00a53cc/screen800x800.jpeg", 
+                                    "width": 557, 
+                                    "height": 800
+                                }, 
+                                {
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple4/v4/98/53/77/9853775e-3d1a-132b-9bdd-90e1d00a53cc/screen263x263.jpeg", 
+                                    "width": 183, 
+                                    "height": 263
+                                }, 
+                                {
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple4/v4/98/53/77/9853775e-3d1a-132b-9bdd-90e1d00a53cc/screen320x480.jpeg", 
+                                    "width": 320, 
+                                    "height": 460
+                                }, 
+                                {
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple4/v4/98/53/77/9853775e-3d1a-132b-9bdd-90e1d00a53cc/screen400x400.jpeg", 
+                                    "width": 278, 
+                                    "height": 400
+                                }, 
+                                {
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple4/v4/98/53/77/9853775e-3d1a-132b-9bdd-90e1d00a53cc/screen640x960.jpeg", 
+                                    "width": 640, 
+                                    "height": 920
+                                }, 
+                                {
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple4/v4/98/53/77/9853775e-3d1a-132b-9bdd-90e1d00a53cc/screen526x526.jpeg", 
+                                    "width": 366, 
+                                    "height": 526
+                                }
+                            ], 
+                            [
+                                {
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple6/v4/4f/2a/f7/4f2af7e1-6bb2-5743-6a4e-999b7353c7cb/screen800x800.jpeg", 
+                                    "width": 557, 
+                                    "height": 800
+                                }, 
+                                {
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple6/v4/4f/2a/f7/4f2af7e1-6bb2-5743-6a4e-999b7353c7cb/screen263x263.jpeg", 
+                                    "width": 183, 
+                                    "height": 263
+                                }, 
+                                {
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple6/v4/4f/2a/f7/4f2af7e1-6bb2-5743-6a4e-999b7353c7cb/screen320x480.jpeg", 
+                                    "width": 320, 
+                                    "height": 460
+                                }, 
+                                {
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple6/v4/4f/2a/f7/4f2af7e1-6bb2-5743-6a4e-999b7353c7cb/screen400x400.jpeg", 
+                                    "width": 278, 
+                                    "height": 400
+                                }, 
+                                {
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple6/v4/4f/2a/f7/4f2af7e1-6bb2-5743-6a4e-999b7353c7cb/screen640x960.jpeg", 
+                                    "width": 640, 
+                                    "height": 920
+                                }, 
+                                {
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple6/v4/4f/2a/f7/4f2af7e1-6bb2-5743-6a4e-999b7353c7cb/screen526x526.jpeg", 
+                                    "width": 366, 
+                                    "height": 526
+                                }
+                            ]
+                        ]
+                    }, 
+                    "videoPreviewByType": {}, 
+                    "newsstandArtwork": null, 
+                    "isFirstParty": false
+                }
+            }, 
+            "isAuthenticated": false
+        }
+    }, 
+    "properties": {
+        "ITSResourceRevNum": "1583", 
+        "isCobaltJavascriptRedirectEnabled": true, 
+        "isModern": false, 
+        "ITSLogger.ServerReportingApp": "MZUserXP", 
+        "MZFeatureEnabler.isSoftwareGiftingEnabledForStoreFront": true, 
+        "ITSServerEnvironment": "prod", 
+        "SF6.Personalization.isCMAEnabled": true, 
+        "SF6.Personalization.isCMSEnabled": true, 
+        "cobaltBundleId": "com.apple.itunesu", 
+        "ITSLogger.SenderName": "ITSClient", 
+        "ITSServerInstance": "2125063", 
+        "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
+        "isDesktopBuyingGiftCertificateEnabled": true, 
+        "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
+        "isCobaltEnabled": true, 
+        "resourceUrlPrefix": "https://s.mzstatic.com", 
+        "SF6.Metrics.ReportingSuite": "appleitmswww,appleitmsus", 
+        "SF.StorePlatform.PersonalizationEnabledViaStorePlatform": false, 
+        "clientStatsLoadTimeGroup": "4006", 
+        "DI6.isTypEnabled": true, 
+        "MetricsEventPage.extRefUrlTTL": 30, 
+        "DynaLoader.allowDynaLoading": true, 
+        "MZFeatureEnabler.isEcommerceInfoEnabled": false, 
+        "ITSLogger.RecordStatsAction": "recordStats", 
+        "itsLoggerQueueProcessingInterval": 10000, 
+        "MZFeatureEnabler.isHDMovieGiftingEnabledForStoreFront": true, 
+        "MZStore.shouldAttemptToEvaluateXpathSecondTime": true, 
+        "ITSLogger.ServerReportingDomain": "metrics.mzstatic.com", 
+        "isDesktopAllowanceCreationEnabled": true, 
+        "personalizedButtonsEnabled": true, 
+        "vendLastSupportedVersionMacOs": true, 
+        "vendLastSupportedVersionIfAvailable": true, 
+        "SF.StorePlatform.PersonalizationEnabledViaStorePlatformForVips": [], 
+        "metrics": {
+            "metricsUrl": "https://xp.apple.com/report", 
+            "metricsBase": {
+                "language": "1", 
+                "platformId": "28", 
+                "storeFront": "143441", 
+                "storeFrontHeader": "143441-1,28", 
+                "environmentDataCenter": "ST11", 
+                "platformName": "iTunes12"
+            }, 
+            "postFrequency": 60000, 
+            "blacklistedFields": [
+                "capacitySystem", 
+                "capacitySystemAvailable", 
+                "capacityDisk", 
+                "capacityData", 
+                "capacityDataAvailable"
+            ], 
+            "compoundSeparator": "_", 
+            "tokenSeparator": "|", 
+            "fieldsMap": {
+                "single": {
+                    "targetId": [
+                        "id", 
+                        "adamId", 
+                        "contentId", 
+                        "type", 
+                        "fcId", 
+                        "station-hash"
+                    ]
+                }, 
+                "multi": {}, 
+                "cookies": [
+                    "itcCt"
+                ], 
+                "custom": {
+                    "impressions": [
+                        "id", 
+                        "adamId", 
+                        "station-hash"
+                    ], 
+                    "location": [
+                        "id", 
+                        "adamId", 
+                        "dataSetId", 
+                        "name", 
+                        "fcKind", 
+                        "kindIds", 
+                        "type", 
+                        "station-hash", 
+                        "core-seed-name"
+                    ]
+                }
+            }
+        }, 
+        "MZHtmlResourcesUtil.allowDeferJsLoad": true, 
+        "isCobaltUpsellPageEnabled": true, 
+        "cobaltLearnMore": "https://itunes.apple.com/us/learn-more?about=iTunesUUpgradePage&type=2", 
+        "isDesktopGiftingEnabled": true, 
+        "isRadioHistoryEnabled": true, 
+        "ITSLogger.ServerReportingProtocol": "https", 
+        "SF.StorePlatform.PersonalizationEnabled": true, 
+        "SF6.StorePlatform.whitelistParams": [
+            "caller", 
+            "dsid", 
+            "id", 
+            "p"
+        ], 
+        "SFJ.isNFAEnabledInStorefront": true, 
+        "MZFeatureEnabler.isMovieGiftingEnabledForStoreFront": true, 
+        "resourcesPreloaded": "true", 
+        "MZStore.shouldCacheElementTypeProtoObjects": true, 
+        "ITSLogger.mirrorToServerByDefaultOnErrors": true, 
+        "isSiriTagHistoryEnabled": true, 
+        "isBookGiftingEnabled": true
+    }, 
+    "constants": {
+        "languageCode": "en", 
+        "DZC": {
+            "url": "https://dzc-metrics.mzstatic.com/WebObjects/DZC.woa/wa/report"
+        }, 
+        "addToWishListBaseUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/addToWishlist", 
+        "sortBaseUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/sort", 
+        "linkAccountSrvUrl": "https://buy.itunes.apple.com/WebObjects/MZFinance.woa/wa/linkAccountSrv", 
+        "iTunesLPLearnMoreUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewStaticPage?name=LearnMore_iTunesLP", 
+        "AddToWishlistResult": {
+            "Success": {
+                "id": 0
+            }, 
+            "ListFull": {
+                "id": 3
+            }, 
+            "ItemIsFree": {
+                "id": 6
+            }, 
+            "SomeContentAlreadyOwnedButUnfulfilled": {
+                "id": 5
+            }, 
+            "SomeContentAlreadyOwned": {
+                "id": 4
+            }, 
+            "Failure": {
+                "id": 2
+            }, 
+            "SomeContentAlreadyInWishlist": {
+                "id": 1
+            }
+        }, 
+        "appRatingsLearnMoreUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/appRatings?cc=us", 
+        "getEmailUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/generateEmail?cc=us", 
+        "DT6.GetUserFullNameUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/getUserFullName", 
+        "tellAFriendBaseUrl": "https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendSubmit", 
+        "giftPageData": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/giftPageData", 
+        "countryCode": "usa", 
+        "GlobalLists": {
+            "removeFromWishlistUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/removeFromWishlist", 
+            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=1583", 
+            "updateRadioHistoryUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/updateRadioHistory", 
+            "popover": {
+                "width": "350", 
+                "maxWishlistItemCount": 20, 
+                "height": "70%"
+            }, 
+            "viewWishlistUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/viewWishlist?cc=us", 
+            "updateSiriTagHistoryUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/updateSiriTagHistory", 
+            "updatePreviewHistoryUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/updatePreviewHistory"
+        }, 
+        "buyButtonMetaDataBaseUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/buyButtonMetaData", 
+        "MZMediaType": {
+            "Audiobooks": {
+                "id": 3, 
+                "name": "Audiobooks"
+            }, 
+            "MacSoftware": {
+                "id": 12, 
+                "name": "DesktopApps"
+            }, 
+            "TVShows": {
+                "id": 4, 
+                "name": "TVShows"
+            }, 
+            "Ringtones": {
+                "id": 9, 
+                "name": "Ringtones"
+            }, 
+            "Podcasts": {
+                "id": 2, 
+                "name": "Podcasts"
+            }, 
+            "iTunesU": {
+                "id": 10, 
+                "name": "iTunesU"
+            }, 
+            "Movies": {
+                "id": 6, 
+                "name": "Movies"
+            }, 
+            "Music": {
+                "id": 1, 
+                "name": "Music"
+            }, 
+            "MusicVideos": {
+                "id": 5, 
+                "name": "MusicVideos"
+            }, 
+            "ClassicSoftware": {
+                "id": 7, 
+                "name": "iPodGames"
+            }, 
+            "EBooks": {
+                "id": 11, 
+                "name": "EBooks"
+            }, 
+            "MobileSoftware": {
+                "id": 8, 
+                "name": "MobileSoftwareApplications"
+            }
+        }, 
+        "getScheduledGifts": "https://buy.itunes.apple.com/WebObjects/MZFinance.woa/wa/getScheduledGiftsSrv", 
+        "IXDisplayableKind": {
+            "Album": {
+                "mtId": "1", 
+                "id": 2, 
+                "name": "album", 
+                "cssClasses": [
+                    "album", 
+                    "music"
+                ]
+            }, 
+            "MacSoftware": {
+                "mtId": "12", 
+                "id": 30, 
+                "name": "desktopApp", 
+                "cssClasses": [
+                    "application", 
+                    "mac-application"
+                ]
+            }, 
+            "RingtoneAlbum": {
+                "mtId": "9", 
+                "id": 22, 
+                "name": "ringtoneAlbum", 
+                "cssClasses": []
+            }, 
+            "SocialArtist": {
+                "id": 28, 
+                "name": "socialArtist", 
+                "cssClasses": []
+            }, 
+            "Movie": {
+                "mtId": "6", 
+                "id": 9, 
+                "name": "movie", 
+                "cssClasses": [
+                    "movie", 
+                    "video"
+                ]
+            }, 
+            "MovieBundle": {
+                "mtId": "6", 
+                "id": 24, 
+                "name": "movieBundle", 
+                "cssClasses": [
+                    "bundle", 
+                    "movie", 
+                    "video"
+                ]
+            }, 
+            "Ringtone": {
+                "mtId": "9", 
+                "id": 21, 
+                "name": "ringtone", 
+                "cssClasses": []
+            }, 
+            "Mix": {
+                "mtId": "1", 
+                "id": 14, 
+                "name": "mix", 
+                "cssClasses": [
+                    "mix", 
+                    "music"
+                ]
+            }, 
+            "Book": {
+                "mtId": "3", 
+                "id": 3, 
+                "name": "book", 
+                "cssClasses": [
+                    "audiobook"
+                ]
+            }, 
+            "SocialPerson": {
+                "id": 27, 
+                "name": "socialPerson", 
+                "cssClasses": []
+            }, 
+            "ApplePubTextbook": {
+                "mtId": "13", 
+                "id": 37, 
+                "name": "ibookTextbook", 
+                "cssClasses": [
+                    "ebook"
+                ]
+            }, 
+            "TVEpisode": {
+                "mtId": "4", 
+                "id": 6, 
+                "name": "tvEpisode", 
+                "cssClasses": [
+                    "tv-episode", 
+                    "tv", 
+                    "video"
+                ]
+            }, 
+            "MobileSoftware": {
+                "mtId": "8", 
+                "id": 11, 
+                "name": "iosSoftware", 
+                "cssClasses": [
+                    "application"
+                ]
+            }, 
+            "TVSeason": {
+                "mtId": "4", 
+                "id": 7, 
+                "name": "tvSeason", 
+                "cssClasses": [
+                    "tv-season", 
+                    "tv", 
+                    "video"
+                ]
+            }, 
+            "Song": {
+                "mtId": "1", 
+                "id": 1, 
+                "name": "song", 
+                "cssClasses": [
+                    "song", 
+                    "music"
+                ]
+            }, 
+            "Booklet": {
+                "mtId": "1", 
+                "id": 13, 
+                "name": "booklet", 
+                "cssClasses": [
+                    "booklet", 
+                    "music"
+                ]
+            }, 
+            "ToneAlbum": {
+                "mtId": "9", 
+                "id": 32, 
+                "name": "toneAlbum", 
+                "cssClasses": []
+            }, 
+            "SoftwareAddOn": {
+                "mtId": "8", 
+                "id": 16, 
+                "name": "softwareAddOn", 
+                "cssClasses": [
+                    "software-add-on", 
+                    "application"
+                ]
+            }, 
+            "Podcast": {
+                "mtId": "2", 
+                "id": 4, 
+                "name": "podcast", 
+                "cssClasses": [
+                    "podcast"
+                ]
+            }, 
+            "MetaEBook": {
+                "mtId": "13", 
+                "id": 35, 
+                "name": "metaEbook", 
+                "cssClasses": [
+                    "ebook"
+                ]
+            }, 
+            "EBook": {
+                "mtId": "11", 
+                "id": 25, 
+                "name": "epubBook", 
+                "cssClasses": [
+                    "ebook"
+                ]
+            }, 
+            "Artist": {
+                "id": 20, 
+                "name": "artist", 
+                "cssClasses": []
+            }, 
+            "ApplePubEBook": {
+                "mtId": "11", 
+                "id": 36, 
+                "name": "ibook", 
+                "cssClasses": [
+                    "ebook"
+                ]
+            }, 
+            "TheyMix": {
+                "id": 33, 
+                "name": "thirdPartyMix", 
+                "cssClasses": []
+            }, 
+            "iTunesPass": {
+                "mtId": "1", 
+                "id": 12, 
+                "name": "itunesPass", 
+                "cssClasses": [
+                    "itunes-pass", 
+                    "album", 
+                    "music"
+                ]
+            }, 
+            "ShortFilm": {
+                "mtId": "6", 
+                "id": 8, 
+                "name": "shortFilm", 
+                "cssClasses": [
+                    "short-film", 
+                    "movie", 
+                    "video"
+                ]
+            }, 
+            "ClassicSoftwarePackage": {
+                "mtId": "7", 
+                "id": 18, 
+                "name": "gamePackage", 
+                "cssClasses": [
+                    "ipod-game"
+                ]
+            }, 
+            "Tone": {
+                "mtId": "9", 
+                "id": 31, 
+                "name": "tone", 
+                "cssClasses": []
+            }, 
+            "Concert": {
+                "mtId": "1", 
+                "id": 26, 
+                "name": "concert", 
+                "cssClasses": []
+            }, 
+            "MusicVideo": {
+                "mtId": "5", 
+                "id": 5, 
+                "name": "musicVideo", 
+                "cssClasses": [
+                    "music-video", 
+                    "music", 
+                    "video"
+                ]
+            }, 
+            "Course": {
+                "mtId": "10", 
+                "id": 34, 
+                "name": "course", 
+                "cssClasses": [
+                    "course", 
+                    "itunes-u"
+                ]
+            }, 
+            "WeMix": {
+                "mtId": "1", 
+                "id": 19, 
+                "name": "itunesMix", 
+                "cssClasses": [
+                    "wemix", 
+                    "music"
+                ]
+            }, 
+            "ClassicSoftware": {
+                "mtId": "7", 
+                "id": 10, 
+                "name": "ipodGame", 
+                "cssClasses": [
+                    "ipod-game"
+                ]
+            }, 
+            "PodcastEpisode": {
+                "mtId": "2", 
+                "id": 15, 
+                "name": "podcastEpisode", 
+                "cssClasses": [
+                    "podcast-episode"
+                ]
+            }
+        }, 
+        "twitterShareUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/twitterShare?cc=us", 
+        "giftBaseUrl": "https://buy.itunes.apple.com/WebObjects/MZFinance.woa/wa/giftItem", 
+        "SFCustomComponentCountryCode": "usa", 
+        "removeFromWishlistUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/removeFromWishlist", 
+        "its.sf.StorePlatform.personalizationQueueTime": null, 
+        "SFSortOrder": {
+            "CmcRecommended": {
+                "id": 10
+            }, 
+            "DateAdded": {
+                "id": 15
+            }, 
+            "Name": {
+                "id": 0
+            }, 
+            "PurchaseDate": {
+                "id": 4
+            }, 
+            "Price": {
+                "id": 7
+            }, 
+            "Popularity": {
+                "id": 3
+            }, 
+            "RecentBestSellers": {
+                "id": 18
+            }, 
+            "TopRated": {
+                "id": 5
+            }, 
+            "MostRecent": {
+                "id": 16
+            }, 
+            "ReleaseDate": {
+                "id": 2
+            }, 
+            "AllTimeBestSellers": {
+                "id": 14
+            }, 
+            "PlaylistName": {
+                "id": 9
+            }, 
+            "ExpirationDate": {
+                "id": 6
+            }, 
+            "ArtistName": {
+                "id": 8
+            }, 
+            "Duration": {
+                "id": 11
+            }, 
+            "TrackNumber": {
+                "id": 13
+            }, 
+            "DiscNumber": {
+                "id": 12
+            }, 
+            "Featured": {
+                "id": 1
+            }, 
+            "SeriesOrder": {
+                "id": 17
+            }
+        }, 
+        "parentalAdvisoryUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/parentalAdvisory?cc=us", 
+        "its.sf.StorePlatform.disablePersonalizationQueue": false, 
+        "iTunesExtrasLearnMoreUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewStaticPage?name=LearnMore_iTunesExtras", 
+        "SFEntityType": {
+            "Search": {
+                "id": 6
+            }, 
+            "Work": {
+                "id": 10
+            }, 
+            "Room": {
+                "id": 5
+            }, 
+            "Playlist": {
+                "id": 4
+            }, 
+            "Artist": {
+                "id": 1
+            }, 
+            "TheyMix": {
+                "id": 11
+            }, 
+            "Cmc": {
+                "id": 2
+            }, 
+            "TopAuthors": {
+                "id": 12
+            }, 
+            "TopContents": {
+                "id": 7
+            }, 
+            "MultiRoom": {
+                "id": 3
+            }, 
+            "WeMix": {
+                "id": 8
+            }, 
+            "Wishlist": {
+                "id": 9
+            }
+        }, 
+        "sortPersonalizedBaseUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/sort", 
+        "videoAdvisoryUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/movieTvRatingsAdvisory?cc=us", 
+        "redirectToSignupWizard": "https://buy.itunes.apple.com/WebObjects/MZFinance.woa/wa/redirectToSignupWizard", 
+        "hdTvLearnMoreUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/HDTVLearnMorePage", 
+        "storePlatformLookupUrl": "https://client-api.itunes.apple.com/WebObjects/MZStorePlatform.woa/wa/lookup?version=1", 
+        "checkForPreorders": "https://buy.itunes.apple.com/WebObjects/MZFinance.woa/wa/checkForPreorders"
+    }
+}

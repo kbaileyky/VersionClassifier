@@ -1,0 +1,48 @@
+import json
+import sys
+import re
+
+
+def printRelease(releaseEntry):
+        print "Version Number: ", releaseEntry["versionString"]
+        print "Release Date: ", releaseEntry["releaseDate"]
+        print releaseEntry["releaseNotes"]
+        print '\n'
+
+def printHistoryToFile(releaseEntry, filename):
+	file = open(filename, 'w+')
+	for entry in releaseEntry:
+		asciistr = re.sub(r'[^\x00-\x7F]', '_', entry["versionString"])
+        	file.write( "Version Number: " +  asciistr + "\n")
+		asciistr = re.sub(r'[^\x00-\x7F]', '_', entry["releaseDate"] + "\n")
+        	file.write( "Release Date: " + asciistr)
+		if entry["releaseNotes"] != None:
+			asciistr = re.sub(r'[^\x00-\x7F]', '_', entry["releaseNotes"] + "\n")
+        		file.write(asciistr)
+        	file.write("\n")
+	file.close
+
+
+
+if len(sys.argv) != 3:
+        print "Error: basicRegex <infile> <outfile>"
+        print "length = " + str(len(sys.argv))
+        sys.exit(2)
+
+try:
+        f = open(sys.argv[1])
+except IOError as e:
+        print "Problem opening file {2}. Error ({0}) : {1}".format(e.errno, e.strerror, sys.argv[1])
+        sys.exit(2)
+
+lines = f.read()
+f.close
+
+data = json.loads(lines)
+
+test = data["pageData"]["softwarePageData"]["versionHistory"]
+
+printHistoryToFile(test, sys.argv[2] + ".txt")
+print "Wrote file " + sys.argv[2] + ".txt"
+
+

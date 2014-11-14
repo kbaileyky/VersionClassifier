@@ -1,0 +1,190 @@
+Version Number: 9.14.0
+Release Date: 2014-08-26T16:53:45Z
+_ Support for Conditional Expense Fields
+
+Version Number: 9.13.1
+Release Date: 2014-07-18T16:24:32Z
+Fix for expense past date issue
+Updates to the Tour screens
+Bug fixed when saving attendees with hidden required fields
+
+
+Version Number: 9.13.0
+Release Date: 2014-07-16T00:25:16Z
+Updates to the Tour screens
+Bug fixed when saving attendees with hidden required fields
+
+Version Number: 9.12.1
+Release Date: 2014-06-23T16:26:50Z
+Fix for expense past date issue
+Russian Language Support
+Improved handling for exchange rate override
+Added IC Card Fare search option for Japan public transportation_s routes
+Improved display for when only original receipt required
+
+Version Number: 9.12.0
+Release Date: 2014-06-17T17:45:20Z
+* Russian Language Support
+* Improved handling for exchange rate override
+* Added IC Card Fare search option for Japan public transportation_s routes
+* Improved display for when only original receipt required
+
+
+Version Number: 9.11.2
+Release Date: 2014-05-21T18:43:11Z
+_ New sign-in process 
+_ Ability to Change password using Mobile 
+_ Crash fixes 
+_ App freezing during start up fixes 
+_ Improved flow for Company Code Sign in
+
+Version Number: 9.11.1
+Release Date: 2014-04-28T16:38:00Z
+_ New sign-in process
+_ Ability to Change password using Mobile
+_ Crash fixes
+_ App freezing during start up fixes
+_ Improved flow for Company Code Sign in
+
+Version Number: 9.11.0
+Release Date: 2014-04-16T18:13:41Z
+* New sign-in process
+* Ability to Change password using Mobile
+* Crash fixes
+
+Version Number: 9.10.0
+Release Date: 2014-03-11T15:46:22Z
+* Improved Mobile Tour for 1st time users
+* Crash fixes
+
+Version Number: 9.9.0
+Release Date: 2014-02-12T18:23:32Z
+* Support for Purchase Request Approvals
+* Improved display of Hotel room cancellation policy
+* Receipt fixes for SMART expense matches and refreshing Receipt Store
+
+Version Number: 9.8.0
+Release Date: 2014-01-25T05:38:51Z
+* Improved Home screen 
+* Test Drive availability
+* New Concur Branding
+* Application menu improvements
+* Support for Hotel Streaming
+
+Version Number: 9.7.1
+Release Date: 2013-11-25T23:06:20Z
+_ Fixes for Offline Expense/Receipt capture
+_ Support for Japan Public Transport 
+_ Improved performance for Voice Hotel booking
+_ Hours of operation displayed for Car Vendors 
+_ Improved display for Travel Agency information
+_ Fixes for Car Mileage (odometer defaults and recalculations, defaulted required fields, _)
+_ Improved navigation when editing fields
+
+Version Number: 9.7.0
+Release Date: 2013-11-14T22:16:15Z
+_ Support for Japan Public Transport 
+_ Improved performance for Voice Hotel booking
+_ Hours of operation displayed for Car Vendors 
+_ Improved display for Travel Agency information
+_ Fixes for Car Mileage (odometer defaults and recalculations, defaulted required fields, _)
+_ Improved navigation when editing fields
+
+Version Number: 9.6.0
+Release Date: 2013-10-28T15:21:34Z
+_ Improvements for Dynamic Tax/VAT expense entry
+_ Integration with ExpenseIt receipts
+_ iOS 7 enhancements
+_ Support for Amtrak eTickets
+
+Version Number: 9.5.0
+Release Date: 2013-09-27T21:00:44Z
+* Bug fixes for Receipts
+* Support for Dynamic Tax/VAT entry
+* Improved expense field look-up searching by code and description
+* Smart expense matching in the expense report
+* Support for non-refundable/deposit required hotel booking
+
+Version Number: 9.4
+Release Date: 2013-09-12T22:32:55Z
+* Interactive hotel voice search
+* Improved attendee search results
+* Smart matching in expense list
+* Create Quick Expense from a receipt
+
+Version Number: 9.3.1
+Release Date: 2013-08-21T17:22:09Z
+* Fixes for crashes during start-up
+* Improved messaging for registering a PIN on the phone 
+* Email with help for creating and resetting PIN
+* Improved keyboard display based on field type 
+* View violation details when approving a trip
+* Provide mobile notifications
+* User contact travel agency via mobile device (Open Booking)
+* iPad only - Share your trip on Chatter
+
+Version Number: 9.3
+Release Date: 2013-08-09T15:10:48Z
+* Email with help for creating and resetting PIN
+* Improved keyboard display based on field type 
+* View violation details when approving a trip
+* Provide mobile notifications
+* User contact travel agency via mobile device (Open Booking)
+* iPad only - Share your trip on Chatter
+
+Version Number: 9.2.1
+Release Date: 2013-07-09T21:51:18Z
+_ Bug fix for some Expense Report Approvers, they will no longer receive 'Feature Disabled: This feature is not available for your company or role'
+_ Improved Quick Expense capture with defaults 
+_ Support for Brazilian Portuguese, Dutch, Greek, Latin American Spanish, Russian, and Swedish.
+
+
+Version Number: 9.2
+Release Date: 2013-07-03T18:28:53Z
+_ Improved Quick Expense capture with defaults 
+_ Support for Brazilian Portuguese, Dutch, Greek, Latin American Spanish, Russian, and Swedish.
+
+
+Version Number: 9.1.1
+Release Date: 2013-06-17T02:08:40Z
+* Bug fix for editing Credit Card expenses
+* Support for Trip Approval
+* Support for PDF share for receipts
+* Additional fields available on Hotel Itemization Wizard 
+* Improved display when searching for hotels around office locations
+* Learn More Overview for combined Travel/Expense users 
+* Support for viewing Open Booking itineraries for Expense only users
+
+
+Version Number: 9.1
+Release Date: 2013-06-11T16:52:27Z
+* Support for Trip Approval
+* Support for PDF share for receipts
+* Additional fields available on Hotel Itemization Wizard 
+* Improved display when searching for hotels around office locations
+* Learn More Overview for combined Travel/Expense users 
+* Support for viewing Open Booking itineraries for Expense only users
+
+
+Version Number: 9.0.3
+Release Date: 2013-05-17T08:02:35Z
+* Fixed issues around Car Mileage button on iPad home 
+* Added Car Mileage to Home Screen for the iPhone.
+*  Fixed Expense Types list to include Personal Car Mileage.
+
+
+Version Number: 9.0.2
+Release Date: 2013-05-09T20:40:49Z
+* Fix for crash on receipts on iOS 5.1.1
+* Added Car Mileage to Home Screen for the iPad.
+
+Version Number: 9.0.1
+Release Date: 2013-05-02T18:28:03Z
+* Support for improved receipt capture
+* Improved Home screen and User Experience
+* Support for attaching receipts at the report level
+* Support for "Ready to Submit" for expense reports
+* Improved support for different trip statuses
+* Small business edition _ allow selection of payment type when creating an expense
+
+

@@ -1,0 +1,240 @@
+Version Number: 6.0.1
+Release Date: 2014-10-14T18:07:52Z
+* Text-to-speech now detects the language of the article, and speaks the article in the correct language.
+* Full-text copy and mail options can now be enabled in Settings.
+* Sharing to Evernote saves full-text as the note.
+* Reintroduced native Pinboard sharing.
+* Fixed title detection when sharing to Pinner.
+* Fixed sharing from in-app browser.
+* Tilt scrolling tweaks.
+* Other minor changes and enhancements.
+
+Version Number: 6.0
+Release Date: 2014-09-17T19:31:13Z
+Welcome to Instapaper 6! It's a big update:
+
+* Save Anything: Save to Instapaper from any application that uses the system share sheet!
+
+* View Today's Saves: Articles you've saved today will appear directly in the Notification Center, and you can start reading with one tap.
+
+* Text-to-Speech: Have your Instapaper articles spoken to you. Just turn up the volume and relax. With Instapaper Premium, you can create playlists of several articles.
+
+* Instapaper Premium (formerly subscription): $2.99 per month or $29.99 per year for full-text search, unlimited highlights, and text-to-speech playlists!
+
+* Unified Browse: Articles from editors, algorithms, and your friends all in a single feed.
+
+* Profiles: View your friends' profiles from articles they've liked in the new and improved Browse section.
+
+Version Number: 5.2.1
+Release Date: 2014-06-23T20:26:29Z
+* Optional delete confirmation
+* Fixed share sheet clipping on iPad
+* Fix missing "Shake for Random" row in Advanced Settings
+* Other minor enhancements and fixes
+
+Version Number: 5.2
+Release Date: 2014-05-08T14:27:17Z
+* Introducing Highlights. You can now highlight and save text from any article!
+  * Create a highlight by selecting text and pressing the "Highlight" option.
+  * Your highlights are immediately synced to all your mobile devices and Instapaper.com
+* New Instapaper logo and icons
+* Improved and more accessible social sharing
+* Swipe from edge to navigate back from article view
+* Move articles from folders directly back to "Home"
+* Fixed bug where articles downloaded were displayed as "Downloading..."
+* Other enhancements and improvements
+
+Version Number: 5.1.5
+Release Date: 2014-02-27T15:11:25Z
+* Instapaper Daily integration
+* Send to Kindle functionality (subscriber only)
+* Autorenewable subscriptions
+* Improved AirPlay integration
+* Fix back gestures with pagination enabled
+* Other minor enhancements
+
+Version Number: 5.1.4
+Release Date: 2014-01-15T22:20:09Z
+* Fixed issue with background fetch
+
+Version Number: 5.1.3
+Release Date: 2014-01-10T19:24:58Z
+* Automatic fullscreen for pagination
+* Swipe & tap page navigation for iBooks-style pagination
+* Fix pagination issues when rotating/changing fonts
+* Restore scroll position in article list when returning from move or share
+* Fix Ideal Sans rendering
+* Fix issue when trying to move an article to last folder on iPad
+* Other bug fixes and minor improvements
+
+Version Number: 5.1.2
+Release Date: 2013-12-02T18:15:47Z
+* Reorganized settings
+* Separate on boarding from read later list
+* Minor bug fixes
+
+Version Number: 5.1.1
+Release Date: 2013-11-19T12:22:08Z
+* Article interface hides on scroll
+* Fixed issue with videos on retina iPad
+* Fixed theme change bug
+* Other minor fixes and enhancements
+
+Version Number: 5.1
+Release Date: 2013-11-06T15:30:19Z
+iPad updates!
+* Sorting and filtering
+* New color scheme
+* Browse and video sections
+* Disappearing scrollbar
+* Performance improvements
+* Minor bug fixes
+
+Version Number: 5.0.2
+Release Date: 2013-10-02T16:59:25Z
+* Background updates!
+* Fixed "Report a Text Problem" on iPad
+* Show "Open in Safari" on iPad from share menu
+
+Version Number: 5.0.1
+Release Date: 2013-09-24T13:53:50Z
+* Updated translations
+* Added accessibility labels
+* Fixed bug with iPad in landscape mode
+* Other minor bug fixes
+
+Version Number: 5.0
+Release Date: 2013-09-18T18:38:21Z
+* New look and feel
+* Sort your "Read Later" article lists! You can order your articles by date, article length, popularity, or shuffle (iPhone only)
+* Filter your articles by reading time
+* Better parsing and organization for videos
+* New and improved Sepia theme
+* Improved parsing abilities
+* Darker splash screen for better night reading experience
+* Translated in Spanish, Russian, Chinese and 10 other languages
+* Fixed crashes when app opens and on theme change
+
+... and last but not least, Instapaper has a new home at Betaworks!
+
+Version Number: 4.2.7
+Release Date: 2012-12-07T11:45:35Z
+- Added Netbot and Notesy to Share panel.
+- Fixed "white-screen" bug.
+- Fixed Contacts access in Find Friends under iOS 6.
+- Fixed 1-pixel misalignment of filled circles in the page indicator.
+- Upgraded the Open-Dyslexic font to Dyslexie, a prior typeface by Christian Boer of StudioStudio better optimized for dyslexia.
+
+
+Version Number: 4.2.6
+Release Date: 2012-09-24T21:38:53Z
+- More iOS 6 bugfixes, including email composing and the Search sheet on iPad.
+
+- Another new accessibility font: FS Me, designed with and endorsed by Mencap to aid legibility for those with learning disabilities. But it's so good that everyone should give it a try.
+
+Version Number: 4.2.5
+Release Date: 2012-09-19T01:02:54Z
+- iOS 6 bugfixes
+- iPhone 5 compatibility
+- New Open-Dyslexic font to increase legibility for readers with dyslexia.
+
+Version Number: 4.2.4
+Release Date: 2012-08-04T02:45:05Z
+- Improved pagination performance.
+- Improved dark-mode colors and link colors. (More on that front soon.)
+- Removed instapaper.com/z short URLs from all remaining Twitter sharing methods. Now that t.co URLs are supported by nearly all apps, custom short URLs are unnecessary and they only inconvenience Twitter readers, so they're gone. Your links are yours and should have as few intermediaries as possible.
+- Removed rarely-used "Print" feature.
+- Added Buffer, Chrome, and the upcoming iCab Reading List to the Share panel.
+- Added "Report a text problem" to article footers so customers can help improve Instapaper's parsing of certain pages.
+- Improved Pinboard login security to use their new token system instead of storing passwords.
+- Made syncing even faster.
+- Fixed bugs from the future.
+
+
+Version Number: 4.2.3
+Release Date: 2012-07-04T00:59:48Z
+- Added setting to disable the new-articles icon badge when using Background Update Locations.
+- Updated Twitter sharing to use native Twitter links instead of j.mp.
+- Miscellaneous bug fixes.
+
+Version Number: 4.2.2
+Release Date: 2012-06-02T23:35:14Z
+- Background Update Locations: Automatically download new articles in the background whenever you enter or leave locations such as your home or workplace. Special thanks to News.me for pioneering this technique.
+
+- Improved typography: now supports ligatures and advanced kerning in most articles when using the Lyon, Tisa, Meta, or Hoefler Text fonts.
+
+- Miscellaneous bug fixes and improvements.
+
+
+Version Number: 4.2.1
+Release Date: 2012-05-21T18:23:55Z
+4.2.1 is a minor bugfix update. 4.2's changes:
+
+- All-new Fast Pagination mode, a complete rewrite from the old pagination code that greatly improves accuracy and page-turn speed
+- Optional iBooks-style page-turning animations and gestures
+- New draggable dot bar to replace the scroll bar in pagination mode
+- New two-finger-swipe gesture to close an article
+- Full-screen now has "Auto" mode to switch to full screen after a few seconds
+- The subtle Twilight Sepia color tint can now be selected at any time
+- Added sharing to Drafts and Quotebook apps
+- Many bugfixes and performance improvements
+
+On a personal note, my wife and I just had a baby. Your support lets me work at home and spend as much time with my family as possible during this great time. Thank you so much.
+_Marco
+
+Version Number: 4.2
+Release Date: 2012-05-10T00:23:20Z
+- All-new Fast Pagination mode, a complete rewrite from the old pagination code that greatly improves accuracy and page-turn speed
+- Optional iBooks-style page-turning animations and gestures
+- New draggable dot bar to replace the scroll bar in pagination mode
+- New two-finger-swipe gesture to close an article
+- Full-screen now has "Auto" mode to switch to full screen after a few seconds
+- The subtle Twilight Sepia color tint can now be selected at any time
+- Added sharing to Drafts and Quotebook apps
+- Many bugfixes and performance improvements
+
+On a personal note, my wife and I just had a baby. You, my awesome customers, let me work at home and spend as much time with my family as possible during this great time. Thank you so much.
+_Marco
+
+Version Number: 4.1.1
+Release Date: 2012-03-28T19:32:58Z
+- New setting: Select grid or list format (iPad)
+- New setting: Enable/disable the new Back gestures from 4.1
+- Dark-mode colors are now more legible on modern screens
+- Images in Dark Mode are now dimmed so they don't blind you (tap to brighten)
+- Animations when opening and closing articles on iPad now slide, rather than fade, to match gestures
+- Pagination is now faster, and a subtle animation on iPad indicates direction (like on iPhone)
+- Opening articles is now faster
+- Fixed Elena's thin rendering of certain letters in landscape
+- Fixed a frequent dark-mode crash on iPad
+- Miscellaneous other minor fixes
+
+
+Version Number: 4.1
+Release Date: 2012-03-16T22:41:41Z
+** Instapaper now requires iOS 5 **
+
+- Six great new professional fonts designed for long-form reading and maximum legibility.
+- Full-screen mode for distraction-free reading.
+- Twilight Sepia: the sunset-based Automatic Dark Mode can now slightly tint the screen with a sepia tone during twilight hours before going to Dark Mode.
+- New gestures to exit an article and return to the list: swiping to the right when pagination is inactive, or paging beyond the top or bottom when using pagination.
+- Retina graphics for new iPad.
+- Many small bug fixes and improvements.
+
+
+Version Number: 4.0.4
+Release Date: 2012-02-22T22:14:20Z
+Fixed crash on iPhone 3G and iPod Touch 2G.
+
+NOTE: This will be Instapaper's last release to support these devices. The next major update will require iOS 5.
+
+Version Number: 4.0.3
+Release Date: 2012-02-15T23:56:29Z
+- Fixed a crash and a folder-adding bug introduced in 4.0.2.
+- Improved VoiceOver accessibility, including support for the two-finger-scrub "back" gesture.
+- Smoother list scrolling on first-generation iPads.
+- Improved security of Search Contacts feature, which now sends only hashes instead of encrypted email addresses.
+
+If you've left a 1-star review for a 4.0.2 crash and this update fixes it for you, I'd appreciate it if you'd update your review. Thank you.
+
+

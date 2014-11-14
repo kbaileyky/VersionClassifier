@@ -1,0 +1,337 @@
+Version Number: 2.0.15
+Release Date: 2014-11-11T23:04:51Z
+Fix a bug that could cause 'inconsistent state' messages to appear when syncing.
+
+Version Number: 2.0.14
+Release Date: 2014-11-04T22:41:17Z
+- Fix a crash when syncing, for users with lots of media who upgraded from a previous version.
+- Fix a crash when syncing deleted media.
+- Fix cards appearing as blank if they had special unicode line feed characters on them.
+- Fix the top icons getting stuck after using the Full Sync button in the preferences.
+- Fix occasional timeouts when syncing lots of changes to AnkiWeb.
+
+Version Number: 2.0.13
+Release Date: 2014-10-29T13:01:28Z
+Update: A bug has been discovered in this version that can cause crashes when syncing if you're upgrading from a previous version and have a lot of media. If you are experiencing this issue, please disable media syncing in the preferences to avoid the crash. We'll have a fix out for this as soon as possible.
+
+- Media syncing changes: files imported via iTunes after the first sync don't need to be resent if they already exist on AnkiWeb, and some connection timeout issues have been resolved. Your local media needs to be checked on your first sync after upgrading, so please be patient if you have a lot of media.
+- Improved error checking in regular and media syncs.
+- The custom study and tag selection screens now support rotation, and correctly update when rotated.
+- Fix the tag selector window not appearing on iPads on iOS8.
+- The remaining count and bottom bar options now take effect immediately, and don't require restarting the app.
+- Fix the study window getting stuck when adding, editing or searching from the tools screen.
+
+Version Number: 2.0.12
+Release Date: 2014-10-20T05:07:44Z
+- Support the higher resolution iPhone 6 screens
+- Fix the broken note type and deck selectors in the add screen on iOS8
+- Fix the missing background in the filtered deck sort order selector on iOS8
+- Profiles are now supported on iOS5 as well.
+- To rename or delete profiles, long press on a profile name instead of swiping like in previous versions.
+- Fix an issue with displaying media after changing profiles
+- Make it easier to tap on the 'show hint' button and the 'custom study' button
+- Fix a conflict with a phone dialing app that uses tap://
+- A number of fixes for profile management
+- Fix the prop:ease check in filtered decks and searches
+- Fix misalignment of filtered decks screen on iOS7+
+- Fix a crash triggered by updating the daily limits in the custom study screen multiple times
+- LaTeX images are now tagged with class "latex" so you can style them
+
+Version Number: 2.0.11
+Release Date: 2014-02-04T10:37:06Z
+* Added support for multiple profiles on devices running iOS6 or iOS7. You can switch profiles from the settings screen, and each profile has its own syncing account and settings like the computer version.
+* Tweaks to the pinch-to-zoom code so that minor movements and finger releases do not cause the zoom to jump.
+* Fix a bug that could lead to a corrupt deck list when one deck's name was the prefix of another deck.
+* Filtered and custom study decks can now be up to 99999 cards.
+* Fix a bug where the next/prev buttons stopped working after adding a card.
+* AnkiMobile now requires iOS5.0 or later.
+
+Version Number: 2.0.10
+Release Date: 2013-12-20T21:13:19Z
+Fix an issue that would sometimes cause media syncing errors when files with non-latin text in their filenames were waiting on AnkiWeb.
+
+Version Number: 2.0.9
+Release Date: 2013-12-13T11:00:37Z
+- Fix a crash that some users were encountering when syncing or viewing the list of decks.
+- Fix a crash when returning from the card edit screen.
+- Fix a few issues with syncing media.
+- Fix a small white line appearing above the counts when your cards had non-white background colour.
+
+Version Number: 2.0.8
+Release Date: 2013-11-19T01:31:24Z
+* Fix layout issues and a crash in the custom study screen caused by the previous update to iOS7. 
+* Default to a darker theme on iOS7. The blue one can be selected in the preferences if you prefer it. 
+* Add an option in the settings screen to enable autocorrection when adding/editing. 
+* The navigation bar hiding has been reworked: instead of a thin line at the top of the screen which people found difficult to tap, the navigation bar is now shown or hidden by an action that can be assigned to a tap or swipe in the preferences screen. If you wish to leave it permanently off, you can toggle it off with the action, and then assign the tap or swipe to something else. 
+* In the interests of a timely release, hiding the navigation bar will now hide the status bar as well, which works around a layout issue. If possible, the status bar will be made independent again in a future release. 
+* Fix an issue with burying cards in a filtered deck. 
+* Fix a crash when a sync found inconsistencies. 
+* Fix a crash caused by a deck with an empty name is in the collection. 
+* Fix the card counts failing to appear when navigation bar hidden. 
+* Fix graph axis labels appearing in wrong location on iOS7 
+* Fix field labels when editing appearing in a difficult to read colour if you had used certain themes in previous versions.
+
+Version Number: 2.0.7
+Release Date: 2013-11-07T05:55:06Z
+Please check out the change list, especially if you're upgrading from AnkiMobile 1:
+
+http://ankisrs.net/docs/am-changes.html
+
+Version Number: 2.0.6
+Release Date: 2013-10-16T21:51:40Z
+Please check out the change list, especially if you're upgrading from AnkiMobile 1:
+
+http://ankisrs.net/docs/am-changes.html
+
+Version Number: 2.0.5
+Release Date: 2013-08-08T00:19:59Z
+Please check out the change list, especially if you're upgrading from AnkiMobile 1:
+
+http://ankisrs.net/docs/am-changes.html
+
+Version Number: 2.0.4
+Release Date: 2013-07-31T17:44:47Z
+Please check out the change list, especially if you&apos;re upgrading from AnkiMobile 1:
+
+http://ankisrs.net/docs/am-changes.html
+
+Version Number: 2.0.3
+Release Date: 2013-02-06T21:36:04Z
+ANKI 1 USERS: PLEASE DO NOT UPGRADE BEFORE READING THIS PAGE:
+
+http://ankisrs.net/docs/am-changes.html
+
+For people upgrading from a previous 2.0 version, the 2.0.3 change notes are also listed on that page.
+
+Version Number: 2.0.2
+Release Date: 2013-01-25T02:02:16Z
+ANKI 1 USERS: PLEASE DO NOT UPGRADE BEFORE READING THIS PAGE:
+
+http://ankisrs.net/docs/am-changes.html
+
+For people upgrading from a previous 2.0 version, the 2.0.2 change notes are also listed on that page.
+
+Version Number: 2.0.1
+Release Date: 2012-11-13T00:41:18Z
+PLEASE DO NOT UPGRADE BEFORE READING THIS PAGE:
+
+http://ankisrs.net/docs/am-changes.html
+
+Version Number: 2.0
+Release Date: 2012-10-19T00:01:46Z
+PLEASE DO NOT UPGRADE BEFORE READING THIS PAGE:
+
+http://ankisrs.net/docs/am-changes.html
+
+Version Number: 1.8
+Release Date: 2011-02-10T21:36:21Z
+ * Fix errors some people experienced when loading the deck or answering cards, and prevent similar errors from being possible in the future.
+
+ * Check for the start of a new day when answering cards.
+
+ * Fix for cramming when max failed is set to 0.
+
+ * Updated tap handling, which should ensure that taping links won't show the answer, and which stops the screen turning grey when tapping at the far edges.
+
+ * In Japanese decks, audio is no longer rendered as furigana if it's sitting next to other text without a space.
+
+ * Updated sibling card handling to match the desktop 1.2.6.
+
+
+Version Number: 1.7
+Release Date: 2011-01-29T00:36:04Z
+-----
+Some people have encountered a problem failing mature cards in this release; please see the support page for a fix
+-----
+
+ * Fixed various problems with cram mode.
+ * Fixed problems when using "show only" and "hide" together in selective
+   study screen.
+ * The selective study screen also has a new button that allows you to control
+   whether you're operating on new cards, reviews, or both categories at once.
+ * Selective study now applies to review early as well.
+ * Fixed cards appearing twice after a leech was suspended.
+ * Fixed erroneous reporting of hidden/delayed cards.
+ * Fixed one too many new cards being shown under certain circumstances.
+ * Fixed opening of help windows when memory is low.
+ * Make sure the navigation bar is shown when editing lookup links.
+ * When the deck is finished, returning from the study options screen will
+   now show the right buttons.
+ * Make sure there's a cancel button on the timeboxing complete message on
+   iPads.
+ * Adding/editing now updates the field cache, so that the added/edited cards
+   can be searched for in the desktop Anki card browser without a DB check.
+ * Fixed the sync log resizing text on rotate.
+ * If DropBox is having issues, report as such instead of saying that a media
+   file is missing.
+ * If force portrait is enabled and device is not an iPad, don't allow
+   upside-down rotation.
+ * Fixed spaces between words disappearing in certain circumstances.
+ * Fixed problems related to the mature bonus feature.
+ * When downloading decks from AnkiWeb, ensure they have syncing enabled.
+
+
+Version Number: 1.6
+Release Date: 2011-01-12T10:03:42Z
+If you are on iOS3.2+, it's recommended you create a backup of your decks via iTunes before upgrading.
+
+1.6 brings full compatibility with the new version of Anki for computers. A lot has changed behind the scenes including scheduling cards per-day by default, and easier media handling, so please read the changelog of the desktop program before upgrading AnkiMobile so there are no surprises.
+
+1.6 will upgrade your decks, but it can take a long time on older devices and won't be able to deal with the changes to media syncing or LaTeX, so you may find it easier to upgrade your decks with the desktop client and then copy them over to AnkiMobile. If you are using LaTeX on your cards, please don't upgrade while away from your computer, as the LaTeX cache needs to be rebuilt using the desktop program.
+
+* Full compatibility with the 1.2 desktop client
+ * Much faster & flexible changing of active/inactive tags
+ * Study options screen like on the desktop, including timeboxing
+ * Stability improvements
+ * Support for dictionary lookups in other apps
+ * Add photos to your cards via the camera or photo gallery
+ * Add sound to your cards via the microphone
+ * Support for embedding mp4 video in cards
+ * Preview mode to see what edited cards look like, and listen to audio/see
+   pictures
+ * Syncing configurable on per-deck basis
+ * Sync button now turns red when local changes need to be synced
+ * Force landscape option
+ * Cram mode now supports configurable ordering
+ * Mark & suspend options now toggle
+ * Tags are stripped of leading/trailing whitespace
+ * modelTags and cardModel replacements in your template now supported
+ * Sped up syncing
+ * Option to disable type in answer support
+ * Like desktop 1.2, cards are scheduled per-day by default
+ * Importing via iTunes now happens via a button in the bottom left, instead
+   of happening automatically which could lead to accidentally overwritten decks.
+ * Cramming is significantly faster now
+ * Fixed an issue with type in the answer showing HTML code
+ * Fixed sounds not playing when type in the answer mode enabled
+ * Fixed an issue with missing due dates in the desktop client for cards added
+   via AnkiMobile
+ * Various other fixes
+
+
+Version Number: 1.5
+Release Date: 2010-09-24T20:23:55Z
+ * Native, full-screen iPad support
+ * Ability to import/export decks and media through iTunes for people on iOS3.2 or later, so AnkiOnline is now optional
+ * Searching for cards
+ * 'Inactive tags' action to toggle active card categories
+ * Cram mode to review/browse all cards with a given tag outside of the normal scheduler
+ * All the desktop client's deck statistics viewable from the tools screen
+ * 'Type in the answer' support (enable with the desktop client)
+ * Fixed a bug where Anki or the whole device would crash when downloading large amounts of data
+ * Easier to grab font scale slider
+ * Ability to delete cards & facts
+ * You can now perform various actions while editing a card
+ * Debouncing to prevent accidental double taps
+ * Fix issues with the deck list order being messed up after a deck delete
+ * Fix big buttons covering the bottom of a card
+ * iPads have a separate font scale configuration, so you can use the app easily on an iPad and iPhone/iPod Touch at the same time
+ * Fix for new cards being shown when they shouldn't be
+ * Much faster tag updates (mark, leech)
+ * Ignore blank fields when checking if a fact is unique
+ * Don't add duplicate marked tags
+ * Other bug fixes
+
+Version Number: 1.4
+Release Date: 2010-08-08T17:33:58Z
+ * Support for adding new cards within the app (searching is coming in the next release)
+ * A number of crashes fixed
+ * Full sync upload support
+ * Sync conflict detection
+ * More UI polish
+ * New option to check deck counts after sync/download
+ * Disable tap to hide top bar by default, as it's confusing to new users
+ * Fix failed card counts being off
+ * Fix one too many new cards being shown when 'show new cards last' on
+ * Fix card counts fluctuating in subsequent refreshes
+ * Check if clock is incorrect before syncing
+ * All actions are now accessible from the tools screen
+ * New default tool buttons
+ * Ensure required/unique fields are ok before adding/editing
+ * New high-res icons for iPhone4
+
+Version Number: 1.3
+Release Date: 2010-07-12T21:46:38Z
+ * OS4 multitasking support
+ * OS4-related bugfixes
+ * "Edit current card" feature. Enable by assigning 'edit' to a quick button, tool button or swipe. Support for adding new cards will come in the next release.
+ * Leech detection and suspension
+ * Option to pinch to zoom text
+ * Option to load last deck
+ * Show due counts in deck browser
+ * Show warning when local changes should be synced
+ * Suspend fact
+ * Tags now sorted alphabetically when marking/editing
+ * Don't mark deck modified in finish screen
+ * Hide status bar in landscape mode, too
+ * Option for bigger buttons
+ * Options reworded to be easier to read
+ * Precaching fixed for case when question shown when displaying answer
+ * Honour card spacing so that related cards are not shown together
+ * Bigger, more legible fonts in the bottom bar & answer buttons
+ * Fixes for congrats screen being shown when new cards or failed cards shown last
+ * Mark and Suspend
+ * Prettier card info
+ * Prevent gestures while copying text
+ * Unload deck on delete
+ * Various minor bugfixes
+
+
+Version Number: 1.2
+Release Date: 2010-06-19T01:57:31Z
+-the next card is now preloaded, so both text and images are displayed instantly
+-you can now tap the right side of the screen to use the default answer, and the left side of the screen to answer 'again'
+-configurable taps
+-configurable swipe gestures
+-configurable tool buttons
+-visual feedback for the answer level you chose
+-answer buttons replaced with smaller answer strip
+-top area which displayed remaining card count moved down to the bottom
+-daily correct/failed counts now displayed
+support embedded fonts - see 'advanced' on the support page for more info
+-prettier progress windows
+-smaller furigana
+-fix marking lowercasing tags
+-fix suspended cards being unsuspended
+-new 'replay all audio' button
+-option to hide audio buttons on card
+-support furiganaType 3, so you can choose tooltips if you wish for Japanese text
+-use icons for navigation links
+-option to show again/hard/good etc instead of next times
+-option to hide the labels completely
+-option to hide remaining card counts
+-option to hide daily pass/fail counts
+-option to center the text in the middle of the screen (defaults to on)
+-option to disable media downloads
+-option to force portrait
+-support for hiding the question when showing answer
+-fix downloads with large number of media
+-play sound on sync/download finish (can turn off)
+-option to disable sync on cell phone warning
+-configurable shake action
+-allow music to keep playing in the background
+-option to disable audio autoplay
+-various visual tweaks to make the app look nicer
+
+Version Number: 1.1
+Release Date: 2010-06-03T22:26:37Z
+* Media support: images, audio and LaTeX for equations are all available now. See the support page for information on setting media up.
+* Big images are scaled to fit the screen, and you can pinch to expand them.
+* Review Early button to show cards ahead of schedule.
+* Learn More button to show more new cards.
+* Number of new cards per day is now configurable in the tools screen.
+* Fixed memory issues with big decks. You can now download decks above 40MB.
+* Deck downloads are now 2-3x faster and have a progress bar.
+* Links in decks will now open a web browser from within the app, allowing you to return to studying. This is useful for dictionary links. See the support page for more information.
+* Faster initial deck load.
+* Much faster switching between decks.
+* Faster font scaling.
+* Don't go to sleep while syncing.
+* Fixed some issues with the status bar and landscape orientation.
+* Quickbar will expand to fill screen if deck loaded in landscape mode.
+* Fixed an issue with marked cards not being searchable.
+* Various other bug fixes and interface tweaks.
+
+Version Number: 1.0
+Release Date: 2010-05-27T03:18:24Z
+

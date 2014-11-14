@@ -1,0 +1,122 @@
+Version Number: 4.1.0
+Release Date: 2014-11-05T16:50:17Z
+* We have a new look! iPhone and iPad design updates completed for iOS 7.
+* About and Log Out menu list choices are moved to Settings to make room for future enhancements.
+* Bug fixes.
+
+Version Number: 4.0.3
+Release Date: 2014-10-20T15:50:12Z
+Various bug fixes
+
+Version Number: 4.0.1
+Release Date: 2014-09-23T18:53:30Z
+In release 4.0.1, HotSchedules for the iPad has arrived! This also includes bug fixes for the iPhone version.
+
+Version Number: 3.1.12
+Release Date: 2014-09-08T16:14:21Z
+_A preference has been added for users to select two of three shift attributes to display on their schedule; Schedule, Job, Location
+_Fixed a My Schedule screen display bug that showed the letters _rew_ when broadcast messages are not present and the compact schedule is turned off
+_Fixed a bug that prevented a user to Call, E-mail or SMS users from the Roster page
+_Additional Bug fixes
+
+Version Number: 3.1.11
+Release Date: 2014-08-20T14:49:30Z
+Various bug fixes
+
+Version Number: 3.1.8
+Release Date: 2014-07-14T16:10:26Z
+Resolving issue showing incorrect time off approval.
+
+Version Number: 3.1.7
+Release Date: 2014-07-08T16:47:50Z
+Various bug fixes
+
+Version Number: 3.1.6
+Release Date: 2014-06-23T15:26:35Z
+Various bug fixes.
+
+Version Number: 3.1.5
+Release Date: 2014-04-01T15:31:35Z
+Various bug fixes.
+
+Version Number: 3.1.4
+Release Date: 2014-03-07T02:18:33Z
+- Fixed bug causing shifts to not be picked up correctly.
+
+Version Number: 3.1.3
+Release Date: 2014-02-26T23:01:20Z
+Reports menu restored for users who lost access in v3.1.2.
+
+Version Number: 3.1.2
+Release Date: 2014-02-24T16:29:15Z
+- Added Location-based shift notifications
+- Various Bug Fixes
+
+Version Number: 3.1.1
+Release Date: 2013-11-19T18:40:16Z
+- Adding analytics to application to determine which features are most used.
+- Bug fixes for iOS7
+
+Version Number: 3.1.0
+Release Date: 2013-10-30T12:50:58Z
+- Auto Pickups
+- Mobile Preloads
+- Several bug fixes
+
+Version Number: 3.0.6
+Release Date: 2013-08-15T19:47:09Z
+- Fix for incorrect house shifts
+- Fix for startup crash
+
+Version Number: 3.0.5
+Release Date: 2013-07-16T19:33:09Z
+- Various fixes
+
+Version Number: 3.0.4
+Release Date: 2013-06-13T22:54:29Z
+- Fixing issue with shifts showing as released on schedule
+
+Version Number: 3.0.3
+Release Date: 2013-06-11T19:47:34Z
+- Added Author field to Staff Journal entries
+- Fixed a visual issue with Digital Red Book entries
+- Fixed an issue with House Shift warning dialog appearing unneccesarily 
+- Fixed an issue where the app could crash at startup
+- Several other fixes!
+
+Version Number: 3.0.2
+Release Date: 2013-05-08T14:08:46Z
+- New compact schedule
+- Various bug fixes
+
+Version Number: 3.0.1
+Release Date: 2013-03-25T20:44:16Z
+- New app store icon
+- Several fixes
+
+Version Number: 3.0.0
+Release Date: 2013-03-06T16:11:42Z
+-All new re-design!
+-Improved functionality
+-Much improved user interface
+
+Version Number: 2.0.25
+Release Date: 2012-11-21T18:17:51Z
+- Fixes an issue with contacts and switching stores
+- Fixes crash issue in DLB
+- Fixing date issue for sales and labor with iOS6
+
+Version Number: 2.0.24
+Release Date: 2012-10-16T22:19:59Z
+Fixes issue with calendar sync for multiple stores.
+Fixes issue with time off requests displaying wrong date.
+Adding a device id for push registrations.
+
+Version Number: 2.0.22
+Release Date: 2012-07-11T00:29:22Z
+- Users can now view and complete surveys
+
+Version Number: 2.0.21
+Release Date: 2012-05-11T19:09:28Z
+- Support for store switching for Enterprise and Shared users
+

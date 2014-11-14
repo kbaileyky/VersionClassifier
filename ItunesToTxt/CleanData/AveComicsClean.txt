@@ -1,0 +1,229 @@
+Version Number: 3.1
+Release Date: 2014-11-13T19:11:08Z
+- New design for iOS7 & iOS8.
+- New shortcuts for popular comics categories.
+- Share your favorite comics on Facebook, Twitter or by mail.
+- Bugs fixes.
+
+Version Number: 3.0.2
+Release Date: 2013-09-18T20:20:21Z
+Fixed reader animations for iOS 7.
+
+Version Number: 3.0.1
+Release Date: 2013-06-22T21:24:40Z
+Fixed minor bugs
+
+Version Number: 3.0
+Release Date: 2013-05-23T15:40:43Z
+Added the possibility to purchase content without creating an account. 
+Complete rewrite of the internal database to dramatically improve performances when launching the app, updating the store,...
+Larger covers for a much more immersive experience in the App. 
+Improved speed of loading, updating and displaying comics.
+Easy access to the store by language in the top bar : it is now much easier to access the English, French and Spanish sections of the Store. Other languages are also available from the left hand side navigation bar.
+New User Interface
+- navigation into the Store through a left navigation pane
+- much easier access to authors, publishers, ...
+- more unified look and feel
+Added support for iOS 6 and iPhone 5
+
+Version Number: 2.6.2
+Release Date: 2012-07-16T16:07:01Z
+- Improved reader in page mode. A double tap makes it possible to go from one scene to the other, or zoom-out if the double tap is carried out on the active scene.
+- Improved loading of store and library data to display the content of the application more quickly.
+
+- New help for the reading of comics in page mode and in animated mode.
+- New interface for the settings for the reader in page mode.
+
+- Retina visuals for the new iPad.
+- Added comics covers adapted to the display on the new iPad.
+
+- Fixed random crashes during the update of the database at the launch of the application.
+- Fixed the display of recently read comics on iPhone/iPod touch.
+- Fixed an orientation bug at the launch of the application on iPhone/iPod touch in landscape mode.
+- Fixed some french localization.
+- Fixed the connection of user account.
+
+Version Number: 2.6
+Release Date: 2012-03-21T22:45:10Z
+Updated Facebook sharing.
+Updated Twitter sharing for iOS 5.
+Fixed database for iOS 5.
+
+Version Number: 2.5
+Release Date: 2011-11-19T01:28:17Z
+Fixed iOS 5 compatibility
+
+Version Number: 2.4.1
+Release Date: 2011-08-03T18:53:35Z
+Fixed minor bugs.
+Fixed a possible crash at the launch of the application on iPad.
+Fixed a possible crash after a double tap when reading a comic in page mode.
+
+Version Number: 2.4
+Release Date: 2011-07-12T18:27:16Z
+Added a new reading mode for iPhone and iPod touch : page reading (in addition to the animated mode).
+
+Version Number: 2.3
+Release Date: 2011-01-12T21:41:42Z
+- Update of the interface for devices with Retina display.
+- Update of the display of recents comics in the "My Library" tab, to display a larger number of comics.
+- Update the publication of previews on twitter.
+- Minor improvement in the different readers.
+- Fix a possible crash at the launch of the application on iPhone/iPod touch.
+
+Version Number: 2.2.5
+Release Date: 2010-10-19T23:43:37Z
+- Fixed a problem that could prevent the launch of the application.
+- Added ability to delete the file of a comic.
+
+Version Number: 2.2.4
+Release Date: 2010-09-17T00:15:50Z
+- Improved memory management,
+- Fixed a possible crash condition in the case of a corrupted database at the launch of the application.
+
+Please note that this version has been tested on every version of the OS, and on almost every possible iOS device.
+We are pretty confident that we found and resolved the crash that occured to some of our users.
+HOWEVER
+We discovered that AveComics is not compatible with Winterboard on jailbroken iPhone (they exist !). We don't test on this type of device. Until we find a workaround, please uninstall Winterboard and everything will be fine.
+
+Version Number: 2.2.3
+Release Date: 2010-09-02T21:28:35Z
+Fix a problem during the update of the comics data.
+
+Version Number: 2.2.2
+Release Date: 2010-07-16T20:39:58Z
+Interface Improvement
+Fixed minor issues in text mode
+
+
+Version Number: 2.2.1
+Release Date: 2010-06-19T00:39:26Z
+Added iOS4 compatibility.
+Fixed comic URLs shared with facebook, twitter or mail.
+
+Version Number: 2.2
+Release Date: 2010-06-08T16:34:20Z
+*** Tons of changes and fixes, especially stability fixes ***
+
+iPad :
+
+- Addition of choice of reading mode: page reading mode (fullscreen) or animated reading mode (iPhone format). The animated reading size can be ajusted.
+- Added the ability to unload comic files to free up space on the iPad.
+- Added a help panel with reading tips to the reading page mode.
+- Addition of new background for both reading modes.
+- Major improvements to the page reading mode. You can now choose the zoom level by pinching directly on the page. Once saved; this value is used by the itelligent reading system to optimise the reading path.
+- Improvement of thumbnail display in page reading mode.
+- Fixed code for returning to the last read page.
+- Fixed code to save the page number of the current comic.
+- Fixed display of recently downloaded comics.
+- Minor corrections to page reading mode.
+- Fixed error causing occasional crashes when page reading mode is closed.
+- Fixed error causing occasional crashes occuring when connecting to an Ave!Comics or facebook account.
+- Fixed error causing occasional crashes occuring upon reloading data during device rotation.
+- Fixed error causing occasional crashes when publishing comic previews on facebook.
+- Fixed comic display in the "Featured" tab.
+
+iPhone/iPad :
+
+- Improvement of In App purchasing (better handling of purchases interrupted by incoming call or loss of network connection).
+- Addition of thumbnails for animated reading mode.
+
+Version Number: 2.1.5
+Release Date: 2010-05-28T23:09:12Z
+- fixed a bug with the iPad version. If you had the iPhone version running on your iPad and upgraded for the iPad version (2.1) then you could experience issues when downloading and reading comics. This is fixed in this release.
+- greatly improved reading experience. The previous version was not optimizing the reading path. This one does !
+- added a new 'In the Spotlight' section in the Store. We now show you the comics, authors and publishers in the Spotlight.
+- fixed a number of issues in the thumbnail view in the reader.
+- fixed a startup problem where the screen was not in the correct orientation
+
+Version Number: 2.1
+Release Date: 2010-05-17T05:21:23Z
+- iPad version
+- dynamic reading in page mode. Adaptative path through the page that takes the device orientation into account.
+
+** IMPORTANT NOTICE **
+If you installed the iPhone version on the iPad and have updated your app to version 2.1, then the iPad won't let you read your comics.Simply delete the version on your iPad and get it once more from the AppStore (you won't have to pay !) and it will work fine.
+
+If you have the iPhone version of Ave!Comics, simply get this new version on your iPad, enter your account details and enjoy your comics on your iPad.
+
+** COMING SOON ** The animated version of the comics that you discovered on your iPhone will also be available soon on your iPad.
+
+Version Number: 2.0.4
+Release Date: 2010-05-12T00:41:37Z
+Fixed account connection
+
+Version Number: 2.0.3
+Release Date: 2010-04-09T00:18:37Z
+- fixed a rare crash situation when browsing publishers on the english store
+- added new transitions,
+- minor fixes and improvements
+
+*** NEW partnership with Campfire Graphic Novels to publish its entire catalogue of graphic novels. Campfire_s extensive catalogue of classics, biographies, mythologies and original stories has been created by its highly talented team of artists. Watch out the featured section for Alice in Wonderland, Moby Dick, Treasure Island and more great novels. *** 
+
+Version Number: 2.0.2
+Release Date: 2010-02-25T22:49:00Z
+Fixed account creation and login issues
+
+Version Number: 2.0.1
+Release Date: 2010-02-24T21:11:15Z
+Improved transition from v 1.x
+- user account details are now saved
+- downloaded comics are preserved
+Fixed various localization bugs.
+Minor cosmetic improvements.
+
+Version Number: 2.0
+Release Date: 2010-02-18T19:38:38Z
+The application has been rewritten from the ground up in order to support the quick growth of the biggest store
+of digital comics in french on iPhone/iPod Touch.
+
+- NEW: new navigation interface for your personal library. Browse content by Title, artist, category, collection.
+- NEW: easily navigate between episodes inside a collection
+- NEW: easily navigate between content that you already own and newly published content.
+- NEW: completely redesigned store
+- NEW: browse content by title, author, category, collection and even price.
+- NEW: added support for dynamic collections.
+- NEW: specific language based navigation. Browse content by language or browse content in any language.
+- NEW: added support for 'facebook connect'. You can now use your facebook account as your account identifier.
+- NEW: easily share your comments about comics via Mail, facebook or twitter.
+- NEW: added support for Reading Lists. Add books to specific lists.
+- NEW: added support for notifications. Get notified when new comics get published.
+- NEW: Top 20 for the best sales on every store (language specific).
+- NEW: added control over the disk space used.
+
+- NEW COMICS: exclusive mangas in English from SelfMadeHero.
+- NEW COMICS: new publishers have been added and we keep adding new ones. About 300 comics already in the store.
+- IMPROVED: handling of previews. You can now read a few pages of every comic in the store for free ! 
+
+- IMPROVED: added more features and effects to the AVE Reader.
+- IMPROVED: much faster search
+- IMPROVED: it's now easier to access free comics from our store.
+- IMPROVED: store loading time.
+
+- many more improvements
+
+Our store features comics in the following main languages
+- French
+- English
+- Spanish
+but we will soon introduce lots of new content in the following languages
+- English
+- Hindi
+- Chinese and Japanese
+
+Version Number: 1.2.1
+Release Date: 2010-01-09T02:15:41Z
+- added support for new animation types,
+- added new header for the collection,
+- added the publisher's logo in the loading screen,
+- fixed a bug that would prevent the application to launch successfully when clicking on the link in the confirmation email sent after the creation of an account.
+
+NOTE: Ave!Comics Store has more than 250 comics. Free previews for all of them, directly from Ave!Comics.
+
+
+Version Number: 1.1.1
+Release Date: 2009-09-23T22:54:43Z
+- this version adds support for FREE content available through Ave!Comics. 
+- initialization of the store is also much faster.
+- new comics available in the store.  
+
