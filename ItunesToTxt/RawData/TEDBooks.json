@@ -27,35 +27,35 @@
                         378080432, 
                         597251953, 
                         395985060, 
-                        869502447, 
+                        436958659, 
                         415378623, 
-                        672803850, 
-                        434406498, 
                         364734296, 
-                        600093661, 
-                        364147847, 
+                        434406498, 
+                        869502447, 
+                        672803850, 
                         335630043, 
-                        453213960, 
-                        310295776
+                        600093661, 
+                        468607901, 
+                        536661409
                     ], 
                     "title": "Top Grossing iPad Books Apps"
                 }, 
                 "iphone": {
                     "ids": [
                         350027738, 
-                        378080432, 
                         444553118, 
+                        378080432, 
+                        672803850, 
                         395985060, 
                         869502447, 
-                        672803850, 
-                        917240760, 
-                        597251953, 
-                        379351586, 
-                        587065961, 
                         364734296, 
-                        434406498, 
-                        356971775, 
-                        468607901
+                        435873883, 
+                        421486286, 
+                        597251953, 
+                        917240760, 
+                        519625336, 
+                        475752315, 
+                        483281737
                     ], 
                     "title": "Top Grossing iPhone Books Apps"
                 }
@@ -189,11 +189,11 @@
             "pageDetails": "TED Conferences_TED Books", 
             "pageId": "511071050", 
             "language": "1", 
-            "serverInstance": "1003300", 
+            "serverInstance": "2002304", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
-            "environmentDataCenter": "NWK", 
+            "environmentDataCenter": "ST11", 
             "pageType": "Software", 
             "platformName": "iTunes12", 
             "page": "Software_511071050"
@@ -510,12 +510,12 @@
                     "editorialBadgeInfo": null, 
                     "artwork": [
                         {
-                            "url": "http://a5.mzstatic.com/us/r30/Purple/v4/c7/98/df/c798df10-e1cf-afad-da73-99c5f448200e/icon240x240.png", 
+                            "url": "http://a4.mzstatic.com/us/r30/Purple/v4/c7/98/df/c798df10-e1cf-afad-da73-99c5f448200e/icon240x240.jpeg", 
                             "width": 240, 
                             "height": 240
                         }, 
                         {
-                            "url": "http://a3.mzstatic.com/us/r30/Purple/v4/c7/98/df/c798df10-e1cf-afad-da73-99c5f448200e/icon1024x1024.png", 
+                            "url": "http://a1.mzstatic.com/us/r30/Purple/v4/c7/98/df/c798df10-e1cf-afad-da73-99c5f448200e/icon1024x1024.jpeg", 
                             "width": 1024, 
                             "height": 1024
                         }, 
@@ -535,7 +535,7 @@
                             "height": 400
                         }, 
                         {
-                            "url": "http://a5.mzstatic.com/us/r30/Purple/v4/c7/98/df/c798df10-e1cf-afad-da73-99c5f448200e/icon512x512.jpeg", 
+                            "url": "http://a3.mzstatic.com/us/r30/Purple/v4/c7/98/df/c798df10-e1cf-afad-da73-99c5f448200e/icon512x512.png", 
                             "width": 512, 
                             "height": 512
                         }
@@ -1108,7 +1108,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "1003300", 
+        "ITSServerInstance": "2002304", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
@@ -1138,7 +1138,7 @@
                 "platformId": "28", 
                 "storeFront": "143441", 
                 "storeFrontHeader": "143441-1,28", 
-                "environmentDataCenter": "NWK", 
+                "environmentDataCenter": "ST11", 
                 "platformName": "iTunes12"
             }, 
             "postFrequency": 60000, 

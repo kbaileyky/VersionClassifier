@@ -1,0 +1,68 @@
+Number different - 4	Total Classified - 119	Percent Agreement - 0%
+Test Data/MBJsonKendall
+{
+    "entry": "An overhaul of the communications between Fifth Generation printers and MakerBot Desktop", 
+    "classification": {
+        "str_type": "Enhancement", 
+        "int_type": 2
+    }
+}
+Test Data/testdataClassify_hongyan.txt
+{
+    "entry": "An overhaul of the communications between Fifth Generation printers and MakerBot Desktop", 
+    "classification": {
+        "str_type": "Feature", 
+        "int_type": 1
+    }
+}
+Number different - 4	Total Classified - 119	Percent Agreement - 0%
+Test Data/MBJsonKendall
+{
+    "entry": "4. Lay Flat algorithm updates", 
+    "classification": {
+        "str_type": "Enhancement", 
+        "int_type": 2
+    }
+}
+Test Data/testdataClassify_hongyan.txt
+{
+    "entry": "4. Lay Flat algorithm updates", 
+    "classification": {
+        "str_type": "Feature", 
+        "int_type": 1
+    }
+}
+Number different - 4	Total Classified - 119	Percent Agreement - 0%
+Test Data/MBJsonKendall
+{
+    "entry": "5. Removed the button press requirement when printing over a USB connection", 
+    "classification": {
+        "str_type": "Enhancement", 
+        "int_type": 2
+    }
+}
+Test Data/testdataClassify_hongyan.txt
+{
+    "entry": "5. Removed the button press requirement when printing over a USB connection", 
+    "classification": {
+        "str_type": "Bug", 
+        "int_type": 0
+    }
+}
+Number different - 4	Total Classified - 119	Percent Agreement - 0%
+Test Data/MBJsonKendall
+{
+    "entry": "The Print and Export dialogs now display slicing progress", 
+    "classification": {
+        "str_type": "Feature", 
+        "int_type": 1
+    }
+}
+Test Data/testdataClassify_hongyan.txt
+{
+    "entry": "The Print and Export dialogs now display slicing progress", 
+    "classification": {
+        "str_type": "Enhancement", 
+        "int_type": 2
+    }
+}

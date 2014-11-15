@@ -26,19 +26,19 @@
                     "ids": [
                         308368164, 
                         512350210, 
-                        412351574, 
                         613398383, 
+                        412351574, 
                         893927401, 
-                        398860728, 
-                        664909593, 
-                        891450541, 
                         540872054, 
+                        551215116, 
+                        398860728, 
+                        891450541, 
                         491771721, 
-                        509343934, 
-                        882931712, 
-                        565200595, 
+                        664909593, 
+                        719219382, 
                         722910739, 
-                        551215116
+                        664306853, 
+                        509343934
                     ], 
                     "title": "Top Grossing iPad Education Apps"
                 }, 
@@ -46,18 +46,18 @@
                     "ids": [
                         613398383, 
                         577232024, 
-                        435588892, 
                         893927401, 
+                        563979110, 
+                        435588892, 
                         565200595, 
-                        625614526, 
+                        308368164, 
                         891453663, 
-                        373493387, 
-                        518334522, 
-                        562413829, 
-                        369946804, 
-                        591626572, 
+                        625614526, 
                         540872054, 
-                        806223188
+                        518334522, 
+                        806223188, 
+                        722910739, 
+                        364894352
                     ], 
                     "title": "Top Grossing iPhone Education Apps"
                 }
@@ -136,7 +136,7 @@
             "pageDetails": "Bagatrix_Mathway", 
             "pageId": "467329677", 
             "language": "1", 
-            "serverInstance": "2126816", 
+            "serverInstance": "2002704", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
@@ -359,10 +359,10 @@
                     "releaseDate": "2012-09-04", 
                     "artistId": 467329680, 
                     "userRating": {
-                        "ratingCountCurrentVersion": 81, 
+                        "ratingCountCurrentVersion": 82, 
                         "valueCurrentVersion": 3, 
                         "value": 3.5, 
-                        "ratingCount": 660
+                        "ratingCount": 661
                     }, 
                     "artistUrl": "https://itunes.apple.com/us/artist/bagatrix/id467329680?mt=8", 
                     "itunesNotes": null, 
@@ -440,12 +440,12 @@
                     "editorialBadgeInfo": null, 
                     "artwork": [
                         {
-                            "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/9d/80/5c/9d805c15-21b4-5e6a-4e36-5182e9457240/icon240x240.png", 
+                            "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/9d/80/5c/9d805c15-21b4-5e6a-4e36-5182e9457240/icon240x240.jpeg", 
                             "width": 240, 
                             "height": 240
                         }, 
                         {
-                            "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/9d/80/5c/9d805c15-21b4-5e6a-4e36-5182e9457240/icon1024x1024.jpeg", 
+                            "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/9d/80/5c/9d805c15-21b4-5e6a-4e36-5182e9457240/icon1024x1024.png", 
                             "width": 1024, 
                             "height": 1024
                         }, 
@@ -460,7 +460,7 @@
                             "height": 220
                         }, 
                         {
-                            "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/9d/80/5c/9d805c15-21b4-5e6a-4e36-5182e9457240/icon400x400.png", 
+                            "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/9d/80/5c/9d805c15-21b4-5e6a-4e36-5182e9457240/icon400x400.jpeg", 
                             "width": 400, 
                             "height": 400
                         }, 
@@ -1037,7 +1037,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "2126816", 
+        "ITSServerInstance": "2002704", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 

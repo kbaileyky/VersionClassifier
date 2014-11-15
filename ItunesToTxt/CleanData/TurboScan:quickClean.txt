@@ -1,0 +1,102 @@
+Version Number: 2.6.4
+Release Date: 2014-10-17T21:37:59Z
+_Black camera screen_ issue is fixed
+Add page button works faster now: TurboScan will remember your last scan method (Camera, SureScan, or Album) and in most cases will not prompt anymore. If you need a different method, just cancel the Camera or Album screen: the menu will appear
+Social network buttons added in the Info screen
+Smaller fixes and improvements
+
+Version Number: 2.6.3
+Release Date: 2014-09-22T00:46:48Z
+iOS 8 compatibility issues.
+Bug fixes and improvements.
+Updated app icon.
+
+Version Number: 2.6.2
+Release Date: 2013-12-09T22:12:17Z
+_ Option to put multiple receipts or business cards on a PDF page. (Tap _Pen_ to activate).
+
+
+Version Number: 2.6.1
+Release Date: 2013-10-30T01:21:10Z
+_ Redesigned UI with iOS 7.
+_ Copy to Clipboard and Paste: copy pages between TurboScan documents and other apps, like Messages, Mail, and Pages. Transfer multiple photos from Camera Roll to TurboScan via Clipboard to reduce file sizes.
+_ Save multiple pages to Camera Roll.
+_ New _Open JPEG In_ option on single-page view.
+_ Improved border detection: scan your documents on a variety of backgrounds, and regular photos on a black background.
+_ _Email to myself_: you can now specify multiple email addresses and CC addresses (separated by spaces).
+_ Multiple-page scanning: page orientations are now more stable.
+_ Gift app option added.
+_ Smaller improvements and bug fixes.
+
+Version Number: 2.5.7
+Release Date: 2012-12-21T00:51:28Z
+Printing bug is fixed.
+Can select more scan sizes as a default now.
+Added another attachment size option ("Smallest") - to allow sending more pages in one email and to reduce network traffic.
+JPEGs should now be sized properly for printing by default (JPEGs' internal DPI value was fixed).
+TurboScan can now be launched from apps like Launch Center Pro and Launch+.
+
+
+
+Version Number: 2.5.6
+Release Date: 2012-12-06T22:46:54Z
+iPhone 5 tall screen support.
+Updated look (takes some time getting used to :)
+Added another attachment size option ("Smallest") - to allow sending more pages in one email and to reduce network traffic.
+JPEGs should now be sized properly for printing by default (JPEGs' internal DPI value was fixed).
+TurboScan can now be launched from apps like Launch Center Pro and Launch+.
+Several smaller fixes and improvements.
+
+Version Number: 2.5.5
+Release Date: 2012-12-05T22:20:37Z
+iPhone 5 tall screen support.
+Updated look.
+Added another attachment size option ("Smallest") - to allow to send more pages in one email and to reduce network traffic.
+Now Jpegs should be sized properly for printing by default (Jpegs' internal DPI value was fixed).
+TurboScan can now be launched from apps like Launch Center Pro and Launch+.
+Several smaller fixes and improvements.
+
+Version Number: 2.5.1
+Release Date: 2012-01-31T03:35:25Z
+_ Document navigation buttons.
+_ Document search by title: type the first letter(s) of any word in the title to find a doc. Use navigation buttons to navigate through filtered docs.
+_ Improved edge detection.
+
+
+Version Number: 2.4
+Release Date: 2011-10-18T13:31:18Z
+Document naming
+Document size options
+Delete button
+
+
+Version Number: 2.1
+Release Date: 2011-05-11T04:30:47Z
+Multipage support
+Open scans in other apps like the free Dropbox app - to send to clouds
+_ To delete a saved scan, just swipe over its title in the list
+
+Version Number: 1.6
+Release Date: 2011-01-14T18:51:06Z
+AirPrint: 3GS or iPhone 4 with iOS 4.2
+
+Version Number: 1.5
+Release Date: 2011-01-06T23:16:42Z
+AirPrint function (3GS or iPhone 4 with iOS 4.2)
+Simplified SureScan mode
+Retina display and multitasking support
+Reduced memory usage
+Fixed iPhone 4 "yellow tint"
+Bug fixes
+
+Version Number: 1.3
+Release Date: 2010-06-22T00:57:59Z
+_ _Email to myself_ feature
+_ _Photo_ mode
+_ Improved frame selection
+_ Added document auto numbering 
+_ Improved document quality
+
+Version Number: 1.0
+Release Date: 2009-12-07T16:56:17Z
+

@@ -23,19 +23,19 @@
                     "ids": [
                         367623543, 
                         427593622, 
-                        407824176, 
-                        357066198, 
-                        358801284, 
                         898117224, 
+                        407824176, 
+                        358801284, 
+                        357066198, 
                         914453825, 
-                        364387007, 
-                        923394341, 
                         579581125, 
+                        923394341, 
                         304158842, 
+                        364387007, 
                         364257176, 
                         369021520, 
-                        364297166, 
-                        364183644
+                        364183644, 
+                        352969997
                     ], 
                     "title": "Top Free iPad News Apps"
                 }, 
@@ -47,15 +47,15 @@
                         304158842, 
                         352969997, 
                         367623543, 
-                        427593622, 
                         358801284, 
                         896628003, 
-                        545458058, 
-                        912592124, 
                         579581125, 
+                        427593622, 
                         284862083, 
                         364147881, 
-                        498408628
+                        498408628, 
+                        364387007, 
+                        912592124
                     ], 
                     "title": "Top Free iPhone News Apps"
                 }
@@ -202,11 +202,11 @@
             "pageDetails": "NPR_NPR News", 
             "pageId": "324906251", 
             "language": "1", 
-            "serverInstance": "2125824", 
+            "serverInstance": "1005502", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
-            "environmentDataCenter": "ST11", 
+            "environmentDataCenter": "NWK", 
             "pageType": "Software", 
             "platformName": "iTunes12", 
             "page": "Software_324906251"
@@ -425,10 +425,10 @@
                     "releaseDate": "2009-08-15", 
                     "artistId": 324906254, 
                     "userRating": {
-                        "ratingCountCurrentVersion": 179, 
+                        "ratingCountCurrentVersion": 182, 
                         "valueCurrentVersion": 4, 
                         "value": 3.5, 
-                        "ratingCount": 57534
+                        "ratingCount": 57537
                     }, 
                     "artistUrl": "https://itunes.apple.com/us/artist/npr/id324906254?mt=8", 
                     "itunesNotes": null, 
@@ -508,7 +508,7 @@
                     "editorialBadgeInfo": null, 
                     "artwork": [
                         {
-                            "url": "http://a5.mzstatic.com/us/r30/Purple1/v4/1e/34/29/1e3429f7-2734-6b95-68ef-a7abd0f5193a/icon240x240.jpeg", 
+                            "url": "http://a5.mzstatic.com/us/r30/Purple1/v4/1e/34/29/1e3429f7-2734-6b95-68ef-a7abd0f5193a/icon240x240.png", 
                             "width": 240, 
                             "height": 240
                         }, 
@@ -518,7 +518,7 @@
                             "height": 1024
                         }, 
                         {
-                            "url": "http://a2.mzstatic.com/us/r30/Purple1/v4/1e/34/29/1e3429f7-2734-6b95-68ef-a7abd0f5193a/icon440x440.png", 
+                            "url": "http://a2.mzstatic.com/us/r30/Purple1/v4/1e/34/29/1e3429f7-2734-6b95-68ef-a7abd0f5193a/icon440x440.jpeg", 
                             "width": 440, 
                             "height": 440
                         }, 
@@ -1082,7 +1082,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "2125824", 
+        "ITSServerInstance": "1005502", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
@@ -1112,7 +1112,7 @@
                 "platformId": "28", 
                 "storeFront": "143441", 
                 "storeFrontHeader": "143441-1,28", 
-                "environmentDataCenter": "ST11", 
+                "environmentDataCenter": "NWK", 
                 "platformName": "iTunes12"
             }, 
             "postFrequency": 60000, 

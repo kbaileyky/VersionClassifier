@@ -27,17 +27,17 @@
                         529479190, 
                         553834731, 
                         667728512, 
-                        538212549, 
                         485126024, 
                         506627515, 
                         469231420, 
                         850417475, 
                         486363584, 
-                        594802437, 
+                        538212549, 
                         594843575, 
-                        483165745, 
                         824318267, 
-                        834393815
+                        483165745, 
+                        834393815, 
+                        694876905
                     ], 
                     "title": "Top Grossing iPad Games Apps"
                 }, 
@@ -46,17 +46,17 @@
                         529479190, 
                         553834731, 
                         667728512, 
-                        538212549, 
                         850417475, 
+                        538212549, 
                         506627515, 
                         447553564, 
-                        694876905, 
-                        860822992, 
-                        575980917, 
                         672150402, 
-                        694609161, 
-                        834393815, 
-                        572821456
+                        694876905, 
+                        485126024, 
+                        575980917, 
+                        558823262, 
+                        860822992, 
+                        694609161
                     ], 
                     "title": "Top Grossing iPhone Games Apps"
                 }
@@ -76,6 +76,11 @@
             ], 
             "appRatingsLearnMoreUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/appRatings?cc=us", 
             "versionHistory": [
+                {
+                    "releaseDate": "2014-11-14T12:18:33Z", 
+                    "releaseNotes": "Rock on! Farm Heroes Saga has moved mountains to bring you the brand new episode, Himalayan Heights!\n\nTake a train ride through 20 NEW LEVELS! But be sure to remember your climbing boots, as that makes it a steep 745 levels in total for you to ascend.\n\nPlus! Keep your eyes peeled for the Collection Animals along the way; there\u2019s a markhor, pack mule, yeti waiting to be discovered!\n\nUpdate Farm Heroes Saga to the latest version for all the newest content!", 
+                    "versionString": "2.15.4"
+                }, 
                 {
                     "releaseDate": "2014-11-03T10:01:21Z", 
                     "releaseNotes": "It's full steam ahead, as Farm Heroes Saga has added 20 NEW LEVELS for you to complete, in the episode, Rustic Redwoods!\n\nPlus, there\u2019s a new guy in town! The Bull has charged his way into level 706. Match Cropsies next to him and he\u2019ll head in that direction, clearing everything in it\u2019s way. Rumor has it, he is partial to Flowers\u2026\n\nUpdate Farm Heroes Saga to the latest version to have access to all the latest Farmtastic content!", 
@@ -235,7 +240,7 @@
             "pageDetails": "King.com Limited_Farm Heroes Saga", 
             "pageId": "608206510", 
             "language": "1", 
-            "serverInstance": "1011705", 
+            "serverInstance": "512000", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
@@ -458,10 +463,10 @@
                     "releaseDate": "2014-01-02", 
                     "artistId": 526656015, 
                     "userRating": {
-                        "ratingCountCurrentVersion": 2877, 
-                        "valueCurrentVersion": 4.5, 
+                        "ratingCountCurrentVersion": 76, 
+                        "valueCurrentVersion": 4, 
                         "value": 4.5, 
-                        "ratingCount": 132914
+                        "ratingCount": 132997
                     }, 
                     "artistUrl": "https://itunes.apple.com/us/artist/king.com-limited/id526656015?mt=8", 
                     "itunesNotes": null, 
@@ -535,48 +540,48 @@
                             "assets": [
                                 {
                                     "flavor": "iosSoftware", 
-                                    "size": 51131554
+                                    "size": 50332680
                                 }
                             ], 
                             "priceFormatted": "$0.00", 
                             "price": 0, 
                             "version": {
-                                "externalId": 768642789, 
-                                "display": "2.14.9"
+                                "externalId": 795353507, 
+                                "display": "2.15.4"
                             }, 
-                            "buyParams": "productType=C&price=0&salableAdamId=608206510&pricingParameters=STDQ&appExtVrsId=768642789", 
+                            "buyParams": "productType=C&price=0&salableAdamId=608206510&pricingParameters=STDQ&appExtVrsId=795353507", 
                             "type": "get"
                         }
                     ], 
                     "editorialBadgeInfo": null, 
                     "artwork": [
                         {
-                            "url": "http://a3.mzstatic.com/us/r30/Purple1/v4/62/85/00/6285006d-2860-2845-4054-da406f4e28da/icon240x240.png", 
+                            "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/26/1e/b4/261eb4b9-4731-af9f-58bc-8876265d7df9/icon240x240.jpeg", 
                             "width": 240, 
                             "height": 240
                         }, 
                         {
-                            "url": "http://a2.mzstatic.com/us/r30/Purple1/v4/62/85/00/6285006d-2860-2845-4054-da406f4e28da/icon1024x1024.jpeg", 
+                            "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/26/1e/b4/261eb4b9-4731-af9f-58bc-8876265d7df9/icon1024x1024.jpeg", 
                             "width": 1024, 
                             "height": 1024
                         }, 
                         {
-                            "url": "http://a2.mzstatic.com/us/r30/Purple1/v4/62/85/00/6285006d-2860-2845-4054-da406f4e28da/icon440x440.jpeg", 
+                            "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/26/1e/b4/261eb4b9-4731-af9f-58bc-8876265d7df9/icon440x440.png", 
                             "width": 440, 
                             "height": 440
                         }, 
                         {
-                            "url": "http://a1.mzstatic.com/us/r30/Purple1/v4/62/85/00/6285006d-2860-2845-4054-da406f4e28da/icon220x220.png", 
+                            "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/26/1e/b4/261eb4b9-4731-af9f-58bc-8876265d7df9/icon220x220.jpeg", 
                             "width": 220, 
                             "height": 220
                         }, 
                         {
-                            "url": "http://a3.mzstatic.com/us/r30/Purple1/v4/62/85/00/6285006d-2860-2845-4054-da406f4e28da/icon400x400.jpeg", 
+                            "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/26/1e/b4/261eb4b9-4731-af9f-58bc-8876265d7df9/icon400x400.png", 
                             "width": 400, 
                             "height": 400
                         }, 
                         {
-                            "url": "http://a1.mzstatic.com/us/r30/Purple1/v4/62/85/00/6285006d-2860-2845-4054-da406f4e28da/icon512x512.jpeg", 
+                            "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/26/1e/b4/261eb4b9-4731-af9f-58bc-8876265d7df9/icon512x512.jpeg", 
                             "width": 512, 
                             "height": 512
                         }
@@ -598,7 +603,7 @@
                         "ipad": [
                             [
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple6/v4/79/ae/a2/79aea27f-35b9-fdc5-c196-80f7c8790c4c/screen261x261-50.jpeg", 
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple6/v4/79/ae/a2/79aea27f-35b9-fdc5-c196-80f7c8790c4c/screen261x261-65.jpeg", 
                                     "width": 261, 
                                     "height": 196
                                 }, 
@@ -635,7 +640,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple4/v4/ee/6d/c8/ee6dc893-0513-79b9-e8d7-b4ad3b9f790e/screen261x261-50.jpeg", 
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple4/v4/ee/6d/c8/ee6dc893-0513-79b9-e8d7-b4ad3b9f790e/screen261x261-65.jpeg", 
                                     "width": 261, 
                                     "height": 196
                                 }, 
@@ -672,7 +677,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a4.mzstatic.com/us/r30/Purple6/v4/18/56/97/18569768-f8f1-6dc8-c24f-a03b388742a8/screen261x261-50.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple6/v4/18/56/97/18569768-f8f1-6dc8-c24f-a03b388742a8/screen261x261-65.jpeg", 
                                     "width": 261, 
                                     "height": 196
                                 }, 
@@ -709,7 +714,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple/v4/80/c7/52/80c752ab-1ed7-320c-2afb-484aaa2a4a65/screen261x261-50.jpeg", 
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple/v4/80/c7/52/80c752ab-1ed7-320c-2afb-484aaa2a4a65/screen261x261-65.jpeg", 
                                     "width": 261, 
                                     "height": 196
                                 }, 
@@ -746,7 +751,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple6/v4/f3/70/df/f370df5f-00c8-9a32-54e9-99de6eedb48c/screen261x261-50.jpeg", 
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple6/v4/f3/70/df/f370df5f-00c8-9a32-54e9-99de6eedb48c/screen261x261-65.jpeg", 
                                     "width": 261, 
                                     "height": 196
                                 }, 
@@ -1176,7 +1181,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "1011705", 
+        "ITSServerInstance": "512000", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 

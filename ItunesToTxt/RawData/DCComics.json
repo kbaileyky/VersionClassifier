@@ -24,16 +24,16 @@
                         350027738, 
                         597251953, 
                         395985060, 
-                        869502447, 
+                        436958659, 
                         415378623, 
-                        672803850, 
-                        434406498, 
                         364734296, 
-                        600093661, 
-                        364147847, 
+                        434406498, 
+                        869502447, 
+                        672803850, 
                         335630043, 
-                        453213960, 
-                        310295776
+                        600093661, 
+                        468607901, 
+                        536661409
                     ], 
                     "title": "Top Grossing iPad Books Apps"
                 }, 
@@ -41,17 +41,17 @@
                     "ids": [
                         350027738, 
                         444553118, 
+                        672803850, 
                         395985060, 
                         869502447, 
-                        672803850, 
-                        917240760, 
-                        597251953, 
-                        379351586, 
-                        587065961, 
                         364734296, 
-                        434406498, 
-                        356971775, 
-                        468607901
+                        435873883, 
+                        421486286, 
+                        597251953, 
+                        917240760, 
+                        519625336, 
+                        475752315, 
+                        483281737
                     ], 
                     "title": "Top Grossing iPhone Books Apps"
                 }
@@ -179,11 +179,11 @@
             "addOns": [
                 {
                     "price": "$0.99", 
-                    "name": "Injustice: Gods Among Us: Year Three (2014-) #6"
+                    "name": "Justice League #1"
                 }, 
                 {
                     "price": "$0.99", 
-                    "name": "Justice League #1"
+                    "name": "Injustice: Gods Among Us: Year Three (2014-) #6"
                 }, 
                 {
                     "price": "$0.99", 
@@ -224,11 +224,11 @@
             "pageDetails": "DC Entertainment_DC Comics", 
             "pageId": "378080432", 
             "language": "1", 
-            "serverInstance": "2126511", 
+            "serverInstance": "511005", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
-            "environmentDataCenter": "ST11", 
+            "environmentDataCenter": "NWK", 
             "pageType": "Software", 
             "platformName": "iTunes12", 
             "page": "Software_378080432"
@@ -450,7 +450,7 @@
                         "ratingCountCurrentVersion": 5, 
                         "valueCurrentVersion": 4, 
                         "value": 3.5, 
-                        "ratingCount": 11748
+                        "ratingCount": 11749
                     }, 
                     "artistUrl": "https://itunes.apple.com/us/artist/dc-entertainment/id378080435?mt=8", 
                     "itunesNotes": null, 
@@ -556,12 +556,12 @@
                             "height": 240
                         }, 
                         {
-                            "url": "http://a1.mzstatic.com/us/r30/Purple1/v4/e6/27/99/e6279963-8b6f-1387-36df-ecc93b8b4b81/icon1024x1024.png", 
+                            "url": "http://a4.mzstatic.com/us/r30/Purple1/v4/e6/27/99/e6279963-8b6f-1387-36df-ecc93b8b4b81/icon1024x1024.jpeg", 
                             "width": 1024, 
                             "height": 1024
                         }, 
                         {
-                            "url": "http://a4.mzstatic.com/us/r30/Purple1/v4/e6/27/99/e6279963-8b6f-1387-36df-ecc93b8b4b81/icon440x440.png", 
+                            "url": "http://a4.mzstatic.com/us/r30/Purple1/v4/e6/27/99/e6279963-8b6f-1387-36df-ecc93b8b4b81/icon440x440.jpeg", 
                             "width": 440, 
                             "height": 440
                         }, 
@@ -1149,7 +1149,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "2126511", 
+        "ITSServerInstance": "511005", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
@@ -1179,7 +1179,7 @@
                 "platformId": "28", 
                 "storeFront": "143441", 
                 "storeFrontHeader": "143441-1,28", 
-                "environmentDataCenter": "ST11", 
+                "environmentDataCenter": "NWK", 
                 "platformName": "iTunes12"
             }, 
             "postFrequency": 60000, 

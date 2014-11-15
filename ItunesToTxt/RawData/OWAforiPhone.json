@@ -10,36 +10,36 @@
                         338761996, 
                         898947872, 
                         659524331, 
-                        335393788, 
                         320659794, 
                         363501921, 
                         298844386, 
-                        714464092, 
+                        335393788, 
                         424104128, 
-                        306273816, 
-                        607485062, 
+                        714464092, 
                         605608899, 
-                        698070860, 
+                        392790924, 
+                        607485062, 
+                        306273816, 
                         595563753
                     ], 
                     "title": "Top Free iPad Business Apps"
                 }, 
                 "iphone": {
                     "ids": [
-                        309735670, 
                         469337564, 
+                        309735670, 
                         338761996, 
                         444553167, 
-                        514643583, 
                         320659794, 
+                        514643583, 
                         335393788, 
-                        635424128, 
                         335023774, 
-                        595563753, 
                         605841731, 
-                        377672876, 
+                        635424128, 
+                        595563753, 
                         333202351, 
-                        898947872
+                        377672876, 
+                        577491499
                     ], 
                     "title": "Top Free iPhone Business Apps"
                 }
@@ -51,18 +51,18 @@
                 586447913, 
                 586683407, 
                 586449534, 
-                541164041, 
                 605841731, 
+                541164041, 
                 410395246, 
-                345323231, 
                 477537958, 
                 714464092, 
+                345323231, 
                 484293461, 
                 655772279, 
                 736179781, 
-                669515221, 
                 430065256, 
-                912580285
+                669515221, 
+                485193234
             ], 
             "appRatingsLearnMoreUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/appRatings?cc=us", 
             "versionHistory": [
@@ -113,11 +113,11 @@
             "pageDetails": "Microsoft Corporation_OWA for iPhone", 
             "pageId": "659503543", 
             "language": "1", 
-            "serverInstance": "2126174", 
+            "serverInstance": "512077", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
-            "environmentDataCenter": "ST11", 
+            "environmentDataCenter": "NWK", 
             "pageType": "Software", 
             "platformName": "iTunes12", 
             "page": "Software_659503543"
@@ -415,7 +415,7 @@
                     "editorialBadgeInfo": null, 
                     "artwork": [
                         {
-                            "url": "http://a4.mzstatic.com/us/r30/Purple6/v4/c4/0b/51/c40b5160-fe2f-a70c-1c00-c3de1a8a0606/icon1024x1024.jpeg", 
+                            "url": "http://a2.mzstatic.com/us/r30/Purple6/v4/c4/0b/51/c40b5160-fe2f-a70c-1c00-c3de1a8a0606/icon1024x1024.png", 
                             "width": 1024, 
                             "height": 1024
                         }, 
@@ -425,7 +425,7 @@
                             "height": 440
                         }, 
                         {
-                            "url": "http://a2.mzstatic.com/us/r30/Purple6/v4/c4/0b/51/c40b5160-fe2f-a70c-1c00-c3de1a8a0606/icon220x220.png", 
+                            "url": "http://a4.mzstatic.com/us/r30/Purple6/v4/c4/0b/51/c40b5160-fe2f-a70c-1c00-c3de1a8a0606/icon220x220.jpeg", 
                             "width": 220, 
                             "height": 220
                         }, 
@@ -440,7 +440,7 @@
                             "height": 512
                         }
                     ], 
-                    "requiredCapabilities": "bluetooth-le front-facing-camera ", 
+                    "requiredCapabilities": "front-facing-camera bluetooth-le ", 
                     "name": "OWA for iPhone", 
                     "kind": "iosSoftware", 
                     "tellAFriendMessageContentsUrl": "https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendEmailBody?cc=us&displayable-kind=11&id=659503543&name=s&type=14", 
@@ -731,7 +731,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "2126174", 
+        "ITSServerInstance": "512077", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
@@ -761,7 +761,7 @@
                 "platformId": "28", 
                 "storeFront": "143441", 
                 "storeFrontHeader": "143441-1,28", 
-                "environmentDataCenter": "ST11", 
+                "environmentDataCenter": "NWK", 
                 "platformName": "iTunes12"
             }, 
             "postFrequency": 60000, 

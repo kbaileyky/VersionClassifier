@@ -9,18 +9,18 @@
                         450123799, 
                         334989259, 
                         576588894, 
-                        567008119, 
                         478132032, 
-                        912289616, 
-                        405005619, 
-                        364733950, 
+                        567008119, 
+                        423443665, 
+                        307312434, 
+                        489221652, 
+                        331466909, 
                         683795897, 
-                        872771050, 
-                        457561360, 
-                        804637783, 
-                        383313652, 
-                        791622420, 
-                        508465867
+                        912289616, 
+                        333227386, 
+                        336662664, 
+                        573135437, 
+                        872771050
                     ], 
                     "title": "Top Paid iPad Reference Apps"
                 }, 
@@ -29,18 +29,18 @@
                         385756768, 
                         576588894, 
                         334989259, 
-                        804637783, 
-                        402422247, 
-                        478126577, 
                         878185680, 
-                        634158738, 
-                        624554947, 
+                        804637783, 
                         475772902, 
+                        478126577, 
+                        402422247, 
+                        634158738, 
                         312739823, 
                         914945059, 
+                        624554947, 
+                        443321291, 
                         453571750, 
-                        289694924, 
-                        499394939
+                        301349397
                     ], 
                     "title": "Top Paid iPhone Reference Apps"
                 }
@@ -139,11 +139,11 @@
             "pageDetails": "Open Door Networks, Inc._Art Authority", 
             "pageId": "355879924", 
             "language": "1", 
-            "serverInstance": "2004900", 
+            "serverInstance": "512088", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
-            "environmentDataCenter": "ST11", 
+            "environmentDataCenter": "NWK", 
             "pageType": "Software", 
             "platformName": "iTunes12", 
             "page": "Software_355879924"
@@ -454,7 +454,7 @@
                     "editorialBadgeInfo": null, 
                     "artwork": [
                         {
-                            "url": "http://a1.mzstatic.com/us/r30/Purple/v4/de/3a/13/de3a1327-596c-e22d-9963-9cb517782747/icon1024x1024.png", 
+                            "url": "http://a3.mzstatic.com/us/r30/Purple/v4/de/3a/13/de3a1327-596c-e22d-9963-9cb517782747/icon1024x1024.jpeg", 
                             "width": 1024, 
                             "height": 1024
                         }, 
@@ -464,12 +464,12 @@
                             "height": 440
                         }, 
                         {
-                            "url": "http://a1.mzstatic.com/us/r30/Purple/v4/de/3a/13/de3a1327-596c-e22d-9963-9cb517782747/icon220x220.png", 
+                            "url": "http://a5.mzstatic.com/us/r30/Purple/v4/de/3a/13/de3a1327-596c-e22d-9963-9cb517782747/icon220x220.jpeg", 
                             "width": 220, 
                             "height": 220
                         }, 
                         {
-                            "url": "http://a2.mzstatic.com/us/r30/Purple/v4/de/3a/13/de3a1327-596c-e22d-9963-9cb517782747/icon256x256.png", 
+                            "url": "http://a3.mzstatic.com/us/r30/Purple/v4/de/3a/13/de3a1327-596c-e22d-9963-9cb517782747/icon256x256.jpeg", 
                             "width": 256, 
                             "height": 256
                         }, 
@@ -835,7 +835,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "2004900", 
+        "ITSServerInstance": "512088", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
@@ -865,7 +865,7 @@
                 "platformId": "28", 
                 "storeFront": "143441", 
                 "storeFrontHeader": "143441-1,28", 
-                "environmentDataCenter": "ST11", 
+                "environmentDataCenter": "NWK", 
                 "platformName": "iTunes12"
             }, 
             "postFrequency": 60000, 

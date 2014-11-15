@@ -26,37 +26,37 @@
                     "ids": [
                         308368164, 
                         512350210, 
-                        412351574, 
                         613398383, 
+                        412351574, 
                         893927401, 
+                        551215116, 
                         398860728, 
-                        664909593, 
                         891450541, 
                         491771721, 
-                        509343934, 
-                        882931712, 
-                        565200595, 
+                        664909593, 
+                        719219382, 
                         722910739, 
-                        551215116
+                        664306853, 
+                        509343934
                     ], 
                     "title": "Top Grossing iPad Education Apps"
                 }, 
                 "iphone": {
                     "ids": [
                         613398383, 
-                        467329677, 
                         577232024, 
-                        435588892, 
                         893927401, 
+                        467329677, 
+                        563979110, 
+                        435588892, 
                         565200595, 
-                        625614526, 
+                        308368164, 
                         891453663, 
-                        373493387, 
+                        625614526, 
                         518334522, 
-                        562413829, 
-                        369946804, 
-                        591626572, 
-                        806223188
+                        806223188, 
+                        722910739, 
+                        364894352
                     ], 
                     "title": "Top Grossing iPhone Education Apps"
                 }
@@ -190,16 +190,16 @@
                     "name": "Beginner Serger Sewing"
                 }, 
                 {
+                    "price": "$24.99", 
+                    "name": "Jewelry Workshop: Bead, Wrap, Chain & Etch"
+                }, 
+                {
                     "price": "$14.99", 
                     "name": "The Wilton Method\u00ae: Baking Basics"
                 }, 
                 {
                     "price": "$29.99", 
                     "name": "40 Techniques Every Sewer Should Know"
-                }, 
-                {
-                    "price": "$24.99", 
-                    "name": "Jewelry Workshop: Bead, Wrap, Chain & Etch"
                 }, 
                 {
                     "price": "$19.99", 
@@ -210,12 +210,12 @@
                     "name": "Shuttle Tatting"
                 }, 
                 {
-                    "price": "$34.99", 
-                    "name": "Finishing School: Edges & Bindings"
+                    "price": "$19.99", 
+                    "name": "Artisan Bread Making"
                 }, 
                 {
-                    "price": "$29.99", 
-                    "name": "Quilting Big Projects on a Small Machine"
+                    "price": "$34.99", 
+                    "name": "Finishing School: Edges & Bindings"
                 }
             ], 
             "id": 540872054
@@ -224,11 +224,11 @@
             "pageDetails": "Sympoz Inc._Craftsy", 
             "pageId": "540872054", 
             "language": "1", 
-            "serverInstance": "2125711", 
+            "serverInstance": "1004706", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
-            "environmentDataCenter": "ST11", 
+            "environmentDataCenter": "NWK", 
             "pageType": "Software", 
             "platformName": "iTunes12", 
             "page": "Software_540872054"
@@ -532,12 +532,12 @@
                     "editorialBadgeInfo": null, 
                     "artwork": [
                         {
-                            "url": "http://a2.mzstatic.com/us/r30/Purple1/v4/2b/b4/9d/2bb49df3-94db-142c-8ae8-cfd8b7a49a5f/icon240x240.jpeg", 
+                            "url": "http://a5.mzstatic.com/us/r30/Purple1/v4/2b/b4/9d/2bb49df3-94db-142c-8ae8-cfd8b7a49a5f/icon240x240.png", 
                             "width": 240, 
                             "height": 240
                         }, 
                         {
-                            "url": "http://a2.mzstatic.com/us/r30/Purple1/v4/2b/b4/9d/2bb49df3-94db-142c-8ae8-cfd8b7a49a5f/icon1024x1024.jpeg", 
+                            "url": "http://a3.mzstatic.com/us/r30/Purple1/v4/2b/b4/9d/2bb49df3-94db-142c-8ae8-cfd8b7a49a5f/icon1024x1024.png", 
                             "width": 1024, 
                             "height": 1024
                         }, 
@@ -552,7 +552,7 @@
                             "height": 220
                         }, 
                         {
-                            "url": "http://a5.mzstatic.com/us/r30/Purple1/v4/2b/b4/9d/2bb49df3-94db-142c-8ae8-cfd8b7a49a5f/icon400x400.png", 
+                            "url": "http://a5.mzstatic.com/us/r30/Purple1/v4/2b/b4/9d/2bb49df3-94db-142c-8ae8-cfd8b7a49a5f/icon400x400.jpeg", 
                             "width": 400, 
                             "height": 400
                         }, 
@@ -689,7 +689,7 @@
                         "ipad": [
                             [
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple4/v4/d6/9a/96/d69a9693-3fcf-ee03-0c37-c7a7d8c75a9c/screen261x261-65.jpeg", 
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple4/v4/d6/9a/96/d69a9693-3fcf-ee03-0c37-c7a7d8c75a9c/screen261x261-50.jpeg", 
                                     "width": 261, 
                                     "height": 196
                                 }, 
@@ -709,12 +709,12 @@
                                     "height": 414
                                 }, 
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple4/v4/d6/9a/96/d69a9693-3fcf-ee03-0c37-c7a7d8c75a9c/screen420x420.jpeg", 
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple4/v4/d6/9a/96/d69a9693-3fcf-ee03-0c37-c7a7d8c75a9c/screen420x316.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple4/v4/d6/9a/96/d69a9693-3fcf-ee03-0c37-c7a7d8c75a9c/screen420x316.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple4/v4/d6/9a/96/d69a9693-3fcf-ee03-0c37-c7a7d8c75a9c/screen420x420.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
@@ -726,7 +726,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple4/v4/e3/9e/8a/e39e8ab4-6ecd-34df-31e4-5a95c4cff920/screen261x261-65.jpeg", 
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple4/v4/e3/9e/8a/e39e8ab4-6ecd-34df-31e4-5a95c4cff920/screen261x261-50.jpeg", 
                                     "width": 261, 
                                     "height": 196
                                 }, 
@@ -746,12 +746,12 @@
                                     "height": 414
                                 }, 
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple4/v4/e3/9e/8a/e39e8ab4-6ecd-34df-31e4-5a95c4cff920/screen420x420.jpeg", 
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple4/v4/e3/9e/8a/e39e8ab4-6ecd-34df-31e4-5a95c4cff920/screen420x316.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
                                 {
-                                    "url": "http://a4.mzstatic.com/us/r30/Purple4/v4/e3/9e/8a/e39e8ab4-6ecd-34df-31e4-5a95c4cff920/screen420x316.jpeg", 
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple4/v4/e3/9e/8a/e39e8ab4-6ecd-34df-31e4-5a95c4cff920/screen420x420.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
@@ -763,7 +763,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a5.mzstatic.com/us/r30/Purple5/v4/35/e5/c1/35e5c129-14d8-11cf-10da-96ec90e4e174/screen261x261-65.jpeg", 
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple5/v4/35/e5/c1/35e5c129-14d8-11cf-10da-96ec90e4e174/screen261x261-50.jpeg", 
                                     "width": 261, 
                                     "height": 196
                                 }, 
@@ -783,12 +783,12 @@
                                     "height": 414
                                 }, 
                                 {
-                                    "url": "http://a5.mzstatic.com/us/r30/Purple5/v4/35/e5/c1/35e5c129-14d8-11cf-10da-96ec90e4e174/screen420x420.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple5/v4/35/e5/c1/35e5c129-14d8-11cf-10da-96ec90e4e174/screen420x316.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple5/v4/35/e5/c1/35e5c129-14d8-11cf-10da-96ec90e4e174/screen420x316.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple5/v4/35/e5/c1/35e5c129-14d8-11cf-10da-96ec90e4e174/screen420x420.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
@@ -800,7 +800,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/a7/20/9c/a7209ce2-1102-332b-1317-29a32d75e382/screen261x261-65.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/a7/20/9c/a7209ce2-1102-332b-1317-29a32d75e382/screen261x261-50.jpeg", 
                                     "width": 196, 
                                     "height": 261
                                 }, 
@@ -832,7 +832,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a4.mzstatic.com/us/r30/Purple4/v4/50/17/7f/50177fe5-c530-1705-2c70-27147e54db53/screen261x261-65.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple4/v4/50/17/7f/50177fe5-c530-1705-2c70-27147e54db53/screen261x261-50.jpeg", 
                                     "width": 261, 
                                     "height": 196
                                 }, 
@@ -852,12 +852,12 @@
                                     "height": 414
                                 }, 
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple4/v4/50/17/7f/50177fe5-c530-1705-2c70-27147e54db53/screen420x420.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple4/v4/50/17/7f/50177fe5-c530-1705-2c70-27147e54db53/screen420x316.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
                                 {
-                                    "url": "http://a5.mzstatic.com/us/r30/Purple4/v4/50/17/7f/50177fe5-c530-1705-2c70-27147e54db53/screen420x316.jpeg", 
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple4/v4/50/17/7f/50177fe5-c530-1705-2c70-27147e54db53/screen420x420.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
@@ -1480,7 +1480,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "2125711", 
+        "ITSServerInstance": "1004706", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
@@ -1510,7 +1510,7 @@
                 "platformId": "28", 
                 "storeFront": "143441", 
                 "storeFrontHeader": "143441-1,28", 
-                "environmentDataCenter": "ST11", 
+                "environmentDataCenter": "NWK", 
                 "platformName": "iTunes12"
             }, 
             "postFrequency": 60000, 

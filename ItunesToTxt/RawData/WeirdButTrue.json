@@ -27,35 +27,35 @@
                         378080432, 
                         597251953, 
                         395985060, 
-                        869502447, 
+                        436958659, 
                         415378623, 
-                        672803850, 
-                        434406498, 
                         364734296, 
-                        600093661, 
-                        364147847, 
+                        434406498, 
+                        869502447, 
+                        672803850, 
                         335630043, 
-                        453213960, 
-                        310295776
+                        600093661, 
+                        468607901, 
+                        536661409
                     ], 
                     "title": "Top Grossing iPad Books Apps"
                 }, 
                 "iphone": {
                     "ids": [
                         350027738, 
-                        378080432, 
                         444553118, 
+                        378080432, 
+                        672803850, 
                         395985060, 
                         869502447, 
-                        672803850, 
-                        917240760, 
-                        597251953, 
-                        379351586, 
-                        587065961, 
                         364734296, 
-                        434406498, 
-                        356971775, 
-                        468607901
+                        435873883, 
+                        421486286, 
+                        597251953, 
+                        917240760, 
+                        519625336, 
+                        475752315, 
+                        483281737
                     ], 
                     "title": "Top Grossing iPhone Books Apps"
                 }
@@ -66,11 +66,11 @@
             "moreByThisDeveloper": [
                 418671597, 
                 518426085, 
-                932554205, 
                 672796476, 
+                932554205, 
                 592453480, 
-                364733950, 
                 634062996, 
+                364733950, 
                 820381057, 
                 373203236, 
                 899164288, 
@@ -188,7 +188,7 @@
             "pageDetails": "National Geographic Society_Weird But True", 
             "pageId": "458424230", 
             "language": "1", 
-            "serverInstance": "2003205", 
+            "serverInstance": "612805", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
@@ -514,7 +514,7 @@
                             "height": 220
                         }, 
                         {
-                            "url": "http://a5.mzstatic.com/us/r30/Purple4/v4/62/fd/f4/62fdf45b-470a-f7a6-cdcf-eb57b4938de6/icon256x256.jpeg", 
+                            "url": "http://a5.mzstatic.com/us/r30/Purple4/v4/62/fd/f4/62fdf45b-470a-f7a6-cdcf-eb57b4938de6/icon256x256.png", 
                             "width": 256, 
                             "height": 256
                         }, 
@@ -1042,7 +1042,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "2003205", 
+        "ITSServerInstance": "612805", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 

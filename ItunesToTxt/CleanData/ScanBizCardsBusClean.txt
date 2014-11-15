@@ -1,0 +1,148 @@
+Version Number: 5.05
+Release Date: 2014-11-04T15:02:00Z
+- Resolved crashes
+- Additional bug fixes & enhancements
+
+Version Number: 5.04
+Release Date: 2014-09-25T17:29:11Z
+- Supports iOS8
+- Bug fixes & enhancements
+
+Version Number: 5.03
+Release Date: 2014-09-02T22:12:45Z
+- Supports exporting to MailerMailer
+- Extend SalesForce integration for Enterprise users
+- Bug fixes & enhancements
+
+Version Number: 5.02
+Release Date: 2014-05-13T18:43:57Z
+- Crop a scanned card
+- Filter cards within a folder 
+- Zoom in/out on a card
+- View a card full screen
+
+Version Number: 5.01
+Release Date: 2014-04-05T00:07:48Z
+* Added back in the ability to create a contact using the Copy Text feature
+* Added back in the ability to sort contacts
+* Resolved WebSync timeout issues
+
+Version Number: 5.0
+Release Date: 2014-03-27T20:44:34Z
+Completely new user interface makes scanning cards faster and easier than ever! Other improvements:
+
+_Scans cards 30% faster
+_Free WebSync service (formerly $10/year), offering access to all your cards on ANY device
+_Better integration with Salesforce
+_Improved Optical Character Recognition
+
+Version Number: 4.04
+Release Date: 2014-01-18T04:05:24Z
+* Minor bug fix to the Salesforce settings page
+
+Version Number: 4.03
+Release Date: 2013-11-12T23:05:03Z
+* Support for Salesforce Enterprise solution
+* Accuracy improvements
+* Fix iOS7 groups creation bug
+
+Version Number: 4.02
+Release Date: 2013-08-20T22:06:39Z
+* Fix for broken Salesforce export feature
+
+Version Number: 4.01
+Release Date: 2013-07-25T04:30:44Z
+* New: support for phone extensions
+* OCR accuracy improvements
+
+Version Number: 4.0
+Release Date: 2013-05-21T11:55:58Z
+* Completely redesigned user interface!
+
+Version Number: 3.21
+Release Date: 2013-04-12T00:43:56Z
+* Accuracy improvements
+* Fix to Salesforce accounts lookup
+
+Version Number: 3.20
+Release Date: 2013-03-08T20:11:49Z
+* Bug fix for a crash editing the country in an address item
+
+Version Number: 3.19
+Release Date: 2013-02-20T03:25:16Z
+* Fixed crash touching Take Next Photo button
+* Clearer help getting cards moved from Lite to Premium
+* Push notifications
+* Fix iPhone 5 camera overlay
+
+Version Number: 3.18
+Release Date: 2013-01-13T21:56:10Z
+* Major OCR accuracy improvement 
+* NEW: Oracle Fusion CRM export 
+* Real-time notifications for manual transcription results 
+* Redesigned export menu
+
+Version Number: 3.17
+Release Date: 2012-11-03T22:38:22Z
+-Support for new Evernote authentication method
+-Bug fixes
+
+Version Number: 3.16
+Release Date: 2012-10-12T23:53:25Z
+-Fixed bug preventing many iPhone 5 users from editing scanned items
+-Fixed bug of keyboard not showing in some text boxes
+-Fixed white screen flicker
+-Fixed various crashes for SugarCRM export
+
+Version Number: 3.15
+Release Date: 2012-09-20T22:54:57Z
+-Fixed bug preventing users on iOS 5 and below from adding contacts to Address Book
+
+Version Number: 3.14
+Release Date: 2012-09-19T22:56:08Z
+* NEW: SugarCRM export!
+* iOS6 bug fixes
+* Fixed bug in Web Sync change email / pwd
+* Saleforce: support for assigning contacts to accounts
+* OCR accuracy improvements
+
+Version Number: 3.13
+Release Date: 2012-03-30T22:35:05Z
+* Fixed iOS 5.1 crash taking photos
+* New web archiving mode to reduce device storage needs
+* Assigning cards to multiple folders
+* Bugs fixes in Excel CSV export
+* Bug fix for "source type 0" error with groups
+* Added localization: French, Spanish, Italian
+
+Version Number: 3.12
+Release Date: 2011-12-13T01:34:26Z
+* Fix for crashes scanning some images
+* Fix for user interface freeze after LinkeIn invite
+* Fix for Salesforce export into accounts with no Lead object
+* Add support for CardScan import
+
+Version Number: 3.11
+Release Date: 2011-11-02T20:07:10Z
+* Fix iOS5 bug assigning contacts to groups
+* Improved submission of cards for manual transcription
+
+Version Number: 3.10
+Release Date: 2011-10-25T19:55:23Z
+* Fix iOS5 bug with clipboard import
+* Fix issue with Salesforce checkbox types
+
+Version Number: 3.09
+Release Date: 2011-10-14T00:38:04Z
+* NEW: option to export to Salesforce.com as new contacts (in addition to leads)
+* NEW: export to Daylite CRM
+* More consistent ordering of scanned results
+* Fixed several issues with the Salesforce export
+
+Version Number: 3.08
+Release Date: 2011-08-29T16:42:50Z
+* NEW: all features enabled for email signature captures
+* NEW: Batch export multiple cards to Salesforce.com
+* Significant accuracy improvements
+* NEW: Integration with Daylite Touch CRM iPhone App
+

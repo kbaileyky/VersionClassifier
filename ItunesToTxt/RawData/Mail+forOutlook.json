@@ -21,39 +21,39 @@
                 "ipad": {
                     "ids": [
                         540236748, 
-                        382509315, 
-                        828542236, 
                         469337564, 
+                        382509315, 
                         584606479, 
+                        828542236, 
                         284741179, 
-                        364876095, 
                         487810572, 
                         317107309, 
-                        433213956, 
                         364502063, 
-                        918093169, 
-                        581653700, 
+                        556853421, 
+                        531272886, 
+                        588647136, 
+                        290853822, 
                         400464448, 
-                        455872859
+                        499999532
                     ], 
                     "title": "Top Grossing iPad Business Apps"
                 }, 
                 "iphone": {
                     "ids": [
                         342548956, 
-                        294934058, 
                         540236748, 
+                        294934058, 
                         577499909, 
-                        331514859, 
-                        333710667, 
-                        595563753, 
-                        556500145, 
-                        637819447, 
-                        531272886, 
                         469337564, 
+                        595563753, 
+                        637819447, 
+                        556500145, 
+                        333710667, 
                         381786507, 
                         566504821, 
-                        592873891
+                        531272886, 
+                        392640124, 
+                        672100118
                     ], 
                     "title": "Top Grossing iPhone Business Apps"
                 }
@@ -62,8 +62,8 @@
                 "rating-text": "Rated 4+"
             }, 
             "moreByThisDeveloper": [
-                702276889, 
                 663045722, 
+                702276889, 
                 528355200
             ], 
             "appRatingsLearnMoreUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/appRatings?cc=us", 
@@ -206,11 +206,11 @@
             "pageDetails": "iKonic Apps LLC_Mail+ for Outlook", 
             "pageId": "428974099", 
             "language": "1", 
-            "serverInstance": "1003604", 
+            "serverInstance": "2126172", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
-            "environmentDataCenter": "NWK", 
+            "environmentDataCenter": "ST11", 
             "pageType": "Software", 
             "platformName": "iTunes12", 
             "page": "Software_428974099"
@@ -432,7 +432,7 @@
                         "ratingCountCurrentVersion": 27, 
                         "valueCurrentVersion": 4.5, 
                         "value": 3.5, 
-                        "ratingCount": 6470
+                        "ratingCount": 6466
                     }, 
                     "artistUrl": "https://itunes.apple.com/us/artist/ikonic-apps-llc/id359873852?mt=8", 
                     "itunesNotes": null, 
@@ -514,7 +514,7 @@
                     "editorialBadgeInfo": null, 
                     "artwork": [
                         {
-                            "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/de/b5/00/deb5000c-8c01-dd72-c200-65ddce37e943/icon240x240.png", 
+                            "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/de/b5/00/deb5000c-8c01-dd72-c200-65ddce37e943/icon240x240.jpeg", 
                             "width": 240, 
                             "height": 240
                         }, 
@@ -1462,7 +1462,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "1003604", 
+        "ITSServerInstance": "2126172", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
@@ -1492,7 +1492,7 @@
                 "platformId": "28", 
                 "storeFront": "143441", 
                 "storeFrontHeader": "143441-1,28", 
-                "environmentDataCenter": "NWK", 
+                "environmentDataCenter": "ST11", 
                 "platformName": "iTunes12"
             }, 
             "postFrequency": 60000, 

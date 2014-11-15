@@ -24,34 +24,34 @@
                         378080432, 
                         597251953, 
                         395985060, 
-                        869502447, 
+                        436958659, 
                         415378623, 
-                        672803850, 
-                        434406498, 
                         364734296, 
-                        600093661, 
-                        364147847, 
+                        434406498, 
+                        869502447, 
+                        672803850, 
                         335630043, 
-                        453213960, 
-                        310295776
+                        600093661, 
+                        468607901, 
+                        536661409
                     ], 
                     "title": "Top Grossing iPad Books Apps"
                 }, 
                 "iphone": {
                     "ids": [
-                        378080432, 
                         444553118, 
+                        378080432, 
+                        672803850, 
                         395985060, 
                         869502447, 
-                        672803850, 
-                        917240760, 
-                        597251953, 
-                        379351586, 
-                        587065961, 
                         364734296, 
-                        434406498, 
-                        356971775, 
-                        468607901
+                        435873883, 
+                        421486286, 
+                        597251953, 
+                        917240760, 
+                        519625336, 
+                        475752315, 
+                        483281737
                     ], 
                     "title": "Top Grossing iPhone Books Apps"
                 }
@@ -212,16 +212,16 @@
                     "name": "Avengers & X-Men: Axis (2014) #4"
                 }, 
                 {
-                    "price": "$4.99", 
-                    "name": "Amazing Spider-Man (2014) #9"
-                }, 
-                {
                     "price": "$1.99", 
                     "name": "Civil War #1"
                 }, 
                 {
                     "price": "$1.99", 
                     "name": "Avengers vs. X-Men (2012) #1"
+                }, 
+                {
+                    "price": "$4.99", 
+                    "name": "Amazing Spider-Man (2014) #9"
                 }, 
                 {
                     "price": "$1.99", 
@@ -254,7 +254,7 @@
             "pageDetails": "Marvel Entertainment_Marvel Comics", 
             "pageId": "350027738", 
             "language": "1", 
-            "serverInstance": "1010400", 
+            "serverInstance": "1013104", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
@@ -480,7 +480,7 @@
                         "ratingCountCurrentVersion": 23, 
                         "valueCurrentVersion": 2.5, 
                         "value": 3.5, 
-                        "ratingCount": 40854
+                        "ratingCount": 40852
                     }, 
                     "artistUrl": "https://itunes.apple.com/us/artist/marvel-entertainment/id350027742?mt=8", 
                     "itunesNotes": null, 
@@ -581,7 +581,7 @@
                     "editorialBadgeInfo": null, 
                     "artwork": [
                         {
-                            "url": "http://a5.mzstatic.com/us/r30/Purple5/v4/bf/fa/f9/bffaf97b-1dc6-1634-cfa1-9536d351c125/icon240x240.png", 
+                            "url": "http://a2.mzstatic.com/us/r30/Purple5/v4/bf/fa/f9/bffaf97b-1dc6-1634-cfa1-9536d351c125/icon240x240.jpeg", 
                             "width": 240, 
                             "height": 240
                         }, 
@@ -1219,7 +1219,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "1010400", 
+        "ITSServerInstance": "1013104", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 

@@ -25,38 +25,38 @@
                     "ids": [
                         308368164, 
                         512350210, 
-                        412351574, 
                         613398383, 
+                        412351574, 
                         893927401, 
-                        398860728, 
-                        664909593, 
-                        891450541, 
                         540872054, 
+                        551215116, 
+                        398860728, 
+                        891450541, 
                         491771721, 
-                        509343934, 
-                        882931712, 
-                        565200595, 
+                        664909593, 
+                        719219382, 
                         722910739, 
-                        551215116
+                        664306853, 
+                        509343934
                     ], 
                     "title": "Top Grossing iPad Education Apps"
                 }, 
                 "iphone": {
                     "ids": [
                         613398383, 
-                        467329677, 
                         577232024, 
-                        435588892, 
                         893927401, 
+                        467329677, 
+                        563979110, 
+                        435588892, 
                         565200595, 
+                        308368164, 
                         891453663, 
-                        373493387, 
-                        518334522, 
-                        562413829, 
-                        369946804, 
-                        591626572, 
                         540872054, 
-                        806223188
+                        518334522, 
+                        806223188, 
+                        722910739, 
+                        364894352
                     ], 
                     "title": "Top Grossing iPhone Education Apps"
                 }
@@ -68,10 +68,10 @@
                 "rating-text": "You must be at least 17 years old to download this app."
             }, 
             "moreByThisDeveloper": [
-                911128301, 
                 711681319, 
                 870792826, 
                 657649173, 
+                911128301, 
                 808313522, 
                 571804541
             ], 
@@ -135,7 +135,7 @@
             "pageDetails": "Higher Learning Technologies_NCLEX RN Mastery", 
             "pageId": "625614526", 
             "language": "1", 
-            "serverInstance": "1006803", 
+            "serverInstance": "510505", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
@@ -358,8 +358,8 @@
                     "releaseDate": "2013-04-11", 
                     "artistId": 571804544, 
                     "userRating": {
-                        "ratingCountCurrentVersion": 0, 
-                        "valueCurrentVersion": 0, 
+                        "ratingCountCurrentVersion": 5, 
+                        "valueCurrentVersion": 5, 
                         "value": 4.5, 
                         "ratingCount": 1375
                     }, 
@@ -453,17 +453,17 @@
                             "height": 240
                         }, 
                         {
-                            "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/4e/2d/20/4e2d20a2-8061-af91-bb0f-dbb200f9aed5/icon1024x1024.png", 
+                            "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/4e/2d/20/4e2d20a2-8061-af91-bb0f-dbb200f9aed5/icon1024x1024.jpeg", 
                             "width": 1024, 
                             "height": 1024
                         }, 
                         {
-                            "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/4e/2d/20/4e2d20a2-8061-af91-bb0f-dbb200f9aed5/icon440x440.jpeg", 
+                            "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/4e/2d/20/4e2d20a2-8061-af91-bb0f-dbb200f9aed5/icon440x440.png", 
                             "width": 440, 
                             "height": 440
                         }, 
                         {
-                            "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/4e/2d/20/4e2d20a2-8061-af91-bb0f-dbb200f9aed5/icon220x220.jpeg", 
+                            "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/4e/2d/20/4e2d20a2-8061-af91-bb0f-dbb200f9aed5/icon220x220.png", 
                             "width": 220, 
                             "height": 220
                         }, 
@@ -473,7 +473,7 @@
                             "height": 400
                         }, 
                         {
-                            "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/4e/2d/20/4e2d20a2-8061-af91-bb0f-dbb200f9aed5/icon512x512.png", 
+                            "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/4e/2d/20/4e2d20a2-8061-af91-bb0f-dbb200f9aed5/icon512x512.jpeg", 
                             "width": 512, 
                             "height": 512
                         }
@@ -1059,7 +1059,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "1006803", 
+        "ITSServerInstance": "510505", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 

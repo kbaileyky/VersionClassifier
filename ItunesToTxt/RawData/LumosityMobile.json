@@ -25,38 +25,38 @@
                     "ids": [
                         308368164, 
                         512350210, 
-                        412351574, 
                         613398383, 
+                        412351574, 
                         893927401, 
-                        398860728, 
-                        664909593, 
-                        891450541, 
                         540872054, 
+                        551215116, 
+                        398860728, 
+                        891450541, 
                         491771721, 
-                        509343934, 
-                        882931712, 
-                        565200595, 
+                        664909593, 
+                        719219382, 
                         722910739, 
-                        551215116
+                        664306853, 
+                        509343934
                     ], 
                     "title": "Top Grossing iPad Education Apps"
                 }, 
                 "iphone": {
                     "ids": [
                         613398383, 
-                        467329677, 
-                        435588892, 
                         893927401, 
+                        467329677, 
+                        563979110, 
+                        435588892, 
                         565200595, 
-                        625614526, 
+                        308368164, 
                         891453663, 
-                        373493387, 
-                        518334522, 
-                        562413829, 
-                        369946804, 
-                        591626572, 
+                        625614526, 
                         540872054, 
-                        806223188
+                        518334522, 
+                        806223188, 
+                        722910739, 
+                        364894352
                     ], 
                     "title": "Top Grossing iPhone Education Apps"
                 }
@@ -228,11 +228,11 @@
             "pageDetails": "Lumos Labs, Inc._Lumosity Mobile", 
             "pageId": "577232024", 
             "language": "1", 
-            "serverInstance": "2125938", 
+            "serverInstance": "512017", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
-            "environmentDataCenter": "ST11", 
+            "environmentDataCenter": "NWK", 
             "pageType": "Software", 
             "platformName": "iTunes12", 
             "page": "Software_577232024"
@@ -451,10 +451,10 @@
                     "releaseDate": "2013-06-20", 
                     "artistId": 297628735, 
                     "userRating": {
-                        "ratingCountCurrentVersion": 281, 
+                        "ratingCountCurrentVersion": 298, 
                         "valueCurrentVersion": 4.5, 
                         "value": 5, 
-                        "ratingCount": 88207
+                        "ratingCount": 88225
                     }, 
                     "artistUrl": "https://itunes.apple.com/us/artist/lumos-labs-inc./id297628735?mt=8", 
                     "itunesNotes": null, 
@@ -538,7 +538,7 @@
                     }, 
                     "artwork": [
                         {
-                            "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/b5/8e/7e/b58e7e69-e752-d50c-bd06-29db1a6ee7bf/icon240x240.png", 
+                            "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/b5/8e/7e/b58e7e69-e752-d50c-bd06-29db1a6ee7bf/icon240x240.jpeg", 
                             "width": 240, 
                             "height": 240
                         }, 
@@ -553,7 +553,7 @@
                             "height": 440
                         }, 
                         {
-                            "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/b5/8e/7e/b58e7e69-e752-d50c-bd06-29db1a6ee7bf/icon220x220.png", 
+                            "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/b5/8e/7e/b58e7e69-e752-d50c-bd06-29db1a6ee7bf/icon220x220.jpeg", 
                             "width": 220, 
                             "height": 220
                         }, 
@@ -563,7 +563,7 @@
                             "height": 400
                         }, 
                         {
-                            "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/b5/8e/7e/b58e7e69-e752-d50c-bd06-29db1a6ee7bf/icon512x512.jpeg", 
+                            "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/b5/8e/7e/b58e7e69-e752-d50c-bd06-29db1a6ee7bf/icon512x512.png", 
                             "width": 512, 
                             "height": 512
                         }
@@ -1000,7 +1000,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "2125938", 
+        "ITSServerInstance": "512017", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
@@ -1030,7 +1030,7 @@
                 "platformId": "28", 
                 "storeFront": "143441", 
                 "storeFrontHeader": "143441-1,28", 
-                "environmentDataCenter": "ST11", 
+                "environmentDataCenter": "NWK", 
                 "platformName": "iTunes12"
             }, 
             "postFrequency": 60000, 
