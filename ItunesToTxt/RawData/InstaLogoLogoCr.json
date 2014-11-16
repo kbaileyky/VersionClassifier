@@ -23,40 +23,40 @@
             "topApps": {
                 "ipad": {
                     "ids": [
-                        382509315, 
                         333710667, 
-                        364502063, 
                         594704446, 
-                        317107309, 
-                        874776696, 
-                        918093169, 
-                        284741179, 
-                        364876095, 
-                        366020849, 
-                        583018751, 
-                        513188658, 
-                        586166344, 
+                        382509315, 
                         780621650, 
-                        556500145
+                        874776696, 
+                        364502063, 
+                        504968354, 
+                        556500145, 
+                        373045717, 
+                        558270538, 
+                        317107309, 
+                        918093169, 
+                        364876095, 
+                        428974099
                     ], 
                     "title": "Top Paid iPad Business Apps"
                 }, 
                 "iphone": {
                     "ids": [
-                        342548956, 
                         294934058, 
+                        342548956, 
                         333710667, 
-                        347803339, 
-                        428974099, 
                         556500145, 
+                        347803339, 
                         577499909, 
+                        428974099, 
                         335047649, 
                         373045717, 
                         561386772, 
                         437818260, 
-                        468090416, 
-                        494998818, 
-                        333211045
+                        307868751, 
+                        382013715, 
+                        395904807, 
+                        558160040
                     ], 
                     "title": "Top Paid iPhone Business Apps"
                 }
@@ -143,7 +143,7 @@
             "pageDetails": "Adam Meszaros_InstaLogo Logo Creator - Graphics maker for logos, flyer, poster & invitation design", 
             "pageId": "576443892", 
             "language": "1", 
-            "serverInstance": "1007203", 
+            "serverInstance": "1011301", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
@@ -193,7 +193,7 @@
                 "label": "Adam Meszaros"
             }
         ], 
-        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/1583/frameworks-sf6/images/", 
+        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/B5E5/frameworks-sf6/images/", 
         "omnitureMetrics": {
             "shouldTrackBrowserPlugins": false, 
             "format": "HTML", 
@@ -223,14 +223,14 @@
                 ]
             }
         }, 
-        "resourceImagePath": "https://s.mzstatic.com/htmlResources/1583/di6-storefront/images/", 
-        "resourceBasePath": "/htmlResources/1583/files/", 
+        "resourceImagePath": "https://s.mzstatic.com/htmlResources/B5E5/di6-storefront/images/", 
+        "resourceBasePath": "/htmlResources/B5E5/files/", 
         "flagLink": {
             "url": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/countrySelectorPage?cc=us", 
             "imageSrc": "https://s.mzstatic.com/images/flags/-dsi-30/usa.png", 
             "imageAltText": "My Store: United States, Choose Store"
         }, 
-        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/1583/frameworks-dt6/images/", 
+        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/B5E5/frameworks-dt6/images/", 
         "termsLink": {
             "url": "https://www.apple.com/legal/itunes/us/terms.html", 
             "label": "Terms and Conditions"
@@ -366,10 +366,10 @@
                     "releaseDate": "2012-11-13", 
                     "artistId": 485262635, 
                     "userRating": {
-                        "ratingCountCurrentVersion": 285, 
+                        "ratingCountCurrentVersion": 303, 
                         "valueCurrentVersion": 5, 
                         "value": 4.5, 
-                        "ratingCount": 2697
+                        "ratingCount": 2709
                     }, 
                     "artistUrl": "https://itunes.apple.com/us/artist/adam-meszaros/id485262635?mt=8", 
                     "itunesNotes": null, 
@@ -462,12 +462,12 @@
                             "height": 1024
                         }, 
                         {
-                            "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/f9/ab/36/f9ab36a2-02ce-d612-e91f-baeb88c78d36/icon440x440.jpeg", 
+                            "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/f9/ab/36/f9ab36a2-02ce-d612-e91f-baeb88c78d36/icon440x440.png", 
                             "width": 440, 
                             "height": 440
                         }, 
                         {
-                            "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/f9/ab/36/f9ab36a2-02ce-d612-e91f-baeb88c78d36/icon220x220.jpeg", 
+                            "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/f9/ab/36/f9ab36a2-02ce-d612-e91f-baeb88c78d36/icon220x220.png", 
                             "width": 220, 
                             "height": 220
                         }, 
@@ -477,7 +477,7 @@
                             "height": 400
                         }, 
                         {
-                            "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/f9/ab/36/f9ab36a2-02ce-d612-e91f-baeb88c78d36/icon512x512.png", 
+                            "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/f9/ab/36/f9ab36a2-02ce-d612-e91f-baeb88c78d36/icon512x512.jpeg", 
                             "width": 512, 
                             "height": 512
                         }
@@ -497,7 +497,7 @@
                         "ipad": [
                             [
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/6e/70/79/6e70793e-13bf-9746-c504-2da7b8937e15/screen261x261-50.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/6e/70/79/6e70793e-13bf-9746-c504-2da7b8937e15/screen261x261-65.jpeg", 
                                     "width": 261, 
                                     "height": 196
                                 }, 
@@ -534,7 +534,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple1/v4/85/0f/59/850f5962-25d1-fdd1-d015-206e03f2c325/screen261x261-50.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple1/v4/85/0f/59/850f5962-25d1-fdd1-d015-206e03f2c325/screen261x261-65.jpeg", 
                                     "width": 261, 
                                     "height": 196
                                 }, 
@@ -571,7 +571,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple1/v4/6c/f5/2b/6cf52be2-142b-fbfa-6f21-31c15b2b303c/screen261x261-50.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple1/v4/6c/f5/2b/6cf52be2-142b-fbfa-6f21-31c15b2b303c/screen261x261-65.jpeg", 
                                     "width": 261, 
                                     "height": 196
                                 }, 
@@ -608,7 +608,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a5.mzstatic.com/us/r30/Purple1/v4/51/f9/50/51f9508a-6ced-4f98-3786-f7fc24a97b5f/screen261x261-50.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple1/v4/51/f9/50/51f9508a-6ced-4f98-3786-f7fc24a97b5f/screen261x261-65.jpeg", 
                                     "width": 261, 
                                     "height": 196
                                 }, 
@@ -645,7 +645,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple5/v4/a3/f7/8a/a3f78a54-f6cf-31e8-156c-3e6593dd1fc9/screen261x261-50.jpeg", 
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple5/v4/a3/f7/8a/a3f78a54-f6cf-31e8-156c-3e6593dd1fc9/screen261x261-65.jpeg", 
                                     "width": 261, 
                                     "height": 196
                                 }, 
@@ -1065,7 +1065,7 @@
         }
     }, 
     "properties": {
-        "ITSResourceRevNum": "1583", 
+        "ITSResourceRevNum": "B5E5", 
         "isCobaltJavascriptRedirectEnabled": true, 
         "isModern": false, 
         "ITSLogger.ServerReportingApp": "MZUserXP", 
@@ -1075,7 +1075,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "1007203", 
+        "ITSServerInstance": "1011301", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
@@ -1214,7 +1214,7 @@
         "countryCode": "usa", 
         "GlobalLists": {
             "removeFromWishlistUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/removeFromWishlist", 
-            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=1583", 
+            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=B5E5", 
             "updateRadioHistoryUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/updateRadioHistory", 
             "popover": {
                 "width": "350", 

@@ -29,13 +29,13 @@
                         333903271, 
                         447119634, 
                         643496868, 
-                        288429040, 
                         466122094, 
-                        372513032, 
-                        913855602, 
+                        288429040, 
                         738989604, 
+                        372513032, 
                         428845974, 
-                        397648381, 
+                        913855602, 
+                        566223681, 
                         414478124
                     ], 
                     "title": "Top Free iPad Social Networking Apps"
@@ -47,16 +47,16 @@
                         310633997, 
                         429047995, 
                         333903271, 
-                        304878510, 
                         357218860, 
-                        730992767, 
+                        304878510, 
                         382617920, 
-                        569077959, 
+                        730992767, 
                         738989604, 
                         372513032, 
-                        288429040, 
+                        569077959, 
                         466122094, 
-                        443904275
+                        447119634, 
+                        643496868
                     ], 
                     "title": "Top Free iPhone Social Networking Apps"
                 }
@@ -129,7 +129,7 @@
             "pageDetails": "Jelly Industries, Inc._Jelly", 
             "pageId": "685652528", 
             "language": "1", 
-            "serverInstance": "510902", 
+            "serverInstance": "1014500", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
@@ -179,7 +179,7 @@
                 "label": "Jelly Industries, Inc."
             }
         ], 
-        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/1583/frameworks-sf6/images/", 
+        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/B5E5/frameworks-sf6/images/", 
         "omnitureMetrics": {
             "shouldTrackBrowserPlugins": false, 
             "format": "HTML", 
@@ -209,14 +209,14 @@
                 ]
             }
         }, 
-        "resourceImagePath": "https://s.mzstatic.com/htmlResources/1583/di6-storefront/images/", 
-        "resourceBasePath": "/htmlResources/1583/files/", 
+        "resourceImagePath": "https://s.mzstatic.com/htmlResources/B5E5/di6-storefront/images/", 
+        "resourceBasePath": "/htmlResources/B5E5/files/", 
         "flagLink": {
             "url": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/countrySelectorPage?cc=us", 
             "imageSrc": "https://s.mzstatic.com/images/flags/-dsi-30/usa.png", 
             "imageAltText": "My Store: United States, Choose Store"
         }, 
-        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/1583/frameworks-dt6/images/", 
+        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/B5E5/frameworks-dt6/images/", 
         "termsLink": {
             "url": "https://www.apple.com/legal/itunes/us/terms.html", 
             "label": "Terms and Conditions"
@@ -352,10 +352,10 @@
                     "releaseDate": "2013-12-31", 
                     "artistId": 685442651, 
                     "userRating": {
-                        "ratingCountCurrentVersion": 72, 
+                        "ratingCountCurrentVersion": 73, 
                         "valueCurrentVersion": 4.5, 
                         "value": 3.5, 
-                        "ratingCount": 820
+                        "ratingCount": 821
                     }, 
                     "artistUrl": "https://itunes.apple.com/us/artist/jelly-industries-inc./id685442651?mt=8", 
                     "itunesNotes": {
@@ -448,7 +448,7 @@
                     "editorialBadgeInfo": null, 
                     "artwork": [
                         {
-                            "url": "http://a5.mzstatic.com/us/r30/Purple/v4/cc/c9/57/ccc95750-fb34-a0bc-3bdc-02464d07d0d9/icon1024x1024.jpeg", 
+                            "url": "http://a3.mzstatic.com/us/r30/Purple/v4/cc/c9/57/ccc95750-fb34-a0bc-3bdc-02464d07d0d9/icon1024x1024.png", 
                             "width": 1024, 
                             "height": 1024
                         }, 
@@ -458,7 +458,7 @@
                             "height": 440
                         }, 
                         {
-                            "url": "http://a5.mzstatic.com/us/r30/Purple/v4/cc/c9/57/ccc95750-fb34-a0bc-3bdc-02464d07d0d9/icon220x220.png", 
+                            "url": "http://a5.mzstatic.com/us/r30/Purple/v4/cc/c9/57/ccc95750-fb34-a0bc-3bdc-02464d07d0d9/icon220x220.jpeg", 
                             "width": 220, 
                             "height": 220
                         }, 
@@ -819,7 +819,7 @@
         }
     }, 
     "properties": {
-        "ITSResourceRevNum": "1583", 
+        "ITSResourceRevNum": "B5E5", 
         "isCobaltJavascriptRedirectEnabled": true, 
         "isModern": false, 
         "ITSLogger.ServerReportingApp": "MZUserXP", 
@@ -829,7 +829,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "510902", 
+        "ITSServerInstance": "1014500", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
@@ -968,7 +968,7 @@
         "countryCode": "usa", 
         "GlobalLists": {
             "removeFromWishlistUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/removeFromWishlist", 
-            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=1583", 
+            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=B5E5", 
             "updateRadioHistoryUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/updateRadioHistory", 
             "popover": {
                 "width": "350", 

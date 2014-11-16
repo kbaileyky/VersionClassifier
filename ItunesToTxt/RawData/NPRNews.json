@@ -22,40 +22,40 @@
                 "ipad": {
                     "ids": [
                         367623543, 
-                        427593622, 
                         898117224, 
                         407824176, 
-                        358801284, 
+                        646100661, 
                         357066198, 
-                        914453825, 
+                        427593622, 
+                        358801284, 
                         579581125, 
-                        923394341, 
-                        304158842, 
                         364387007, 
                         364257176, 
+                        923394341, 
                         369021520, 
-                        364183644, 
-                        352969997
+                        304158842, 
+                        914453825, 
+                        364183644
                     ], 
                     "title": "Top Free iPad News Apps"
                 }, 
                 "iphone": {
                     "ids": [
-                        331786748, 
                         438875956, 
+                        331786748, 
                         923187241, 
                         304158842, 
                         352969997, 
                         367623543, 
                         358801284, 
-                        896628003, 
+                        646100661, 
                         579581125, 
-                        427593622, 
-                        284862083, 
-                        364147881, 
                         498408628, 
-                        364387007, 
-                        912592124
+                        912592124, 
+                        284862083, 
+                        896628003, 
+                        418671597, 
+                        369021520
                     ], 
                     "title": "Top Free iPhone News Apps"
                 }
@@ -202,11 +202,11 @@
             "pageDetails": "NPR_NPR News", 
             "pageId": "324906251", 
             "language": "1", 
-            "serverInstance": "1005502", 
+            "serverInstance": "2125273", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
-            "environmentDataCenter": "NWK", 
+            "environmentDataCenter": "ST11", 
             "pageType": "Software", 
             "platformName": "iTunes12", 
             "page": "Software_324906251"
@@ -252,7 +252,7 @@
                 "label": "NPR"
             }
         ], 
-        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/1583/frameworks-sf6/images/", 
+        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/B5E5/frameworks-sf6/images/", 
         "omnitureMetrics": {
             "shouldTrackBrowserPlugins": false, 
             "format": "HTML", 
@@ -282,14 +282,14 @@
                 ]
             }
         }, 
-        "resourceImagePath": "https://s.mzstatic.com/htmlResources/1583/di6-storefront/images/", 
-        "resourceBasePath": "/htmlResources/1583/files/", 
+        "resourceImagePath": "https://s.mzstatic.com/htmlResources/B5E5/di6-storefront/images/", 
+        "resourceBasePath": "/htmlResources/B5E5/files/", 
         "flagLink": {
             "url": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/countrySelectorPage?cc=us", 
             "imageSrc": "https://s.mzstatic.com/images/flags/-dsi-30/usa.png", 
             "imageAltText": "My Store: United States, Choose Store"
         }, 
-        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/1583/frameworks-dt6/images/", 
+        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/B5E5/frameworks-dt6/images/", 
         "termsLink": {
             "url": "https://www.apple.com/legal/itunes/us/terms.html", 
             "label": "Terms and Conditions"
@@ -425,10 +425,10 @@
                     "releaseDate": "2009-08-15", 
                     "artistId": 324906254, 
                     "userRating": {
-                        "ratingCountCurrentVersion": 182, 
+                        "ratingCountCurrentVersion": 186, 
                         "valueCurrentVersion": 4, 
                         "value": 3.5, 
-                        "ratingCount": 57537
+                        "ratingCount": 57543
                     }, 
                     "artistUrl": "https://itunes.apple.com/us/artist/npr/id324906254?mt=8", 
                     "itunesNotes": null, 
@@ -518,12 +518,12 @@
                             "height": 1024
                         }, 
                         {
-                            "url": "http://a2.mzstatic.com/us/r30/Purple1/v4/1e/34/29/1e3429f7-2734-6b95-68ef-a7abd0f5193a/icon440x440.jpeg", 
+                            "url": "http://a2.mzstatic.com/us/r30/Purple1/v4/1e/34/29/1e3429f7-2734-6b95-68ef-a7abd0f5193a/icon440x440.png", 
                             "width": 440, 
                             "height": 440
                         }, 
                         {
-                            "url": "http://a3.mzstatic.com/us/r30/Purple1/v4/1e/34/29/1e3429f7-2734-6b95-68ef-a7abd0f5193a/icon220x220.jpeg", 
+                            "url": "http://a3.mzstatic.com/us/r30/Purple1/v4/1e/34/29/1e3429f7-2734-6b95-68ef-a7abd0f5193a/icon220x220.png", 
                             "width": 220, 
                             "height": 220
                         }, 
@@ -533,7 +533,7 @@
                             "height": 400
                         }, 
                         {
-                            "url": "http://a3.mzstatic.com/us/r30/Purple1/v4/1e/34/29/1e3429f7-2734-6b95-68ef-a7abd0f5193a/icon512x512.png", 
+                            "url": "http://a1.mzstatic.com/us/r30/Purple1/v4/1e/34/29/1e3429f7-2734-6b95-68ef-a7abd0f5193a/icon512x512.jpeg", 
                             "width": 512, 
                             "height": 512
                         }
@@ -1072,7 +1072,7 @@
         }
     }, 
     "properties": {
-        "ITSResourceRevNum": "1583", 
+        "ITSResourceRevNum": "B5E5", 
         "isCobaltJavascriptRedirectEnabled": true, 
         "isModern": false, 
         "ITSLogger.ServerReportingApp": "MZUserXP", 
@@ -1082,7 +1082,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "1005502", 
+        "ITSServerInstance": "2125273", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
@@ -1112,7 +1112,7 @@
                 "platformId": "28", 
                 "storeFront": "143441", 
                 "storeFrontHeader": "143441-1,28", 
-                "environmentDataCenter": "NWK", 
+                "environmentDataCenter": "ST11", 
                 "platformName": "iTunes12"
             }, 
             "postFrequency": 60000, 
@@ -1221,7 +1221,7 @@
         "countryCode": "usa", 
         "GlobalLists": {
             "removeFromWishlistUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/removeFromWishlist", 
-            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=1583", 
+            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=B5E5", 
             "updateRadioHistoryUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/updateRadioHistory", 
             "popover": {
                 "width": "350", 

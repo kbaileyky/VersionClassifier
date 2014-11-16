@@ -3,20 +3,21 @@
         "softwarePageData": {
             "customerReviewsUrl": "https://itunes.apple.com/us/customer-reviews/id511071050?dataOnly=true&displayable-kind=11", 
             "customersAlsoBoughtApps": [
-                458424230, 
+                301259483, 
                 379351586, 
+                542557212, 
                 431475095, 
                 355833469, 
                 660859538, 
-                584319126, 
-                454929081, 
-                301259483, 
-                394275498, 
-                416454511, 
+                458424230, 
                 311507490, 
+                454929081, 
+                521227008, 
                 363484920, 
-                368195233, 
-                432627811
+                427485285, 
+                583834467, 
+                394275498, 
+                373311049
             ], 
             "sellerLabel": "Seller", 
             "isFatBinary": 1, 
@@ -24,38 +25,40 @@
                 "ipad": {
                     "ids": [
                         350027738, 
-                        378080432, 
                         597251953, 
-                        395985060, 
-                        436958659, 
+                        378080432, 
+                        542557212, 
                         415378623, 
                         364734296, 
-                        434406498, 
-                        869502447, 
-                        672803850, 
-                        335630043, 
+                        395985060, 
+                        453213960, 
                         600093661, 
-                        468607901, 
-                        536661409
+                        921024054, 
+                        356971775, 
+                        539466818, 
+                        483281737, 
+                        869502447, 
+                        563273711
                     ], 
                     "title": "Top Grossing iPad Books Apps"
                 }, 
                 "iphone": {
                     "ids": [
                         350027738, 
-                        444553118, 
                         378080432, 
-                        672803850, 
+                        444553118, 
                         395985060, 
-                        869502447, 
-                        364734296, 
-                        435873883, 
-                        421486286, 
                         597251953, 
-                        917240760, 
-                        519625336, 
-                        475752315, 
-                        483281737
+                        542557212, 
+                        364734296, 
+                        672803850, 
+                        401153476, 
+                        869502447, 
+                        310295776, 
+                        435873883, 
+                        415378623, 
+                        483281737, 
+                        534174796
                     ], 
                     "title": "Top Grossing iPhone Books Apps"
                 }
@@ -180,7 +183,7 @@
                 }, 
                 {
                     "price": "$2.99", 
-                    "name": "Homo Evolutis"
+                    "name": "Mind Amplifier"
                 }
             ], 
             "id": 511071050
@@ -189,11 +192,11 @@
             "pageDetails": "TED Conferences_TED Books", 
             "pageId": "511071050", 
             "language": "1", 
-            "serverInstance": "2002304", 
+            "serverInstance": "1010200", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
-            "environmentDataCenter": "ST11", 
+            "environmentDataCenter": "NWK", 
             "pageType": "Software", 
             "platformName": "iTunes12", 
             "page": "Software_511071050"
@@ -239,7 +242,7 @@
                 "label": "TED Conferences"
             }
         ], 
-        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/1583/frameworks-sf6/images/", 
+        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/B5E5/frameworks-sf6/images/", 
         "omnitureMetrics": {
             "shouldTrackBrowserPlugins": false, 
             "format": "HTML", 
@@ -269,14 +272,14 @@
                 ]
             }
         }, 
-        "resourceImagePath": "https://s.mzstatic.com/htmlResources/1583/di6-storefront/images/", 
-        "resourceBasePath": "/htmlResources/1583/files/", 
+        "resourceImagePath": "https://s.mzstatic.com/htmlResources/B5E5/di6-storefront/images/", 
+        "resourceBasePath": "/htmlResources/B5E5/files/", 
         "flagLink": {
             "url": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/countrySelectorPage?cc=us", 
             "imageSrc": "https://s.mzstatic.com/images/flags/-dsi-30/usa.png", 
             "imageAltText": "My Store: United States, Choose Store"
         }, 
-        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/1583/frameworks-dt6/images/", 
+        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/B5E5/frameworks-dt6/images/", 
         "termsLink": {
             "url": "https://www.apple.com/legal/itunes/us/terms.html", 
             "label": "Terms and Conditions"
@@ -510,7 +513,7 @@
                     "editorialBadgeInfo": null, 
                     "artwork": [
                         {
-                            "url": "http://a4.mzstatic.com/us/r30/Purple/v4/c7/98/df/c798df10-e1cf-afad-da73-99c5f448200e/icon240x240.jpeg", 
+                            "url": "http://a5.mzstatic.com/us/r30/Purple/v4/c7/98/df/c798df10-e1cf-afad-da73-99c5f448200e/icon240x240.png", 
                             "width": 240, 
                             "height": 240
                         }, 
@@ -530,12 +533,12 @@
                             "height": 220
                         }, 
                         {
-                            "url": "http://a5.mzstatic.com/us/r30/Purple/v4/c7/98/df/c798df10-e1cf-afad-da73-99c5f448200e/icon400x400.jpeg", 
+                            "url": "http://a5.mzstatic.com/us/r30/Purple/v4/c7/98/df/c798df10-e1cf-afad-da73-99c5f448200e/icon400x400.png", 
                             "width": 400, 
                             "height": 400
                         }, 
                         {
-                            "url": "http://a3.mzstatic.com/us/r30/Purple/v4/c7/98/df/c798df10-e1cf-afad-da73-99c5f448200e/icon512x512.png", 
+                            "url": "http://a5.mzstatic.com/us/r30/Purple/v4/c7/98/df/c798df10-e1cf-afad-da73-99c5f448200e/icon512x512.jpeg", 
                             "width": 512, 
                             "height": 512
                         }
@@ -555,7 +558,7 @@
                         "ipad": [
                             [
                                 {
-                                    "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/ae/03/be/ae03bef4-478d-e884-8fb4-9b1156e70ccb/screen261x261-50.jpeg", 
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/ae/03/be/ae03bef4-478d-e884-8fb4-9b1156e70ccb/screen261x261-65.jpeg", 
                                     "width": 196, 
                                     "height": 261
                                 }, 
@@ -587,7 +590,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple4/v4/7e/6c/2c/7e6c2cd5-d208-144a-633b-bc5414c553b0/screen261x261-50.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple4/v4/7e/6c/2c/7e6c2cd5-d208-144a-633b-bc5414c553b0/screen261x261-65.jpeg", 
                                     "width": 196, 
                                     "height": 261
                                 }, 
@@ -619,7 +622,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a5.mzstatic.com/us/r30/Purple/v4/fd/3b/ee/fd3beeb5-a089-8ef3-c79d-575f04c247b4/screen261x261-50.jpeg", 
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple/v4/fd/3b/ee/fd3beeb5-a089-8ef3-c79d-575f04c247b4/screen261x261-65.jpeg", 
                                     "width": 196, 
                                     "height": 261
                                 }, 
@@ -651,7 +654,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple4/v4/c2/12/a5/c212a5f8-4384-538d-7f4d-62dbe821596f/screen261x261-50.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple4/v4/c2/12/a5/c212a5f8-4384-538d-7f4d-62dbe821596f/screen261x261-65.jpeg", 
                                     "width": 196, 
                                     "height": 261
                                 }, 
@@ -683,7 +686,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/cd/da/99/cdda9970-9a77-de85-23ce-3915864d2109/screen261x261-50.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/cd/da/99/cdda9970-9a77-de85-23ce-3915864d2109/screen261x261-65.jpeg", 
                                     "width": 196, 
                                     "height": 261
                                 }, 
@@ -1098,7 +1101,7 @@
         }
     }, 
     "properties": {
-        "ITSResourceRevNum": "1583", 
+        "ITSResourceRevNum": "B5E5", 
         "isCobaltJavascriptRedirectEnabled": true, 
         "isModern": false, 
         "ITSLogger.ServerReportingApp": "MZUserXP", 
@@ -1108,7 +1111,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "2002304", 
+        "ITSServerInstance": "1010200", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
@@ -1138,7 +1141,7 @@
                 "platformId": "28", 
                 "storeFront": "143441", 
                 "storeFrontHeader": "143441-1,28", 
-                "environmentDataCenter": "ST11", 
+                "environmentDataCenter": "NWK", 
                 "platformName": "iTunes12"
             }, 
             "postFrequency": 60000, 
@@ -1247,7 +1250,7 @@
         "countryCode": "usa", 
         "GlobalLists": {
             "removeFromWishlistUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/removeFromWishlist", 
-            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=1583", 
+            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=B5E5", 
             "updateRadioHistoryUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/updateRadioHistory", 
             "popover": {
                 "width": "350", 

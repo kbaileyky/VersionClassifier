@@ -6,41 +6,41 @@
             "topApps": {
                 "ipad": {
                     "ids": [
-                        450123799, 
-                        334989259, 
                         576588894, 
-                        478132032, 
+                        450123799, 
                         567008119, 
-                        423443665, 
-                        307312434, 
-                        489221652, 
-                        331466909, 
-                        683795897, 
-                        912289616, 
+                        334989259, 
+                        525129278, 
+                        478132032, 
+                        898450450, 
                         333227386, 
-                        336662664, 
                         573135437, 
-                        872771050
+                        912289616, 
+                        804637783, 
+                        929505791, 
+                        364733950, 
+                        930838285, 
+                        423443665
                     ], 
                     "title": "Top Paid iPad Reference Apps"
                 }, 
                 "iphone": {
                     "ids": [
-                        385756768, 
                         576588894, 
+                        385756768, 
                         334989259, 
-                        878185680, 
                         804637783, 
-                        475772902, 
                         478126577, 
                         402422247, 
-                        634158738, 
-                        312739823, 
+                        475772902, 
                         914945059, 
+                        312739823, 
                         624554947, 
-                        443321291, 
                         453571750, 
-                        301349397
+                        443321291, 
+                        634158738, 
+                        376302649, 
+                        286574416
                     ], 
                     "title": "Top Paid iPhone Reference Apps"
                 }
@@ -57,7 +57,6 @@
                 340182670, 
                 303766373, 
                 286891997, 
-                317326526, 
                 346181087, 
                 345044003, 
                 344521962, 
@@ -68,7 +67,8 @@
                 343338173, 
                 341783008, 
                 341780949, 
-                340712222
+                340712222, 
+                340711677
             ], 
             "appRatingsLearnMoreUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/appRatings?cc=us", 
             "versionHistory": [
@@ -139,7 +139,7 @@
             "pageDetails": "Open Door Networks, Inc._Art Authority", 
             "pageId": "355879924", 
             "language": "1", 
-            "serverInstance": "512088", 
+            "serverInstance": "511751", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
@@ -189,7 +189,7 @@
                 "label": "Open Door Networks, Inc."
             }
         ], 
-        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/1583/frameworks-sf6/images/", 
+        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/B5E5/frameworks-sf6/images/", 
         "omnitureMetrics": {
             "shouldTrackBrowserPlugins": false, 
             "format": "HTML", 
@@ -219,14 +219,14 @@
                 ]
             }
         }, 
-        "resourceImagePath": "https://s.mzstatic.com/htmlResources/1583/di6-storefront/images/", 
-        "resourceBasePath": "/htmlResources/1583/files/", 
+        "resourceImagePath": "https://s.mzstatic.com/htmlResources/B5E5/di6-storefront/images/", 
+        "resourceBasePath": "/htmlResources/B5E5/files/", 
         "flagLink": {
             "url": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/countrySelectorPage?cc=us", 
             "imageSrc": "https://s.mzstatic.com/images/flags/-dsi-30/usa.png", 
             "imageAltText": "My Store: United States, Choose Store"
         }, 
-        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/1583/frameworks-dt6/images/", 
+        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/B5E5/frameworks-dt6/images/", 
         "termsLink": {
             "url": "https://www.apple.com/legal/itunes/us/terms.html", 
             "label": "Terms and Conditions"
@@ -459,17 +459,17 @@
                             "height": 1024
                         }, 
                         {
-                            "url": "http://a4.mzstatic.com/us/r30/Purple/v4/de/3a/13/de3a1327-596c-e22d-9963-9cb517782747/icon440x440.jpeg", 
+                            "url": "http://a5.mzstatic.com/us/r30/Purple/v4/de/3a/13/de3a1327-596c-e22d-9963-9cb517782747/icon440x440.png", 
                             "width": 440, 
                             "height": 440
                         }, 
                         {
-                            "url": "http://a5.mzstatic.com/us/r30/Purple/v4/de/3a/13/de3a1327-596c-e22d-9963-9cb517782747/icon220x220.jpeg", 
+                            "url": "http://a1.mzstatic.com/us/r30/Purple/v4/de/3a/13/de3a1327-596c-e22d-9963-9cb517782747/icon220x220.png", 
                             "width": 220, 
                             "height": 220
                         }, 
                         {
-                            "url": "http://a3.mzstatic.com/us/r30/Purple/v4/de/3a/13/de3a1327-596c-e22d-9963-9cb517782747/icon256x256.jpeg", 
+                            "url": "http://a2.mzstatic.com/us/r30/Purple/v4/de/3a/13/de3a1327-596c-e22d-9963-9cb517782747/icon256x256.png", 
                             "width": 256, 
                             "height": 256
                         }, 
@@ -825,7 +825,7 @@
         }
     }, 
     "properties": {
-        "ITSResourceRevNum": "1583", 
+        "ITSResourceRevNum": "B5E5", 
         "isCobaltJavascriptRedirectEnabled": true, 
         "isModern": false, 
         "ITSLogger.ServerReportingApp": "MZUserXP", 
@@ -835,7 +835,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "512088", 
+        "ITSServerInstance": "511751", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
@@ -974,7 +974,7 @@
         "countryCode": "usa", 
         "GlobalLists": {
             "removeFromWishlistUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/removeFromWishlist", 
-            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=1583", 
+            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=B5E5", 
             "updateRadioHistoryUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/updateRadioHistory", 
             "popover": {
                 "width": "350", 

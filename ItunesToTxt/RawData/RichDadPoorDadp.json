@@ -25,40 +25,40 @@
                 "ipad": {
                     "ids": [
                         581120104, 
-                        878704422, 
-                        419021234, 
-                        932122201, 
+                        924058967, 
+                        591506239, 
                         668598022, 
-                        473095033, 
-                        409467802, 
                         405580816, 
-                        481109944, 
+                        878704422, 
+                        356971775, 
+                        409467802, 
+                        473095033, 
+                        310295776, 
                         442378070, 
                         369859228, 
-                        343766429, 
-                        479938276, 
-                        310295776, 
-                        459749670
+                        932122201, 
+                        398254950, 
+                        419021234
                     ], 
                     "title": "Top Paid iPad Books Apps"
                 }, 
                 "iphone": {
                     "ids": [
                         444553118, 
-                        573235547, 
                         311349103, 
-                        381788004, 
-                        583672052, 
+                        573235547, 
                         310295776, 
+                        668598022, 
+                        381788004, 
+                        546352307, 
+                        459749670, 
+                        932122201, 
                         408495176, 
-                        405580816, 
-                        593072972, 
-                        903692052, 
-                        541448401, 
+                        380751745, 
                         581120104, 
-                        877697552, 
-                        924058967, 
-                        389029534
+                        541448401, 
+                        878704422, 
+                        593072972
                     ], 
                     "title": "Top Paid iPhone Books Apps"
                 }
@@ -99,7 +99,7 @@
             "pageDetails": "Torn Screen Entertainment, Inc._Rich Dad Poor Dad powered by Clutch Learning \u2013 Personal finance, budget, money manager, investing, business, stocks and how to use debt to your advantage", 
             "pageId": "717314105", 
             "language": "1", 
-            "serverInstance": "1001903", 
+            "serverInstance": "1006804", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
@@ -149,7 +149,7 @@
                 "label": "Torn Screen Entertainment, Inc."
             }
         ], 
-        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/1583/frameworks-sf6/images/", 
+        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/B5E5/frameworks-sf6/images/", 
         "omnitureMetrics": {
             "shouldTrackBrowserPlugins": false, 
             "format": "HTML", 
@@ -179,14 +179,14 @@
                 ]
             }
         }, 
-        "resourceImagePath": "https://s.mzstatic.com/htmlResources/1583/di6-storefront/images/", 
-        "resourceBasePath": "/htmlResources/1583/files/", 
+        "resourceImagePath": "https://s.mzstatic.com/htmlResources/B5E5/di6-storefront/images/", 
+        "resourceBasePath": "/htmlResources/B5E5/files/", 
         "flagLink": {
             "url": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/countrySelectorPage?cc=us", 
             "imageSrc": "https://s.mzstatic.com/images/flags/-dsi-30/usa.png", 
             "imageAltText": "My Store: United States, Choose Store"
         }, 
-        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/1583/frameworks-dt6/images/", 
+        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/B5E5/frameworks-dt6/images/", 
         "termsLink": {
             "url": "https://www.apple.com/legal/itunes/us/terms.html", 
             "label": "Terms and Conditions"
@@ -426,12 +426,12 @@
                             "height": 256
                         }, 
                         {
-                            "url": "http://a1.mzstatic.com/us/r30/Purple6/v4/1f/62/11/1f62115d-6b37-3a75-d7be-4222f9f57dfb/icon512x512.jpeg", 
+                            "url": "http://a1.mzstatic.com/us/r30/Purple6/v4/1f/62/11/1f62115d-6b37-3a75-d7be-4222f9f57dfb/icon512x512.png", 
                             "width": 512, 
                             "height": 512
                         }
                     ], 
-                    "requiredCapabilities": "armv7 opengles-2 ", 
+                    "requiredCapabilities": "opengles-2 armv7 ", 
                     "name": "Rich Dad Poor Dad powered by Clutch Learning \u2013 Personal finance, budget, money manager, investing, business, stocks and how to use debt to your advantage", 
                     "kind": "iosSoftware", 
                     "tellAFriendMessageContentsUrl": "https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendEmailBody?cc=us&displayable-kind=11&id=717314105&name=s&type=14", 
@@ -446,7 +446,7 @@
                         "ipad": [
                             [
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple6/v4/e9/cb/b4/e9cbb470-d973-af47-fc6a-92bc70c14a45/screen261x261-65.jpeg", 
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple6/v4/e9/cb/b4/e9cbb470-d973-af47-fc6a-92bc70c14a45/screen261x261-50.jpeg", 
                                     "width": 196, 
                                     "height": 261
                                 }, 
@@ -478,7 +478,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple4/v4/74/b3/65/74b36584-5119-2df0-4084-c1058b6edd65/screen261x261-65.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple4/v4/74/b3/65/74b36584-5119-2df0-4084-c1058b6edd65/screen261x261-50.jpeg", 
                                     "width": 196, 
                                     "height": 261
                                 }, 
@@ -510,7 +510,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple6/v4/1a/15/27/1a15276c-cee6-3e6c-fbc7-f5584d813003/screen261x261-65.jpeg", 
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple6/v4/1a/15/27/1a15276c-cee6-3e6c-fbc7-f5584d813003/screen261x261-50.jpeg", 
                                     "width": 196, 
                                     "height": 261
                                 }, 
@@ -542,7 +542,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a4.mzstatic.com/us/r30/Purple/v4/ee/b7/1f/eeb71fa4-23cb-9223-14e0-07bbd2b814c7/screen261x261-65.jpeg", 
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple/v4/ee/b7/1f/eeb71fa4-23cb-9223-14e0-07bbd2b814c7/screen261x261-50.jpeg", 
                                     "width": 196, 
                                     "height": 261
                                 }, 
@@ -574,7 +574,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple6/v4/43/ed/d2/43edd2e3-5c26-64df-08f5-39df3c12f563/screen261x261-65.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple6/v4/43/ed/d2/43edd2e3-5c26-64df-08f5-39df3c12f563/screen261x261-50.jpeg", 
                                     "width": 196, 
                                     "height": 261
                                 }, 
@@ -939,7 +939,7 @@
         }
     }, 
     "properties": {
-        "ITSResourceRevNum": "1583", 
+        "ITSResourceRevNum": "B5E5", 
         "isCobaltJavascriptRedirectEnabled": true, 
         "isModern": false, 
         "ITSLogger.ServerReportingApp": "MZUserXP", 
@@ -949,7 +949,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "1001903", 
+        "ITSServerInstance": "1006804", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
@@ -1088,7 +1088,7 @@
         "countryCode": "usa", 
         "GlobalLists": {
             "removeFromWishlistUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/removeFromWishlist", 
-            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=1583", 
+            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=B5E5", 
             "updateRadioHistoryUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/updateRadioHistory", 
             "popover": {
                 "width": "350", 

@@ -25,17 +25,17 @@
                         421254504, 
                         404167616, 
                         509993510, 
-                        584557117, 
-                        781817640, 
-                        491069819, 
-                        335060889, 
-                        524122834, 
                         535076358, 
-                        524299475, 
+                        491069819, 
+                        781817640, 
+                        502344938, 
+                        584557117, 
                         408709785, 
+                        335060889, 
                         408878018, 
-                        464783893, 
-                        475820434
+                        298307011, 
+                        524299475, 
+                        669196929
                     ], 
                     "title": "Top Grossing iPad Music Apps"
                 }, 
@@ -52,9 +52,9 @@
                         524299475, 
                         897821622, 
                         899067065, 
-                        440844625, 
                         632353530, 
-                        547109049
+                        527588389, 
+                        440844625
                     ], 
                     "title": "Top Grossing iPhone Music Apps"
                 }
@@ -228,11 +228,11 @@
             "pageDetails": "Pandora Media, Inc._Pandora Radio", 
             "pageId": "284035177", 
             "language": "1", 
-            "serverInstance": "2000203", 
+            "serverInstance": "1014401", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
-            "environmentDataCenter": "ST11", 
+            "environmentDataCenter": "NWK", 
             "pageType": "Software", 
             "platformName": "iTunes12", 
             "page": "Software_284035177"
@@ -278,7 +278,7 @@
                 "label": "Pandora Media, Inc."
             }
         ], 
-        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/1583/frameworks-sf6/images/", 
+        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/B5E5/frameworks-sf6/images/", 
         "omnitureMetrics": {
             "shouldTrackBrowserPlugins": false, 
             "format": "HTML", 
@@ -308,14 +308,14 @@
                 ]
             }
         }, 
-        "resourceImagePath": "https://s.mzstatic.com/htmlResources/1583/di6-storefront/images/", 
-        "resourceBasePath": "/htmlResources/1583/files/", 
+        "resourceImagePath": "https://s.mzstatic.com/htmlResources/B5E5/di6-storefront/images/", 
+        "resourceBasePath": "/htmlResources/B5E5/files/", 
         "flagLink": {
             "url": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/countrySelectorPage?cc=us", 
             "imageSrc": "https://s.mzstatic.com/images/flags/-dsi-30/usa.png", 
             "imageAltText": "My Store: United States, Choose Store"
         }, 
-        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/1583/frameworks-dt6/images/", 
+        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/B5E5/frameworks-dt6/images/", 
         "termsLink": {
             "url": "https://www.apple.com/legal/itunes/us/terms.html", 
             "label": "Terms and Conditions"
@@ -451,10 +451,10 @@
                     "releaseDate": "2008-07-11", 
                     "artistId": 284035180, 
                     "userRating": {
-                        "ratingCountCurrentVersion": 20017, 
+                        "ratingCountCurrentVersion": 20677, 
                         "valueCurrentVersion": 4.5, 
                         "value": 4, 
-                        "ratingCount": 882767
+                        "ratingCount": 883329
                     }, 
                     "artistUrl": "https://itunes.apple.com/us/artist/pandora-media-inc./id284035180?mt=8", 
                     "itunesNotes": null, 
@@ -546,17 +546,17 @@
                     }, 
                     "artwork": [
                         {
-                            "url": "http://a5.mzstatic.com/us/r30/Purple1/v4/22/7f/b2/227fb251-5005-ffe0-ed32-4a65e12b4949/icon240x240.png", 
+                            "url": "http://a5.mzstatic.com/us/r30/Purple1/v4/22/7f/b2/227fb251-5005-ffe0-ed32-4a65e12b4949/icon240x240.jpeg", 
                             "width": 240, 
                             "height": 240
                         }, 
                         {
-                            "url": "http://a2.mzstatic.com/us/r30/Purple1/v4/22/7f/b2/227fb251-5005-ffe0-ed32-4a65e12b4949/icon1024x1024.jpeg", 
+                            "url": "http://a5.mzstatic.com/us/r30/Purple1/v4/22/7f/b2/227fb251-5005-ffe0-ed32-4a65e12b4949/icon1024x1024.png", 
                             "width": 1024, 
                             "height": 1024
                         }, 
                         {
-                            "url": "http://a2.mzstatic.com/us/r30/Purple1/v4/22/7f/b2/227fb251-5005-ffe0-ed32-4a65e12b4949/icon440x440.jpeg", 
+                            "url": "http://a2.mzstatic.com/us/r30/Purple1/v4/22/7f/b2/227fb251-5005-ffe0-ed32-4a65e12b4949/icon440x440.png", 
                             "width": 440, 
                             "height": 440
                         }, 
@@ -566,12 +566,12 @@
                             "height": 220
                         }, 
                         {
-                            "url": "http://a1.mzstatic.com/us/r30/Purple1/v4/22/7f/b2/227fb251-5005-ffe0-ed32-4a65e12b4949/icon400x400.jpeg", 
+                            "url": "http://a5.mzstatic.com/us/r30/Purple1/v4/22/7f/b2/227fb251-5005-ffe0-ed32-4a65e12b4949/icon400x400.png", 
                             "width": 400, 
                             "height": 400
                         }, 
                         {
-                            "url": "http://a3.mzstatic.com/us/r30/Purple1/v4/22/7f/b2/227fb251-5005-ffe0-ed32-4a65e12b4949/icon512x512.png", 
+                            "url": "http://a1.mzstatic.com/us/r30/Purple1/v4/22/7f/b2/227fb251-5005-ffe0-ed32-4a65e12b4949/icon512x512.jpeg", 
                             "width": 512, 
                             "height": 512
                         }
@@ -610,12 +610,12 @@
                                     "height": 414
                                 }, 
                                 {
-                                    "url": "http://a4.mzstatic.com/us/r30/Purple2/v4/9a/49/5a/9a495a69-9f41-03ff-9a2a-c01daef36263/screen420x420.jpeg", 
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple2/v4/9a/49/5a/9a495a69-9f41-03ff-9a2a-c01daef36263/screen420x316.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple2/v4/9a/49/5a/9a495a69-9f41-03ff-9a2a-c01daef36263/screen420x316.jpeg", 
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple2/v4/9a/49/5a/9a495a69-9f41-03ff-9a2a-c01daef36263/screen420x420.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
@@ -679,12 +679,12 @@
                                     "height": 414
                                 }, 
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple2/v4/ff/12/e1/ff12e1d7-33df-a535-70fe-8a03eeb60b46/screen420x420.jpeg", 
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple2/v4/ff/12/e1/ff12e1d7-33df-a535-70fe-8a03eeb60b46/screen420x316.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
                                 {
-                                    "url": "http://a4.mzstatic.com/us/r30/Purple2/v4/ff/12/e1/ff12e1d7-33df-a535-70fe-8a03eeb60b46/screen420x316.jpeg", 
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple2/v4/ff/12/e1/ff12e1d7-33df-a535-70fe-8a03eeb60b46/screen420x420.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
@@ -748,12 +748,12 @@
                                     "height": 414
                                 }, 
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple4/v4/bd/e3/d6/bde3d6a7-a807-0b68-2284-40734dead731/screen420x420.jpeg", 
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple4/v4/bd/e3/d6/bde3d6a7-a807-0b68-2284-40734dead731/screen420x316.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple4/v4/bd/e3/d6/bde3d6a7-a807-0b68-2284-40734dead731/screen420x316.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple4/v4/bd/e3/d6/bde3d6a7-a807-0b68-2284-40734dead731/screen420x420.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
@@ -1148,7 +1148,7 @@
         }
     }, 
     "properties": {
-        "ITSResourceRevNum": "1583", 
+        "ITSResourceRevNum": "B5E5", 
         "isCobaltJavascriptRedirectEnabled": true, 
         "isModern": false, 
         "ITSLogger.ServerReportingApp": "MZUserXP", 
@@ -1158,7 +1158,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "2000203", 
+        "ITSServerInstance": "1014401", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
@@ -1188,7 +1188,7 @@
                 "platformId": "28", 
                 "storeFront": "143441", 
                 "storeFrontHeader": "143441-1,28", 
-                "environmentDataCenter": "ST11", 
+                "environmentDataCenter": "NWK", 
                 "platformName": "iTunes12"
             }, 
             "postFrequency": 60000, 
@@ -1297,7 +1297,7 @@
         "countryCode": "usa", 
         "GlobalLists": {
             "removeFromWishlistUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/removeFromWishlist", 
-            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=1583", 
+            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=B5E5", 
             "updateRadioHistoryUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/updateRadioHistory", 
             "popover": {
                 "width": "350", 

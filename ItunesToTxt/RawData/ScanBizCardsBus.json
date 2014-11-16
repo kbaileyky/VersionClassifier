@@ -19,40 +19,40 @@
             "topApps": {
                 "ipad": {
                     "ids": [
-                        382509315, 
                         333710667, 
-                        364502063, 
                         594704446, 
-                        317107309, 
-                        874776696, 
-                        918093169, 
-                        284741179, 
-                        364876095, 
-                        366020849, 
-                        583018751, 
-                        513188658, 
-                        586166344, 
+                        382509315, 
+                        576443892, 
                         780621650, 
-                        556500145
+                        874776696, 
+                        364502063, 
+                        504968354, 
+                        556500145, 
+                        373045717, 
+                        558270538, 
+                        317107309, 
+                        918093169, 
+                        364876095, 
+                        428974099
                     ], 
                     "title": "Top Paid iPad Business Apps"
                 }, 
                 "iphone": {
                     "ids": [
-                        342548956, 
                         294934058, 
+                        342548956, 
                         333710667, 
-                        347803339, 
-                        428974099, 
                         556500145, 
+                        347803339, 
                         577499909, 
+                        428974099, 
                         373045717, 
                         561386772, 
                         437818260, 
-                        576443892, 
-                        468090416, 
-                        494998818, 
-                        333211045
+                        307868751, 
+                        382013715, 
+                        395904807, 
+                        558160040
                     ], 
                     "title": "Top Paid iPhone Business Apps"
                 }
@@ -197,11 +197,11 @@
             "pageDetails": "ScanBiz Mobile Solutions L.P._ScanBizCards Business Card Reader", 
             "pageId": "335047649", 
             "language": "1", 
-            "serverInstance": "1006003", 
+            "serverInstance": "2125215", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
-            "environmentDataCenter": "NWK", 
+            "environmentDataCenter": "ST11", 
             "pageType": "Software", 
             "platformName": "iTunes12", 
             "page": "Software_335047649"
@@ -247,7 +247,7 @@
                 "label": "ScanBiz Mobile Solutions L.P."
             }
         ], 
-        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/1583/frameworks-sf6/images/", 
+        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/B5E5/frameworks-sf6/images/", 
         "omnitureMetrics": {
             "shouldTrackBrowserPlugins": false, 
             "format": "HTML", 
@@ -277,14 +277,14 @@
                 ]
             }
         }, 
-        "resourceImagePath": "https://s.mzstatic.com/htmlResources/1583/di6-storefront/images/", 
-        "resourceBasePath": "/htmlResources/1583/files/", 
+        "resourceImagePath": "https://s.mzstatic.com/htmlResources/B5E5/di6-storefront/images/", 
+        "resourceBasePath": "/htmlResources/B5E5/files/", 
         "flagLink": {
             "url": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/countrySelectorPage?cc=us", 
             "imageSrc": "https://s.mzstatic.com/images/flags/-dsi-30/usa.png", 
             "imageAltText": "My Store: United States, Choose Store"
         }, 
-        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/1583/frameworks-dt6/images/", 
+        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/B5E5/frameworks-dt6/images/", 
         "termsLink": {
             "url": "https://www.apple.com/legal/itunes/us/terms.html", 
             "label": "Terms and Conditions"
@@ -420,10 +420,10 @@
                     "releaseDate": "2009-10-28", 
                     "artistId": 335047652, 
                     "userRating": {
-                        "ratingCountCurrentVersion": 63, 
+                        "ratingCountCurrentVersion": 65, 
                         "valueCurrentVersion": 4, 
                         "value": 4, 
-                        "ratingCount": 2341
+                        "ratingCount": 2344
                     }, 
                     "artistUrl": "https://itunes.apple.com/us/artist/scanbiz-mobile-solutions-l.p./id335047652?mt=8", 
                     "itunesNotes": null, 
@@ -508,7 +508,7 @@
                             "height": 240
                         }, 
                         {
-                            "url": "http://a1.mzstatic.com/us/r30/Purple5/v4/98/ae/49/98ae49a5-9fcc-e5e2-4f68-001c3ffaa354/icon1024x1024.jpeg", 
+                            "url": "http://a3.mzstatic.com/us/r30/Purple5/v4/98/ae/49/98ae49a5-9fcc-e5e2-4f68-001c3ffaa354/icon1024x1024.png", 
                             "width": 1024, 
                             "height": 1024
                         }, 
@@ -523,12 +523,12 @@
                             "height": 220
                         }, 
                         {
-                            "url": "http://a4.mzstatic.com/us/r30/Purple5/v4/98/ae/49/98ae49a5-9fcc-e5e2-4f68-001c3ffaa354/icon400x400.jpeg", 
+                            "url": "http://a2.mzstatic.com/us/r30/Purple5/v4/98/ae/49/98ae49a5-9fcc-e5e2-4f68-001c3ffaa354/icon400x400.png", 
                             "width": 400, 
                             "height": 400
                         }, 
                         {
-                            "url": "http://a2.mzstatic.com/us/r30/Purple5/v4/98/ae/49/98ae49a5-9fcc-e5e2-4f68-001c3ffaa354/icon512x512.jpeg", 
+                            "url": "http://a5.mzstatic.com/us/r30/Purple5/v4/98/ae/49/98ae49a5-9fcc-e5e2-4f68-001c3ffaa354/icon512x512.png", 
                             "width": 512, 
                             "height": 512
                         }
@@ -929,7 +929,7 @@
         }
     }, 
     "properties": {
-        "ITSResourceRevNum": "1583", 
+        "ITSResourceRevNum": "B5E5", 
         "isCobaltJavascriptRedirectEnabled": true, 
         "isModern": false, 
         "ITSLogger.ServerReportingApp": "MZUserXP", 
@@ -939,7 +939,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "1006003", 
+        "ITSServerInstance": "2125215", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
@@ -969,7 +969,7 @@
                 "platformId": "28", 
                 "storeFront": "143441", 
                 "storeFrontHeader": "143441-1,28", 
-                "environmentDataCenter": "NWK", 
+                "environmentDataCenter": "ST11", 
                 "platformName": "iTunes12"
             }, 
             "postFrequency": 60000, 
@@ -1078,7 +1078,7 @@
         "countryCode": "usa", 
         "GlobalLists": {
             "removeFromWishlistUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/removeFromWishlist", 
-            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=1583", 
+            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=B5E5", 
             "updateRadioHistoryUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/updateRadioHistory", 
             "popover": {
                 "width": "350", 

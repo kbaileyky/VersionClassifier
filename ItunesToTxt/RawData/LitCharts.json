@@ -7,20 +7,20 @@
                 "ipad": {
                     "ids": [
                         490217893, 
-                        664306853, 
-                        661639471, 
-                        546473125, 
-                        474207297, 
                         899628497, 
-                        478617061, 
-                        707189889, 
-                        364894352, 
-                        538407602, 
-                        435588892, 
-                        570060128, 
-                        378352300, 
+                        664306853, 
                         543851593, 
-                        477618130
+                        435588892, 
+                        474207297, 
+                        707189889, 
+                        570060128, 
+                        613398383, 
+                        510301841, 
+                        435138734, 
+                        481623941, 
+                        661639471, 
+                        923367559, 
+                        565200595
                     ], 
                     "title": "Top Free iPad Education Apps"
                 }, 
@@ -28,19 +28,19 @@
                     "ids": [
                         490217893, 
                         919087726, 
-                        577232024, 
                         570060128, 
-                        546473125, 
+                        577232024, 
                         435588892, 
-                        522826277, 
-                        467329677, 
-                        553222694, 
                         565200595, 
-                        552602056, 
-                        376413870, 
-                        378352300, 
-                        444984364, 
-                        378009553
+                        546473125, 
+                        613398383, 
+                        481623941, 
+                        522826277, 
+                        435539858, 
+                        442879358, 
+                        435138734, 
+                        467329677, 
+                        552602056
                     ], 
                     "title": "Top Free iPhone Education Apps"
                 }
@@ -82,7 +82,7 @@
             "pageDetails": "LitCharts LLC_LitCharts", 
             "pageId": "867311750", 
             "language": "1", 
-            "serverInstance": "2125447", 
+            "serverInstance": "2126173", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
@@ -132,7 +132,7 @@
                 "label": "LitCharts LLC"
             }
         ], 
-        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/1583/frameworks-sf6/images/", 
+        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/B5E5/frameworks-sf6/images/", 
         "omnitureMetrics": {
             "shouldTrackBrowserPlugins": false, 
             "format": "HTML", 
@@ -162,14 +162,14 @@
                 ]
             }
         }, 
-        "resourceImagePath": "https://s.mzstatic.com/htmlResources/1583/di6-storefront/images/", 
-        "resourceBasePath": "/htmlResources/1583/files/", 
+        "resourceImagePath": "https://s.mzstatic.com/htmlResources/B5E5/di6-storefront/images/", 
+        "resourceBasePath": "/htmlResources/B5E5/files/", 
         "flagLink": {
             "url": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/countrySelectorPage?cc=us", 
             "imageSrc": "https://s.mzstatic.com/images/flags/-dsi-30/usa.png", 
             "imageAltText": "My Store: United States, Choose Store"
         }, 
-        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/1583/frameworks-dt6/images/", 
+        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/B5E5/frameworks-dt6/images/", 
         "termsLink": {
             "url": "https://www.apple.com/legal/itunes/us/terms.html", 
             "label": "Terms and Conditions"
@@ -814,7 +814,7 @@
         }
     }, 
     "properties": {
-        "ITSResourceRevNum": "1583", 
+        "ITSResourceRevNum": "B5E5", 
         "isCobaltJavascriptRedirectEnabled": true, 
         "isModern": false, 
         "ITSLogger.ServerReportingApp": "MZUserXP", 
@@ -824,7 +824,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "2125447", 
+        "ITSServerInstance": "2126173", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
@@ -963,7 +963,7 @@
         "countryCode": "usa", 
         "GlobalLists": {
             "removeFromWishlistUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/removeFromWishlist", 
-            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=1583", 
+            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=B5E5", 
             "updateRadioHistoryUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/updateRadioHistory", 
             "popover": {
                 "width": "350", 

@@ -24,18 +24,18 @@
                     "ids": [
                         553834731, 
                         667728512, 
-                        485126024, 
-                        506627515, 
-                        469231420, 
-                        850417475, 
-                        486363584, 
                         538212549, 
-                        608206510, 
-                        594843575, 
+                        485126024, 
+                        850417475, 
+                        506627515, 
                         824318267, 
-                        483165745, 
+                        608206510, 
+                        469231420, 
+                        486363584, 
+                        594843575, 
                         834393815, 
-                        694876905
+                        479516143, 
+                        572821456
                     ], 
                     "title": "Top Grossing iPad Games Apps"
                 }, 
@@ -43,18 +43,18 @@
                     "ids": [
                         553834731, 
                         667728512, 
-                        850417475, 
-                        608206510, 
                         538212549, 
+                        850417475, 
+                        563474464, 
+                        608206510, 
                         506627515, 
                         447553564, 
                         672150402, 
-                        694876905, 
-                        485126024, 
-                        575980917, 
-                        558823262, 
                         860822992, 
-                        694609161
+                        694876905, 
+                        855627886, 
+                        485126024, 
+                        558823262
                     ], 
                     "title": "Top Grossing iPhone Games Apps"
                 }
@@ -225,11 +225,11 @@
             "pageDetails": "Supercell_Clash of Clans", 
             "pageId": "529479190", 
             "language": "1", 
-            "serverInstance": "2001302", 
+            "serverInstance": "510802", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
-            "environmentDataCenter": "ST11", 
+            "environmentDataCenter": "NWK", 
             "pageType": "Software", 
             "platformName": "iTunes12", 
             "page": "Software_529479190"
@@ -275,7 +275,7 @@
                 "label": "Supercell"
             }
         ], 
-        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/1583/frameworks-sf6/images/", 
+        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/B5E5/frameworks-sf6/images/", 
         "omnitureMetrics": {
             "shouldTrackBrowserPlugins": false, 
             "format": "HTML", 
@@ -305,14 +305,14 @@
                 ]
             }
         }, 
-        "resourceImagePath": "https://s.mzstatic.com/htmlResources/1583/di6-storefront/images/", 
-        "resourceBasePath": "/htmlResources/1583/files/", 
+        "resourceImagePath": "https://s.mzstatic.com/htmlResources/B5E5/di6-storefront/images/", 
+        "resourceBasePath": "/htmlResources/B5E5/files/", 
         "flagLink": {
             "url": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/countrySelectorPage?cc=us", 
             "imageSrc": "https://s.mzstatic.com/images/flags/-dsi-30/usa.png", 
             "imageAltText": "My Store: United States, Choose Store"
         }, 
-        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/1583/frameworks-dt6/images/", 
+        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/B5E5/frameworks-dt6/images/", 
         "termsLink": {
             "url": "https://www.apple.com/legal/itunes/us/terms.html", 
             "label": "Terms and Conditions"
@@ -448,10 +448,10 @@
                     "releaseDate": "2012-08-02", 
                     "artistId": 488106216, 
                     "userRating": {
-                        "ratingCountCurrentVersion": 19229, 
+                        "ratingCountCurrentVersion": 23995, 
                         "valueCurrentVersion": 4.5, 
                         "value": 4.5, 
-                        "ratingCount": 1091038
+                        "ratingCount": 1095240
                     }, 
                     "artistUrl": "https://itunes.apple.com/us/artist/supercell/id488106216?mt=8", 
                     "itunesNotes": null, 
@@ -550,7 +550,7 @@
                     }, 
                     "artwork": [
                         {
-                            "url": "http://a5.mzstatic.com/us/r30/Purple5/v4/7c/ad/62/7cad6258-d62b-639c-fec1-87d0f0452c0c/icon240x240.jpeg", 
+                            "url": "http://a2.mzstatic.com/us/r30/Purple5/v4/7c/ad/62/7cad6258-d62b-639c-fec1-87d0f0452c0c/icon240x240.png", 
                             "width": 240, 
                             "height": 240
                         }, 
@@ -570,7 +570,7 @@
                             "height": 220
                         }, 
                         {
-                            "url": "http://a2.mzstatic.com/us/r30/Purple5/v4/7c/ad/62/7cad6258-d62b-639c-fec1-87d0f0452c0c/icon400x400.png", 
+                            "url": "http://a1.mzstatic.com/us/r30/Purple5/v4/7c/ad/62/7cad6258-d62b-639c-fec1-87d0f0452c0c/icon400x400.jpeg", 
                             "width": 400, 
                             "height": 400
                         }, 
@@ -580,7 +580,7 @@
                             "height": 512
                         }
                     ], 
-                    "requiredCapabilities": "opengles-2 gamekit ", 
+                    "requiredCapabilities": "gamekit opengles-2 ", 
                     "name": "Clash of Clans", 
                     "kind": "iosSoftware", 
                     "tellAFriendMessageContentsUrl": "https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendEmailBody?cc=us&displayable-kind=11&id=529479190&name=s&type=14", 
@@ -749,12 +749,12 @@
                                     "height": 414
                                 }, 
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple5/v4/a9/74/a9/a974a943-c395-1df9-cbd8-579654e1cdfb/screen420x420.jpeg", 
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple5/v4/a9/74/a9/a974a943-c395-1df9-cbd8-579654e1cdfb/screen420x316.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple5/v4/a9/74/a9/a974a943-c395-1df9-cbd8-579654e1cdfb/screen420x316.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple5/v4/a9/74/a9/a974a943-c395-1df9-cbd8-579654e1cdfb/screen420x420.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
@@ -786,12 +786,12 @@
                                     "height": 414
                                 }, 
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple1/v4/41/39/fa/4139fa66-56bf-fd54-5507-c625055ac7b5/screen420x420.jpeg", 
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple1/v4/41/39/fa/4139fa66-56bf-fd54-5507-c625055ac7b5/screen420x316.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
                                 {
-                                    "url": "http://a4.mzstatic.com/us/r30/Purple1/v4/41/39/fa/4139fa66-56bf-fd54-5507-c625055ac7b5/screen420x316.jpeg", 
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple1/v4/41/39/fa/4139fa66-56bf-fd54-5507-c625055ac7b5/screen420x420.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
@@ -823,12 +823,12 @@
                                     "height": 414
                                 }, 
                                 {
-                                    "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/0a/4b/a7/0a4ba701-0476-edb2-cd03-8711b36909b6/screen420x420.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/0a/4b/a7/0a4ba701-0476-edb2-cd03-8711b36909b6/screen420x316.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/0a/4b/a7/0a4ba701-0476-edb2-cd03-8711b36909b6/screen420x316.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/0a/4b/a7/0a4ba701-0476-edb2-cd03-8711b36909b6/screen420x420.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
@@ -860,12 +860,12 @@
                                     "height": 414
                                 }, 
                                 {
-                                    "url": "http://a4.mzstatic.com/us/r30/Purple1/v4/45/ed/7e/45ed7e5c-e7af-5645-92d7-8b896cadb43b/screen420x420.jpeg", 
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple1/v4/45/ed/7e/45ed7e5c-e7af-5645-92d7-8b896cadb43b/screen420x316.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple1/v4/45/ed/7e/45ed7e5c-e7af-5645-92d7-8b896cadb43b/screen420x316.jpeg", 
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple1/v4/45/ed/7e/45ed7e5c-e7af-5645-92d7-8b896cadb43b/screen420x420.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
@@ -897,12 +897,12 @@
                                     "height": 414
                                 }, 
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/e9/f9/f1/e9f9f1fc-1d1a-afa4-244e-e15b61dc8fd0/screen420x420.jpeg", 
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/e9/f9/f1/e9f9f1fc-1d1a-afa4-244e-e15b61dc8fd0/screen420x316.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/e9/f9/f1/e9f9f1fc-1d1a-afa4-244e-e15b61dc8fd0/screen420x316.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/e9/f9/f1/e9f9f1fc-1d1a-afa4-244e-e15b61dc8fd0/screen420x420.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
@@ -1369,7 +1369,7 @@
         }
     }, 
     "properties": {
-        "ITSResourceRevNum": "1583", 
+        "ITSResourceRevNum": "B5E5", 
         "isCobaltJavascriptRedirectEnabled": true, 
         "isModern": false, 
         "ITSLogger.ServerReportingApp": "MZUserXP", 
@@ -1379,7 +1379,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "2001302", 
+        "ITSServerInstance": "510802", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
@@ -1409,7 +1409,7 @@
                 "platformId": "28", 
                 "storeFront": "143441", 
                 "storeFrontHeader": "143441-1,28", 
-                "environmentDataCenter": "ST11", 
+                "environmentDataCenter": "NWK", 
                 "platformName": "iTunes12"
             }, 
             "postFrequency": 60000, 
@@ -1518,7 +1518,7 @@
         "countryCode": "usa", 
         "GlobalLists": {
             "removeFromWishlistUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/removeFromWishlist", 
-            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=1583", 
+            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=B5E5", 
             "updateRadioHistoryUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/updateRadioHistory", 
             "popover": {
                 "width": "350", 

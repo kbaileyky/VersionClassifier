@@ -7,39 +7,39 @@
             "topApps": {
                 "ipad": {
                     "ids": [
-                        430200224, 
                         379869627, 
+                        430200224, 
+                        454021277, 
                         406239138, 
+                        523403945, 
+                        769178101, 
+                        492502649, 
                         364738545, 
-                        829739720, 
                         436111378, 
-                        909254807, 
                         705578162, 
+                        749113886, 
                         487126596, 
-                        434541320, 
-                        441922503, 
-                        364295267, 
-                        557405467, 
-                        454021277
+                        733257987, 
+                        829739720
                     ], 
                     "title": "Top Paid iPad Utilities Apps"
                 }, 
                 "iphone": {
                     "ids": [
                         379869627, 
-                        506462353, 
                         934290740, 
+                        506462353, 
                         453546382, 
                         896322372, 
                         882628993, 
                         520337246, 
-                        749094938, 
-                        926008509, 
+                        454021277, 
                         400971700, 
-                        370406446, 
-                        436111378, 
                         667579844, 
-                        917643396
+                        917643396, 
+                        735011611, 
+                        293621500, 
+                        411206394
                     ], 
                     "title": "Top Paid iPhone Utilities Apps"
                 }
@@ -79,11 +79,11 @@
             "pageDetails": "Nuance Communications_Swype", 
             "pageId": "916365675", 
             "language": "1", 
-            "serverInstance": "1010300", 
+            "serverInstance": "2003701", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
-            "environmentDataCenter": "NWK", 
+            "environmentDataCenter": "ST11", 
             "pageType": "Software", 
             "platformName": "iTunes12", 
             "page": "Software_916365675"
@@ -129,7 +129,7 @@
                 "label": "Nuance Communications"
             }
         ], 
-        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/1583/frameworks-sf6/images/", 
+        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/B5E5/frameworks-sf6/images/", 
         "omnitureMetrics": {
             "shouldTrackBrowserPlugins": false, 
             "format": "HTML", 
@@ -159,14 +159,14 @@
                 ]
             }
         }, 
-        "resourceImagePath": "https://s.mzstatic.com/htmlResources/1583/di6-storefront/images/", 
-        "resourceBasePath": "/htmlResources/1583/files/", 
+        "resourceImagePath": "https://s.mzstatic.com/htmlResources/B5E5/di6-storefront/images/", 
+        "resourceBasePath": "/htmlResources/B5E5/files/", 
         "flagLink": {
             "url": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/countrySelectorPage?cc=us", 
             "imageSrc": "https://s.mzstatic.com/images/flags/-dsi-30/usa.png", 
             "imageAltText": "My Store: United States, Choose Store"
         }, 
-        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/1583/frameworks-dt6/images/", 
+        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/B5E5/frameworks-dt6/images/", 
         "termsLink": {
             "url": "https://www.apple.com/legal/itunes/us/terms.html", 
             "label": "Terms and Conditions"
@@ -302,10 +302,10 @@
                     "releaseDate": "2014-09-17", 
                     "artistId": 341446767, 
                     "userRating": {
-                        "ratingCountCurrentVersion": 970, 
+                        "ratingCountCurrentVersion": 990, 
                         "valueCurrentVersion": 3.5, 
                         "value": 3, 
-                        "ratingCount": 3807
+                        "ratingCount": 3827
                     }, 
                     "artistUrl": "https://itunes.apple.com/us/artist/nuance-communications/id341446767?mt=8", 
                     "itunesNotes": null, 
@@ -391,7 +391,7 @@
                             "height": 240
                         }, 
                         {
-                            "url": "http://a4.mzstatic.com/us/r30/Purple1/v4/db/52/8e/db528e86-dd06-4af6-9cf2-26de075d7f4f/icon1024x1024.jpeg", 
+                            "url": "http://a2.mzstatic.com/us/r30/Purple1/v4/db/52/8e/db528e86-dd06-4af6-9cf2-26de075d7f4f/icon1024x1024.png", 
                             "width": 1024, 
                             "height": 1024
                         }, 
@@ -428,168 +428,6 @@
                     ], 
                     "artistName": "Nuance Communications", 
                     "screenshotsByType": {
-                        "ipad": [
-                            [
-                                {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/9f/78/77/9f787766-dc03-7eda-274f-a1ea0bc1cd81/screen261x261-65.jpeg", 
-                                    "width": 196, 
-                                    "height": 261
-                                }, 
-                                {
-                                    "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/9f/78/77/9f787766-dc03-7eda-274f-a1ea0bc1cd81/screen460x460.jpeg", 
-                                    "width": 345, 
-                                    "height": 460
-                                }, 
-                                {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/9f/78/77/9f787766-dc03-7eda-274f-a1ea0bc1cd81/screen920x920.jpeg", 
-                                    "width": 690, 
-                                    "height": 920
-                                }, 
-                                {
-                                    "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/9f/78/77/9f787766-dc03-7eda-274f-a1ea0bc1cd81/screen600x600.jpeg", 
-                                    "width": 450, 
-                                    "height": 600
-                                }, 
-                                {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/9f/78/77/9f787766-dc03-7eda-274f-a1ea0bc1cd81/screen310x414.jpeg", 
-                                    "width": 310, 
-                                    "height": 413
-                                }, 
-                                {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/9f/78/77/9f787766-dc03-7eda-274f-a1ea0bc1cd81/screen768x768.jpeg", 
-                                    "width": 576, 
-                                    "height": 768
-                                }
-                            ], 
-                            [
-                                {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple1/v4/a7/0c/7b/a70c7b91-78b4-c411-20c0-df69908e2d2e/screen261x261-65.jpeg", 
-                                    "width": 196, 
-                                    "height": 261
-                                }, 
-                                {
-                                    "url": "http://a4.mzstatic.com/us/r30/Purple1/v4/a7/0c/7b/a70c7b91-78b4-c411-20c0-df69908e2d2e/screen460x460.jpeg", 
-                                    "width": 345, 
-                                    "height": 460
-                                }, 
-                                {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple1/v4/a7/0c/7b/a70c7b91-78b4-c411-20c0-df69908e2d2e/screen920x920.jpeg", 
-                                    "width": 690, 
-                                    "height": 920
-                                }, 
-                                {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple1/v4/a7/0c/7b/a70c7b91-78b4-c411-20c0-df69908e2d2e/screen600x600.jpeg", 
-                                    "width": 450, 
-                                    "height": 600
-                                }, 
-                                {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple1/v4/a7/0c/7b/a70c7b91-78b4-c411-20c0-df69908e2d2e/screen310x414.jpeg", 
-                                    "width": 310, 
-                                    "height": 413
-                                }, 
-                                {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple1/v4/a7/0c/7b/a70c7b91-78b4-c411-20c0-df69908e2d2e/screen768x768.jpeg", 
-                                    "width": 576, 
-                                    "height": 768
-                                }
-                            ], 
-                            [
-                                {
-                                    "url": "http://a4.mzstatic.com/us/r30/Purple1/v4/a3/0e/8e/a30e8e7b-b8b1-ffd6-acdc-0e464603dcc3/screen261x261-65.jpeg", 
-                                    "width": 196, 
-                                    "height": 261
-                                }, 
-                                {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple1/v4/a3/0e/8e/a30e8e7b-b8b1-ffd6-acdc-0e464603dcc3/screen460x460.jpeg", 
-                                    "width": 345, 
-                                    "height": 460
-                                }, 
-                                {
-                                    "url": "http://a5.mzstatic.com/us/r30/Purple1/v4/a3/0e/8e/a30e8e7b-b8b1-ffd6-acdc-0e464603dcc3/screen920x920.jpeg", 
-                                    "width": 690, 
-                                    "height": 920
-                                }, 
-                                {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple1/v4/a3/0e/8e/a30e8e7b-b8b1-ffd6-acdc-0e464603dcc3/screen600x600.jpeg", 
-                                    "width": 450, 
-                                    "height": 600
-                                }, 
-                                {
-                                    "url": "http://a5.mzstatic.com/us/r30/Purple1/v4/a3/0e/8e/a30e8e7b-b8b1-ffd6-acdc-0e464603dcc3/screen310x414.jpeg", 
-                                    "width": 310, 
-                                    "height": 413
-                                }, 
-                                {
-                                    "url": "http://a5.mzstatic.com/us/r30/Purple1/v4/a3/0e/8e/a30e8e7b-b8b1-ffd6-acdc-0e464603dcc3/screen768x768.jpeg", 
-                                    "width": 576, 
-                                    "height": 768
-                                }
-                            ], 
-                            [
-                                {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple5/v4/e5/4e/33/e54e33e7-6cb0-4eb1-ce31-0dfd37c0e8fc/screen261x261-65.jpeg", 
-                                    "width": 196, 
-                                    "height": 261
-                                }, 
-                                {
-                                    "url": "http://a5.mzstatic.com/us/r30/Purple5/v4/e5/4e/33/e54e33e7-6cb0-4eb1-ce31-0dfd37c0e8fc/screen460x460.jpeg", 
-                                    "width": 345, 
-                                    "height": 460
-                                }, 
-                                {
-                                    "url": "http://a4.mzstatic.com/us/r30/Purple5/v4/e5/4e/33/e54e33e7-6cb0-4eb1-ce31-0dfd37c0e8fc/screen920x920.jpeg", 
-                                    "width": 690, 
-                                    "height": 920
-                                }, 
-                                {
-                                    "url": "http://a4.mzstatic.com/us/r30/Purple5/v4/e5/4e/33/e54e33e7-6cb0-4eb1-ce31-0dfd37c0e8fc/screen600x600.jpeg", 
-                                    "width": 450, 
-                                    "height": 600
-                                }, 
-                                {
-                                    "url": "http://a4.mzstatic.com/us/r30/Purple5/v4/e5/4e/33/e54e33e7-6cb0-4eb1-ce31-0dfd37c0e8fc/screen310x414.jpeg", 
-                                    "width": 310, 
-                                    "height": 413
-                                }, 
-                                {
-                                    "url": "http://a4.mzstatic.com/us/r30/Purple5/v4/e5/4e/33/e54e33e7-6cb0-4eb1-ce31-0dfd37c0e8fc/screen768x768.jpeg", 
-                                    "width": 576, 
-                                    "height": 768
-                                }
-                            ], 
-                            [
-                                {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple5/v4/cc/6d/f7/cc6df738-8634-ac2a-380e-a3a30c37e198/screen261x261-65.jpeg", 
-                                    "width": 196, 
-                                    "height": 261
-                                }, 
-                                {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple5/v4/cc/6d/f7/cc6df738-8634-ac2a-380e-a3a30c37e198/screen460x460.jpeg", 
-                                    "width": 345, 
-                                    "height": 460
-                                }, 
-                                {
-                                    "url": "http://a5.mzstatic.com/us/r30/Purple5/v4/cc/6d/f7/cc6df738-8634-ac2a-380e-a3a30c37e198/screen920x920.jpeg", 
-                                    "width": 690, 
-                                    "height": 920
-                                }, 
-                                {
-                                    "url": "http://a5.mzstatic.com/us/r30/Purple5/v4/cc/6d/f7/cc6df738-8634-ac2a-380e-a3a30c37e198/screen600x600.jpeg", 
-                                    "width": 450, 
-                                    "height": 600
-                                }, 
-                                {
-                                    "url": "http://a5.mzstatic.com/us/r30/Purple5/v4/cc/6d/f7/cc6df738-8634-ac2a-380e-a3a30c37e198/screen310x414.jpeg", 
-                                    "width": 310, 
-                                    "height": 413
-                                }, 
-                                {
-                                    "url": "http://a5.mzstatic.com/us/r30/Purple5/v4/cc/6d/f7/cc6df738-8634-ac2a-380e-a3a30c37e198/screen768x768.jpeg", 
-                                    "width": 576, 
-                                    "height": 768
-                                }
-                            ]
-                        ], 
                         "iphone6": [
                             [
                                 {
@@ -699,6 +537,168 @@
                                     "url": "http://a5.mzstatic.com/us/r30/Purple5/v4/c9/72/6a/c9726a75-28f8-2bb0-d217-22fdba15e126/screen670x377.jpeg", 
                                     "width": 212, 
                                     "height": 377
+                                }
+                            ]
+                        ], 
+                        "ipad": [
+                            [
+                                {
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/9f/78/77/9f787766-dc03-7eda-274f-a1ea0bc1cd81/screen261x261-50.jpeg", 
+                                    "width": 196, 
+                                    "height": 261
+                                }, 
+                                {
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/9f/78/77/9f787766-dc03-7eda-274f-a1ea0bc1cd81/screen460x460.jpeg", 
+                                    "width": 345, 
+                                    "height": 460
+                                }, 
+                                {
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/9f/78/77/9f787766-dc03-7eda-274f-a1ea0bc1cd81/screen920x920.jpeg", 
+                                    "width": 690, 
+                                    "height": 920
+                                }, 
+                                {
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/9f/78/77/9f787766-dc03-7eda-274f-a1ea0bc1cd81/screen600x600.jpeg", 
+                                    "width": 450, 
+                                    "height": 600
+                                }, 
+                                {
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/9f/78/77/9f787766-dc03-7eda-274f-a1ea0bc1cd81/screen310x414.jpeg", 
+                                    "width": 310, 
+                                    "height": 413
+                                }, 
+                                {
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/9f/78/77/9f787766-dc03-7eda-274f-a1ea0bc1cd81/screen768x768.jpeg", 
+                                    "width": 576, 
+                                    "height": 768
+                                }
+                            ], 
+                            [
+                                {
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple1/v4/a7/0c/7b/a70c7b91-78b4-c411-20c0-df69908e2d2e/screen261x261-50.jpeg", 
+                                    "width": 196, 
+                                    "height": 261
+                                }, 
+                                {
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple1/v4/a7/0c/7b/a70c7b91-78b4-c411-20c0-df69908e2d2e/screen460x460.jpeg", 
+                                    "width": 345, 
+                                    "height": 460
+                                }, 
+                                {
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple1/v4/a7/0c/7b/a70c7b91-78b4-c411-20c0-df69908e2d2e/screen920x920.jpeg", 
+                                    "width": 690, 
+                                    "height": 920
+                                }, 
+                                {
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple1/v4/a7/0c/7b/a70c7b91-78b4-c411-20c0-df69908e2d2e/screen600x600.jpeg", 
+                                    "width": 450, 
+                                    "height": 600
+                                }, 
+                                {
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple1/v4/a7/0c/7b/a70c7b91-78b4-c411-20c0-df69908e2d2e/screen310x414.jpeg", 
+                                    "width": 310, 
+                                    "height": 413
+                                }, 
+                                {
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple1/v4/a7/0c/7b/a70c7b91-78b4-c411-20c0-df69908e2d2e/screen768x768.jpeg", 
+                                    "width": 576, 
+                                    "height": 768
+                                }
+                            ], 
+                            [
+                                {
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple1/v4/a3/0e/8e/a30e8e7b-b8b1-ffd6-acdc-0e464603dcc3/screen261x261-50.jpeg", 
+                                    "width": 196, 
+                                    "height": 261
+                                }, 
+                                {
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple1/v4/a3/0e/8e/a30e8e7b-b8b1-ffd6-acdc-0e464603dcc3/screen460x460.jpeg", 
+                                    "width": 345, 
+                                    "height": 460
+                                }, 
+                                {
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple1/v4/a3/0e/8e/a30e8e7b-b8b1-ffd6-acdc-0e464603dcc3/screen920x920.jpeg", 
+                                    "width": 690, 
+                                    "height": 920
+                                }, 
+                                {
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple1/v4/a3/0e/8e/a30e8e7b-b8b1-ffd6-acdc-0e464603dcc3/screen600x600.jpeg", 
+                                    "width": 450, 
+                                    "height": 600
+                                }, 
+                                {
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple1/v4/a3/0e/8e/a30e8e7b-b8b1-ffd6-acdc-0e464603dcc3/screen310x414.jpeg", 
+                                    "width": 310, 
+                                    "height": 413
+                                }, 
+                                {
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple1/v4/a3/0e/8e/a30e8e7b-b8b1-ffd6-acdc-0e464603dcc3/screen768x768.jpeg", 
+                                    "width": 576, 
+                                    "height": 768
+                                }
+                            ], 
+                            [
+                                {
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple5/v4/e5/4e/33/e54e33e7-6cb0-4eb1-ce31-0dfd37c0e8fc/screen261x261-50.jpeg", 
+                                    "width": 196, 
+                                    "height": 261
+                                }, 
+                                {
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple5/v4/e5/4e/33/e54e33e7-6cb0-4eb1-ce31-0dfd37c0e8fc/screen460x460.jpeg", 
+                                    "width": 345, 
+                                    "height": 460
+                                }, 
+                                {
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple5/v4/e5/4e/33/e54e33e7-6cb0-4eb1-ce31-0dfd37c0e8fc/screen920x920.jpeg", 
+                                    "width": 690, 
+                                    "height": 920
+                                }, 
+                                {
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple5/v4/e5/4e/33/e54e33e7-6cb0-4eb1-ce31-0dfd37c0e8fc/screen600x600.jpeg", 
+                                    "width": 450, 
+                                    "height": 600
+                                }, 
+                                {
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple5/v4/e5/4e/33/e54e33e7-6cb0-4eb1-ce31-0dfd37c0e8fc/screen310x414.jpeg", 
+                                    "width": 310, 
+                                    "height": 413
+                                }, 
+                                {
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple5/v4/e5/4e/33/e54e33e7-6cb0-4eb1-ce31-0dfd37c0e8fc/screen768x768.jpeg", 
+                                    "width": 576, 
+                                    "height": 768
+                                }
+                            ], 
+                            [
+                                {
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple5/v4/cc/6d/f7/cc6df738-8634-ac2a-380e-a3a30c37e198/screen261x261-50.jpeg", 
+                                    "width": 196, 
+                                    "height": 261
+                                }, 
+                                {
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple5/v4/cc/6d/f7/cc6df738-8634-ac2a-380e-a3a30c37e198/screen460x460.jpeg", 
+                                    "width": 345, 
+                                    "height": 460
+                                }, 
+                                {
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple5/v4/cc/6d/f7/cc6df738-8634-ac2a-380e-a3a30c37e198/screen920x920.jpeg", 
+                                    "width": 690, 
+                                    "height": 920
+                                }, 
+                                {
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple5/v4/cc/6d/f7/cc6df738-8634-ac2a-380e-a3a30c37e198/screen600x600.jpeg", 
+                                    "width": 450, 
+                                    "height": 600
+                                }, 
+                                {
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple5/v4/cc/6d/f7/cc6df738-8634-ac2a-380e-a3a30c37e198/screen310x414.jpeg", 
+                                    "width": 310, 
+                                    "height": 413
+                                }, 
+                                {
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple5/v4/cc/6d/f7/cc6df738-8634-ac2a-380e-a3a30c37e198/screen768x768.jpeg", 
+                                    "width": 576, 
+                                    "height": 768
                                 }
                             ]
                         ], 
@@ -1249,7 +1249,7 @@
         }
     }, 
     "properties": {
-        "ITSResourceRevNum": "1583", 
+        "ITSResourceRevNum": "B5E5", 
         "isCobaltJavascriptRedirectEnabled": true, 
         "isModern": false, 
         "ITSLogger.ServerReportingApp": "MZUserXP", 
@@ -1259,7 +1259,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "1010300", 
+        "ITSServerInstance": "2003701", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
@@ -1289,7 +1289,7 @@
                 "platformId": "28", 
                 "storeFront": "143441", 
                 "storeFrontHeader": "143441-1,28", 
-                "environmentDataCenter": "NWK", 
+                "environmentDataCenter": "ST11", 
                 "platformName": "iTunes12"
             }, 
             "postFrequency": 60000, 
@@ -1398,7 +1398,7 @@
         "countryCode": "usa", 
         "GlobalLists": {
             "removeFromWishlistUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/removeFromWishlist", 
-            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=1583", 
+            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=B5E5", 
             "updateRadioHistoryUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/updateRadioHistory", 
             "popover": {
                 "width": "350", 

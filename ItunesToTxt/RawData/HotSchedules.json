@@ -22,21 +22,21 @@
             "topApps": {
                 "ipad": {
                     "ids": [
-                        382509315, 
                         333710667, 
-                        364502063, 
                         594704446, 
-                        317107309, 
-                        874776696, 
-                        918093169, 
-                        284741179, 
-                        364876095, 
-                        366020849, 
-                        583018751, 
-                        513188658, 
-                        586166344, 
+                        382509315, 
+                        576443892, 
                         780621650, 
-                        556500145
+                        874776696, 
+                        364502063, 
+                        504968354, 
+                        556500145, 
+                        373045717, 
+                        558270538, 
+                        317107309, 
+                        918093169, 
+                        364876095, 
+                        428974099
                     ], 
                     "title": "Top Paid iPad Business Apps"
                 }, 
@@ -44,18 +44,18 @@
                     "ids": [
                         342548956, 
                         333710667, 
-                        347803339, 
-                        428974099, 
                         556500145, 
+                        347803339, 
                         577499909, 
+                        428974099, 
                         335047649, 
                         373045717, 
                         561386772, 
                         437818260, 
-                        576443892, 
-                        468090416, 
-                        494998818, 
-                        333211045
+                        307868751, 
+                        382013715, 
+                        395904807, 
+                        558160040
                     ], 
                     "title": "Top Paid iPhone Business Apps"
                 }
@@ -197,7 +197,7 @@
             "pageDetails": "HotSchedules_HotSchedules", 
             "pageId": "294934058", 
             "language": "1", 
-            "serverInstance": "2000503", 
+            "serverInstance": "2126198", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
@@ -247,7 +247,7 @@
                 "label": "HotSchedules"
             }
         ], 
-        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/1583/frameworks-sf6/images/", 
+        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/B5E5/frameworks-sf6/images/", 
         "omnitureMetrics": {
             "shouldTrackBrowserPlugins": false, 
             "format": "HTML", 
@@ -277,14 +277,14 @@
                 ]
             }
         }, 
-        "resourceImagePath": "https://s.mzstatic.com/htmlResources/1583/di6-storefront/images/", 
-        "resourceBasePath": "/htmlResources/1583/files/", 
+        "resourceImagePath": "https://s.mzstatic.com/htmlResources/B5E5/di6-storefront/images/", 
+        "resourceBasePath": "/htmlResources/B5E5/files/", 
         "flagLink": {
             "url": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/countrySelectorPage?cc=us", 
             "imageSrc": "https://s.mzstatic.com/images/flags/-dsi-30/usa.png", 
             "imageAltText": "My Store: United States, Choose Store"
         }, 
-        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/1583/frameworks-dt6/images/", 
+        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/B5E5/frameworks-dt6/images/", 
         "termsLink": {
             "url": "https://www.apple.com/legal/itunes/us/terms.html", 
             "label": "Terms and Conditions"
@@ -423,7 +423,7 @@
                         "ratingCountCurrentVersion": 0, 
                         "valueCurrentVersion": 0, 
                         "value": 3.5, 
-                        "ratingCount": 2662
+                        "ratingCount": 2663
                     }, 
                     "artistUrl": "https://itunes.apple.com/us/artist/hotschedules/id294934061?mt=8", 
                     "itunesNotes": null, 
@@ -515,7 +515,7 @@
                             "height": 440
                         }, 
                         {
-                            "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/56/f0/5c/56f05cbd-eb03-18f5-086e-183f936f61f0/icon220x220.png", 
+                            "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/56/f0/5c/56f05cbd-eb03-18f5-086e-183f936f61f0/icon220x220.jpeg", 
                             "width": 220, 
                             "height": 220
                         }, 
@@ -544,7 +544,7 @@
                         "ipad": [
                             [
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/bc/4f/1a/bc4f1a4e-d0e7-6585-518f-6a9afcff4fa7/screen261x261-50.jpeg", 
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/bc/4f/1a/bc4f1a4e-d0e7-6585-518f-6a9afcff4fa7/screen261x261-65.jpeg", 
                                     "width": 261, 
                                     "height": 196
                                 }, 
@@ -581,7 +581,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/e1/0a/58/e10a5869-6b00-a7cb-94e9-776f13d5e55f/screen261x261-50.jpeg", 
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/e1/0a/58/e10a5869-6b00-a7cb-94e9-776f13d5e55f/screen261x261-65.jpeg", 
                                     "width": 261, 
                                     "height": 196
                                 }, 
@@ -618,7 +618,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple5/v4/07/31/0c/07310cc3-0b0f-d96f-2ec0-35689008ea36/screen261x261-50.jpeg", 
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple5/v4/07/31/0c/07310cc3-0b0f-d96f-2ec0-35689008ea36/screen261x261-65.jpeg", 
                                     "width": 261, 
                                     "height": 196
                                 }, 
@@ -655,7 +655,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/79/75/80/79758090-0312-d9c2-97c9-2e4d73ba12b8/screen261x261-50.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/79/75/80/79758090-0312-d9c2-97c9-2e4d73ba12b8/screen261x261-65.jpeg", 
                                     "width": 261, 
                                     "height": 196
                                 }, 
@@ -1075,7 +1075,7 @@
         }
     }, 
     "properties": {
-        "ITSResourceRevNum": "1583", 
+        "ITSResourceRevNum": "B5E5", 
         "isCobaltJavascriptRedirectEnabled": true, 
         "isModern": false, 
         "ITSLogger.ServerReportingApp": "MZUserXP", 
@@ -1085,7 +1085,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "2000503", 
+        "ITSServerInstance": "2126198", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
@@ -1224,7 +1224,7 @@
         "countryCode": "usa", 
         "GlobalLists": {
             "removeFromWishlistUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/removeFromWishlist", 
-            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=1583", 
+            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=B5E5", 
             "updateRadioHistoryUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/updateRadioHistory", 
             "popover": {
                 "width": "350", 

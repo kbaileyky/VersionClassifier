@@ -3,20 +3,21 @@
         "softwarePageData": {
             "customerReviewsUrl": "https://itunes.apple.com/us/customer-reviews/id458424230?dataOnly=true&displayable-kind=11", 
             "customersAlsoBoughtApps": [
-                509547477, 
+                705513516, 
                 491398092, 
                 597251953, 
                 383552199, 
                 364734296, 
                 417181914, 
                 703020863, 
-                495546468, 
-                705513516, 
-                487758420, 
                 409977857, 
+                495546468, 
+                428716417, 
                 498833002, 
-                436629754, 
-                366869252
+                427485285, 
+                423957406, 
+                487758420, 
+                505999113
             ], 
             "sellerLabel": "Seller", 
             "isFatBinary": 1, 
@@ -24,38 +25,40 @@
                 "ipad": {
                     "ids": [
                         350027738, 
-                        378080432, 
                         597251953, 
-                        395985060, 
-                        436958659, 
+                        378080432, 
+                        542557212, 
                         415378623, 
                         364734296, 
-                        434406498, 
-                        869502447, 
-                        672803850, 
-                        335630043, 
+                        395985060, 
+                        453213960, 
                         600093661, 
-                        468607901, 
-                        536661409
+                        921024054, 
+                        356971775, 
+                        539466818, 
+                        483281737, 
+                        869502447, 
+                        563273711
                     ], 
                     "title": "Top Grossing iPad Books Apps"
                 }, 
                 "iphone": {
                     "ids": [
                         350027738, 
-                        444553118, 
                         378080432, 
-                        672803850, 
+                        444553118, 
                         395985060, 
-                        869502447, 
-                        364734296, 
-                        435873883, 
-                        421486286, 
                         597251953, 
-                        917240760, 
-                        519625336, 
-                        475752315, 
-                        483281737
+                        542557212, 
+                        364734296, 
+                        672803850, 
+                        401153476, 
+                        869502447, 
+                        310295776, 
+                        435873883, 
+                        415378623, 
+                        483281737, 
+                        534174796
                     ], 
                     "title": "Top Grossing iPhone Books Apps"
                 }
@@ -65,13 +68,13 @@
             }, 
             "moreByThisDeveloper": [
                 418671597, 
-                518426085, 
                 672796476, 
+                518426085, 
                 932554205, 
                 592453480, 
                 634062996, 
-                364733950, 
                 820381057, 
+                364733950, 
                 373203236, 
                 899164288, 
                 592491974, 
@@ -188,11 +191,11 @@
             "pageDetails": "National Geographic Society_Weird But True", 
             "pageId": "458424230", 
             "language": "1", 
-            "serverInstance": "612805", 
+            "serverInstance": "1014005", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
-            "environmentDataCenter": "ST11", 
+            "environmentDataCenter": "NWK", 
             "pageType": "Software", 
             "platformName": "iTunes12", 
             "page": "Software_458424230"
@@ -238,7 +241,7 @@
                 "label": "National Geographic Society"
             }
         ], 
-        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/1583/frameworks-sf6/images/", 
+        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/B5E5/frameworks-sf6/images/", 
         "omnitureMetrics": {
             "shouldTrackBrowserPlugins": false, 
             "format": "HTML", 
@@ -268,14 +271,14 @@
                 ]
             }
         }, 
-        "resourceImagePath": "https://s.mzstatic.com/htmlResources/1583/di6-storefront/images/", 
-        "resourceBasePath": "/htmlResources/1583/files/", 
+        "resourceImagePath": "https://s.mzstatic.com/htmlResources/B5E5/di6-storefront/images/", 
+        "resourceBasePath": "/htmlResources/B5E5/files/", 
         "flagLink": {
             "url": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/countrySelectorPage?cc=us", 
             "imageSrc": "https://s.mzstatic.com/images/flags/-dsi-30/usa.png", 
             "imageAltText": "My Store: United States, Choose Store"
         }, 
-        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/1583/frameworks-dt6/images/", 
+        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/B5E5/frameworks-dt6/images/", 
         "termsLink": {
             "url": "https://www.apple.com/legal/itunes/us/terms.html", 
             "label": "Terms and Conditions"
@@ -499,27 +502,27 @@
                     "editorialBadgeInfo": null, 
                     "artwork": [
                         {
-                            "url": "http://a1.mzstatic.com/us/r30/Purple4/v4/62/fd/f4/62fdf45b-470a-f7a6-cdcf-eb57b4938de6/icon1024x1024.png", 
+                            "url": "http://a3.mzstatic.com/us/r30/Purple4/v4/62/fd/f4/62fdf45b-470a-f7a6-cdcf-eb57b4938de6/icon1024x1024.jpeg", 
                             "width": 1024, 
                             "height": 1024
                         }, 
                         {
-                            "url": "http://a4.mzstatic.com/us/r30/Purple4/v4/62/fd/f4/62fdf45b-470a-f7a6-cdcf-eb57b4938de6/icon440x440.jpeg", 
+                            "url": "http://a3.mzstatic.com/us/r30/Purple4/v4/62/fd/f4/62fdf45b-470a-f7a6-cdcf-eb57b4938de6/icon440x440.png", 
                             "width": 440, 
                             "height": 440
                         }, 
                         {
-                            "url": "http://a4.mzstatic.com/us/r30/Purple4/v4/62/fd/f4/62fdf45b-470a-f7a6-cdcf-eb57b4938de6/icon220x220.png", 
+                            "url": "http://a5.mzstatic.com/us/r30/Purple4/v4/62/fd/f4/62fdf45b-470a-f7a6-cdcf-eb57b4938de6/icon220x220.jpeg", 
                             "width": 220, 
                             "height": 220
                         }, 
                         {
-                            "url": "http://a5.mzstatic.com/us/r30/Purple4/v4/62/fd/f4/62fdf45b-470a-f7a6-cdcf-eb57b4938de6/icon256x256.png", 
+                            "url": "http://a5.mzstatic.com/us/r30/Purple4/v4/62/fd/f4/62fdf45b-470a-f7a6-cdcf-eb57b4938de6/icon256x256.jpeg", 
                             "width": 256, 
                             "height": 256
                         }, 
                         {
-                            "url": "http://a3.mzstatic.com/us/r30/Purple4/v4/62/fd/f4/62fdf45b-470a-f7a6-cdcf-eb57b4938de6/icon512x512.jpeg", 
+                            "url": "http://a4.mzstatic.com/us/r30/Purple4/v4/62/fd/f4/62fdf45b-470a-f7a6-cdcf-eb57b4938de6/icon512x512.png", 
                             "width": 512, 
                             "height": 512
                         }
@@ -1032,7 +1035,7 @@
         }
     }, 
     "properties": {
-        "ITSResourceRevNum": "1583", 
+        "ITSResourceRevNum": "B5E5", 
         "isCobaltJavascriptRedirectEnabled": true, 
         "isModern": false, 
         "ITSLogger.ServerReportingApp": "MZUserXP", 
@@ -1042,7 +1045,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "612805", 
+        "ITSServerInstance": "1014005", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
@@ -1072,7 +1075,7 @@
                 "platformId": "28", 
                 "storeFront": "143441", 
                 "storeFrontHeader": "143441-1,28", 
-                "environmentDataCenter": "ST11", 
+                "environmentDataCenter": "NWK", 
                 "platformName": "iTunes12"
             }, 
             "postFrequency": 60000, 
@@ -1181,7 +1184,7 @@
         "countryCode": "usa", 
         "GlobalLists": {
             "removeFromWishlistUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/removeFromWishlist", 
-            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=1583", 
+            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=B5E5", 
             "updateRadioHistoryUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/updateRadioHistory", 
             "popover": {
                 "width": "350", 

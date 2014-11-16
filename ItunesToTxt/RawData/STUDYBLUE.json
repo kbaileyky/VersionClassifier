@@ -24,41 +24,41 @@
             "topApps": {
                 "ipad": {
                     "ids": [
-                        308368164, 
+                        893927401, 
                         512350210, 
                         613398383, 
-                        412351574, 
-                        893927401, 
                         540872054, 
-                        551215116, 
-                        398860728, 
                         891450541, 
-                        491771721, 
+                        308368164, 
+                        435588892, 
+                        551215116, 
+                        565200595, 
                         664909593, 
+                        509343934, 
                         719219382, 
                         722910739, 
-                        664306853, 
-                        509343934
+                        491771721, 
+                        922609543
                     ], 
                     "title": "Top Grossing iPad Education Apps"
                 }, 
                 "iphone": {
                     "ids": [
                         613398383, 
-                        577232024, 
                         893927401, 
-                        467329677, 
-                        563979110, 
-                        435588892, 
                         565200595, 
-                        308368164, 
+                        467329677, 
                         891453663, 
                         625614526, 
+                        308368164, 
+                        577232024, 
+                        569632660, 
+                        385758163, 
                         540872054, 
-                        518334522, 
-                        806223188, 
                         722910739, 
-                        364894352
+                        591626572, 
+                        922609543, 
+                        588868907
                     ], 
                     "title": "Top Grossing iPhone Education Apps"
                 }
@@ -218,7 +218,7 @@
             "pageDetails": "StudyBlue, Inc._STUDYBLUE", 
             "pageId": "323887414", 
             "language": "1", 
-            "serverInstance": "1007504", 
+            "serverInstance": "1007605", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
@@ -268,7 +268,7 @@
                 "label": "StudyBlue, Inc."
             }
         ], 
-        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/1583/frameworks-sf6/images/", 
+        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/B5E5/frameworks-sf6/images/", 
         "omnitureMetrics": {
             "shouldTrackBrowserPlugins": false, 
             "format": "HTML", 
@@ -298,14 +298,14 @@
                 ]
             }
         }, 
-        "resourceImagePath": "https://s.mzstatic.com/htmlResources/1583/di6-storefront/images/", 
-        "resourceBasePath": "/htmlResources/1583/files/", 
+        "resourceImagePath": "https://s.mzstatic.com/htmlResources/B5E5/di6-storefront/images/", 
+        "resourceBasePath": "/htmlResources/B5E5/files/", 
         "flagLink": {
             "url": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/countrySelectorPage?cc=us", 
             "imageSrc": "https://s.mzstatic.com/images/flags/-dsi-30/usa.png", 
             "imageAltText": "My Store: United States, Choose Store"
         }, 
-        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/1583/frameworks-dt6/images/", 
+        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/B5E5/frameworks-dt6/images/", 
         "termsLink": {
             "url": "https://www.apple.com/legal/itunes/us/terms.html", 
             "label": "Terms and Conditions"
@@ -441,10 +441,10 @@
                     "releaseDate": "2009-08-05", 
                     "artistId": 323887417, 
                     "userRating": {
-                        "ratingCountCurrentVersion": 145, 
+                        "ratingCountCurrentVersion": 147, 
                         "valueCurrentVersion": 4.5, 
                         "value": 4.5, 
-                        "ratingCount": 8463
+                        "ratingCount": 8465
                     }, 
                     "artistUrl": "https://itunes.apple.com/us/artist/studyblue-inc./id323887417?mt=8", 
                     "itunesNotes": null, 
@@ -531,7 +531,7 @@
                             "height": 240
                         }, 
                         {
-                            "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/18/b3/78/18b37875-012a-0749-d6a8-e864e851cd35/icon1024x1024.png", 
+                            "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/18/b3/78/18b37875-012a-0749-d6a8-e864e851cd35/icon1024x1024.jpeg", 
                             "width": 1024, 
                             "height": 1024
                         }, 
@@ -1104,7 +1104,7 @@
         }
     }, 
     "properties": {
-        "ITSResourceRevNum": "1583", 
+        "ITSResourceRevNum": "B5E5", 
         "isCobaltJavascriptRedirectEnabled": true, 
         "isModern": false, 
         "ITSLogger.ServerReportingApp": "MZUserXP", 
@@ -1114,7 +1114,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "1007504", 
+        "ITSServerInstance": "1007605", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
@@ -1253,7 +1253,7 @@
         "countryCode": "usa", 
         "GlobalLists": {
             "removeFromWishlistUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/removeFromWishlist", 
-            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=1583", 
+            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=B5E5", 
             "updateRadioHistoryUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/updateRadioHistory", 
             "popover": {
                 "width": "350", 

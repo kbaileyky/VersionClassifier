@@ -27,17 +27,17 @@
                         529479190, 
                         553834731, 
                         667728512, 
-                        485126024, 
-                        469231420, 
-                        850417475, 
-                        486363584, 
                         538212549, 
-                        608206510, 
-                        594843575, 
+                        485126024, 
+                        850417475, 
                         824318267, 
-                        483165745, 
+                        608206510, 
+                        469231420, 
+                        486363584, 
+                        594843575, 
                         834393815, 
-                        694876905
+                        479516143, 
+                        572821456
                     ], 
                     "title": "Top Grossing iPad Games Apps"
                 }, 
@@ -46,17 +46,17 @@
                         529479190, 
                         553834731, 
                         667728512, 
-                        850417475, 
-                        608206510, 
                         538212549, 
+                        850417475, 
+                        563474464, 
+                        608206510, 
                         447553564, 
                         672150402, 
-                        694876905, 
-                        485126024, 
-                        575980917, 
-                        558823262, 
                         860822992, 
-                        694609161
+                        694876905, 
+                        855627886, 
+                        485126024, 
+                        558823262
                     ], 
                     "title": "Top Grossing iPhone Games Apps"
                 }
@@ -244,7 +244,7 @@
             "pageDetails": "Supercell_Hay Day", 
             "pageId": "506627515", 
             "language": "1", 
-            "serverInstance": "2126639", 
+            "serverInstance": "615291", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
@@ -294,7 +294,7 @@
                 "label": "Supercell"
             }
         ], 
-        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/1583/frameworks-sf6/images/", 
+        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/B5E5/frameworks-sf6/images/", 
         "omnitureMetrics": {
             "shouldTrackBrowserPlugins": false, 
             "format": "HTML", 
@@ -324,14 +324,14 @@
                 ]
             }
         }, 
-        "resourceImagePath": "https://s.mzstatic.com/htmlResources/1583/di6-storefront/images/", 
-        "resourceBasePath": "/htmlResources/1583/files/", 
+        "resourceImagePath": "https://s.mzstatic.com/htmlResources/B5E5/di6-storefront/images/", 
+        "resourceBasePath": "/htmlResources/B5E5/files/", 
         "flagLink": {
             "url": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/countrySelectorPage?cc=us", 
             "imageSrc": "https://s.mzstatic.com/images/flags/-dsi-30/usa.png", 
             "imageAltText": "My Store: United States, Choose Store"
         }, 
-        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/1583/frameworks-dt6/images/", 
+        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/B5E5/frameworks-dt6/images/", 
         "termsLink": {
             "url": "https://www.apple.com/legal/itunes/us/terms.html", 
             "label": "Terms and Conditions"
@@ -467,10 +467,10 @@
                     "releaseDate": "2012-06-21", 
                     "artistId": 488106216, 
                     "userRating": {
-                        "ratingCountCurrentVersion": 9194, 
+                        "ratingCountCurrentVersion": 9490, 
                         "valueCurrentVersion": 4.5, 
                         "value": 4.5, 
-                        "ratingCount": 391917
+                        "ratingCount": 392216
                     }, 
                     "artistUrl": "https://itunes.apple.com/us/artist/supercell/id488106216?mt=8", 
                     "itunesNotes": null, 
@@ -564,12 +564,12 @@
                     }, 
                     "artwork": [
                         {
-                            "url": "http://a3.mzstatic.com/us/r30/Purple5/v4/b0/13/6a/b0136a85-0a3e-47c5-9730-f1ca2817d04f/icon240x240.png", 
+                            "url": "http://a3.mzstatic.com/us/r30/Purple5/v4/b0/13/6a/b0136a85-0a3e-47c5-9730-f1ca2817d04f/icon240x240.jpeg", 
                             "width": 240, 
                             "height": 240
                         }, 
                         {
-                            "url": "http://a3.mzstatic.com/us/r30/Purple5/v4/b0/13/6a/b0136a85-0a3e-47c5-9730-f1ca2817d04f/icon1024x1024.jpeg", 
+                            "url": "http://a2.mzstatic.com/us/r30/Purple5/v4/b0/13/6a/b0136a85-0a3e-47c5-9730-f1ca2817d04f/icon1024x1024.png", 
                             "width": 1024, 
                             "height": 1024
                         }, 
@@ -579,7 +579,7 @@
                             "height": 440
                         }, 
                         {
-                            "url": "http://a1.mzstatic.com/us/r30/Purple5/v4/b0/13/6a/b0136a85-0a3e-47c5-9730-f1ca2817d04f/icon220x220.png", 
+                            "url": "http://a1.mzstatic.com/us/r30/Purple5/v4/b0/13/6a/b0136a85-0a3e-47c5-9730-f1ca2817d04f/icon220x220.jpeg", 
                             "width": 220, 
                             "height": 220
                         }, 
@@ -594,7 +594,7 @@
                             "height": 512
                         }
                     ], 
-                    "requiredCapabilities": "gamekit opengles-2 ", 
+                    "requiredCapabilities": "opengles-2 gamekit ", 
                     "name": "Hay Day", 
                     "kind": "iosSoftware", 
                     "tellAFriendMessageContentsUrl": "https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendEmailBody?cc=us&displayable-kind=11&id=506627515&name=s&type=14", 
@@ -611,7 +611,7 @@
                         "ipad": [
                             [
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple4/v4/27/54/fc/2754fc96-15ca-28b7-e821-8c7ca41ed09b/screen261x261-50.jpeg", 
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple4/v4/27/54/fc/2754fc96-15ca-28b7-e821-8c7ca41ed09b/screen261x261-65.jpeg", 
                                     "width": 261, 
                                     "height": 196
                                 }, 
@@ -631,12 +631,12 @@
                                     "height": 414
                                 }, 
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple4/v4/27/54/fc/2754fc96-15ca-28b7-e821-8c7ca41ed09b/screen420x420.jpeg", 
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple4/v4/27/54/fc/2754fc96-15ca-28b7-e821-8c7ca41ed09b/screen420x316.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple4/v4/27/54/fc/2754fc96-15ca-28b7-e821-8c7ca41ed09b/screen420x316.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple4/v4/27/54/fc/2754fc96-15ca-28b7-e821-8c7ca41ed09b/screen420x420.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
@@ -648,7 +648,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/cb/02/7e/cb027e11-fdd8-7f2d-69d1-50695c042526/screen261x261-50.jpeg", 
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/cb/02/7e/cb027e11-fdd8-7f2d-69d1-50695c042526/screen261x261-65.jpeg", 
                                     "width": 261, 
                                     "height": 196
                                 }, 
@@ -668,12 +668,12 @@
                                     "height": 414
                                 }, 
                                 {
-                                    "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/cb/02/7e/cb027e11-fdd8-7f2d-69d1-50695c042526/screen420x420.jpeg", 
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/cb/02/7e/cb027e11-fdd8-7f2d-69d1-50695c042526/screen420x316.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/cb/02/7e/cb027e11-fdd8-7f2d-69d1-50695c042526/screen420x316.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/cb/02/7e/cb027e11-fdd8-7f2d-69d1-50695c042526/screen420x420.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
@@ -685,7 +685,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple4/v4/ac/91/b1/ac91b103-79be-de31-5bad-202b3e2e4f5c/screen261x261-50.jpeg", 
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple4/v4/ac/91/b1/ac91b103-79be-de31-5bad-202b3e2e4f5c/screen261x261-65.jpeg", 
                                     "width": 261, 
                                     "height": 196
                                 }, 
@@ -705,12 +705,12 @@
                                     "height": 414
                                 }, 
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple4/v4/ac/91/b1/ac91b103-79be-de31-5bad-202b3e2e4f5c/screen420x420.jpeg", 
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple4/v4/ac/91/b1/ac91b103-79be-de31-5bad-202b3e2e4f5c/screen420x316.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
                                 {
-                                    "url": "http://a4.mzstatic.com/us/r30/Purple4/v4/ac/91/b1/ac91b103-79be-de31-5bad-202b3e2e4f5c/screen420x316.jpeg", 
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple4/v4/ac/91/b1/ac91b103-79be-de31-5bad-202b3e2e4f5c/screen420x420.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
@@ -722,7 +722,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple1/v4/71/71/44/71714425-221c-eab3-d4d5-090a1bb12b3f/screen261x261-50.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple1/v4/71/71/44/71714425-221c-eab3-d4d5-090a1bb12b3f/screen261x261-65.jpeg", 
                                     "width": 261, 
                                     "height": 196
                                 }, 
@@ -742,12 +742,12 @@
                                     "height": 414
                                 }, 
                                 {
-                                    "url": "http://a4.mzstatic.com/us/r30/Purple1/v4/71/71/44/71714425-221c-eab3-d4d5-090a1bb12b3f/screen420x420.jpeg", 
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple1/v4/71/71/44/71714425-221c-eab3-d4d5-090a1bb12b3f/screen420x316.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple1/v4/71/71/44/71714425-221c-eab3-d4d5-090a1bb12b3f/screen420x316.jpeg", 
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple1/v4/71/71/44/71714425-221c-eab3-d4d5-090a1bb12b3f/screen420x420.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
@@ -759,7 +759,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple4/v4/9c/35/e4/9c35e470-6ec7-992e-a957-539a4369370e/screen261x261-50.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple4/v4/9c/35/e4/9c35e470-6ec7-992e-a957-539a4369370e/screen261x261-65.jpeg", 
                                     "width": 261, 
                                     "height": 196
                                 }, 
@@ -779,12 +779,12 @@
                                     "height": 414
                                 }, 
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple4/v4/9c/35/e4/9c35e470-6ec7-992e-a957-539a4369370e/screen420x420.jpeg", 
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple4/v4/9c/35/e4/9c35e470-6ec7-992e-a957-539a4369370e/screen420x316.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
                                 {
-                                    "url": "http://a4.mzstatic.com/us/r30/Purple4/v4/9c/35/e4/9c35e470-6ec7-992e-a957-539a4369370e/screen420x316.jpeg", 
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple4/v4/9c/35/e4/9c35e470-6ec7-992e-a957-539a4369370e/screen420x420.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
@@ -1179,7 +1179,7 @@
         }
     }, 
     "properties": {
-        "ITSResourceRevNum": "1583", 
+        "ITSResourceRevNum": "B5E5", 
         "isCobaltJavascriptRedirectEnabled": true, 
         "isModern": false, 
         "ITSLogger.ServerReportingApp": "MZUserXP", 
@@ -1189,7 +1189,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "2126639", 
+        "ITSServerInstance": "615291", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
@@ -1328,7 +1328,7 @@
         "countryCode": "usa", 
         "GlobalLists": {
             "removeFromWishlistUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/removeFromWishlist", 
-            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=1583", 
+            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=B5E5", 
             "updateRadioHistoryUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/updateRadioHistory", 
             "popover": {
                 "width": "350", 

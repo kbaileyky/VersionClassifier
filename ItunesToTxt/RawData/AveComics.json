@@ -22,38 +22,40 @@
                 "ipad": {
                     "ids": [
                         350027738, 
-                        378080432, 
                         597251953, 
-                        395985060, 
-                        436958659, 
+                        378080432, 
+                        542557212, 
                         415378623, 
                         364734296, 
-                        434406498, 
-                        869502447, 
-                        672803850, 
-                        335630043, 
+                        395985060, 
+                        453213960, 
                         600093661, 
-                        468607901, 
-                        536661409
+                        921024054, 
+                        356971775, 
+                        539466818, 
+                        483281737, 
+                        869502447, 
+                        563273711
                     ], 
                     "title": "Top Grossing iPad Books Apps"
                 }, 
                 "iphone": {
                     "ids": [
                         350027738, 
-                        444553118, 
                         378080432, 
-                        672803850, 
+                        444553118, 
                         395985060, 
-                        869502447, 
-                        364734296, 
-                        435873883, 
-                        421486286, 
                         597251953, 
-                        917240760, 
-                        519625336, 
-                        475752315, 
-                        483281737
+                        542557212, 
+                        364734296, 
+                        672803850, 
+                        401153476, 
+                        869502447, 
+                        310295776, 
+                        435873883, 
+                        415378623, 
+                        483281737, 
+                        534174796
                     ], 
                     "title": "Top Grossing iPhone Books Apps"
                 }
@@ -246,11 +248,11 @@
             "pageDetails": "Ave!Comics Production_AveComics", 
             "pageId": "320199225", 
             "language": "1", 
-            "serverInstance": "1008803", 
+            "serverInstance": "2125149", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
-            "environmentDataCenter": "NWK", 
+            "environmentDataCenter": "ST11", 
             "pageType": "Software", 
             "platformName": "iTunes12", 
             "page": "Software_320199225"
@@ -296,7 +298,7 @@
                 "label": "Ave!Comics Production"
             }
         ], 
-        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/1583/frameworks-sf6/images/", 
+        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/B5E5/frameworks-sf6/images/", 
         "omnitureMetrics": {
             "shouldTrackBrowserPlugins": false, 
             "format": "HTML", 
@@ -326,14 +328,14 @@
                 ]
             }
         }, 
-        "resourceImagePath": "https://s.mzstatic.com/htmlResources/1583/di6-storefront/images/", 
-        "resourceBasePath": "/htmlResources/1583/files/", 
+        "resourceImagePath": "https://s.mzstatic.com/htmlResources/B5E5/di6-storefront/images/", 
+        "resourceBasePath": "/htmlResources/B5E5/files/", 
         "flagLink": {
             "url": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/countrySelectorPage?cc=us", 
             "imageSrc": "https://s.mzstatic.com/images/flags/-dsi-30/usa.png", 
             "imageAltText": "My Store: United States, Choose Store"
         }, 
-        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/1583/frameworks-dt6/images/", 
+        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/B5E5/frameworks-dt6/images/", 
         "termsLink": {
             "url": "https://www.apple.com/legal/itunes/us/terms.html", 
             "label": "Terms and Conditions"
@@ -576,17 +578,17 @@
                             "height": 240
                         }, 
                         {
-                            "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/20/ec/8b/20ec8bc4-cfe0-61a2-2b9a-570262c1c07e/icon1024x1024.jpeg", 
+                            "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/20/ec/8b/20ec8bc4-cfe0-61a2-2b9a-570262c1c07e/icon1024x1024.png", 
                             "width": 1024, 
                             "height": 1024
                         }, 
                         {
-                            "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/20/ec/8b/20ec8bc4-cfe0-61a2-2b9a-570262c1c07e/icon440x440.jpeg", 
+                            "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/20/ec/8b/20ec8bc4-cfe0-61a2-2b9a-570262c1c07e/icon440x440.png", 
                             "width": 440, 
                             "height": 440
                         }, 
                         {
-                            "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/20/ec/8b/20ec8bc4-cfe0-61a2-2b9a-570262c1c07e/icon220x220.jpeg", 
+                            "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/20/ec/8b/20ec8bc4-cfe0-61a2-2b9a-570262c1c07e/icon220x220.png", 
                             "width": 220, 
                             "height": 220
                         }, 
@@ -596,7 +598,7 @@
                             "height": 400
                         }, 
                         {
-                            "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/20/ec/8b/20ec8bc4-cfe0-61a2-2b9a-570262c1c07e/icon512x512.png", 
+                            "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/20/ec/8b/20ec8bc4-cfe0-61a2-2b9a-570262c1c07e/icon512x512.jpeg", 
                             "width": 512, 
                             "height": 512
                         }
@@ -636,12 +638,12 @@
                                     "height": 414
                                 }, 
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple/v4/fd/67/83/fd6783dd-05e2-01d9-9ea4-41b255020fdf/screen420x316.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple/v4/fd/67/83/fd6783dd-05e2-01d9-9ea4-41b255020fdf/screen420x420.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
                                 {
-                                    "url": "http://a5.mzstatic.com/us/r30/Purple/v4/fd/67/83/fd6783dd-05e2-01d9-9ea4-41b255020fdf/screen420x420.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple/v4/fd/67/83/fd6783dd-05e2-01d9-9ea4-41b255020fdf/screen420x316.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
@@ -673,12 +675,12 @@
                                     "height": 414
                                 }, 
                                 {
-                                    "url": "http://a5.mzstatic.com/us/r30/Purple4/v4/03/d1/f0/03d1f0e0-b186-92c0-aa82-77e2c4074a2f/screen420x316.jpeg", 
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple4/v4/03/d1/f0/03d1f0e0-b186-92c0-aa82-77e2c4074a2f/screen420x420.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple4/v4/03/d1/f0/03d1f0e0-b186-92c0-aa82-77e2c4074a2f/screen420x420.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple4/v4/03/d1/f0/03d1f0e0-b186-92c0-aa82-77e2c4074a2f/screen420x316.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
@@ -710,12 +712,12 @@
                                     "height": 414
                                 }, 
                                 {
-                                    "url": "http://a4.mzstatic.com/us/r30/Purple4/v4/2c/b1/0e/2cb10e9a-1221-607f-ecc6-7ff0ae6b0e56/screen420x316.jpeg", 
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple4/v4/2c/b1/0e/2cb10e9a-1221-607f-ecc6-7ff0ae6b0e56/screen420x420.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple4/v4/2c/b1/0e/2cb10e9a-1221-607f-ecc6-7ff0ae6b0e56/screen420x420.jpeg", 
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple4/v4/2c/b1/0e/2cb10e9a-1221-607f-ecc6-7ff0ae6b0e56/screen420x316.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
@@ -1068,7 +1070,7 @@
         }
     }, 
     "properties": {
-        "ITSResourceRevNum": "1583", 
+        "ITSResourceRevNum": "B5E5", 
         "isCobaltJavascriptRedirectEnabled": true, 
         "isModern": false, 
         "ITSLogger.ServerReportingApp": "MZUserXP", 
@@ -1078,7 +1080,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "1008803", 
+        "ITSServerInstance": "2125149", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
@@ -1108,7 +1110,7 @@
                 "platformId": "28", 
                 "storeFront": "143441", 
                 "storeFrontHeader": "143441-1,28", 
-                "environmentDataCenter": "NWK", 
+                "environmentDataCenter": "ST11", 
                 "platformName": "iTunes12"
             }, 
             "postFrequency": 60000, 
@@ -1217,7 +1219,7 @@
         "countryCode": "usa", 
         "GlobalLists": {
             "removeFromWishlistUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/removeFromWishlist", 
-            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=1583", 
+            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=B5E5", 
             "updateRadioHistoryUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/updateRadioHistory", 
             "popover": {
                 "width": "350", 

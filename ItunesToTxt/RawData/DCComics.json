@@ -23,17 +23,18 @@
                     "ids": [
                         350027738, 
                         597251953, 
-                        395985060, 
-                        436958659, 
+                        542557212, 
                         415378623, 
                         364734296, 
-                        434406498, 
-                        869502447, 
-                        672803850, 
-                        335630043, 
+                        395985060, 
+                        453213960, 
                         600093661, 
-                        468607901, 
-                        536661409
+                        921024054, 
+                        356971775, 
+                        539466818, 
+                        483281737, 
+                        869502447, 
+                        563273711
                     ], 
                     "title": "Top Grossing iPad Books Apps"
                 }, 
@@ -41,17 +42,18 @@
                     "ids": [
                         350027738, 
                         444553118, 
-                        672803850, 
                         395985060, 
-                        869502447, 
-                        364734296, 
-                        435873883, 
-                        421486286, 
                         597251953, 
-                        917240760, 
-                        519625336, 
-                        475752315, 
-                        483281737
+                        542557212, 
+                        364734296, 
+                        672803850, 
+                        401153476, 
+                        869502447, 
+                        310295776, 
+                        435873883, 
+                        415378623, 
+                        483281737, 
+                        534174796
                     ], 
                     "title": "Top Grossing iPhone Books Apps"
                 }
@@ -206,12 +208,12 @@
                     "name": "Batman #2"
                 }, 
                 {
-                    "price": "$1.99", 
-                    "name": "Justice League #4"
-                }, 
-                {
                     "price": "$0.99", 
                     "name": "Injustice: Gods Among Us #2"
+                }, 
+                {
+                    "price": "$1.99", 
+                    "name": "Justice League #4"
                 }, 
                 {
                     "price": "$2.99", 
@@ -224,7 +226,7 @@
             "pageDetails": "DC Entertainment_DC Comics", 
             "pageId": "378080432", 
             "language": "1", 
-            "serverInstance": "511005", 
+            "serverInstance": "1013400", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
@@ -274,7 +276,7 @@
                 "label": "DC Entertainment"
             }
         ], 
-        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/1583/frameworks-sf6/images/", 
+        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/B5E5/frameworks-sf6/images/", 
         "omnitureMetrics": {
             "shouldTrackBrowserPlugins": false, 
             "format": "HTML", 
@@ -304,14 +306,14 @@
                 ]
             }
         }, 
-        "resourceImagePath": "https://s.mzstatic.com/htmlResources/1583/di6-storefront/images/", 
-        "resourceBasePath": "/htmlResources/1583/files/", 
+        "resourceImagePath": "https://s.mzstatic.com/htmlResources/B5E5/di6-storefront/images/", 
+        "resourceBasePath": "/htmlResources/B5E5/files/", 
         "flagLink": {
             "url": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/countrySelectorPage?cc=us", 
             "imageSrc": "https://s.mzstatic.com/images/flags/-dsi-30/usa.png", 
             "imageAltText": "My Store: United States, Choose Store"
         }, 
-        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/1583/frameworks-dt6/images/", 
+        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/B5E5/frameworks-dt6/images/", 
         "termsLink": {
             "url": "https://www.apple.com/legal/itunes/us/terms.html", 
             "label": "Terms and Conditions"
@@ -447,10 +449,10 @@
                     "releaseDate": "2010-06-23", 
                     "artistId": 378080435, 
                     "userRating": {
-                        "ratingCountCurrentVersion": 5, 
+                        "ratingCountCurrentVersion": 6, 
                         "valueCurrentVersion": 4, 
                         "value": 3.5, 
-                        "ratingCount": 11749
+                        "ratingCount": 11751
                     }, 
                     "artistUrl": "https://itunes.apple.com/us/artist/dc-entertainment/id378080435?mt=8", 
                     "itunesNotes": null, 
@@ -561,7 +563,7 @@
                             "height": 1024
                         }, 
                         {
-                            "url": "http://a4.mzstatic.com/us/r30/Purple1/v4/e6/27/99/e6279963-8b6f-1387-36df-ecc93b8b4b81/icon440x440.jpeg", 
+                            "url": "http://a4.mzstatic.com/us/r30/Purple1/v4/e6/27/99/e6279963-8b6f-1387-36df-ecc93b8b4b81/icon440x440.png", 
                             "width": 440, 
                             "height": 440
                         }, 
@@ -571,12 +573,12 @@
                             "height": 220
                         }, 
                         {
-                            "url": "http://a5.mzstatic.com/us/r30/Purple1/v4/e6/27/99/e6279963-8b6f-1387-36df-ecc93b8b4b81/icon400x400.png", 
+                            "url": "http://a5.mzstatic.com/us/r30/Purple1/v4/e6/27/99/e6279963-8b6f-1387-36df-ecc93b8b4b81/icon400x400.jpeg", 
                             "width": 400, 
                             "height": 400
                         }, 
                         {
-                            "url": "http://a5.mzstatic.com/us/r30/Purple1/v4/e6/27/99/e6279963-8b6f-1387-36df-ecc93b8b4b81/icon512x512.png", 
+                            "url": "http://a3.mzstatic.com/us/r30/Purple1/v4/e6/27/99/e6279963-8b6f-1387-36df-ecc93b8b4b81/icon512x512.jpeg", 
                             "width": 512, 
                             "height": 512
                         }
@@ -1139,7 +1141,7 @@
         }
     }, 
     "properties": {
-        "ITSResourceRevNum": "1583", 
+        "ITSResourceRevNum": "B5E5", 
         "isCobaltJavascriptRedirectEnabled": true, 
         "isModern": false, 
         "ITSLogger.ServerReportingApp": "MZUserXP", 
@@ -1149,7 +1151,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "511005", 
+        "ITSServerInstance": "1013400", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
@@ -1288,7 +1290,7 @@
         "countryCode": "usa", 
         "GlobalLists": {
             "removeFromWishlistUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/removeFromWishlist", 
-            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=1583", 
+            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=B5E5", 
             "updateRadioHistoryUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/updateRadioHistory", 
             "popover": {
                 "width": "350", 

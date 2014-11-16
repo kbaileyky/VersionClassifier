@@ -11,17 +11,17 @@
                         421254504, 
                         404167616, 
                         509993510, 
-                        584557117, 
-                        781817640, 
-                        491069819, 
-                        335060889, 
-                        524122834, 
                         535076358, 
-                        524299475, 
+                        491069819, 
+                        781817640, 
+                        502344938, 
+                        584557117, 
                         408709785, 
+                        335060889, 
                         408878018, 
-                        464783893, 
-                        475820434
+                        298307011, 
+                        524299475, 
+                        669196929
                     ], 
                     "title": "Top Grossing iPad Music Apps"
                 }, 
@@ -38,9 +38,9 @@
                         524299475, 
                         897821622, 
                         899067065, 
-                        440844625, 
                         632353530, 
-                        547109049
+                        527588389, 
+                        440844625
                     ], 
                     "title": "Top Grossing iPhone Music Apps"
                 }
@@ -219,12 +219,12 @@
                     "name": "mes de Spotify Premium"
                 }, 
                 {
-                    "price": "$13.99", 
-                    "name": "Monat Spotify Premium"
-                }, 
-                {
                     "price": "$17.99", 
                     "name": "month of Spotify Premium"
+                }, 
+                {
+                    "price": "$13.99", 
+                    "name": "Monat Spotify Premium"
                 }
             ], 
             "id": 324684580
@@ -233,7 +233,7 @@
             "pageDetails": "Spotify Ltd._Spotify Music", 
             "pageId": "324684580", 
             "language": "1", 
-            "serverInstance": "1014301", 
+            "serverInstance": "1000701", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
@@ -283,7 +283,7 @@
                 "label": "Spotify Ltd."
             }
         ], 
-        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/1583/frameworks-sf6/images/", 
+        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/B5E5/frameworks-sf6/images/", 
         "omnitureMetrics": {
             "shouldTrackBrowserPlugins": false, 
             "format": "HTML", 
@@ -313,14 +313,14 @@
                 ]
             }
         }, 
-        "resourceImagePath": "https://s.mzstatic.com/htmlResources/1583/di6-storefront/images/", 
-        "resourceBasePath": "/htmlResources/1583/files/", 
+        "resourceImagePath": "https://s.mzstatic.com/htmlResources/B5E5/di6-storefront/images/", 
+        "resourceBasePath": "/htmlResources/B5E5/files/", 
         "flagLink": {
             "url": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/countrySelectorPage?cc=us", 
             "imageSrc": "https://s.mzstatic.com/images/flags/-dsi-30/usa.png", 
             "imageAltText": "My Store: United States, Choose Store"
         }, 
-        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/1583/frameworks-dt6/images/", 
+        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/B5E5/frameworks-dt6/images/", 
         "termsLink": {
             "url": "https://www.apple.com/legal/itunes/us/terms.html", 
             "label": "Terms and Conditions"
@@ -456,10 +456,10 @@
                     "releaseDate": "2011-07-14", 
                     "artistId": 324684583, 
                     "userRating": {
-                        "ratingCountCurrentVersion": 514, 
+                        "ratingCountCurrentVersion": 624, 
                         "valueCurrentVersion": 4, 
                         "value": 4.5, 
-                        "ratingCount": 435906
+                        "ratingCount": 436005
                     }, 
                     "artistUrl": "https://itunes.apple.com/us/artist/spotify-ltd./id324684583?mt=8", 
                     "itunesNotes": null, 
@@ -552,17 +552,17 @@
                     "editorialBadgeInfo": null, 
                     "artwork": [
                         {
-                            "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/d3/b9/7e/d3b97e29-4635-9cf1-8722-be6d13df57ac/icon240x240.png", 
+                            "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/d3/b9/7e/d3b97e29-4635-9cf1-8722-be6d13df57ac/icon240x240.jpeg", 
                             "width": 240, 
                             "height": 240
                         }, 
                         {
-                            "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/d3/b9/7e/d3b97e29-4635-9cf1-8722-be6d13df57ac/icon1024x1024.jpeg", 
+                            "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/d3/b9/7e/d3b97e29-4635-9cf1-8722-be6d13df57ac/icon1024x1024.png", 
                             "width": 1024, 
                             "height": 1024
                         }, 
                         {
-                            "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/d3/b9/7e/d3b97e29-4635-9cf1-8722-be6d13df57ac/icon440x440.jpeg", 
+                            "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/d3/b9/7e/d3b97e29-4635-9cf1-8722-be6d13df57ac/icon440x440.png", 
                             "width": 440, 
                             "height": 440
                         }, 
@@ -572,12 +572,12 @@
                             "height": 220
                         }, 
                         {
-                            "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/d3/b9/7e/d3b97e29-4635-9cf1-8722-be6d13df57ac/icon400x400.jpeg", 
+                            "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/d3/b9/7e/d3b97e29-4635-9cf1-8722-be6d13df57ac/icon400x400.png", 
                             "width": 400, 
                             "height": 400
                         }, 
                         {
-                            "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/d3/b9/7e/d3b97e29-4635-9cf1-8722-be6d13df57ac/icon512x512.png", 
+                            "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/d3/b9/7e/d3b97e29-4635-9cf1-8722-be6d13df57ac/icon512x512.jpeg", 
                             "width": 512, 
                             "height": 512
                         }
@@ -597,7 +597,7 @@
                         "ipad": [
                             [
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple5/v4/d9/cf/47/d9cf47c6-19c9-17a7-896d-10da9563a722/screen261x261-65.jpeg", 
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple5/v4/d9/cf/47/d9cf47c6-19c9-17a7-896d-10da9563a722/screen261x261-50.jpeg", 
                                     "width": 196, 
                                     "height": 261
                                 }, 
@@ -629,7 +629,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/01/d2/aa/01d2aa83-df05-44aa-2ddd-8e071ee4dbc3/screen261x261-65.jpeg", 
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/01/d2/aa/01d2aa83-df05-44aa-2ddd-8e071ee4dbc3/screen261x261-50.jpeg", 
                                     "width": 196, 
                                     "height": 261
                                 }, 
@@ -661,7 +661,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple5/v4/6a/ca/af/6acaafc6-7e45-1ae7-ca95-bc921bc05a99/screen261x261-65.jpeg", 
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple5/v4/6a/ca/af/6acaafc6-7e45-1ae7-ca95-bc921bc05a99/screen261x261-50.jpeg", 
                                     "width": 196, 
                                     "height": 261
                                 }, 
@@ -693,7 +693,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/00/29/61/00296126-1dba-9ff0-46f5-6a3820cce93c/screen261x261-65.jpeg", 
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/00/29/61/00296126-1dba-9ff0-46f5-6a3820cce93c/screen261x261-50.jpeg", 
                                     "width": 196, 
                                     "height": 261
                                 }, 
@@ -1108,7 +1108,7 @@
         }
     }, 
     "properties": {
-        "ITSResourceRevNum": "1583", 
+        "ITSResourceRevNum": "B5E5", 
         "isCobaltJavascriptRedirectEnabled": true, 
         "isModern": false, 
         "ITSLogger.ServerReportingApp": "MZUserXP", 
@@ -1118,7 +1118,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "1014301", 
+        "ITSServerInstance": "1000701", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
@@ -1257,7 +1257,7 @@
         "countryCode": "usa", 
         "GlobalLists": {
             "removeFromWishlistUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/removeFromWishlist", 
-            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=1583", 
+            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=B5E5", 
             "updateRadioHistoryUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/updateRadioHistory", 
             "popover": {
                 "width": "350", 

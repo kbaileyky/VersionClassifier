@@ -22,38 +22,40 @@
                 "ipad": {
                     "ids": [
                         350027738, 
-                        378080432, 
                         597251953, 
-                        395985060, 
-                        436958659, 
+                        378080432, 
+                        542557212, 
                         415378623, 
                         364734296, 
-                        434406498, 
-                        869502447, 
-                        672803850, 
-                        335630043, 
+                        395985060, 
+                        453213960, 
                         600093661, 
-                        468607901, 
-                        536661409
+                        921024054, 
+                        356971775, 
+                        539466818, 
+                        483281737, 
+                        869502447, 
+                        563273711
                     ], 
                     "title": "Top Grossing iPad Books Apps"
                 }, 
                 "iphone": {
                     "ids": [
                         350027738, 
-                        444553118, 
                         378080432, 
-                        672803850, 
+                        444553118, 
                         395985060, 
-                        869502447, 
-                        364734296, 
-                        435873883, 
-                        421486286, 
                         597251953, 
-                        917240760, 
-                        519625336, 
-                        475752315, 
-                        483281737
+                        542557212, 
+                        364734296, 
+                        672803850, 
+                        401153476, 
+                        869502447, 
+                        310295776, 
+                        435873883, 
+                        415378623, 
+                        483281737, 
+                        534174796
                     ], 
                     "title": "Top Grossing iPhone Books Apps"
                 }
@@ -247,11 +249,11 @@
             "pageDetails": "Madefire Inc._Madefire Motion Books & Comics", 
             "pageId": "533379666", 
             "language": "1", 
-            "serverInstance": "2126483", 
+            "serverInstance": "1006303", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
-            "environmentDataCenter": "ST11", 
+            "environmentDataCenter": "NWK", 
             "pageType": "Software", 
             "platformName": "iTunes12", 
             "page": "Software_533379666"
@@ -297,7 +299,7 @@
                 "label": "Madefire Inc."
             }
         ], 
-        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/1583/frameworks-sf6/images/", 
+        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/B5E5/frameworks-sf6/images/", 
         "omnitureMetrics": {
             "shouldTrackBrowserPlugins": false, 
             "format": "HTML", 
@@ -327,14 +329,14 @@
                 ]
             }
         }, 
-        "resourceImagePath": "https://s.mzstatic.com/htmlResources/1583/di6-storefront/images/", 
-        "resourceBasePath": "/htmlResources/1583/files/", 
+        "resourceImagePath": "https://s.mzstatic.com/htmlResources/B5E5/di6-storefront/images/", 
+        "resourceBasePath": "/htmlResources/B5E5/files/", 
         "flagLink": {
             "url": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/countrySelectorPage?cc=us", 
             "imageSrc": "https://s.mzstatic.com/images/flags/-dsi-30/usa.png", 
             "imageAltText": "My Store: United States, Choose Store"
         }, 
-        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/1583/frameworks-dt6/images/", 
+        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/B5E5/frameworks-dt6/images/", 
         "termsLink": {
             "url": "https://www.apple.com/legal/itunes/us/terms.html", 
             "label": "Terms and Conditions"
@@ -470,10 +472,10 @@
                     "releaseDate": "2012-06-21", 
                     "artistId": 533309866, 
                     "userRating": {
-                        "ratingCountCurrentVersion": 18, 
+                        "ratingCountCurrentVersion": 19, 
                         "valueCurrentVersion": 4.5, 
                         "value": 4.5, 
-                        "ratingCount": 1220
+                        "ratingCount": 1221
                     }, 
                     "artistUrl": "https://itunes.apple.com/us/artist/madefire-inc./id533309866?mt=8", 
                     "itunesNotes": {
@@ -579,7 +581,7 @@
                     }, 
                     "artwork": [
                         {
-                            "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/fe/e7/a9/fee7a91d-a0cd-76f0-436a-4e05bb135d26/icon240x240.jpeg", 
+                            "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/fe/e7/a9/fee7a91d-a0cd-76f0-436a-4e05bb135d26/icon240x240.png", 
                             "width": 240, 
                             "height": 240
                         }, 
@@ -594,7 +596,7 @@
                             "height": 440
                         }, 
                         {
-                            "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/fe/e7/a9/fee7a91d-a0cd-76f0-436a-4e05bb135d26/icon220x220.png", 
+                            "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/fe/e7/a9/fee7a91d-a0cd-76f0-436a-4e05bb135d26/icon220x220.jpeg", 
                             "width": 220, 
                             "height": 220
                         }, 
@@ -1591,7 +1593,7 @@
         }
     }, 
     "properties": {
-        "ITSResourceRevNum": "1583", 
+        "ITSResourceRevNum": "B5E5", 
         "isCobaltJavascriptRedirectEnabled": true, 
         "isModern": false, 
         "ITSLogger.ServerReportingApp": "MZUserXP", 
@@ -1601,7 +1603,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "2126483", 
+        "ITSServerInstance": "1006303", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
@@ -1631,7 +1633,7 @@
                 "platformId": "28", 
                 "storeFront": "143441", 
                 "storeFrontHeader": "143441-1,28", 
-                "environmentDataCenter": "ST11", 
+                "environmentDataCenter": "NWK", 
                 "platformName": "iTunes12"
             }, 
             "postFrequency": 60000, 
@@ -1740,7 +1742,7 @@
         "countryCode": "usa", 
         "GlobalLists": {
             "removeFromWishlistUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/removeFromWishlist", 
-            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=1583", 
+            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=B5E5", 
             "updateRadioHistoryUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/updateRadioHistory", 
             "popover": {
                 "width": "350", 

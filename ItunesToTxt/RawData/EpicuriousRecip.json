@@ -8,20 +8,19 @@
                 "ipad": {
                     "ids": [
                         819440982, 
-                        911422904, 
-                        399072152, 
                         321560858, 
+                        399072152, 
+                        911422904, 
                         436491861, 
-                        480009749, 
                         296581815, 
                         299515267, 
-                        680607733, 
-                        488860392, 
-                        304132604, 
+                        480009749, 
                         503569987, 
-                        480016415, 
-                        727866441, 
-                        302920553
+                        304132604, 
+                        302920553, 
+                        488860392, 
+                        475905823, 
+                        727866441
                     ], 
                     "title": "Top Free iPad Food & Drink Apps"
                 }, 
@@ -29,19 +28,19 @@
                     "ids": [
                         331177714, 
                         497387361, 
-                        552020897, 
                         436491861, 
                         321560858, 
-                        692365393, 
-                        296581815, 
-                        302920553, 
-                        638323895, 
-                        284708449, 
-                        562542654, 
-                        589625334, 
+                        552020897, 
                         407517450, 
+                        302920553, 
+                        296581815, 
+                        418971697, 
+                        284708449, 
+                        691617940, 
+                        589625334, 
+                        692365393, 
                         399072152, 
-                        327228455
+                        638323895
                     ], 
                     "title": "Top Free iPhone Food & Drink Apps"
                 }
@@ -55,11 +54,11 @@
                 720808869, 
                 289380413, 
                 485772087, 
-                426415850, 
-                391597058, 
+                596928966, 
+                576547634, 
                 528597834, 
-                596951993, 
-                596928966
+                426415850, 
+                391597058
             ], 
             "appRatingsLearnMoreUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/appRatings?cc=us", 
             "versionHistory": [
@@ -185,7 +184,7 @@
             "pageDetails": "Cond\u00e9 Nast Digital_Epicurious Recipes & Shopping List", 
             "pageId": "312101965", 
             "language": "1", 
-            "serverInstance": "1000903", 
+            "serverInstance": "1005803", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
@@ -235,7 +234,7 @@
                 "label": "Cond\u00e9 Nast Digital"
             }
         ], 
-        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/1583/frameworks-sf6/images/", 
+        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/B5E5/frameworks-sf6/images/", 
         "omnitureMetrics": {
             "shouldTrackBrowserPlugins": false, 
             "format": "HTML", 
@@ -265,14 +264,14 @@
                 ]
             }
         }, 
-        "resourceImagePath": "https://s.mzstatic.com/htmlResources/1583/di6-storefront/images/", 
-        "resourceBasePath": "/htmlResources/1583/files/", 
+        "resourceImagePath": "https://s.mzstatic.com/htmlResources/B5E5/di6-storefront/images/", 
+        "resourceBasePath": "/htmlResources/B5E5/files/", 
         "flagLink": {
             "url": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/countrySelectorPage?cc=us", 
             "imageSrc": "https://s.mzstatic.com/images/flags/-dsi-30/usa.png", 
             "imageAltText": "My Store: United States, Choose Store"
         }, 
-        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/1583/frameworks-dt6/images/", 
+        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/B5E5/frameworks-dt6/images/", 
         "termsLink": {
             "url": "https://www.apple.com/legal/itunes/us/terms.html", 
             "label": "Terms and Conditions"
@@ -411,7 +410,7 @@
                         "ratingCountCurrentVersion": 28, 
                         "valueCurrentVersion": 2, 
                         "value": 3, 
-                        "ratingCount": 35270
+                        "ratingCount": 35269
                     }, 
                     "artistUrl": "https://itunes.apple.com/us/artist/conde-nast-digital/id289380416?mt=8", 
                     "itunesNotes": {
@@ -522,7 +521,7 @@
                             "height": 400
                         }, 
                         {
-                            "url": "http://a3.mzstatic.com/us/r30/Purple1/v4/3c/88/9f/3c889f25-3445-9b7a-4c32-b9d9681795fa/icon512x512.jpeg", 
+                            "url": "http://a5.mzstatic.com/us/r30/Purple1/v4/3c/88/9f/3c889f25-3445-9b7a-4c32-b9d9681795fa/icon512x512.png", 
                             "width": 512, 
                             "height": 512
                         }
@@ -594,12 +593,12 @@
                                     "height": 414
                                 }, 
                                 {
-                                    "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/5e/a5/47/5ea547b6-9cda-da2a-5b38-5ae807e93965/screen420x420.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/5e/a5/47/5ea547b6-9cda-da2a-5b38-5ae807e93965/screen420x316.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/5e/a5/47/5ea547b6-9cda-da2a-5b38-5ae807e93965/screen420x316.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/5e/a5/47/5ea547b6-9cda-da2a-5b38-5ae807e93965/screen420x420.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
@@ -631,12 +630,12 @@
                                     "height": 414
                                 }, 
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/a3/6c/b3/a36cb382-7944-6071-bfdd-6315bc4ce328/screen420x420.jpeg", 
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/a3/6c/b3/a36cb382-7944-6071-bfdd-6315bc4ce328/screen420x316.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/a3/6c/b3/a36cb382-7944-6071-bfdd-6315bc4ce328/screen420x316.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/a3/6c/b3/a36cb382-7944-6071-bfdd-6315bc4ce328/screen420x420.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
@@ -668,12 +667,12 @@
                                     "height": 414
                                 }, 
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple/v4/ea/7d/29/ea7d2923-ad73-8295-5823-125f655abc80/screen420x420.jpeg", 
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple/v4/ea/7d/29/ea7d2923-ad73-8295-5823-125f655abc80/screen420x316.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
                                 {
-                                    "url": "http://a4.mzstatic.com/us/r30/Purple/v4/ea/7d/29/ea7d2923-ad73-8295-5823-125f655abc80/screen420x316.jpeg", 
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple/v4/ea/7d/29/ea7d2923-ad73-8295-5823-125f655abc80/screen420x420.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
@@ -1100,7 +1099,7 @@
         }
     }, 
     "properties": {
-        "ITSResourceRevNum": "1583", 
+        "ITSResourceRevNum": "B5E5", 
         "isCobaltJavascriptRedirectEnabled": true, 
         "isModern": false, 
         "ITSLogger.ServerReportingApp": "MZUserXP", 
@@ -1110,7 +1109,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "1000903", 
+        "ITSServerInstance": "1005803", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
@@ -1249,7 +1248,7 @@
         "countryCode": "usa", 
         "GlobalLists": {
             "removeFromWishlistUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/removeFromWishlist", 
-            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=1583", 
+            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=B5E5", 
             "updateRadioHistoryUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/updateRadioHistory", 
             "popover": {
                 "width": "350", 

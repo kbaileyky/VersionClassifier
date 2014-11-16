@@ -8,19 +8,19 @@
                     "ids": [
                         893927401, 
                         891450541, 
-                        431493086, 
-                        931936670, 
-                        882931712, 
-                        664909593, 
                         922609543, 
-                        381342267, 
-                        591626572, 
-                        395623983, 
-                        897571874, 
-                        567289775, 
-                        435476174, 
                         569632660, 
-                        300590611
+                        381342267, 
+                        931936670, 
+                        897571874, 
+                        591626572, 
+                        664909593, 
+                        844517266, 
+                        882931712, 
+                        371338715, 
+                        567289775, 
+                        464235764, 
+                        431493086
                     ], 
                     "title": "Top Paid iPad Education Apps"
                 }, 
@@ -30,16 +30,16 @@
                         569632660, 
                         381342267, 
                         922609543, 
-                        931936670, 
-                        888453428, 
                         567289775, 
-                        300590611, 
-                        295430577, 
+                        931936670, 
                         591626572, 
-                        640381740, 
+                        300590611, 
+                        664907712, 
                         553211336, 
+                        888453428, 
                         419411014, 
-                        371338715
+                        871694174, 
+                        404990064
                     ], 
                     "title": "Top Paid iPhone Education Apps"
                 }
@@ -54,14 +54,14 @@
                 505160245, 
                 664907712, 
                 897574452, 
-                567249360, 
                 477560499, 
+                567249360, 
                 751936022, 
-                745699884, 
-                641669269, 
+                422607930, 
                 815821424, 
                 443432280, 
                 546352307, 
+                745699884, 
                 404199434
             ], 
             "appRatingsLearnMoreUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/appRatings?cc=us", 
@@ -83,7 +83,7 @@
             "pageDetails": "Nickelodeon_PAW Patrol Rescue Run", 
             "pageId": "891453663", 
             "language": "1", 
-            "serverInstance": "2001901", 
+            "serverInstance": "2125566", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
@@ -133,7 +133,7 @@
                 "label": "Nickelodeon"
             }
         ], 
-        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/1583/frameworks-sf6/images/", 
+        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/B5E5/frameworks-sf6/images/", 
         "omnitureMetrics": {
             "shouldTrackBrowserPlugins": false, 
             "format": "HTML", 
@@ -163,14 +163,14 @@
                 ]
             }
         }, 
-        "resourceImagePath": "https://s.mzstatic.com/htmlResources/1583/di6-storefront/images/", 
-        "resourceBasePath": "/htmlResources/1583/files/", 
+        "resourceImagePath": "https://s.mzstatic.com/htmlResources/B5E5/di6-storefront/images/", 
+        "resourceBasePath": "/htmlResources/B5E5/files/", 
         "flagLink": {
             "url": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/countrySelectorPage?cc=us", 
             "imageSrc": "https://s.mzstatic.com/images/flags/-dsi-30/usa.png", 
             "imageAltText": "My Store: United States, Choose Store"
         }, 
-        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/1583/frameworks-dt6/images/", 
+        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/B5E5/frameworks-dt6/images/", 
         "termsLink": {
             "url": "https://www.apple.com/legal/itunes/us/terms.html", 
             "label": "Terms and Conditions"
@@ -412,12 +412,12 @@
                             "height": 1024
                         }, 
                         {
-                            "url": "http://a3.mzstatic.com/us/r30/Purple4/v4/c2/a4/cb/c2a4cb26-35ba-3c81-9444-9f0b1b85cde5/icon440x440.jpeg", 
+                            "url": "http://a3.mzstatic.com/us/r30/Purple4/v4/c2/a4/cb/c2a4cb26-35ba-3c81-9444-9f0b1b85cde5/icon440x440.png", 
                             "width": 440, 
                             "height": 440
                         }, 
                         {
-                            "url": "http://a4.mzstatic.com/us/r30/Purple4/v4/c2/a4/cb/c2a4cb26-35ba-3c81-9444-9f0b1b85cde5/icon220x220.jpeg", 
+                            "url": "http://a4.mzstatic.com/us/r30/Purple4/v4/c2/a4/cb/c2a4cb26-35ba-3c81-9444-9f0b1b85cde5/icon220x220.png", 
                             "width": 220, 
                             "height": 220
                         }, 
@@ -780,7 +780,7 @@
         }
     }, 
     "properties": {
-        "ITSResourceRevNum": "1583", 
+        "ITSResourceRevNum": "B5E5", 
         "isCobaltJavascriptRedirectEnabled": true, 
         "isModern": false, 
         "ITSLogger.ServerReportingApp": "MZUserXP", 
@@ -790,7 +790,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "2001901", 
+        "ITSServerInstance": "2125566", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
@@ -929,7 +929,7 @@
         "countryCode": "usa", 
         "GlobalLists": {
             "removeFromWishlistUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/removeFromWishlist", 
-            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=1583", 
+            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=B5E5", 
             "updateRadioHistoryUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/updateRadioHistory", 
             "popover": {
                 "width": "350", 

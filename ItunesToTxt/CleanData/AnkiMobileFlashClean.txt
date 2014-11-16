@@ -1,3 +1,7 @@
+Version Number: 2.0.16
+Release Date: 2014-11-15T19:23:09Z
+Fixed the search results displaying more than 2 lines on iOS8.
+
 Version Number: 2.0.15
 Release Date: 2014-11-11T23:04:51Z
 Fix a bug that could cause 'inconsistent state' messages to appear when syncing.
@@ -331,7 +335,4 @@ Release Date: 2010-06-03T22:26:37Z
 * Quickbar will expand to fill screen if deck loaded in landscape mode.
 * Fixed an issue with marked cards not being searchable.
 * Various other bug fixes and interface tweaks.
-
-Version Number: 1.0
-Release Date: 2010-05-27T03:18:24Z
 
