@@ -27,17 +27,17 @@
                         529479190, 
                         553834731, 
                         667728512, 
-                        538212549, 
                         485126024, 
                         850417475, 
+                        538212549, 
                         506627515, 
-                        824318267, 
-                        469231420, 
                         486363584, 
                         594843575, 
+                        469231420, 
                         834393815, 
                         479516143, 
-                        572821456
+                        824318267, 
+                        483165745
                     ], 
                     "title": "Top Grossing iPad Games Apps"
                 }, 
@@ -46,17 +46,17 @@
                         529479190, 
                         553834731, 
                         667728512, 
-                        538212549, 
                         850417475, 
-                        563474464, 
+                        538212549, 
                         506627515, 
+                        563474464, 
+                        855627886, 
                         447553564, 
                         672150402, 
                         860822992, 
-                        694876905, 
-                        855627886, 
-                        485126024, 
-                        558823262
+                        479516143, 
+                        834393815, 
+                        572821456
                     ], 
                     "title": "Top Grossing iPhone Games Apps"
                 }
@@ -226,12 +226,12 @@
                     "name": "Sale Bundle Small"
                 }, 
                 {
-                    "price": "$19.99", 
-                    "name": "Sale Bundle Large"
-                }, 
-                {
                     "price": "$99.99", 
                     "name": "XL Gold Bars package"
+                }, 
+                {
+                    "price": "$19.99", 
+                    "name": "Sale Bundle Large"
                 }
             ], 
             "id": 608206510
@@ -240,11 +240,11 @@
             "pageDetails": "King.com Limited_Farm Heroes Saga", 
             "pageId": "608206510", 
             "language": "1", 
-            "serverInstance": "2126029", 
+            "serverInstance": "1002205", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
-            "environmentDataCenter": "ST11", 
+            "environmentDataCenter": "NWK", 
             "pageType": "Software", 
             "platformName": "iTunes12", 
             "page": "Software_608206510"
@@ -463,10 +463,10 @@
                     "releaseDate": "2014-01-02", 
                     "artistId": 526656015, 
                     "userRating": {
-                        "ratingCountCurrentVersion": 314, 
-                        "valueCurrentVersion": 4, 
+                        "ratingCountCurrentVersion": 664, 
+                        "valueCurrentVersion": 4.5, 
                         "value": 4.5, 
-                        "ratingCount": 133168
+                        "ratingCount": 133301
                     }, 
                     "artistUrl": "https://itunes.apple.com/us/artist/king.com-limited/id526656015?mt=8", 
                     "itunesNotes": null, 
@@ -566,7 +566,7 @@
                             "height": 1024
                         }, 
                         {
-                            "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/26/1e/b4/261eb4b9-4731-af9f-58bc-8876265d7df9/icon440x440.png", 
+                            "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/26/1e/b4/261eb4b9-4731-af9f-58bc-8876265d7df9/icon440x440.jpeg", 
                             "width": 440, 
                             "height": 440
                         }, 
@@ -603,7 +603,7 @@
                         "ipad": [
                             [
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple6/v4/79/ae/a2/79aea27f-35b9-fdc5-c196-80f7c8790c4c/screen261x261-65.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple6/v4/79/ae/a2/79aea27f-35b9-fdc5-c196-80f7c8790c4c/screen261x261-50.jpeg", 
                                     "width": 261, 
                                     "height": 196
                                 }, 
@@ -623,12 +623,12 @@
                                     "height": 414
                                 }, 
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple6/v4/79/ae/a2/79aea27f-35b9-fdc5-c196-80f7c8790c4c/screen420x316.jpeg", 
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple6/v4/79/ae/a2/79aea27f-35b9-fdc5-c196-80f7c8790c4c/screen420x420.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
                                 {
-                                    "url": "http://a4.mzstatic.com/us/r30/Purple6/v4/79/ae/a2/79aea27f-35b9-fdc5-c196-80f7c8790c4c/screen420x420.jpeg", 
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple6/v4/79/ae/a2/79aea27f-35b9-fdc5-c196-80f7c8790c4c/screen420x316.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
@@ -640,7 +640,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple4/v4/ee/6d/c8/ee6dc893-0513-79b9-e8d7-b4ad3b9f790e/screen261x261-65.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple4/v4/ee/6d/c8/ee6dc893-0513-79b9-e8d7-b4ad3b9f790e/screen261x261-50.jpeg", 
                                     "width": 261, 
                                     "height": 196
                                 }, 
@@ -660,12 +660,12 @@
                                     "height": 414
                                 }, 
                                 {
-                                    "url": "http://a4.mzstatic.com/us/r30/Purple4/v4/ee/6d/c8/ee6dc893-0513-79b9-e8d7-b4ad3b9f790e/screen420x316.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple4/v4/ee/6d/c8/ee6dc893-0513-79b9-e8d7-b4ad3b9f790e/screen420x420.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple4/v4/ee/6d/c8/ee6dc893-0513-79b9-e8d7-b4ad3b9f790e/screen420x420.jpeg", 
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple4/v4/ee/6d/c8/ee6dc893-0513-79b9-e8d7-b4ad3b9f790e/screen420x316.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
@@ -677,7 +677,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a5.mzstatic.com/us/r30/Purple6/v4/18/56/97/18569768-f8f1-6dc8-c24f-a03b388742a8/screen261x261-65.jpeg", 
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple6/v4/18/56/97/18569768-f8f1-6dc8-c24f-a03b388742a8/screen261x261-50.jpeg", 
                                     "width": 261, 
                                     "height": 196
                                 }, 
@@ -697,12 +697,12 @@
                                     "height": 414
                                 }, 
                                 {
-                                    "url": "http://a5.mzstatic.com/us/r30/Purple6/v4/18/56/97/18569768-f8f1-6dc8-c24f-a03b388742a8/screen420x316.jpeg", 
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple6/v4/18/56/97/18569768-f8f1-6dc8-c24f-a03b388742a8/screen420x420.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple6/v4/18/56/97/18569768-f8f1-6dc8-c24f-a03b388742a8/screen420x420.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple6/v4/18/56/97/18569768-f8f1-6dc8-c24f-a03b388742a8/screen420x316.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
@@ -714,7 +714,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple/v4/80/c7/52/80c752ab-1ed7-320c-2afb-484aaa2a4a65/screen261x261-65.jpeg", 
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple/v4/80/c7/52/80c752ab-1ed7-320c-2afb-484aaa2a4a65/screen261x261-50.jpeg", 
                                     "width": 261, 
                                     "height": 196
                                 }, 
@@ -734,12 +734,12 @@
                                     "height": 414
                                 }, 
                                 {
-                                    "url": "http://a5.mzstatic.com/us/r30/Purple/v4/80/c7/52/80c752ab-1ed7-320c-2afb-484aaa2a4a65/screen420x316.jpeg", 
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple/v4/80/c7/52/80c752ab-1ed7-320c-2afb-484aaa2a4a65/screen420x420.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple/v4/80/c7/52/80c752ab-1ed7-320c-2afb-484aaa2a4a65/screen420x420.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple/v4/80/c7/52/80c752ab-1ed7-320c-2afb-484aaa2a4a65/screen420x316.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
@@ -751,7 +751,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple6/v4/f3/70/df/f370df5f-00c8-9a32-54e9-99de6eedb48c/screen261x261-65.jpeg", 
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple6/v4/f3/70/df/f370df5f-00c8-9a32-54e9-99de6eedb48c/screen261x261-50.jpeg", 
                                     "width": 261, 
                                     "height": 196
                                 }, 
@@ -771,12 +771,12 @@
                                     "height": 414
                                 }, 
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple6/v4/f3/70/df/f370df5f-00c8-9a32-54e9-99de6eedb48c/screen420x316.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple6/v4/f3/70/df/f370df5f-00c8-9a32-54e9-99de6eedb48c/screen420x420.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple6/v4/f3/70/df/f370df5f-00c8-9a32-54e9-99de6eedb48c/screen420x420.jpeg", 
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple6/v4/f3/70/df/f370df5f-00c8-9a32-54e9-99de6eedb48c/screen420x316.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
@@ -1181,7 +1181,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "2126029", 
+        "ITSServerInstance": "1002205", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
@@ -1211,7 +1211,7 @@
                 "platformId": "28", 
                 "storeFront": "143441", 
                 "storeFrontHeader": "143441-1,28", 
-                "environmentDataCenter": "ST11", 
+                "environmentDataCenter": "NWK", 
                 "platformName": "iTunes12"
             }, 
             "postFrequency": 60000, 

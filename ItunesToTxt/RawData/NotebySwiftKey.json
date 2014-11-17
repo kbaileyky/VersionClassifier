@@ -34,11 +34,11 @@
                         327630330, 
                         842849113, 
                         478105721, 
-                        879478102, 
-                        281796108, 
                         588358613, 
-                        578979413, 
-                        354098826
+                        281796108, 
+                        354098826, 
+                        299531647, 
+                        879478102
                     ], 
                     "title": "Top Free iPad Productivity Apps"
                 }, 
@@ -48,17 +48,17 @@
                         422689480, 
                         577586159, 
                         586683407, 
-                        645682444, 
-                        586449534, 
                         327630330, 
+                        586449534, 
                         507874739, 
+                        645682444, 
                         568780324, 
                         415976837, 
                         842842640, 
-                        905060486, 
                         663151076, 
                         288113403, 
-                        703177890
+                        846435251, 
+                        514485964
                     ], 
                     "title": "Top Free iPhone Productivity Apps"
                 }
@@ -113,11 +113,11 @@
             "pageDetails": "SwiftKey_Note by SwiftKey", 
             "pageId": "773299901", 
             "language": "1", 
-            "serverInstance": "2127003", 
+            "serverInstance": "1001003", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
-            "environmentDataCenter": "ST11", 
+            "environmentDataCenter": "NWK", 
             "pageType": "Software", 
             "platformName": "iTunes12", 
             "page": "Software_773299901"
@@ -336,10 +336,10 @@
                     "releaseDate": "2014-01-30", 
                     "artistId": 773299904, 
                     "userRating": {
-                        "ratingCountCurrentVersion": 36, 
+                        "ratingCountCurrentVersion": 37, 
                         "valueCurrentVersion": 2, 
                         "value": 3.5, 
-                        "ratingCount": 580
+                        "ratingCount": 581
                     }, 
                     "artistUrl": "https://itunes.apple.com/us/artist/swiftkey/id773299904?mt=8", 
                     "itunesNotes": {
@@ -425,12 +425,12 @@
                     }, 
                     "artwork": [
                         {
-                            "url": "http://a1.mzstatic.com/us/r30/Purple4/v4/a2/5f/ee/a25fee7e-1eeb-88e6-a2e2-e56978f8060b/icon240x240.jpeg", 
+                            "url": "http://a4.mzstatic.com/us/r30/Purple4/v4/a2/5f/ee/a25fee7e-1eeb-88e6-a2e2-e56978f8060b/icon240x240.png", 
                             "width": 240, 
                             "height": 240
                         }, 
                         {
-                            "url": "http://a4.mzstatic.com/us/r30/Purple4/v4/a2/5f/ee/a25fee7e-1eeb-88e6-a2e2-e56978f8060b/icon1024x1024.jpeg", 
+                            "url": "http://a4.mzstatic.com/us/r30/Purple4/v4/a2/5f/ee/a25fee7e-1eeb-88e6-a2e2-e56978f8060b/icon1024x1024.png", 
                             "width": 1024, 
                             "height": 1024
                         }, 
@@ -445,12 +445,12 @@
                             "height": 220
                         }, 
                         {
-                            "url": "http://a4.mzstatic.com/us/r30/Purple4/v4/a2/5f/ee/a25fee7e-1eeb-88e6-a2e2-e56978f8060b/icon400x400.jpeg", 
+                            "url": "http://a2.mzstatic.com/us/r30/Purple4/v4/a2/5f/ee/a25fee7e-1eeb-88e6-a2e2-e56978f8060b/icon400x400.png", 
                             "width": 400, 
                             "height": 400
                         }, 
                         {
-                            "url": "http://a2.mzstatic.com/us/r30/Purple4/v4/a2/5f/ee/a25fee7e-1eeb-88e6-a2e2-e56978f8060b/icon512x512.jpeg", 
+                            "url": "http://a2.mzstatic.com/us/r30/Purple4/v4/a2/5f/ee/a25fee7e-1eeb-88e6-a2e2-e56978f8060b/icon512x512.png", 
                             "width": 512, 
                             "height": 512
                         }
@@ -702,12 +702,12 @@
                                     "height": 414
                                 }, 
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple1/v4/f9/f7/a2/f9f7a2ca-6d75-2848-b9fa-f22cd912d4fa/screen420x420.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple1/v4/f9/f7/a2/f9f7a2ca-6d75-2848-b9fa-f22cd912d4fa/screen420x316.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
                                 {
-                                    "url": "http://a5.mzstatic.com/us/r30/Purple1/v4/f9/f7/a2/f9f7a2ca-6d75-2848-b9fa-f22cd912d4fa/screen420x316.jpeg", 
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple1/v4/f9/f7/a2/f9f7a2ca-6d75-2848-b9fa-f22cd912d4fa/screen420x420.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
@@ -739,12 +739,12 @@
                                     "height": 414
                                 }, 
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple1/v4/fc/7e/46/fc7e46fe-ad7c-b74e-47b9-fae7f25f7718/screen420x420.jpeg", 
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple1/v4/fc/7e/46/fc7e46fe-ad7c-b74e-47b9-fae7f25f7718/screen420x316.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
                                 {
-                                    "url": "http://a4.mzstatic.com/us/r30/Purple1/v4/fc/7e/46/fc7e46fe-ad7c-b74e-47b9-fae7f25f7718/screen420x316.jpeg", 
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple1/v4/fc/7e/46/fc7e46fe-ad7c-b74e-47b9-fae7f25f7718/screen420x420.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
@@ -776,12 +776,12 @@
                                     "height": 414
                                 }, 
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/a2/08/72/a20872d9-008d-20e3-47ff-da25f72d8054/screen420x420.jpeg", 
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/a2/08/72/a20872d9-008d-20e3-47ff-da25f72d8054/screen420x316.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/a2/08/72/a20872d9-008d-20e3-47ff-da25f72d8054/screen420x316.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/a2/08/72/a20872d9-008d-20e3-47ff-da25f72d8054/screen420x420.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
@@ -813,12 +813,12 @@
                                     "height": 414
                                 }, 
                                 {
-                                    "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/11/31/fb/1131fb77-1407-f676-6752-288a3ca4e6e0/screen420x420.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/11/31/fb/1131fb77-1407-f676-6752-288a3ca4e6e0/screen420x316.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/11/31/fb/1131fb77-1407-f676-6752-288a3ca4e6e0/screen420x316.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/11/31/fb/1131fb77-1407-f676-6752-288a3ca4e6e0/screen420x420.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
@@ -850,12 +850,12 @@
                                     "height": 414
                                 }, 
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/ba/1d/b4/ba1db483-1ee7-caa1-473f-b104df64f52a/screen420x420.jpeg", 
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/ba/1d/b4/ba1db483-1ee7-caa1-473f-b104df64f52a/screen420x316.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/ba/1d/b4/ba1db483-1ee7-caa1-473f-b104df64f52a/screen420x316.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/ba/1d/b4/ba1db483-1ee7-caa1-473f-b104df64f52a/screen420x420.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
@@ -1497,7 +1497,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "2127003", 
+        "ITSServerInstance": "1001003", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
@@ -1527,7 +1527,7 @@
                 "platformId": "28", 
                 "storeFront": "143441", 
                 "storeFrontHeader": "143441-1,28", 
-                "environmentDataCenter": "ST11", 
+                "environmentDataCenter": "NWK", 
                 "platformName": "iTunes12"
             }, 
             "postFrequency": 60000, 

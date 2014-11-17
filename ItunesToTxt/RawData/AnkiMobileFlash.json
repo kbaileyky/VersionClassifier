@@ -25,39 +25,39 @@
                     "ids": [
                         893927401, 
                         891450541, 
-                        922609543, 
                         569632660, 
-                        381342267, 
-                        931936670, 
-                        897571874, 
+                        922609543, 
                         591626572, 
+                        381342267, 
                         664909593, 
-                        844517266, 
-                        882931712, 
-                        371338715, 
+                        897571874, 
                         567289775, 
-                        464235764, 
-                        431493086
+                        844517266, 
+                        931936670, 
+                        371338715, 
+                        652077009, 
+                        882931712, 
+                        476553281
                     ], 
                     "title": "Top Paid iPad Education Apps"
                 }, 
                 "iphone": {
                     "ids": [
                         893927401, 
-                        891453663, 
                         569632660, 
+                        891453663, 
                         381342267, 
                         922609543, 
+                        591626572, 
                         567289775, 
                         931936670, 
-                        591626572, 
-                        300590611, 
-                        664907712, 
-                        553211336, 
-                        888453428, 
+                        919097064, 
                         419411014, 
-                        871694174, 
-                        404990064
+                        300590611, 
+                        295430577, 
+                        371338715, 
+                        553211336, 
+                        476553281
                     ], 
                     "title": "Top Paid iPhone Education Apps"
                 }
@@ -199,11 +199,11 @@
             "pageDetails": "Damien Elmes_AnkiMobile Flashcards", 
             "pageId": "373493387", 
             "language": "1", 
-            "serverInstance": "1011805", 
+            "serverInstance": "615237", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
-            "environmentDataCenter": "NWK", 
+            "environmentDataCenter": "ST11", 
             "pageType": "Software", 
             "platformName": "iTunes12", 
             "page": "Software_373493387"
@@ -511,7 +511,7 @@
                             "height": 240
                         }, 
                         {
-                            "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/bf/de/d3/bfded3a6-2a66-be23-b850-bfe1c380b083/icon1024x1024.jpeg", 
+                            "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/bf/de/d3/bfded3a6-2a66-be23-b850-bfe1c380b083/icon1024x1024.png", 
                             "width": 1024, 
                             "height": 1024
                         }, 
@@ -526,12 +526,12 @@
                             "height": 220
                         }, 
                         {
-                            "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/bf/de/d3/bfded3a6-2a66-be23-b850-bfe1c380b083/icon400x400.png", 
+                            "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/bf/de/d3/bfded3a6-2a66-be23-b850-bfe1c380b083/icon400x400.jpeg", 
                             "width": 400, 
                             "height": 400
                         }, 
                         {
-                            "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/bf/de/d3/bfded3a6-2a66-be23-b850-bfe1c380b083/icon512x512.jpeg", 
+                            "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/bf/de/d3/bfded3a6-2a66-be23-b850-bfe1c380b083/icon512x512.png", 
                             "width": 512, 
                             "height": 512
                         }
@@ -1333,7 +1333,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "1011805", 
+        "ITSServerInstance": "615237", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
@@ -1363,7 +1363,7 @@
                 "platformId": "28", 
                 "storeFront": "143441", 
                 "storeFrontHeader": "143441-1,28", 
-                "environmentDataCenter": "NWK", 
+                "environmentDataCenter": "ST11", 
                 "platformName": "iTunes12"
             }, 
             "postFrequency": 60000, 

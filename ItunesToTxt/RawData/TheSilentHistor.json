@@ -27,37 +27,37 @@
                         597251953, 
                         378080432, 
                         542557212, 
-                        415378623, 
                         364734296, 
+                        468607901, 
+                        415378623, 
                         395985060, 
-                        453213960, 
-                        600093661, 
-                        921024054, 
-                        356971775, 
-                        539466818, 
                         483281737, 
-                        869502447, 
-                        563273711
+                        453213960, 
+                        316789453, 
+                        921024054, 
+                        379351586, 
+                        310295776, 
+                        600093661
                     ], 
                     "title": "Top Grossing iPad Books Apps"
                 }, 
                 "iphone": {
                     "ids": [
-                        350027738, 
                         378080432, 
+                        350027738, 
                         444553118, 
-                        395985060, 
-                        597251953, 
                         542557212, 
-                        364734296, 
-                        672803850, 
-                        401153476, 
-                        869502447, 
                         310295776, 
-                        435873883, 
-                        415378623, 
+                        869502447, 
                         483281737, 
-                        534174796
+                        597251953, 
+                        395985060, 
+                        364734296, 
+                        401153476, 
+                        664973122, 
+                        389029534, 
+                        622718965, 
+                        435873883
                     ], 
                     "title": "Top Grossing iPhone Books Apps"
                 }
@@ -146,11 +146,11 @@
             "pageDetails": "Ying Horowitz & Quinn LLC_The Silent History", 
             "pageId": "527403914", 
             "language": "1", 
-            "serverInstance": "1007002", 
+            "serverInstance": "2126906", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
-            "environmentDataCenter": "NWK", 
+            "environmentDataCenter": "ST11", 
             "pageType": "Software", 
             "platformName": "iTunes12", 
             "page": "Software_527403914"
@@ -461,12 +461,12 @@
                     "editorialBadgeInfo": null, 
                     "artwork": [
                         {
-                            "url": "http://a4.mzstatic.com/us/r30/Purple2/v4/17/70/6d/17706db6-023e-9c41-1990-3cd06b5ff270/icon1024x1024.jpeg", 
+                            "url": "http://a2.mzstatic.com/us/r30/Purple2/v4/17/70/6d/17706db6-023e-9c41-1990-3cd06b5ff270/icon1024x1024.png", 
                             "width": 1024, 
                             "height": 1024
                         }, 
                         {
-                            "url": "http://a2.mzstatic.com/us/r30/Purple2/v4/17/70/6d/17706db6-023e-9c41-1990-3cd06b5ff270/icon440x440.jpeg", 
+                            "url": "http://a3.mzstatic.com/us/r30/Purple2/v4/17/70/6d/17706db6-023e-9c41-1990-3cd06b5ff270/icon440x440.png", 
                             "width": 440, 
                             "height": 440
                         }, 
@@ -476,12 +476,12 @@
                             "height": 220
                         }, 
                         {
-                            "url": "http://a3.mzstatic.com/us/r30/Purple2/v4/17/70/6d/17706db6-023e-9c41-1990-3cd06b5ff270/icon256x256.png", 
+                            "url": "http://a1.mzstatic.com/us/r30/Purple2/v4/17/70/6d/17706db6-023e-9c41-1990-3cd06b5ff270/icon256x256.jpeg", 
                             "width": 256, 
                             "height": 256
                         }, 
                         {
-                            "url": "http://a1.mzstatic.com/us/r30/Purple2/v4/17/70/6d/17706db6-023e-9c41-1990-3cd06b5ff270/icon512x512.jpeg", 
+                            "url": "http://a4.mzstatic.com/us/r30/Purple2/v4/17/70/6d/17706db6-023e-9c41-1990-3cd06b5ff270/icon512x512.png", 
                             "width": 512, 
                             "height": 512
                         }
@@ -516,7 +516,7 @@
                                     "height": 340
                                 }, 
                                 {
-                                    "url": "http://a4.mzstatic.com/us/r30/Purple/v4/af/a2/26/afa22646-59e9-19fa-b17e-50b48ff8f0aa/screen261x261-50.jpeg", 
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple/v4/af/a2/26/afa22646-59e9-19fa-b17e-50b48ff8f0aa/screen261x261-65.jpeg", 
                                     "width": 200, 
                                     "height": 261
                                 }, 
@@ -553,7 +553,7 @@
                                     "height": 340
                                 }, 
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple/v4/ec/9d/16/ec9d1622-d288-4d63-ee3f-3b7d2eab192a/screen261x261-50.jpeg", 
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple/v4/ec/9d/16/ec9d1622-d288-4d63-ee3f-3b7d2eab192a/screen261x261-65.jpeg", 
                                     "width": 200, 
                                     "height": 261
                                 }, 
@@ -590,7 +590,7 @@
                                     "height": 340
                                 }, 
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple/v4/49/50/f3/4950f3ea-6af9-f17a-0d34-9897a5954203/screen261x261-50.jpeg", 
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple/v4/49/50/f3/4950f3ea-6af9-f17a-0d34-9897a5954203/screen261x261-65.jpeg", 
                                     "width": 200, 
                                     "height": 261
                                 }, 
@@ -627,7 +627,7 @@
                                     "height": 340
                                 }, 
                                 {
-                                    "url": "http://a4.mzstatic.com/us/r30/Purple/v4/ee/12/93/ee129393-26c7-ce3b-0f79-92632c368902/screen261x261-50.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple/v4/ee/12/93/ee129393-26c7-ce3b-0f79-92632c368902/screen261x261-65.jpeg", 
                                     "width": 200, 
                                     "height": 261
                                 }, 
@@ -664,7 +664,7 @@
                                     "height": 340
                                 }, 
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple/v4/ee/f2/5a/eef25ab7-d7fa-c6fc-98ef-3b70fdcdaf4a/screen261x261-50.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple/v4/ee/f2/5a/eef25ab7-d7fa-c6fc-98ef-3b70fdcdaf4a/screen261x261-65.jpeg", 
                                     "width": 200, 
                                     "height": 261
                                 }, 
@@ -1029,7 +1029,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "1007002", 
+        "ITSServerInstance": "2126906", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
@@ -1059,7 +1059,7 @@
                 "platformId": "28", 
                 "storeFront": "143441", 
                 "storeFrontHeader": "143441-1,28", 
-                "environmentDataCenter": "NWK", 
+                "environmentDataCenter": "ST11", 
                 "platformName": "iTunes12"
             }, 
             "postFrequency": 60000, 

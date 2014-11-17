@@ -11,16 +11,16 @@
                         567008119, 
                         334989259, 
                         525129278, 
-                        478132032, 
                         898450450, 
                         333227386, 
-                        573135437, 
                         912289616, 
-                        804637783, 
+                        478132032, 
+                        489221652, 
+                        586072851, 
+                        723917337, 
                         929505791, 
-                        364733950, 
-                        930838285, 
-                        423443665
+                        333252081, 
+                        364733950
                     ], 
                     "title": "Top Paid iPad Reference Apps"
                 }, 
@@ -30,17 +30,17 @@
                         385756768, 
                         334989259, 
                         804637783, 
-                        478126577, 
                         402422247, 
-                        475772902, 
-                        914945059, 
-                        312739823, 
-                        624554947, 
-                        453571750, 
-                        443321291, 
                         634158738, 
+                        478126577, 
+                        475772902, 
+                        443321291, 
+                        914945059, 
+                        453571750, 
+                        624554947, 
                         376302649, 
-                        286574416
+                        307312434, 
+                        411711646
                     ], 
                     "title": "Top Paid iPhone Reference Apps"
                 }
@@ -55,8 +55,6 @@
             }, 
             "moreByThisDeveloper": [
                 340182670, 
-                303766373, 
-                286891997, 
                 346181087, 
                 345044003, 
                 344521962, 
@@ -68,7 +66,9 @@
                 341783008, 
                 341780949, 
                 340712222, 
-                340711677
+                340711677, 
+                340255307, 
+                339386116
             ], 
             "appRatingsLearnMoreUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/appRatings?cc=us", 
             "versionHistory": [
@@ -139,11 +139,11 @@
             "pageDetails": "Open Door Networks, Inc._Art Authority", 
             "pageId": "355879924", 
             "language": "1", 
-            "serverInstance": "511751", 
+            "serverInstance": "2127113", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
-            "environmentDataCenter": "NWK", 
+            "environmentDataCenter": "ST11", 
             "pageType": "Software", 
             "platformName": "iTunes12", 
             "page": "Software_355879924"
@@ -464,7 +464,7 @@
                             "height": 440
                         }, 
                         {
-                            "url": "http://a1.mzstatic.com/us/r30/Purple/v4/de/3a/13/de3a1327-596c-e22d-9963-9cb517782747/icon220x220.png", 
+                            "url": "http://a5.mzstatic.com/us/r30/Purple/v4/de/3a/13/de3a1327-596c-e22d-9963-9cb517782747/icon220x220.jpeg", 
                             "width": 220, 
                             "height": 220
                         }, 
@@ -835,7 +835,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "511751", 
+        "ITSServerInstance": "2127113", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
@@ -865,7 +865,7 @@
                 "platformId": "28", 
                 "storeFront": "143441", 
                 "storeFrontHeader": "143441-1,28", 
-                "environmentDataCenter": "NWK", 
+                "environmentDataCenter": "ST11", 
                 "platformName": "iTunes12"
             }, 
             "postFrequency": 60000, 

@@ -12,15 +12,15 @@
                         404167616, 
                         509993510, 
                         535076358, 
-                        491069819, 
                         781817640, 
-                        502344938, 
+                        491069819, 
                         584557117, 
-                        408709785, 
+                        502344938, 
                         335060889, 
                         408878018, 
-                        298307011, 
+                        408709785, 
                         524299475, 
+                        298307011, 
                         669196929
                     ], 
                     "title": "Top Grossing iPad Music Apps"
@@ -38,9 +38,9 @@
                         524299475, 
                         897821622, 
                         899067065, 
-                        632353530, 
-                        527588389, 
-                        440844625
+                        335568329, 
+                        547109049, 
+                        658762626
                     ], 
                     "title": "Top Grossing iPhone Music Apps"
                 }
@@ -219,12 +219,12 @@
                     "name": "mes de Spotify Premium"
                 }, 
                 {
-                    "price": "$17.99", 
-                    "name": "month of Spotify Premium"
-                }, 
-                {
                     "price": "$13.99", 
                     "name": "Monat Spotify Premium"
+                }, 
+                {
+                    "price": "$17.99", 
+                    "name": "month of Spotify Premium"
                 }
             ], 
             "id": 324684580
@@ -233,7 +233,7 @@
             "pageDetails": "Spotify Ltd._Spotify Music", 
             "pageId": "324684580", 
             "language": "1", 
-            "serverInstance": "1000701", 
+            "serverInstance": "1008003", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
@@ -456,10 +456,10 @@
                     "releaseDate": "2011-07-14", 
                     "artistId": 324684583, 
                     "userRating": {
-                        "ratingCountCurrentVersion": 624, 
+                        "ratingCountCurrentVersion": 756, 
                         "valueCurrentVersion": 4, 
                         "value": 4.5, 
-                        "ratingCount": 436005
+                        "ratingCount": 436140
                     }, 
                     "artistUrl": "https://itunes.apple.com/us/artist/spotify-ltd./id324684583?mt=8", 
                     "itunesNotes": null, 
@@ -552,27 +552,27 @@
                     "editorialBadgeInfo": null, 
                     "artwork": [
                         {
-                            "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/d3/b9/7e/d3b97e29-4635-9cf1-8722-be6d13df57ac/icon240x240.jpeg", 
+                            "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/d3/b9/7e/d3b97e29-4635-9cf1-8722-be6d13df57ac/icon240x240.png", 
                             "width": 240, 
                             "height": 240
                         }, 
                         {
-                            "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/d3/b9/7e/d3b97e29-4635-9cf1-8722-be6d13df57ac/icon1024x1024.png", 
+                            "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/d3/b9/7e/d3b97e29-4635-9cf1-8722-be6d13df57ac/icon1024x1024.jpeg", 
                             "width": 1024, 
                             "height": 1024
                         }, 
                         {
-                            "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/d3/b9/7e/d3b97e29-4635-9cf1-8722-be6d13df57ac/icon440x440.png", 
+                            "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/d3/b9/7e/d3b97e29-4635-9cf1-8722-be6d13df57ac/icon440x440.jpeg", 
                             "width": 440, 
                             "height": 440
                         }, 
                         {
-                            "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/d3/b9/7e/d3b97e29-4635-9cf1-8722-be6d13df57ac/icon220x220.jpeg", 
+                            "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/d3/b9/7e/d3b97e29-4635-9cf1-8722-be6d13df57ac/icon220x220.png", 
                             "width": 220, 
                             "height": 220
                         }, 
                         {
-                            "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/d3/b9/7e/d3b97e29-4635-9cf1-8722-be6d13df57ac/icon400x400.png", 
+                            "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/d3/b9/7e/d3b97e29-4635-9cf1-8722-be6d13df57ac/icon400x400.jpeg", 
                             "width": 400, 
                             "height": 400
                         }, 
@@ -1118,7 +1118,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "1000701", 
+        "ITSServerInstance": "1008003", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 

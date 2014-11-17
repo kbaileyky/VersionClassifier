@@ -24,39 +24,39 @@
             "topApps": {
                 "ipad": {
                     "ids": [
-                        893927401, 
                         512350210, 
+                        893927401, 
                         540872054, 
+                        445785342, 
                         891450541, 
                         308368164, 
-                        435588892, 
-                        551215116, 
-                        565200595, 
                         664909593, 
-                        509343934, 
-                        719219382, 
-                        722910739, 
+                        435588892, 
+                        591626572, 
                         491771721, 
-                        922609543
+                        722910739, 
+                        565200595, 
+                        719219382, 
+                        922894746
                     ], 
                     "title": "Top Grossing iPad Education Apps"
                 }, 
                 "iphone": {
                     "ids": [
                         893927401, 
-                        565200595, 
-                        467329677, 
-                        891453663, 
-                        625614526, 
-                        308368164, 
                         577232024, 
+                        435588892, 
+                        565200595, 
+                        625614526, 
+                        467329677, 
                         569632660, 
-                        385758163, 
-                        540872054, 
+                        891453663, 
+                        562413829, 
                         722910739, 
-                        591626572, 
-                        922609543, 
-                        588868907
+                        385758163, 
+                        539204929, 
+                        540872054, 
+                        591626572
                     ], 
                     "title": "Top Grossing iPhone Education Apps"
                 }
@@ -230,8 +230,8 @@
                     "name": "PlayKids Premium - Full access to Tv shows, games, books and lullabies"
                 }, 
                 {
-                    "price": "$49.99", 
-                    "name": "PlayKids Premium - Full access to Tv shows, games, books and lullabies"
+                    "price": "$39.99", 
+                    "name": "PlayKids Premium"
                 }
             ], 
             "id": 613398383
@@ -240,7 +240,7 @@
             "pageDetails": "Movile Internet Movel S.A._PlayKids | Videos and Educational Games for Kids and Toddlers!", 
             "pageId": "613398383", 
             "language": "1", 
-            "serverInstance": "2000606", 
+            "serverInstance": "2001200", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
@@ -463,10 +463,10 @@
                     "releaseDate": "2013-04-10", 
                     "artistId": 518789620, 
                     "userRating": {
-                        "ratingCountCurrentVersion": 19, 
-                        "valueCurrentVersion": 4.5, 
+                        "ratingCountCurrentVersion": 20, 
+                        "valueCurrentVersion": 4, 
                         "value": 4, 
-                        "ratingCount": 874
+                        "ratingCount": 875
                     }, 
                     "artistUrl": "https://itunes.apple.com/us/artist/movile-internet-movel-s.a./id518789620?mt=8", 
                     "itunesNotes": null, 
@@ -556,27 +556,27 @@
                             "height": 240
                         }, 
                         {
-                            "url": "http://a4.mzstatic.com/us/r30/Purple4/v4/fd/2c/a5/fd2ca52f-221a-e95c-2790-dd27affcd30d/icon1024x1024.png", 
+                            "url": "http://a5.mzstatic.com/us/r30/Purple4/v4/fd/2c/a5/fd2ca52f-221a-e95c-2790-dd27affcd30d/icon1024x1024.jpeg", 
                             "width": 1024, 
                             "height": 1024
                         }, 
                         {
-                            "url": "http://a5.mzstatic.com/us/r30/Purple4/v4/fd/2c/a5/fd2ca52f-221a-e95c-2790-dd27affcd30d/icon440x440.jpeg", 
+                            "url": "http://a1.mzstatic.com/us/r30/Purple4/v4/fd/2c/a5/fd2ca52f-221a-e95c-2790-dd27affcd30d/icon440x440.png", 
                             "width": 440, 
                             "height": 440
                         }, 
                         {
-                            "url": "http://a2.mzstatic.com/us/r30/Purple4/v4/fd/2c/a5/fd2ca52f-221a-e95c-2790-dd27affcd30d/icon220x220.png", 
+                            "url": "http://a3.mzstatic.com/us/r30/Purple4/v4/fd/2c/a5/fd2ca52f-221a-e95c-2790-dd27affcd30d/icon220x220.jpeg", 
                             "width": 220, 
                             "height": 220
                         }, 
                         {
-                            "url": "http://a1.mzstatic.com/us/r30/Purple4/v4/fd/2c/a5/fd2ca52f-221a-e95c-2790-dd27affcd30d/icon400x400.jpeg", 
+                            "url": "http://a4.mzstatic.com/us/r30/Purple4/v4/fd/2c/a5/fd2ca52f-221a-e95c-2790-dd27affcd30d/icon400x400.png", 
                             "width": 400, 
                             "height": 400
                         }, 
                         {
-                            "url": "http://a4.mzstatic.com/us/r30/Purple4/v4/fd/2c/a5/fd2ca52f-221a-e95c-2790-dd27affcd30d/icon512x512.jpeg", 
+                            "url": "http://a2.mzstatic.com/us/r30/Purple4/v4/fd/2c/a5/fd2ca52f-221a-e95c-2790-dd27affcd30d/icon512x512.png", 
                             "width": 512, 
                             "height": 512
                         }
@@ -596,7 +596,7 @@
                         "ipad": [
                             [
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple4/v4/5a/42/1a/5a421a70-fd4c-5b93-3220-8fb80c912831/screen261x261-50.jpeg", 
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple4/v4/5a/42/1a/5a421a70-fd4c-5b93-3220-8fb80c912831/screen261x261-65.jpeg", 
                                     "width": 261, 
                                     "height": 196
                                 }, 
@@ -633,7 +633,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a4.mzstatic.com/us/r30/Purple4/v4/ad/9f/74/ad9f7438-0b1c-3544-d91d-385319196628/screen261x261-50.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple4/v4/ad/9f/74/ad9f7438-0b1c-3544-d91d-385319196628/screen261x261-65.jpeg", 
                                     "width": 261, 
                                     "height": 196
                                 }, 
@@ -670,7 +670,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a4.mzstatic.com/us/r30/Purple1/v4/c7/1d/33/c71d33fb-b521-3729-37fd-c701651b7be6/screen261x261-50.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple1/v4/c7/1d/33/c71d33fb-b521-3729-37fd-c701651b7be6/screen261x261-65.jpeg", 
                                     "width": 261, 
                                     "height": 196
                                 }, 
@@ -707,7 +707,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple5/v4/7f/9d/53/7f9d5328-f652-18fa-de8d-74da40d70b51/screen261x261-50.jpeg", 
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple5/v4/7f/9d/53/7f9d5328-f652-18fa-de8d-74da40d70b51/screen261x261-65.jpeg", 
                                     "width": 261, 
                                     "height": 196
                                 }, 
@@ -744,7 +744,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple5/v4/be/03/ec/be03ec0e-3f65-11ea-70e3-537b4ef1d097/screen261x261-50.jpeg", 
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple5/v4/be/03/ec/be03ec0e-3f65-11ea-70e3-537b4ef1d097/screen261x261-65.jpeg", 
                                     "width": 261, 
                                     "height": 196
                                 }, 
@@ -1106,36 +1106,6 @@
                         ]
                     }, 
                     "videoPreviewByType": {
-                        "ipad": {
-                            "video": "http://a574.phobos.apple.com/us/r30/PurpleVideo5/v4/6d/90/e3/6d90e3ff-018b-40ee-5513-6bf197d43767/P25607543_default.m3u8", 
-                            "previewFrame": [
-                                {
-                                    "url": "http://a5.mzstatic.com/us/r30/Video5/v4/86/c8/5a/86c85a7c-c0b1-9b06-1dc6-3ea077065e9f/image630x420.jpeg", 
-                                    "width": 560, 
-                                    "height": 420
-                                }, 
-                                {
-                                    "url": "http://a2.mzstatic.com/us/r30/Video5/v4/86/c8/5a/86c85a7c-c0b1-9b06-1dc6-3ea077065e9f/image250x166.jpeg", 
-                                    "width": 221, 
-                                    "height": 166
-                                }, 
-                                {
-                                    "url": "http://a2.mzstatic.com/us/r30/Video5/v4/86/c8/5a/86c85a7c-c0b1-9b06-1dc6-3ea077065e9f/image500x376.jpeg", 
-                                    "width": 500, 
-                                    "height": 375
-                                }, 
-                                {
-                                    "url": "http://a2.mzstatic.com/us/r30/Video5/v4/86/c8/5a/86c85a7c-c0b1-9b06-1dc6-3ea077065e9f/image408x300.jpeg", 
-                                    "width": 400, 
-                                    "height": 300
-                                }, 
-                                {
-                                    "url": "http://a2.mzstatic.com/us/r30/Video5/v4/86/c8/5a/86c85a7c-c0b1-9b06-1dc6-3ea077065e9f/image400x226.jpeg", 
-                                    "width": 301, 
-                                    "height": 226
-                                }
-                            ]
-                        }, 
                         "iphone6": {
                             "video": "http://a1979.phobos.apple.com/us/r30/PurpleVideo1/v4/8e/0c/9a/8e0c9af4-b08c-4667-818e-ae7f04a1e833/P25606546_default.m3u8", 
                             "previewFrame": [
@@ -1163,6 +1133,36 @@
                                     "url": "http://a5.mzstatic.com/us/r30/Video4/v4/94/f2/b5/94f2b5bf-bac4-d6ee-f62f-3c207255a319/image400x226.jpeg", 
                                     "width": 400, 
                                     "height": 225
+                                }
+                            ]
+                        }, 
+                        "ipad": {
+                            "video": "http://a574.phobos.apple.com/us/r30/PurpleVideo5/v4/6d/90/e3/6d90e3ff-018b-40ee-5513-6bf197d43767/P25607543_default.m3u8", 
+                            "previewFrame": [
+                                {
+                                    "url": "http://a5.mzstatic.com/us/r30/Video5/v4/86/c8/5a/86c85a7c-c0b1-9b06-1dc6-3ea077065e9f/image630x420.jpeg", 
+                                    "width": 560, 
+                                    "height": 420
+                                }, 
+                                {
+                                    "url": "http://a2.mzstatic.com/us/r30/Video5/v4/86/c8/5a/86c85a7c-c0b1-9b06-1dc6-3ea077065e9f/image250x166.jpeg", 
+                                    "width": 221, 
+                                    "height": 166
+                                }, 
+                                {
+                                    "url": "http://a2.mzstatic.com/us/r30/Video5/v4/86/c8/5a/86c85a7c-c0b1-9b06-1dc6-3ea077065e9f/image500x376.jpeg", 
+                                    "width": 500, 
+                                    "height": 375
+                                }, 
+                                {
+                                    "url": "http://a2.mzstatic.com/us/r30/Video5/v4/86/c8/5a/86c85a7c-c0b1-9b06-1dc6-3ea077065e9f/image408x300.jpeg", 
+                                    "width": 400, 
+                                    "height": 300
+                                }, 
+                                {
+                                    "url": "http://a2.mzstatic.com/us/r30/Video5/v4/86/c8/5a/86c85a7c-c0b1-9b06-1dc6-3ea077065e9f/image400x226.jpeg", 
+                                    "width": 301, 
+                                    "height": 226
                                 }
                             ]
                         }, 
@@ -1245,7 +1245,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "2000606", 
+        "ITSServerInstance": "2001200", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 

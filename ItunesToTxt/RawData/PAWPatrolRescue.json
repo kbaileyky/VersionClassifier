@@ -8,19 +8,19 @@
                     "ids": [
                         893927401, 
                         891450541, 
-                        922609543, 
                         569632660, 
-                        381342267, 
-                        931936670, 
-                        897571874, 
+                        922609543, 
                         591626572, 
+                        381342267, 
                         664909593, 
-                        844517266, 
-                        882931712, 
-                        371338715, 
+                        897571874, 
                         567289775, 
-                        464235764, 
-                        431493086
+                        844517266, 
+                        931936670, 
+                        371338715, 
+                        652077009, 
+                        882931712, 
+                        476553281
                     ], 
                     "title": "Top Paid iPad Education Apps"
                 }, 
@@ -30,16 +30,16 @@
                         569632660, 
                         381342267, 
                         922609543, 
+                        591626572, 
                         567289775, 
                         931936670, 
-                        591626572, 
-                        300590611, 
-                        664907712, 
-                        553211336, 
-                        888453428, 
+                        919097064, 
                         419411014, 
-                        871694174, 
-                        404990064
+                        300590611, 
+                        295430577, 
+                        371338715, 
+                        553211336, 
+                        476553281
                     ], 
                     "title": "Top Paid iPhone Education Apps"
                 }
@@ -54,15 +54,15 @@
                 505160245, 
                 664907712, 
                 897574452, 
-                477560499, 
                 567249360, 
+                815821424, 
+                477560499, 
+                443432280, 
                 751936022, 
                 422607930, 
-                815821424, 
-                443432280, 
-                546352307, 
                 745699884, 
-                404199434
+                546352307, 
+                513395037
             ], 
             "appRatingsLearnMoreUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/appRatings?cc=us", 
             "versionHistory": [
@@ -83,11 +83,11 @@
             "pageDetails": "Nickelodeon_PAW Patrol Rescue Run", 
             "pageId": "891453663", 
             "language": "1", 
-            "serverInstance": "2125566", 
+            "serverInstance": "1004006", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
-            "environmentDataCenter": "ST11", 
+            "environmentDataCenter": "NWK", 
             "pageType": "Software", 
             "platformName": "iTunes12", 
             "page": "Software_891453663"
@@ -417,12 +417,12 @@
                             "height": 440
                         }, 
                         {
-                            "url": "http://a4.mzstatic.com/us/r30/Purple4/v4/c2/a4/cb/c2a4cb26-35ba-3c81-9444-9f0b1b85cde5/icon220x220.png", 
+                            "url": "http://a4.mzstatic.com/us/r30/Purple4/v4/c2/a4/cb/c2a4cb26-35ba-3c81-9444-9f0b1b85cde5/icon220x220.jpeg", 
                             "width": 220, 
                             "height": 220
                         }, 
                         {
-                            "url": "http://a4.mzstatic.com/us/r30/Purple4/v4/c2/a4/cb/c2a4cb26-35ba-3c81-9444-9f0b1b85cde5/icon400x400.jpeg", 
+                            "url": "http://a4.mzstatic.com/us/r30/Purple4/v4/c2/a4/cb/c2a4cb26-35ba-3c81-9444-9f0b1b85cde5/icon400x400.png", 
                             "width": 400, 
                             "height": 400
                         }, 
@@ -790,7 +790,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "2125566", 
+        "ITSServerInstance": "1004006", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
@@ -820,7 +820,7 @@
                 "platformId": "28", 
                 "storeFront": "143441", 
                 "storeFrontHeader": "143441-1,28", 
-                "environmentDataCenter": "ST11", 
+                "environmentDataCenter": "NWK", 
                 "platformName": "iTunes12"
             }, 
             "postFrequency": 60000, 

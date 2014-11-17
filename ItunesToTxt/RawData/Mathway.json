@@ -24,21 +24,21 @@
             "topApps": {
                 "ipad": {
                     "ids": [
-                        893927401, 
                         512350210, 
+                        893927401, 
                         613398383, 
                         540872054, 
+                        445785342, 
                         891450541, 
                         308368164, 
-                        435588892, 
-                        551215116, 
-                        565200595, 
                         664909593, 
-                        509343934, 
-                        719219382, 
-                        722910739, 
+                        435588892, 
+                        591626572, 
                         491771721, 
-                        922609543
+                        722910739, 
+                        565200595, 
+                        719219382, 
+                        922894746
                     ], 
                     "title": "Top Grossing iPad Education Apps"
                 }, 
@@ -46,18 +46,18 @@
                     "ids": [
                         613398383, 
                         893927401, 
-                        565200595, 
-                        891453663, 
-                        625614526, 
-                        308368164, 
                         577232024, 
+                        435588892, 
+                        565200595, 
+                        625614526, 
                         569632660, 
-                        385758163, 
-                        540872054, 
+                        891453663, 
+                        562413829, 
                         722910739, 
-                        591626572, 
-                        922609543, 
-                        588868907
+                        385758163, 
+                        539204929, 
+                        540872054, 
+                        591626572
                     ], 
                     "title": "Top Grossing iPhone Education Apps"
                 }
@@ -136,11 +136,11 @@
             "pageDetails": "Bagatrix_Mathway", 
             "pageId": "467329677", 
             "language": "1", 
-            "serverInstance": "1006400", 
+            "serverInstance": "2000205", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
-            "environmentDataCenter": "NWK", 
+            "environmentDataCenter": "ST11", 
             "pageType": "Software", 
             "platformName": "iTunes12", 
             "page": "Software_467329677"
@@ -359,10 +359,10 @@
                     "releaseDate": "2012-09-04", 
                     "artistId": 467329680, 
                     "userRating": {
-                        "ratingCountCurrentVersion": 83, 
+                        "ratingCountCurrentVersion": 84, 
                         "valueCurrentVersion": 3, 
                         "value": 3.5, 
-                        "ratingCount": 662
+                        "ratingCount": 663
                     }, 
                     "artistUrl": "https://itunes.apple.com/us/artist/bagatrix/id467329680?mt=8", 
                     "itunesNotes": null, 
@@ -445,22 +445,22 @@
                             "height": 240
                         }, 
                         {
-                            "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/9d/80/5c/9d805c15-21b4-5e6a-4e36-5182e9457240/icon1024x1024.png", 
+                            "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/9d/80/5c/9d805c15-21b4-5e6a-4e36-5182e9457240/icon1024x1024.jpeg", 
                             "width": 1024, 
                             "height": 1024
                         }, 
                         {
-                            "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/9d/80/5c/9d805c15-21b4-5e6a-4e36-5182e9457240/icon440x440.jpeg", 
+                            "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/9d/80/5c/9d805c15-21b4-5e6a-4e36-5182e9457240/icon440x440.png", 
                             "width": 440, 
                             "height": 440
                         }, 
                         {
-                            "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/9d/80/5c/9d805c15-21b4-5e6a-4e36-5182e9457240/icon220x220.png", 
+                            "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/9d/80/5c/9d805c15-21b4-5e6a-4e36-5182e9457240/icon220x220.jpeg", 
                             "width": 220, 
                             "height": 220
                         }, 
                         {
-                            "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/9d/80/5c/9d805c15-21b4-5e6a-4e36-5182e9457240/icon400x400.jpeg", 
+                            "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/9d/80/5c/9d805c15-21b4-5e6a-4e36-5182e9457240/icon400x400.png", 
                             "width": 400, 
                             "height": 400
                         }, 
@@ -1037,7 +1037,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "1006400", 
+        "ITSServerInstance": "2000205", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
@@ -1067,7 +1067,7 @@
                 "platformId": "28", 
                 "storeFront": "143441", 
                 "storeFrontHeader": "143441-1,28", 
-                "environmentDataCenter": "NWK", 
+                "environmentDataCenter": "ST11", 
                 "platformName": "iTunes12"
             }, 
             "postFrequency": 60000, 

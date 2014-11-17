@@ -24,21 +24,21 @@
             "topApps": {
                 "ipad": {
                     "ids": [
-                        893927401, 
                         512350210, 
+                        893927401, 
                         613398383, 
                         540872054, 
+                        445785342, 
                         891450541, 
                         308368164, 
-                        435588892, 
-                        551215116, 
-                        565200595, 
                         664909593, 
-                        509343934, 
-                        719219382, 
-                        722910739, 
+                        435588892, 
+                        591626572, 
                         491771721, 
-                        922609543
+                        722910739, 
+                        565200595, 
+                        719219382, 
+                        922894746
                     ], 
                     "title": "Top Grossing iPad Education Apps"
                 }, 
@@ -46,19 +46,19 @@
                     "ids": [
                         613398383, 
                         893927401, 
-                        565200595, 
-                        467329677, 
-                        891453663, 
-                        625614526, 
-                        308368164, 
                         577232024, 
+                        435588892, 
+                        565200595, 
+                        625614526, 
+                        467329677, 
                         569632660, 
-                        385758163, 
-                        540872054, 
+                        891453663, 
+                        562413829, 
                         722910739, 
-                        591626572, 
-                        922609543, 
-                        588868907
+                        385758163, 
+                        539204929, 
+                        540872054, 
+                        591626572
                     ], 
                     "title": "Top Grossing iPhone Education Apps"
                 }
@@ -155,11 +155,11 @@
             "pageDetails": "Penguin Group USA_Poems By Heart from Penguin Classics", 
             "pageId": "577789325", 
             "language": "1", 
-            "serverInstance": "1005402", 
+            "serverInstance": "2126458", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
-            "environmentDataCenter": "NWK", 
+            "environmentDataCenter": "ST11", 
             "pageType": "Software", 
             "platformName": "iTunes12", 
             "page": "Software_577789325"
@@ -487,7 +487,7 @@
                             "height": 440
                         }, 
                         {
-                            "url": "http://a2.mzstatic.com/us/r30/Purple/v4/05/2f/78/052f78aa-ab22-df1f-1d09-47f6095f1f98/icon220x220.png", 
+                            "url": "http://a3.mzstatic.com/us/r30/Purple/v4/05/2f/78/052f78aa-ab22-df1f-1d09-47f6095f1f98/icon220x220.jpeg", 
                             "width": 220, 
                             "height": 220
                         }, 
@@ -497,7 +497,7 @@
                             "height": 256
                         }, 
                         {
-                            "url": "http://a1.mzstatic.com/us/r30/Purple/v4/05/2f/78/052f78aa-ab22-df1f-1d09-47f6095f1f98/icon512x512.jpeg", 
+                            "url": "http://a4.mzstatic.com/us/r30/Purple/v4/05/2f/78/052f78aa-ab22-df1f-1d09-47f6095f1f98/icon512x512.png", 
                             "width": 512, 
                             "height": 512
                         }
@@ -1020,7 +1020,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "1005402", 
+        "ITSServerInstance": "2126458", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
@@ -1050,7 +1050,7 @@
                 "platformId": "28", 
                 "storeFront": "143441", 
                 "storeFrontHeader": "143441-1,28", 
-                "environmentDataCenter": "NWK", 
+                "environmentDataCenter": "ST11", 
                 "platformName": "iTunes12"
             }, 
             "postFrequency": 60000, 

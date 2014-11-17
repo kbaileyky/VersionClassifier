@@ -24,39 +24,38 @@
                 "ipad": {
                     "ids": [
                         469337564, 
-                        335393788, 
                         659524331, 
+                        335393788, 
                         607485062, 
                         306273816, 
-                        714464092, 
                         376771144, 
-                        338761996, 
                         698070860, 
-                        363501921, 
-                        898947872, 
                         595563753, 
-                        320659794, 
+                        714464092, 
                         284675296, 
-                        298844386
+                        544633873, 
+                        363501921, 
+                        881415445, 
+                        338761996
                     ], 
                     "title": "Top Free iPad Business Apps"
                 }, 
                 "iphone": {
                     "ids": [
                         469337564, 
-                        335393788, 
                         514643583, 
-                        444553167, 
+                        335393788, 
                         659503543, 
                         635424128, 
-                        595563753, 
-                        338761996, 
+                        444553167, 
                         881415445, 
+                        595563753, 
+                        333188676, 
                         377672876, 
-                        335023774, 
-                        320659794, 
-                        365399299, 
-                        333188676
+                        544633873, 
+                        886051313, 
+                        376771144, 
+                        406048120
                     ], 
                     "title": "Top Free iPhone Business Apps"
                 }
@@ -163,7 +162,7 @@
             "pageDetails": "Indeed.com_Indeed Job Search", 
             "pageId": "309735670", 
             "language": "1", 
-            "serverInstance": "2004201", 
+            "serverInstance": "2004401", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
@@ -386,10 +385,10 @@
                     "releaseDate": "2009-06-08", 
                     "artistId": 309735673, 
                     "userRating": {
-                        "ratingCountCurrentVersion": 0, 
-                        "valueCurrentVersion": 0, 
+                        "ratingCountCurrentVersion": 6, 
+                        "valueCurrentVersion": 4, 
                         "value": 3.5, 
-                        "ratingCount": 24795
+                        "ratingCount": 24797
                     }, 
                     "artistUrl": "https://itunes.apple.com/us/artist/indeed.com/id309735673?mt=8", 
                     "itunesNotes": null, 
@@ -470,12 +469,12 @@
                     "editorialBadgeInfo": null, 
                     "artwork": [
                         {
-                            "url": "http://a4.mzstatic.com/us/r30/Purple5/v4/e5/01/21/e501219e-be76-5650-da62-ced8f4fdf7be/icon240x240.jpeg", 
+                            "url": "http://a3.mzstatic.com/us/r30/Purple5/v4/e5/01/21/e501219e-be76-5650-da62-ced8f4fdf7be/icon240x240.png", 
                             "width": 240, 
                             "height": 240
                         }, 
                         {
-                            "url": "http://a3.mzstatic.com/us/r30/Purple5/v4/e5/01/21/e501219e-be76-5650-da62-ced8f4fdf7be/icon1024x1024.jpeg", 
+                            "url": "http://a2.mzstatic.com/us/r30/Purple5/v4/e5/01/21/e501219e-be76-5650-da62-ced8f4fdf7be/icon1024x1024.png", 
                             "width": 1024, 
                             "height": 1024
                         }, 
@@ -485,7 +484,7 @@
                             "height": 440
                         }, 
                         {
-                            "url": "http://a1.mzstatic.com/us/r30/Purple5/v4/e5/01/21/e501219e-be76-5650-da62-ced8f4fdf7be/icon220x220.png", 
+                            "url": "http://a5.mzstatic.com/us/r30/Purple5/v4/e5/01/21/e501219e-be76-5650-da62-ced8f4fdf7be/icon220x220.jpeg", 
                             "width": 220, 
                             "height": 220
                         }, 
@@ -515,7 +514,7 @@
                         "ipad": [
                             [
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple4/v4/39/95/7d/39957d56-2788-d255-fd0b-ff5727b99ae1/screen261x261-50.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple4/v4/39/95/7d/39957d56-2788-d255-fd0b-ff5727b99ae1/screen261x261-65.jpeg", 
                                     "width": 196, 
                                     "height": 261
                                 }, 
@@ -547,7 +546,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple6/v4/b8/4f/9e/b84f9e37-3686-9194-7859-6765b635c4ee/screen261x261-50.jpeg", 
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple6/v4/b8/4f/9e/b84f9e37-3686-9194-7859-6765b635c4ee/screen261x261-65.jpeg", 
                                     "width": 196, 
                                     "height": 261
                                 }, 
@@ -579,7 +578,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a5.mzstatic.com/us/r30/Purple/v4/69/4c/fe/694cfea5-8042-2669-8d42-0c7eef05eff9/screen261x261-50.jpeg", 
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple/v4/69/4c/fe/694cfea5-8042-2669-8d42-0c7eef05eff9/screen261x261-65.jpeg", 
                                     "width": 196, 
                                     "height": 261
                                 }, 
@@ -611,7 +610,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a4.mzstatic.com/us/r30/Purple/v4/5e/cb/ca/5ecbcad7-256c-c6a3-ca18-06ce06050018/screen261x261-50.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple/v4/5e/cb/ca/5ecbcad7-256c-c6a3-ca18-06ce06050018/screen261x261-65.jpeg", 
                                     "width": 196, 
                                     "height": 261
                                 }, 
@@ -1004,7 +1003,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "2004201", 
+        "ITSServerInstance": "2004401", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 

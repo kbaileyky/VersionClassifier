@@ -8,19 +8,19 @@
                     "ids": [
                         302584613, 
                         373582546, 
-                        366869252, 
                         379693831, 
+                        366869252, 
                         597251953, 
-                        306310789, 
                         316789453, 
+                        306310789, 
+                        542557212, 
                         763451959, 
                         364376920, 
                         355833469, 
-                        364612911, 
-                        573623609, 
-                        458424230, 
                         400989007, 
-                        672803850
+                        364612911, 
+                        416454511, 
+                        573623609
                     ], 
                     "title": "Top Free iPad Books Apps"
                 }, 
@@ -28,19 +28,19 @@
                     "ids": [
                         302584613, 
                         379693831, 
+                        316789453, 
                         306310789, 
                         373582546, 
                         366869252, 
-                        316789453, 
                         355833469, 
+                        519625336, 
+                        542557212, 
                         597251953, 
                         521227008, 
                         400989007, 
-                        519625336, 
                         573623609, 
                         417341160, 
-                        311507490, 
-                        320214162
+                        416454511
                     ], 
                     "title": "Top Free iPhone Books Apps"
                 }
@@ -58,7 +58,8 @@
                 836688265, 
                 821833712, 
                 468172297, 
-                392342606
+                392342606, 
+                934135658
             ], 
             "appRatingsLearnMoreUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/appRatings?cc=us", 
             "versionHistory": [
@@ -74,7 +75,7 @@
             "pageDetails": "National Film Board of Canada \u2013 Office national du film du Canada_The Last Hunt for iPhone", 
             "pageId": "821829078", 
             "language": "1", 
-            "serverInstance": "512090", 
+            "serverInstance": "1013301", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
@@ -389,22 +390,22 @@
                     "editorialBadgeInfo": null, 
                     "artwork": [
                         {
-                            "url": "http://a1.mzstatic.com/us/r30/Purple6/v4/f2/0a/dc/f20adc05-550d-5c66-54c4-2291cc479e6f/icon1024x1024.jpeg", 
+                            "url": "http://a2.mzstatic.com/us/r30/Purple6/v4/f2/0a/dc/f20adc05-550d-5c66-54c4-2291cc479e6f/icon1024x1024.png", 
                             "width": 1024, 
                             "height": 1024
                         }, 
                         {
-                            "url": "http://a2.mzstatic.com/us/r30/Purple6/v4/f2/0a/dc/f20adc05-550d-5c66-54c4-2291cc479e6f/icon440x440.jpeg", 
+                            "url": "http://a5.mzstatic.com/us/r30/Purple6/v4/f2/0a/dc/f20adc05-550d-5c66-54c4-2291cc479e6f/icon440x440.png", 
                             "width": 440, 
                             "height": 440
                         }, 
                         {
-                            "url": "http://a3.mzstatic.com/us/r30/Purple6/v4/f2/0a/dc/f20adc05-550d-5c66-54c4-2291cc479e6f/icon220x220.jpeg", 
+                            "url": "http://a1.mzstatic.com/us/r30/Purple6/v4/f2/0a/dc/f20adc05-550d-5c66-54c4-2291cc479e6f/icon220x220.png", 
                             "width": 220, 
                             "height": 220
                         }, 
                         {
-                            "url": "http://a2.mzstatic.com/us/r30/Purple6/v4/f2/0a/dc/f20adc05-550d-5c66-54c4-2291cc479e6f/icon256x256.png", 
+                            "url": "http://a3.mzstatic.com/us/r30/Purple6/v4/f2/0a/dc/f20adc05-550d-5c66-54c4-2291cc479e6f/icon256x256.jpeg", 
                             "width": 256, 
                             "height": 256
                         }, 
@@ -414,7 +415,7 @@
                             "height": 512
                         }
                     ], 
-                    "requiredCapabilities": "opengles-2 armv7 ", 
+                    "requiredCapabilities": "armv7 opengles-2 ", 
                     "name": "The Last Hunt for iPhone", 
                     "kind": "iosSoftware", 
                     "tellAFriendMessageContentsUrl": "https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendEmailBody?cc=us&displayable-kind=11&id=821829078&name=s&type=14", 
@@ -770,7 +771,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "512090", 
+        "ITSServerInstance": "1013301", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 

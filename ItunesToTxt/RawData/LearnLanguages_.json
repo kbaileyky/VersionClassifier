@@ -24,20 +24,20 @@
             "topApps": {
                 "ipad": {
                     "ids": [
-                        893927401, 
                         512350210, 
+                        893927401, 
                         613398383, 
                         540872054, 
+                        445785342, 
                         891450541, 
                         308368164, 
-                        551215116, 
-                        565200595, 
                         664909593, 
-                        509343934, 
-                        719219382, 
-                        722910739, 
+                        591626572, 
                         491771721, 
-                        922609543
+                        722910739, 
+                        565200595, 
+                        719219382, 
+                        922894746
                     ], 
                     "title": "Top Grossing iPad Education Apps"
                 }, 
@@ -45,19 +45,18 @@
                     "ids": [
                         613398383, 
                         893927401, 
-                        565200595, 
-                        467329677, 
-                        891453663, 
-                        625614526, 
-                        308368164, 
                         577232024, 
+                        565200595, 
+                        625614526, 
+                        467329677, 
                         569632660, 
-                        385758163, 
-                        540872054, 
+                        891453663, 
+                        562413829, 
                         722910739, 
-                        591626572, 
-                        922609543, 
-                        588868907
+                        385758163, 
+                        539204929, 
+                        540872054, 
+                        591626572
                     ], 
                     "title": "Top Grossing iPhone Education Apps"
                 }
@@ -68,7 +67,6 @@
             "moreByThisDeveloper": [
                 681495114, 
                 715257898, 
-                440015307, 
                 705416234
             ], 
             "appRatingsLearnMoreUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/appRatings?cc=us", 
@@ -210,11 +208,11 @@
                 }, 
                 {
                     "price": "$199.99", 
-                    "name": "French (5 Levels)"
+                    "name": "German (5 Levels)"
                 }, 
                 {
                     "price": "$199.99", 
-                    "name": "German (5 Levels)"
+                    "name": "French (5 Levels)"
                 }, 
                 {
                     "price": "$199.99", 
@@ -247,11 +245,11 @@
             "pageDetails": "Rosetta Stone, Ltd._Learn Languages: Rosetta Stone", 
             "pageId": "435588892", 
             "language": "1", 
-            "serverInstance": "1000300", 
+            "serverInstance": "2125705", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
-            "environmentDataCenter": "NWK", 
+            "environmentDataCenter": "ST11", 
             "pageType": "Software", 
             "platformName": "iTunes12", 
             "page": "Software_435588892"
@@ -470,10 +468,10 @@
                     "releaseDate": "2011-06-02", 
                     "artistId": 349688821, 
                     "userRating": {
-                        "ratingCountCurrentVersion": 261, 
+                        "ratingCountCurrentVersion": 283, 
                         "valueCurrentVersion": 4.5, 
                         "value": 4.5, 
-                        "ratingCount": 11221
+                        "ratingCount": 11242
                     }, 
                     "artistUrl": "https://itunes.apple.com/us/artist/rosetta-stone-ltd./id349688821?mt=8", 
                     "itunesNotes": null, 
@@ -560,12 +558,12 @@
                             "height": 240
                         }, 
                         {
-                            "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/39/5e/3b/395e3b23-1187-3085-abf1-821c6cab1243/icon1024x1024.jpeg", 
+                            "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/39/5e/3b/395e3b23-1187-3085-abf1-821c6cab1243/icon1024x1024.png", 
                             "width": 1024, 
                             "height": 1024
                         }, 
                         {
-                            "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/39/5e/3b/395e3b23-1187-3085-abf1-821c6cab1243/icon440x440.jpeg", 
+                            "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/39/5e/3b/395e3b23-1187-3085-abf1-821c6cab1243/icon440x440.png", 
                             "width": 440, 
                             "height": 440
                         }, 
@@ -575,7 +573,7 @@
                             "height": 220
                         }, 
                         {
-                            "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/39/5e/3b/395e3b23-1187-3085-abf1-821c6cab1243/icon400x400.png", 
+                            "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/39/5e/3b/395e3b23-1187-3085-abf1-821c6cab1243/icon400x400.jpeg", 
                             "width": 400, 
                             "height": 400
                         }, 
@@ -585,7 +583,7 @@
                             "height": 512
                         }
                     ], 
-                    "requiredCapabilities": "opengles-2 armv7 ", 
+                    "requiredCapabilities": "armv7 opengles-2 ", 
                     "name": "Learn Languages: Rosetta Stone", 
                     "kind": "iosSoftware", 
                     "tellAFriendMessageContentsUrl": "https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendEmailBody?cc=us&displayable-kind=11&id=435588892&name=s&type=14", 
@@ -600,7 +598,7 @@
                         "ipad": [
                             [
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/01/2b/6b/012b6b40-dc68-c30c-4095-84010822510b/screen261x261-65.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/01/2b/6b/012b6b40-dc68-c30c-4095-84010822510b/screen261x261-50.jpeg", 
                                     "width": 261, 
                                     "height": 196
                                 }, 
@@ -637,7 +635,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/40/10/7c/40107c4e-0b06-d3e7-c9ff-a4afcdd2da89/screen261x261-65.jpeg", 
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/40/10/7c/40107c4e-0b06-d3e7-c9ff-a4afcdd2da89/screen261x261-50.jpeg", 
                                     "width": 261, 
                                     "height": 196
                                 }, 
@@ -674,7 +672,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/ac/b3/6a/acb36a00-32db-477c-8585-472a7223af4c/screen261x261-65.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/ac/b3/6a/acb36a00-32db-477c-8585-472a7223af4c/screen261x261-50.jpeg", 
                                     "width": 261, 
                                     "height": 196
                                 }, 
@@ -711,7 +709,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/02/56/82/025682ad-5006-2d80-c88b-21236aa9f98d/screen261x261-65.jpeg", 
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/02/56/82/025682ad-5006-2d80-c88b-21236aa9f98d/screen261x261-50.jpeg", 
                                     "width": 261, 
                                     "height": 196
                                 }, 
@@ -748,7 +746,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple5/v4/07/48/0b/07480b6b-257c-e422-bae0-ffa9834eeee2/screen261x261-65.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple5/v4/07/48/0b/07480b6b-257c-e422-bae0-ffa9834eeee2/screen261x261-50.jpeg", 
                                     "width": 261, 
                                     "height": 196
                                 }, 
@@ -1128,7 +1126,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "1000300", 
+        "ITSServerInstance": "2125705", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
@@ -1158,7 +1156,7 @@
                 "platformId": "28", 
                 "storeFront": "143441", 
                 "storeFrontHeader": "143441-1,28", 
-                "environmentDataCenter": "NWK", 
+                "environmentDataCenter": "ST11", 
                 "platformName": "iTunes12"
             }, 
             "postFrequency": 60000, 

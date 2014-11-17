@@ -20,20 +20,20 @@
                 "ipad": {
                     "ids": [
                         333710667, 
-                        594704446, 
-                        382509315, 
                         576443892, 
+                        594704446, 
                         780621650, 
                         874776696, 
                         364502063, 
-                        504968354, 
-                        556500145, 
-                        373045717, 
-                        558270538, 
                         317107309, 
-                        918093169, 
-                        364876095, 
-                        428974099
+                        382509315, 
+                        504968354, 
+                        484856077, 
+                        428974099, 
+                        513188658, 
+                        295798315, 
+                        366020849, 
+                        338550388
                     ], 
                     "title": "Top Paid iPad Business Apps"
                 }, 
@@ -42,16 +42,16 @@
                         294934058, 
                         342548956, 
                         333710667, 
-                        556500145, 
                         347803339, 
                         577499909, 
                         428974099, 
+                        556500145, 
                         373045717, 
+                        539943615, 
                         561386772, 
                         437818260, 
-                        307868751, 
-                        382013715, 
-                        395904807, 
+                        498174936, 
+                        576443892, 
                         558160040
                     ], 
                     "title": "Top Paid iPhone Business Apps"
@@ -197,7 +197,7 @@
             "pageDetails": "ScanBiz Mobile Solutions L.P._ScanBizCards Business Card Reader", 
             "pageId": "335047649", 
             "language": "1", 
-            "serverInstance": "2125215", 
+            "serverInstance": "2126621", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
@@ -420,7 +420,7 @@
                     "releaseDate": "2009-10-28", 
                     "artistId": 335047652, 
                     "userRating": {
-                        "ratingCountCurrentVersion": 65, 
+                        "ratingCountCurrentVersion": 66, 
                         "valueCurrentVersion": 4, 
                         "value": 4, 
                         "ratingCount": 2344
@@ -523,12 +523,12 @@
                             "height": 220
                         }, 
                         {
-                            "url": "http://a2.mzstatic.com/us/r30/Purple5/v4/98/ae/49/98ae49a5-9fcc-e5e2-4f68-001c3ffaa354/icon400x400.png", 
+                            "url": "http://a4.mzstatic.com/us/r30/Purple5/v4/98/ae/49/98ae49a5-9fcc-e5e2-4f68-001c3ffaa354/icon400x400.jpeg", 
                             "width": 400, 
                             "height": 400
                         }, 
                         {
-                            "url": "http://a5.mzstatic.com/us/r30/Purple5/v4/98/ae/49/98ae49a5-9fcc-e5e2-4f68-001c3ffaa354/icon512x512.png", 
+                            "url": "http://a2.mzstatic.com/us/r30/Purple5/v4/98/ae/49/98ae49a5-9fcc-e5e2-4f68-001c3ffaa354/icon512x512.jpeg", 
                             "width": 512, 
                             "height": 512
                         }
@@ -939,7 +939,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "2125215", 
+        "ITSServerInstance": "2126621", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 

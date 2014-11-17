@@ -7,20 +7,20 @@
                 "ipad": {
                     "ids": [
                         333710667, 
-                        594704446, 
-                        382509315, 
                         576443892, 
+                        594704446, 
                         780621650, 
                         874776696, 
                         364502063, 
-                        504968354, 
-                        556500145, 
-                        373045717, 
-                        558270538, 
                         317107309, 
-                        918093169, 
-                        364876095, 
-                        428974099
+                        382509315, 
+                        504968354, 
+                        484856077, 
+                        428974099, 
+                        513188658, 
+                        295798315, 
+                        366020849, 
+                        338550388
                     ], 
                     "title": "Top Paid iPad Business Apps"
                 }, 
@@ -29,16 +29,16 @@
                         294934058, 
                         342548956, 
                         333710667, 
-                        556500145, 
                         347803339, 
                         428974099, 
+                        556500145, 
                         335047649, 
                         373045717, 
+                        539943615, 
                         561386772, 
                         437818260, 
-                        307868751, 
-                        382013715, 
-                        395904807, 
+                        498174936, 
+                        576443892, 
                         558160040
                     ], 
                     "title": "Top Paid iPhone Business Apps"
@@ -161,7 +161,7 @@
             "pageDetails": "Epic Enterprises_TapeACall Pro - Record Phone Calls. Call Recorder For Interviews on iPhone", 
             "pageId": "577499909", 
             "language": "1", 
-            "serverInstance": "615293", 
+            "serverInstance": "2003700", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
@@ -384,10 +384,10 @@
                     "releaseDate": "2013-01-22", 
                     "artistId": 529971929, 
                     "userRating": {
-                        "ratingCountCurrentVersion": 0, 
-                        "valueCurrentVersion": 0, 
+                        "ratingCountCurrentVersion": 7, 
+                        "valueCurrentVersion": 4.5, 
                         "value": 4, 
-                        "ratingCount": 1058
+                        "ratingCount": 1060
                     }, 
                     "artistUrl": "https://itunes.apple.com/us/artist/epic-enterprises/id529971929?mt=8", 
                     "itunesNotes": null, 
@@ -467,7 +467,7 @@
                     "editorialBadgeInfo": null, 
                     "artwork": [
                         {
-                            "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/a3/54/08/a35408a9-833e-4498-99d2-82ea13d5d656/icon240x240.png", 
+                            "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/a3/54/08/a35408a9-833e-4498-99d2-82ea13d5d656/icon240x240.jpeg", 
                             "width": 240, 
                             "height": 240
                         }, 
@@ -482,22 +482,22 @@
                             "height": 440
                         }, 
                         {
-                            "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/a3/54/08/a35408a9-833e-4498-99d2-82ea13d5d656/icon220x220.jpeg", 
+                            "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/a3/54/08/a35408a9-833e-4498-99d2-82ea13d5d656/icon220x220.png", 
                             "width": 220, 
                             "height": 220
                         }, 
                         {
-                            "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/a3/54/08/a35408a9-833e-4498-99d2-82ea13d5d656/icon400x400.png", 
+                            "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/a3/54/08/a35408a9-833e-4498-99d2-82ea13d5d656/icon400x400.jpeg", 
                             "width": 400, 
                             "height": 400
                         }, 
                         {
-                            "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/a3/54/08/a35408a9-833e-4498-99d2-82ea13d5d656/icon512x512.png", 
+                            "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/a3/54/08/a35408a9-833e-4498-99d2-82ea13d5d656/icon512x512.jpeg", 
                             "width": 512, 
                             "height": 512
                         }
                     ], 
-                    "requiredCapabilities": "armv7 telephony sms ", 
+                    "requiredCapabilities": "sms armv7 telephony ", 
                     "name": "TapeACall Pro - Record Phone Calls. Call Recorder For Interviews on iPhone", 
                     "kind": "iosSoftware", 
                     "tellAFriendMessageContentsUrl": "https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendEmailBody?cc=us&displayable-kind=11&id=577499909&name=s&type=14", 
@@ -929,7 +929,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "615293", 
+        "ITSServerInstance": "2003700", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
