@@ -42,6 +42,8 @@
             this.savedFileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.patternToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.saveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.saveByVersionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.saveForComparisonToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lsbxHistory = new System.Windows.Forms.ListBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -50,6 +52,8 @@
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.lblVersionPat = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.lblSecVersionPattern = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel3 = new System.Windows.Forms.ToolStripStatusLabel();
             this.lblDatePattern = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel5 = new System.Windows.Forms.ToolStripStatusLabel();
@@ -61,8 +65,9 @@
             this.txtName = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.btnSet = new System.Windows.Forms.Button();
-            this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
-            this.lblSecVersionPattern = new System.Windows.Forms.ToolStripStatusLabel();
+            this.btnMergeDown = new System.Windows.Forms.Button();
+            this.btnMergeUp = new System.Windows.Forms.Button();
+            this.comparisonFileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -139,9 +144,9 @@
             // 
             // btnSplit
             // 
-            this.btnSplit.Location = new System.Drawing.Point(707, 266);
+            this.btnSplit.Location = new System.Drawing.Point(704, 241);
             this.btnSplit.Name = "btnSplit";
-            this.btnSplit.Size = new System.Drawing.Size(83, 35);
+            this.btnSplit.Size = new System.Drawing.Size(68, 48);
             this.btnSplit.TabIndex = 7;
             this.btnSplit.Text = "Split";
             this.btnSplit.UseVisualStyleBackColor = true;
@@ -163,6 +168,7 @@
             this.loadToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.rawFileToolStripMenuItem,
             this.savedFileToolStripMenuItem,
+            this.comparisonFileToolStripMenuItem,
             this.patternToolStripMenuItem});
             this.loadToolStripMenuItem.Name = "loadToolStripMenuItem";
             this.loadToolStripMenuItem.Size = new System.Drawing.Size(45, 20);
@@ -191,10 +197,27 @@
             // 
             // saveToolStripMenuItem
             // 
+            this.saveToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.saveForComparisonToolStripMenuItem,
+            this.saveByVersionToolStripMenuItem});
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
             this.saveToolStripMenuItem.Size = new System.Drawing.Size(43, 20);
             this.saveToolStripMenuItem.Text = "Save";
             this.saveToolStripMenuItem.Click += new System.EventHandler(this.saveToolStripMenuItem_Click);
+            // 
+            // saveByVersionToolStripMenuItem
+            // 
+            this.saveByVersionToolStripMenuItem.Name = "saveByVersionToolStripMenuItem";
+            this.saveByVersionToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
+            this.saveByVersionToolStripMenuItem.Text = "Save By Version";
+            this.saveByVersionToolStripMenuItem.Click += new System.EventHandler(this.saveByVersionToolStripMenuItem_Click);
+            // 
+            // saveForComparisonToolStripMenuItem
+            // 
+            this.saveForComparisonToolStripMenuItem.Name = "saveForComparisonToolStripMenuItem";
+            this.saveForComparisonToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
+            this.saveForComparisonToolStripMenuItem.Text = "Save for Comparison";
+            this.saveForComparisonToolStripMenuItem.Click += new System.EventHandler(this.saveForComparisonToolStripMenuItem_Click);
             // 
             // lsbxHistory
             // 
@@ -241,7 +264,7 @@
             this.btnChangeRating.Name = "btnChangeRating";
             this.btnChangeRating.Size = new System.Drawing.Size(104, 37);
             this.btnChangeRating.TabIndex = 13;
-            this.btnChangeRating.Text = "Change Rating Request (I)";
+            this.btnChangeRating.Text = "Rating Related (I)";
             this.btnChangeRating.UseVisualStyleBackColor = true;
             this.btnChangeRating.Click += new System.EventHandler(this.btnChangeRating_Click);
             // 
@@ -274,6 +297,18 @@
             this.lblVersionPat.Name = "lblVersionPat";
             this.lblVersionPat.Size = new System.Drawing.Size(0, 17);
             // 
+            // toolStripStatusLabel2
+            // 
+            this.toolStripStatusLabel2.Name = "toolStripStatusLabel2";
+            this.toolStripStatusLabel2.Size = new System.Drawing.Size(110, 17);
+            this.toolStripStatusLabel2.Text = "2nd Version Pattern";
+            // 
+            // lblSecVersionPattern
+            // 
+            this.lblSecVersionPattern.Name = "lblSecVersionPattern";
+            this.lblSecVersionPattern.Size = new System.Drawing.Size(10, 17);
+            this.lblSecVersionPattern.Text = " ";
+            // 
             // toolStripStatusLabel3
             // 
             this.toolStripStatusLabel3.Name = "toolStripStatusLabel3";
@@ -303,7 +338,7 @@
             this.groupBox1.Controls.Add(this.rbSibling);
             this.groupBox1.Controls.Add(this.rbMobile);
             this.groupBox1.Controls.Add(this.rbDesktop);
-            this.groupBox1.Location = new System.Drawing.Point(707, 168);
+            this.groupBox1.Location = new System.Drawing.Point(704, 143);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(152, 92);
             this.groupBox1.TabIndex = 15;
@@ -372,23 +407,40 @@
             this.btnSet.UseVisualStyleBackColor = true;
             this.btnSet.Click += new System.EventHandler(this.btnSet_Click);
             // 
-            // toolStripStatusLabel2
+            // btnMergeDown
             // 
-            this.toolStripStatusLabel2.Name = "toolStripStatusLabel2";
-            this.toolStripStatusLabel2.Size = new System.Drawing.Size(110, 17);
-            this.toolStripStatusLabel2.Text = "2nd Version Pattern";
+            this.btnMergeDown.Location = new System.Drawing.Point(781, 266);
+            this.btnMergeDown.Name = "btnMergeDown";
+            this.btnMergeDown.Size = new System.Drawing.Size(75, 23);
+            this.btnMergeDown.TabIndex = 19;
+            this.btnMergeDown.Text = "Merge V";
+            this.btnMergeDown.UseVisualStyleBackColor = true;
+            this.btnMergeDown.Click += new System.EventHandler(this.btnMergeDown_Click);
             // 
-            // lblSecVersionPattern
+            // btnMergeUp
             // 
-            this.lblSecVersionPattern.Name = "lblSecVersionPattern";
-            this.lblSecVersionPattern.Size = new System.Drawing.Size(10, 17);
-            this.lblSecVersionPattern.Text = " ";
+            this.btnMergeUp.Location = new System.Drawing.Point(781, 241);
+            this.btnMergeUp.Name = "btnMergeUp";
+            this.btnMergeUp.Size = new System.Drawing.Size(75, 23);
+            this.btnMergeUp.TabIndex = 20;
+            this.btnMergeUp.Text = "Merge ^";
+            this.btnMergeUp.UseVisualStyleBackColor = true;
+            this.btnMergeUp.Click += new System.EventHandler(this.btnMergeUp_Click);
+            // 
+            // comparisonFileToolStripMenuItem
+            // 
+            this.comparisonFileToolStripMenuItem.Name = "comparisonFileToolStripMenuItem";
+            this.comparisonFileToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.comparisonFileToolStripMenuItem.Text = "Comparison File";
+            this.comparisonFileToolStripMenuItem.Click += new System.EventHandler(this.comparisonFileToolStripMenuItem_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(871, 371);
+            this.Controls.Add(this.btnMergeUp);
+            this.Controls.Add(this.btnMergeDown);
             this.Controls.Add(this.btnSet);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txtName);
@@ -459,6 +511,11 @@
         private System.Windows.Forms.Button btnSet;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel2;
         private System.Windows.Forms.ToolStripStatusLabel lblSecVersionPattern;
+        private System.Windows.Forms.Button btnMergeDown;
+        private System.Windows.Forms.Button btnMergeUp;
+        private System.Windows.Forms.ToolStripMenuItem saveByVersionToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem saveForComparisonToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem comparisonFileToolStripMenuItem;
     }
 }
 

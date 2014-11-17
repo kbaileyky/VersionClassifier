@@ -124,7 +124,7 @@ namespace HistoryClassifier
 
         public Junk()
         {
-            str_type = "Junk";
+            str_type = "Non-Functional";
    //         enum_type = desc.Junk;
             int_type = 3;
         }
@@ -174,7 +174,7 @@ namespace HistoryClassifier
 
         public RevChangeRequest()
         {
-            str_type = "Review Change Request";
+            str_type = "Rating Related";
       //      enum_type = desc.RevChangeRequest;
             int_type = 5;
         }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Globalization;
 
 namespace HistoryClassifier
 {
@@ -20,6 +21,8 @@ namespace HistoryClassifier
 
         public bool flag = false;
 
+        private CultureInfo enUS = CultureInfo.CreateSpecificCulture("en-US");
+            
         public List<HistoryEntry> EntryList;
 
         public ReleaseContainer()
@@ -66,6 +69,19 @@ namespace HistoryClassifier
         public void Set_App_Type(AppType newclass)
         {
             ApplicationType = newclass;
+            foreach (HistoryEntry el in EntryList)
+            {
+                el.Set_App_Type(newclass);
+            }
+        }
+
+        public void Set_App_Name(string newName)
+        {
+            ApplicationName = newName;
+            foreach (HistoryEntry el in EntryList)
+            {
+                el.Set_Name(newName);
+            }
         }
 
         public string Get_App_Type_Str()
@@ -79,7 +95,11 @@ namespace HistoryClassifier
         }
 
         public void Set_Date(string newDate){
-            ReleaseDate = newDate;
+            ReleaseDate = Convert_Date(newDate);
+            foreach (HistoryEntry h in EntryList)
+            {
+                h.Set_Date(ReleaseDate);
+            }
         }
 
         public void Set_Version(string newVersion){
@@ -103,9 +123,10 @@ namespace HistoryClassifier
 
         }
 
-        public void Set_Flag(bool flg)
+        public void Set_Flag(bool flg, int index)
         {
             flag = flg;
+            EntryList[index].Set_Flag(flg);
         }
 
         public bool Get_Flag(){
@@ -124,7 +145,8 @@ namespace HistoryClassifier
             {
                 if (!str.Equals(String.Empty))
                 {
-                    EntryList.Add(new HistoryEntry(str));
+                    EntryList.Add(new HistoryEntry(str, new NotClassified(), ApplicationName, VersionNumber, ReleaseDate, datePattern, ApplicationType));
+ 
                 }
             }
             return;
@@ -139,6 +161,19 @@ namespace HistoryClassifier
             string entry = EntryList[index].Get_Entry();
             EntryList[index].Set_Entry(entry.Substring(0, SubstringPosition));
             EntryList.Insert(index + 1, new HistoryEntry(entry.Substring(SubstringPosition)));
+            EntryList[index].Set_Split(true);
+            EntryList[index + 1].Set_Split(true);
+            return;
+        }
+
+        public void Merge_Entry(int index, int index2) //Appends Second to the first entry
+        {
+            string newEntry = EntryList[index].Get_Entry();
+            newEntry += EntryList[index2].Get_Entry();
+            EntryList[index].Set_Entry(newEntry);
+
+            EntryList.RemoveAt(index2);
+            EntryList[index].Set_Merged(true);
             return;
         }
 
@@ -148,6 +183,26 @@ namespace HistoryClassifier
             {
                 EntryList[index].Set_Classification(type);
             }
+        }
+
+        public string Convert_Date(string oldDate)
+        {
+
+            string[] formats = { datePattern, };
+
+              DateTime date;
+              if (DateTime.TryParseExact(oldDate, formats, enUS, DateTimeStyles.None, out date))
+              {
+                  ReleaseDate = date.ToString("dd/MM/yyyy");
+                  return ReleaseDate;
+              }
+              else
+              {
+
+                  return oldDate;
+              }
+           
+
         }
 
     }

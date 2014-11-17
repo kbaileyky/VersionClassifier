@@ -160,7 +160,7 @@ namespace HistoryClassifier
             lsbxHistory.SelectedIndex = 0;
             if (lsbxVersions.SelectedIndex >= 0)
             {
-                chkbFlag.Checked = ReleaseList[lsbxVersions.SelectedIndex].Get_Flag();
+
                 switch (ReleaseList[0].Get_App_Type_Int())
                 {
                     case 0:
@@ -187,6 +187,7 @@ namespace HistoryClassifier
         {
             textBox1.Text = activeHistory[lsbxHistory.SelectedIndex].Get_Entry();
             label2.Text = activeHistory[lsbxHistory.SelectedIndex].Get_Classification_String();
+            chkbFlag.Checked = activeHistory[lsbxHistory.SelectedIndex].flag;
             lsboxindex = lsbxHistory.SelectedIndex;
         }
 
@@ -300,7 +301,7 @@ namespace HistoryClassifier
 
         private void chkbFlag_CheckedChanged(object sender, EventArgs e)
         {
-            ReleaseList[lsbxVersions.SelectedIndex].Set_Flag(chkbFlag.Checked);
+            ReleaseList[lsbxVersions.SelectedIndex].Set_Flag(chkbFlag.Checked, lsbxHistory.SelectedIndex);
         }
 
         private void rawFileToolStripMenuItem_Click(object sender, EventArgs e)
@@ -383,45 +384,45 @@ namespace HistoryClassifier
 
         }
 
+        public void Read_Comp_File(string filename)
+        {
+            StreamReader txtReader;
+            try
+            {
+
+                String VersionString = String.Empty;
+                String tempString = String.Empty;
+                txtReader = new StreamReader(filename);
+                ReleaseContainer newRelease = new ReleaseContainer();
+                HistoryEntry newEntry = new HistoryEntry();
+                using (txtReader)
+                {
+
+                    while ((tempString = txtReader.ReadLine()) != null)
+                    {
+                    
+                       newEntry = JsonConvert.DeserializeObject<HistoryEntry>(tempString);
+                       newRelease.EntryList.Add(newEntry);
+                        
+                    } //end reading file
+                    newRelease.Set_Version("All for Comp");
+                    ReleaseList.Add(newRelease);
+                } //end using stream
+
+                txtReader.Close();
+
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+        }
+
         private void saveToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
 
-            StreamWriter txtWriter;
-            SaveFileDialog saveFileDialog1 = new SaveFileDialog();
-
-            saveFileDialog1.Filter = "txt files (*.txt)|*.txt|All files (*.*)|*.*";
-            saveFileDialog1.FilterIndex = 2;
-            saveFileDialog1.RestoreDirectory = true;
-
-            if (saveFileDialog1.ShowDialog() == DialogResult.OK)
-            {
-
-                try
-                {
-
-                    String VersionString = String.Empty;
-                    String tempString = String.Empty;
-                    txtWriter = new StreamWriter(saveFileDialog1.FileName);
-
-                    using (txtWriter)
-                    {
-
-                        foreach (ReleaseContainer v in ReleaseList)
-                        {
-                            txtWriter.WriteLine(JsonConvert.SerializeObject(v));
-                        }
-                    }
-                    txtWriter.Close();
-                } catch (Exception ex){
-
-                     MessageBox.Show(ex.Message);
-
-                }
-
-
-
-            }
         
         }
 
@@ -513,7 +514,142 @@ namespace HistoryClassifier
             foreach (ReleaseContainer r in ReleaseList)
             {
                 r.ApplicationName = txtName.Text;
+                foreach (HistoryEntry h in r.EntryList)
+                {
+                    h.Set_Name(txtName.Text);
+                }
             }
+        }
+
+        private void btnMergeDown_Click(object sender, EventArgs e)
+        {
+            if (lsbxHistory.SelectedIndex >= 0)
+            {
+                ReleaseList[lsbxVersions.SelectedIndex].Merge_Entry(lsbxHistory.SelectedIndex, lsbxHistory.SelectedIndex + 1);
+                textBox1.SelectedText = String.Empty;
+                Repopulate_Entry_List(ReleaseList[lsbxVersions.SelectedIndex]);
+            }
+        }
+
+        private void btnMergeUp_Click(object sender, EventArgs e)
+        {
+            if (lsbxHistory.SelectedIndex >= 1)
+            {
+                ReleaseList[lsbxVersions.SelectedIndex].Merge_Entry(lsbxHistory.SelectedIndex - 1, lsbxHistory.SelectedIndex);
+                textBox1.SelectedText = String.Empty;
+                Repopulate_Entry_List(ReleaseList[lsbxVersions.SelectedIndex]);
+            }
+        }
+
+        private void saveByVersionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+            StreamWriter txtWriter;
+            SaveFileDialog saveFileDialog1 = new SaveFileDialog();
+
+            saveFileDialog1.Filter = "txt files (*.txt)|*.txt|All files (*.*)|*.*";
+            saveFileDialog1.FilterIndex = 2;
+            saveFileDialog1.RestoreDirectory = true;
+
+            if (saveFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+
+                try
+                {
+
+                    String VersionString = String.Empty;
+                    String tempString = String.Empty;
+                    txtWriter = new StreamWriter(saveFileDialog1.FileName);
+
+                    using (txtWriter)
+                    {
+
+                        foreach (ReleaseContainer v in ReleaseList)
+                        {
+                            txtWriter.WriteLine(JsonConvert.SerializeObject(v));
+                        }
+                    }
+                    txtWriter.Close();
+                }
+                catch (Exception ex)
+                {
+
+                    MessageBox.Show(ex.Message);
+
+                }
+
+
+
+            }
+        }
+
+        private void saveForComparisonToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            StreamWriter txtWriter;
+            SaveFileDialog saveFileDialog1 = new SaveFileDialog();
+
+            saveFileDialog1.Filter = "txt files (*.txt)|*.txt|All files (*.*)|*.*";
+            saveFileDialog1.FilterIndex = 2;
+            saveFileDialog1.RestoreDirectory = true;
+
+            if (saveFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+
+                try
+                {
+
+                    String VersionString = String.Empty;
+                    String tempString = String.Empty;
+                    txtWriter = new StreamWriter(saveFileDialog1.FileName);
+
+                    using (txtWriter)
+                    {
+
+                        foreach (ReleaseContainer v in ReleaseList)
+                        {
+                            foreach (HistoryEntry h in v.EntryList)
+                            {
+                                txtWriter.WriteLine(JsonConvert.SerializeObject(h));
+                            }
+                        }
+                    }
+                    txtWriter.Close();
+                }
+                catch (Exception ex)
+                {
+
+                    MessageBox.Show(ex.Message);
+
+                }
+
+
+
+            }
+        }
+
+        private void comparisonFileToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ReleaseList.Clear();
+
+            string filename = string.Empty;
+            try
+            {
+
+                if (Select_File(ref filename) == true)
+                {
+                    Read_Comp_File(filename);
+                }
+
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+
+            Repopulate_Versions_List();
+
+
+            System.Console.WriteLine(filename);
         }
      
 

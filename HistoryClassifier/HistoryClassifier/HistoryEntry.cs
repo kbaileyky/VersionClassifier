@@ -10,23 +10,160 @@ namespace HistoryClassifier
     {
         public string entry;
         public Classification classification;
+
+        public string VersionNumber;
+        public string ReleaseDate;
+
+        public string ApplicationName;
+
+        public AppType ApplicationType;
+
+        private string datePattern;
+
+        public bool flag = false;
+
+        public bool split = false;
+        public bool merged = false;
+        public string original_text = String.Empty;
        
         public HistoryEntry()
         {
             entry = String.Empty;
             classification = new NotClassified();
+
+            VersionNumber = String.Empty;
+            ReleaseDate = String.Empty;
+            datePattern = String.Empty;
+            ApplicationType = new AppNotClassified();
+            ApplicationName = String.Empty;
+
         }
 
         public HistoryEntry(string ent)
         {
             entry = ent;
+            original_text = ent;
             classification = new NotClassified();
+
+            VersionNumber = String.Empty;
+            ReleaseDate = String.Empty;
+            datePattern = String.Empty;
+            ApplicationType = new AppNotClassified();
+            ApplicationName = String.Empty;
         }
 
         public HistoryEntry(string ent, Classification clss)
         {
             entry = ent;
             classification = clss;
+            original_text = ent;
+
+            VersionNumber = String.Empty;
+            ReleaseDate = String.Empty;
+            datePattern = String.Empty;
+            ApplicationType = new AppNotClassified();
+            ApplicationName = String.Empty;
+        }
+
+        public HistoryEntry(string ent, Classification clss, string name)
+        {
+            entry = ent;
+            classification = clss;
+            ApplicationName = name;
+            original_text = ent;
+
+            VersionNumber = String.Empty;
+            ReleaseDate = String.Empty;
+            datePattern = String.Empty;
+            ApplicationType = new AppNotClassified();
+            ApplicationName = name;
+        }
+
+        public HistoryEntry(string ent, Classification clss, string name,string number)
+        {
+            entry = ent;
+            classification = clss;
+            ApplicationName = name;
+            VersionNumber = number;
+            original_text = ent; 
+
+            ReleaseDate = String.Empty;
+            datePattern = String.Empty;
+            ApplicationType = new AppNotClassified();
+            ApplicationName = name;
+        }
+
+        public HistoryEntry(string ent, Classification clss, string name, string number, string date, string pat)
+        {
+            entry = ent;
+            classification = clss;
+            ApplicationName = name;
+            VersionNumber = number;
+            ReleaseDate = date;
+            original_text = ent;
+            datePattern = pat;
+
+            ApplicationType = new AppNotClassified();
+            ApplicationName = name;
+        }
+
+        public HistoryEntry(string ent, Classification clss, string name, string number, string date, string pat, AppType tpe)
+        {
+            entry = ent;
+            classification = clss;
+            ApplicationName = name;
+            VersionNumber = number;
+            ReleaseDate = date;
+            ApplicationType = tpe;
+            original_text = ent;
+            datePattern = pat;
+
+            ApplicationName = name;
+
+        }
+
+
+
+
+        public void Set_App_Type(AppType newclass)
+        {
+            ApplicationType = newclass;
+        }
+
+        public string Get_App_Type_Str()
+        {
+            return ApplicationType.Get_String();
+        }
+
+        public int Get_App_Type_Int()
+        {
+            return ApplicationType.Get_Int();
+        }
+
+        public void Set_Date(string newDate)
+        {
+            ReleaseDate = newDate;
+        }
+
+
+        public void Set_Date_Pattern(string newPattern)
+        {
+            datePattern = newPattern;
+        }
+
+        public void Set_Flag(bool flg)
+        {
+            flag = flg;
+        }
+
+        public bool Get_Flag()
+        {
+            return flag;
+        }
+
+        public void Set_Name(string newname)
+        {
+            ApplicationName = newname;
         }
 
         public string Get_Entry()
@@ -63,6 +200,26 @@ namespace HistoryClassifier
             else
             {
                 return entry;
+            }
+        }
+
+        public void Set_Merged(bool TF)
+        {
+            merged = TF;
+            CheckOriginal();
+        }
+
+        public void Set_Split(bool Tf)
+        {
+            split = Tf;
+            CheckOriginal();
+        }
+
+        private void CheckOriginal()
+        {
+            if(original_text.Equals(entry)){
+                split = false;
+                merged = false;
             }
         }
     }
