@@ -1,0 +1,230 @@
+Version Number: 2.19
+Release Date: 2014-10-06T17:17:56Z
+- updates for iOS 8
+
+Version Number: 2.18
+Release Date: 2014-03-05T18:38:30Z
+- Additional checks for PlayStation Network logins. Note: PSN users outside of the USA may not be able to successfully connect; we are investigating work arounds for our international users 
+- Several behind the scenes fixes and enhancements
+
+Version Number: 2.17
+Release Date: 2014-02-03T19:10:39Z
+- PSN connectivity has returned. Note that PSN online status is detected, but in-game status is NOT at this time. A future update will address this issue!
+
+Version Number: 2.16
+Release Date: 2014-01-17T19:11:31Z
+- iOS 7 updates
+- fixed a bug where your previously saved Xbox/PSN/Steam credentials were not pre-filled when you went to edit/update them
+
+Version Number: 2.15
+Release Date: 2013-12-18T22:37:05Z
+- Fixes to searching your Contacts for friends on Raptr
+- Fixes to Xbox connectivity
+- Fix a few memory leaks and other under the hood fixes
+
+Version Number: 2.14
+Release Date: 2013-11-19T19:51:12Z
+** Raptr now requires iOS 6 or later **
+
+- PSN: Fixed a crash that occurred when connecting your PSN account and clicking on the alert dialog
+- PSN: PSN users that are Playstation Plus now have a Playstation Plus icon next to their avatar
+- Steam: Fixed an issue where some recently played games in a Steam user's profile showed "(null)" for playtime data
+- Facebook: Fixed an issue with prevented you from searching for Facebook friends that are on Raptr
+- Twitter: Finding Twitter friends on Raptr now uses the built-in iOS Twitter functionality to access your Twitter account 
+- Various behind the scenes updates to address bugs and iOS 7 compatibility
+
+Version Number: 2.13
+Release Date: 2013-10-28T17:35:14Z
+- Fix for PSN crashing issue
+
+Version Number: 2.12
+Release Date: 2013-10-03T18:48:01Z
+- Steam connectivity under iOS 7: if you are prompted for SteamGuard or the Steam CAPTCHA, you can actually enter them now
+
+- Steam: Your Steam Level is displayed on your profile again
+
+- Steam: Steam friend's recently played game info is properly being displayed now. Previously it was displaying out of date information.
+
+- Steam: Steam friend's Steam Level and Playing Time are displayed once again
+
+- Other behind the scenes updates
+
+Version Number: 2.11
+Release Date: 2013-09-19T19:34:46Z
+NOTE: We're aware of an issue, on iOS 7 only, with Steam connectivity where the SteamGuard and CAPTCA dialogs are not working correctly. We're working on a fix and will release an update soon.
+
+- iOS 7 compatibility
+- Fixed an issue where the app didn't update your avatar, even though you successfully uploaded it, until your restarted the app
+- Fixed an issue preventing Find Friends from displaying results
+- Fixed an issue where your avatar in the left slider menu would be sized incorrectly
+- Fixed an issue where game boxarts for Xbox and Steam profiles would be sized incorrectly
+- Various other fixes and updates
+
+Version Number: 2.10
+Release Date: 2013-08-26T18:05:28Z
+- Steam connectivity updates
+- User avatars & game box art are now cached on your device across app restarts, eliminating the need to re-download them again 
+- Several behind the scenes updates addressing performance and compatibility
+
+Version Number: 2.9
+Release Date: 2013-07-24T01:16:12Z
+What's new in 2.9
+
+Follow for all
+
+Forming relationships on Raptr is now easier than ever. We know it was a bit confusing before as to whether you "friended" someone or "followed" them -- so we_re switching over to a follower system. With this update, the iOS app has been updated to reflect the changes on Raptr.com, which in the simplest terms means that there is no longer a "Friend Requests" menu.
+
+You will still get push notifications with new followers, and as always can disable them in your Notifications Preferences.
+
+
+Other changes in this update:
+
+- Some users have two factor authentication enabled on their Xbox account, which we don't support at this time. Instead of simply giving an error previously when you attempt to connect your Xbox account (as if you've entered your login credentials incorrectly), we now detect this condition and alert you to that fact. Don't fret, we hope to support two factor auth in a future update!
+
+Version Number: 2.8
+Release Date: 2013-06-21T18:25:02Z
+- Fixed Inbox crashes 
+- Updates to PSN connectivity
+
+Version Number: 2.7
+Release Date: 2013-06-03T18:39:04Z
+This release contains improvements to those users that connect their Steam account to the app:
+
+- Steam users that are part of the Steam Trading Cards Beta previously couldn't get their friends list to appear in the app, and has now been fixed 
+- Your Steam Rating appears in your profile again
+
+Version Number: 2.6
+Release Date: 2013-05-20T17:06:55Z
+- PSN connectivity is improved
+- PSN online, but not playing, friends have a blue "Online" indicator next to their name now
+- Offline PSN friend's now displays their last visit to PSN
+- various other behind the scenes fixes
+
+NOTE: You might not be able to connect to Steam if you are in the Steam Trading Card Beta. We're addressing it now and the next update should restore Steam connectivity for those affected
+
+Version Number: 2.5
+Release Date: 2013-03-25T17:12:49Z
+_ The app went on a diet and is now 20% smaller
+_ Requires iOS 5.0 or later
+_ Fixed a crash when trying to connect to PSN when PSN is down for maintenance
+_ Fixed a crash when attempting to connect to your Xbox/Steam/PSN account in certain low memory conditions
+_ Your username was displayed at the top of the slider menu, when it was supposed to be your display name, so we fixed that as well
+_ Fixed an issue where you could not bind more than one 3rd-party account when creating a new Raptr account
+_ Various other performance tweaks and fixes
+
+
+Version Number: 2.4
+Release Date: 2013-02-06T20:18:33Z
+_ New push notifications: 1) when a friend joins Raptr and 2) when a friend starts playing a game you've played in the last 72 hours
+
+_ Push notifications display an alert now if you receive one while actively using the app
+
+_ New notification preferences: you can enable or disable specific push notifications to your heart's content
+
+_ Fixes for Steam connectivity
+
+_ Various other behind the scenes bug fixes and performance tweaks
+
+Version Number: 2.3
+Release Date: 2012-11-29T19:41:13Z
+_ Fixed an issue when entering incorrect Steam credentials resulted in a state where the loading indicator never dismisses
+
+_ The left slider menu received a minor UI refresh, which also includes taller menu items for those of us with big fingers
+
+_ Various behind the scenes updates and improvements, in preparation for some new features coming out in the next few releases!
+
+Version Number: 2.2
+Release Date: 2012-10-22T19:50:40Z
+_ Fixed Xbox connectivity issues
+_ Fixed a crash in your Inbox if a message didn't contain a message body
+_ Various visual tweaks
+
+
+Version Number: 2.1
+Release Date: 2012-10-08T20:58:52Z
+_ iPhone 5 & iPod Touch 5G full screen support. Enjoy Raptr in full screen glory.
+
+_ Fixed an issue on the Inbox/Outbox where the pull to refresh functionality disappeared when you viewed a message.
+
+_ Fixed an issue when you return to the app from a suspended to active state, where it would reload the Friends List, Friend Requests, or Inbox, even if those respective views were not the active view.
+
+Note: We're aware of an issue affecting some Xbox logins. An update is in the works to address this issue.
+
+Version Number: 2.0
+Release Date: 2012-09-26T17:47:29Z
+_ We've changed the way you navigate the app, replacing the bottom tab bar menu with a slider menu on the left (click the button in the upper left corner to show/hide it). This will give us room to add more functionally in the future, which you know we're working on!
+
+_ You can now enter manual gameplay hours from within the app. No need to enter it on raptr.com anymore. 
+
+_ Avatars on any profile view can now be tapped to show a larger version.
+
+_ Profile view no longer has excessive empty space at the bottom. Yes, this bugged us, too.
+
+_ Steam user's recently played games: longer game names will size downwards instead of truncating with ellipsis. 
+
+_ We've made some updates to the Steam login as well, resolving login issues for certain users.
+
+_ Really long usernames on the friends list are no longer truncated and sized downwards instead
+
+_ Several behind the scenes updates to optimize memory management and performance.
+
+_ Fixes, tweaks, and flourishes throughout.
+
+_ iOS 6 compatibility. 
+
+_ Full iPhone 5/iPod Touch 5G support coming soon, as we just got our hands on one of these magical unicorn devices.
+
+
+Version Number: 1.3
+Release Date: 2012-07-29T16:18:49Z
+_ fix inability to connect to Xbox Live
+
+Version Number: 1.2
+Release Date: 2012-06-22T22:11:32Z
+What's new in v1.2:
+
+== Finding Friends on Raptr == 
+- Twitter search revamped to now search all of your Twitter "following" list (vs. only the 100 most recent) to see if they are on Raptr
+- You can now search for your Facebook friends on Raptr, too!
+- Fixed an issue when accepting/rejecting a friend request didn't always remove that friend from your list
+
+== Messaging ==
+- Fixed an issue where Xbox messages were no longer appearing in the Inbox
+- Fixed an issue when you signed out of Xbox but Xbox friends still appeared in the compose message recipient picker
+- Fixed an issue where the message body in the compose message view was not scrollable for long messages
+- Now using higher resolution, Retina display-friendly avatars on the message recipient picker
+
+== Xbox ==
+- Xbox friends now display additional info (motto, bio, name, location, reputation, recent activity)
+- Added a confirmation dialog to the "Invite to Raptr" button that appears for Xbox friends, instead of sending the invite on button press
+
+== Steam ==
+- Fixed an issue in the Steam buddy list where game titles with ampersands in them were not formatted correctly
+- Fixed an issue in the Steam recently played games section not having enough vertical scroll space in some instances
+- Your Steam rating now appears in your own profile view if you've connected your Steam account
+
+== Other ==
+- Fixed an issue where you couldn't log in if your password had certain special characters
+- Performance tweaks to Xbox, Steam, and PSN friends to make loading them faster
+- Several other under the hood improvements
+
+Version Number: 1.1.20
+Release Date: 2012-04-26T18:16:48Z
+NOTE: (6/18/2012) We're aware of the Xbox messaging not appearing in your Inbox...a new version has been submitted to Apple & we're just waiting for approval.
+
+- Steam users now can view detailed profile info of their Steam friends
+- Steam users in the main Friends list that are in the "Not Playing" section now show if they are online and, if available, their last time online
+- Higher resolution avatars on the Inbox and Friend Requests views
+
+
+Version Number: 1.1.19
+Release Date: 2012-04-06T00:54:52Z
+- fixed an issue displaying Xbox/Steam/PSN data on the user profile view
+
+The dinos are working hard & we've got more updates in the queue coming soon!
+
+Version Number: 1.1.18
+Release Date: 2012-03-14T20:05:14Z
+- Users that have connected their PSN accounts: you can now view your friend's PSN level & trophies, and if available, when they last logged in to PSN
+- Users that have connected their Steam accounts: you should be able to connect with Steam again
+

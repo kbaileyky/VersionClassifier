@@ -1,0 +1,249 @@
+Totally 27
+
+Version	Release Date
+
+Bug fix releases
+2.0.6	2014-11-05
+2.0.5	2014-11-04
+
+2.0.4	2014-09-06
+2.0.3	2014-08-14
+2.0.2	2014-07-18
+2.0.1	2014-06-21
+
+Major release
+2.0	2014-06-10
+
+2.0b8	2014-05-30
+2.0b7	2014-05-23
+2.0b6	2014-05-16
+2.0b5	2014-05-09
+2.0b4	2014-05-02
+
+2.0b3	2014-04-25
+2.0b2	2014-04-17
+2.0b1	2014-04-11
+2.0a2	2014-04-04
+2.0a1	2014-03-26
+
+1.13.0a10	2014-03-21
+1.13.0a9	2014-02-07
+1.13.0a8	2014-01-24
+1.13.0a7	2013-12-13
+1.13.0a6	2013-11-29
+1.13.0a5	2013-11-08
+1.13.0a4	2013-10-25
+1.13.0a3	2013-09-27
+1.13.0a2	2013-09-13
+1.13.0a1	2013-09-06
+
+Firebug 2.0.6  
+The Firebug team released Firebug 2.0.6. This is a maintenance release fixing one reported issue.
+ 
+Firebug 2.0.6b1 has also been released to update users on AMO beta channel. This version is exactly the same as 2.0.6.
+ 
+Firebug 2.0.6 is compatible with Firefox 30 – 36
+Firebug 2.0.6 fixes 1 issue.
+
+Firebug 2.0.5 	
+The Firebug team released Firebug 2.0.5. This is a maintenance release fixing reported issues and compatibility with new versions of Firefox.
+ 
+Firebug 2.0.5b1 has also been released to update users on AMO beta channel. This version is exactly the same as 2.0.5.
+ 
+Firebug 2.0.5 is compatible with Firefox 30 – 36
+Firebug 2.0.5 fixes 9 issues.
+
+Firebug 2.0.4 2014-09-06
+The Firebug team released Firebug 2.0.4. This is a maintenance release fixing reported issues and compatibility with new versions of Firefox.
+ 
+Firebug 2.0.4b1 has also been releasedF to update users on AMO beta channel. This version is exactly the same as 2.0.4.
+ 
+Firebug 2.0.4 is compatible with Firefox 30 – 35
+Firebug 2.0.4 fixes 6 issues.
+
+Firebug 2.0.3
+The Firebug team released Firebug 2.0.3. This is a maintenance release fixing reported issues as well as updating couple of locales.
+ 
+Firebug 2.0.3b1 has also been released to update users on AMO beta channel. This version is exactly the same as 2.0.3.
+ 
+Firebug 2.0.3 is compatible with Firefox 30 – 32
+Firebug 2.0.3 fixes 15 issues.
+
+Firebug 2.0.2
+The Firebug team released Firebug 2.0.2. This version represents maintenance release fixing some reported issues.
+ 
+Firebug 2.0.2b1 has also been released to update users on AMO beta channel. This version is exactly the same as 2.0.2
+ 
+Firebug 2.0.2 is compatible with Firefox 30 – 32
+Firebug 2.0.2 fixes 8 issues.
+
+Firebug 2.0.1
+The Firebug team released Firebug 2.0.1. This version represents maintenance release fixing some reported bugs and updating several locales.
+ 
+Firebug 2.0.1b1 has also been released to update users on AMO beta channel. This version is exactly the same as 2.0.1
+ 
+Firebug 2.0.1 is compatible with Firefox 30 – 32
+Firebug 2.0.1 fixes 10 issues.
+
+
+Firebug 2.0
+Fresh new Firebug 2 has been released and it’s time to see what new features has been introduced in this version.
+Firebug 2.0 is compatible with Firefox 30 – 32
+Firebug 2.0 beta 8 has also been released to update users on AMO beta channel. This version is exactly the same as 2.0
+let’s see how the current UI looks like. Firebug 2 went through a face lift in this version. World class designers have been working on the new theme and the user interface is now clean and more intuitive.
+The screenshot shows Win OS theme other OSes (Linux and Mac) have own custom theme.
+
+New Features
+Firebug 2 introduces many new features and bug fixes also because we completely removed dependency on the ancient Firefox debugging engine (aka JSD1) and incorporated new debugging engine known as JSD2.
+Syntax Highlighting
+Pretty Print
+DOM Events Inspector
+Searching in the HTML Panel
+Code Auto Completion
+JavaScript Expressions Inspector
+Console Log Grouping
+Inspect JavaScript Function Return Value
+Show/Hide Firebug Panels
+Displaying Original CSS Color Values
+Quickly create new HTML attribute
+Inspect Registered Mutation Observers
+
+Firebug Extensions
+As usual we spent some time testing existing Firebug extensions. Here is a list of those that passed our review and work with Firebug 2.0.
+AMF Explorer AMF Explorer is based on the JSON Explorer and XML Explorer features of Firebug, AMF Explorer allows web developers to view deserialized AMF messages in Firebug’s Net panel.
+Console Export Export data from the Console panel
+CSS Usage See what CSS rules and properties are actually used in your app.
+Firediff Additional insight into the changes that are being made to the components of the page
+FireLogger Logging support for web developers (PHP, Python, ColdFusion) (see also this post)
+FirePath adds a development tool to edit, inspect and generate XPath 1.0 expressions and CSS 3 selectors
+FirePicker Adds color picker to Firebug’s inline CSS editor. (see also this post)
+FireQuery Adds a collection of jQuery-related enhancements to Firebug. Recommended for all jQuery developers. (see also this post)
+FireStorage Plus! Is an extra panel to Firebug for displaying and manipulating the web storage containers such as localStorage and sessionStorage. (see also this post)
+FlashFirebug Debug ANY AS3 SWF files on the web. Edit properties and inspect elements. Redirect SWF output to the extension. Run AS3 code and transform objects on the fly. Access SWF assets with the decompiler. View AMF calls and Shared Objects and much more!
+Illuminations for Developers Takes JavaScript frameworks and makes their internals visible inside Firebug, including views, models, class names, and more.
+Javascript Deminifier Deminify javascript before it is downloaded.
+NetExport NetExport is a Firebug extension that allows exporting data from the Net panel.
+Omnibug Omnibug is a plugin for Firebug to ease developing web metrics implementations. Each outgoing request (sent by the browser) is checked for a pattern; if a match occurs, the URL is displayed in a Firebug panel, and decoded to show the details of the request. In addition, requests can be logged to the filesystem.
+PageSpeed Page Speed is an open-source Firefox/Firebug Add-on. Webmasters and web developers can use Page Speed to evaluate the performance of their web pages and to get suggestions on how to improve them.
+YSlow YSlow analyzes web pages and suggests ways to improve their performance based on a set of rules for high performance web pages. YSlow is also a Firefox add-on integrated with the Firebug web development tool.
+ZikulaBug ZikulaBug is a Firebug extension, which provides a friendly interface for Zikula’s DebugToolbar. It allows to browse Zikula debug data grouped in eight tabs: General, Configuration, SQL, Templates, Function Executions, Log Console, HTTP request and Settings.
+Dojo Firebug Extension Support for Dojo based app debugging.
+Firefinder find HTML elements matching chosen CSS selector(s) or XPath expression quickly.
+Fireflow Provides method call logs in a tree format.
+
+Firebug 2.0 beta 8
+getfirebug.com has Firebug 2.0 beta 8
+Firebug 2.0b8 fixes 13 issues
+Firebug 2.0b8 is compatible with Firefox 30-32
+Beta releases are also uploaded on AMO.
+
+Firebug 2.0 beta 7
+getfirebug.com has Firebug 2.0 beta 7
+Firebug 2.0b7 fixes 8 issues
+Firebug 2.0b7 is compatible with Firefox 30-32
+Beta releases are also uploaded on AMO.
+
+Firebug 2.0 beta 6
+getfirebug.com has Firebug 2.0 beta 6
+Firebug 2.0b6 fixes 6 issues
+Firebug 2.0b6 is compatible with Firefox 30-32
+Beta releases are also uploaded on AMO.
+
+Firebug 2.0 beta 5
+getfirebug.com has Firebug 2.0 beta 5
+Firebug 2.0b5 fixes 7 issues
+Firebug 2.0b5 is compatible with Firefox 30-32
+Beta releases are also uploaded on AMO.
+
+Firebug 2.0 beta 4
+getfirebug.com has Firebug 2.0 beta 4
+Firebug 2.0b4 fixes 12 issues
+Firebug 2.0b4 is compatible with Firefox 30-32
+Beta releases are also uploaded on AMO
+
+Firebug 2.0 beta 3
+getfirebug.com has Firebug 2.0 beta 3
+Firebug 2.0b3 fixes 15 issues
+Firebug 2.0b3 is compatible with Firefox 30-31
+
+Firebug 2.0 beta 2
+getfirebug.com has Firebug 2.0 beta 2
+Firebug 2.0b2 fixes 9 issues
+Firebug 2.0b2 is compatible with Firefox 30-31
+
+Firebug 2.0 beta 1
+getfirebug.com has Firebug 2.0 beta 1
+Firebug 2.0b1 fixes 13 issues
+Firebug 2.0b1 is compatible with Firefox 30-31
+
+
+Firebug 2.0 alpha 2
+getfirebug.com has Firebug 2.0 alpha 2
+Firebug 2.0a2 fixes 20 issues
+Firebug 2.0a2 is compatible with Firefox 30-31
+
+Firebug 2.0 alpha 1
+getfirebug.com has Firebug 2.0 alpha 1
+Firebug 2.0a1 fixes 174 issues
+Firebug 2.0a1 is compatible with Firefox 30-31
+
+Firebug 1.13 alpha 10
+getfirebug.com has Firebug 1.13 alpha 10
+ 
+Firebug 1.13a10 fixes 12 issues
+Firebug 1.13a10 is compatible with Firefox 28-31
+ 
+This version is released mainly for Firefox Nightly users fixing one compatibility issue.
+We have been working hard over last 10 alphas and except of fixing regular issues we have been also adopting the new JavaScript Debugger API in Firefox known as JSD2 (issue 5421 in our issue list).
+ 
+This adoption has been done and our entire test suite composed of about 400 automated tests finally passed and all tests are green (issue 7166). Since we have done a lot of changes and also the Firebug UI went through a great face lift, we are going to call the next version Firebug 2.0 alpha 1! (will be available next week)
+
+Firebug 1.13 alpha 9
+getfirebug.com has Firebug 1.13 alpha 9
+Firebug 1.13a9 fixes 6 issues
+Firebug 1.13a9 is compatible with Firefox 27-30
+
+
+Firebug 1.13 alpha 8
+getfirebug.com has Firebug 1.13 alpha 8
+Firebug 1.13a8 fixes 11 issues
+Firebug 1.13a8 is compatible with Firefox 26-29
+
+Firebug 1.13 alpha 7
+getfirebug.com has Firebug 1.13 alpha 7
+Firebug 1.13a7 fixes 14 issues
+Firebug 1.13a7 is compatible with Firefox 26-29
+
+Firebug 1.13 alpha 6
+getfirebug.com has Firebug 1.13 alpha 6
+Firebug 1.13a6 fixes 8 issues
+Firebug 1.13a6 is compatible with Firefox 25-28
+
+
+Firebug 1.13 alpha 5
+getfirebug.com has Firebug 1.13 alpha 5
+Firebug 1.13a5 fixes 9 issues
+Firebug 1.13a5 is compatible with Firefox 25-28
+
+Firebug 1.13 alpha 4
+getfirebug.com has Firebug 1.13 alpha 4
+Firebug 1.13a4 fixes 10 issues
+Firebug 1.13a4 is compatible with Firefox 24-27
+
+Firebug 1.13 alpha 3
+getfirebug.com has Firebug 1.13 alpha 3
+Firebug 1.13a3 fixes 7 issues
+Firebug 1.13a3 is compatible with Firefox 24-27
+
+Firebug 1.13 alpha 2
+getfirebug.com has Firebug 1.13 alpha 2
+Firebug 1.13a2 fixes 9 issues
+Firebug 1.13a2 is compatible with Firefox 23-26
+
+Firebug 1.13 alpha 1
+getfirebug.com has Firebug 1.13 alpha 1
+Firebug 1.13a1 fixes 31 issues
+Firebug 1.13a1 is compatible with Firefox 23-26
+We are again hardworking on the next great Firebug version for now labeled 1.13. The team focuses on JSD2 adoption and our plan is to have it ready in this new version. We have great roadmap and if successful we want to call it 2.0 eventually.
+Thanks to our awesome team we have already made several new features and improvements in 1.13 (while Firebug 1.12 has been out for couple of weeks only)!
+

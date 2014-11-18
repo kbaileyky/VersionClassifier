@@ -1,0 +1,151 @@
+Totally 8
+
+MakerBot Desktop Releases
+MakerBot Desktop 3.3
+Released 10.29.2014
+Notes
+MakerBot Desktop is now recommended for the following MakerBot devices:
+MakerBot Replicator Z18 3D Printer
+MakerBot Replicator Desktop 3D Printer (Fifth Generation Model)
+MakerBot Replicator Mini Compact 3D Printer
+MakerBot Replicator 2 Desktop 3D Printer
+MakerBot Replicator 2X Experimental 3D Printer
+MakerBot Replicator (Original)​
+ 
+MakerBot Desktop 3.3 is intended for use with Fifth Generation Firmware 1.4. If you are using MakerBot Desktop with a Fifth Generation MakerBot 3D Printer, please update your firmware after installing MakerBot Desktop.
+If you’re using either Mac OS X 10.6 or Windows XP, you should continue to use MakerBot MakerWare. You have the option to download and install it at makerbot.com/desktop.
+If you’re using a MakerBot Digitizer Desktop 3D Scanner, you can use the MakerBot Desktop 3.3 download to download MakerWare for Digitizer.
+Features
+An overhaul of the communications between Fifth Generation printers and MakerBot Desktop
+Faster camera streaming
+A new device preferences dialog for Fifth Generation printers
+Camera streaming over a USB connection
+New Print History tab in the Library
+Automatic unloading of filament after an out of filament error
+The ability to change Smart Extruders during a paused print and resume printing
+Print from file with .makerbot files
+Known Issues
+After a Fifth Generation MakerBot 3D printer is reset to factory settings, users should turn the printer off for 30 seconds before setting up Wi-Fi
+Direct Download links
+Download MakerBot Desktop 3.3 for Mac OS X (Lion / 10.7+)
+Download MakerBot Desktop 3.3 for Windows 8.1 64-bit
+Download MakerBot Desktop 3.3 for Windows 8.1 32-bit
+Download MakerBot Desktop 3.3 for Windows 7/8 64-bit
+Download MakerBot Desktop 3.3 for Windows 7/8 32-bit
+ 
+MakerBot Desktop 3.2.2
+Released 8.14.2014
+Notes
+MakerBot Desktop is now recommended for the following MakerBot devices:
+MakerBot Replicator Z18 3D Printer
+MakerBot Replicator Desktop 3D Printer (Fifth Generation Model)
+MakerBot Replicator Mini Compact 3D Printer
+MakerBot Replicator 2 Desktop 3D Printer
+MakerBot Replicator 2X Experimental 3D Printer
+MakerBot Replicator (Original)​
+ 
+MakerBot Desktop 3.2.2 is intended for use with Fifth Generation Firmware 1.3. If you are using MakerBot Desktop with a Fifth Generation MakerBot 3D Printer, please update your firmware.
+If you’re using either Mac OS X 10.6 or Windows XP, you should continue to use MakerBot MakerWare. You have the option to download and install it at makerbot.com/desktop.
+If you’re using a MakerBot Digitizer Desktop 3D Scanner, you can use the MakerBot Desktop 3.2.2 download to download MakerWare for Digitizer.
+Features
+1. Improved Wi-Fi connectivity
+2. No longer displays disconnected USB printers in the Devices drop-down menu
+3. Only scan for network printers once the network devices dialog is opened
+4. Lay Flat algorithm updates
+5. Wi-Fi setup to the Setup Assistant for MakerBot Replicator Mini Compact 3D Printer added
+6. Option to disable filament jam errors from the device preferences added
+7. Notification for when log exporting is in progress added
+Known Issues
+After a Fifth Generation printer is reset to factory settings, users should power cycle the printer before setting up Wi-Fi
+MakerBot Desktop 3.2.1
+Released 7.17.2014
+Notes
+MakerBot Desktop is now recommended for the following MakerBot devices:
+MakerBot Replicator Z18 3D Printer
+MakerBot Replicator Desktop 3D Printer (Fifth Generation Model)
+MakerBot Replicator Mini Compact 3D Printer
+MakerBot Replicator 2 Desktop 3D Printer
+MakerBot Replicator 2X Experimental 3D Printer
+MakerBot Replicator (Original)​
+ 
+MakerBot Desktop 3.2.1 is intended for use with Fifth Generation Firmware 1.2. For improved experience, please update your firmware.
+If you’re using either Mac OS X 10.6 or Windows XP, you should continue to use MakerBot MakerWare. You have the option to download and install it from this page.
+The MakerBot Desktop 3.2.1 download includes MakerWare for Digitizer.
+Features
+1. Smarter filament unload routine
+2. Ability to take a picture from the print monitor panel
+3. Bug fix for connecting to Fifth Generation Firmware 1.0.4 over a network
+4. Small bug fixes related to the Library
+MakerBot Desktop 3.2
+Released 6.16.2014
+Notes
+At this time, MakerBot Desktop is only recommended for use with the MakerBot Replicator Desktop 3D Printer (Fifth Generation Model), the MakerBot Replicator Mini Compact 3D Printer, and the MakerBot Replicator Z18 3D Printer. For all other MakerBot Desktop 3D Printers, please download MakerBot MakerWare.
+ 
+MakerBot Desktop is a complete solution for discovering, managing, and sharing 3D prints. Continuing, planned enhancements to the app ensure that it will soon be recommended for all MakerBot Replicator 3D Printers as well as the MakerBot Thing-O-Matic.
+Features
+1. Improved memory use in MakerBot Slicer to better handle large prints
+2. Correctly display the MakerBot Replicator Z18 vertical camera in the print monitor panel
+3. Expanded the skybox view for the MakerBot Replicator Z18 build volume
+4. Added control of the MakerBot Replicator Z18 heated build chamber to custom profiles
+5. Removed the button press requirement when printing over a USB connection
+
+Note: MakerBot Desktop 3.2 is intended for use with Fifth Generation Firmware 1.1. Please update your firmware for the best experience.
+
+
+MakerBot Desktop 3.1.1
+Released 6.3.2014
+Notes
+At this time, MakerBot Desktop is only recommended for use with the MakerBot Replicator Desktop 3D Printer (Fifth Generation Model) and the MakerBot Replicator Mini Compact 3D Printer. For all other MakerBot Desktop 3D Printers, please download MakerBot MakerWare.
+ 
+MakerBot Desktop is a complete solution for discovering, managing, and sharing 3D prints. Continuing, planned enhancements to the app ensure that it will soon be recommended for all MakerBot Replicator 3D Printers as well as the MakerBot Thing-O-Matic.
+Features
+Added the option to connect any Fifth Generation MakerBot Replicator 3D printer to a wireless network
+Added MakerBot Replicator Smart Extruder temperature to the print monitor panel
+MakerBot Desktop 3.1
+Released 5.23.2014
+Notes
+At this time, MakerBot Desktop is only recommended for use with the MakerBot Replicator Desktop 3D Printer (Fifth Generation Model) and the MakerBot Replicator Mini Compact 3D Printer. For all other MakerBot Desktop 3D Printers, please download MakerBot MakerWare.
+ 
+MakerBot Desktop is a complete solution for discovering, managing, and sharing 3D prints. Continuing, planned enhancements to the app ensure that it will soon be recommended for all MakerBot Replicator 3D Printers as well as the MakerBot Thing-O-Matic.
+Features
+New MakerBot Replicator Mini Setup Assistant
+New application tutorial
+Improved print settings for Fifth Generation printers
+Improved status reporting in the the print monitor panel
+Added an Export button to the Prepare tab
+Improved error messages
+Added a Learn tab for tips and documentation
+Known Issues
+Linux builds of MakerBot Desktop 3.1 are coming soon.
+MakerBot Desktop 3.0.1
+Released 4.9.2014
+Features
+Users can now change filament or attach a Smart Extruder from the print monitor panel
+The Print and Export dialogs now display slicing progress
+File transfer progress has been added to the Firmware Update dialog
+The IP address of a network-connected Fifth Generation printer is now displayed in the Device Preferences dialog
+Bug fix for background service errors caused by disconnecting from an Ethernet network
+Bug fix for USB-connected printers not connecting automatically
+Small bug fixes related to firmware updating
+Support for Linux (Ubuntu and Fedora)
+Known Issues
+Following a successful firmware update over an Ethernet network, users may have to close and reopen MakerBot Desktop to reconnect to a MakerBot Replicator (Fifth Generation Model).
+
+
+
+
+MakerBot Desktop 3.0
+Released 3.11.2014
+Features
+New Explore, Library, Prepare, and Store views in MakerBot Desktop
+Option to log into a MakerBot account
+Simplified Print dialog
+Connectivity to the Replicator (Fifth Generation Model) via USB and Ethernet
+Ability to create .MakerBot files
+Added new status bar and print monitor panel
+Known Issues
+Linux builds of MakerBot Desktop 3.0 are not available. Please upgrade to MakerBot Desktop 3.0.1.
+USB-connected printers may not connect automatically. In this situation, users should select their printer in the Connected Devices section of the Devices drop-down menu.
+It is not possible to link a MakerBot Library to a Replicator (Fifth Generation Model) over a USB connection. Users should use a network connection to link their MakerBot Library.
+ 
+

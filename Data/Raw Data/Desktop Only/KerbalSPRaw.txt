@@ -1,0 +1,1239 @@
+v0.25
+Released 7th October, 2014.
+Destructible Facilties at KSC
+	•	Crashing into buildings at KSC can now cause them to collapse, which although satisfying, is very counter-productive to the Space Program.
+	•	Destroyed Facilities won't function until repaired, although most facilities can still operate with some degree of damage.
+	•	Repairing broken facilities will cost you in Career Mode.
+	•	Added a new Context Menu to Facilities at KSC which show extra info and to repair when necessary.
+New Explosion Particle and Sound FX
+	•	We've added a huge new set of sounds and effects, which can be seen (and heard) whenever a facility at KSC gets destroyed or repaired.
+	•	Part explosions have also been overhauled for much more violent and better-looking fireworks.
+New Difficulty Options Menu
+	•	A new panel is now available when starting a new game (and also through the in-game settings menu) to allow configuring difficulty settings, like whether or not crews can respawn, whether facilities can be destroyed, and several other parameters.
+Administration Facility
+	•	Added a new facility near the Astronaut Complex, and lets you access the Strategies screen.
+	•	Added a new music track to play in the background of the Admin Facility, called "Stratejazz".
+Strategies
+	•	Managing your Career is greatly expanded with the addition of Strategies. Strategies let you take control over how your Space Program is managed, allowing you to tune it to best fit your own playing style.
+	•	Space Program Department Reps: Meet Mortimer Kerman, your Finances guy, Linus Kerman, Science rep and Wernher's intern (because Wernher is too important to be bothered with these meetings) and Walt Kerman, PR representative who takes his job very literally sometimes, and Gus Kerman, head of Operations, who hopefully cleaned his boots before showing up this time.
+	•	Strategies are of course, completely mod-friendly, and defined through cfg. So are the departments, in fact.
+Crew Transfer
+	•	Kerbals in the same vessel don't need a spacesuit anymore to switch seats. Just click the crew hatch and select Transfer to tell them to go sit somewhere else.
+Spaceplane Parts Overhaul
+	•	We've incorporated many parts fromthe very awesome SpacePlane Plus mod by Chris Thuersam (PorkJet), giving stock spaceplane parts a much needed overhaul.
+	•	Many, many new parts: Wing sections, Control Surfaces, Air Intakes, Fuselage Sections and even Cargo Bays added.
+	•	All parts in the Mk2 set were redesigned to be symmetrical in 3 axes. They also act as lifting surfaces too.
+	•	The Mk1 Cockpit and Mk1 fuselage sets were also overhauled, and we've also added a new Inline intake part.
+	•	Rebuilt all stock vessels using the new parts.
+	•	Obsolete spaceplane parts replaced by new ones when applicable. (Delta wing, Structural wind, Wing Connector, Mk2 fuselages)
+
+KSC Vessel Markers
+	•	You can now see (and focus/recover) vessels landed near the Space Center directly from the Space Center scene. Markers will show their positions and expand to show extra information when clicked.
+NavBall Vectors
+	•	The Navball now shows all 6 vectors when in Orbit mode: Progade, Retrograde, Radial In/Out, Normal and Antinormal.
+	•	Off-screen maneuver vectors now have an arrow which points towards them so they're easier to find.
+New
+Flight
+	•	Added a new stock craft, the Learstar A1: A hybrid multistage vessel that functions very much like the Shuttle did.
+	•	MapView Filtering state is now persistent.
+	•	Added a Full Throttle Key (Z)
+	•	New "Space Center" Button above the altimeter allows you to return to the Space Center without having to go through the Pause Menu.
+	•	Added MonoProp gauge to OMS engines on staging stack
+	•	Added 'Return to Editor' buttons to flight end dialog when Reverting isn't allowed (due to difficulty settings).
+Editors
+	•	VAB and SPH scenes now show visible KSC facilities in their current states (as in destroyed).
+	•	Hold ModKey to override surface attachment in editors (when you want to stack to a node but can't because the part insists on sticking to the surface).
+
+Crew Management
+	•	Automatic Crew Hiring is now disabled depending on difficulty setting.
+Scenery
+	•	Tweaked the main terrain shader to use worldspace triplanar mapping on near detail textures. This means we now have enough texture accuracy to texture small rocks or even blades of grass. This is still an ongoing project though, not all Celestial Bodies use this new shader yet.
+R&D
+	•	Entry Purchases in R&D are now required depending on difficulty mode.
+	•	Added a 'Purchase All' button to purchase all parts after researching a node in R&D.
+	•	Science Results in Sandbox Mode. They may not be worth much Science (or any at all), but running science experiments in Sandbox Mode will now show you the same results as in other game modes.
+	•	Recovering/Transmitting Science Data requires an operational R&D Facility (as in not destroyed).
+Misc
+	•	GameDatabase code tweaked to allow modders to write their own asset loaders.
+	•	Added GameEvents.OnCrewTransferred, fired from CrewTransfer and EVAs leaving and boarding
+	•	Added SCREENSHOT_SUPERSIZE parameter to settings.cfg to allow taking ultra-high-res (multisampled) screenshots.
+	•	Application Launcher added to tracking station (Messages and Contracts App visible).
+
+Bug Fixes and Tweaks
+	•	Fixed a small bug where entering the KSC scene for the first time in a session would cause it to jitter from FP inaccuracy. This fixed itself after going into other scenes, but was annoying nonetheless.
+	•	Tweaked text on Editor Cost Widget, so characters align with the Funds widget below.
+	•	Funds Widget now has commas to separate groups of 3 digits.
+	•	Fixed a bug in the Editor which prevented some parts from attaching properly to n-couplers using symmetry (like the RamJet Turbines)
+	•	Added an "Addons&Mods" button to the Main Menu, that will take you to KSP's official mod site.
+	•	Massive reorganization of the part folders in the GameData directory.
+	•	Inline Reaction wheel rescaled to size 0, since it was redundant with the Advanced Reaction Wheel module before.
+	•	Cupola Part mass changed from 4.5 to 1.76. Total mass (with full monoprop) is now 1.8
+	•	Tweaked the intake area of several intakes for better consistency.
+	•	Fixed Experimental parts not being available in cases where the node was researched but the part itself not purchased.
+	•	Set up a transition matrix system to bypass unnecessary loading screens on some scene transitions.
+	•	Improved number formatting on all Contract values, from "F1" (123456789.0) to "N1" (123,456,789.0)
+	•	Overhauled the in-game settings dialog UI, which was sorely in need of some attention.
+	•	Removed useless 'None' option for Docking Lin/Rot state when assigning a key or axis in the Input Screen.
+	•	Revised and updated in-game and readme credits.
+	•	Fixed mouse detection for KSC facilities not working if camera was zoomed too far out.
+	•	Fixed a bug where crew portraits would draw out of place after switching vessels.
+	•	Fixed a bug which could cause a general game breakdown on rare occasions when vessels planted themselves into the ground.
+	•	Fixed Index Out of Range exception and general crash on moving to flight after deleting a crewed part in a certain way.
+	•	Kerbal recovery reward set to zero for the time being, to stop reputation exploit from recovery at the launchpad.
+	•	Mk2 Cockpit renamed to Mk1 Inline Cockpit (makes a lot more sense, since it was a Mk1 type part anyway).
+	•	Fixed several cases of UIs not stopping mouse clicks on objects behind themselves.
+	•	Fixed a bug on OSX which made it impossible to open the Crew Hatch Dialog and possibly other dialogs too.
+	•	Contracts App panel is now scalable in the VAB/SPH
+	•	Fixed missing title bar on VAB/SPH on larger resolutions
+	•	Fixed a bug with rescaleFactor parameter in part.cfg when a MODEL node was used.
+	•	Fixed scaling issues with OMS Engine.
+	•	Fixed vessel airlocks becoming falsely obstructed sometimes on certain ship design.
+	•	Upgraded all parts using deprecated Winglet subclass to use ModuleLiftingSurface instead.
+	•	Fixed minor visual issue with galaxy backdrop.
+	•	Moved over ion engine and xenon tanks to Propulsion from Utility.
+	•	Fixed Staging input locks not clearing if leaving the Editors while hovering over staging icons. (resulted in total game freeze)
+	•	Improved GUI skin for input page in Game Settings scene.
+	•	Editor sidebar panel transition speed increased.
+	•	Fix a bug that the left-click crew hatch menu doesn't show up on Macs.
+v0.24.2
+Released 25th July, 2014.
+	•	Fixed a critical issue which prevented opening the right-click menus for several parts.
+v0.24.1
+Released 24th July, 2014.
+Bug fixes and tweaks
+Parts
+	•	Fixed a relatively serious issue with module loading which could result in missing modules if loading old craft.
+	•	O-10 MonoPropellant Engine rescaled to proper size (smaller), because the original scale was off.
+	•	Fixed an issue with propellant-defined resource flow modes which prevented some configurations of Vernor Engines from working correctly.
+	•	Fixed an issue with some decoupler modules failing to apply ejection forces when activated.
+	•	Fixed missing FX components on root parts after resuming a saved game or reverting.
+	•	Fixed a potential issue with the internal maths in ModuleRCS, which could result in odd RCS response from center-aligned or stack-mounted RCS modules.
+UI
+	•	Fixed an issue with the App Toolbar where mod apps wouldn't display/hide properly at the VAB.
+	•	Fixed an issue with custom staging icons and switching vessels.
+	•	Fixed an issue where the Messages Dialog in the VAB would drift out of place when discarding many messages.
+Contracts
+	•	Fixed a bug in Rescue Kerbal contracts, where rescue by means of external seats or claws wouldn't complete the contract.
+Tutorials
+	•	Fixed a save-related bug which made the Orbiting 101 tutorial impossible to complete.
+Flight
+	•	Fixed vessels not leaving 'pre-launch' condition during take-off roll.
+	•	Fixed a very annoying and potentially destructive bug where approaching another vessel could mess up the control state.
+Game Balance
+	•	Tweaked costs for several spaceplane and aerodynamic parts:
+	•	Advanced Canard: 900 → 800
+	•	Standard Canard: 1500 → 720
+	•	Delta Wing: 500 → 680
+	•	Swept Wings: 500 → 620
+	•	Wing Connector: 500 → 560
+	•	AV-R8 Winglet: 500 → 640
+	•	Structural Wing: 500 → 540
+	•	Aerodynamic Nose Cone: 680 → 240
+	•	NCS Adapter: 680 → 320
+	•	Protective Rocket Nose Mk7: 1000 → 450
+	•	Standard NC: 680 → 180
+Modding
+	•	Added IPartCostModifier interface, to allow part modules to tweak a part's cost.
+v0.24
+Released 17th July, 2014.
+→ Main article: 0.24
+New
+Currencies
+	•	Added Funds and Reputation as new career mode currencies.
+	•	Funds are required to launch vessels.
+	•	Part costs are now used in career mode.
+	•	Resources like liquid fuel and monopropellant now have costs of their own, which figure into the cost of a launch.
+	•	Tweaking a part's resource sliders in the editors will adjust the cost of the vessel accordingly.
+Mission Control
+	•	The Mission Control facility is now active in career games.
+	•	Mission Control allows the player to select contracts, review them, and either accept or decline them.
+	•	Added Gene Kerman as advisor in the Mission Control screen, ready to give his opinion about what the player's doing.
+	•	The Mission Control screen also features an 'archives' tab, where previously-completed contracts can be reviewed.
+Contracts
+	•	Contracts require to complete objectives, in order to gain Funds, Science and Reputation
+	•	Once accepted, contracts must be completed before the deadline expires.
+	•	Contracts will fail if the deadline expires or if some critical parameter fails (like killing a Kerbal in a mission to rescue him).
+	•	Added procedurally generated 'mission briefings' for contracts, which may even make sense sometimes.
+	•	Contracts come in three levels of Prestige ("Trivial", "Significant" and "Exceptional"). Higher levels offer greater rewards and are usually more ambitious.
+	•	Reputation regulates the amounts of each level of contracts on offer.
+Early 'Starter' Contracts
+	•	First Launch: Launch any vessel.
+	•	Altitude Records: Set a new altitude record.
+	•	Reach Space: Escape Kerbin's atmosphere
+	•	Achieve Orbit: Achieve a stable orbit around Kerbin.
+Dynamically Generated Contracts:
+	•	Part Test: Perform a test of a part in a specific location, situation and within given flight parameters (when applicable).
+	•	Collect Science: Return or transmit any scientific data from a specific location.
+	•	Rescue Kerbal: Rescue a Kerbal who is stuck in orbit.
+	•	Plant Flag: Plant the Agency's flag on the surface of a given location.
+	•	Explore: Complete several exploration goals for an unexplored location.
+Agencies
+
+
+The record seeking Kerbin World-Firsts Record-Keeping Society
+	•	Added Agencies, which offer contracts.
+	•	Each agency has its own personality traits, which affects the generation of the contracts they offer.
+	•	Agency Logos added from the winners of the Community Logo Design Contest.
+	•	Clicking the agency logo in the Mission Control screen will display extra info about the Agency.
+Vessel Recovery
+	•	Recovering vessels now refunds for the value of recovered parts and resources.
+	•	Recovered value varies based on distance from the Space Center. Land at the Runway for 100% value.
+Space Center
+	•	Added a universal time clock to the KSC scene UI.
+	•	Added a Pause Menu to the KSC scene, instead of leaving to the main menu immediately on pressing the Quit button.
+	•	The KSC Pause Menu allows saving and loading with a custom filename.
+UI
+	•	Added new UI Toolbar, which exists in all game scenes and is mod-friendly.
+	•	Added new UI Widget to display state of ongoing Contracts in Flight, KSC and the Construction Facilities.
+	•	Added new UI Widgets to display the current amount of Science, Reputation and Funds.
+	•	Added Messages UI App, shows messages about contracts and such.
+	•	Redesigned the Resources Panel from flight as a toolbar app, overhauled panel graphics.
+	•	Overhauled the old 'Science Summary' dialog into a complete 'Mission Summary', displaying information about recovered Experiments, Parts and Crew.
+Parts
+	•	Added new Vernor Engine, a very powerful RCS module powered by the standard liquid fuel/oxidizer mixture.
+	•	Added new O-10 MonoPropellant Engine, a low-thrust main engine powered by monopropellant.
+	•	Thrust vectoring engines now respond to roll input if they are not along the roll axis. Due to multiple nozzles, S3 KS-25x4 Engine Cluster and R.A.P.I.E.R. Engine always have gimbal roll authority.
+Builds
+	•	Added Windows 64-bit executable.
+Tutorials
+	•	Added several new tutorials.
+Game
+	•	Added 'Science' Game Mode, where Science is the only currency and Mission Control is closed (as in pre-0.24 'Classic' Career).
+Bug fixes and tweaks
+Flight
+	•	Asteroids are now able to collide with other asteroids.
+	•	New launches now start with throttle set to 50%, like in older versions of the game.
+	•	Saving restriction when throttled up removed.
+	•	Timewarp restriction when throttled up removed. Engaging time warp now automatically cuts throttle.
+	•	Improved logic for detecting a vessel in 'orbiting' situations.
+Editors
+	•	Fixed a bug in the editors where dragging a part off the ship and deleting it straight away would not generate an undo state.
+	•	Fixed a bug where ctrl+clicking over a part in the build area would not reveal the part in the parts list.
+	•	Orientation of VAB scenery rotated so spacecraft orientation is consistent at launchpad.
+	•	VAB Flag moved to the opposite wall.
+	•	Redesigned the Parts List UI 'Footer' section where the symmetry and angle snap options reside.
+Tracking Station
+	•	Fixed a bug where map objects were created but never removed, leaving dozens of 'leaked' objects behind.
+Space Center
+	•	Launchpad and Runway Launch Dialogs now show vessel costs.
+	•	Added 'Edit' Button to Launch Dialogs, which takes the player to the VAB or SPH to edit the selected vessel.
+	•	Launch Dialogs and Craft Browser now allow selecting vessels with 'invalid parts' (for editing).
+	•	Added new Pre-Flight Checks to prevent launching vessels containing invalid parts or with costs exceeding available Funds.
+Solar System
+	•	Allegedly Kerbin's solar day instead of sidereal day is changed to be exactly 6 hours long which makes the sidereal day is now 59 seconds shorter. This change can't be confirmed. See #Change of Kerbin's rotation.
+	•	Slight optimization to Kerbin, Mun and Eve surface shaders.
+Parts
+	•	Resource flow mode can now be defined for each propellant on Engine, EngineFX and RCS Modules in the part config.
+	•	Previously useless Engine Nacelle and Radial Engine Body parts have been repurposed as air intake + fuel tank combos.
+	•	Tweaked Costs for almost every part.
+	•	Tweaked Mass for several parts, especially spaceplane fuselage sections and structural components.
+	•	Fixed a potentially gamebreaking issue when activating a Separator if it was the root part of a vessel.
+	•	Fixed a bug where some particle FX (mainly on newer engines) would cause a stream of errors when the vessel was unloaded with the FX active.
+	•	Fixed a bug where StrutConnectors could cause hierarchy issues if linked in certain configurations.
+	•	ModuleRCS can now use multiple resources.
+Tech Tree
+	•	Revised R&D node layout so 'control' type nodes have a more logical progression.
+	•	Moved basic RCS parts to tier 4 (from tier 5).
+	•	Added more connections into aerodynamic parts from other nodes on tiers 5 and 6.
+Progress Tracking
+	•	Fixed an issue introduced in 0.23.5 where unowned vessels could complete progress nodes.
+	•	Fixed AltitudeRecord progress node (now used for contract generation).
+Crews
+	•	Fixed crewmembers not being properly flagged as dead if their vessel was destroyed while unloaded.
+	•	Crewmembers are now keyed by name in the roster, and can properly be added and removed.
+	•	Added reputation reward and penalty for recovering and killing crewmembers.
+	•	Added new unique names for Kerbals, suggested by the Community Logo Design Contest winners.
+Misc
+	•	Fixed issue with persistence when reverting to flight.
+	•	Added rich text support to several UI text fields.
+	•	Fixed several cases of texture point-filtering issues resulting in crooked text.
+	•	Fixed potential crash related to reentry FX on Linux when no depthtexture hardware support is available.
+	•	Overhauled all UI screens and text. All text fields using Arial font now use proper Calibri.
+	•	Exposed Gameplay difficulty options to the ⎇ Alt+F12 Debug Toolbar.
+	•	Updated Credits Scene.
+	•	Fixed permission issues with KSPLauncher which prevented it from properly launching the game on Linux.
+	•	Messages displayed on the upper-right corner in flight are now displayed above the crew portraits instead.
+	•	Removed a 'rogue' tooltip from the Staging Reset button at the VAB and SPH.
+v0.23.5
+Released 1st April, 2014
+New SLS-styled parts
+
+
+The S3 KS-25x4 Engine Cluster becomes the most powerful engine
+Because this version was developed in cooperation with NASA, there are several parts which are similar to the Space Launch System currently being developed by NASA. It also contains the first safety launch escape system and is one safety feature which is usually absent from updates.
+	•	Extra large liquid fuel tanks, in full (Kerbodyne S3-14400 Tank), half (7200) and quarter-height (3600) variants. All of them carry also oxidizer.
+	•	S3 KS-25x4 Engine Cluster, the single most powerful piece of rocketry ever added to KSP.
+	•	Kerbodyne KR-2L Advanced Engine, for when immense amounts of thrust is required.
+	•	LFB KR-1x2, the first liquid fuel booster: A new way to boost spacecraft, the LFB is a single part featuring twin engines, plus a very respectable amount of fuel. What more, more liquid fuel tanks can be stacked on top of it.
+	•	The Launch Escape System: Modeled after the Apollo LES, this new escape tower can save the crew if the rocket does not behave as expected.
+	•	The S1 SRB-KD25k: A SRB that is designed in the style of the SRBs used on the space shuttle and the SLS.
+New part joints
+	•	Large parts feature a new system that allows them to attach much more rigidly to other parts, eliminating many cases where spamming struts was required.
+	•	Increased PhysX's global max angular velocity settings to improve joint stability.
+	•	Angular inertia values for parts now properly scale with mass. Some ships may feel heavier to fly now, but handling feels much more realistic overall. This also improves joint stability a lot.
+	•	Re-did the Strut Connector joints as well, to use the new joints system instead of their old ones. This dramatically improved their reliability and significantly reduced the number of occurrences where ships spontaneously disassemble themselves on the launchpad.
+New features
+
+
+Switching between MET and UT by clicking on MET
+	•	Added filters in the map view to filter unknown and space objects.
+	•	Focusing vessels on the Tracking Station or targeting them in map view will now display their patched conics trajectory, taking encounters with other celestial bodies into account.
+	•	Added time warp controls to the Tracking Station and Space Center scenes.
+	•	The clock can now show the universal time (UT). A button beside the clock allows switching between mission elapsed time (MET) and UT.
+	•	Maneuver nodes are now persistent.
+	•	Targeted objects are now persistent.
+	•	Added buttons to discard/accept maneuvers on the delta-v gauge by the navball.
+	•	Added buttons to add/remove an orbit to the date of a maneuver node, allowing nodes to be planned for several orbits ahead.
+	•	Maneuver handles can now be fine-tweaked with the mousewheel when hovering over them.
+	•	Monopropellant and xenon gas containers on earlier stages are now drained before containers on later stages.
+	•	Celestial bodies now show a 'Focus View' button on their context menus in map view.
+	•	Added named quicksave and quickload with Mod+F5 and Mod+F9. (unannounced)
+Bug fixes and tweaks
+
+
+The docking mode using linear controls. Switching to rotation controls won't toggle SAS anymore
+	•	The part of orbits in other sphere of influences will be shown in local mode when they are focused on the map view or Tracking Station.
+	•	Switching between linear and rotation controls in docking UI mode no longer toggles SAS.
+	•	Fixed a bug where patched conics on extremely eccentric orbits could break the simulation at very high warp speeds.
+	•	Fixed incorrect rendering of ascending and descending nodes when targeting a non-closed orbit.
+	•	Fixed a bug where targeting an object on a hyperbolic orbit wouldn't display rendezvous information on the map.
+	•	Tweaked the thrust and Isp values of the PB-ION Electric Propulsion System, LV-1 Liquid Fuel Engine and LV-1R Liquid Fuel Engine. All were severely underpowered to be of any practical use.
+	•	The mass of the Inline Clamp-O-Tron was increased from 0.125 tons to 1 ton.
+	•	Quicksaving is now allowed at all times. In unstable situations, an autosave won't be created at the same time.
+	•	Greatly improved the accuracy of the physics to rails transition, eliminating drift on nearby vessels when warping during a rendezvous situation, especially high-velocity ones.
+	•	The map filtering buttons now toggle independently on left click, and toggle single/all on right click.
+	•	Fixed several cases where Kerbals on EVA would glitch out in very painful ways, mostly when the game changed reference frames while they were in ragdoll state.
+	•	Intersection nodes between orbits no longer 'skip' the closest intersection when placing a maneuver node near the player's position.
+v0.23
+Released 17th December, 2013
+New features
+
+
+The R.A.P.I.E.R. Engine
+	•	All previous earned science can now be viewed in the Science Archives in the Research and Development facility.
+	•	Mobile Processing Lab MPL-LG-2 is a new part that functions as a portable laboratory and increases transmitted science yield.
+	•	New R.A.P.I.E.R. Engine that relies on intake air while in the atmosphere, and changes fuel to oxidizer when intake air can no longer suffice as a fuel.
+	•	Tweakables are different characteristics that allow changes to how certain parts function.
+	•	Science system has been updated so science cannot be maxed out by transmitting. Transmitting yields a certain amount of science, and bringing the science back to Kerbin for recover yields much more.
+	•	Certain science parts are now single-use, and cannot transmit data more than once, unless the instrument is cleaned with the lab module.
+	•	Science data can be retrieved from an instrument by a kerbal on EVA and stored in a crew pod, like an EVA report or surface sample.
+	•	New biome map for Minmus.
+
+
+New part interface
+	•	New interface to show the properties of the parts in the VAB and Spaceplane Hangar.
+	•	Unity upgrade to version 4.2.2.
+	•	6-DOF (6 Degrees of Freedom) device support for Windows only.
+	•	The EVA jet pack requires the resource EVA propellant instead of a percentage. Originally planned was that the corresponding monopropellant gets deducted when the Kerbal leaves the pod.[1] But the EVA fuel gets replenished either way. That's also the reason why all command pods have now got a small amount of monopropellant on board.
+Bug fixes and tweaks
+	•	The spelling mistakes for the batteries were fixed.
+v0.22
+Released 16th October, 2013
+Career Mode
+	•	Career Mode is now open! Although still very much under development, you can now start new Career saves.
+	•	Sandbox mode, of course, is also available from the start.
+Research and Development
+	•	Added the Research & Development Facility to the Space Center.
+	•	R&D allows players to unlock parts (and later other stuff) by researching nodes on the Tech Tree (In Career Mode).
+Science
+	•	Researching requires Science, which must be earned by performing experiments during your missions.
+	•	You can now collect surface samples while on EVA, and process them to do Science.
+	•	Science experiments return results, which are different for each situation in which the experiment is performed.
+	•	Experiments can (as all proper experiments must) be repeated over many different situations across the whole Solar System.
+	•	Added a new dialog to show the results of experiments when reviewing the collected data.
+	•	Added a new dialog to show a breakdown of all scientific progress made after recovering a mission.
+Parts
+	•	Added new scientific parts, like the Materials Bay and the Mystery Goo™ Canister. Also added experiments to many existing parts.
+	•	The old science sensors now have a purpose. They all have their own experiments which enable them to log scientific data.
+	•	The antennas are now functional, and can be used to transmit science data back to Kerbin, if recovering the physical experiments is not an option.
+	•	Antennas consume massive amounts of power when transmitting. Make sure you have fresh batteries in.
+	•	Added a new deployable antenna, which is an intermediate model compared to the two original ones.
+	•	Completely remodelled the Communotron 88-88 Comms Dish. The new mesh uses the same placement rules so it won't break ships that have it.
+	•	Nose Cones now actually help with improving stability during atmospheric flight.
+	•	Revised a lot of part values and descriptions, in preparation for them actually meaning something in the near future.
+	•	Overhauled the landing legs and gears, they now have proper shock-absorbing suspensions.
+Editor
+	•	Added a system to allow saving and loading of Sub-Assemblies.
+	•	Subassemblies are subsets of spacecraft, which can later be attached to other designs and re-used.
+Space Center
+	•	The KSC Facilities have all been revised, and feature new ground meshes and many other graphical improvements.
+	•	Greatly improved the Island Airfield.
+	•	Added lighting FX to several facilities. The Runway (among many other things) is now properly lit at night.
+	•	Added a new backdrop and soundtrack for the Astronaut Complex Facility.
+	•	Added a new music track for the R&D Facility.
+Flight
+	•	It is now possible to recover a flight after landing/splashdown on Kerbin without going through the Tracking Station. Look above the Altimeter.
+	•	The SAS system was again largely overhauled, based on all the feedback we've gotten from everyone. It's now more stable than ever.
+Solar System
+	•	Celestial Bodies now support Biome Maps, which are used to create different conditions for experiments.
+	•	Biomes are currently implemented on Kerbin and on the Mun, more will be added on later updates.
+Launcher
+	•	We've got a new launcher application for KSP, featuring a news bulletin, patcher management, and also allows you to tweak settings from outside the game.
+v0.21.1
+Released 24th July, 2013
+Forum post link
+Bug Fixes and Tweaks:
+	•	Removed some unused assets from KSP/Parts.
+	•	Fixed an issue with some scenery meshes that could cause bits of the UI to become unresponsive in some cases (mainly in the VAB and SPH).
+	•	Tweaked some object scales slightly.
+	•	Tweaked the ocean color at sea level on Kerbin (was way too dark).
+	•	Fixed an issue that would cause lag while moving parts around the editor scenes if too many crews were hired at the same time.
+	•	Fixed an issue with the new SAS not properly maintaining attitude. Should be much better now.
+	•	Tweaked some parameters on the SAS to make it more responsive.
+v0.21
+Released 24th July, 2013
+Forum post link
+New:
+	•	The Space Center scene now uses the same terrain as in flight.
+	•	Time now passes in the Space Center scene, and day/night is consistent with in-flight.
+	•	The game terrain persists across scene transitions, making loading scenes much faster.
+	•	Completely overhauled the interior models for the VAB and SPH buildings, complete with animated trucks and cargo lifts.
+	•	All-new exterior models for the VAB, SPH and Tracking Station.
+	•	New Astronaut Complex building.
+	•	Added a description field where you can write up a few lines to describe your space-faring contraptions.
+	•	It is now possible to assign crew manually to missions before launch, both from the Construction Facilities and from Launch Sites.
+	•	Added completely new Launch Dialogs on the Runway and Launchpad at the Space center.
+	•	The new Astronaut Complex dialog allows you to hire crews from a list of Applicants, and view the status of all your crewmembers.
+	•	Revised the crew handling game logic, for a much more reliable and robust system.
+	•	Rewrote the SAS control logic from the ground up.
+	•	SAS is now enabled for the entire vessel, and requires actuators like winglets, RCS or others to actually have an effect.
+	•	Repurposed the old SAS modules are now Reaction Wheel Modules, that apply torque while consuming electricity.
+	•	The new SAS logic allows applying manual input while SAS is on, letting you set the ship's attitude without having to constantly toggle it.
+	•	Added a new module to generate craters procedurally on the Mun.
+	•	Largely revised Kerbin's terrain to produce much more interesting mountains, hills, valleys and coastlines.
+	•	Removed the physically-impossible "End Flight" button.
+	•	Added new options to "Revert" a mission back to launch or to construction.
+	•	Added new 'Recover' button on the Tracking Station, to allow recovering a vessel (as opposed to Terminating it) when possible.
+	•	Recovering vessels makes its crew available again, while Terminating kills them.
+	•	The 'Space Center' button now allows you to leave flight at any time, warning when necessary about saving restrictions.
+	•	The game now tracks your progress as you play, providing essential data for the upcoming Career Mode features.
+	•	Progress data is (optionally) uploaded to our servers,
+	•	Improved the in-game shadowing to enable shadows at much larger distances.
+	•	Added several new parts from the KSPX pack as stock content.
+Bug Fixes and Tweaks
+	•	Scenario Modules now properly save and load when the rest of the game saves and loads.
+	•	Scenario Modules can now have multiple target scenes set.
+	•	Improved the internal logic for switching to nearby vessels, it shouldn't refuse to switch with valid vessels nearby anymore.
+	•	Added a system to attempt upgrading incompatible save files if/when possible.
+	•	Tweaked PQS on other planets and moons to not initialize until approached. Improved performance a bit.
+	•	Added a new system on PQS to clamp terrain subdivision while moving very fast. Orbiting low near the surface is a lot smoother now.
+	•	Many more small tweaks and improvements.
+v0.20.2
+Released 30th May, 2013
+Forum post link
+Bug Fixes and Tweaks
+	•	Tweaked the PNG and JPG texture loaders to not use such insane amounts of memory.
+	•	Fixed the issues with mousewheel input on Linux.
+v0.20.1
+Released 29th May, 2013
+Forum post link
+Bug Fixes and Tweaks
+	•	Tweaked the logic for part-to-part collisions. Things should be much less likely to explode on contact.
+	•	Reverted the Mun's height values, so landmarks and bases shouldn't spawn below ground anymore (mind 20.0 saves though).
+	•	Tweaked part components on EVA so they start up with the right values.
+	•	Tweaked the suspension on the new Medium Rover Wheels, to fix jittering.
+	•	Fixed the too-low resolution on planetary diffuse and normal maps.
+	•	Fixed the screen resolution not being properly applied on game start.
+	•	Fixed some situations where the 'Control From Here' selection would be lost on resuming a game save.
+	•	Fixed a serious issue with the Cupola Pod that could cause spontaneous unplanned vessel disassembly.
+	•	Fixed an issue that caused internal spaces to spawn in duplicate sometimes. It was harmless but wasted resources.
+	•	Fixed the scale of Gilly in the Tracking Station scene.
+	•	Fixed a few issues with flags behaving weirdly after they were toppled down.
+	•	Fixed the camera jitter when walking around on EVA.
+v0.20
+Released 21st May, 2013
+Forum post link
+New:
+	•	Command Seat part for Kerbals on EVA.
+	•	Cupola pod with IVA.
+	•	Small Lander pod with IVA.
+	•	2 new Probe Cores.
+	•	Large Docking Clamp.
+	•	New Medium Wheel.
+	•	Kerbals on EVA can now plant Flags on terrain. Planting a Flag allows you to name the site, which becomes a focus-able object in flight and on the Tracking Station. Planted flags have a Plaque, which can be written during placement, and read only when approached by an EVA.
+	•	Several Stock flags to choose from. Flags are moddable. Create your own!
+	•	Added a Flag selector to the Game Start Dialog.
+	•	Added a Flag Pole Facility to the Space Center.
+	•	Added a FlagDecal part module. Allows any part to have a part of its model textured with the selected flag.
+	•	Added Flag selector to Editor scenes, to select a flag for the mission (defaults to space program flag).
+	•	The Editor no longer requires that the first part on a vessel be a Command Pod. Any part which allows both stacking and surface-attaching can be used as the vessel root.
+	•	Added a new part filtering system to the parts list, which allows excluding and greying-out parts based on any criteria.
+	•	It is now possible to delete the first part on a vessel, and replace it.
+	•	Added the first iteration of the Kerbal Knowledge Base: A collection of vessel and planetary information on the Map and Tracking Station. The Knowledge Base shows information about known Celestial Bodies, displays the crews inside vessels, and much more.
+	•	Added Filtering by vessel type on the Tracking Station.
+	•	Added Filtering to the Map View as well (hover around the top-center of the screen)
+	•	New Loading Screens, with hints.
+	•	Mods and Stock Parts can now have their own separate folders for organization.
+	•	Added a Flags folder to collect flag bitmaps.
+Bug Fixes and Tweaks
+	•	GameDatabase: Completely overhauled the loading process with a completely new system.
+	•	Added a scene transition buffer system, to ensure optimal memory cleanup when switching scenes.
+	•	Switching vessels no longer resets throttle and other input whenever possible.
+	•	Going on EVA and boarding a vessel (or boarding a seat) also no longer reset the vessel's input state.
+	•	Decoupled vessels inherit the old vessel's control state.
+	•	All parts on a stage will get activated now, even if that stage causes some of those parts to get jettisoned away.
+	•	Streamlined PQS Terrain Assets, reduced memory usage by up to 30%.
+	•	Upgraded Debug Menu, allows reloading parts and cfg files while playing.
+	•	The Map View now properly prioritizes selecting moused-over map nodes when multiple orbits overlap.
+	•	It's now possible to 'pin' the Ap and Pe nodes, so their captions remain visible after moving the mouse away.
+	•	Removed the Splash Screen scene. Now the game starts loading as soon as the application starts.
+	•	Rewrote and organized many scattered game events into a single coherent GameEvents System, which plugins can use.
+	•	If you crash/explode, focus now shifts to the nearest controllable vessel (if any) instead of going straight to the End Flight dialog.
+	•	Many more small bug fixes and tweaks.
+	•	Decoupled vessels now properly inherit the action group state of the original vessel.
+	•	"Root-dropping" decoupling now properly preserves the staging count for the new decoupled vessel.
+	•	Fixed the EVA flags looking weird during the initial part of the flag-plant animation.
+	•	Fixed staging icons on decoupled parts not being removed from the staging list.
+	•	Fixed the suspension jitter on the Medium Wheels.
+	•	Several improvements to how collisions are detected and handled in the editors.
+	•	Symmetrical counterparts now properly glow red or green based on whether they can attach or not.
+	•	Added a sound for when placing/releasing parts in the editor isn't possible.
+	•	Added the flag pole to the editor scene background.
+	•	Adjusted collision and torque values for the medium wheels so they're a bit faster and tougher.
+	•	Adjusted wheel breaking logic to take into account the relative velocities of rigidbodies.
+v0.19.1
+Released 18th March, 2013
+Forum post link
+(Most 0.19.0 mods should be compatible with this release)
+Bug Fixes and Tweaks
+	•	Fixed re-entry shader failing on highly scaled parts
+	•	Corrected an issue that would prevent large rover wheels from applying brakes
+	•	Tweaked braking speed and power on rover wheels
+	•	Adjusted how rover wheels display resource usage
+	•	Changed Ladders on the launchpad ladders to make it easier to climb them.
+	•	Changed the names of launchpad and runway objects to be more descriptive when you crash into them.
+v0.19.0
+Released 16th March, 2013
+Forum post link
+New:
+	•	A Native Linux version!
+	•	Added visual (and sound) effects for re-entry and supersonic flight.
+	•	Overhauled the Kerbal Face Expression System with new animations, which are also visible on EVA.
+	•	Added wheel parts and modules for the construction of rovers.
+	•	Added several new general purpose structural parts.
+	•	New mesh for the launch pad area, now with 100% less launch tower.
+	•	New mesh for the Runway, with sloping edges to drive on and off it.
+
+Bug Fixes:
+	•	The sun no longer shines from below on ships and scenery objects at night, or while in orbit over the dark side of a planet.
+	•	Fixed the airspeed sound not looping properly, and adjusted the pitch range for it.
+	•	Various minor balance tweaks.
+	•	More texture variety added to probe cores, to better determine their positioning.
+	•	Fixed a few objects that were on the wrong layer.
+	•	Fixed an issue when comparing versions, which could result in false 'incompatible' warnings.
+	•	Fixed an issue with velocity changes when resuming 1x time while on a hyperbolic orbit inside a rotating reference frame.
+	•	Changed the debug toolbar key combo to ModifierKey+F12 (by default Shift+F12 for Linux, Alt+F12 for windows)
+	•	Changed the quick scenario loader key combo to ModifierKey+F10 (was Ctrl+F10 before)
+	•	Removed an unused shader that caused the game to crash on Linux systems with AMD video drivers.
+	•	The Alt modifier key is now remappable, and defaults to RightShift on Linux.
+	•	Remapped all ocurrences of the Alt key to RightShift on Linux (as Alt is OS-reserved on most distros).
+	•	Fixed double-clicks not working properly.
+	•	Added a setting to tweak the mouse wheel axis scaling.
+	•	Input Axes now support linear scaling.
+	•	The Debug console can now also be toggled using the Grave and AltGr keys
+v0.18.4
+Released 14th February, 2013
+New:
+	•	Ported the game over to Unity 4. Expect improved performance.
+	•	Added a new stock spaceplane: The Ravenspear Mk4.
+Bugfixes and Tweaks:
+	•	Fixed some buttons not being locked out properly on the Tracking Station and possibly other scenes.
+	•	The Staging Stack now automatically scrolls back into view if a staging operation sends it off screen.
+	•	Stage groups and icons now accurately follow the mouse when dragging.
+	•	Fixed some UI controls and keys being responsive during pause.
+	•	Fixed some sounds (mainly voices) being affected by 3D effects when they shouldn't.
+	•	Fixed an issue when going in and out of Map View after crashing the ship.
+	•	Fixed the EVA map icons not showing.
+	•	Fixed the planetary terrain not starting up properly sometimes.
+	•	Fixed the error messages when exiting the game from the flight scene.
+	•	Added a bad name filter for the Kerbal name generator.
+	•	Fixed issues with the popup dialogs that allowed them to spawn a massive number of duplicates.
+	•	Parts on the parts list no longer show the author on their tooltips (that broke immersion).
+	•	Flight basics tutorial now requires player to set throttle to max before finishing the tutorial (and launching).
+	•	fixed the non-persistent StateName field on MunFlight Tutorial.
+	•	Fixed an issue where controls could become locked when switching focus out of a dead uncontrollable vessel.
+	•	Fixed a collision issue with the large RCS Tank.
+	•	Fixed a transparency issue with smoke FX and explosions.
+	•	Boarding a vessel from EVA no longer toggles the SAS on the vessel.
+	•	The VAB and SPH now show decoupler ejection forces on the part stats.
+	•	Removed a part that wasn't ready and had sneaked its way into the build.
+	•	Fixed a few typos on part descriptions and tutorials.
+	•	Increased Jool's rotating frame threshold altitude to prevent entering its atmosphere with the rotating frame disabled.
+	•	Fixed an issue with the UI background not scaling correctly on the SPH.
+	•	Fixed winglet colliders.
+	•	Fixed EVA light orientations.
+	•	Updated Copyright dates.
+	•	Fixed vab transparency issue.
+	•	Fixed Explosion Shader Transparency issues.
+	•	Fixed Part Actions being clickable if Time Warp was engaged while the Action UI was already up.
+	•	Fixed the latest version checking.
+	•	Fixed some places that were using an old and inaccurate value for the vessel's G-force, preventing entering warp sometimes.
+	•	Fixed an issue which caused DAE model loading to fail.
+v0.18.3 (Demo)
+Released 12th February, 2013
+New:
+	•	Ported the game over to Unity 4. Expect improved performance.
+	•	Added an exit splash screen.
+Bugfixes and Tweaks:
+	•	Parts on the parts list no longer show the author on their tooltips (that broke immersion).
+	•	Flight basics tutorial now requires player to set throttle to max before finishing the tutorial (and launching).
+	•	fixed the non-persistent StateName field on MunFlight Tutorial.
+	•	Fixed the planetary terrain not starting up properly sometimes.
+	•	Fixed the error messages when exiting the game from the flight scene.
+	•	Added a bad name filter for the Kerbal name generator.
+	•	Disabled multiple demo warnings and timewarp notices.
+	•	Fixed vab transparency issue.
+	•	Stopped plugin folders from being created.
+	•	Fixed several spelling and grammatical errors.
+	•	Removed Debug logging for interia tensors.
+	•	Fixed winglet colliders.
+	•	Fixed EVA light orientations.
+	•	Updated Copyright dates.
+	•	Fixed Explosion Shader Transparency issues.
+	•	Disabled the debug toolbar.
+	•	Fixed an issue when going in and out of Map View after crashing the ship.
+	•	Fixed more ocurrences [sic] of the terrain not loading properly when entering flight.
+	•	Fixed some UI controls and keys being responsive during pause.
+	•	Rescaled the exit screen to fit 5:4 aspect ratios.
+	•	Fixed some more ocurrences [sic] of the terrain failing to load issue.
+	•	The Staging Stack now automatically scrolls back into view if a staging operation sends it off screen.
+	•	Stage groups and icons now accurately follow the mouse when dragging.
+	•	Fixed the MunFlight Tutorial not allowing use of the Map.
+	•	Boarding a vessel from EVA no longer toggles the vessel's SAS state.
+	•	The VAB and SPH now show decoupler ejection forces on the part stats.
+	•	Fixed Part Actions being clickable if Time Warp was engaged while the Action UI was already up.
+Demo Restrictions and changes:
+	•	Part loading limited to the 25 stock ones.
+	•	No Plugin loading.
+	•	SPH and Runway Facilities are unnaccessible.
+	•	Only one save profile allowed.
+	•	Cannot launch new flights if 3 or more are already in progress.
+	•	Kerbin, the Mun and the Sun are the only celestial bodies in the solar system.
+	•	Replaced the Spaceport button on the main menu with a button to order the full version.
+	•	Revised tutorials and scenarios to be compatible with the demo set of parts.
+	•	Removed the Station One and Mun Orbit scenarios as those require parts from the full version.
+v0.18.2
+Released 20th December, 2012
+New:
+	•	Training: Added a Basic Flight Tutorial, and a Basic Vessel Construction Tutorial.
+	•	Solar System: Added a new icy planet called Eeloo, somewhere out past Jool.
+	•	Scenarios: Added a scenario called Station One, where a refueling station is already in orbit.
+	•	UI: Added a button to open the SpacePort site on the Main Menu (opens on the default browser)
+	•	Music: Added two new tracks for space and another one for construction.
+Bugfixes and Tweaks:
+	•	Graphics: 800x600 is no longer a valid resolution option. Minimum possible resolution is now 960x720.
+	•	Docking: Fixed ejected debris being incorrectly typed as "Unknown".
+	•	UI: Fixed an issue where the "Resume Saved" dialog wouldn't show if a save folder was missing its persistent.sfs file.
+	•	UI: The "Resume Saved" and Craft Load dialogs now offer to clean up incompatible files if any are detected.
+	•	UI: Incompatible/Invalid entries on those dialogs are now greyed out, and the reason why they can't be loaded is displayed.
+	•	UI: Fixed an issue with popup dialogs cutting out content (text and buttons) when multiple dialogs were spawned at once.
+	•	UI: The Resources panel is now visible while in the Map View.
+	•	Decouplers now break the connection at a specific node, instead of breaking the connection to the parent part. This enables choosing which side will remain attached.
+	•	Physicsless parts now get "promoted" to physical ones if they become the root of a vessel (by decoupling)
+	•	Persistence: Vessel rotation is now stored relative to the universe, instead of in worldspace. This fixes vessels having seemingly random rotations upon resuming a save.
+	•	Parts: Fixed an issue with the engine fairings which caused engines to lose mass on save/load cycles.
+	•	Parts: RCS thrusters no longer try (and fail) to do lever arm compensation.
+	•	Music: Fixed an issue where some tracks were subject to doppler effects in flight.
+	•	Solar System: Pol's gravity increased slightly
+	•	Solar System: Bop and Pol's semi-major axes increased (Bop's SOI almost intersected Tylo's)
+	•	Gameplay: Fixed an issue where crashing a ship wouldn't properly remove the root part and cause weird "physics" sometimes.
+	•	Gameplay: Fixed an issue with renaming vessels from symmetrically-placed command pods.
+	•	Maneuver Nodes: Fixed a small but annoying issue where maneuver gizmos would switch modes when rotating the camera just after creating a maneuver.
+	•	Training: Fixed Gene Kerman introducing himself as Wernher von Kerman on the Orbit 101 tutorial.
+	•	Parts: Fixed an issue where the root part of a vessel would live on in a weird state after crashing.
+	•	Docking: Fixed an issue where docking ports wouldn't resume their fuel crossfeed properly sometimes.
+	•	Controls: Added input locks to action groups and part context UIs, so they lock when appropriate.
+	•	UI: Part Resource Context Gauges now correctly go away when the corresponding part gets detached from the current ship.
+	•	Parts: Fixed an issue that could cause RCS thrusters to fly off on their own because of numerical spikes.
+	•	Parts: Landing gear now remember to set the brakes when resuming flight.
+	•	Gameplay: Added a rule to prevent saving the game or switching vessels while the current one is throttled up.
+	•	Gameplay: Unrestricted vessel switching is now only allowed if the vessel to be focused is loaded and unpacked.
+	•	Tutorials: Fixed the Construction Tutorial erroring out with an "incompatible" sfs when launching after completing the tutorial.
+	•	Tutorials: Tutorial Scenarios now delete the instructor objects when the ScenarioModule is destroyed.
+	•	Tutorials: The Construction Tutorial now allows launching the constructed vessel, and going back to edit it later.
+	•	Controls: Action groups are now locked when in map view, to prevent accidental activation without being able to see the ship.
+	•	Controls: Map View won't lock RCS off anymore when the navball is up.
+	•	UI: Added some sanity checking to text fields (vessel names and saves), so illegal characters don't cause trouble.
+v0.18.1
+Released 3rd December, 2012
+Bugfixes and Tweaks:
+	•	Fixed an issue which could cause an error when undocking if the undocked vessel was missing its original root part.
+	•	Fixed the vessel snapping when docking, which could cause misaligned docking connections sometimes.
+	•	Fixed an issue where docking to docked vessels could cause trouble when undocking again in a different order.
+	•	Fixed manually-defined vessel types getting lost after docking.
+	•	Fixed a misspelled parameter on the smallRadialEngine cfg
+	•	Fixed an issue with the solar panels exposure detection maths.
+	•	Fixed a case where RCS could become activated by ASAS during time warp and eat all propellant
+	•	Adjusted Solar Panel raycasting to prevent false positives on planetary occlusion
+	•	Gimbal module now displays vectoring information in the VAB
+	•	Adjusted initialization of the gimbal module for better mod support
+	•	Gimbals now have an optional movement speed parameter
+	•	Changed Airflow Display during timewarp on the intakes
+	•	Gave Launch Pad Clamps power, so probes don't die waiting for a launch window.
+v0.18.0
+Released 1st December, 2012
+New:
+	•	Docking: Connecting vessels together is now possible! Build space stations, surface bases, or assemble huge spacecraft in orbit.
+	•	Flight Planning: Getting to other planets and moons just got a lot simpler. Place maneuvers along your orbit to create a flight plan, and then just follow the guidance cues. No need to figure out angles or hold a protractor to the screen!
+	•	Improved Map UI: New map icons show close approaches, intersections with other orbits, and a lot more, so you can focus on getting where you want to go, instead of worrying about how to get there.
+	•	New Vessel Types and Vessel Renaming: Building a station? You can now rename and set your vessel as one of several new types, so it'll show on the map with the appropriate icon and name.
+	•	Automatic Fairings: Rockets now look like proper rockets! Several parts now have automatic fairings that pop up whenever something is stacked below them, and then jettison away during flight.
+	•	Much Improved Models and Textures: Many of the old parts have been completely redone, with carefully constructed meshes and hand painted textures, to give KSP a new look.
+	•	A slew of new part types: Solar Panels, Docking ports, Batteries, Trusses, Ion Engines, Lights, Side-Mounted Parachutes, Crew Cabins, new Science Parts, and a heap more!
+	•	Unmanned Probes: New unmanned pods for building probes and unmanned missions, plus a huge amount of new probe parts.
+	•	Action Groups: A new way to control your ships! Instead of having everything done through staging, you can assign parts to groups that are controlled with a keypress. Set up Abort systems, or rig up complex contraptions. Or just let the game handle it automatically.
+	•	New Input Modes: No need to have two hands on the keyboard and a third one on the mouse anymore. New input modes make for much more ergonomic controls, and it's all remappable!
+	•	Two new celestial bodies: New places to explore, with interesting and varied terrain.
+	•	New Resources System: Watching fuel drain has never been so much fun! New resources allow for completely new possibilities. Energy, Fuel, Oxidizer and other resources now flow through your ship. Manage them as you fly, and pump them across parts.
+	•	Electricity: More power to the Kerbals! Many new functional electrical parts added, like Solar Panels, Batteries, and even a Nuclear Reactor!
+	•	Lights: Landing on the nightside just got a lot less deadly, with new landing and floodlight parts.
+	•	Functional Air Intakes: Turbines now properly require air to run, and Intakes can provide it for them, as long as there is an atmosphere around you.
+	•	Music: KSP now has its own soundtrack, featuring many cool tracks, from smooth jazzy tunes to build ships by, to wondrous spacy themes as you explore the solar system.
+	•	Much improved planets: Kerbin looks a lot better now, with hand-built terrain features. Moho and Eve also got major overhauls, and many others have also been improved.
+	•	Performance Tweaks: New terrain optimizations and a system to prevent lag by slowing the simulation make for a significant improvement in performance.
+v0.17.1
+Released 30th Oct, 2012
+New:
+	•	New option on the settings file to enable verbose debug logging, to include a call stack trace (when available)
+	•	Added a slider in Game Settings to allow adjusting the UI size.
+	•	Added Main Menu and Credits music.
+	•	The Q and E keys can now be used to control yaw with the EVA Jetpack
+	•	The flight UI now scales dynamically depending on screen resolution, to always have the same pixel size.
+Bug Fixes and Tweaks:
+	•	Fixed an issue where the menu ambience music would sometimes start playing on other scenes after some time had elapsed.
+	•	Overhauled the Debug Console. Entries are now labeled and colored according to type and the text is selectable.
+	•	Fixed the crewmember name textfields on the flight UI not scaling font size properly.
+	•	Fixed the terrain collision detection issues for Gilly and Bop.
+	•	Tweaked the terrain preset settings and PQS subvision methods for a significant reduction in object count.
+	•	PQS terrain quads are now positioned as closely as possible to their vertices, for maximum mesh stability.
+	•	Added a game setting to disable the automatic orientation when pressing any of the WSAD keys while jetpacking on EVA.
+	•	Fixed an issue with the terrain engine that resulted in invisible oceans.
+	•	Fixed a small bug on the patched conics maths that could have caused some trouble.
+	•	Fixed the misaligned Music and Voice Volume sliders on the Audio Settings Screen.
+	•	Added a Render Quality slider to the video settings screen.
+	•	Fixed an issue where ships could break apart when changing warp rates too quickly (the "Space Cthulhu" bug)
+	•	Fixed an issue with the VAB/SPH UI, that made it possible to launch without a ship, causing a total game crash.
+	•	Removed an unused asset from the tracking station scene, which was taking up memory without adding anything.
+	•	Fixed a problem that could cause parachutes to despawn when travelling at high speeds.
+v0.17
+Released 19th Sept, 2012
+New:
+	•	Internal Cockpit Views: The first iteration of the IVAs (Intra-Vehicular Activities) feature set.
+	•	Multiple Player Saves: You can now have multiple ongoing game sessions, as each save is kept in its own folder (instead of all using the saves/default one).
+	•	Quick Flight Scenarios: Start flights from pre-set conditions, without interfering with your persistent sandbox save, and also save your own scenarios from your main game.
+	•	Scenario Logic Modules: Like PartModules, but for scene logic (and defined on an SFS file instead of a part.cfg).
+	•	Training Scenarios: Hands-On tutorials to teach you everything from craft construction to orbital maneuvers.
+	•	Center of mass, thrust, lift and drag visual cues on the construction scenes.
+	•	Prebuilt ships included with the game, as examples and possible starting points.
+	•	Many new planets and moons throughout the Kerbal Solar System.
+	•	Physical Timewarp Modes: An alternate time-warp mode where you can accelerate time to 2x, 3x and 4x without putting the sim on rails.
+	•	Several new parts
+	•	Added new tree and boulder meshes for Kerbin (No more paper cutout trees)
+	•	Pressing backspace will now reset the map and internal view.
+	•	Middle mouse modifies the internal camera zoom by an additional 2x.
+	•	Double clicking middle mouse will reset the internal camera zoom.
+	•	Unlit/Transparent shader added to mu reader/writer.
+	•	Added Nuclear-Thermal Engine part
+	•	Added focusable areas for internal views
+	•	Added Settings for Music and Voice Volume
+	•	Double-tapping the wheel brakes key will now set parking brakes.
+Bug Fixes and Tweaks:
+	•	Fixed an issue with numerical inaccuracy at very high velocities (the "Space Kraken" bug).
+	•	Fixed several issues with the fuel flow logic.
+	•	Tweaked the atmosphere rendering for Kerbin, for improved visuals.
+	•	Ships saved by one player are private to that player. Ships on the KSP/Ships folders are common to all players and non-overwritable (from inside the game)
+	•	Added a button on game loading dialog, to delete a saved game and all its contents (prompts for confirmation).
+	•	Added a button on the ship loading dialog to delete saved ships (prompts for confirmation).
+	•	Added a button on the Tracking Station to terminate an ongong flight (prompts for confirmation).
+	•	Implemented dynamic walk cycle blending for EVA Kerbals under G levels between 0.17 and 1G
+	•	Added a floating origin system to the Scaled Space subscene, eliminating the visual jittering when viewing distant objects in the map view.
+	•	Revised part titles and descriptions for the parts added in 0.16
+	•	Fixed an issue with the terrain altitude detection, which could cause vessels (mostly debris) to fall through terrain.
+	•	Fixed an issue where flying through a Mun arch would destroy the vessel.
+	•	Fixed an issue with the G force calculation for vessels, which could prevent saving or warping.
+	•	Fixed several issues with the orbit math while on solar escape trajectories.
+	•	Fixed an issue with Krakensbane that could cause sub-optimal Kraken-banishment.
+	•	Smoke trails are now properly updated in moving reference frames.
+	•	Added smoothing to altimeter.
+	•	Fixed an issue with part initialization order which could cause a lot of trouble with physics and joints.
+	•	Fixed a bug with crossing SOIs at 1x warp.
+	•	Found and worked around a unity bug which caused several issues with parts colliding within the same vessel, and getting twitched out of place.
+	•	Fixed issues with the landing gear (will still need a rewrite, but should be better now)
+	•	Fix for advanced canard inversion of movement.
+	•	The Map Camera no longer rotates when in a rotating reference frame.
+	•	The ship cache is now properly cleared when starting a new game.
+	•	The Simulate In Background setting no longer requires a game restart to take effect.
+	•	The orbit trajectory reframing maths are all done with double-precision now, to remove jitter from the orbit splines.
+	•	Fuel tank parts no longer look into parent parts for fuel, unless connected to them by a fuel line.
+	•	Rewrote the LandingGear part as a PartModule, for a much more robust and stable implementation.
+	•	Tweaked the friction values for the landing gear wheels
+	•	Fixed an issue in Vessel that could cause a stream of nullref errors
+	•	Fixed an issue with Vessels not properly updating the positions of physicsless parts.
+v0.16
+Released 20th July, 2012
+New:
+	•	Kerbal crewmembers in Extra-Vehicular Activities, both at the surface and in orbit.
+	•	Kerbal scientists, mechanics and ground crew all around the Space Center Facilities.
+	•	New Internal Cockpit models, with full modding support.
+	•	New (Much lighter on performance) Particle Effects and Explosions
+	•	Several new, larger rocket parts.
+	•	Added a Launch Clamp part. It holds the ship in place at the pad so it doesn't crumble to pieces before you get a chance to launch.
+Bug Fixes and Tweaks:
+	•	Set all parts on the same vessel to ignore collisions with each other. Hopefully this will solve all part-to-part collision problems.
+	•	Reduced the minimum collider intersection threshold to much less than before. Should increase collision accuracy and hopefully solve issues like landing gear going through the ground. (all thanks to above fix)
+	•	[API Change] MemoryStream wrappers that were mistakenly not committed for 1.15.1 have been added to the code.
+	•	Packing/Unpacking ships is now done without affecting the ship's scene hierarchy. Now, vessels take care of keeping their own parts in place while packed, making for much more stable physics behavior when going in and out of time warp.
+	•	Improved vessel/part loading from persistence procedure, for more stable and accurate flight resuming.
+	•	Fixed a bug in the Tracking Station scene, which prevented scrolling the vessel list.
+	•	The Vessel Switching keys now only cycle between nearby vessels and won't cause the scene to reload anymore. To switch to far-away vessels, you must use the map view.
+	•	Added key and axis bindings for EVA controls. Reorganized the Input Settings screen a little.
+	•	Added separate control bindings for walking and jetpacking on EVAs.
+	•	Added 1:1 EVA rotation axes. Using them disables the automatic orientation system.
+	•	Fixed RCS and SAS toggling on other vessels.
+	•	Vessels take collision impact momentum into account whenever possible
+	•	Fixed a problem where vessels would be stuck as 'Landed' if boarding a part while in contact with another.
+	•	Fixed issues with the large Landing Leg colliders.
+	•	Added patcher auto-updater. Will redownload the patcher if a better version is available.
+	•	Tweaked Physics settings to reduce landed part wobble.
+	•	It is now possible to close the Flight End screen without leaving the flight scene (to switch vessels).
+	•	Tweaked part collision handling for better efficiency.
+	•	Landing Legs now use a much improved collision handling system, eliminating leg wobble on heavy ships.
+	•	PartTools can now serialize WheelCollider components.
+	•	Improved detection/response to vessels below terrain and much better terrain altitude detection for vessels.
+	•	It is no longer possible to save the game (or switch vessels) while very close to the ground and not landed (could cause terrain fallthrough).
+	•	Fixed the crew capacity values on the part.cfg files.
+	•	Fixed the Orbit initialization routine, to prevent NaN errors on landed craft
+	•	Fixed parts that use the Part class having a "Part Type not available" message on their descriptions at the VAB.
+	•	mbm texture files are now DXT compressed and cleared from RAM as soon as they're uploaded to the GPU. RAM usage is massively improved.
+	•	Fixed some issues with the patched conic solver not finding proper SOI transitions sometimes.
+v0.15.2
+Released 1st June, 2012
+Bug Fixes and Tweaks:
+	•	Fixed an issue with part-to-part collisions that caused unphysical forces and caused some designs to break apart.
+v0.15.1
+Released 31st May, 2012
+Bug Fixes and Tweaks:
+	•	Fixed a couple of issues with the parts action UI popups and their code bindings.
+	•	Tweaked the time warp altitude limits. It is now possible to warp fast at low orbits around Minmus and the Mun.
+	•	Tweaked the rotating reference frame thresholds when nearing planets, to reduce terrain mesh jitter.
+	•	Fixed the 'Sierpinski' Terrain' issue, where the terrain mesh would break up when approaching a planet after travelling very far.
+	•	Fixed an issue with the patched conic solver failing on some escape trajectories.
+	•	Fixed the normal maps on several parts.
+	•	It is now possible to set the persistent debris budget to zero, to disable saving debris completely.
+v0.15
+Released 17th May, 2012
+Announcement is final post on original development blog
+New:
+	•	The Spaceplane Hangar Facility, allows you to build vehicles horizontally, and launch them from a Runway
+	•	The Runway Facility, to launch from and land your spaceplanes at.
+	•	A new Part Creation Toolset, allowing for animated models, with normal and emmissive maps.
+	•	A deployable Landing Gear part
+	•	A new AtmosphericEngine part type, and two new air-breathing engines.
+	•	A Patched Conics trajectory projection system, shows your map trajectory as it enters and leaves the SOI of planets and moons.
+	•	Parts now can have a context menu where you can view data and perform actions. (Atmo engines already implement this)
+	•	Parts now visually display their temperatures through a dynamic emmissive heat map.
+	•	It is now possible to manually rotate parts on the VAB and Spaceplane Hangar prior to placement (using the WSADQE keys, Shift, Space to Reset)
+	•	It is now possible to trim the roll, pitch and yaw inputs by holding Alt and pressing the roll, pitch and yaw keys (Alt+X to reset).
+	•	Added a small, far-flung second moon around Kerbin, called Minmus.
+Bug Fixes and Tweaks:
+	•	Fixed a security flaw with the updater tool.
+	•	The flight log will no longer show the terrain tile IDs when crashing things into them. It will show the correct "crashed into terrain" message.
+	•	Corrected the level of the ocean quadtree, so that it matches visually with the simulated water level.
+	•	(Possibly) increased performance on the flight scenes (from the terrain tweak also)
+	•	Found and fixed the true cause of the orbit NaN bug. (see last note on this page)
+	•	Corrected the aileron action on ControlSurface parts. Now aileron input is determined based on part orientation instead of symmetry counterparts.
+	•	Fixed an issue with joystick throttle when focusing/unfocusing the game.
+	•	Fixed a problem with fuel lines and struts becoming attached to non-existent parts when reloaded.
+	•	Fixed the behaviour of the Alt key when Alt-Tabbing out of the game.
+	•	It is no longer possible to enter time warp or save the game if the ship is landed or splashed, but still moving.
+	•	Several improvements to the scene lighting in the Spaceplane Hangar and Vehicle Assembly Building.
+	•	Fixed Fuel Lines and Struts not reconnecting once reattached to the ship at the VAB and SPH
+	•	Improved the part dragging on the editor scenes
+	•	After a crash, the end flight dialog will only come up by clicking the left mouse button, hitting Esc or the Space Bar
+v0.14.4
+Released 3rd April, 2012
+New:
+	•	Added Shader Model 2 fallback shaders for the terrain. Doesn't look as pretty, but solves the black terrain issue on SM2 video cards.
+	•	Exposed terrain parameters on the Video Settings screen (Now called Graphics Settings).
+	•	Option to force using SM2 shaders even on SM3 compatible hardware.
+Bug Fixes:
+	•	Sometimes vessels could still be seen as being under acceleration and not get saved. This is fixed now.
+	•	Tweaked the terrain system to use less memory.
+	•	Updated Kerbin's diffuse map, to remove the blue on the ice caps on map view and tracking station.
+	•	Launching the updater with the game in fullscreen mode will no longer cause the updater to crash.
+	•	The game will no longer launch the patcher if the latest update is available only as a full download. It will open the KSP Store instead.
+	•	Changed the default game settings so terrain scatter is off by default
+v0.14.3
+Bug Fixes:
+	•	Fixed an issue with prevented unfocused ships from being saved.
+	•	Removed the KSC on the Mun (don't ask).
+	•	Tweaked the altitude of KSC to better match the terrain level.
+	•	Tweaked Kerbin landclasses to raise ocean and remove the blue from the ice caps.
+	•	Fixed the Sun flare not getting obscured by planets on the Tracking Station view.
+v0.14.2
+Released 27th March, 2012
+New:
+	•	Created a proper icon for the game.
+	•	A completely overhauled terrain engine
+Bug Fixes:
+	•	Fixed the patcher launching any executable after it's done patching. Now it launches KSP.exe always.
+	•	Fixed a potential security issue with the patcher authentication.
+	•	The patcher will no longer spam console windows while doing its thing.
+	•	Rotated the Mun back to it's original orientation (a fix on the 14.1 left it facing the other way).
+	•	Improved the terrain correction system for landed vessels. It now compensates for terrain slope errors.
+	•	The Map and Tracking Station cameras now respond to the camera control input axes.
+	•	Fixed an issue with symmetrical parts not clearing references to decoupled counterparts.
+	•	Fixed an issue with the patcher not being able to login using passwords containing special characters.
+v0.14.1
+Bug Fixes:
+	•	Found and fixed the real cause of the staging issues that have plagued every release from 13.2 onward.
+	•	The debug console is no longer spammed with NaN errors. This could cause extreme lag in densely populated game worlds.
+	•	Fixed an issue where unloaded vessels would not update their orbits, causing them to resume incorrectly if they switched SOIs.
+	•	Fixed the save folder paths on the Mac version (they were ending up inside the app package)
+	•	It is now possible to do a Quickload (F9) after a crash (with the flight end screen up).
+	•	The game will no longer overwrite the quicksave when resuming flights. Only when creating new ones.
+	•	Landed vessels no longer explode when approached by the player (as when landing near other landed ships)
+	•	Fixed an issue with landing detection when landed on other vessels.
+
+v0.14.0
+Released 3rd March, 2012
+New:
+	•	Flights are regularly saved to file, to be resumed later. (yes, persistence )
+	•	Support for multiple simultaneous flights and switching from ship to ship.
+	•	The Tracking Station Facility at the Space Center, allows you to select and resume a flight in progress.
+	•	Holding the middle mouse button will allow you to rotate the flight camera about itself, instead of rotating its pivot. (double-clicking the MMB will recenter it)
+	•	Tweaked the orbit rendering on the Map View to reduce clutter when several icons are moused over at the same time.
+	•	Landed or Splashed vessels now display their coordinates (or location, if available) when moused over on the Map View.
+	•	More Crew Members so you can launch missions while others are underway.
+	•	An External Module Loader, which enables mod makers to program their own part modules.
+	•	Added small fuel tank and small engine parts
+	•	Added Landing Gear
+	•	Added a more efficient input lock for when vessels are in physics-hold mode, to prevent staging during that period.
+	•	Made the Langing Gear action a mappable key.
+Bug Fixes:
+	•	The flight camera is no longer able to go upside down.
+	•	The ORBITAL camera mode will no longer change orientations when switching spheres of influence.
+	•	Fixed an issue with .craft file saving and loading, which makes it possible to save ship titles independently of the file name.
+	•	Un-warping a landed ship will no longer cause an unphysical jerk on it, which could possibly destroy it.
+	•	Landed/Splashed vessels no longer show an Apoapsis icon on the Map View.
+	•	The Map Camera now responds to the keyboard bindings for camera zoom.
+	•	Decouplers now obey the second law of physics (Acceleration = Force/Mass)
+	•	Decouplers now obey the third law of physics (every action has an equal and opposite reaction).
+	•	RCS Fuel Tanks now drain symmetrically if placed using symmetry.
+	•	Fixed the flight scene time step being incorrectly initialized as 0.04ms (would cause wobbly physics).
+	•	Fixed a problem with the Plugins folder in the Mac version, which caused the game to halt when loading.
+	•	Fixed an issue that caused incorrect staging when loading ships in the flight scene.
+	•	Reloaded parts were not storing references to their symmetry counterparts properly. That caused all sorts of weird behaviour.
+	•	Fixed Fuel tanks apparently not resuming fuel levels properly (was an icon issue).
+	•	Fixed the VAB tutorial never being shown after the first time, even when activated in the settings.
+	•	Fixed the tutorial window disappearing behind the command pod selection window.
+	•	Changed the ground detection system to a far more stable hold-and-release method.
+	•	Fixed yet another staging issue.
+	•	Fixed a game flow issue in which it was possible to cancel the flight end screen, leading to an error and leaving the game stuck in the flight scene.
+	•	Fixed the End Flight screen lockup issue after KIA.
+	•	Fixed the Alt+Tab locking staging issue. (was a poorly thought out control I had set up, which was removed)
+v0.13.3 (Demo)
+Released 3rd March, 2012
+New on 0.13.3:
+	•	A Stats Tracking System, so we can collect information of the game for statistical purposes.
+Bug Fixes:
+	•	Fixed a bug with symmetry in the VAB.
+	•	Fixed an issue with the main camera that would create sporadic moments of lag in map view.
+	•	Fixed a bug that caused symmetrical parts to lose the reference to one of their counterparts, leading to incorrect symmetrical placements.
+	•	Reverted the Staging logic to the 13.1 system, as the changes made in 13.2 were buggy.
+Note: 0.13.3 is an additional free version with bug fixes.
+v0.13.2
+Released 26th January 2012
+Bug Fixes:
+	•	Fixed a bug with symmetry in the VAB.
+	•	Fixed an issue with the main camera that would create sporadic moments of lag in map view.
+	•	Fixed a bug that caused symmetrical parts to lose the reference to one of their counterparts, leading to incorrect symmetrical placements.
+Note : As of the 26th of January 2012, v0.13.2 is the final free version.
+v0.13.1
+Released 11th January, 2012
+New on 0.13.1:
+	•	Recompiled on the latest version of the Unity engine, to add multithreaded rendering support and better memory management.
+	•	Changed the Fuel Line flow direction, so fuel will flow from the first-placed end of the line to the second end.
+	•	Holding Ctrl and clicking on a part on the ship at the VAB will now automatically flip the parts list to the selected part's page.
+	•	Added in-game credits.
+Bug Fixes:
+	•	Fixed the custom part sounds loading system, which wasn't working on the last release.
+	•	The part loader will no longer freeze if it cannot find a part module to load. It will load the base Part module, and make it visible but unavailable on the VAB.
+	•	Removed parent-wise fuel crossfeed from Radial Decouplers. Fuel Lines made that obsolete.
+	•	Fixed an issue that prevented attachment nodes from affecting connected part rotations properly.
+	•	Fixed an issue with the part loader, which would crash if a binary mesh was found, but no .dae or .obj file was present.
+v0.13
+Released 16th December, 2011
+Optimizations:
+	•	Removed a lot of needless halts on the part processing routine during loading.
+	•	Restructured the sound loading system so the main loading thread doesn't wait for it to finish before moving on.
+	•	Deferred adding of several part components so they're only added when they're needed.
+	•	Mesh tangents can now be loaded from file, instead of being recalculated every time.
+	•	The mesh loader now ignores materials from file, because they were going to be replaced anyway later.
+	•	Meshes are now saved to binary files (serialized) when loaded for the first time, and loaded from those files when they're available.
+	•	Changed the rendering method for the part icons on the staging sequence. This can prevent thousands of objects from being created when flying large ships.
+	•	Ship parts now have adjustable levels of physics, so small parts are not as deeply simulated as large ones. This reduces the amount of physics objects and joints to simulate.
+	•	Reduced the amount of code components attached to each part, making for less calls on each frame.
+	•	Tweaked the part heat exchange model, for a considerable fps boost with very large ships.
+New on 0.13:
+	•	The part loader will check if the saved optimized meshes are out-of-date, and update them when necessary.
+	•	A new Fuel Line part, that allows fuel to be drained off external (side-mounted) tanks.
+	•	It is now possible to warp time freely when the ship is landed.
+	•	Added a progress bar for the loading screen.
+	•	Pressing F2 will hide the UI completely (so you can take UI-free screenshots).
+	•	Added a new icon for the Fuel Line parts.
+	•	Changed the icon grouping rule on RCS Blocks and Strut Connectors to group to all parts of the same type on it's stage.
+
+Bug Fixes:
+	•	Fixed the mission timer not getting started if the first stage was moved before launching.
+	•	Liquid Fuel now flows from the top attachment node, instead of from the parent part (unless there is no top node, in which case it flows from the parent part).
+	•	Parts now keep the references to the part attached in each attachment node. (makes top-node based fuel flow possible)
+	•	Fixed a bug which prevented the ship selection dialogs from receiving double-click events. Now it is possible to select a ship file by double clicking on it.
+	•	Improved rendering of hyperbolic (escape) orbits in the map view. The trajectory is now a constant size regardless of eccentricity, and isn't warped by the splines.
+	•	The Map camera will now remember it's last position, and return to it when the map is reopened.
+	•	Fixed a problem that made it possible to delete the command pod in the VAB by using Ctrl+Z.
+	•	Increased the heat conductivity and heat dissipation values for all parts, to compensate for the new heat exchange system.
+	•	Exposed a 'thrustVector' cfg parameter for Liquid Engines. This allows you to set the 'default' thrust direction for an engine, same as with SRBs
+v0.12
+Released 11th November, 2011
+New on 0.12:
+	•	A Moon
+	•	New Orbital Camera Mode. Like Free Mode, but aligned to the solar system plane, like the Map View Camera is.
+	•	New Auto Camera Mode. Chooses between the other modes based on the state of the flight.
+	•	Liquid Engines now support thrust vectoring (gimballing).
+	•	New LV-T45 Vectoring-Enabled Liquid Engine.
+	•	The VAB will now allow you to select a Command Module before starting a new ship.
+	•	Planets and Moons now rotate.
+
+Bug Fixes:
+	•	Improved the way velocities are applied when resuming physics.
+	•	Fixed the Advanced SAS icon showing as a question mark on the VAB.
+	•	Fixed a bug where cloning parts by removing and undoing would cause them to receive duplicate IDs (and crash the game when loading the ship again).
+	•	Tidied up the flight statistics numbers formatting a bit, so they're easier to make sense of.
+	•	Time Warp will now smoothly increase/decrease towards the set time rate, for a much more fluid transition.
+	•	Made several improvements to the Map View orbit rendering.
+	•	Fixed the rails-&amp;amp;gt;physics transition, so that there is no significant change anymore in orbital parameters when going out of warp.
+	•	Made some significant improvements to the physical joints that hold the ship together. Ships will not wobble anymore when going back into 1x time after warping, and the joints themselves are more stable overall.
+	•	Made a small tweak to the part tooltips on the VAB, to prevent them from going off-screen on small resolutions. (was noticeable with the new command pod selection dialog)
+v0.11.1
+Released 13th October, 2011
+Bug Fixes:
+	•	A pausing glitch that would happen every time the menu was selected.
+v0.11
+Released 12th October, 2011
+New on 0.11:
+	•	Overhauled Space Center terrain area in both flight and space center scenes.
+	•	Integrated Orbital Analysis/Propagation system.
+	•	In-Flight Time Compression.
+	•	Orbital "Map" View.
+	•	Orbit Display.
+	•	Improved Space Skybox Background.
+	•	Better Launchpad area textures.
+	•	RCS (Reaction Control System) Module Part.
+	•	Added an 'RCS Toggle' key (Default 'R'), to toggle the RCS on and off.
+	•	Changed the useless Overthrottle LED for an RCS LED, which indicates if the RCS is enabled.
+	•	Advanced SAS Module Part: Uses input-enabled parts (like winglets and RCS) to stabilize flight, but applies no forces of its own.
+	•	Splash-down effects, sounds and a basic buoyancy simulation.
+	•	New "Atmosphere" Gauge in the UI, indicates how deep the ship is in the planet's atmosphere.
+	•	The Orbit system can now track and propagate hyperbolic (escape) trajectories.
+	•	Parts can now cast shadows on themselves.
+Bug Fixes:
+	•	Added a simple but hopefully effective stall simulation for winglets and control surfaces.
+	•	Made a few optimizations to runtime loaded textures. Now they're compressed to DXT5 and support mipmaps.
+	•	The MET display will now start counting on liftoff instead of on flight start.
+	•	Tuned the terrain system a bit, to improve visual quality at high altitudes.
+	•	Greatly improved the input lock system. Now, components that lock game controls won't override locks placed by other components.
+	•	Improved the flight camera code. On Chase mode the camera will not spin around at the poles anymore, and both modes are more stable overall.
+	•	Optimized the terrain system rendering, and got a nice boost in performance during flight.
+v0.10.1
+Released 13th September 2011
+Bug Fixes.
+	•	Eliminated the sharp atmospheric cutoff at 34,500m. Now there is atmosphere up to around 68,000m.
+	•	Improved the drag calculations.
+	•	Created a new ControlSurface module to replace the problematic Stabilizer module. The Stabilizer is now deprecated.
+	•	Changed the folder structure on the Mac version, so it is the same as the PC version.
+	•	Removed the sensitivity/deadzone reset when reassigning joystick axes in the input settings.
+v0.10
+Released 6th September, 2011
+New on 0.10:
+	•	Completely overhauled procedural terrain system. Much more reliable and stable.[1]
+	•	The whole planet can now detect collisions, so ejected parts can now land safely.
+	•	The terrain mesh is far more stable, shorelines and mountains no longer wobble.
+	•	The new terrain system is completely translation and rotation-safe. It can be moved dynamically without breaking visually.
+	•	An Orbital analysis and propagation system, allowing for a complete planetary simulation, among many other possibilities, is ready for implementation.
+	•	Terrain quads are now queued for subdivision, to improve performance
+	•	The terrain system now allows for a secondary target object, so both the ship and the camera can subdivide the terrain.
+	•	Mini settings screen for in-game tweaks.
+	•	New (much better) shader for water.
+	•	The R8 Winglet now responds to input, and can be used as an elevator, canard, aileron, rudder, or any combination.
+	•	It is now possible to crank anti-aliasing up to 8x.
+	•	Joystick Support.
+	•	A working Mac OSX version!
+Bug Fixes:
+	•	Hi-subdivision tiles now have mesh colliders, which means the far side of the planet is no longer an insta-death trap.
+	•	Fixed the textures stretching near the terminator
+	•	The camera will no longer go through the ground.
+	•	The terrain collision mesh now perfectly matches the visual terrain.
+	•	Fixed a problem with the atmosphere, where it would fade in and out at specific points in orbit.
+	•	Fixed a few problems with some game settings not being correctly applied on game start.
+	•	Fixed a problem with the volume settings where explosions would sometimes sound out even with volume at 0%
+	•	Added a basic compatibility/integrity check on loading ships. If it fails, the ship won't load but the game won't crash.
+v0.9
+Released 12th August, 2011
+New on 0.9:
+	•	Stages are now persistent when manually edited.
+	•	Stages are now stored in relative values. This means they're now smarter
+	•	Parts can now specify their preferred relative stage though the cfg
+	•	Editing the staging sequence now creates Undo states.
+	•	The Debug Console can now be opened in the loading screen to debug load problems
+	•	Stages can now be manually created and, when empty, deleted
+	•	Stages are now represented as groups with parts inside them, instead of just separated by indicators
+	•	The staging stack now scrolls manually using the mousewheel (when mouseing over it)
+	•	Icons in the staging stack can now be multiple selected and moved as a group
+	•	Whole stages can now be dragged and repositioned
+	•	Stages can now be reset manually through a reset button
+	•	Empty stages delete themselves in flight
+	•	Active parts in previous stages move up to the current stage.
+	•	Parts on the VAB list will now display their stats when hovered over.
+	•	The tooltip for parts in the VAB will no longer go lower than the screen
+	•	Holding shift while selecting a part in the VAB will now select the pod so the whole ship can be moved
+	•	Parts now have an ActivatesEvenIfDisconnected parameter on the cfg to allow them to be activated after jettisoning
+	•	The VS Gauge now uses a log scale, to allow greater precision with small values
+	•	The Strut Connector. A compound part to create physical linkages between any 2 parts
+	•	Parachutes now have a 'useAGL' parameter. If that's enabled, it will deploy when it reaches deploy altitude from ground level
+	•	Symmetrically placed Icons are grouped into a single icon
+	•	Input Mapping screen
+	•	Video settings screen
+	•	Audio settings screen
+
+Bug Fixes:
+	•	Fixed a bug that caused parts to activate out of sequence sometimes.
+	•	The scroll wheel is no longer read if the application is unfocused.
+	•	Staging lock is now preserved if the application is unfocused and refocused.
+	•	Fixed the MET clock, which would loop back to 00:00:00 when a mission went on for longer than 24 hours (I'm amazed someone found it )
+	•	Changed the debug console key to Alt + the key left of 1. It would interfere with the throttle controls in flight.
+	•	Fixed parachutes not deploying if not set to the last stage. (they can still deploy when jettisoned)
+	•	Fixed a silent error when parts set an explosion potential higher than 1.0
+	•	Eliminated the jitter on the VS gauge
+	•	Changed the physical attachments between parts again, so the stack is less wobbly overall
+	•	Fixed the bug that caused the crewmember name tags to drift out of the screen
+v0.8.5
+Released 18th July, 2011
+New on 0.8.5:
+	•	Added copying of parts (and sets of parts) by holding Alt while clicking on them.
+	•	Replaced tricoupler textures and UV mapping (UV map by Dippeggs)
+	•	Parachutes can now deploy automatically if jettisoned along with other parts (allowing for parts to be safely landed)
+	•	Stage decouplers can now share fuel across stages.
+	•	Added Keys to control the camera in the VAB (+/- for zooming, pgup/pgdown for scrolling)
+	•	Added Keys to control the camera in flight (+/- for zooming)
+	•	Added some sound effects for the parachute opening
+	•	Added cfg-definable parameter for parachute autodeployment delay
+	•	Added a debugging console to the game (can be toggled with Ctrl+Alt+Shift+C)
+	•	Right-clicking the Symmetry Button will now step the symmetry mode back.
+	•	It is no longer possible to select a part of the ship while the mouse is over any interface items.
+	•	Added toggle key to switch between precision or instant input modes (Caps Lock)
+	•	Pitch, Yaw and Roll gauges change color to indicate mode (orange for instant, cyan for precision)
+	•	Exposed Kd, Ki and Kp parameters for tuning the SAS and CommandPod modules
+Bug Fixes:
+	•	Fixed the staging lock LED not turning purple after launch
+	•	Icons no longer show a transparent border floating around then mousing over disconnected parts.
+	•	Fixed a bug where deleting a symmetrical part would sometimes leave it's counterparts floating around.
+	•	Fixed a bug where creating a new stage with a decoupler and then removing it would generate errors.
+	•	Fixed most sound volume decay over distance problems.
+	•	Fixed a bug that caused a massive performance drop when fuel tanks emptied (fuel tank switch lag bug)
+	•	The Flight camera will now remain always centered on the ship's center of mass.
+	•	The Screenshot function will now create a Screenshots directory if one isn't found.
+	•	The altimeter will now go past 999,999K correctly (it will move up to 1000M, then 1000G, 1000T and so on)
+	•	Fixed a bug that could cause large ships to explode at 5,000m altitude.
+v0.8.4
+Released July 14th, 2011
+Bug Fixes:
+	•	Fixed a small but incredibly disruptive bug which prevented engines from being connected to fuel tanks
+v0.8.3
+Released 14 th July, 2011
+New on 0.8.3:
+	•	Added key to lock staging, to prevent accidental jettisoning (remember to set it off later). Set to Alt+L
+	•	Added a tooltip for the Symmetry Button
+Bug Fixes:
+	•	Fixed A TON of bugs with the symmetry and ship construction in general. Game is stable again.
+	•	Fixed a bug where parts would lose staging info and revert to default when returning from flight to the VAB. (the staging reset bug)
+	•	Fixed a glitch introduced in 0.8.3 RC1 that allowed parts to be attached to frozen parts.
+
+v0.8.2
+Released 13 th July, 2011
+This version is a hotfix for a couple of ugly bugs found with the 0.8.1 release.
+Note: The 0.8.1 release introduced a few changes to the .craft file format, so it is possible that ships created with versions prior to 0.8.1 might not be compatible with the new version.
+Bug Fixes:
+	•	Fixed a serious bug where swapping about symmetrical parts would crash the game
+	•	Pod cannot be dropped if an Escape Tower (PunchOut addon) is attached
+
+v0.8.1
+Released 13th July, 2011
+New on 0.8.1:
+	•	Added options to use Angle Snapping when placing surface-aligned parts.
+	•	Symmetrical placement mode in the VAB.
+	•	It's now possible to set aside a part of group of parts. This enables adding parts in between others without deleting half the ship.
+	•	Sound Normalizer, keeps the volume balanced even with 50+ boosters firing
+	•	Added framerate cap to keep GPUs from screaming on light scenes. (configurable through the settings.cfg file)
+	•	Deleting a part now requires clicking the parts list. This prevents accidental deletion. (Or you can also press 'Delete)
+	•	Fuel can now flow through Strut parts like the tricoupler
+Bug Fixes:
+	•	Fixed bug where starting a new ship with a loaded multi-stage ship would create empty stages
+	•	Smoke trail effects now fade away when nearing the edge of the atmosphere
+	•	Fixed SkySphere culling issues at large distances
+	•	Added cfg parameter to enforce a symmetry mode when stacking (like 3 under the tricoupler)
+	•	Updated editor tutorial to reflect the changes in this update
+
+v0.8
+Released July 7th, 2011
+New on 0.8:
+	•	Saving and Loading buttons in the interface, as well as a ship loading dialog for picking new ships.
+	•	Ship name field in the editor, allows saving ships with any filename.
+	•	Screenshot button to capture the screen to file.
+	•	functioning MET indicator in the flight UI
+	•	Pages in the VAB part list, whenever the parts exceed the size of the list.
+	•	New skins for the UI windows that pop up. (like the flight results dialog)
+	•	A new splash screen before the main menu enters.
+	•	SAS toggle with 'T' key
+	•	Option to Simulate in Background in the settings.cfg file
+	•	Undo/Redo actions in the VAB, by Ctrl+Z and Ctrl+Y
+	•	Fuel tanks are now stackable to increase fuel amount (and weight )
+	•	On-screen text popup to let you know the current camera mode
+	•	Cfg interpreter can now parse 2D, 3D, and 4D Vectors, as well as rotations (in angle-axis format)
+	•	Cfg-defined thrust positions and orientations, make retro-rockets and any other craziness open for addon parts.
+	•	Parts may now create new stages for themselves through the cfg (used to be decouplers only)
+	•	New texture for the Solid Rocket Booster
+	•	The game now checks for updates against the KSP site, and let's you know if there is a new version available
+	•	Loading screen moved to before the main menu appears.
+Bug fixes:
+	•	Liquid Engine particle effects responding to engine cutoff
+	•	Icon indicators for all parts that need to show information
+	•	Custom icons for all part types
+	•	VAB placement bug with tricouplers and fuel tanks (and decouplers)
+	•	Reposition the Navball and main camera focus, so the ship isn't obscured by the interface - this one is kinda moot now, since the new camera centers the ship better, and the navball doesn't hide the ship anymore.
+	•	Pause also affecting particle effects
+	•	Pausing the game no longer produces a G-force peak
+	•	SRB mesh normals correction
+	•	Complete rewrite of the flight camera code. No more jitters and a number of new options in the settings.cfg
+	•	Relaunch button on pause menu. No need to end flight to relaunch.
+	•	Version text on main menu resetting after returning to it from game.
+	•	Inverted the middle mouse button zoom. Now mouseing forward brings the camera closer.
+	•	The text on the stage indicators no longer appears over other interface elements
+	•	Fixed excessive wobbliness with side-attached parts
+	•	Radial decouplers now have their own module (they used to share modules with the stack decoupler)
+	•	Increased the inclination range for the VAB camera from 45° to 80°
+	•	Updated tutorial to reflect the changes made in this update (like the new cameras in flight).
+	•	Tweaked the Radial Decoupler separation. It can now eject lit SRBs safely away from the ship and not kill the crew everytime.
+v0.7.3
+Released June 24th, 2011
+	•	Initial Release[2]
+Notable Features
+	•	Downloaded over 5000 times[3]
+	•	No SAS, although SAS module is implemented and generates torque
+	•	The only engine, the LV-T30 can only be fed by one FL-T500 attached on its top
+	•	The AV-R8 Winglet is just a fin and can't be used to control the vehicle
+	•	It is nearly impossible to achieve orbit
+	•	Kerbin is the only celestial object, does not rotate, and is a mirror reflection of the example planet from libnoise
+	•	The sun is a directional light source at infinite distance
+	•	The render distance is only 1500 km, and Kerbin will "sink" into the sky background, vanishing entirely as that altitude is achieved
+	•	The original Intercontinental Kraken had not been fixed (Moving far from the KSC will result in shaking and even Rapid Unplanned Disassembly.

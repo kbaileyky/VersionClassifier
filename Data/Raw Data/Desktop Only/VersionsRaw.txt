@@ -1,0 +1,407 @@
+Versions 1.3 (build 1053) - DECEMBER 18, 2013
+		Added Subversion 1.8 support
+		Fixed issue that prevented Versions from opening comparisons from the Timeline
+		Versions correctly remembers the last selected bookmark when relaunching after changing Subversion library
+		Versions correctly selects last chosen directory when performing new checkout on OS X 10.9
+		Fixed issue where revision numbers were not serialized correctly
+		Fixed issue where window and column sizes were not preserved
+		Versions correctly recalls fullscreen state after relaunch
+		Added warning when incompatible SCFinderPlugin is detected
+		Fixed various crashes and UI issues
+Versions 1.2.3 (build 1050) - OCTOBER 23 2013
+		Improved support for OS X 10.9 Mavericks
+Versions 1.2.2 (build 1047) - FEBRUARY 21 2013
+		Fixed crashes/unresponsiveness on terminate
+		Fixed a crash while updating remote repository change counts
+		Fixed local repository change counts not always refreshing
+Versions 1.2.1 (build 1044) - FEBRUARY 12 2013
+		Improved CPU usage when detecting remote changes
+		Bug fixes and improvements
+Versions 1.2 (build 1038) - FEBRUARY 7 2013
+		Added Subversion 1.7 support!
+		Versions can now talk with both Subversion 1.7 repositories as well as 1.7 working copies
+		Versions can now upgrade existing working copies to be Subversion 1.7 compatible
+		Added Retina graphic support for those beautiful MacBook Pros
+		Versions has been updated to use Growl with Notification Center support
+		Updated the version of Sparkle used for app updates
+		Various bug fixes and aesthetic corrections
+Versions 1.1.11 (build 1030) - JULY 23 2012
+		Added support for Developer ID on Mac OS X 10.8.
+Versions 1.1.10 (build 1029) - JANUARY 4 2012
+		Worked around crash caused by SCPlugin's system patching
+		Fixed issue introduced in 1.1.9 where unnecessary HTTPS certificates would attempt to be validated
+		Fixed issue introduced in 1.1.9 where some licenses would fail to activate
+Versions 1.1.9 (build 1028) - DECEMBER 20 2011
+		Implemented full screen support for Mac OS X 10.7 (Lion)
+		Updated License Agreement and Acknowledgements information
+		Updated ownership and contact information from Sofa to Black Pixel
+		Small visual refinements
+Versions 1.1.8 (build 1026) - JULY 20 2011
+		Improved compatibility with Mac OS X 10.7 (Lion)
+Versions 1.1.7 (build 1024) - JUNE 6 2011
+		Upgraded Subversion 1.6 to version 1.6.17
+		Fixed some minor visual issues
+		Updated the license agreement
+Versions 1.1.6 (build 1022) - MAY 16 2011
+This update fixed an issue that only occured in the Mac App Store release of Versions, it was only released there.
+Versions 1.1.5 (build 1020) - FEBRUARY 4 2011
+		Fixed comparing remote changes on a single selected file
+		Timeline file paths are selectable again (issue reintroduced in 1.1.4)
+		Fixed a potential warning about an interrupted SSL negotiation if working copy bookmark change badges are enabled
+		Fixed locking or unlocking of items that have been modified after being copied, moved or renamed
+		Fixed a typo in the Copy and Move sheet
+		Fixed a crash that could occur when opening a comparison from the Timeline
+		Fixed a crash when renaming the root item of a working copy
+		Fixed a rare crasher related to the file browser
+		On first launch, checking for updates is now enabled by default
+		On first launch, the default file comparison tool is now set to Kaleidoscope if it's installed
+Versions 1.1.4 (build 1018) - JANUARY 24 2011
+		Upgraded the Subversion 1.5 library to 1.5.9
+		Added support for ignoring multiple items at once, as long as they are in the same folder
+		Added the possibility to ignore items that have been marked as deleted
+		When trying to ignore versioned items you now get a helpful message
+		Moving or renaming unversioned items in the Browse view no longer results in an error
+		You can now rename items in the Browse view by pressing the Enter key when selected
+		Blame now works on files that have been moved or copied
+		When using the Local Changes toolbar item with a comparison tool other than Kaleidoscope, selected files that haven't been modified are now ignored, instead of showing an error
+		The inspector now updates correctly when adding or reverting the selected item
+		New local repository bookmarks are now, when possible, added to the currently selected group instead of always to the bottom of the Bookmarks list
+		When asked for repository credentials we now display the URL you're connecting to
+		The dock icon no longer bounces when showing the progress sheet in the background
+		Fixed a rare case in which Versions couldn't load the bundled libsasl
+		Improved crash reporting to provide more detailed logging on rare occurrences
+		Fixed a rare crash that could occur when changing a preference after closing a window
+		Fixed a rare crash that could occur when updating a working copy
+		The Versions main menu no longer lists registration or purchase options after being registered
+		Optimized Timeline performance
+Versions 1.1.3 (build 1014) - DECEMBER 23 2010
+		Re-enabled selecting file paths (to copy and paste) in the Timeline
+		Fixed a bug where Versions would show an empty timeline if the repository doesn't contain author information
+		Fixed a rare crash on launch that happened with some people's Bookmarks files
+		Fixed a crash that could occur if you got a warning about files being unaccessible
+		Fixed a rare crash after closing and re-opening a main window
+		When using Kaleidoscope, showing the remote changes for a single file now works again
+		Fixed a bug where Versions would send the wrong files to Kaleidoscope for remote changes to a single file
+		Fixed an issue where comparisons with FileMerge could fail depending on some people's bash configuration
+		Fixed a bug where Versions could needlessly give a warning saying “<directory> is not a working copy”
+		Optimized timeline performance
+		The “Terms” button in the registration window now works again
+		Changed Command + Option + T to now open the special characters window, instead of toggling the toolbar
+		Changed Command + Shift + \ to now toggle the toolbar
+Versions 1.1.2 (build 1008) - DECEMBER 14 2010
+		Introduces support for Kaleidoscope's changeset feature, quickly view all the changes in a working copy
+		In the Browse view, use the “Local Changes” and “Remote Changes” actions to review changes for your entire working copy or, if you have a selection, just the selected items
+		In the Timeline, click “Compare All” to review an entire revision in Kaleidoscope
+		This only works with Kaleidoscope (1.1 or later) as your file comparison tool, with any other tool, Versions behaves the same as before
+		Note: JIRA tickets now include the project abbreviation in the URL, so if you already use JIRA tickets linked from your Timeline, you will have to adjust your ticket URL in your repository bookmark
+		Bugfixes:
+		The main toolbar icons no longer look pixelated when small
+		Fixed an intermittent OpenSSL-related crash
+		The Timeline now correctly displays changed items on machines with older versions of Safari installed
+		Fixes a bug where FileMerge would not run correctly if you had the -u option set in your bash configuration
+		JIRA-style tickets that have a 2-character project abbreviation are now also detected in the Timeline
+		The progress spinners in the Timeline's “Load More” bar no longer stack up when clicking the bar multiple times
+Versions 1.1.1 (build 1004) - DECEMBER 1 2010
+		Fixed a crash on Mac OS X 10.5 when trying to commit.
+Versions 1.1 (build 1002) - DECEMBER 1 2010
+Please note: This release no longer works on Mac OS X 10.4 or PowerPC-based Macs.
+GENERAL IMPROVEMENTS
+		Upgraded the Subversion 1.6 library to SVN 1.6.15
+		Added support for HTTP(S) proxy settings
+		Added Growl support for completed operations
+		Improved Simple Authentication and Security Layer (SASL) support
+		Fixed an issue that could display a “(SASL(-1): All-whitespace username” error message, and provide a more accurate error message
+		Fixed an issue that caused copious console log messages saying “No worthy mechs found”
+		Versions now automatically verifies HTTPS certificates against the Keychain when possible
+		This fixes repeated warnings about certificates in many cases (e.g. with Google Code)
+		Accepting a certificate by using the “Accept for this session only” option will now actually accept the certificate for the whole app session
+		On launch, Versions now opens up to the last selected bookmark
+		Versions has a refreshed look and feel
+REDESIGNED AND IMPROVED TIMELINE
+		Hyperlinks (http://, rdar:// and others) are now detected and linked
+		Added issue tracker ticket detection for FogBugz (BugzID:123) and JIRA (#PRJ-123)
+		More compact and clear layout, with spelled out file status labels
+		Now uses floating headers for each day
+		“Load more…” now respects the scroll position and collapsed days
+		It's now possible to show or hide the changed files and folders for an individual revision
+		Option + click to show/hide all visible files, or open/close all days
+		Simplified preferences to only set a number of revisions to load, instead of a number of days as well
+		Added an indicator showing when the timeline was last refreshed
+		Dates and times are now shown using localized formatting
+		Fixed a bug where the timeline progress spinner would sometimes remain visible when switching views
+		The Timeline now has a special ‘empty’ state when a repository doesn't have any history yet
+IMPROVED BROWSE VIEW DRAG & DROP SUPPORT
+		Dragging an item out of repository or working copy browser will export it
+		Dragging an item into a repository browser will offer to import that item
+		Moving multiple items in a working copy will now ask for confirmation
+		The “Move Item” and “Copy Item” dialogs are now more informative
+IMPROVED BOOKMARKS LIST
+		Better drag & drop support
+		Bookmarks can be created by dropping working copy or local repository folders on the Dock icon or bookmarks list
+		Bookmarks can be created by dropping URL files on the bookmarks list
+		Bookmarks can only be dropped within other bookmarks if they point to a directory within the parent bookmark.
+		Bookmarks can be dropped between top level items, instead of only being dropped into top level items
+		Items dropped on the bookmarks list that can't be turned into bookmarks are listed in an ignored items sheet
+		When a bookmark is dragged onto another closed bookmark group or repository, the destination is now expanded and the bookmark selected
+		When deleting a bookmark, Versions no longer offers to delete the corresponding working copy folder if:
+		It didn't exist in the first place
+		There's another working copy bookmark that's the parent of this one
+		Bookmark names consist by default of the repository name and the folder, to prevent them from being nameless or from being named just trunk, branches, or tags
+		Bookmarks are, when possible, added to the current selected group, an appropriate ancestor or sibling instead of always to the bottom of the list
+		The context menu for repository bookmarks now has a “Copy Remote URL” menu item
+		The context menu for working copy bookmarks now has a “Copy Remote URL”, “Copy Local Path” and a “Reveal in Finder” menu item
+		There now is a context menu for the empty area of the bookmark list which displays the "New" menu
+		A bookmark can now be deleted by using the backspace key
+		When a bookmark has focus Command + C now always copies the remote path to the clip board
+		Added keyboard shortcuts for “New Repository Bookmark” Command + Option + N, and “New Working Copy Bookmark” Command + Option + Shift + N
+		Local Repositories bookmarks now have their own icon to make them more distinguishable
+OTHER IMPROVEMENTS
+		Kaleidoscope is now always visible in the file comparison popup in preferences
+		Fixed a crash that would occur when trying to duplicate a repositories root item
+		Fixed the Inspector not properly updating when switching between All/Changed
+		Fixed the Inspector Raw Properties button properly disabling when unversioned items are selected
+		The About window and SVN error sheets now close when using the ESC key
+		Fixed the split view cursor to properly update when moving from timeline and bookmarks list
+		Fixed several registration interaction issues
+		Fixed the main window not being closable, and menus being disabled, after trying to commit a folder without changes
+		Added support for multi-machine license files for volume licenses
+		Upgraded the trial period to 30 days instead of 21
+		This update resets the trial period
+		Updated the built-in Help
+		Reduced file size of the application
+Sofa Acquires Versions - OCTOBER 5 2010
+Sofa has acquired all Versions intellectual property from Pico. You can read the entire press release here.
+Versions 1.0.9 (build 79) - MARCH 25 2010
+This is a bugfix release that fixes issues that cropped up in the previous Versions 1.0.8 release.
+		Fixed the file browser “Open With…” menu item to properly work on Mac OSX 10.5
+		Fixed a crash that would occur on Mac OS X 10.4 when using the file browser context menu
+		Fixed comparing files when the Versions application name contained spaces
+		Fixed comparing files from the History window
+		Fixed comparing (images) with Araxis Merge
+Versions 1.0.8 (build 75) - MARCH 1 2010
+We would like to thank everybody who enabled us to make a significant donation to Doctors Without Borders by buying Versions between January 14 and February 15th. We would also like to introduce and welcome Pieter de Bie as a new member to the Versions development team.
+		Upgraded the Subversion 1.6 library to SVN 1.6.9
+		Added an “Open With…” menu item in the file browser context menus and main menu
+		Added out of the box file comparison support for TextMate, TextWrangler, P4Merge, DeltaWalker and DiffMerge
+		Made several key improvements to file comparison stability and functionality:
+		Improved speed of starting a comparison
+		Improved messaging when an error occurs in a comparison script
+		Fixed a crash that could occur when starting a comparison
+		Fixed a bug where we would start a wrong comparison if two files had the same (case insensitive) name
+		Added a check to make sure there always is a “Compare Scripts” folder, for custom diff scripts, in the Versions “Application Support” folder
+		Added a “More Comparison Scripts Online…” item in the File Comparison pop up menu
+		The “Compare Diff” toolbar item has been renamed to “Compare”
+		Fixed small issues with enabling or disabling the “Local Changes” toolbar item
+		The “Revert” confirmation dialog now displays how many items are selected, or the name of the item if only one is selected
+		When only editing the name or bug tracker integration of a repository bookmark it now saves faster
+		Fixed a bug where opening a volume license activation file from Mail.app on Snow Leopard would create a Repository bookmark instead of registering
+		Fixed a bug where the volume license activation file would not be properly recognized in several (web) email clients
+		Fixed a bug in the registration window which would display “don not localize” (sic) if a user had no ‘me’ card in Address Book
+		Added a “Release Notes…” item to the “Help” main menu so it's easier to find recent changes
+		Added a “Reveal in Finder” Command + Shift + R keyboard command to the File menu
+		Fixed a parsing issue in the Timeline that would occur when a # (pound/hash) character was used in a commit message
+		We now bundle the Cyrus SASL library instead of using the one bundled with Mac OS X
+		Updated the software update framework, Sparkle
+		Included an option in preferences to turn off software updates
+		Included an option in preferences to turn off sending anonymous system profile
+		The Preferences window now listens to the Escape key to close the window
+Versions 1.0.7 (build 73) - DECEMBER 10 2009
+A big thank you to everyone who tested pre-release builds, and everybody else for their patience.
+		Fixed the ‘ghost’ crash reports that would repeatedly show up (while Versions kept running)
+		This issue was specific to svn+ssh:// connections
+		If you switched off the “Show badges with working copy changes” preference to get less of these crash reports, you can safely switch that back on
+		Fixed a crash that would occur when Versions encountered a corrupted bookmarks file
+		Upgraded the Subversion 1.6 library to SVN 1.6.6
+		Fixes several issues and crashes that some Versions users encountered.
+		When Versions is hidden or minimized, progress sheets no longer get stuck when they should have been dismissed
+		Versions uses Code Signing from now on
+		This means that after this update, the next update will no longer request access to passwords in your Keychain that were last used with earlier releases of Versions
+		Fixed a bug where opening a Versions volume license activation file from Mail.app on Snow Leopard wouldn't make Versions open the file
+Versions 1.0.6 (build 71) - OCTOBER 1 2009
+		Fixed a problem introduced in 1.0.5 which caused abnormal high CPU usage
+		This issue was caused by child processes that got stuck making svn+ssh:// connections on some machines
+		Duplicated bookmarks can be dragged around normally now
+		Versions no longer crashes when the Escape key is pressed
+Versions 1.0.5 (build 69) - SEPTEMBER 2 2009
+We'd like to thank everybody who tested, and gave us feedback on, our tiny Snow Leopard beta.
+		Added Mac OS X 10.6 Snow Leopard Support
+		Fixed Quicklook integration to work properly on Snow Leopard
+		Fixed several minor memory leaks thanks to the improved developer tools on Snow Leopard
+		Versions asks if you want to switch to Subversion 1.6 when first run on Snow Leopard
+		Upgraded included Subversion Libraries
+		Subversion 1.5 upgraded to release 1.5.7
+		Subversion 1.6 upgraded to release 1.6.5
+		The svn:// and svn+ssh:// URL schemes are now handled by Versions
+		Added an “Open Repository URL” system service
+		Added a notification when double clicking a filetype that is not associated with an application in the Finder
+		Added a “Duplicate” item to the contextual menus in the Browse view and Bookmarks list
+		Reverting a file to an older revision now allows the reverted file to be committed
+		The option to recursively revert is now only shown when reverting a folder
+		When launching FileMerge for a local compare we pass in the “-merge” argument
+		This allows edits made in FileMerge to be saved more easily
+		Added an option to move a working copy to the Trash after deleting a working copy bookmark
+		The main window title now always updates properly
+		Fixed a couple of issues specific to Mac OS X 10.4
+		Versions will now offer to send in crash reports
+Versions 1.0.4 (build 65) - MAY 20 2009
+		Added Subversion 1.6 support
+		Upgraded Subversion 1.5 libraries to version 1.5.6
+		Added support for SASL authentication
+		Fixed compatibility with BBEdit for comparing differences
+		Sorting files by name in the Browse view now works like in the Finder
+		Bookmarks are now also sorted correctly when accented characters are present in their names
+		Fixed a crash that occurred when the subversion config file can't be parsed correctly
+		Added an option to start Versions in “Verbose mode” option + shift keys to log all errors to the Console
+		Better error handling when passwords cannot be retrieved from or stored to the Keychain.
+		Added a “Quit Now” button to the “Waiting for transactions to finish...” window
+		Fixed bugs in registration that occurred in very specific scenarios
+		Updated the Help documentation with an FAQ page
+		Corrected a linguistic error in the EULA, seize -> cease
+		Various other small improvements
+Versions 1.0.3 (build 56) - DECEMBER 2 2008
+		Fixed a bug where password sheets would keep popping up
+		Showing the changes indicators in the bookmarks list is now faster and takes less memory
+		Added a preference to switch off changes indicators in the bookmarks list
+		This also switches off the orange badges on folders with changed contents in the Browse view
+		Fixed a bug where Versions would hang at “Waiting for transactions to finish...” on quit
+		Added support for site and volume licenses
+		Small update to the Help documentation
+		Various other small improvements
+Versions 1.0.2 (build 53) - NOVEMBER 18 2008
+		Fixed an issue where registration would remain stuck on “Processing...”
+		Changed section B1 in the license agreement to be more clear about registering Versions on multiple computers
+Versions 1.0.1 (build 51) - NOVEMBER 17 2008
+		Fixed registration issues
+Versions 1.0 (build 49) - NOVEMBER 17 2008
+To everyone who tried the beta, and especially those of you who provided feedback: Thank you!  We are very grateful for your support and Versions wouldn't be what is today without your help.
+		Added “Ignore [file/folder name]” context menu item
+		Added Inspector Sidebar to the browser
+		Easily view and set file or folder properties right in the main interface
+		Have access to editing the Raw Properties of any file or folder
+		Note: to open the separate ‘old’ information window use the Command + Alt + I keyboard shortcut
+		Added badges to the Bookmarks list to indicate remote (blue) and local (yellow) changes to a Working Copy
+		Added Quick Look support to the Working Copy browser
+		Folders containing changes now have a distinct look in the Working Copy browser
+		Added a “Load x more Revisions/Days” button in the Timeline
+		The timeline now refreshes automatically after a successful commit
+		Added an “Open in Terminal” Command + T command to the File menu, context menu and, optionally, the toolbar
+		Added a “Clear Transcript Log” Command + K command to the View menu
+		Added a “Revert Recursive” option to the Revert sheet
+		This enables undoing adding or deleting a file
+		Upgraded Subversion libraries to release 1.5.4 (SVN 1.4.6 also still included)
+		Added extensive Help documentation, accessible from the Help menu and the Versions website
+		Information about Subversion in general
+		Getting started with Versions
+		Workflows in Versions
+		Links to various online resources
+		Working Copies bookmarks now automatically keep track of working copies when they are moved or renamed
+		“Local Changes” and “Remote Changes” toolbar items now work when multiple items are selected
+		Connection errors are now indicated with a badge in the Bookmarks list and only displayed in a sheet when the bookmark is selected
+		The Timeline now shows an error message when a Repository cannot be reached
+		Various textual improvements
+		Transcript messages are now more descriptive and readable
+		Revision number is shown in the Transcript after each commit or update action
+		Messages in progress dialogs are more descriptive and readable
+		Changed all references to “Changeset” to “Revision”
+		An error dialog is now shown when FileMerge is the selected diff tool, but cannot be found
+		Contents of added folders are now displayed in the Working Copy browser before they are committed
+		Fixed an issue where “Mark as Resolved” was not possible on folders
+		When a new bookmarks folder is created its name is now selected automatically
+		Improved the organization of the main menu
+		Various other stability, interaction and visual improvements
+		New license agreement and Acknowledgments document
+		Removed beta expiration date and replaced it with a 21 day trial period and product registration
+Versions 1.0b9 (build 45) - OCTOBER 22 2008
+		Versions now asks for a username and password when you try to access an external that needs authentication
+		Externals can now be browsed in “View All” mode, regardless of how deep in the file hierarchy they are defined
+		Unversioned directories can now be browsed when “View All” is selected
+		Command + Return now triggers the “Commit” button
+		Revision rows in the “Select Revision” sheet can now be double-clicked to select and confirm the sheet
+		Escape and Command + Period now cancel renaming an item in the bookmarks list or the Browser
+		Bookmark list icons now display correctly on Tiger
+		Added a “New Window” command to the Dock menu
+		Removed “Set Current Size As Default” from the “Window” menu
+		Fixed a crash when changing date and time in System Preferences
+		Small usability improvements in the “Subversion 1.5 Information” window
+		Expiration date extended to November 22nd 2008
+Versions 1.0b8 (build 44) - SEPTEMBER 22 2008
+		Automatic refreshing improvements (Leopard only)
+		Changes in ignored folders or to ignored files no longer trigger a refresh
+		Fixed a bug where changes to svn properties did not always trigger the right items to be refreshed
+		The progress sheet now closes more reliably
+		The last used “All/Changed” setting is now saved for each Working Copy bookmark
+		Bookmark folders can now be renamed from their contextual menus
+		The Import sheet's “Choose folder” dialog now displays bundle items correctly
+		Small usability improvements in the “Compare Diff” interface
+		Fixed a crash that could occur when an item's loading operation was cancelled
+		Fixed a crash during commits that would hang the commit sheet forever
+		Fixed a rare crash that could occur when deleting items
+		Fixed a Tiger-only crash that happened in the bookmark editing sheets when the enter or return key was pressed to dismiss the window
+		Saving changes to a repository bookmark is now more efficient
+		Expiration date extended to October 22nd 2008
+Versions 1.0b7 (build 41) - SEPTEMBER 8 2008
+		Automatic refreshing in the Working Copy Browser
+		Auto-refresh when local changes are made (Leopard only)
+		On Tiger, the browser refreshes when its window becomes frontmost
+		Added a preference to disable this feature
+		Log messages that start with a “#” are now also displayed properly when ‘Show links to issue tracker in timeline’ is used
+		Added and Deleted items in the Timeline can now be clicked to open them
+		Fixed bugs in Browser when changing between ‘All’ or ‘Changed’ quickly
+		Fixed several other bugs related to reloading the Browser quickly
+		Improved detection of SVN command-line tools version on Tiger
+		When an SVN command fails, but could work when forced, an option to do so is offered in the error dialog
+		File packages (bundles) can now be selected as working copy bookmarks and imported as folders
+		The ‘Compare Differences’ sheet now has a sensible default selection
+		Paths in the ‘Commit sheet’ are now truncated in the middle
+		‘Revert to Revision…’, ‘Update’ and ‘Commit’ are now disabled for unversioned items
+		Expiration date extended to October 9th 2008
+Versions 1.0b6 (build 40) - AUGUST 9 2008
+		Fixes a bug that made it impossible to add new repository bookmarks.
+Versions 1.0b6 (build 39) - AUGUST 8 2008
+		Subversion 1.4 and 1.5 both supported
+		Subversion 1.4.6 and 1.5.1 libraries included
+		New option in the Preferences window to choose between Subversion libraries
+		SVN 1.4 is now the default for new users
+		SVN 1.5 is the default for everyone who used Beta-5
+		Implemented Bookmark Sorting
+		Improved Bookmark ungrouping behavior
+		Expiration date extended to September 9th 2008
+Versions 1.0b5 (build 38) - AUGUST 2 2008
+		Fixes a Subversion 1.5 related documentation error, regarding Xcode's integrated SVN support.
+Versions 1.0b5 (build 37) - AUGUST 2 2008
+		Includes the Subversion 1.5 library
+		Added SVN Lock support
+		Support for locking and unlocking files
+		Support for stealing locks
+		Shows local and remote lock status
+		Shows when files have svn:needs-lock set
+		Added Bookmark grouping
+		Added “Revert to Revision...” menu/context/toolbar items
+		File names containing numbers are now correctly sorted in the file browser
+		Right-clicking on empty parts of sidebar no longer displays a context menu or changes the current selection
+		Improved Main Menu and Contextual Menu layout and language
+		Added status icons for External and Incomplete folders
+		Status icons have been improved
+		Many other minor UI improvements
+		Expiration date extended to September 3rd 2008
+Versions 1.0b4 - JULY 2 2008
+		Fixed some issues with repository URLs containing “@” characters
+		The “Commit”, “Update” and “Cleanup” menu items are now always available
+		Several small usability improvements
+Versions 1.0b3 - JUNE 30 2008
+		Expiration date extended to August 1st 2008
+		The Timeline now shows line feeds in commit log messages
+		The Transcript now always scrolls down when new text is added
+		‘New Working Copy Bookmark’ button added to Welcome screen
+		Fixed authentication issues with blank passwords
+		Toolbar and menu options are more consistently disabled when invalid for a selection
+		Fixed several URL encoding related connectivity issues
+		Folders with periods in their name are now shown with the correct icon
+		The enter key now confirms the Commit sheet
+		Option+click on a header now collapses/discloses all days in the Timeline
+		Other minor bug fixes
+Versions 1.0b2 - JUNE 13 2008
+		Custom comparison applications and scripts can be selected in the Preferences window
+		Fixes connectivity issues when using https or svn+ssh repositories
+		Fixes authentication issues when special characters are present in the user's credentials
+		Other minor bug fixes

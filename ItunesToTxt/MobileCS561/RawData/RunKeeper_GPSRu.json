@@ -23,20 +23,20 @@
                 "ipad": {
                     "ids": [
                         466951815, 
-                        537452201, 
+                        635623621, 
                         470601468, 
-                        567767430, 
-                        472322122, 
-                        405109185, 
-                        415318656, 
                         477288194, 
+                        470781670, 
+                        297368629, 
+                        405109185, 
+                        399841706, 
+                        567767430, 
+                        470946258, 
+                        348715624, 
+                        430559374, 
                         470598964, 
                         477306171, 
-                        541887994, 
-                        480747848, 
-                        535640259, 
-                        399841706, 
-                        421088847
+                        623366709
                     ], 
                     "title": "Top Grossing iPad Health & Fitness Apps"
                 }, 
@@ -44,18 +44,18 @@
                     "ids": [
                         331308914, 
                         297368629, 
-                        291890420, 
-                        443646748, 
-                        546417608, 
                         426826309, 
-                        306287984, 
-                        425192079, 
-                        680170305, 
+                        443646748, 
                         320606217, 
                         399841706, 
+                        291890420, 
+                        680170305, 
+                        529815782, 
+                        546417608, 
+                        520821618, 
+                        395042892, 
                         567767430, 
-                        333210180, 
-                        398436747
+                        466951815
                     ], 
                     "title": "Top Grossing iPhone Health & Fitness Apps"
                 }
@@ -238,7 +238,7 @@
             "pageDetails": "FitnessKeeper, Inc._RunKeeper - GPS Running, Walk, Cycling, Workout and Weight Tracker", 
             "pageId": "300235330", 
             "language": "1", 
-            "serverInstance": "2001500", 
+            "serverInstance": "2125150", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
@@ -288,7 +288,7 @@
                 "label": "FitnessKeeper, Inc."
             }
         ], 
-        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/B5E5/frameworks-sf6/images/", 
+        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/95A6/frameworks-sf6/images/", 
         "omnitureMetrics": {
             "shouldTrackBrowserPlugins": false, 
             "format": "HTML", 
@@ -318,14 +318,14 @@
                 ]
             }
         }, 
-        "resourceImagePath": "https://s.mzstatic.com/htmlResources/B5E5/di6-storefront/images/", 
-        "resourceBasePath": "/htmlResources/B5E5/files/", 
+        "resourceImagePath": "https://s.mzstatic.com/htmlResources/95A6/di6-storefront/images/", 
+        "resourceBasePath": "/htmlResources/95A6/files/", 
         "flagLink": {
             "url": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/countrySelectorPage?cc=us", 
             "imageSrc": "https://s.mzstatic.com/images/flags/-dsi-30/usa.png", 
             "imageAltText": "My Store: United States, Choose Store"
         }, 
-        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/B5E5/frameworks-dt6/images/", 
+        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/95A6/frameworks-dt6/images/", 
         "termsLink": {
             "url": "https://www.apple.com/legal/itunes/us/terms.html", 
             "label": "Terms and Conditions"
@@ -461,10 +461,10 @@
                     "releaseDate": "2009-01-14", 
                     "artistId": 300226026, 
                     "userRating": {
-                        "ratingCountCurrentVersion": 86, 
+                        "ratingCountCurrentVersion": 118, 
                         "valueCurrentVersion": 4.5, 
                         "value": 4.5, 
-                        "ratingCount": 34063
+                        "ratingCount": 34089
                     }, 
                     "artistUrl": "https://itunes.apple.com/us/artist/fitnesskeeper-inc./id300226026?mt=8", 
                     "itunesNotes": null, 
@@ -555,7 +555,7 @@
                             "height": 1024
                         }, 
                         {
-                            "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/ea/65/c5/ea65c583-8cfd-9a82-dbe7-6d5027e0cdfb/icon440x440.png", 
+                            "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/ea/65/c5/ea65c583-8cfd-9a82-dbe7-6d5027e0cdfb/icon440x440.jpeg", 
                             "width": 440, 
                             "height": 440
                         }, 
@@ -971,7 +971,7 @@
         }
     }, 
     "properties": {
-        "ITSResourceRevNum": "B5E5", 
+        "ITSResourceRevNum": "95A6", 
         "isCobaltJavascriptRedirectEnabled": true, 
         "isModern": false, 
         "ITSLogger.ServerReportingApp": "MZUserXP", 
@@ -981,7 +981,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "2001500", 
+        "ITSServerInstance": "2125150", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
@@ -1120,7 +1120,7 @@
         "countryCode": "usa", 
         "GlobalLists": {
             "removeFromWishlistUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/removeFromWishlist", 
-            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=B5E5", 
+            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=95A6", 
             "updateRadioHistoryUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/updateRadioHistory", 
             "popover": {
                 "width": "350", 

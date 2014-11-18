@@ -29,34 +29,34 @@
                         477128284, 
                         399563465, 
                         473539089, 
+                        352683833, 
                         310738695, 
                         454607051, 
-                        352683833, 
                         336698281, 
                         561263218, 
                         288487321, 
+                        392988420, 
                         402742793, 
-                        394439996, 
-                        335329737
+                        908571976
                     ], 
                     "title": "Top Free iPad Lifestyle Apps"
                 }, 
                 "iphone": {
                     "ids": [
-                        338137227, 
                         297606951, 
-                        521207075, 
+                        338137227, 
                         547702041, 
-                        314855255, 
                         282614216, 
+                        521207075, 
                         397533889, 
-                        867636554, 
-                        659563061, 
                         352683833, 
-                        740204829, 
+                        659563061, 
+                        314855255, 
+                        477128284, 
                         472014516, 
                         335364882, 
-                        477128284
+                        740204829, 
+                        523045896
                     ], 
                     "title": "Top Free iPhone Lifestyle Apps"
                 }
@@ -202,11 +202,11 @@
             "pageDetails": "ContextLogic Inc._Wish - Shopping Made Fun", 
             "pageId": "530621395", 
             "language": "1", 
-            "serverInstance": "512035", 
+            "serverInstance": "2126914", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
-            "environmentDataCenter": "NWK", 
+            "environmentDataCenter": "ST11", 
             "pageType": "Software", 
             "platformName": "iTunes12", 
             "page": "Software_530621395"
@@ -252,7 +252,7 @@
                 "label": "ContextLogic Inc."
             }
         ], 
-        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/B5E5/frameworks-sf6/images/", 
+        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/95A6/frameworks-sf6/images/", 
         "omnitureMetrics": {
             "shouldTrackBrowserPlugins": false, 
             "format": "HTML", 
@@ -282,14 +282,14 @@
                 ]
             }
         }, 
-        "resourceImagePath": "https://s.mzstatic.com/htmlResources/B5E5/di6-storefront/images/", 
-        "resourceBasePath": "/htmlResources/B5E5/files/", 
+        "resourceImagePath": "https://s.mzstatic.com/htmlResources/95A6/di6-storefront/images/", 
+        "resourceBasePath": "/htmlResources/95A6/files/", 
         "flagLink": {
             "url": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/countrySelectorPage?cc=us", 
             "imageSrc": "https://s.mzstatic.com/images/flags/-dsi-30/usa.png", 
             "imageAltText": "My Store: United States, Choose Store"
         }, 
-        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/B5E5/frameworks-dt6/images/", 
+        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/95A6/frameworks-dt6/images/", 
         "termsLink": {
             "url": "https://www.apple.com/legal/itunes/us/terms.html", 
             "label": "Terms and Conditions"
@@ -425,10 +425,10 @@
                     "releaseDate": "2012-06-14", 
                     "artistId": 530621398, 
                     "userRating": {
-                        "ratingCountCurrentVersion": 2967, 
+                        "ratingCountCurrentVersion": 3161, 
                         "valueCurrentVersion": 4.5, 
                         "value": 4.5, 
-                        "ratingCount": 44592
+                        "ratingCount": 44786
                     }, 
                     "artistUrl": "https://itunes.apple.com/us/artist/contextlogic-inc./id530621398?mt=8", 
                     "itunesNotes": null, 
@@ -561,7 +561,7 @@
                         "ipad": [
                             [
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple/v4/96/ff/ff/96ffff51-4da8-37d3-c643-24c268deef54/screen261x261-65.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple/v4/96/ff/ff/96ffff51-4da8-37d3-c643-24c268deef54/screen261x261-50.jpeg", 
                                     "width": 196, 
                                     "height": 261
                                 }, 
@@ -593,7 +593,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a5.mzstatic.com/us/r30/Purple/v4/75/b7/9e/75b79e27-3fdf-1438-9540-a3dfa37ffd00/screen261x261-65.jpeg", 
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple/v4/75/b7/9e/75b79e27-3fdf-1438-9540-a3dfa37ffd00/screen261x261-50.jpeg", 
                                     "width": 196, 
                                     "height": 261
                                 }, 
@@ -625,7 +625,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple/v4/7c/19/5d/7c195d4e-d0c5-5f14-c051-9d2d2d8843d7/screen261x261-65.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple/v4/7c/19/5d/7c195d4e-d0c5-5f14-c051-9d2d2d8843d7/screen261x261-50.jpeg", 
                                     "width": 196, 
                                     "height": 261
                                 }, 
@@ -657,7 +657,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple6/v4/84/36/da/8436da44-2c21-f0ab-bda4-bfa51dc6e10b/screen261x261-65.jpeg", 
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple6/v4/84/36/da/8436da44-2c21-f0ab-bda4-bfa51dc6e10b/screen261x261-50.jpeg", 
                                     "width": 196, 
                                     "height": 261
                                 }, 
@@ -689,7 +689,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple6/v4/3e/5a/2f/3e5a2f63-9be0-5edb-98fb-0934100eb15a/screen261x261-65.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple6/v4/3e/5a/2f/3e5a2f63-9be0-5edb-98fb-0934100eb15a/screen261x261-50.jpeg", 
                                     "width": 196, 
                                     "height": 261
                                 }, 
@@ -1104,7 +1104,7 @@
         }
     }, 
     "properties": {
-        "ITSResourceRevNum": "B5E5", 
+        "ITSResourceRevNum": "95A6", 
         "isCobaltJavascriptRedirectEnabled": true, 
         "isModern": false, 
         "ITSLogger.ServerReportingApp": "MZUserXP", 
@@ -1114,7 +1114,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "512035", 
+        "ITSServerInstance": "2126914", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
@@ -1144,7 +1144,7 @@
                 "platformId": "28", 
                 "storeFront": "143441", 
                 "storeFrontHeader": "143441-1,28", 
-                "environmentDataCenter": "NWK", 
+                "environmentDataCenter": "ST11", 
                 "platformName": "iTunes12"
             }, 
             "postFrequency": 60000, 
@@ -1253,7 +1253,7 @@
         "countryCode": "usa", 
         "GlobalLists": {
             "removeFromWishlistUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/removeFromWishlist", 
-            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=B5E5", 
+            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=95A6", 
             "updateRadioHistoryUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/updateRadioHistory", 
             "popover": {
                 "width": "350", 

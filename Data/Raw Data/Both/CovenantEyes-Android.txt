@@ -1,0 +1,60 @@
+Android Version 1.8.3
+Released July 1, 2014
+
+Fixed sign in issues present in 1.8.1.
+Improved stability.
+Android Version 1.8.1
+Released June 26, 2014
+
+Improved specificity and clarity of URL reporting.
+Improved alerts for users who have pressed the panic button.
+Android Version 1.7.5
+Released May 8, 2014
+
+Added the ability to override a locked app one time or permanently.
+Added the ability to set a default app lock setting for newly installed apps.
+Improved security and stability.
+Android Version 1.6.2
+Released April 24, 2014
+
+Fixed several crashes affecting users running Android 2.2.x.
+Improved accuracy of reporting duration of app usage.
+Android Version 1.5.7
+Released April 17, 2014
+
+Improved security on the passcode entry screen.
+Fixed a crash upon login for users running Android 2.2.
+Android Version 1.5.5
+Released April 15, 2014
+
+Hardened app locking (improved its security).
+Android Version 1.5.4
+Released April 1, 2014
+
+Added a new app locking feature.
+Added a feature to detect and display which browser is the stock browser.
+Android Version 1.3.3
+Released August 3, 2013
+
+Fixes to address conflicts for some users who run app locking software.
+Fixes for some conflicts users experienced while getting the app installed and set up as device administrator.
+Added a button to uninstall (uninstall code required) from within the app.
+Android Version 1.1.8
+Released January 17, 2013
+
+Fixed multiple frequent crashes.
+Added support for the Kindle Fire HD.
+Android Version 1.1.2
+Released December 4, 2012
+
+Fixed multiple frequent crashes.
+Significantly improved battery/CPU usage.
+Added monitoring for Chrome browser on devices where Chrome is the stock browser (e.g. Nexus 7).
+Added monitoring for the Kindle Fire web browser (not Kindle Fire HD).
+Added monitoring for Skyfire web browser.
+Added alert to prevent non-customers from installing.
+Added a warning to notify about enabling non-market apps and included a button to get to the setting.
+Added monitoring for Dolphin Browser (not Dolphin Browser Mini).
+Fixes for consistency and stability among various families of Android devices and versions of Android OS.
+Multiple stability fixes to prevent the app from becoming unstable after low/no connectivity issues.
+Fixes to allow users to be able to sign in at wireless hotspots that require authentication/terms of service acceptance.

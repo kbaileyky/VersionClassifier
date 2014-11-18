@@ -9,18 +9,18 @@
                     "ids": [
                         323229106, 
                         585193266, 
-                        915571252, 
                         340268949, 
-                        447442214, 
                         682438211, 
+                        447442214, 
+                        378640003, 
+                        915571252, 
                         504677517, 
+                        547464550, 
                         553771681, 
                         495230948, 
-                        744966613, 
-                        431183278, 
-                        378640003, 
-                        547464550, 
-                        438919380
+                        791168388, 
+                        480887516, 
+                        561866269
                     ], 
                     "title": "Top Free iPad Navigation Apps"
                 }, 
@@ -32,14 +32,14 @@
                         447442214, 
                         585193266, 
                         905449457, 
-                        307529605, 
-                        303217144, 
-                        340268949, 
-                        329541503, 
-                        498151501, 
                         498477945, 
-                        469463298, 
-                        557871911
+                        303217144, 
+                        307529605, 
+                        498151501, 
+                        324384027, 
+                        340268949, 
+                        751972942, 
+                        469463298
                     ], 
                     "title": "Top Free iPhone Navigation Apps"
                 }
@@ -55,17 +55,16 @@
             }, 
             "moreByThisDeveloper": [
                 544007664, 
-                284815942, 
                 535886823, 
-                422689480, 
-                293622097, 
+                284815942, 
                 507874739, 
                 842842640, 
-                680819774, 
-                447119634, 
+                422689480, 
+                293622097, 
                 842849113, 
+                879478102, 
                 643496868, 
-                414706506
+                447119634
             ], 
             "appRatingsLearnMoreUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/appRatings?cc=us", 
             "versionHistory": [
@@ -151,11 +150,11 @@
             "pageDetails": "Google, Inc._Google Maps", 
             "pageId": "585027354", 
             "language": "1", 
-            "serverInstance": "1004106", 
+            "serverInstance": "2125473", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
-            "environmentDataCenter": "NWK", 
+            "environmentDataCenter": "ST11", 
             "pageType": "Software", 
             "platformName": "iTunes12", 
             "page": "Software_585027354"
@@ -201,7 +200,7 @@
                 "label": "Google, Inc."
             }
         ], 
-        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/B5E5/frameworks-sf6/images/", 
+        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/95A6/frameworks-sf6/images/", 
         "omnitureMetrics": {
             "shouldTrackBrowserPlugins": false, 
             "format": "HTML", 
@@ -231,14 +230,14 @@
                 ]
             }
         }, 
-        "resourceImagePath": "https://s.mzstatic.com/htmlResources/B5E5/di6-storefront/images/", 
-        "resourceBasePath": "/htmlResources/B5E5/files/", 
+        "resourceImagePath": "https://s.mzstatic.com/htmlResources/95A6/di6-storefront/images/", 
+        "resourceBasePath": "/htmlResources/95A6/files/", 
         "flagLink": {
             "url": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/countrySelectorPage?cc=us", 
             "imageSrc": "https://s.mzstatic.com/images/flags/-dsi-30/usa.png", 
             "imageAltText": "My Store: United States, Choose Store"
         }, 
-        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/B5E5/frameworks-dt6/images/", 
+        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/95A6/frameworks-dt6/images/", 
         "termsLink": {
             "url": "https://www.apple.com/legal/itunes/us/terms.html", 
             "label": "Terms and Conditions"
@@ -374,10 +373,10 @@
                     "releaseDate": "2012-12-13", 
                     "artistId": 281956209, 
                     "userRating": {
-                        "ratingCountCurrentVersion": 1651, 
+                        "ratingCountCurrentVersion": 1762, 
                         "valueCurrentVersion": 4, 
                         "value": 4.5, 
-                        "ratingCount": 100132
+                        "ratingCount": 100241
                     }, 
                     "artistUrl": "https://itunes.apple.com/us/artist/google-inc./id281956209?mt=8", 
                     "itunesNotes": null, 
@@ -472,27 +471,27 @@
                     }, 
                     "artwork": [
                         {
-                            "url": "http://a1.mzstatic.com/us/r30/Purple1/v4/d6/64/7f/d6647f94-e6b1-8645-ceee-eeecd63da949/icon240x240.jpeg", 
+                            "url": "http://a1.mzstatic.com/us/r30/Purple1/v4/d6/64/7f/d6647f94-e6b1-8645-ceee-eeecd63da949/icon240x240.png", 
                             "width": 240, 
                             "height": 240
                         }, 
                         {
-                            "url": "http://a4.mzstatic.com/us/r30/Purple1/v4/d6/64/7f/d6647f94-e6b1-8645-ceee-eeecd63da949/icon1024x1024.jpeg", 
+                            "url": "http://a2.mzstatic.com/us/r30/Purple1/v4/d6/64/7f/d6647f94-e6b1-8645-ceee-eeecd63da949/icon1024x1024.png", 
                             "width": 1024, 
                             "height": 1024
                         }, 
                         {
-                            "url": "http://a3.mzstatic.com/us/r30/Purple1/v4/d6/64/7f/d6647f94-e6b1-8645-ceee-eeecd63da949/icon440x440.png", 
+                            "url": "http://a3.mzstatic.com/us/r30/Purple1/v4/d6/64/7f/d6647f94-e6b1-8645-ceee-eeecd63da949/icon440x440.jpeg", 
                             "width": 440, 
                             "height": 440
                         }, 
                         {
-                            "url": "http://a4.mzstatic.com/us/r30/Purple1/v4/d6/64/7f/d6647f94-e6b1-8645-ceee-eeecd63da949/icon220x220.jpeg", 
+                            "url": "http://a4.mzstatic.com/us/r30/Purple1/v4/d6/64/7f/d6647f94-e6b1-8645-ceee-eeecd63da949/icon220x220.png", 
                             "width": 220, 
                             "height": 220
                         }, 
                         {
-                            "url": "http://a4.mzstatic.com/us/r30/Purple1/v4/d6/64/7f/d6647f94-e6b1-8645-ceee-eeecd63da949/icon400x400.jpeg", 
+                            "url": "http://a1.mzstatic.com/us/r30/Purple1/v4/d6/64/7f/d6647f94-e6b1-8645-ceee-eeecd63da949/icon400x400.png", 
                             "width": 400, 
                             "height": 400
                         }, 
@@ -502,7 +501,7 @@
                             "height": 512
                         }
                     ], 
-                    "requiredCapabilities": "armv7 opengles-2 location-services ", 
+                    "requiredCapabilities": "opengles-2 location-services armv7 ", 
                     "name": "Google Maps", 
                     "kind": "iosSoftware", 
                     "tellAFriendMessageContentsUrl": "https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendEmailBody?cc=us&displayable-kind=11&id=585027354&name=s&type=14", 
@@ -1161,7 +1160,7 @@
         }
     }, 
     "properties": {
-        "ITSResourceRevNum": "B5E5", 
+        "ITSResourceRevNum": "95A6", 
         "isCobaltJavascriptRedirectEnabled": true, 
         "isModern": false, 
         "ITSLogger.ServerReportingApp": "MZUserXP", 
@@ -1171,7 +1170,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "1004106", 
+        "ITSServerInstance": "2125473", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
@@ -1201,7 +1200,7 @@
                 "platformId": "28", 
                 "storeFront": "143441", 
                 "storeFrontHeader": "143441-1,28", 
-                "environmentDataCenter": "NWK", 
+                "environmentDataCenter": "ST11", 
                 "platformName": "iTunes12"
             }, 
             "postFrequency": 60000, 
@@ -1310,7 +1309,7 @@
         "countryCode": "usa", 
         "GlobalLists": {
             "removeFromWishlistUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/removeFromWishlist", 
-            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=B5E5", 
+            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=95A6", 
             "updateRadioHistoryUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/updateRadioHistory", 
             "popover": {
                 "width": "350", 

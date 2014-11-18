@@ -1,0 +1,272 @@
+SplashID Safe for Windows
+Desktop application for Windows 8, Windows 7, Vista, and XP
+ 
+Version 7.2.1 (Windows 8 Metro app) - May 2, 2014 - Release Notes:
+UI fixes
+Fixed an issue with export
+Improved stability and performance‏
+
+Version 7.2.4.760 (Windows Desktop app) - April 30, 2014 - Release Notes:
+Fixed an issue with 2-factor authentication
+Bug fixes and stability improvements​
+Version 7.2.3 (Windows Desktop app) - April 9, 2014 - Release Notes:
+Fixed a problem with emailing records
+Fixed an issue with WiFi sync
+Fixed a crash on exit
+Version 7.2.1 (Windows Desktop app) - March 27, 2014 - Release Notes:
+Fixed issue with pattern login coming up on clicking clear search field button
+Added a pattern login button to text login dialog
+Login dialog now remembers last used setting - keyboard vs. Pattern
+2-factor code no longer sent on every login on desktop app that was upgraded
+Icons are no longer cropped in icon picker and record list on Windows XP
+Custom icons are now displaying correctly
+Version 7.2 (Windows Desktop app) - March 11, 2014 - Release Notes:
+Share records securely (right click or click the Share Securely button)
+2-factor authentication (cloud services subscribers)
+Option to mark a record local only (so it won't sync)
+Bug fixes and stability improvements
+Version 7.1 (Windows Desktop app) - January 7, 2014 - Release Notes:
+Sync button animation added
+Smart type bug fixed
+Remembers window position when used with multiple monitors
+Ability to delete custom icons from local disk and the cloud
+Ability to change to a pattern password from Change Password tool
+Stability improvements
+Version 7.0.9 - October 30, 2013 - Release Notes:
+Password generator bugs fixed
+Stability improvements with regard to filters and WiFi sync
+Sync now happens after email activation is complete
+Version 7.0.8 - October 9, 2013 - Release Notes:
+Significantly enhanced cloud sync performance
+Version 7.0.7 - September 27, 2013 - Release Notes:
+Fixed the crash and unnamed error on launch
+Version 7.0.6 - September 20, 2013 - Release Notes:
+Added automatic support for proxy server connections
+Fixed an issue with WiFi sync related to custom icons
+Hyperlinks in the notes section are more legible
+Fixed an issue with the login dialog where it looked like there were two duplicate users
+Version 7.0.5 - August 23, 2013 - Release Notes:
+Fixed an issue where attachments would have 0 bytes when sync was set to handheld overwrites desktop
+App now runs in offline mode under connections where the SplashID server cannot be reached (e.g. proxy, VPN, GoGo)
+Version 7.0.3 - August 16, 2013 - Release Notes:
+Removed Restore tool to prevent unfiled type issue on cloud sync. To "restore" a vID file, you should delete all records, then import the vID.
+Version 7.0.2 - August 13, 2013 - Release Notes:
+WiFi sync fixes - desktop overwrites handheld and handheld overwrites desktop sync no longer hang
+Version 7.0.1 - August 6, 2013 - Release Notes:
+First version 7 public release
+
+
+SplashID Safe for Mac OS
+Desktop application for Mac OS 10.6.8 or later
+Download for Mac OS 10.6 and 10.7
+Download for Mac OS 10.8 and 10.9
+ 
+Version 7.2.2 - April 30, 2014 - Release Notes:
+Fixed an issue with 2-factor authentication
+Fixed an issue with emailing records
+Bug fixes and stability improvements
+Version 7.2.1 - March 20, 2014 - Release Notes:
+Fix for Safari crash when autofilling from SplashID Safe
+Version 7.2 - March 11, 2014 - Release Notes:
+Share records securely (right click or click the Share Securely button)
+2-factor authentication (cloud services subscribers)
+Option to mark a record local only (so it won't sync)
+Bug fixes and stability improvements
+Version 7.1.1 - January 13, 2014 - Release Notes:
+Colorful icons
+Ability to change to a pattern password from Change Password tool
+Keychain import crash fixed
+Bug fixes and stability improvements
+Version 7.1 - October 30, 2013 - Release Notes:
+Email auto-backup issue fixed
+Fixed issues with printing individual records
+Mavericks support
+Stability improvement
+Version 7.0.10 - September 19, 2013 - Release Notes:
+Fixed an issue with cloud sync
+Version 7.0.9 - September 6, 2013 - Release Notes:
+Web autofill by clicking globe button works again
+Crash after sync with Windows phone is resolved
+Switching to WiFi sync when when licensed for cloud sync no longer loses cloud licensing
+Dedupe is performed after VID import
+There now is a hint button in the enter password dialog during onboarding
+Version 7.0.8 - August 29, 2013 - Release Notes:
+Fixed an issue some users were having where the app would crash on launch
+Version 7.0.7 - August 22, 2013 - Release Notes:
+Fixed an issue with emailing vID files directly from the app
+Version 7.0.6 - August 19, 2013 - Release Notes:
+Fixed an issue where changing your email during upgrade failed to load data
+Fixed an issue where entering an incorrect password after upgrade caused the app to think your password had changed
+Version 7.0.5 - August 16, 2013 - Release Notes:
+Removed Restore tool to prevent unfiled type issue on cloud sync. To "restore" a vID file, you should delete all records, then import the vID.
+Fixed an issue where upgrading users were not getting automatically licensed for WiFi sync
+Version 7.0.3 - August 13, 2013 - Release Notes:
+Custom data location upgrade message added
+Export and Backup features fixed
+WiFi sync fixed for handheld overwrites desktop
+Version 7.0.2 - August 6, 2013 - Release Notes:
+First version 7 public release
+ 
+SplashID Safe for iPhone, iPad, and iPod touch
+iOS 7.0 or later
+Download from iTunes App Store
+Version 8.0.2 - Nov 3, 2014 - Release Notes:
+Enhanced UI optimized for large high-res screens
+Single screen functionality with advanced list view
+Automated SplashID Backup for cloud users
+Powerful security dashboard to help identify and fix weak, reused, and old passwords
+Deeper integration with web logins for a smoother experience
+Add a credit card record using your device’s camera
+Touch ID
+Version 7.2.5 - May 3, 2014 - Release Notes:
+Fixed an issue with 2-factor authentication
+Fixed an issue with sharing feature
+iPad UI enhancements
+Bug fixes and stability improvements
+Version 7.2.4 - April 2, 2014 - Release Notes:
+Bug fixes and enhancements for the web autofill screen
+Fixed a bug with password being rejected after switching from cloud to WiFi sync, when 2-factor authentication was enabled
+Version 7.2.3 - March 24, 2014 - Release Notes:
+Fixed a few issues with the web autofill feature
+Fixed a few issues with the iPad icon picker
+Added Send Records tool (email vID) to Settings screen
+Bug fixes and stability improvements
+Version 7.2.2 - March 14, 2014 - Release Notes:
+iPad full screen for web autofill view
+Copy button added for masked fields
+Web autofill improvements
+Bug fixes and stability improvements
+Version 7.2.1 - March 12, 2014 - Release Notes:
+Fixed a bug on saving single field edits
+Version 7.2 - March 11, 2014 - Release Notes:
+New and improved user interface!
+Redesigned list view with a powerful new action bar
+Redesigned record view with a single screen experience
+Split view for iPad
+Complete web login auto-fill and auto-submit functionality
+Share securely feature
+Automatic icon selection based on record name
+2-factor authentication (cloud services subscribers)
+Option to mark a record local only
+Airdrop integration to share records between iOS devices
+Bug fixes and stability improvements
+Version 7.1.3 - December 31, 2013 - Release Notes:
+Colorful icons
+Now you can backup to Dropbox. Go to Settings > Dropbox > Export to Dropbox, and allow SplashID to create a folder in your Dropbox account. Dropbox backup and restore requires a subscription for SplashID Cloud Services and a Dropbox account. You must grant SplashID access to your Dropbox folder to use this feature.
+Fixes the issue with the notes field data being misaligned on iPad.
+Version 7.1.2 - December 13, 2013 - Release Notes:
+Added big Sign In button to login screen
+Now you can import vID files from email attachments. Just tap on the VID attachment in your email app, and select SplashID as the app to open it.
+Now you can use a pattern when changing the password
+Other minor bug fixes
+Version 7.1.1 - November 7, 2013 - Release Notes:
+Full iOS 7 support
+Bug fixes and UI enhancements
+Version 7.1 - October 11, 2013 - Release Notes:
+User interface updated for iOS 7
+Fixed the issue with the pattern login displaying the keyboard
+Fixed an issue with adding custom icons
+Updated app icon
+Version 7.0.13 - September 25, 2013 - Release Notes:
+Compatibility fixes for iOS 7
+Stability improvements
+Fix for edit notes save functionality
+Fix for issue with login screen clearing input upon switching between ABC and 123
+Version 7.0.9 - August 25, 2013 - Release Notes:
+Enhanced performance
+Fixed issue with upgrading with no password set
+Updated FAQs screen with version 7 content
+On WiFi sync, swipe to delete no longer results in sync dialog
+Enhancements to Dedupe screen
+Version 7.0.7 - August 16, 2013 - Release Notes:
+Fixes WiFi licensing issue that some users had on upgrade
+Fixes missing records issue in cloud sync
+Version 7.0.6 - August 13, 2013 - Release Notes:
+Stability enhancements and bug fixes
+Version 7.0.4 - August 6, 2013 - Release Notes:
+First version 7 public release
+ 
+SplashID Safe for Android phones and tablets
+Android OS 4.0 or later
+Android app on Google Play
+Version 8.0 - November 3, 2014 - Release notes:
+Enhanced UI optimized for large high-res screens
+Single screen functionality with advanced list view
+Automated SplashID Backup for cloud users
+Powerful security dashboard to help identify and fix weak, reused, and old passwords
+Deeper integration with web logins for a smoother experience
+Add a credit card record using your device’s camera
+Version 7.2.2 (build 769) - April 30, 2014 - Release Notes:
+Added Google Play in-app purchase options
+Bug fixes and stability improvements
+Version 7.2.2 - April 3, 2014 - Release Notes:
+Deleted attachments stay deleted
+Long tapping on a record brings up an action menu (View, Edit, Delete)
+Fixed an issue with opening records shared from iOS app
+Version 7.2.1 - March 24, 2014 - Release Notes:
+State of the list view is maintained when user returns
+Export feature fixed on Android 2.x
+Notes now reliably displayed in landscape
+Fixed Sort By UI overlapping record count on some screens
+Attachments become encrypted after password change
+Performance and stability enhancement
+Version 7.2 - March 11, 2014 - Release Notes:
+New and improved user interface!
+Complete web login auto-fill and auto-submit functionality
+Share securely feature
+Automatic icon selection based on record name
+2-factor authentication (cloud services subscribers)
+Option to mark a record local only
+Bug fixes and stability improvements
+Version 7.0.8 - November 1, 2013 - Release Notes:
+Fixed an issue where edit button would not open edit mode with certain records
+Stability improvements
+Version 7.0.7 - September 26, 2013 - Release Notes:
+Fixed an issue where add button was not available on tablet devices in landscape mode
+Version 7.0.6 - September 25, 2013 - Release Notes:
+Fixed an issue where edit button was not opening edit record mode
+Version 7.0.5 - September 18, 2013 - Release Notes:
+Login speed is much improved
+Duplicate feature added to Record Details screen
+Version 7.0.4 - September 6, 2013 - Release Notes:
+Cloud licensing issue resolved
+Can now close the activation dialog using the back button to use the app in read-only mode until activated
+Reduced the timeout for network connection on launch to 5 seconds
+Fixed invisible text issue in the Dedupe tool
+Version 7.0.2 - August 13, 2013 - Release Notes:
+Bug fixes and stability improvements
+Version 7.0.1 - August 7, 2013 - Release Notes:
+Fix for upgrade bug
+Version 7.0.0 - August 6, 2013 - Release Notes:
+First version 7 public release
+ 
+SplashID Safe for BlackBerry 10 & Playbook
+BlackBerry 10 or Playbook 2.o
+Download from App World
+Version 7.0.6 - November 2, 2013 - Release Notes:
+Fixed an issue where edit button was not opening edit record mode
+Login speed is much improved
+Duplicate feature added to Record Details screen
+Cloud licensing issue resolved
+Can now close the activation dialog using the back button to use the app in read-only mode until activated
+Reduced the timeout for network connection on launch to 5 seconds
+Fixed invisible text issue in the Dedupe tool
+Bug fixes and stability improvements
+Version 7.0.1 - August 13, 2013 - Release Notes:
+First version 7 public release
+
+SplashID Safe for Windows Phone
+Windows Phone 7.5 or later
+Download from Windows Phone Store
+Version 7.2.2.730 - April 30, 2014 - Release Notes:
+Bug fixes and stability improvements
+Version 7.2.1.719 - April 23, 2014 - Release Notes:
+Fixed "Unable to load database" error.
+Fixed "SelectedIndex" error.
+Attachments now sync to cloud without issues.
+Version 7.2 - March 26, 2014 - Release Notes:
+2-factor authentication (cloud services subscribers)
+Option to mark a record local only
+Bug fixes and stability improvements
+Version 7.1 - January 14, 2013 - Release Notes:
+First version 7 public release

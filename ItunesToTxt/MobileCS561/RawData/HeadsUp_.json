@@ -26,18 +26,18 @@
                         529479190, 
                         553834731, 
                         667728512, 
-                        485126024, 
                         850417475, 
-                        538212549, 
                         506627515, 
+                        538212549, 
+                        485126024, 
                         608206510, 
+                        483165745, 
                         486363584, 
-                        594843575, 
+                        572821456, 
                         469231420, 
+                        529996768, 
                         834393815, 
-                        479516143, 
-                        824318267, 
-                        483165745
+                        694876905
                     ], 
                     "title": "Top Grossing iPad Games Apps"
                 }, 
@@ -49,15 +49,15 @@
                         850417475, 
                         538212549, 
                         608206510, 
-                        506627515, 
-                        563474464, 
-                        855627886, 
                         447553564, 
+                        506627515, 
                         672150402, 
+                        572821456, 
                         860822992, 
-                        479516143, 
                         834393815, 
-                        572821456
+                        694876905, 
+                        855627886, 
+                        694609161
                     ], 
                     "title": "Top Grossing iPhone Games Apps"
                 }
@@ -66,18 +66,18 @@
                 "rating-text": "Rated 4+"
             }, 
             "moreByThisDeveloper": [
-                727420266, 
-                922621329, 
                 575658129, 
+                727420266, 
                 681370499, 
+                922621329, 
                 582417365, 
-                681253652, 
                 349051443, 
+                681253652, 
                 758999884, 
                 663965632, 
                 855556927, 
-                620012789, 
-                669213976
+                805900038, 
+                620012789
             ], 
             "appRatingsLearnMoreUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/appRatings?cc=us", 
             "versionHistory": [
@@ -166,11 +166,11 @@
                 }, 
                 {
                     "price": "$0.99", 
-                    "name": "Branded"
+                    "name": "Super Heroes"
                 }, 
                 {
                     "price": "$0.99", 
-                    "name": "Super Heroes"
+                    "name": "Branded"
                 }, 
                 {
                     "price": "$0.99", 
@@ -195,7 +195,7 @@
             "pageDetails": "Warner Bros._Heads Up!", 
             "pageId": "623592465", 
             "language": "1", 
-            "serverInstance": "1002600", 
+            "serverInstance": "1012803", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
@@ -245,7 +245,7 @@
                 "label": "Warner Bros."
             }
         ], 
-        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/B5E5/frameworks-sf6/images/", 
+        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/95A6/frameworks-sf6/images/", 
         "omnitureMetrics": {
             "shouldTrackBrowserPlugins": false, 
             "format": "HTML", 
@@ -275,14 +275,14 @@
                 ]
             }
         }, 
-        "resourceImagePath": "https://s.mzstatic.com/htmlResources/B5E5/di6-storefront/images/", 
-        "resourceBasePath": "/htmlResources/B5E5/files/", 
+        "resourceImagePath": "https://s.mzstatic.com/htmlResources/95A6/di6-storefront/images/", 
+        "resourceBasePath": "/htmlResources/95A6/files/", 
         "flagLink": {
             "url": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/countrySelectorPage?cc=us", 
             "imageSrc": "https://s.mzstatic.com/images/flags/-dsi-30/usa.png", 
             "imageAltText": "My Store: United States, Choose Store"
         }, 
-        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/B5E5/frameworks-dt6/images/", 
+        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/95A6/frameworks-dt6/images/", 
         "termsLink": {
             "url": "https://www.apple.com/legal/itunes/us/terms.html", 
             "label": "Terms and Conditions"
@@ -418,10 +418,10 @@
                     "releaseDate": "2013-05-02", 
                     "artistId": 298372283, 
                     "userRating": {
-                        "ratingCountCurrentVersion": 94, 
+                        "ratingCountCurrentVersion": 98, 
                         "valueCurrentVersion": 4.5, 
                         "value": 4.5, 
-                        "ratingCount": 3938
+                        "ratingCount": 3940
                     }, 
                     "artistUrl": "https://itunes.apple.com/us/artist/warner-bros./id298372283?mt=8", 
                     "itunesNotes": null, 
@@ -529,17 +529,17 @@
                             "height": 440
                         }, 
                         {
-                            "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/64/7e/d4/647ed4f1-eb12-66cd-5b75-22a5a4b9a1f7/icon220x220.png", 
+                            "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/64/7e/d4/647ed4f1-eb12-66cd-5b75-22a5a4b9a1f7/icon220x220.jpeg", 
                             "width": 220, 
                             "height": 220
                         }, 
                         {
-                            "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/64/7e/d4/647ed4f1-eb12-66cd-5b75-22a5a4b9a1f7/icon400x400.png", 
+                            "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/64/7e/d4/647ed4f1-eb12-66cd-5b75-22a5a4b9a1f7/icon400x400.jpeg", 
                             "width": 400, 
                             "height": 400
                         }, 
                         {
-                            "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/64/7e/d4/647ed4f1-eb12-66cd-5b75-22a5a4b9a1f7/icon512x512.png", 
+                            "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/64/7e/d4/647ed4f1-eb12-66cd-5b75-22a5a4b9a1f7/icon512x512.jpeg", 
                             "width": 512, 
                             "height": 512
                         }
@@ -561,7 +561,7 @@
                         "ipad": [
                             [
                                 {
-                                    "url": "http://a5.mzstatic.com/us/r30/Purple6/v4/54/ba/3b/54ba3b77-01c5-d209-910f-e677b7aa00d8/screen261x261-50.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple6/v4/54/ba/3b/54ba3b77-01c5-d209-910f-e677b7aa00d8/screen261x261-65.jpeg", 
                                     "width": 196, 
                                     "height": 261
                                 }, 
@@ -593,7 +593,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a5.mzstatic.com/us/r30/Purple6/v4/4e/1d/fd/4e1dfdd1-fd27-0608-d1ca-35eaa2fbcade/screen261x261-50.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple6/v4/4e/1d/fd/4e1dfdd1-fd27-0608-d1ca-35eaa2fbcade/screen261x261-65.jpeg", 
                                     "width": 196, 
                                     "height": 261
                                 }, 
@@ -625,7 +625,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a4.mzstatic.com/us/r30/Purple/v4/f3/ff/92/f3ff920b-799c-551a-5036-b4d311855253/screen261x261-50.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple/v4/f3/ff/92/f3ff920b-799c-551a-5036-b4d311855253/screen261x261-65.jpeg", 
                                     "width": 196, 
                                     "height": 261
                                 }, 
@@ -657,7 +657,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple4/v4/61/25/09/61250939-8cb5-8d6b-45db-99bb05219cb1/screen261x261-50.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple4/v4/61/25/09/61250939-8cb5-8d6b-45db-99bb05219cb1/screen261x261-65.jpeg", 
                                     "width": 196, 
                                     "height": 261
                                 }, 
@@ -689,7 +689,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple/v4/02/ba/a8/02baa861-ad7b-fb75-562a-c5f16feba0c5/screen261x261-50.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple/v4/02/ba/a8/02baa861-ad7b-fb75-562a-c5f16feba0c5/screen261x261-65.jpeg", 
                                     "width": 196, 
                                     "height": 261
                                 }, 
@@ -1104,7 +1104,7 @@
         }
     }, 
     "properties": {
-        "ITSResourceRevNum": "B5E5", 
+        "ITSResourceRevNum": "95A6", 
         "isCobaltJavascriptRedirectEnabled": true, 
         "isModern": false, 
         "ITSLogger.ServerReportingApp": "MZUserXP", 
@@ -1114,7 +1114,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "1002600", 
+        "ITSServerInstance": "1012803", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
@@ -1253,7 +1253,7 @@
         "countryCode": "usa", 
         "GlobalLists": {
             "removeFromWishlistUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/removeFromWishlist", 
-            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=B5E5", 
+            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=95A6", 
             "updateRadioHistoryUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/updateRadioHistory", 
             "popover": {
                 "width": "350", 

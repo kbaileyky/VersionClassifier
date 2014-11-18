@@ -1,0 +1,311 @@
+NetNewsWire 4.0 Public Beta 18 (166) - Sept 11 2014
+	•	This will be the final Public Beta.
+	•	Better consistency in titlebar unread count when using the “All Unread feed contains: Favorites” preference.
+	•	Theme switch in Style menu now properly responds to the relevant keyboard shortcut.
+	•	Various improvements to article preview.
+	•	Fixed an application hang under Mac OS X 10.10 Yosemite.
+	•	Extended the demo expiration date.
+	•	Signed with version 2 code signature to support OS X 10.9.5 and 10.10.
+	•	Various bug fixes.
+NetNewsWire 4.0 Public Beta 17 (152) - Mar 13 2014
+	•	NetNewsWire 4 now requires OS X 10.8 or above.
+	•	Added support for feed:// links in browser tabs to bring up the Add Site sheet.
+	•	Empty folder deletion no longer requires confirmation.
+	•	Fixed issue where refreshing sites during a search could dismiss search results unexpectedly.
+	•	Fixed issue that caused articles posted at midnight to show as posted yesterday instead of today.
+	•	Fixed issue with search menu where the up-arrow key could unexpectedly dismiss the selection.
+	•	Fixed issue in the Registration window where every character typed would reset the text field.
+	•	Fixed issue where badly formed unicode strings in a feed could cause database corruption.
+	•	Possibly fixed issue that caused crashes on OS X 10.9 related to NSDisplayOperation.
+NetNewsWire 4.0 Public Beta 16 (151) - Feb 10 2014
+	•	Article scroll position and video play state are no longer reset by a refresh.
+	•	When a folder or site has no article list, the right-arrow key treats it correctly in Sites List.
+	•	Should NetNewsWire crash, the app will perform an integrity check and possibly prompt to send a diagnostic email to support.
+	•	The “Find in Article” bar no longer hides on returning to a tab where a search was performed.
+	•	Default column widths have been improved.
+	•	Additional tweaks, nudges and modifications to make NetNewsWire better and more reliable.
+NetNewsWire 4.0 Public Beta 15 (150) - Jan 20 2014
+	•	Better visual consistency between search result article lists and regular lists.
+	•	Better “typewriter” scrolling when scrolling up.
+	•	Corrected inaccuracies in the Help documentation.
+	•	Fixed issue that made it difficult to resize the window from the lower right corner when the tab indicator was showing.
+	•	Fixed issue where re-entering a search term twice could result in no search.
+	•	Fixed issues that could cause thumbnails to not appear for tabs on relaunch.
+	•	Fixed issue that would cause keyboard shortcuts to stop working on some web pages.
+	•	Fixed crash when attempting to add a URL of the form ‘http:apple.com’.
+	•	Fixed issue that prevented feed:// URLs from opening correctly.
+	•	Fixed issue where using the Go menu would sometimes not switch to the News Items tab.
+	•	Better stability and memory usage.
+NetNewsWire 4.0 Public Beta 14.1 (148) - Jan 9 2014
+	•	Fixed a crash on startup that affected some users.
+	•	Dialed down the frequency at which that new “Opened in Browser” notification appears. :)
+NetNewsWire 4.0 Public Beta 14 (145) - Jan 6 2014
+	•	An “Opened in Browser” notification now displays when a link is opened in an external browser.
+	•	The arrangement of sites, folders and their contents is now preserved on import if the sidebar sort order is set to “manual” in both NetNewsWire 3 and NetNewsWire 4.
+	•	An issue where the selected article could lose focus when using the Remove Site contextual menu item and then cancelling the action has been fixed.
+	•	An issue where the status of an article in a folder might not update to Read when moving back to its enclosing folder has been fixed.
+	•	An issue where removing a site in a folder from a site other than the one being viewed would cause the selected article to lose focus has been fixed.
+	•	When hovering over a link in an article in dark mode, the status bar now shows the link address in dark mode colors as expected.
+	•	An issue where interaction with a site name appears possible when a sheet is open has been fixed.
+	•	If the Preferences window is closed when the Fonts panel is open, it now retains its custom view.
+	•	The global search term is retained when switching to and from NetNewsWire with the insertion cursor where it was before switching.
+	•	When Hide Read Articles is active, the selected article now remains in focus when switching between views.
+	•	The Bookmark icon is properly grayed out now when the Toolbar is set to Text Only and no article is selected.
+	•	Fixes for memory leaks.
+	•	Stability and performance fixes.
+NetNewsWire 4.0 Public Beta 13 (143) - Dec 16 2013
+	•	Added an Open in Browser toolbar button. Choose “Customize Toolbar…” to see it.
+	•	The Sites List now fully supports type-ahead. Click anywhere in the list and start typing the name of a site.
+	◦	Articles (a, an, the) are ignored.
+	•	Articles are also ignored when arranging sites Automatically by Name.
+	•	Double-clicking or control-clicking the News Items tab now works as you’d expect.
+	•	Added more visual feedback for articles opened in an external browser.
+	•	The Close Window command behaves better with regards to context.
+	•	Fixed some keyboard shortcut inconsistencies.
+	•	Selected articles are better kept in focus when other actions are taking place.
+	•	NetNewsWire will now insist on quitting safely when it detects that it has been moved while running.
+	•	Fixed a crash that was affecting some users updating their databases with Public Beta 12.
+	•	Various performance and stability improvements.
+NetNewsWire 4.0 Public Beta 12 (140) - Dec 3 2013
+	•	Quick Look for article images! Activate it via the contextual menu. Great for zooming in on webcomics and much more.
+	•	Native help content with the Mac OS Help Viewer. Try it, you might learn something.
+	•	Separated out Hide Read Articles from Hide Read Sites, so you can toggle these individually via View menu or keyboard shortcuts.
+	•	Keyboard shortcuts have been overhauled for better consistency. If you’d like to stick with the NetNewsWire 3 shortcuts, you can select that option in Preferences.
+	•	Added a button in the article preview to permit toggling between sidebar and full-width images. This won’t affect images which are full-width already.
+	•	Dark and Light Themes can be switched via a keyboard shortcut.
+	•	The ‘esc’ key now works to cancel out of the global search.
+	•	Added a Stop/Reload button to the right side of the browser address bar.
+	•	Better handling of the Close-Tab-slash-Close-Window keyboard shortcut.
+	•	Added support for Sharing to VoodooPad 5.
+	•	Right-clicking on a an embedded video in an article pane now displays a more appropriate menu.
+	•	More consistent behavior for font size adjustments triggered by the keyboard, menu or Style popover.
+	•	Style popover can now be used to adjust text size in browser tabs as well as articles.
+	•	New folders are now selected if they are added inside another folder.
+	•	The open tab indicator now only appears when needed.
+	•	Positioning of the Share popover has been improved throughout to better indicate what is being shared.
+	•	Fixed a problem where right-clicking on a link in the article preview would share the article’s URL, not the link’s URL.
+	•	When NetNewsWire is opened from a folder other than Applications you will be prompted to move it to Applications. When accepted, it is now moved to Applications rather than copied.
+	•	After changing sort order, the Site list is scrolled if necessary to keep the selected item in view.
+	•	Tweaked menu items for consistency.
+	•	Fixed An inconsistency showing and hiding the Tab Bar when it is already visible.
+	•	Performing a text search via Find Next across multiple articles in sequence has been improved.
+	•	Better support for tabbing through controls when the Keyboard System Preferences is set to All Controls.
+	•	Added more tooltips where appropriate.
+	•	Significantly improved stability.
+NetNewsWire 4.0 Public Beta 11 (135) - Nov 4 2013
+	•	When tabs are open a new tab indicator appears at the bottom right of the article pane. Clicking it shows or hides the tab bar. Eventually this will only show when tabs are otherwise hidden.
+	•	Fixed many issues with Undo handling, and should now work more consistently with Mark as Read and Mark All as Read operations.
+	•	Added Undo for bookmarking.
+	•	Closing tabs is improved. When closing tabs: if a tab below the current tab exists (the Next Tab), that tab is selected. If there is no other tab below it in the list, the tab above it (the Previous Tab) is selected. Also the Close Tab menu item is properly updated when switching to a tab from News Items.
+	•	Added tooltips to Share and Bookmark article buttons.
+	•	When text is deleted from the global search field using the “delete” key, focus now remains in the field so another search term can be entered.
+	•	The toolbar display settings now persist when switching between global search and browsing feeds.
+	•	An anomaly in the article list divider font appearance has been fixed.
+	•	The Share menu items are more consistently inactive in situations where they don’t apply.
+	•	Fixed a crash when switching between Dark and Light Themes and Standard Layout and Classic Layout.
+	•	A potential crash where switching layouts when the share popover was open has been fixed.
+	•	The “Allow Plug-ins” preference is now retained between launches and appropriately changes the ability to display related video.
+	•	A number of stability and performance improvements have also been included.
+NetNewsWire 4.0 Public Beta 10 (132) - Oct 21 2013
+	•	Fast Mode enabled! Significant performance enhancements include:
+	◦	Feed deletion is much faster.
+	◦	Mark All As Read is much much faster.
+	◦	Populating the article list for long sets is faster.
+	◦	(Fast Mode will do some initial cleanup on first launch; this might cause a brief, one-time slowdown.)
+	•	Better handling of images within article paragraphs.
+	•	Double-clicking a browser tab now opens that tab in your default browser.
+	•	Preference window now remembers which preference pane you select.
+	•	Added handling for more (incorrect) date types in feeds.
+	•	Lots of visual tweaking.
+	•	Better handling of App.net errors.
+	•	Adjusted menu items for Show, Hide and Automatically Show & Hide tab bar for better clarity.
+	•	Dark Theme now extends to search controls.
+	•	Search fields can be exited with the escape key.
+	•	Further consistency improvements to contextual menus.
+	•	Browser tab text size can now be adjusted via the Style popover, as if it were a news article.
+	•	Better article text consistency and other cleanup.
+	•	Improved keyboard support for Full Keyboard Access.
+	•	Goodbye linen when running on 10.9.
+	•	Switching read state on the selected article is now more visibly obvious.
+	•	Switching layouts now leaves keyboard focus on the article list.
+	•	Fixed issue where you could end up feeds with blank names after editing them.
+	•	Fixed issue where the “Show Pictures” preference was available when the selected layout did not support thumbnail images.
+	•	Fixed issue where “Hide Thumbnails” for tabs was not respected across launches.
+	•	Fixed issue where Classic Layout wasn’t handling untitled articles as well as Standard Layout.
+	•	Fixed issue where browser tabs would sometimes lose their addresses in the address field.
+	•	Fixed issue where command-B to open an article in a browser would use the inverse “Open in background” preference.
+	•	Fixed sandboxing issues on 10.7.
+	•	Fixed the fact that the Style popover was allowing a user to change the text size when no article was shown.
+	•	Fixed the fact that “Reset Default Fonts” would not always reset to the proper defaults.
+	•	Fixed issue where when switching from Light to Dark Theme or vice versa, the News Items tab would not always switch.
+	•	Fixed issue where some sites would fail to be added properly on 10.7.
+	•	Fixed issue where shift-space would not jump up to the next article beyond a group header.
+	•	Fixed issue where sometimes vertical scroll gestures in a browser tab were interpreted as a left/right swipe gesture and would perform Back or Forward.
+	•	Fixed issue where clicking on an article group header would select the wrong article.
+	•	Fixed memory leaks.
+	•	Fixed a bunch of crashers.
+NetNewsWire 4.0 Public Beta 9 (130) - Oct 7 2013
+	•	Visual feedback when an article is opened in a hidden tab. This may change.
+	•	Additional cleanup on contextual menus.
+	•	Better performance for the full unread count recalculation operation.
+	•	Better handling of article images within paragraphs.
+	•	Instapaper’s login view is now consistent with other sharing service login views.
+	•	Sharing popovers should no longer dismiss when the app loses focus.
+	•	Better error handling for App.net sharing.
+	•	Fixed issue where deleting a feed would not always remove its counterpart from Favorites.
+	•	Fixed issue where “Close All Tabs” was not enabled when only one browser tab was open.
+	•	Fixed issue where “Close All Tabs” was losing its keyboard shortcut equivalent.
+	•	Fixed issue where numbered XML entities were not getting decoded properly in article previews.
+	•	Fixed issue where some articles would have room for a thumbnail but weren’t drawing it.
+	•	Fixed issue where the article list would flash when toggling “Show Pictures” in Preferences.
+	•	Fixed issue that caused browser tabs to sometimes not display their URLs properly in the address field.
+	•	Fixed issue where using the keyboard equivalent for Open in Browser would use the opposite setting for “Open in Background.”
+	•	Fixed issue where “Open in Browser” was not available when in a browser tab.
+	•	Fixed issue where “Mark as Read/Unread” was marked available when in a browser tab when it should not have been.
+	•	Fixed issue that would sometimes cause updates to fail in 10.7.
+	•	Fixed issue where holding down the spacebar would not correctly advance through your unread items.
+	•	Fixed issue where hitting a download in a browser tab could sometimes cause that download to trigger multiple (okay, infinite) times.
+	•	Fixed issue where certain feeds (for example MacDailyNews) would not display their articles at all, or very slowly.
+	•	Fixed issue where Favorites would show as a valid drop target for dragged folders when it shouldn’t.
+	•	Fixed issue with moving a feed into a folder while using Hide Read Items being disallowed.
+	•	Fixed issue where the registration window was not centered on the screen by default.
+	•	Fixed issue where dates could be empty in Classic Layout.
+	•	Fixed issue where focus was not automatically given to the login field in the App.net login view.
+	•	Fixed issue where the theme toggle switch would have a focus ring regardless of your Full Keyboard Access setting.
+	•	Fixed issues where the News Item thumbnail wasn’t always updating correctly.
+	•	Fixed issue where shift-space was not moving back through articles.
+	•	Fixed issue where the article would always reload when returning to the News Items tab, causing you to lose your scroll position.
+	•	Fixed crasher that could occur when adding certain sites, if the stars were lined up just right.
+	•	Fixed crasher that could occur while changing fonts via the Font Panel in Preferences.
+	•	Fixed issue where removing a site from All Unread via the article context menu could leave you with blank articles.
+	•	Fixed issue that was causing NetNewsWire to request use of discrete video cards when available.
+	•	Fixed crasher that could occur if you were fast enough to close the welcome window while it was doing an animation.
+	•	Fixed memory leaks.
+	•	Fixed many small UI issues.
+	•	Fixed many more crashers.
+NetNewsWire 4.0 Public Beta 8.1 (128) - Sept 27 2013
+	•	Fixed a crash related to closing tabs.
+NetNewsWire 4.0 Public Beta 8 (127) - Sept 24 2013
+	•	Article margins can now be adjusted via the Style popover.
+	•	Links can be set to open in a background tab within NetNewsWire. Set this option in Preferences, or toggle it on the fly with the command key.
+	•	The “Hide Read Items” option will now hide sites and folders when they have no unread articles. Use command-shift-H to quickly toggle this on and off.
+	•	Overhauled contextual menus throughout the app for consistency, clarity and brevity.
+	•	Introduced “typewriter scrolling” for the articles list. Use the down-arrow key or spacebar to try it out.
+	•	When you’re at the the last article of a site and choose “Next Unread,” NetNewsWire previously looked for the next site or folder to select for you in the sourcelist. Now in the case of an open folder, NetNewsWire will prefer selecting a site within it over blindly selecting the folder itself.
+	•	The Favorites group in the source list now remembers its collapsed/expanded state across launches.
+	•	Better searching when not using the “Author” or “Title” search selections.
+	•	Better handling of invalid sites.
+	•	Selecting all sites in the sourcelist via cmd-A now works as expected.
+	•	Fixed issue where some images would be wider than the article detail view.
+	•	Fixed issue where the unread counts for the News Feed items would stick around after all sites were removed.
+	•	Fixed issue where switching sites would not always scroll the article list back to the top.
+	•	Fixed issue where the article list could disappear when it was resized to its minimum width.
+	•	Fixed issue where closing a browser tab with a playing video could result in the audio continuing.
+	•	Upgraded to the latest version of the HockeySDK for better crash logs.
+	•	Some good code clean up.
+	•	Fixed memory leaks.
+	•	Lots of bug and crash fixes.
+NetNewsWire 4.0 Public Beta 7 (120) - Sept 9 2013
+	•	Added the option to switch between two application layouts: Standard and Classic. Classic Layout is an update to what was known as “Traditional View” in NetNewsWire 3.
+	•	Added a button to reset font choices to their defaults in Preferences.
+	•	Command key will now reverse the “Open in background” setting when opening a link.
+	•	NetNewsWire now backs up your sites list to an OPML file in the event that they need to be restored.
+	•	The article list now flashes its scroller when we’ve updated its contents to give the user an indication of how many articles are in there.
+	•	Improved handling of malformed RSS and ATOM feeds.
+	•	Improved launch time.
+	•	Massive speed up of unread counts calculations, making the app usable with a much higher number of feeds.
+	•	Removed tab switching animation, making the app feel faster.
+	•	Fixed issues with performing searches within selected feeds.
+	•	Fixed issue where the window would be drawn in its inactive state when it isn’t inactive.
+	•	Fixed crash that could occur if you imported multiple OPML files.
+	•	Fixed issue where browser tabs could find themselves inserted above the News Items tab (for reals this time).
+	•	Fixed issue where the unselected bookmark button could show beside the bookmark of an article if the text was sufficiently large.
+	•	Fixed issue where highlight of search options wasn’t following the user’s mouse on certain system configurations.
+	•	Fixed issue where sometimes Javascript or CSS could show up in the preview text for articles.
+	•	Fixed issue where the window title was not respecting the user’s unread count preferences.
+	•	Fixed issue where editing a site name, deleting the name and pressing the escape key would not restore its original name, instead leaving you with a nameless site.
+	•	Fixed issue where selecting all feeds and folders in the side bar would select header items as well.
+	•	Fixed issue where clicking the (x) button on the search field would leave the search field with keyboard focus.
+	•	Fixed issue where the tooltip for selected items in the source list would look odd.
+	•	Improved stability. Keep sending in those crash reports.
+	•	Removed everything Google Reader related. Goodbye old friend.
+NetNewsWire 4.0 Public Beta 6 (117) - Aug 26 2013
+	•	NetNewsWire is now sandboxed.
+	•	Added support for posting to App.net. You can sign up for a free account.
+	•	Added the ability to axe an offending site from its article list context menu.
+	•	The share popover got a small makeover. More refinements to come.
+	•	Importing from OPML files will now show a progress indicator in the status area.
+	•	Improved OPML file support to allow importing from a wider range of applications.
+	•	Added the name of the site to the article view.
+	•	Improved text across the app to be more consistent and descriptive.
+	•	Better handling of errors when adding sites to indicate which site caused issues.
+	•	Better handling of articles with empty titles.
+	•	Fixed issue where the Today feed would not respect the user's preference to hide read articles.
+	•	Fixed a slew of XML Parsing issues that affected RSS and ATOM feeds.
+	•	Fixed issue where certain feeds would show a blank white thumbnail instead of a real thumbnail.
+	•	Fixed issue that would cause some articles’ images to display as thumbnails but not show up in the article itself.
+	•	Fixed issue that caused the app to not come out of minimized state by clicking on the dock icon.
+	•	Fixed issue that caused some site names to not appear correctly in the sidebar.
+	•	Fixed issue that caused dates to appear incorrectly on some feeds.
+	•	Fixed issue where saving an image would sometimes propose an odd filename.
+	•	Fixed issue where error icons could show up on folders in the side bar.
+	•	Fixed issue where the refresh button wouldn’t disable itself when a sheet was present.
+	•	Fixed issue where switching panes in the Preferences window could be slow.
+	•	Improved stability. Keep sending in those crash reports.
+	•	There is no missing Beta 5.
+NetNewsWire 4.0 Public Beta 4 (113) - Jul 29 2013
+	•	A much improved, more complete Dark Mode. Your eyes are welcome.
+	•	Adjustments and many improvements to the user experience for Search.
+	•	Fine-tuned the behavior of swipe gestures.
+	•	Better handling and user experience for cases where NNW has lost internet connectivity.
+	•	Better handling and display of errors that happen when refreshing sites.
+	•	Fixes for potential issues with incorrect unread counts. If you see any more unread count trouble, please let us know immediately.
+	•	Fixes for NNW3 import failures and stability problems.
+	•	Fixes for potential instability related to Mark All As Read.
+	•	Fixes for problems with expansion of folders in the source list on launch.
+	•	Fix for an issue where dragging a browser tab might duplicate it.
+	•	Stability and data integrity improvements. Keep sending in those crashes!
+	•	Performance improvements, especially for large numbers of sites.
+NetNewsWire 4.0 Public Beta 3 (111) - Jul 15 2013
+	•	Fixed issue where opening or switching tabs could cause a lockup of up to 1 second on certain Macs.
+	•	Fixed sharing of browser tabs so that they behave as you would expect.
+	•	Removed the “Load Unloaded Tabs” menu item as it should now be unneeded.
+	•	Tweaked app icon to be less “droopy.”
+	•	Tweaked LetsMove to avoid overwriting an existing app you might have in /Applications.
+	•	Fixed issue where manually placing a site in a folder could position it at the incorrect location.
+	•	Fixed issue where manual sort ordering was lost on relaunch.
+	•	Fixed issue where the notification bezel could display large when it shouldn’t.
+	•	Better parsing of ATOM feeds to fix issues with certain invalid sites.
+	•	Fixed issue where Popular Sites wouldn’t detect some of the sites you had previously added.
+	•	Fixed issue where when all sites within a Popular Sites section were added, it would only show the mixed checkbox instead of a full check.
+	•	Fixed issue where the source list had no scrollbar.
+	•	Fixed issue where the unread count of a site could get clipped.
+	•	Find Next and Find Previous menu items should now cycle you through find bar results.
+	•	Fixed issue that could cause import from OPML files generated with NetNewsWire 4 Lite to fail or crash.
+	•	Tweaked article retention behavior: Unread articles are no longer removed when they aren’t found on the site.
+	•	Global search results now have similar (pretty) styling as find bar results.
+	•	Fixed the fact that exporting browser tabs always wanted to export as HTML regardless of the format chosen.
+	•	Fixed issue where share and bookmark controls in the article viewer would move towards the centre of the window when the window was very wide.
+	•	The source list now selects a site after you’ve deleted items.
+	•	Fixed issue where the refresh progress indicator would stop spinning when menus were shown.
+	•	Fixed issue on 10.8 where the official Twitter app was required on the system to share via twitter.
+	•	Fixed issue where certain types of popup ads could actually resize the whole app’s window.
+	•	Fixed issue that caused it to be difficult to get the main window to re-appear if you closed it.
+	•	When “Hide Read Articles” is selected, read articles are now filtered out of Today and Favorites.
+	•	Fixed issue where some read articles’ thumbnails would not appear as such in the article list.
+	•	Fixed issue where clicking on any toolbar item when the toolbar was configured to be Text-only would cause it to switch to Icon and Text mode.
+	•	Fixed various minor UI issues.
+	•	Fixed retina issues.
+	•	Improved stability. Keep sending in those crash reports.
+NetNewsWire 4.0 Public Beta 2 (109) - Jul 8 2013
+	•	Browsing tabs will now remember their URLs across launches even when initially created empty via the New Tab menu item.
+	•	When switching between retina and non-retina displays, the article font will automatically change between Helvetica Neue and Helvetica if you’ve chosen those fonts.
+	•	Fixed issue where certain articles would get marked unread again after a refresh.
+	•	Importing from OPML files is greatly improved.
+	•	The Favorites News Feed makes it clear which site articles are from by displaying their favicon.
+	•	The license/registration window should no longer fall underneath the main window after purchase.
+	•	It should now be possible to hide tabs even when only one tab remains.
+	•	Fixed an issue that made it impossible to create a subfolder of a folder imported from NetNewsWire 3 or Google Reader.
+	•	Improved stability. Keep sending in those crash reports.
+NetNewsWire 4.0 Public Beta (108) - Jun 20 2013
+	•	Hello, world!

@@ -1,0 +1,1422 @@
+**** I had to cut out latest releases because they did not record the dates they were released!!!!! - Kendall
+
+Aptana Core 3.2.2 (2012-08-31)
+Fixes and improvements across a range of items. For a complete list, see the release notes section in JIRA.
+
+Notable issues
+	•	APSTUD-7244
+	•	APSTUD-7217
+	•	APSTUD-7176
+	•	APSTUD-7160
+	•	APSTUD-5028
+	•	APSTUD-4986
+	•	APSTUD-4867
+	•	APSTUD-23
+
+Aptana Core 3.2.1(2012-07-31)
+A selection of fixes to improve the developer experience. For a complete list, see the release notes section in JIRA.
+
+Notable issues
+	•	Fixed an issue with multiple instances of the same item appearing in the JavaScript outline.
+	•	Upgraded Rhino to a new version to substantially improve JS Lint parsing time.
+	•	APSTUD-4896
+	•	APSTUD-4875
+	•	APSTUD-4810
+	•	APSTUD-4765
+	•	APSTUD-4925
+	•	APSTUD-4808
+If you have an issue with slow indexing of files, we've made a number of changes recently. Try doing a 'Project > Clean' on all projects.
+
+Aptana Core 3.2.0 (2012-06-29)
+A roll-up release with a few major tweaks to speed development. For a complete list, see the release notes section in JIRA.
+
+JavaScript
+	•	We've added a new high-performance JavaScript Style validator that does much of what JSLint does, but in a fraction of the time. Try turning it on in Preferences > Studio > Validation > JavaScript
+	•	We've also filtered out a lot of style warnings from JSLint.
+	•	Outline view now descends into conditional statements.
+
+HTML, CSS and PHP
+	•	Studio 3.1.3 introduced a bug with slow typing in large files where word wrap was enabled. We've corrected that.
+	•	HTML validation filters have been re-enabled.
+	•	Fixed bugs in PHP indexing.
+
+Other items of note
+	•	We've re-enabled support for the "dropins" folder.
+	•	Tweaks/Fixes to the Find bar.
+
+Aptana Core 3.1.3 (2012-05-31)
+A rather significant bug fix release with over 70 items. For a complete list, see the release notes section in JIRA.
+
+New Items
+	•	The find bar now supports multi-line search!
+	•	You can now file bugs and improvements from inside Aptana Studio. Check out Help > Troubleshooting > Aptana Studio > Submit Ticket.... If you don't have a JIRA account, please sign up at http://jira.appcelerator.org
+	•	Scope selectors in Rubles can now use grouping, intersection and union operators
+
+JavaScript
+	•	JavaScript now has additional options for improved formatting placement of spaces around parentheses
+	•	Local variables inside functions are back again in content assist
+	•	Formatting fixes
+	•	ScriptDoc improvements
+
+HTML and CSS
+	•	Notable speedup in CSS parsing
+	•	CSS and HTML text hovers have been improved with additional information
+	•	HTML snippets will no longer display inside HTML attribute values, unless specifically scoped to do so
+
+PHP
+	•	The PHP outline now shows functions inside conditionals
+	•	PHP now supports parent:: autocompletion
+
+Bugs of Note
+	•	APSTUD-4830
+	•	APSTUD-4774
+	•	APSTUD-4756
+	•	APSTUD-4731
+
+Aptana Core 3.1.2 (2012-05-11)
+This small release most noticeably addressed some issues uncovered as part of the 3.1.1 release.
+	•	APSTUD-4699
+	•	APSTUD-4663
+	•	APSTUD-4662
+	•	APSTUD-4656
+	•	APSTUD-4411
+For a complete list, see the release notes section in JIRA.
+
+Aptana Core 3.1.1 (2012-04-17)
+This small release most noticeably addressed some speed issues in the JS and CSS editors, and fixed a long-standing issue whereby a user could accidentally delete a file using the "Undo" command.
+	•	APSTUD-4410
+	•	APSTUD-3422
+	•	APSTUD-4475
+	•	APSTUD-4408
+For a complete list, see the release notes section in JIRA.
+
+Aptana Core 3.1 (2012-02-12)
+For full details on the hundreds of changed items since 3.0.9, see the Aptana Core release list. Some additional highlights:
+
+Editor Improvements
+We've now enabled functionality that enables you to get content assist on user-defined functions without needing to save the file first. In addition, we've aded content assist on both hover and in Dynamic Help to give far more information than before about the functions and methods across the JavaScript APIs.
+Typing /** before a JavaScript function will now automatically add a documentation header.
+/**
+ *
+ * @param {Object} a
+ * @param {Object} b
+ * @param {Object} c
+ */
+ function foo(a, b, c) {
+
+ }
+If you create a function in one file, and use it in another, you can now access Open Declaration (also via the F3 key) which will jump you back to the source definition
+Validation updates: We now validate the whole project (as opposed to just the current file) as part of the build step, and we'll warn you before launching if the current project has errors.
+
+New Views
+	•	A Snippets that provides easy access to the complete list of snippets shipped with Studio, as well as simple ways to filter, preview and edit the list
+	•	A Servers view for stopping, starting and restarting external servers used for preview
+
+PHP Debugger Beta
+Been missing debugging in PHP? We've added support! Check out the ticket for full details.
+
+Additional Notable Changes
+	•	Studio 3.1 is now built on top of Eclipse 3.7.2
+	•	We've done substantial work on decreasing the amount of processes during startup and editing to improve the editor experience.
+	•	Multiple improvements to the syntax colorization and formatting infrastructures.
+
+Aptana Core 3.0.9 (2012-02-29)
+A very minor release as we gear up to a much larger Aptana Studio 3.1
+
+Bugs
+	•	APSTUD-4269
+	•	APSTUD-4184
+
+Aptana Core 3.0.8 (2012-01-31)
+A release focusing on improvements to core functionality
+	•	Addresses an issue with a possible freeze while performing a git push
+	•	Fixes for the accidental insertions of extra spaces during formatting
+	•	Corrects two cases where the editor may freeze while writing PHP regexes or collapsing code.
+
+Features
+	•	APSTUD-3984
+	•	APSTUD-4020
+	•	APSTUD-4157
+
+Bugs
+	•	APSTUD-2132
+	•	APSTUD-3610
+	•	APSTUD-3631
+	•	APSTUD-3687
+	•	APSTUD-3875
+	•	APSTUD-3898
+	•	APSTUD-3926
+	•	APSTUD-3962
+	•	APSTUD-3973
+	•	APSTUD-3981
+	•	APSTUD-3992
+	•	APSTUD-3993
+	•	APSTUD-4005
+	•	APSTUD-4007
+	•	APSTUD-4024
+	•	APSTUD-4027
+	•	APSTUD-4033
+	•	APSTUD-4034
+	•	APSTUD-4039
+	•	APSTUD-4051
+	•	APSTUD-4062
+	•	APSTUD-4069
+	•	APSTUD-4075
+	•	APSTUD-4112
+	•	APSTUD-4134
+	•	APSTUD-4137
+	•	APSTUD-4142
+	•	APSTUD-4155
+	•	APSTUD-4158
+	•	APSTUD-4173
+	•	APSTUD-4181
+	•	APSTUD-4211
+
+3.0.7 Release V2 (2012-01-10)
+See here for complete details.
+
+3.0.7 Release (2011-12-20)
+Large update with a few new features, but long on bug fixes. In general, we continued to work on adding polish to the editors, and improve speed wherever we can.
+
+New Features and Improvements
+	•	APSTUD-2907: Pick up existing git commit messages after failed cherry-pick due to merge conflict
+	•	APSTUD-3109: Add separator line to "New From Template" menu, dividing template groups
+	•	APSTUD-3125: Add new items to Bundle View
+	•	APSTUD-3168: <CTRL + Enter> inserts <br/> and not <br />
+	•	APSTUD-3300: Create Snippet Validation Process
+	•	APSTUD-3310: XML Editor takes a long time to colorize large files when mark occurrences is on
+	•	APSTUD-3369: Allow disabling the PHP error markers
+	•	APSTUD-3436: [Startup Speed Improvement] Implement lazy themes loading
+	•	APSTUD-3438: [Speed Improvement] Cache ScopeSelector.toString() computed value
+	•	APSTUD-3446: Syntax for user-defined PHP functions are under the wrong scope
+	•	APSTUD-3461: Missing CSS3 properties support
+	•	APSTUD-3484: Allow definition of one-or-more application bundle directories
+	•	APSTUD-3491: Auto-select checkbox in wizard template page when selecting on a template
+	•	APSTUD-3498: Set example text in Git import dialog for URI field and don't show error state for no URI until user begins typing or tries to finish
+	•	APSTUD-3504: Bundles view uses monospaced font
+	•	APSTUD-3656: Allow comment processing in JSParser to be optional
+	•	APSTUD-3705: Better report current status of Delayed Presentation Reconciler
+	•	APSTUD-3706: Only colorize currently viewport in large documents
+	•	APSTUD-3708: Add command-line flag(s) to turn off and configure delayed presentation reconciling
+	•	APSTUD-3721: Create Menu validation tool for Rubles
+	•	APSTUD-3772: Allow contributing samples to Samples view through rubles
+	•	APSTUD-3791: Improve ability to debug templates inside the new project wizards
+	•	APSTUD-3825: Enable specification of project template icon via Ruble
+	•	APSTUD-3900: Add callback mechanism to allow Portal to listen for Samples and Templates updates
+	•	APSTUD-3767: Allow to manually change content assist delay to 0
+	•	APSTUD-3924: Ability to control the auto closing of quotes and brackets separately
+
+Bugs
+	•	APSTUD-245: Release s3 as an optional file system
+	•	APSTUD-255: Unable to drag a filesystem file and drop into a project in File View
+	•	APSTUD-295: PDT steals CSS/JS editor from Studio
+	•	APSTUD-296: Add Copy/Paste to file system files
+	•	APSTUD-469: Connection Manager dialog - items in comboboxes aren't sorted alphabetically
+	•	APSTUD-537: Via Tender: Studio does not start when My Documents is in a non-standard location
+	•	APSTUD-603: FTP directory listing problem
+	•	APSTUD-620: Icons in JS content assist is cut off in Ubuntu* APSTUD-626: If authentication fails during Test/Browse of FTP connection dialog, allow user to re-enter credentials as part of error dialog
+	•	APSTUD-678: Mark occurrences feature for PHP non-existent
+	•	APSTUD-710: HTML: Code assist of HTML entities eats characters
+	•	APSTUD-833: Can't update Aptana 3
+	•	APSTUD-838: Auto Refresh
+	•	APSTUD-1714: php @var type-hinting has no effect on code assist* APSTUD-1739: Some of the file templates are empty
+	•	APSTUD-1777: PHP Format
+	•	APSTUD-1812: Pydev shows blank tab when editing a file beginning with '.'
+	•	APSTUD-1826: Add unit test cases for Ruby content assist* APSTUD-1987: Wrong "My documents" default
+	•	APSTUD-2034: New > File inside Connections node doesn't use our wizard hooked up to templates
+	•	APSTUD-2108: /**/ comments cause for wrong colors display and errors while formatting
+	•	APSTUD-2224: Ruby CA: suggest singleton methods for classes
+	•	APSTUD-2266: Aptana Rubles unable to run in Aptana Studio 3.0 Release
+	•	APSTUD-2448: Upload progress says Skipping files when it actually uploads
+	•	APSTUD-2693: Javascript mode overwrites global "Find" binding
+	•	APSTUD-2949: "Table lacks summary attribute" should not be required
+	•	APSTUD-2966: Remove Ctrl + H as "Documentation for Word" command binding
+	•	APSTUD-3011: CSS Code Assist actively preventing me from adding new classes
+	•	APSTUD-3035: NPE in BundleEntryNode.getLabel()
+	•	APSTUD-3051: With word wrap on, wrapped lines should not receive line numbers.
+	•	APSTUD-3056: PHP Code Assist problem with inherited classes
+	•	APSTUD-3082: Sass file comments more than one line are not correctly colorized
+	•	APSTUD-3106: Aptana Should Not Offer Empty JSON Template
+	•	APSTUD-3145: WST JS editor unusable with default theme
+	•	APSTUD-3147: Random errors in scripting unit tests
+	•	APSTUD-3150: NullPointerException in CommandBlockRunner.applyEnvironment()
+	•	APSTUD-3152: JS outline 'link with editor' only works one-way when the JS is embedded in HTML
+	•	APSTUD-3153: NullPointerException in RecentFilesBrowserNotification.runInUIThread()
+	•	APSTUD-3161: All jQuery Commands Return Command Not Defined Error
+	•	APSTUD-3169: JAVASCRIPT: switch statement breaks formatting
+	•	APSTUD-3173: JS Debugger incompatibile with FireBug 1.8
+	•	APSTUD-3174: PHP: Cannot fold HTML tag with child PHP Nodes
+	•	APSTUD-3176: Cant use rake tasks, getting "java.lang.NullPointerException" error
+	•	APSTUD-3179: Random ASCII Symbol in Shell Script Command "Documentation for Word Selection" Response
+	•	APSTUD-3197: ConcurrentModificationException in DiskIndex.computeDocumentNames()
+	•	APSTUD-3199: ConcurrentModificationException in MemoryIndex.addQueryResults()
+	•	APSTUD-3200: Can't open Aptana Studio as regular user after installing and running as admin user
+	•	APSTUD-3207: Provide correct scope of defined constants "constant.other.php"
+	•	APSTUD-3214: JavaScript: Formatting destroys incrementation operator
+	•	APSTUD-3222: Aptana offers empty Sass and YAML templates
+	•	APSTUD-3229: Saving Files Dismisses Folding Options
+	•	APSTUD-3239: Aptana Will Autocomplete XML Heading Incorrectly
+	•	APSTUD-3241: No Sass Auto-Indentation
+	•	APSTUD-3242: PHP methods/functions help displays HTML source on hover
+	•	APSTUD-3246: CoffeeScript: Incorrectly colorizing text as a regular expression
+	•	APSTUD-3253: New From Template Sort Should Be Case-Insensitive
+	•	APSTUD-3261: Bad regexp in ruby source code causes Aptana to raise execption in com.aptana.editor.ruby.MergingPartitionScanner.setLength and not display the editor.
+	•	APSTUD-3262: Language Templates Have Multiple Locations
+	•	APSTUD-3294: CLONE - "this" gets transformed to "thistory" in JavaScript content assist
+	•	APSTUD-3305: jQuery CA not showing static methods
+	•	APSTUD-3308: Aptana Studio create Start Menu path that doesn't include the word "Aptana"
+	•	APSTUD-3309: Remove or Simplify PortableGit installation dialog
+	•	APSTUD-3313: Function invocation is not formatted correctly in JS
+	•	APSTUD-3323: XML Editor auto-closes tag inside an attribute when typing '<'
+	•	APSTUD-3333: Embed tag with source attribute causes editor to hang
+	•	APSTUD-3335: Fix failing CSS Content Assist Processor tests
+	•	APSTUD-3337: Error while formatting JavaScript code
+	•	APSTUD-3342: NPE in BrowserConfigurationManger.readElement()
+	•	APSTUD-3344: File Transfer "Sync" button improperly sensitive to which panel is active
+	•	APSTUD-3350: Unhandled exception when opening HTML files
+	•	APSTUD-3358: Sticky spelling errors after a comment is removed
+	•	APSTUD-3365: Aptana crash. Unsave file and git pull
+	•	APSTUD-3370: Mixed PHP/HTML file shows wierd or blank nodes
+	•	APSTUD-3371: Change in validator preference is not applied until the file changes or project is rebuilt
+	•	APSTUD-3378: PHP Scope mismatch between Studio and TextMate.
+	•	APSTUD-3385: Icon missing/invalid on annotations -> ocurrences
+	•	APSTUD-3386: CSS validation error "Property transition doesn't exist"
+	•	APSTUD-3396: Ruby: Editor could not be intialized
+	•	APSTUD-3399: Projects existing in git working copy but not committed get closed on branch change
+	•	APSTUD-3400: Caret Placement Behavior For Per Line Editors
+	•	APSTUD-3407: "color: rgba(...);" causes a CSS validation error
+	•	APSTUD-3409: CSS3 property "box-sizing" generates a validation error
+	•	APSTUD-3410: CSS3 property "transform" generates a validation error
+	•	APSTUD-3411: Empty class definition in Ruby fails when formatted
+	•	APSTUD-3414: Occasional NPE when starting Titanium Studio
+	•	APSTUD-3417: When committing to Git, Aptana unnecessarily escapes double-quotes
+	•	APSTUD-3421: Encoding problem with markers
+	•	APSTUD-3425: NPE in CommonPresentationReconciler
+	•	APSTUD-3433: No Folding For Comments In Ruby
+	•	APSTUD-3444: PHP Formatter fails to formatt else if correctly
+	•	APSTUD-3458: CTRL-R Deletes Text In Some Editors
+	•	APSTUD-3462: Error opening any ERB file. Cannot generate outline
+	•	APSTUD-3468: Comments in CSS causes formatting error
+	•	APSTUD-3470: New git branches created in dialog don't default to tracking when remote is origin
+	•	APSTUD-3473: XML Open with "XML Editor" , Save . "Apatana Scripting Console" Errors!!!!
+	•	APSTUD-3496: NPE in GitLightweightDecorator.decorateProject()
+	•	APSTUD-3503: PHP ternary operator formatting bug
+	•	APSTUD-3516: Add "Restore from Local History..." context menu to App Explorer view
+	•	APSTUD-3517: Git indexing causes large delay when saving an editor file
+	•	APSTUD-3542: PHP format doesn't run : cast in array
+	•	APSTUD-3556: Pasting large XML content into editor causes 100% CPU usage and make it unresponsive for some time.
+	•	APSTUD-3568: Copy and Paste in the remote view throw an error
+	•	APSTUD-3570: CLONE - Commenting Outside PHP Block
+	•	APSTUD-3571: Calling Word-Wrap from Content Assist Returns Error
+	•	APSTUD-3575: Infinite loop/freeze when opening CSS file
+	•	APSTUD-3589: Formating javascript fails
+	•	APSTUD-3600: CSS Editor Colors Word-Wrap Property White
+	•	APSTUD-3601: loosing changes if the option "Re-open previously opened remote files on startup"
+	•	APSTUD-3603: Delayed Presentation Reconciler
+	•	APSTUD-3607: Scripting plugin not updating qualifier appropriately in response to ruble changes
+	•	APSTUD-3611: Cached HTML5 Boilerplate template is wrong
+	•	APSTUD-3614: Configuring IP address and port for built-in web server doesn't have any effect
+	•	APSTUD-3617: Error while indexing module: ClassCastException: Variable cannot be cast to Identifier
+	•	APSTUD-3620: Ruby Formatter Does Not Indent If / Unless Contents
+	•	APSTUD-3621: Aptana won't save editors tab sizes
+	•	APSTUD-3627: CSS Color Dialog Cancellation
+	•	APSTUD-3640: JavaScript Editor Adds Space After Comment
+	•	APSTUD-3644: Dreamweaver theme not colorizing the same as on TextMate
+	•	APSTUD-3646: CharacterPairMatcher performance issues
+	•	APSTUD-3657: Error while parsing/building a specific PHP script
+	•	APSTUD-3659: Can't debug Ruby On Rails 3.1 project with ExecJS on Windows
+	•	APSTUD-3662: OutOfMemory error, and missing Outline, when opening a PHP file
+	•	APSTUD-3671: Empty DTD Template In File > New > File
+	•	APSTUD-3672: Empty IDL Template In File > New > File
+	•	APSTUD-3673: Empty SVG Template In File > New > File
+	•	APSTUD-3687: Freeze of entire Eclipse SDK after a Git push
+	•	APSTUD-3698: The computation of which node in Outline to show for the corresponding editor caret position should be done in a Job instead of Thread
+	•	APSTUD-3701: Signed and chained certificates not validated in Aptana
+	•	APSTUD-3710: Intermittent slow typing between letters in large JavaScript file
+	•	APSTUD-3711: Underlining of invalid code causes large reconciling process and slowness
+	•	APSTUD-3718: PATH values incorrect if cygwin shell is used
+	•	APSTUD-3720: Folders get falsely deleted during synchronization
+	•	APSTUD-3726: Importing Textmate-compatible themes doesn't work
+	•	APSTUD-3728: Not saving Appearance Color Options after restart
+	•	APSTUD-3732: Ruby Validation
+	•	APSTUD-3756: New From Template > Ruby > Blank File uses default filename with cgi extension instead of rb
+	•	APSTUD-3775: NPE In HTML Editor
+	•	APSTUD-3779: No proposals at whitespace inside HTML tag
+	•	APSTUD-3780: The HTML5 Boilerplate repo has moved
+	•	APSTUD-3789: BadLocationException editing Ruby files
+	•	APSTUD-3796: Correct FTP timezone / local timeshift detection
+	•	APSTUD-3806: CSS property error: word-break
+	•	APSTUD-3832: Autoinsertion of matching closing tag fail
+	•	APSTUD-3834: Show Active Snippets Command is broken
+	•	APSTUD-3835: Install Bundle command broken
+	•	APSTUD-3836: Validate Snippets command broken
+	•	APSTUD-3840: Remote : SFTP Connections Missing Cannot Create New
+	•	APSTUD-3841: Quick Diff colors reset on restart
+	•	APSTUD-3849: Invalid comment characters are used for php editor
+	•	APSTUD-3851: Unable to stage and then commit after a merge conflict
+	•	APSTUD-3854: Delayed Presentation Preconciler NPE Upon Startup
+	•	APSTUD-3862: Content Assist for Image Src attribute continually suggests folder.
+	•	APSTUD-3868: NPE at com.aptana.editor.common.text.reconciler.CommonPresentationReconciler
+	•	APSTUD-3869: NPE at com.aptana.terminal.internal.emulator.TextCanvas.findHyperlink
+	•	APSTUD-3873: Bundle Repositories Not Defined For Several Languages
+	•	APSTUD-3880: Error generating sync : NPE
+	•	APSTUD-3881: Unhandled event loop exception : NPE
+	•	APSTUD-3882: Unhandled event loop exception during blocked modal context : NPE
+	•	APSTUD-3885: NPE at com.aptana.git.ui.internal.actions.DiffHandler.getSelectedChangedFiles
+	•	APSTUD-3886: NPE at com.aptana.git.core.model.GitIndex.changedFiles
+	•	APSTUD-3889: SASS editor individually block commenting lines incorrectly.
+	•	APSTUD-3901: Content assist popup horizontal bar obscures content
+	•	APSTUD-3902: NPE Stemming From org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	•	APSTUD-3920: commenting in <style/> block results in html comments
+	•	APSTUD-3926: Improper highlighting of nested matching pairs
+	•	APSTUD-3944: NPE while executing an element-became-visible event listener
+	•	APSTUD-3945: Highlight current line option inconsistent on HTML editor
+	•	APSTUD-3959: NPE In JavaScript Content Assist
+	•	APSTUD-3968: Validation errors and warnings get re-added to the Problems view when the file is re-opened
+
+3.0.6 Release (2011-10-26)
+Small update with a few fixes. Please note for performance reasons at the moment, we set "mark occurrences" as off by default. To enable it, just click the flashlight in the toolbar. We should re-enable by default in an upcoming release. Also note that the default content assist delay has been shifted from 0ms to 200ms...this is a small difference, but should help when editing large files.
+	•	JS Debugger once again compatible with Firefox newest version
+	•	Mark occurrences flashing in PHP
+	•	Editor speed fixes for a regression in 3.0.5
+
+Bugs
+	•	APSTUD-3173: JS Debugger incompatibile with FireBug 1.8
+	•	APSTUD-3390: Snippet tab stops fail, cause IllegalStateException: model is already installed
+	•	APSTUD-3558: Mark Ocurrences dialog show and hide itself in a infinite cycle.
+	•	APSTUD-3636: JS Editor performance has decreased significantly
+	•	APSTUD-3725: HTML Commands Not Defined
+	•	APSTUD-3727: Minor Highlighting bugs on Mac
+
+3.0.5 Release (2011-10-10 update)
+Re-push of previous update to fix broken HTML file templates.
+	•	APSTUD-3597: File Templates are missing on Mac Version (PC version OK)
+
+3.0.5 Release (2011-10-04)
+100+ fixes and improvments. Major updates:
+	•	Fixes while editing PHP source content
+	•	jQuery 1.6 support
+	•	Fix for issues with copy & paste in editors
+
+Bugs
+	•	APSTUD-2378: Aptana PHP Code Assist not working right
+	•	APSTUD-2540: Incorrect computation of replace range in CSS CA
+	•	APSTUD-2730: Include parsing errors in validation and display them in Problems view and the editor gutter
+	•	APSTUD-2743: IllegalStateException: Invalid theme properties
+	•	APSTUD-2988: Ruby Formatter Error
+	•	APSTUD-3017: "this" gets transformed to "thistory" in JavaScript content assist
+	•	APSTUD-3061: Copy/Cut/Paste text does not work sometimes in Aptana text editor
+	•	APSTUD-3066: Comments inside css media rule do not format
+	•	APSTUD-3096: PHP syntax highlighting breaking
+	•	APSTUD-3099: Content Assist for JavaScript Suggest Incorrectly And Inserts Incorrectly
+	•	APSTUD-3148: NPE when syncing files in IOUIPlugin.run()
+	•	APSTUD-3171: PHP: certain comments inside switch breaks formatting
+	•	APSTUD-3197: ConcurrentModificationException in DiskIndex.computeDocumentNames()
+	•	APSTUD-3199: ConcurrentModificationException in MemoryIndex.addQueryResults()
+	•	APSTUD-3201: Rails wizard allows simultaneous selection of two radio buttons
+	•	APSTUD-3206: Some Coffeescript editor settings don't behave correctly
+	•	APSTUD-3248: AssertionFailedException in PeerCharacterCloser.computePartitioning()
+	•	APSTUD-3258: Coffeescript Folding broken
+	•	APSTUD-3284: CSS Editor Inserts "\n"s Upon Uncommenting
+	•	APSTUD-3285: HTML Editor Inserts "\n"s Upon Uncommenting
+	•	APSTUD-3286: XHTML Editor Inserts "\n"s Upon Uncommenting
+	•	APSTUD-3287: PHP Editor Inserts "\n"s Upon Uncommenting
+	•	APSTUD-3288: RHTML Editor Inserts "\n"s Upon Uncommenting
+	•	APSTUD-3289: RXML Editor Inserts "\n"s Upon Uncommenting
+	•	APSTUD-3290: SVG Editor Inserts "\n"s Upon Uncommenting
+	•	APSTUD-3291: XML Editor Inserts "\n"s Upon Uncommenting
+	•	APSTUD-3292: XSLT Editor Inserts "\n"s Upon Uncommenting
+	•	APSTUD-3293: Editors Do Not Retain Text Selection After Block Commenting
+	•	APSTUD-3320: Remove '(' as default trigger proposal character in JavaScript
+	•	APSTUD-3326: Multi-line comments
+	•	APSTUD-3347: "Illegal Character in Path" in EFSUtils.getAbsolutePath()
+	•	APSTUD-3348: The file permissions set in the FTP Options don't apply to sync
+	•	APSTUD-3351: Snippets activated with only partial elements of the activation trigger
+	•	APSTUD-3352: Javascript auto complete after dollar always populates with "Array"
+	•	APSTUD-3353: Keypresses sometimes doesn't work
+	•	APSTUD-3354: Editor blocks certain characters like double quotes, left curly braces, left paranthesis, left braces
+	•	APSTUD-3355: Commenting disables validation of the rest of the document
+	•	APSTUD-3356: Aptana won't start: "See the log file" log file contains "Exception in org.eclipse.core.resources.ResourcesPlugin.start()"
+	•	APSTUD-3359: A code assist pop-up appears when typing <?php
+	•	APSTUD-3360: Aptana ftp plugin needs alternate logic when STAT is not allowed
+	•	APSTUD-3361: AssertionFailedException when typing Undo
+	•	APSTUD-3366: FTP: Studio only copies top-level folder on drag/drop, not inside contents
+	•	APSTUD-3379: Random keyboard keys fail to work
+	•	APSTUD-3382: PHP formatter - comment on line below a case statement breaks formatter
+	•	APSTUD-3387: Could not open the editor: Editor could not be initialized. When opening php file with noscript tags
+	•	APSTUD-3389: jQuery SDOCML missing Deferred, Promise, jqXHR objects
+	•	APSTUD-3391: project_bundle_paths resolved to absolute paths in cache.yml
+	•	APSTUD-3392: Remove some or all snippets in jQuery ruble
+	•	APSTUD-3393: NegativeArraySizeException in DiskIndex.readHeaderInfo()
+	•	APSTUD-3394: Unable to format CSS file
+	•	APSTUD-3395: Unable to format dojo.js file
+	•	APSTUD-3398: BadLocationException in TextUtilities.computePartitioning leads to CPU pegged at 100%
+	•	APSTUD-3405: PHP Code Formatter doesn't work for this code snippet
+	•	APSTUD-3406: JavaScript code completion fires on any character in encapsulated functions
+	•	APSTUD-3408: CA thwarts attempts to create certain JS vars
+	•	APSTUD-3426: Error in PHP code formatting (via Source->format)
+	•	APSTUD-3429: Source Formatting (//TODO: comment in switch statement)
+	•	APSTUD-3441: FTP Function "safe password (secure)" doesnt work on Aptana Restart
+	•	APSTUD-3454: I cannot type in PHP
+	•	APSTUD-3466: CSS CA Does Not Propose Hover As Expected
+	•	APSTUD-3467: Find Bar interaction with the Find Next action (Ctrl+K) is not working properly
+	•	APSTUD-3471: PHP as src value of HTML script tag causes partitioning errors
+	•	APSTUD-3472: Incremental builds triggered by launching seem to be doing full build indexing
+	•	APSTUD-3476: Commands menu is missing items such as CSS, SASS, XML and a lot more
+	•	APSTUD-3477: Parsing, folding, validating and indexing active editor many, many times on each reconcile
+	•	APSTUD-3479: JS editor should not offer content assist within parameter lists
+	•	APSTUD-3487: Add "Existing Folder as New Project" option to Import... dialog
+	•	APSTUD-3493: In CSS file , the content assist occurs HTML Tags ,not CSS content!
+	•	APSTUD-3494: Could not open the editor: The editor class could not be instantiated
+	•	APSTUD-3497: NPE in Portal Initialization
+	•	APSTUD-3500: "Sample Command" broken inside Ruble template
+	•	APSTUD-3519: Activating Studio became slow due to too many calls of ProjectPropertyTester
+	•	APSTUD-3524: Cannot open any files with PHP Source Editor
+	•	APSTUD-3526: Remove invalid snippets from Rubles
+	•	APSTUD-3536: Error loading css.ruble: special characters are not allowed
+	•	APSTUD-3543: PHP format doesn't run : Comments after last switch() instruction
+	•	APSTUD-3548: Jquery autocomplete/snippets
+	•	APSTUD-3556: Pasting large XML content into editor causes 100% CPU usage and make it unresponsive for some time.
+	•	APSTUD-3558: Mark Ocurrences dialog show and hide itself in a infinite cycle.
+	•	APSTUD-3561: Copy and Cut rarely working
+	•	APSTUD-3575: Infinite loop/freeze when opening CSS file
+	•	APSTUD-3577: Eclipse fails to start with latest aptana studio nightly
+	•	APSTUD-3579: Aptana crashes when opening css file from filezilla
+	•	APSTUD-3581: Aptana Nightly for Sept 30, 2011 Freezes Attempting to Open any Ruby File
+	•	APSTUD-3582: AS3 locks up on "Loading Workbench" when intialized.
+
+Improvements
+	•	APSTUD-3332: Link setting for enabling/disabling content assist to Snippets
+	•	APSTUD-3428: PHP code proposals for the static keyword
+	•	APSTUD-3457: [Speed Improvement] Cache scopes per partition at DocumentScopeManager.getTokenScopeFragments
+
+3.0.4 Release (2011-08-15)
+170+ fixes and improvments. Major updates:
+	•	Faster loading with less processor usage
+	•	Less memory usage, particularly on large files
+	•	Less indexing of projects
+	•	Improved content assist typing experience with better ordering of proposals
+	•	Introductory CoffeeScript support
+	•	Formatting improvements, in particular the ability to control spaces
+	•	New From Template now allows users to create untitled files
+
+Bugs
+	•	APSTUD-1430: Bug in PHP + inline JS syntax highlighting
+	•	APSTUD-1599: Aptana JavaScript symbol list missing anonymous functions
+	•	APSTUD-1712: PHP: Restoration formatter option of 'space before/after parenthesis'
+	•	APSTUD-1818: Add Save As External... action for saving files outside of workspace
+	•	APSTUD-1827: Include HTML text nodes in AST
+	•	APSTUD-1855: Studio 3 - Default Web (html) Template
+	•	APSTUD-1925: JavaScript keywords missing in content assist
+	•	APSTUD-2050: "Building Workspace" job takes a while to complete
+	•	APSTUD-2132: Tree formatting on multi-dimensional arrays
+	•	APSTUD-2134: Add .location property to file templates
+	•	APSTUD-2252: Warn user if they are creating project in an area with pre-existing files
+	•	APSTUD-2287: PHP outline icons
+	•	APSTUD-2445: jQuery snippets not firing in some cases
+	•	APSTUD-2451: Support CoffeeScript syntax coloring
+	•	APSTUD-2454: Prefer CA proposals by case first
+	•	APSTUD-2477: Fold if, for, while loops in PHP
+	•	APSTUD-2526: Add configuration options to Ruby outline to show/hide items
+	•	APSTUD-2527: Add configuration options to HTML outline
+	•	APSTUD-2529: Add option to disable formatting, and make it configurable
+	•	APSTUD-2549: Class Auto-completion
+	•	APSTUD-2576: JRuby Debugging is broken - missing variables, full stack trace
+	•	APSTUD-2645: UI locks up when pasting in a large amount of CSS
+	•	APSTUD-2649: Git Push
+	•	APSTUD-2710: Allow us to set a flag on ParseNodes to filter them our of outline, but to include their children
+	•	APSTUD-2712: Allow per-project formatter settings
+	•	APSTUD-2750: Shortcuts for comments wont work
+	•	APSTUD-2758: Display a helpful error message when self-closing a non-void HTML tag
+	•	APSTUD-2772: Add new "push new branch to remote" command to Git menu
+	•	APSTUD-2782: Create JS Type View for Projects
+	•	APSTUD-2790: Solarized theme does not colorize identically across Studio and TextMate
+	•	APSTUD-2799: JavaScript outline view stays empty when WTP or Spket plugins are used
+	•	APSTUD-2800: Comments inside 'if' condition are deleted after formatting in JS editor
+	•	APSTUD-2804: Clone an existing git project with "New Rails Project" doesn't work
+	•	APSTUD-2808: Infinitely refreshing "Building Workspace" process
+	•	APSTUD-2809: Add editor debug items to properties view
+	•	APSTUD-2812: Error: "Get shell environment failed" if project folder moved
+	•	APSTUD-2814: Typing a period in JS unexpectedly replaces text with the selected item in content assist
+	•	APSTUD-2816: Convert "New From Template" menu to create "Untitled" files by default
+	•	APSTUD-2817: Add dialog to allow user to choose between saving a new "Untitled" file into a project or the file system
+	•	APSTUD-2818: Ruby Content Assist doesn't offer constructors as proposals for explicit method invocation
+	•	APSTUD-2819: Ruby Content Assist doesn't include methods up the type hierarchy for explicit method invocation on a receiver
+	•	APSTUD-2820: Handle common meta-programming idioms that define methods for Ruby indexing
+	•	APSTUD-2821: Allow for go to declaration on Ruby require/load strings
+	•	APSTUD-2825: JS strings are not colorized correctly when split by PHP/ERB
+	•	APSTUD-2826: JS inside of a PHP document is formatted flush left
+	•	APSTUD-2829: Terminal doesn't work with Cygwin
+	•	APSTUD-2836: PHP Code Assist without having to press ctrl+space
+	•	APSTUD-2837: PHP formatter error when formatting namespace blocks
+	•	APSTUD-2839: CSS Id theme rules in packaged themes don't always apply because of missing meta scopes
+	•	APSTUD-2854: "New From Template" should list all possible file types, and provide a template option for each
+	•	APSTUD-2861: Remove RubyHyperlinkDetector.detectHyperlinks parse exceptions from log file
+	•	APSTUD-2867: CSS Auto-commenting
+	•	APSTUD-2868: Multiple Editors Auto-Add Comment-Justifying Asterisks Without An Opening Token
+	•	APSTUD-2869: HAML Editor Does Not Auto-Indent
+	•	APSTUD-2873: JavaScript: Don't show Content Assist in the middle of a comment
+	•	APSTUD-2875: CSS filter validation fails for arbitrary properties preceded by dash "-"
+	•	APSTUD-2878: Add Ruble Project template
+	•	APSTUD-2881: The Outline view should show "An outline is not available" instead of an empty outline for editors that don't provide one
+	•	APSTUD-2882: Aptana Sass Editor Does Not Have "No Outline" Message
+	•	APSTUD-2883: Allow Ruby (and Rails) projects to have Project Templates
+	•	APSTUD-2887: CMD+/ does not comment ruby files correctly
+	•	APSTUD-2889: YAML Coloring
+	•	APSTUD-2890: Switch project-level rubles so that they occur at a project's top-level
+	•	APSTUD-2891: Some projects continuously de-indexing files on every startup
+	•	APSTUD-2892: YAML Outline Error
+	•	APSTUD-2897: Outline Click-on-Node Works Differently For Different Languages
+	•	APSTUD-2901: Create Aptana Studio Start Page
+	•	APSTUD-2903: Ruby autocomplete does not work for symbols
+	•	APSTUD-2904: No HTML content assist when WST and Aptana are installed side-by-side
+	•	APSTUD-2906: CSS editor shows incorrect HTML tag proposals when installed side-by-side with WST
+	•	APSTUD-2910: Switch default Portal browser to Chromium on all possible platforms
+	•	APSTUD-2915: PHP: Following included Files won't work in some cases
+	•	APSTUD-2920: CSS embedded in HTML does not indent properly around tags (when selected)
+	•	APSTUD-2921: JS embedded in HTML does not properly indent around tags (when selected)
+	•	APSTUD-2924: Correct index.html of Update Sites to have more attractive styling
+	•	APSTUD-2930: Content Assist pops up when pressing unrelated keyboard shortcuts
+	•	APSTUD-2933: Code folding not available when loading a CSS file that contains a '!Important'
+	•	APSTUD-2935: An internal error occurred during: "Force reconcile on bundle change".
+	•	APSTUD-2938: CSS formatter does not format declarations with !important
+	•	APSTUD-2939: Create a new node type for !imporant and add it to the AST
+	•	APSTUD-2940: Infinite loop when I use Django menu
+	•	APSTUD-2943: User Created Web Template (with catalog structure) createas only one file.
+	•	APSTUD-2946: PHP reports syntax error & highlighting fails when using "%>" in single line comments
+	•	APSTUD-2950: PyDev "local import on quick fix" sometimes imports to wrong location
+	•	APSTUD-2957: HAML has no syntax colorization
+	•	APSTUD-2959: Autocomplete for url suggests 'email/' after 'http:/'
+	•	APSTUD-2962: "Widget is disposed" Exception in ConsoleStyledTextListener.dispose()
+	•	APSTUD-2963: Scope Selector doesn't match when segments are between compound segments in scope
+	•	APSTUD-2969: File>Properties menu option does not function sometimes.
+	•	APSTUD-2980: PHP Formatter Does Not Indent
+	•	APSTUD-2982: Generate our own icons for the new Ruby outline filters
+	•	APSTUD-2983: App Explorer constantly refreshing/resorting contents on Git-bound projects
+	•	APSTUD-2985: PyDev auto-format does not work for ('<punctuation>'*variable)
+	•	APSTUD-2986: jNotify missing some file modification events
+	•	APSTUD-2989: Ruby Formatter Does Not Format Contiguous puts Statements
+	•	APSTUD-2991: OutOfMemoryException when attempting to fold large XML file
+	•	APSTUD-2992: Cannot get Javascript operators and keywords to be different colors
+	•	APSTUD-2994: Incorrect folding in HTML Editor
+	•	APSTUD-2997: CSS rgba formater failure
+	•	APSTUD-2999: Can't set breakpoint in haml (ruby) templates
+	•	APSTUD-3000: Entering Certain Content Disables HTML CA / Coloring
+	•	APSTUD-3001: ConcurrentModificationException in AnnotationModel.replaceAnnotation()
+	•	APSTUD-3004: Ruby Editor Mistakenly Offers Folding For Single Line Comments
+	•	APSTUD-3005: Typing $( to start jQuery query results in $$(
+	•	APSTUD-3013: function autocompletes to Function
+	•	APSTUD-3014: Support "ftp" scheme using EFS filesystem extension
+	•	APSTUD-3015: Widget is disposed in AbstractThemeableEditor.setFocus()
+	•	APSTUD-3016: StringIndexOutOfBoundsException in RubyCodeResolver.parseURI()
+	•	APSTUD-3017: "this" gets transformed to "thistory" in JavaScript content assist
+	•	APSTUD-3021: Whitespace Error for Javascript Formatting
+	•	APSTUD-3022: JavaScript Formatter doesn't format get-property nodes when they are part of an expression
+	•	APSTUD-3023: Inconsistent folding behavior for files with different line-terminators
+	•	APSTUD-3025: ResourceException on closed file in ValidationManager.updateValidation()
+	•	APSTUD-3028: ClassCastException: org.eclipse.swt.browser.WindowEvent cannot be cast to com.aptana.swt.webkitbrowser.OpenWindowEvent
+	•	APSTUD-3029: Can't format CSS File
+	•	APSTUD-3032: Serialized Ruble cache.yml file does not contain menu element
+	•	APSTUD-3036: JS decimal syntax "0." causes the parser and formatter to fail
+	•	APSTUD-3038: Folding available on blank lines in HAML editor
+	•	APSTUD-3039: EmptyStackException when highlighting code in a ruby editor
+	•	APSTUD-3043: Unable to add custom HTML tags to the New Line and Indentation Lists in the HTML formatter
+	•	APSTUD-3044: Adding spaces or carriage returns in HTML content removes colorization
+	•	APSTUD-3047: Version 3.0.3 is very unstable
+	•	APSTUD-3048: 'Could not open editor: editor could not be initialized' in OS X Lion
+	•	APSTUD-3058: YAML Outline Does Not Appear Until You Save File
+	•	APSTUD-3063: PHP - Negative constnt values are not showing in content-assist
+	•	APSTUD-3065: NullPointerException in AbstractThemeableEditor.dispose()
+	•	APSTUD-3069: Partitioning error when selecting a specific code and trying to format it
+	•	APSTUD-3070: Formatting a selected PHP block duplicates code
+	•	APSTUD-3071: Folding Not Active For Untitled XML/SVG File Editors
+	•	APSTUD-3072: Outline Not Active For Untitled XML/SVG File Editors
+	•	APSTUD-3073: Document parsing service does not stop on editor close
+	•	APSTUD-3075: Unable to run Ruby debugger on Windows
+	•	APSTUD-3076: Scripting console no longer colorizes logging streams
+	•	APSTUD-3079: HTMLTidy using 100%+ of CPU on large document while Aptana sits idle
+	•	APSTUD-3084: Change the spacing controls UI for all the formatters
+	•	APSTUD-3085: Template Files Do Not Have Access To List Of Projects Upon Save
+	•	APSTUD-3086: Convert System property aptana.ruble.user.location to studio.rubleUserLocation
+	•	APSTUD-3087: Reconciler is triggered multiple times when opening a file
+	•	APSTUD-3089: Rename Window > Preferences > Aptana to Window > Preferences > Aptana Studio
+	•	APSTUD-3090: Properly reorder HTML close-tag proposals based on most-recently opened first
+	•	APSTUD-3091: A Version of Kitchen Sink on Github Resolves to an Empty Project
+	•	APSTUD-3092: BadLocationException in TagUtil.findMatch
+	•	APSTUD-3095: Deploy / FTP synchronize hangs
+	•	APSTUD-3098: Opening file for write failed error when trying to upload under OS X Lion
+	•	APSTUD-3102: HTML Formatting Indentation Removal Error
+	•	APSTUD-3105: Templates Are Missing
+	•	APSTUD-3107: Comment/Uncomment does not work with new lines in windows
+	•	APSTUD-3108: Alphabetize full "New From Template List"
+	•	APSTUD-3111: Scripting Console gives an error about projects not containing bundle.rb file on startup
+	•	APSTUD-3113: Change default log size to 10Mb
+	•	APSTUD-3114: The full_uninstall.txt file has an outdated link
+	•	APSTUD-3117: Synchronize PHP and Ruby Public, Protected, Private and Default icons
+	•	APSTUD-3118: Commenting Key Sequence (CNTL+/) On Untitled Files Produces Erroneous Results
+	•	APSTUD-3119: Re-color Ruby "Constructor" image
+	•	APSTUD-3120: Multiple Commands Issuing Error Message Via Scripting Console
+	•	APSTUD-3124: Interleave templates into CSS Proposals
+	•	APSTUD-3126: Formatting Change and Minor Misspelling in full_uninstall.txt File
+	•	APSTUD-3127: PHP suggests an interface completion in a wrong location
+	•	APSTUD-3128: Ctrl+X shuts the Studio down on Windows OS
+	•	APSTUD-3134: Add "My Aptana" icon into toolbar options
+	•	APSTUD-3135: NullPointerException in HTMLContentAssistProcessor.getAttributeValueRange
+	•	APSTUD-3136: Unable to use portal/dashboard page where the URL contains parameters
+	•	APSTUD-3139: Empty Outline - no function list inside outline section
+	•	APSTUD-3141: Multiple instances of the same file breaks colorization
+	•	APSTUD-3150: NullPointerException in CommandBlockRunner.applyEnvironment()
+	•	APSTUD-3151: Folding does not work correctly in HTML file
+	•	APSTUD-3154: NullPointerException in ValidationManager.addParseErrors()
+	•	APSTUD-3167: Javascript code formatter error
+	•	APSTUD-3172: PHP: Formatter inserts unnecessary space after empty return
+	•	APSTUD-3185: CSS: unable to open css files with eclipse WDT css editor
+	•	APSTUD-3186: Make preferences for Coffeescript editor available
+	•	APSTUD-3187: Opening *.phtml files results in NullPointerException
+	•	APSTUD-3191: Templates sorted after regular item proposals
+	•	APSTUD-3195: Aptana is switching to default Aptana Rubles directory after upgrade from 3.0.3 and it cannot be changed.
+	•	APSTUD-3198: StringIndexOutOfBoundsException in JSFileIndexingParticipant.getText()
+	•	APSTUD-3202: Git clone support broken using PortableGit
+	•	APSTUD-3215: Spaces Formatter tab unusable on OS X Lion
+	•	APSTUD-463: JavaScript: Clicking on function definitions in outline sometimes fails to find item in editor
+	•	APSTUD-498: Support for Pseudo-classes and Pseudo-elements in CSS content assist
+	•	APSTUD-621: Ruby Content Assist is not working
+	•	APSTUD-791: Invoking Tidy Command causes error
+	•	APSTUD-855: Spellchecking feature in IDE
+	•	APSTUD-856: Code formatting for PHP
+	•	APSTUD-892: App explorer switches directory order after a save
+	•	APSTUD-958: Change PyDev to use Aptana Formatting Framework
+
+3.0.3 Release (2011-07-18)
+210+ fixes designed to upgrade and improve issues in the editing experience. New formatting options (like controlling whitespace), supporting @ rules in the CSS outline, refinements of when content assist pops up, improvements in how projects are indexed, and refinements to key bindings for commands like "Toggle Comments".
+	•	APSTUD 2967: New From Template menu appears as a black line.
+	•	APSTUD 2760: sync.rb path is busted on windows, breaking debugging
+	•	APSTUD 2788: Unable to open Quick Outline if main Outline view is closed
+	•	APSTUD 2795: NPE in hijackConsole when closing console
+	•	APSTUD 2941: Notify Studio 2 users that there is an upgrade to Studio 3
+	•	APSTUD 2877: Unable to insert new line in PHP File when pasting a certain line
+	•	APSTUD 2832: Declaring an empty namespace locks Aptana into a unresponsive state
+	•	APSTUD 16: Error when installing Studio 1.5 on Eclipse 3.4 + FlashBuilder plugin
+	•	APSTUD 536: Rails debugger - Hitting F5 to "step into" prompts for an action selection
+	•	APSTUD 981: usability: disabling "'"smart"'" quoting feature
+	•	APSTUD 1253: Support per-project formatter settings
+	•	APSTUD 1595: Adds a verbosity preference on logging
+	•	APSTUD 2244: Rework IParser/ParserPoolFactory APi to actually throw up Exceptions
+	•	APSTUD 2264: Aptana HTML editor not consistently closing tags on </
+	•	APSTUD 2466: Error in auto complete when entereing a method name in a ruby file
+	•	APSTUD 2510: Failed to clone the HTML5 project template
+	•	APSTUD 2572: Pydev local import quick fix does not maintain indentation
+	•	APSTUD 2562: Error dialogs often during dev instance of Eclipse about class cast issues
+	•	APSTUD 2563: No UI for adding/editing an S3 remote connection (like SFTP)
+	•	APSTUD 2810: html5boilderplate index.html, Unexpected end of file
+	•	APSTUD 2724: Studio events report incorrect platform for MacOS
+	•	APSTUD 2718: Rails ruble eRB content assist is broken
+	•	APSTUD 2719: Custom scope not saving in theme dialog
+	•	APSTUD 2727: Add support for JavaScript white-space code formatting
+	•	APSTUD 2728: Add warning when adding a theme rule that duplicates an existing rule
+	•	APSTUD 2733: Separation for PHP element colouring
+	•	APSTUD 2743: IllegalStateException: Invalid theme properties
+	•	APSTUD 2748: Add ability to output command-line statements to the log
+	•	APSTUD 2753: Verify Studio 3 works with Eclipse 3.7
+	•	APSTUD 2755: Some PHP files cause an AssertationFailedException to be thrown when opening in Aptana PHP editor
+	•	APSTUD 2761: Remove default key binding on Capistrano Ruble Deploy command
+	•	APSTUD 2762: Unable to format @page rules in CSS
+	•	APSTUD 2766: Use CSSTokenScanner for Content Assist
+	•	APSTUD 2769: Terminal view won't open if button clicked with no active editor and active view not being project/app explorer
+	•	APSTUD 2770: Use CSSTokenScanner in CSSTextHover
+	•	APSTUD 2776: AssertionFailedException for django template editor when link tags use django variables in href and content
+	•	APSTUD 2778: NPE in PHPEditorPlugin.logError (from IdeLog)
+	•	APSTUD 2771: Change default URL for "Add Remote" Git dialog box
+	•	APSTUD 2781: Don't show horizontal scroll bar in content assist popup unless it is necessary
+	•	APSTUD 2791: Consolidate command line options into constants specified by an interface
+	•	APSTUD 2805: Cannot download file from remote connection to non-existant local directory
+	•	APSTUD 2798: Add "Deploy" Menu-Entry to "Merge Results" Context Menu
+	•	APSTUD 2704: Theme of SVN console broken since 2011/06/09 update
+	•	APSTUD 2732: Setting a specific theme key does not effect the coloring
+	•	APSTUD 2895: Remove references to Lighthouse and Tender inside Studio
+	•	APSTUD 2721: Editor increases indent on every new line in PHP file after update
+	•	APSTUD 2965: Remove Ctrl + Shift + R binding from "Refresh Running Browsers" command
+	•	APSTUD 2966: Remove Ctrl + H as "Documentation for Word" command binding
+	•	APSTUD 2764: At-rules do not appear in the CSS outline
+	•	APSTUD 2765: Need an icon for at-rules in the CSS outline
+	•	APSTUD 2725: HTML parser error when there is a < sign in between tags
+	•	APSTUD 2740: PHP Formatter bug
+	•	APSTUD 2806: Editor could not be initialized when opening some php/ctp files
+	•	APSTUD 2707: Theme: Unstaged File Doesn't Honor Foreground Color
+	•	APSTUD 2729: Rails and Ruby new project wizards only populate fields after first letter is typed
+	•	APSTUD 89: JS Formatting Issue with "empty()"
+	•	APSTUD 344: Error formatting HTML/JS code with embedded <!--?= ?--> tags
+	•	APSTUD 841: PHP syntax highlighter should highlight variables in double quoted strings
+	•	APSTUD 863: Add option "Open in terminal"
+	•	APSTUD 902: [JS] CA doesn't work for variables passed as parameter in anonymous functions
+	•	APSTUD 1313: Auto-configure Python interpreter (if possible)
+	•	APSTUD 1555: Via Tender: Sync is failing for large numbers of files
+	•	APSTUD 1631: Find bar: next/prev arrows
+	•	APSTUD 1888: Allow formatter option to single-line empty tags
+	•	APSTUD 2024: Turning off auto-indent on newline doesn't maintain current indent level
+	•	APSTUD 2226: Resizing the CA popup doesn't really work
+	•	APSTUD 2245: Add Map to IParseState to set parser config/properties
+	•	APSTUD 2295: JavaScript auto-indent and brackets auto-closing in PHP files
+	•	APSTUD 2386: SFTP Upload/synchronization hangs
+	•	APSTUD 2420: No CSS CA for style attribute value
+	•	APSTUD 2460: Pressing '.' on already-opened CA dialog closes popup
+	•	APSTUD 2467: FileWatcher causes constant workspace refresh job when downloading a file
+	•	APSTUD 2523: Validator: java.util.ConcurrentModificationException
+	•	APSTUD 2558: Incorrect project given in context of ruble commands
+	•	APSTUD 2557: Allow configuration of content assist activation characters in preferences
+	•	APSTUD 2577: No autocomplete proposals in incomplete HTML tags
+	•	APSTUD 2582: -moz- properties are not inserted correctly in CSS content assist
+	•	APSTUD 2630: Transition to CSS in HTML style attributes
+	•	APSTUD 2663: Rails debugger - Hitting F5 to "step into" prompts for an action selection
+	•	APSTUD 2734: PHP content assist for build-in constants and static
+	•	APSTUD 2738: CSS parser error "Property behavior doesn't exist"
+	•	APSTUD 2737: CSS parser error "Property src doesn't exist" for @font-face declarations
+	•	APSTUD 2747: There are two CSS attribute selectors that break outline view: ^= (begins with), and $= (ends with)
+	•	APSTUD 2749: Syntax coloring is not working in doctype tag
+	•	APSTUD 2775: Slightly re-arrange existing project creation UI for template selection
+	•	APSTUD 2789: Nicer default name for theme copy
+	•	APSTUD 2793: Warning: An entry for OSGI-INF/ is required in bin.includes
+	•	APSTUD 2823: Allow spacing customization in CSS Formatter
+	•	APSTUD 822: HTML syntax coloring breaks after inserting php into tag-element
+	•	APSTUD 1692: Implement JS Debugger hovers
+	•	APSTUD 2779: CSS outline shows RGB function values as child of declaration node
+	•	APSTUD 2763: Custom at-rules are not formatted in CSS
+	•	APSTUD 292: Via Tender: HTML Outline View
+	•	APSTUD 623: CSS content assist displays all browsers as gray for some items
+	•	APSTUD 673: HTML.ERB not correctly colorizing HTML attributes after Ruby block
+	•	APSTUD 674: Content assist UI should have a max width
+	•	APSTUD 716: feature request closing img or br tags, etc
+	•	APSTUD 767: PHP, try-catch block
+	•	APSTUD 777: Changes to colors & fonts are not saved and revert after app restart
+	•	APSTUD 809: Python error label too long
+	•	APSTUD 827: Self-closing/optional/forbidden HTML tags aren't keyed to doctype
+	•	APSTUD 847: SCSS Support
+	•	APSTUD 884: Add formatting option to add HTML comment on a new line
+	•	APSTUD 953: Via Tender: Can't drag file from Local Filesystem into the editor area
+	•	APSTUD 964: PHP: Character pair matching not working as expected
+	•	APSTUD 973: When attempting to comment lines of code using alt+/ in PHP, stack overflow
+	•	APSTUD 990: Error messages: update id for index changes
+	•	APSTUD 978: probem with ftp syncronized files (option update older remote files)
+	•	APSTUD 999: JavaScript: Forward slash incorrectly colorized as start of regex
+	•	APSTUD 1025: Missing "Expand/Collapse All" context-menu options for folding
+	•	APSTUD 1316: Clicking on outline element from referenced JS file highlights wrong item in editor
+	•	APSTUD 1359: Font preferences lost
+	•	APSTUD 1380: copy paste into terminal via keyboard shortcut does not work, windows
+	•	APSTUD 1394: Javascript: Incorrectly colorizing text as a regular expression
+	•	APSTUD 1406: cannot create a new file in local filesystem (ie, outside of project context)
+	•	APSTUD 1456: closing html '>' auto-deleted when entering php <!--?=$blah?--> just before it
+	•	APSTUD 1469: Terminal process cannot be killed with Ctrl+C or Ctrl+Break
+	•	APSTUD 1493: Theme font size
+	•	APSTUD 1494: JavaScript Code View Coloring
+	•	APSTUD 1476: JavaScript: Indenting blocks of code slow and intermittently causes crashes
+	•	APSTUD 1516: Strange bundle scopes
+	•	APSTUD 1525: Variable highlight color horrible
+	•	APSTUD 1526: Can't type brace/bracket in Console/Terminal on MacOS X
+	•	APSTUD 1518: In Aptana Web Editor, font resets to smaller size on startup
+	•	APSTUD 1651: php open close tag error and error with '
+	•	APSTUD 1650: Add Word Wrap
+	•	APSTUD 1738: App Explorer displays a non-accessible project
+	•	APSTUD 1722: Lost syntax-highlighting after an HTML editor clone is closed
+	•	APSTUD 1735: Pressing Enter between an opening tag and its closing tag does not auto-indent the middle content.
+	•	APSTUD 1862: Create new File in File System Node
+	•	APSTUD 1860: Html validator requires type attribute
+	•	APSTUD 1894: Problem with the suggestion box.
+	•	APSTUD 1893: Studio terminal doesn't realise data has been placed in clipboard by external apps, doesn't give "Paste" option
+	•	APSTUD 1901: Extended Syntax Coloring in PHP
+	•	APSTUD 1919: Norwegian letters: ø, æ, and å throw a warning message.
+	•	APSTUD 1993: Fix the formatter tests to act as multiple test cases
+	•	APSTUD 2015: When completing href/src proposals, don't dismiss popup until file is selected
+	•	APSTUD 2026: Single Quotes are not paired inside HTML tags
+	•	APSTUD 2132: Tree formatting on multi-dimensional arrays
+	•	APSTUD 2161: Context Menu > Add New From Template
+	•	APSTUD 2213: Indentation is not preserved in django templates
+	•	APSTUD 2280: Improper formatting for closing html tags on HTML/PHP mixed page
+	•	APSTUD 2305: PyDev's Show Class Browser keybinding collides with JDT's Open Type
+	•	APSTUD 2330: Add PHP templates to PHP Project Wizard
+	•	APSTUD 2351: PHP param list only works when function is first opened
+	•	APSTUD 2370: Reverted find bar behavior
+	•	APSTUD 2401: javascript auto format adding extra space when a function is an argument
+	•	APSTUD 2423: Ruby formatter problem
+	•	APSTUD 2419: HTML Validation warning shown on wrong line
+	•	APSTUD 2438: HTML CA not popping up when pressing "" during attribute completion
+	•	APSTUD 2432: Javascript code formatting fails with error
+	•	APSTUD 2437: JavaScript indention of first line after "if statement"
+	•	APSTUD 2435: file > open file "Resouce does not exist"
+	•	APSTUD 2439: Consider using a separate scanner for the CSS parser
+	•	APSTUD 2455: App Explorer has duplicate items on java and python projects (probably c/c++ too)
+	•	APSTUD 2465: Upgrade org.jruby plugin to 1.6.2 release
+	•	APSTUD 2475: Javscript bugs in aptana
+	•	APSTUD 2481: CSS Formatter does not work with comments inside @media tag
+	•	APSTUD 2486: Add space as activation character in HTML
+	•	APSTUD 2512: TEXTAREA should be in the HTML formatter exclusion list
+	•	APSTUD 2508: Via Tender: Creating a file that already exists in the current directory should prompt for overwrite warning
+	•	APSTUD 2517: Allow for creation of new file not associated to a project
+	•	APSTUD 2520: YAML Editor needs to default to spaces not tabs
+	•	APSTUD 2518: Text Compare replaces UTF8 characters with question marks
+	•	APSTUD 2532: Add text-based default mark occurrences implementation for all languages
+	•	APSTUD 2535: Filter CSS snippets to only show inside rule
+	•	APSTUD 2528: Add options to correctly format JavaScript array and object literals
+	•	APSTUD 2531: Convert PHP to use Aptana Task markers implementation
+	•	APSTUD 2539: CSS improperly indicating "#" as lexeme of type ID in rule
+	•	APSTUD 2542: JS CA assist does not show sdoc comments on object properties
+	•	APSTUD 2541: CSS CA reporting incorrect location for user-created IDs/classes
+	•	APSTUD 2549: Class Auto-completion
+	•	APSTUD 2556: Dispose() method of CommonSourceViewerConfiguration never called
+	•	APSTUD 2560: Ruby CA is popping up automatically in strings/comments with invalid proposals
+	•	APSTUD 2551: PHP Function Parameter/Argument Hinting
+	•	APSTUD 2569: Take selection into account when choosing CA auto-assist
+	•	APSTUD 2570: org.python.pydev.navigator.elements.PythonFile cannot be cast to org.eclipse.core.resources.IResource
+	•	APSTUD 2561: Git status command always logs message to logs
+	•	APSTUD 2578: html closing tag highlighting breaks for h1-6
+	•	APSTUD 2579: Add support for -webkit- properties in css content assist
+	•	APSTUD 2722: PHP Theme keys page is wrong about the 'keyword.other.class.php' definition
+	•	APSTUD 2723: Wrong PHP Theme keys
+	•	APSTUD 2745: Static referencing when code-assisting for PHP 5.3 source
+	•	APSTUD 2796: Add FTPS option to disable SSL/TLS session resumption
+	•	APSTUD 2863: Embeded Ruby Colorcoding
+	•	APSTUD 2485: Port over Rake context menu contributions from RadRails/RDT 2.x
+	•	APSTUD 2415: Rails and Ruby new project wizards should be less emphatic
+	•	APSTUD 2271: SCSS syntax highlighting doesn't cover variables
+	•	APSTUD 1433: Via Tender: Blackboard Theme in Version 3
+	•	APSTUD 2484: Pre-populated git commit messages don't appear when committing
+	•	APSTUD 1360: Font preference for the project explorer being overridden by invasive Theme
+	•	APSTUD 1770: HAML folding appears to be incorrect
+	•	APSTUD 676: Highlighting gets confused on String#% on new line
+	•	APSTUD 2049: Add Ruby/Rails debug hover
+	•	APSTUD 2087: Wrong PHP formatting when a parameter has a type
+	•	APSTUD 2507: PHP Snippets not indenting properly
+	•	APSTUD 2538: CSS does not pop-up during single-line rule definitions
+	•	APSTUD 2525: Confirm triple-click behavior works as expected in editors
+	•	APSTUD 2513: Css CA autofires on tab
+	•	APSTUD 2797: PHP formatter fails when comments wrapping is enabled
+	•	APSTUD 2524: Confirm double-click behavior works as expected in editors
+	•	APSTUD 2893: Add TM_BUNDLE_PATH environment variable
+	•	APSTUD 2862: Test JS Debugger with Firefox 5
+	•	APSTUD 2913: Replicate Eclipse key binding commands for "Toggle Comments"
+	•	APSTUD 2886: HTML Editor Create Style Section With Rule Body Test
+	•	APSTUD 2850: Changing Enabled Set of Browsers Disables HTML Content Assist
+	•	APSTUD 2859: Move "Insert Block Comment" shortcut to Shift + Command + /
+	•	APSTUD 2978: Opening Theme Dialog Generates Error
+	•	APSTUD 2970: Error Occurs Upon Entering String Into ERB File
+	•	APSTUD 2842: Studio fails to create new file from template
+	•	APSTUD 2865: Aptana auto-indent on return not working correctly for PHP (Zend Framework style)
+	•	APSTUD 2977: ERB Editor Runtime Error Upon Entering <%
+	•	APSTUD 2855: Built-in Webserver Host preference has no effect
+
+3.0.2 Release (2011-06-09)
+A number of fixes designed to improve the editing experience.
+	•	APSTUD-23: Aptana tries to open a new instance of itself when opening files via Windows Explorer
+	•	APSTUD-157: Via Tender: snippet vars
+	•	APSTUD-319: Via Tender: Code colorization
+	•	APSTUD-374: Open Declaration / Selection in Ruby
+	•	APSTUD-398: ">APSTUD-398: Via Tender: Creating & Saving a new file - causes file path to get reset to root
+	•	APSTUD-413: .* cloaks all files, rather than all hidden files
+	•	APSTUD-416: Via Tender: Aptana FTP Connections - files and folders are ordered by name regardless top priority of the folders
+	•	APSTUD-422: Via Tender: Hitting escape while choosing a connection confirms instead of cancels
+	•	APSTUD-699: No "Move..." option on context menu in App Explorer
+	•	APSTUD-733: Need to provide better progress reporting for git clones
+	•	APSTUD-744: HTML: Apostrophes in plain text should not auto close
+	•	APSTUD-752: Dragging file between remote folders in file transfer view copies rather than moves them
+	•	APSTUD-753: Add ability to compare two files with each other (between project and FTP or local filesystem)
+	•	APSTUD-757: FTP feature request: remote duplicate command, or copy/paste
+	•	APSTUD-758: Add ability to Export/Import FTP Server settings
+	•	APSTUD-760: Add (ftp / sftp) to editor title to indicate file is opened from remote server
+	•	APSTUD-778: Allow evaluation of expressions in Ruby debugger
+	•	APSTUD-793: Error when updating
+	•	APSTUD-799: Ctrl-C in terminal kills active SSH session on Windows
+	•	APSTUD-808: Connections will not save passwords after exiting
+	•	APSTUD-823: Syntax highlighting disappears when saving PHP file
+	•	APSTUD-830: Unable to type € using command CTRL+ALT+E
+	•	APSTUD-834: Unable to type & using command CTRL+ALT+C or ALTGR+C
+	•	APSTUD-845: Javascript Editor ctrl+/ sometimes duplicate commented content
+	•	APSTUD-882: No Content Assist for Dojo
+	•	APSTUD-931: FTP download doesn't stop
+	•	APSTUD-1102: PHP Uses line-commenting when I would expect block commenting
+	•	APSTUD-1343: Can't update AS3: dependencies conflict
+	•	APSTUD-1444: Indexing files in project continuously in 49%
+	•	APSTUD-1508: Create Dreamweaver color theme
+	•	APSTUD-1579: Add initial folding options for JS Editor
+	•	APSTUD-1580: Add initial folding options for JSON editor
+	•	APSTUD-1618: Add "pretty names" to Theme preference page and reorganize scope selector text area
+	•	APSTUD-1620: Do not re-sort scope list after adding new scope
+	•	APSTUD-1638: HTML CA does not fully replace the existing entity
+	•	APSTUD-1667: Comments-toggle (Source/Php)
+	•	APSTUD-1670: Quick Diff does not support unicode characters
+	•	APSTUD-1671: SFTP Uploading File As Different User
+	•	APSTUD-1677: Properly Indent Snippets
+	•	APSTUD-1680: JS: failing to uncomment multiple lines
+	•	APSTUD-1692: Implement JS Debugger hovers
+	•	APSTUD-1708: Add support for JS hover
+	•	APSTUD-1710: Allow user to select project type when "promoting"
+	•	APSTUD-1726: Open URL action should open non-.html URL in HTML editor
+	•	APSTUD-1737: Use built-in HTTP server for project file previewing
+	•	APSTUD-1754: Add tooltip to Ruby breakpoints
+	•	APSTUD-1786: Add code folding preference options for PHP
+	•	APSTUD-1788: JS debugger 'Inspect' action places the inspected element in the 'Expression' view
+	•	APSTUD-1789: No editor/ruler context menu items for 'Inspect' and 'Watch'
+	•	APSTUD-1822: PHP Comments (ctrl + /) in Windows edition not working correctly
+	•	APSTUD-1823: [Aptana 3] PHP code formatter failure
+	•	APSTUD-1825: Create Ruby Code Assist Sample List
+	•	APSTUD-1874: ValidatingReader and associated schemas should support arbitrary elements and attributes
+	•	APSTUD-1896: Error using find bar
+	•	APSTUD-1899: PHP constants do not show up in the content assist (ctrl+space)
+	•	APSTUD-1905: Error formatting PHP code
+	•	APSTUD-1906: Via Tender: Export theme as Textmate style tmTheme file to match expected import format
+	•	APSTUD-1907: Parse ruby files using 1.8 vs 1.9 parser based on interpreter on PATH for the project
+	•	APSTUD-1915: Context submenus dont expand in the editor
+	•	APSTUD-1923: Remove plugin.xml warnings in JS DeAPSTUD-plugin
+	•	APSTUD-1938: Bottom right "enter" key on mac keyboard doesn't make Find toolbar show next instance of text
+	•	APSTUD-1946: where is sftp in studio 3?
+	•	APSTUD-1952: Via Tender: Ruby Debugging Scratchpag missing in Studio 3
+	•	APSTUD-1977: Icons not Transparent within Project Explorer under Windows XP
+	•	APSTUD-1978: Via Tender: Error deleting project attached to git.
+	•	APSTUD-2013: Add copy/paste for files to remote explorer window
+	•	APSTUD-2016: Commands not defined when selected in Commands menu
+	•	APSTUD-2027: Prompt user if they invoke preview on edited and unsaved file
+	•	APSTUD-2031: Creating file deep in SFTP connection collapses the tree/hierarchy
+	•	APSTUD-2032: Editing and then saving a file that's been deleted doesn't tell user it's been deleted
+	•	APSTUD-2033: After synchronizing, Failed to refresh destination in Connections node
+	•	APSTUD-2043: No proposals for "color" in CSS CA
+	•	APSTUD-2044: .settings folder is not hidden by default
+	•	APSTUD-2047: Ruby formatter fails on this file
+	•	APSTUD-2048: CSS auto-activation does not seem to occur when typing a ruleset entirely on one line
+	•	APSTUD-2052: Semicolon should be an activation character in CSS CA
+	•	APSTUD-2057: HTML snippets should not be active within style elements
+	•	APSTUD-2062: JS CA auto-activation should not active in JS comments
+	•	APSTUD-2065: Preview HTML file from file system does not work
+	•	APSTUD-2069: Issues in theming (invasive theme / fonts)
+	•	APSTUD-2073: Window moves off screen when promoting a folder to a project
+	•	APSTUD-2081: code formatter not work
+	•	APSTUD-2083: Code formatter doesnt work on some PHP files
+	•	APSTUD-2084: Code completion widget has unreadable colors in Aptana editors
+	•	APSTUD-2086: Read and Write occurrence markers have the same color
+	•	APSTUD-2095: internal web server doesn't work with html5boilerplate
+	•	APSTUD-2097: Add VSDoc support for new tag
+	•	APSTUD-2100: Unable to remove fg or bg setting from a theme rule once it's been added
+	•	APSTUD-2101: Document PHP Scopes
+	•	APSTUD-2102: Amend HTML Scopes
+	•	APSTUD-2103: Add YAML Scopes
+	•	APSTUD-2104: Add IDL Scopes
+	•	APSTUD-2105: Add SVG Scopes
+	•	APSTUD-2106: Add XML Scopes
+	•	APSTUD-2108: /**/ comments cause for wrong colors display and errors while formatting
+	•	APSTUD-2109: Via Tender: Reimplementation of local shortcut in Studio 3
+	•	APSTUD-2112: Via Tender: HTML formatter always removed blank lines
+	•	APSTUD-2113: JS parser error
+	•	APSTUD-2114: Add default ANSI colors for light-colored theme base
+	•	APSTUD-2115: The command "Sort Lines in Document / Selection" does not work well with accentuated characters
+	•	APSTUD-2117: Changes to Annotations overridden by theme
+	•	APSTUD-2118: commenting breaks non-ascii (utf/unicode) characters
+	•	APSTUD-2122: Port Display view fro Ruby Debugging from RadRails 2.x
+	•	APSTUD-2123: Remove JS Warnings on Project Clean, or change in JS Validator settings
+	•	APSTUD-2124: Via Tender: PHP Snippet Auto Indentation
+	•	APSTUD-2125: Via Tender: Error on File -> Open...
+	•	APSTUD-2126: OSX Lion Preview 2 Aptana 3 Beta fails to launch
+	•	APSTUD-2127: Errors when using RGB/RGBA background colors
+	•	APSTUD-2129: "select tag area" feature
+	•	APSTUD-2133: Problem changing Terminal background color without affecting the rest of the application
+	•	APSTUD-2138: GMaps VSDoc file doesn't work
+	•	APSTUD-2141: Overriding Ruble Command seems to still run previous command
+	•	APSTUD-2153: Remove .git folder after creating a project template from a git repo
+	•	APSTUD-2158: Via Tender: StackOverflowError
+	•	APSTUD-2162: Promote to project interface error
+	•	APSTUD-2165: NPE in com.aptana.editor.common.text.reconciler.CommonReconciler
+	•	APSTUD-2167: Allow template variables in project templates
+	•	APSTUD-2168: Allow user to specify image for project sample template
+	•	APSTUD-2171: App Explorer does not update for Pydev invalid Python interpreter name
+	•	APSTUD-2173: Corrupt scope names in Themes pref page
+	•	APSTUD-2176: Add icons for remote "git" samples
+	•	APSTUD-2178: Color boxes in theme preference not updating
+	•	APSTUD-2179: Add content-type support for validators
+	•	APSTUD-2180: Add validator for SDocML
+	•	APSTUD-2181: Create Partition -> Scope translation for "com.aptana.contenttype.phtml.php"
+	•	APSTUD-2182: Git Compare with Revision not enabled when it should be
+	•	APSTUD-2183: Add preference to disable auto-surrounding selected text with quotes, braces, etc
+	•	APSTUD-2187: Local Shortcuts node in Project Explorer doesn't have transparent bg
+	•	APSTUD-2189: Via Tender: Git checkout from GUI (App Explorer) sometimes doesn't checkout branch
+	•	APSTUD-2191: HTML comment slow
+	•	APSTUD-2192: NPE in App Explorer
+	•	APSTUD-2195: Create document on how to create new deployment pathway
+	•	APSTUD-2197: Invalid style range when invoking context info popup
+	•	APSTUD-2201: Sort commands menu case-insensitively
+	•	APSTUD-2206: Export/Import FTP connections
+	•	APSTUD-2210: Aptana 3 Nightly build update fails with "no repository found ..." messages
+	•	APSTUD-2216: Git Clone fails silently
+	•	APSTUD-2217: Ruby Run/DeAPSTUD-server and Terminal window should respect current selection when opening
+	•	APSTUD-2218: Unable to create or clone project that was just deleted
+	•	APSTUD-2222: Create "Converting Editor Templates to Snippets" wiki doc
+	•	APSTUD-2225: Add auto-activation characters for Ruby content assist
+	•	APSTUD-2233: Auto closing tags: PHP pair
+	•	APSTUD-2234: Aptana Studio do not remeber/save SASS and HAML tab settings
+	•	APSTUD-2237: Via Tender: Aptana Studio 2.x theme lacks syntax highlighting for Ruby symbols and instance variables
+	•	APSTUD-2238: Can't drag a file from desktop and drop into App Explorer
+	•	APSTUD-2240: Create documentation on how to update Aptana Studio versions
+	•	APSTUD-2248: Auto-indent no longer working for HTML in .ctp files
+	•	APSTUD-2251: Add preview handler for PHP files
+	•	APSTUD-2253: Deploy menu does not appear in App Explorer when a folder or file is selected
+	•	APSTUD-2255: Make FTP disconnect time configurable
+	•	APSTUD-2257: The Property menu doesn't do anything when a local shortcut is selected
+	•	APSTUD-2258: Via Tender: Aptana 3 Can't Drag Files From Project Explorer To Windows Explorer
+	•	APSTUD-2260: UTFDataFormatException in DiskIndex.readString()
+	•	APSTUD-2262: finding the app
+	•	APSTUD-2275: Via Tender: Deploy menu doesn't appear for project-based views outside App and Project Explorer
+	•	APSTUD-2277: NPE in processASTForNestedLanguage()
+	•	APSTUD-2282: Suggest methods up type hierarchy in Ruby CA
+	•	APSTUD-2283: Via Tender: No fileupload option directly in the editor window
+	•	APSTUD-2285: Change Formatting preferences label from "Code Formatter" to "Formatter"
+	•	APSTUD-2291: Add initial folding options for Ruby
+	•	APSTUD-2292: Add initial folding options for CSS
+	•	APSTUD-2297: Add preference to enable/disable folding
+	•	APSTUD-2299: Turn off code-assist auto-pop-ups on backspace
+	•	APSTUD-2300: github problem
+	•	APSTUD-2302: NPE in BundleMonitor.visit when Node.js debugging
+	•	APSTUD-2303: Disabling Unified Builder adds new Unified Builder on restart
+	•	APSTUD-2304: java.lang.ArrayIndexOutOfBoundsException in JSIndexReader.createType()
+	•	APSTUD-2306: Add preference to re-install PortableGit
+	•	APSTUD-2307: Sync manager tries to delete parent folders
+	•	APSTUD-2309: UI hangs when calculating folding on large XML file
+	•	APSTUD-2313: Unable to foramat CSS files
+	•	APSTUD-2316: com.aptana.theme.ThemeRule.isSeparator() bug
+	•	APSTUD-2317: Can't drag and drop from project explorer's local filesystem to terminal
+	•	APSTUD-2320: throw statement breaks formatting
+	•	APSTUD-2322: Aptana 3 unstable on Ubuntu 11.04 Natty
+	•	APSTUD-2323: Via Tender: Git Commit Window
+	•	APSTUD-2324: Severe slowdown in switching editors
+	•	APSTUD-2327: Add support for git rebase
+	•	APSTUD-2328: Add support for git merge --squash
+	•	APSTUD-2329: Allow adding FTP connection to a project folder when the project itself is not associated with FTP deployment
+	•	APSTUD-2331: Console color theme incorrect when first opened
+	•	APSTUD-2334: Background only for Editor View
+	•	APSTUD-2335: Aptana update deleted imported Textmate themes
+	•	APSTUD-2336: Aptana update overwrites CSS validation filters
+	•	APSTUD-2337: Typekit font embedding JavaScript error after Aptana Studio 3.0.1 update
+	•	APSTUD-2338: Push to a new bare repo hangs
+	•	APSTUD-2339: Ruble::Tooltip Popup
+	•	APSTUD-2340: Menus missing in 3.0.1
+	•	APSTUD-2342: Do not show CA after typing > on an end tag in HTML
+	•	APSTUD-2345: SASS editor doesn't support color preview
+	•	APSTUD-2346: Update FTP library to version that has SFTP "timeout" APSTUD-fixed
+	•	APSTUD-2347: Git integration is very slow in 3.0.1 - blocks work
+	•	APSTUD-2348: Creata a new folder in app explorer does not trigger mkdir on ftp autosync
+	•	APSTUD-2350: Load all PHP in particular projects
+	•	APSTUD-2352: Bad file reference in Ubuntu 11.04 application startup script
+	•	APSTUD-2353: Git History View doesn't get theme applied initially
+	•	APSTUD-2355: Force STDOUT/STDERR sync to true to flush output on ruby launches
+	•	APSTUD-2357: Scope selectors with portion prefix match aren't matching properly
+	•	APSTUD-2358: APSTUD-in Snippet expansiion behavior?
+	•	APSTUD-2360: Operation not enabled first time launching console
+	•	APSTUD-2361: PHP Formatter problem
+	•	APSTUD-2362: NPE in Ruby Hyperlink detector
+	•	APSTUD-2363: IllegalArgumentException when trying to show tooltip with folded code above
+	•	APSTUD-2365: Problem with Aptana coding formatter for PHP in Studio 3.0.2
+	•	APSTUD-2366: Incorrect full scope generated occasionally in ThemingDamagerRepairer
+	•	APSTUD-2367: Error Msg: Force reconcile on bundle change
+	•	APSTUD-2373: Un-Commenting code that has line-feeds using Ctrl+/ doesn't work
+	•	APSTUD-2375: Add pref to toggle whether editor font applies to all other views that theme is applied to: App explorer, project explorer, outline, problems, etc.
+	•	APSTUD-2377: Toggle Comment spacing issues
+	•	APSTUD-2380: Aptana studio 3.0.0 bugs
+	•	APSTUD-2381: Auto Code Completion errors: UnsupportedOperationException: Not supported yet.
+	•	APSTUD-2382: RuntimeException "Base class ListNode should never be evaluated"
+	•	APSTUD-2384: Reconciling a document should be stopped when editor is closed
+	•	APSTUD-2388: Via Tender: "Find Previous" key shortcut always pops up hover dialog with "Delete Line"
+	•	APSTUD-2389: An internal error occurred during: "Force reconcile on bundle change". FAILED ASSERTION
+	•	APSTUD-2390: Missing executable permissions on askpass.tcl
+	•	APSTUD-2391: Open With for remote files hangs Studio UI until file is opened
+	•	APSTUD-2396: Last rule in theme doesn't get scope updated on edit
+	•	APSTUD-2397: Dark themes not being completely applied in OpenSuse 11.4
+	•	APSTUD-2398: CSS CA auto-fires with one letter but not two or more
+	•	APSTUD-2402: Ruby command 'hash pointer' keybinding conflicts with Go to Line on non-Mac OSes
+	•	APSTUD-2403: Via Tender: "Cannot satisfy dependency" problem when installing studio 3 plugin from install site
+	•	APSTUD-2406: Pair matching causing delays in large JS files
+	•	APSTUD-2410: files opened over SFTP don't honor filename content type binding for editor
+	•	APSTUD-2414: Open With acts differently remote vs local
+	•	APSTUD-2417: Ampersand entity sequences should only be suggested if prefix starts with ampersand
+	•	APSTUD-2418: No attribute proposals shown for self-closed tag
+	•	APSTUD-2424: Run as... allways opens Internet Explorer as default
+	•	APSTUD-2426: upgrade restart failure
+	•	APSTUD-2430: Find bar should auto-select search text when opened
+	•	APSTUD-2440: Seeing multiple setPaths when loading cache.yml files
+	•	APSTUD-2441: Copy/Paste shortcuts doesn't work in Terminal Editor
+	•	APSTUD-2446: Ruby CA way too slow
+	•	APSTUD-2447: Unable to upload files to server
+	•	APSTUD-2449: Duplicate menu items in app explorer
+	•	APSTUD-2450: Date object not showing correct CA in JS
+	•	APSTUD-2452: Re-sort snippets behind specific property proposals
+	•	APSTUD-2453: JS globals do not show their source file in the CA popup location column
+	•	APSTUD-2457: Empty Stack Exception in Ruby Indexing
+	•	APSTUD-2458: org.eclipse.core.runtime.CoreException: Testing WebServer connection fail
+	•	APSTUD-2462: Remove default content assist delay
+	•	APSTUD-2469: Enabling Word-Wrap makes workbench resizing extremely slow when an editor opened
+	•	APSTUD-2472: The Transfer Files menu item delivers a Java.Lang.NullPointerException
+	•	APSTUD-2480: Invalid thread access in getting/setting font from ThemeManager, causes NPE in InvasiveThemeHijacker
+	•	APSTUD-2490: Via Tender: Open Declaration not working
+	•	APSTUD-2491: Cannot login to FTP when save password specified
+	•	APSTUD-2521: Not getting content assist information popups
+	•	APSTUD-2548: Using our installed PortableGit doesn't set up ENV properly
+	•	APSTUD-2553: ClassCastException: org.eclipse.ui.texteditor.HippieProposalProcessor$Proposal cannot be cast to java.lang.Comparable
+	•	APSTUD-2583: Peer characters not auto-inserted even though preference is set to on
+
+3.0.1 Release (2011-05-02)
+A quick update to fix some issues uncovered as part of the 3.0 release.
+Migrating from Studio 2? Check out our guide here.
+	•	APSTUD-1258: language specific editor settings
+	•	APSTUD-1837: Aptana Studio3 Beta ftp tree not showing folders past 3 deep
+	•	APSTUD-1882: FTP: 'Error' has encountered a problem - Fetching children failed
+	•	APSTUD-1921: Expanding FTP directory trees fails
+	•	APSTUD-1971: Git push hanging
+	•	APSTUD-2017: How to use code assist / completion for Ruby in Aptana 3 ?
+	•	APSTUD-2039: Ruby breakpoint does not show and the breakpoints view is showing its full path
+	•	APSTUD-2085: Can't set breakpoints in gems outside workspace
+	•	APSTUD-2088: Ruby debugger console does not display stdout/stderr untill exit
+	•	APSTUD-2098: Expanding FTP directory trees fails
+	•	APSTUD-2139: Only the first validator is used when multiple are selected for the same language
+	•	APSTUD-2160: FTPS data connection misses PROT setting
+	•	APSTUD-2184: Cannot open "closed project".
+	•	APSTUD-2193: Git operations stall for repositories with HTTPS transport
+	•	APSTUD-2215: Add "Append project name' option to JS DeAPSTUD-Launch Configuration
+	•	APSTUD-2221: Validation should be a reconciler
+	•	APSTUD-2224: Ruby CA: suggest singleton methods for classes
+	•	APSTUD-2231: HTML Content Assist with inline elements
+	•	APSTUD-2235: Toggle Comments on PHP inconsistent
+	•	APSTUD-2239: Trying to show Git Resource History is broken after first time
+	•	APSTUD-2246: "Paste" did not complete normally. Error in com.aptana.editor.common.text.rules.ExtendedToken
+	•	APSTUD-2247: Unable to connect to git via GUI
+	•	APSTUD-2248: Auto-indent no longer working for HTML in .ctp files
+	•	APSTUD-2249: NPE when opening Deploy->Deployment Settings dialog
+	•	APSTUD-2259: Via Tender: Can't deAPSTUD-ruby in Aptana Studio 3 GA
+	•	APSTUD-2265: SFTP temporary upload file rename failure leads to loss of target remote file
+	•	APSTUD-2272: "Open Resource" keyboard shortcut isn't consistent
+	•	APSTUD-2293: Hitting return does not insert newline in Ruby editor (exception happens)
+	•	APSTUD-2308: Via Tender: Aptana studio 3, HTML tidy error
+
+Gold Master Release (2011-04-21)
+We're ready for 3.0 final—this release fixes over 270 bugs since the last release, and it's time for it to see the light of day. You'll be happy to know no new install is required—just an update. We're doing a soft launch to help users migrate from version 2 to version 3 and work out the kinks.
+OS X users—this release updates the core Eclipse platform from 3.6.1 to 3.6.2, which may cause an issue when restarting the first time. If you run into a problem, see **here for the easy fix.**
+If something isn't where you expect it, we're already hard at work on 3.0.1, so please view the lists on Lighthouse for upcoming releases. If you are currently subscribed to the nightly releases, you effectively are already on 3.0.1, so we recommend you stay on that branch.
+Migrating from Studio 2? Check out our guide here.
+
+High priority fixed bugs:
+	•	APSTUD-84: Via Tender: html tag attribute completion of href
+	•	APSTUD-154: Via Tender: Tabs not evaluated as spaces between curly braces
+	•	APSTUD-159: Via Tender: Formatter placing all meta tags on single line
+	•	APSTUD-597: JS CA shows different types for object literal
+	•	APSTUD-629: Transition to JS in certain HTML attributes
+	•	APSTUD-1372: Preference for git - egit integration
+	•	APSTUD-1378: Updating to latest RCP on dev installs JDT plugins!
+	•	APSTUD-1633: Lost file
+	•	APSTUD-1652: Aptana no replace file when upload it
+	•	APSTUD-1685: NullPointerException in JSIndexQueryHelper.getMembers()
+	•	APSTUD-1713: Startup error - Loading bundle AppData\Local\Aptana Studio 3\configuration\org.eclipse.osgi\bundles\70\1.cp\bundles\bundle-development.ruble". java.lang.NullPointerException
+	•	APSTUD-1729: CA shows full list of possible suggestions on initial pop, not filtered list
+	•	APSTUD-1730: No content assist for Math in JS
+	•	APSTUD-1734: JS String instances show static properties of String
+	•	APSTUD-1815: NPE on saving files over FTP
+	•	APSTUD-1830: Attribute content assist in middle of opening HTML tag overwrites tag start
+	•	APSTUD-1840: Studo3 Debugger SegFault
+	•	APSTUD-1850: Attribute content assist shows different lists when they should be the same
+	•	APSTUD-1902: File Compare colorization renders it virtually unusable
+	•	APSTUD-1910: com.enterprisedt.net.ftp.FTPException: 3 Permission denied
+	•	APSTUD-1913: Batch calculation of pull indicators for same remote (all branches on that remote)
+	•	APSTUD-1928: Remove '<' as a smart typing pair in HTML
+	•	APSTUD-1929: No linked mode to exit attributes in HTML
+	•	APSTUD-1931: Don't auto-select single option in content assist if single option is "No Proposals"
+	•	APSTUD-1943: No Content Assist on Undocumented Function Parameters
+	•	APSTUD-1948: Seeing different properties in JS CA when using "var" versus when not using "var"
+	•	APSTUD-1951: Issues with git/shell on windows
+	•	APSTUD-1964: Breakpoints not working in view (html.erb) files
+	•	APSTUD-1965: Ctrl+Space misbehaviour in ruby brackets expression
+	•	APSTUD-1966: Exception when opening HTML editor
+	•	APSTUD-1967: Modify build to default to grabbing latest versions of rubles
+	•	APSTUD-1976: Could not push initial changes to remote
+	•	APSTUD-2003: Sort snippet proposals in with other proposals
+	•	APSTUD-2014: Content Assist Popup has invisible text
+	•	APSTUD-2019: Error launching Aptana after updating to latest nightly
+	•	APSTUD-2030: Unable to rename folder I created inside SFTP connection
+	•	APSTUD-2035: The dmg installer image for Mac still has "Beta" text
+	•	APSTUD-2037: The splash screen for Studio 3 still says "preview release"
+	•	APSTUD-2039: Ruby breakpoint does not show and the breakpoints view is showing its full path
+	•	APSTUD-2051: HTML script tag referencing external source is not expandable in the outline
+	•	APSTUD-2070: Ruby validator does not show error on sidebar
+	•	APSTUD-2078: Via Tender: Aptana Studio 3 not starting
+	•	APSTUD-2119: File system updates not seen in the IDE.
+	•	APSTUD-2177: jQuery XML file from Studio fails to show any CA in Studio 3
+
+Medium priority fixed bugs:
+	•	APSTUD-477: Via Tender: how to set git user.name and user.email
+	•	APSTUD-1259: Via Tender: How to select content of a tag in Aptana?
+	•	APSTUD-1377: Studio Beta 3 breaks PDT
+	•	APSTUD-1559: Via Tender: Aptana Studio 3 does not support SFTP PKA with passphrase!
+	•	APSTUD-1564: Via Tender: FTP not transferring files in subdirectories.
+	•	APSTUD-1600: Specific Editor Preference Pages "messed up"
+	•	APSTUD-1608: PHP syntax colouring unreliable since 1st Feb update
+	•	APSTUD-1624: [JS] Content assist can't complete
+	•	APSTUD-1642: HTML 5 tags display as errors in preview release
+	•	APSTUD-1688: IOException: Stream closed in PhpAstLexer.zzRefill
+	•	APSTUD-1689: BadLocationException in PHPCodeScanner.getSymbolValue()
+	•	APSTUD-1694: Deadlock in Bundle Loading
+	•	APSTUD-1696: jQuery CA missing some items
+	•	APSTUD-1719: html code completion for tag attributes goes wrong
+	•	APSTUD-1727: Error when creating new Web project from template
+	•	APSTUD-1732: Incorrect HTML autocomplete in the middle of other html tag
+	•	APSTUD-1764: Firefox debugger get stuck when starting a new session and closing an active one
+	•	APSTUD-1777: PHP Format
+	•	APSTUD-1790: Default preview to WebKit browser on MacOS PPC
+	•	APSTUD-1805: Unable to start deAPSTUD-session using external server
+	•	APSTUD-1807: Unable to add detail formatter for JS debugger on Ubu 9.10
+	•	APSTUD-1808: Debugging a local project file opens another file
+	•	APSTUD-1813: Examples in PHP help mission
+	•	APSTUD-1829: Verify JS Debugger compatibility with FireFox 4/FireAPSTUD-1.7
+	•	APSTUD-1832: Can't tab out of HTML attribute quotes
+	•	APSTUD-1833: Don't remove focus from editor when refreshing preview window
+	•	APSTUD-1867: 'Git push' has encountered a problem
+	•	APSTUD-1868: Code Folding unusable on JavaScript perspective
+	•	APSTUD-1920: Problem generating Rails project
+	•	APSTUD-1935: AppExplorer shows "create" and "import" buttons even when I have projects
+	•	APSTUD-1937: Run Deploy Wizard should be at bottom of list, separated
+	•	APSTUD-1949: Studio 3 Remote Synchronisation
+	•	APSTUD-1958: HTML formatter should not trim completely consecutive spaces
+	•	APSTUD-1974: FTP directory listing fails for LIST -a
+	•	APSTUD-1980: Show complete list of snippet proposals if prefix matches
+	•	APSTUD-1984: Formatting JS inside a PHP file does not work
+	•	APSTUD-1994: Via Tender: Missing requirements errors installing Studio 3 beta as a plugin
+	•	APSTUD-1996: PHP and JavaScript formatters are failing when a comment pattern is in a string
+	•	APSTUD-2004: Formatting PHP with HTML content is broken
+	•	APSTUD-2010: Content assist re-pops unnecessarily right after insertion
+	•	APSTUD-2021: HTML File Templates empty
+	•	APSTUD-2036: Title on installation wizard still says "beta release"
+	•	APSTUD-2038: Provide a way to disable the file-watcher
+	•	APSTUD-2046: NPE when trying content assist inside double quoted string
+	•	APSTUD-2054: Built-in Server serves CSS files as "text/html"
+	•	APSTUD-2068: Find toolbar icons are not shown correctly
+	•	APSTUD-2071: HTML/JS parsing issue
+	•	APSTUD-2090: Code assist flicker on Windows OS
+	•	APSTUD-2159: Run "Builder/Nature Fixer" on project import
+	•	APSTUD-2198: NPE in AbstractThemeableEditor.handlePreferenceStoreChanged()
+
+Low priority fixed bugs:
+	•	APSTUD-252: Via Tender: Keywords in CSS
+	•	APSTUD-604: User agent icons are cut-off in Ubuntu 9 CA popup
+	•	APSTUD-620: Icons in JS content assist is cut off in Ubuntu
+	•	APSTUD-959: Javascript code highlighting incorrectly identifying regexes.
+	•	APSTUD-963: JS Comment parsing failed with division operator
+	•	APSTUD-1048: Crash on Workspace Swap
+	•	APSTUD-1096: [Dojo] Exception in consolelog, when Dojo is selected ( in Reference View )
+	•	APSTUD-1103: Parser Error
+	•	APSTUD-1151: The preview button looks like a search button
+	•	APSTUD-1292: Existing workspaces not recognized on startup in Aptana 3beta on Linux (Ubuntu) and Mac OSX
+	•	APSTUD-1333: Preview button is always enabled initially even when the operation is not supported for the current editor
+	•	APSTUD-1370: Improvements to the "new file resource" wizard
+	•	APSTUD-1431: APSTUD-in PHP highlighting for heredoc / nowdoc
+	•	APSTUD-1470: Make some Alt+ keys to work in Terminal on MacOSX
+	•	APSTUD-1471: associate *.yaml with yaml editor
+	•	APSTUD-1472: problem to add library in projects
+	•	APSTUD-1506: Color Picker for CSS Editor
+	•	APSTUD-1514: FTP error - broken pipe
+	•	APSTUD-1537: Aptana 2 and 3 license violates GPL
+	•	APSTUD-1544: Turn smart indentation on and off.
+	•	APSTUD-1569: Change "Type" column in Problems View to reflect the name of the validator involved
+	•	APSTUD-1571: Strage "pause" when editing large JSON file
+	•	APSTUD-1582: Show Preview button enabled for ERB, but doesn't do anything
+	•	APSTUD-1603: Add option to turn off code hovers
+	•	APSTUD-1605: formatting the ruby code fails
+	•	APSTUD-1617: Add hover text for "Enable Invasive themes" checkbox
+	•	APSTUD-1621: Problem with polish shortcuts
+	•	APSTUD-1625: JS object literals not formatted as expected
+	•	APSTUD-1626: Line number preference is overwritten
+	•	APSTUD-1628: Correct errant "Unable to acquire parser for language: "null" message in log file
+	•	APSTUD-1632: I cannot create a new folder via SFTP
+	•	APSTUD-1640: Closing attribute value in HTML CA can overwrite part of open tag
+	•	APSTUD-1644: 'Call Generate Script' from RadRails does not work
+	•	APSTUD-1649: Show original FTP message to user in case of errors
+	•	APSTUD-1655: Default Aptana Standalone workspace to UTF-8
+	•	APSTUD-1657: Cmd+F no longer brings up Eclipse Find/Replace Dialog
+	•	APSTUD-1664: Lighthouse Registration - Profile Hijacking
+	•	APSTUD-1675: NPE in theme dialog
+	•	APSTUD-1676: Create default "source" scope in each built-in theme
+	•	APSTUD-1684: FileNotFoundException in DiskIndex.readAllDocumentNames
+	•	APSTUD-1690: ArrayIndexOutOfBoundsException in phpAstLexer.zzRefill()
+	•	APSTUD-1701: Default logging level should not write out info or deAPSTUD-messages to Studio logs
+	•	APSTUD-1702: Add "Git Commit" to right-click menu of App Explorer
+	•	APSTUD-1705: Unecesarry quotes in comments
+	•	APSTUD-1709: JS Context Infopop does not go away when using strings as args
+	•	APSTUD-1721: Run the new-file template through the code-formatter before injecting it
+	•	APSTUD-1723: No JS error markers when in HTML
+	•	APSTUD-1724: Can't disable "Highlight current line" in Preferences
+	•	APSTUD-1725: Can't unbind key binding
+	•	APSTUD-1731: Line after multi-line comment in JS is indented
+	•	APSTUD-1736: Incorrect HTML formatting for meta/title tags
+	•	APSTUD-1739: Some of the file templates are empty
+	•	APSTUD-1740: HAML file template causes an error
+	•	APSTUD-1741: The preferences display settings for Mark Occurrences for all the editors
+	•	APSTUD-1744: Inconsistent behavior of the file creation wizard
+	•	APSTUD-1745: Resulting CSS template for new CSS files is empty
+	•	APSTUD-1746: CSS does not auto-indent between curly braces
+	•	APSTUD-1768: Two "Properties" menu items when right-clicking on a FTP site under the Connections node of a project
+	•	APSTUD-1769: Ctrl + Shift + U/D does not work on a remote file when opened in the editor
+	•	APSTUD-1772: Folding broken in Sass editor
+	•	APSTUD-1776: XML: Do not format onto new lines nodes with only text as children
+	•	APSTUD-1778: CSS auto-completion problem at the end of a line
+	•	APSTUD-1779: Invalid formatting of html inside <script>
+	•	APSTUD-1780: Unhandled event loop exception while comparing two files
+	•	APSTUD-1781: Webbrowser in Studio 3 beta has problems with ticket creation
+	•	APSTUD-1782: An error has occurred. See error log for more details. java.lang.NullPointerException
+	•	APSTUD-1795: Update the Firefox debugger copyrights
+	•	APSTUD-1798: Prompt for workspace at startup
+	•	APSTUD-1800: PHP Code folding in Aptana 3
+	•	APSTUD-1814: Move "Open with PyDev" into submenu
+	•	APSTUD-1817: Commenting self-closing script tag in HTML comments as if code was JavaScript
+	•	APSTUD-1828: Only show deployment options if FTP-type connections are associated
+	•	APSTUD-1835: Merge File Transfer and Deployment Menus
+	•	APSTUD-1841: Aptana 3 isn't prompting for workspace location
+	•	APSTUD-1842: Update to JRuby 1.6.0 RC 2
+	•	APSTUD-1844: No infopopup on HTML attributes
+	•	APSTUD-1845: Auto-assign natures in Studio 3 to Studio 2 projects
+	•	APSTUD-1846: JavaScript Code Assist wacky in PHP document
+	•	APSTUD-1847: Text font setting not applied to editor
+	•	APSTUD-1852: Happy Fun Floaty Find bar Menu
+	•	APSTUD-1853: Django Template Editor failure
+	•	APSTUD-1855: Studio 3 - Default Web (html) Template
+	•	APSTUD-1856: aptana keeps forgetting my chosen theme
+	•	APSTUD-1869: Unreadable text when occurances are highlighted
+	•	APSTUD-1875: HTML.Django template editor is locked
+	•	APSTUD-1884: aptana 3.0.0 update lost my workplace settings
+	•	APSTUD-1886: Don't wrap end tag of empty script tags during formatting
+	•	APSTUD-1892: Fix support for SSH keys with password using SFTP
+	•	APSTUD-1908: Prompt confirming "Are you sure you wish to quit" when typing Ctrl + Q
+	•	APSTUD-1916: PHP formatter issue
+	•	APSTUD-1918: Ruby syntax coloring issue
+	•	APSTUD-1924: Don't overwrite existing files when creating new project
+	•	APSTUD-1932: Create separate branding items for PHP and Rails features
+	•	APSTUD-1933: Only prompt to install PortableGit once
+	•	APSTUD-1934: Can't read background text in AppExplorer with dark theme
+	•	APSTUD-1944: Git hyperlinks starting with "../" are broken
+	•	APSTUD-1945: High CPU Usage in Aptana Studio 3
+	•	APSTUD-1956: Studio 3 standalone uses Appcelerator icons for text files
+	•	APSTUD-1957: Files do not appear after invoking "Edit this bundle" command.
+	•	APSTUD-1968: Commenting out code indents it
+	•	APSTUD-1969: HTML ruble not loading in dev workspace
+	•	APSTUD-1972: kCGErrorCannotComplete: CGSDeviceSynchronize: Invalid device window
+	•	APSTUD-1983: Don't show "No Proposals" if auto-popping up Content Assist
+	•	APSTUD-1985: html5 ARIA role attribut
+	•	APSTUD-1986: CSS vendor keyword not ignored
+	•	APSTUD-1991: Collapse FTP permissions into single pref page
+	•	APSTUD-1992: CSS CA popup selection changes on resize
+	•	APSTUD-1997: Line number color display inconsistent
+	•	APSTUD-1998: Display trailing whitespace
+	•	APSTUD-1999: Fatal errors with clean and new installation on Debian Squeeze
+	•	APSTUD-2000: Source > Format in Ruby doesn't work with Regexes
+	•	APSTUD-2007: [PHP] Anonymous functions break code formatting when using "use"
+	•	APSTUD-2009: CSS property error
+	•	APSTUD-2020: [PHP] Odd spacing with str_replace and strtolower on code formatting
+	•	APSTUD-2042: "No Proposals" is cut-off on Ubuntu 9.10 CA popup
+	•	APSTUD-2053: Commands > JavaScript > Reformat Document produces different result than Ctrl-Shift-F
+	•	APSTUD-2055: Create bundle command to set CSS activation characters
+	•	APSTUD-2056: Error while hitting OK to close the Themes preference page.
+	•	APSTUD-2058: HTML formatter incorrectly de-dents closing style tag
+	•	APSTUD-2066: CSS edits don't show when refreshing HTML in preview
+	•	APSTUD-2074: Typing a HTML comment adds an end bracket
+	•	APSTUD-2089: IllegalArgumentException in com.aptana.editor.common.FilenameDifferentiator
+	•	APSTUD-2093: HTML.django templates cant write
+	•	APSTUD-2121: No longer receiving nightly updates
+	•	APSTUD-2174: Add preference to turn on and off builders/watchers to fix studio 2.x projects
+	•	APSTUD-2188: Trim attribute values for types in SDOCML

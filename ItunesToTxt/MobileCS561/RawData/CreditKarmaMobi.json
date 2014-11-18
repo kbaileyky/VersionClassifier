@@ -29,15 +29,15 @@
                         694133485, 
                         389607479, 
                         469439008, 
-                        300238550, 
                         415376179, 
-                        449751021, 
-                        511125261, 
+                        300238550, 
                         328412701, 
-                        571256745, 
+                        511125261, 
                         398018310, 
-                        425199399, 
-                        933306841
+                        449751021, 
+                        469405092, 
+                        370811491, 
+                        517166254
                     ], 
                     "title": "Top Free iPad Finance Apps"
                 }, 
@@ -55,8 +55,8 @@
                         312325565, 
                         301724680, 
                         458734623, 
-                        640179084, 
-                        883324671
+                        328412701, 
+                        370811491
                     ], 
                     "title": "Top Free iPhone Finance Apps"
                 }
@@ -143,11 +143,11 @@
             "pageDetails": "Credit Karma, Inc._Credit Karma Mobile - Free Credit Score & Credit Monitoring", 
             "pageId": "519817714", 
             "language": "1", 
-            "serverInstance": "1009407", 
+            "serverInstance": "615261", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
-            "environmentDataCenter": "NWK", 
+            "environmentDataCenter": "ST11", 
             "pageType": "Software", 
             "platformName": "iTunes12", 
             "page": "Software_519817714"
@@ -193,7 +193,7 @@
                 "label": "Credit Karma, Inc."
             }
         ], 
-        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/B5E5/frameworks-sf6/images/", 
+        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/95A6/frameworks-sf6/images/", 
         "omnitureMetrics": {
             "shouldTrackBrowserPlugins": false, 
             "format": "HTML", 
@@ -223,14 +223,14 @@
                 ]
             }
         }, 
-        "resourceImagePath": "https://s.mzstatic.com/htmlResources/B5E5/di6-storefront/images/", 
-        "resourceBasePath": "/htmlResources/B5E5/files/", 
+        "resourceImagePath": "https://s.mzstatic.com/htmlResources/95A6/di6-storefront/images/", 
+        "resourceBasePath": "/htmlResources/95A6/files/", 
         "flagLink": {
             "url": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/countrySelectorPage?cc=us", 
             "imageSrc": "https://s.mzstatic.com/images/flags/-dsi-30/usa.png", 
             "imageAltText": "My Store: United States, Choose Store"
         }, 
-        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/B5E5/frameworks-dt6/images/", 
+        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/95A6/frameworks-dt6/images/", 
         "termsLink": {
             "url": "https://www.apple.com/legal/itunes/us/terms.html", 
             "label": "Terms and Conditions"
@@ -366,10 +366,10 @@
                     "releaseDate": "2012-07-18", 
                     "artistId": 519816000, 
                     "userRating": {
-                        "ratingCountCurrentVersion": 2818, 
+                        "ratingCountCurrentVersion": 2932, 
                         "valueCurrentVersion": 5, 
                         "value": 5, 
-                        "ratingCount": 68532
+                        "ratingCount": 68628
                     }, 
                     "artistUrl": "https://itunes.apple.com/us/artist/credit-karma-inc./id519816000?mt=8", 
                     "itunesNotes": null, 
@@ -449,7 +449,7 @@
                     "editorialBadgeInfo": null, 
                     "artwork": [
                         {
-                            "url": "http://a4.mzstatic.com/us/r30/Purple5/v4/48/26/f5/4826f53a-6c82-5206-8bcb-3da7fa1aca8c/icon240x240.png", 
+                            "url": "http://a5.mzstatic.com/us/r30/Purple5/v4/48/26/f5/4826f53a-6c82-5206-8bcb-3da7fa1aca8c/icon240x240.jpeg", 
                             "width": 240, 
                             "height": 240
                         }, 
@@ -459,7 +459,7 @@
                             "height": 1024
                         }, 
                         {
-                            "url": "http://a1.mzstatic.com/us/r30/Purple5/v4/48/26/f5/4826f53a-6c82-5206-8bcb-3da7fa1aca8c/icon440x440.png", 
+                            "url": "http://a2.mzstatic.com/us/r30/Purple5/v4/48/26/f5/4826f53a-6c82-5206-8bcb-3da7fa1aca8c/icon440x440.jpeg", 
                             "width": 440, 
                             "height": 440
                         }, 
@@ -474,7 +474,7 @@
                             "height": 400
                         }, 
                         {
-                            "url": "http://a2.mzstatic.com/us/r30/Purple5/v4/48/26/f5/4826f53a-6c82-5206-8bcb-3da7fa1aca8c/icon512x512.png", 
+                            "url": "http://a1.mzstatic.com/us/r30/Purple5/v4/48/26/f5/4826f53a-6c82-5206-8bcb-3da7fa1aca8c/icon512x512.jpeg", 
                             "width": 512, 
                             "height": 512
                         }
@@ -875,7 +875,7 @@
         }
     }, 
     "properties": {
-        "ITSResourceRevNum": "B5E5", 
+        "ITSResourceRevNum": "95A6", 
         "isCobaltJavascriptRedirectEnabled": true, 
         "isModern": false, 
         "ITSLogger.ServerReportingApp": "MZUserXP", 
@@ -885,7 +885,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "1009407", 
+        "ITSServerInstance": "615261", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
@@ -915,7 +915,7 @@
                 "platformId": "28", 
                 "storeFront": "143441", 
                 "storeFrontHeader": "143441-1,28", 
-                "environmentDataCenter": "NWK", 
+                "environmentDataCenter": "ST11", 
                 "platformName": "iTunes12"
             }, 
             "postFrequency": 60000, 
@@ -1024,7 +1024,7 @@
         "countryCode": "usa", 
         "GlobalLists": {
             "removeFromWishlistUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/removeFromWishlist", 
-            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=B5E5", 
+            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=95A6", 
             "updateRadioHistoryUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/updateRadioHistory", 
             "popover": {
                 "width": "350", 
