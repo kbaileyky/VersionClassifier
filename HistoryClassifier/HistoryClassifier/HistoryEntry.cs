@@ -18,7 +18,7 @@ namespace HistoryClassifier
 
         public AppType ApplicationType;
 
-        private string datePattern;
+        private string[] datePattern;
 
         public bool flag = false;
 
@@ -33,7 +33,7 @@ namespace HistoryClassifier
 
             VersionNumber = String.Empty;
             ReleaseDate = String.Empty;
-            datePattern = String.Empty;
+            datePattern = new string[] {String.Empty};
             ApplicationType = new AppNotClassified();
             ApplicationName = String.Empty;
 
@@ -47,7 +47,7 @@ namespace HistoryClassifier
 
             VersionNumber = String.Empty;
             ReleaseDate = String.Empty;
-            datePattern = String.Empty;
+            datePattern = new string[] { String.Empty };
             ApplicationType = new AppNotClassified();
             ApplicationName = String.Empty;
         }
@@ -60,7 +60,7 @@ namespace HistoryClassifier
 
             VersionNumber = String.Empty;
             ReleaseDate = String.Empty;
-            datePattern = String.Empty;
+            datePattern = new string[] { String.Empty };
             ApplicationType = new AppNotClassified();
             ApplicationName = String.Empty;
         }
@@ -74,7 +74,7 @@ namespace HistoryClassifier
 
             VersionNumber = String.Empty;
             ReleaseDate = String.Empty;
-            datePattern = String.Empty;
+            datePattern = new string[] {String.Empty};
             ApplicationType = new AppNotClassified();
             ApplicationName = name;
         }
@@ -88,12 +88,12 @@ namespace HistoryClassifier
             original_text = ent; 
 
             ReleaseDate = String.Empty;
-            datePattern = String.Empty;
+            datePattern = new string[] { String.Empty };
             ApplicationType = new AppNotClassified();
             ApplicationName = name;
         }
 
-        public HistoryEntry(string ent, Classification clss, string name, string number, string date, string pat)
+        public HistoryEntry(string ent, Classification clss, string name, string number, string date, string[] pat)
         {
             entry = ent;
             classification = clss;
@@ -107,7 +107,7 @@ namespace HistoryClassifier
             ApplicationName = name;
         }
 
-        public HistoryEntry(string ent, Classification clss, string name, string number, string date, string pat, AppType tpe)
+        public HistoryEntry(string ent, Classification clss, string name, string number, string date, string[] pat, AppType tpe)
         {
             entry = ent;
             classification = clss;
@@ -146,7 +146,7 @@ namespace HistoryClassifier
         }
 
 
-        public void Set_Date_Pattern(string newPattern)
+        public void Set_Date_Pattern(string[] newPattern)
         {
             datePattern = newPattern;
         }

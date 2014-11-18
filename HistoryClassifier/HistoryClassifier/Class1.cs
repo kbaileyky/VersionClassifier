@@ -17,7 +17,7 @@ namespace HistoryClassifier
 
         public AppType ApplicationType;
 
-        private string datePattern;
+        private string[] datePattern;
 
         public bool flag = false;
 
@@ -30,7 +30,7 @@ namespace HistoryClassifier
             VersionNumber = String.Empty;
             ReleaseDate = String.Empty;
             ReleaseContents = String.Empty;
-            datePattern = String.Empty;
+            datePattern = new string[] {String.Empty};
             ApplicationType = new AppNotClassified();
             ApplicationName = String.Empty;
 
@@ -38,7 +38,7 @@ namespace HistoryClassifier
             return;
         }
 
-        public ReleaseContainer(string pat)
+        public ReleaseContainer(string[] pat)
         {
             VersionNumber = String.Empty;
             ReleaseDate = String.Empty; 
@@ -53,7 +53,7 @@ namespace HistoryClassifier
         }
 
 
-        public ReleaseContainer(string pat, string number)
+        public ReleaseContainer(string[] pat, string number)
         {
            ReleaseDate = String.Empty;
            ReleaseContents = String.Empty;
@@ -188,10 +188,10 @@ namespace HistoryClassifier
         public string Convert_Date(string oldDate)
         {
 
-            string[] formats = { datePattern, };
+
 
               DateTime date;
-              if (DateTime.TryParseExact(oldDate, formats, enUS, DateTimeStyles.None, out date))
+              if (DateTime.TryParseExact(oldDate, datePattern, enUS, DateTimeStyles.None, out date))
               {
                   ReleaseDate = date.ToString("dd/MM/yyyy");
                   return ReleaseDate;

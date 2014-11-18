@@ -40,10 +40,11 @@
             this.loadToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.rawFileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.savedFileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.comparisonFileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.patternToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.saveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.saveByVersionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.saveForComparisonToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.saveByVersionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lsbxHistory = new System.Windows.Forms.ListBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -59,7 +60,8 @@
             this.toolStripStatusLabel5 = new System.Windows.Forms.ToolStripStatusLabel();
             this.lblDateFormat = new System.Windows.Forms.ToolStripStatusLabel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.rbSibling = new System.Windows.Forms.RadioButton();
+            this.rbSiblingM = new System.Windows.Forms.RadioButton();
+            this.rbSiblingD = new System.Windows.Forms.RadioButton();
             this.rbMobile = new System.Windows.Forms.RadioButton();
             this.rbDesktop = new System.Windows.Forms.RadioButton();
             this.txtName = new System.Windows.Forms.TextBox();
@@ -67,7 +69,6 @@
             this.btnSet = new System.Windows.Forms.Button();
             this.btnMergeDown = new System.Windows.Forms.Button();
             this.btnMergeUp = new System.Windows.Forms.Button();
-            this.comparisonFileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -177,21 +178,28 @@
             // rawFileToolStripMenuItem
             // 
             this.rawFileToolStripMenuItem.Name = "rawFileToolStripMenuItem";
-            this.rawFileToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
+            this.rawFileToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.rawFileToolStripMenuItem.Text = "Raw File";
             this.rawFileToolStripMenuItem.Click += new System.EventHandler(this.rawFileToolStripMenuItem_Click);
             // 
             // savedFileToolStripMenuItem
             // 
             this.savedFileToolStripMenuItem.Name = "savedFileToolStripMenuItem";
-            this.savedFileToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
+            this.savedFileToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.savedFileToolStripMenuItem.Text = "Saved File";
             this.savedFileToolStripMenuItem.Click += new System.EventHandler(this.savedFileToolStripMenuItem_Click);
+            // 
+            // comparisonFileToolStripMenuItem
+            // 
+            this.comparisonFileToolStripMenuItem.Name = "comparisonFileToolStripMenuItem";
+            this.comparisonFileToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.comparisonFileToolStripMenuItem.Text = "Comparison File";
+            this.comparisonFileToolStripMenuItem.Click += new System.EventHandler(this.comparisonFileToolStripMenuItem_Click);
             // 
             // patternToolStripMenuItem
             // 
             this.patternToolStripMenuItem.Name = "patternToolStripMenuItem";
-            this.patternToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
+            this.patternToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.patternToolStripMenuItem.Text = "Patterns";
             this.patternToolStripMenuItem.Click += new System.EventHandler(this.patternToolStripMenuItem_Click);
             // 
@@ -205,19 +213,19 @@
             this.saveToolStripMenuItem.Text = "Save";
             this.saveToolStripMenuItem.Click += new System.EventHandler(this.saveToolStripMenuItem_Click);
             // 
-            // saveByVersionToolStripMenuItem
-            // 
-            this.saveByVersionToolStripMenuItem.Name = "saveByVersionToolStripMenuItem";
-            this.saveByVersionToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
-            this.saveByVersionToolStripMenuItem.Text = "Save By Version";
-            this.saveByVersionToolStripMenuItem.Click += new System.EventHandler(this.saveByVersionToolStripMenuItem_Click);
-            // 
             // saveForComparisonToolStripMenuItem
             // 
             this.saveForComparisonToolStripMenuItem.Name = "saveForComparisonToolStripMenuItem";
             this.saveForComparisonToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
             this.saveForComparisonToolStripMenuItem.Text = "Save for Comparison";
             this.saveForComparisonToolStripMenuItem.Click += new System.EventHandler(this.saveForComparisonToolStripMenuItem_Click);
+            // 
+            // saveByVersionToolStripMenuItem
+            // 
+            this.saveByVersionToolStripMenuItem.Name = "saveByVersionToolStripMenuItem";
+            this.saveByVersionToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
+            this.saveByVersionToolStripMenuItem.Text = "Save By Version";
+            this.saveByVersionToolStripMenuItem.Click += new System.EventHandler(this.saveByVersionToolStripMenuItem_Click);
             // 
             // lsbxHistory
             // 
@@ -335,27 +343,40 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.rbSibling);
+            this.groupBox1.Controls.Add(this.rbSiblingM);
+            this.groupBox1.Controls.Add(this.rbSiblingD);
             this.groupBox1.Controls.Add(this.rbMobile);
             this.groupBox1.Controls.Add(this.rbDesktop);
-            this.groupBox1.Location = new System.Drawing.Point(704, 143);
+            this.groupBox1.Location = new System.Drawing.Point(704, 129);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(152, 92);
+            this.groupBox1.Size = new System.Drawing.Size(152, 106);
             this.groupBox1.TabIndex = 15;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Application Type";
             // 
-            // rbSibling
+            // rbSiblingM
             // 
-            this.rbSibling.AutoSize = true;
-            this.rbSibling.Location = new System.Drawing.Point(6, 65);
-            this.rbSibling.Name = "rbSibling";
-            this.rbSibling.Size = new System.Drawing.Size(56, 17);
-            this.rbSibling.TabIndex = 2;
-            this.rbSibling.TabStop = true;
-            this.rbSibling.Text = "Sibling";
-            this.rbSibling.UseVisualStyleBackColor = true;
-            this.rbSibling.CheckedChanged += new System.EventHandler(this.rbSibling_CheckedChanged);
+            this.rbSiblingM.AutoSize = true;
+            this.rbSiblingM.Location = new System.Drawing.Point(6, 83);
+            this.rbSiblingM.Name = "rbSiblingM";
+            this.rbSiblingM.Size = new System.Drawing.Size(96, 17);
+            this.rbSiblingM.TabIndex = 3;
+            this.rbSiblingM.TabStop = true;
+            this.rbSiblingM.Text = "Sibling - Mobile";
+            this.rbSiblingM.UseVisualStyleBackColor = true;
+            this.rbSiblingM.CheckedChanged += new System.EventHandler(this.rbSiblingM_CheckedChanged);
+            // 
+            // rbSiblingD
+            // 
+            this.rbSiblingD.AutoSize = true;
+            this.rbSiblingD.Location = new System.Drawing.Point(6, 65);
+            this.rbSiblingD.Name = "rbSiblingD";
+            this.rbSiblingD.Size = new System.Drawing.Size(105, 17);
+            this.rbSiblingD.TabIndex = 2;
+            this.rbSiblingD.TabStop = true;
+            this.rbSiblingD.Text = "Sibling - Desktop";
+            this.rbSiblingD.UseVisualStyleBackColor = true;
+            this.rbSiblingD.CheckedChanged += new System.EventHandler(this.rbSibling_CheckedChanged);
             // 
             // rbMobile
             // 
@@ -383,7 +404,7 @@
             // 
             // txtName
             // 
-            this.txtName.Location = new System.Drawing.Point(704, 116);
+            this.txtName.Location = new System.Drawing.Point(704, 103);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(107, 20);
             this.txtName.TabIndex = 16;
@@ -391,7 +412,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(704, 97);
+            this.label3.Location = new System.Drawing.Point(704, 84);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(90, 13);
             this.label3.TabIndex = 17;
@@ -399,7 +420,7 @@
             // 
             // btnSet
             // 
-            this.btnSet.Location = new System.Drawing.Point(817, 114);
+            this.btnSet.Location = new System.Drawing.Point(817, 101);
             this.btnSet.Name = "btnSet";
             this.btnSet.Size = new System.Drawing.Size(46, 23);
             this.btnSet.TabIndex = 18;
@@ -426,13 +447,6 @@
             this.btnMergeUp.Text = "Merge ^";
             this.btnMergeUp.UseVisualStyleBackColor = true;
             this.btnMergeUp.Click += new System.EventHandler(this.btnMergeUp_Click);
-            // 
-            // comparisonFileToolStripMenuItem
-            // 
-            this.comparisonFileToolStripMenuItem.Name = "comparisonFileToolStripMenuItem";
-            this.comparisonFileToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
-            this.comparisonFileToolStripMenuItem.Text = "Comparison File";
-            this.comparisonFileToolStripMenuItem.Click += new System.EventHandler(this.comparisonFileToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -503,7 +517,7 @@
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel5;
         private System.Windows.Forms.ToolStripStatusLabel lblDateFormat;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.RadioButton rbSibling;
+        private System.Windows.Forms.RadioButton rbSiblingD;
         private System.Windows.Forms.RadioButton rbMobile;
         private System.Windows.Forms.RadioButton rbDesktop;
         private System.Windows.Forms.TextBox txtName;
@@ -516,6 +530,7 @@
         private System.Windows.Forms.ToolStripMenuItem saveByVersionToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem saveForComparisonToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem comparisonFileToolStripMenuItem;
+        private System.Windows.Forms.RadioButton rbSiblingM;
     }
 }
 

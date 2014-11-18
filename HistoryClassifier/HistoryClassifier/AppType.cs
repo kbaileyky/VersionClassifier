@@ -65,17 +65,42 @@ namespace HistoryClassifier
 
     }
 
-    class Sibling : AppType
+    class SiblingDesktop : AppType
     {
         public string str_type;
    //     public appType enum_type;
         public int int_type;
 
-        public Sibling()
+        public SiblingDesktop()
         {
-            str_type = "Sibling";
+            str_type = "Sibling - Desktop";
        //     enum_type = appType.Sibling;
             int_type = 2;
+        }
+
+        public string Get_String()
+        {
+            return str_type;
+        }
+
+        public int Get_Int()
+        {
+            return int_type;
+        }
+
+    }
+
+    class SiblingMobile : AppType
+    {
+        public string str_type;
+        //     public appType enum_type;
+        public int int_type;
+
+        public SiblingMobile()
+        {
+            str_type = "Sibling - Mobile";
+            //     enum_type = appType.Sibling;
+            int_type = 4;
         }
 
         public string Get_String()

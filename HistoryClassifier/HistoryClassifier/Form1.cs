@@ -22,7 +22,7 @@ namespace HistoryClassifier
         private string firstVersionPattern = "\\d+\\.\\d+";
         private string SecondVersionPattern = "\\d+\\.\\d+";
         private string datePattern = "\\d{1,2}-\\d{1,2}-(\\d{4}|\\d{2})";
-        private string dateFormat = String.Empty;
+        private string[] dateFormat;
 
         //so there are pretty colors
         private List<HistoryEntry> activeHistory = new List<HistoryEntry>();
@@ -101,7 +101,7 @@ namespace HistoryClassifier
                                         newRelease.Set_Contents(VersionString);
                                         ReleaseList.Add(newRelease);
                                        VersionString = String.Empty;
-                                   newRelease = new ReleaseContainer(datePattern, Regex.Match(tempString, SecondVersionPattern).Value);
+                                       newRelease = new ReleaseContainer(dateFormat, Regex.Match(tempString, SecondVersionPattern).Value);
                                     skip = true;
                                 }
 
@@ -170,12 +170,12 @@ namespace HistoryClassifier
                         rbMobile.Checked = true;
                         break;
                     case 2:
-                        rbSibling.Checked = true;
+                        rbSiblingD.Checked = true;
                         break;
                     default:
                         rbDesktop.Checked = false;
                         rbMobile.Checked = false;
-                        rbSibling.Checked = false;
+                        rbSiblingD.Checked = false;
                         break;
                 }
             }
@@ -465,8 +465,19 @@ namespace HistoryClassifier
                     firstVersionPattern = txtReader.ReadLine();
                     SecondVersionPattern = txtReader.ReadLine();
                     datePattern = txtReader.ReadLine();
-                    dateFormat = txtReader.ReadLine();
-                   
+                    string line;
+                    List<string> tempList = new List<string>();
+                    // Read and display lines from the file until the end of
+                    // the file is reached.
+                    while ((line = txtReader.ReadLine()) != null)
+                    {
+                        tempList.Add(line);
+                    }
+                    dateFormat = new string[tempList.Count];
+                    for (int i = 0; i < tempList.Count; i++)
+                    {
+                        dateFormat[i] = tempList[i];
+                    }
                 } //end using stream
 
                 txtReader.Close();
@@ -478,7 +489,7 @@ namespace HistoryClassifier
                 throw ex;
             }
 
-            lblDateFormat.Text = dateFormat;
+          //  lblDateFormat.Text = dateFormat;
             lblDatePattern.Text = datePattern;
             lblVersionPat.Text = firstVersionPattern;
             lblSecVersionPattern.Text = SecondVersionPattern;
@@ -506,7 +517,12 @@ namespace HistoryClassifier
 
         private void rbSibling_CheckedChanged(object sender, EventArgs e)
         {
-            Set_App_Type(new Sibling());
+            Set_App_Type(new SiblingDesktop());
+        }
+
+        private void rbSiblingM_CheckedChanged(object sender, EventArgs e)
+        {
+            Set_App_Type(new SiblingMobile());
         }
 
         private void btnSet_Click(object sender, EventArgs e)
@@ -651,6 +667,8 @@ namespace HistoryClassifier
 
             System.Console.WriteLine(filename);
         }
+
+
      
 
     }
