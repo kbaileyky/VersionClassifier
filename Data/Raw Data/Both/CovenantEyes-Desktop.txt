@@ -1,0 +1,208 @@
+Windows Version 5.1.5.52
+Released October 30, 2014
+
+Reporting Improvements
+
+Disabled Secure Search in Google to improve monitoring, filtering, and reporting.
+Accountability Reports now display which application was used to access a URL.
+URL logs generated through the software are now displayed in a web browser.
+Installation Improvements
+
+Chrome and Firefox no longer report the Covenant Eyes download as malicious.
+Added progress bar for the download portion of the installer.
+Added window that displays user’s current antivirus software.
+Installer now asks for confirmation that user has disabled antivirus software.
+Added a link to the installation process with instructions to temporarily disable antivirus software when installing.
+Other Fixes
+
+Improved compatibility with various anti-virus programs.
+Fixed an issue that caused crashing for some users, where the eye icon would disappear from the system tray.
+Fixed occasional crashing issue on Amazon.com.
+Covenant Eyes now works with Microsoft Lync.
+Removed “Uninstall Covenant Eyes” from the start menu.
+Various bug fixes.
+Windows Version 5.0.4.280
+Released February 6, 2014
+
+Improved compliance with Google’s policy regarding extensions for the Chrome browser.
+Fixed crash with Internet Explorer when viewing videos.
+Improved error reporting.
+Improved installation process to prevent software conflicts and crashes.
+Allowed access to Covenant Eyes website when not signed in to our software.
+Several bug fixes.
+Windows Version 5.0.4.49
+Released January 8, 2014
+
+ You must uninstall Covenant Eyes before installing this version. We understand uninstalling Covenant Eyes can be a problem for you and really do try to avoid requiring it. We apologize for this inconvenience.
+Created single installer for Windows 8, 7, and Vista (32- and 64-bit), and XP (32-bit).
+Added browser extensions for Internet Explorer, Firefox, and Chrome to improve Accountability Reports.
+Improved compatibility with hotspots and workplace network connections.
+Replaced the Restart Covenant Eyes menu option with Refresh Covenant Eyes.
+Improved handling of special characters (i.e. accent marks).
+Architectural changes to prepare for improved Accountability Reports.
+Improved support for hotspots.
+Better cleanup of files through the uninstaller.
+Windows Version 4.5.3.2301
+Released October 23, 2012
+
+Added critical support preventing boot up failure for users who forget to uninstall Covenant Eyes prior to upgrading to Windows 8.
+Added prevention of installation to Windows 8.
+Provided link to Windows 8 Beta version.
+Windows Version 4.5.2.2098
+Released July 17, 2012
+
+Fixed compatibility issue which caused Firefox to crash.
+Fixed compatibility issue with Filter Block page and Google Chrome.
+Updated notification message for users with NVIDIA ForceWare.
+Windows Version 4.5.1.2095
+Released December 15, 2011
+
+Fixed a communication error with our server causing intermittent signouts.
+Windows Version 4.5.0.2020
+Released November 29, 2011
+
+Fixed a problem that caused Covenant Eyes to crash after upgrading for some users.
+Windows Version 4.4.9.1968
+Released October 19, 2011
+
+Fixed issue with iTunes 10.5.0.142 which blocked iTunes store.
+Fixed problems with synching iPhone.
+Fixed problem preventing users from opening Safari 5.1.1
+The “Upgrade – Covenant Eyes” window is now the top window when “Check for upgrades” is selected from the Covenant Eyes menu.
+Covenant Eyes for Windows is now built using VS 2010.
+Windows Version 4.4.8.1826
+Released August 4, 2011
+
+Changed file names to make Covenant Eyes files more recognizable to customers in situations like allowing our processes through firewalls.
+Changed the visual design of the Preferences window to make the options easier to understand and use.
+Windows Version 4.4.7.1816
+Released July 19, 2011
+
+Improvements and bug fixes:
+Fixed an “iTunes Home Sharing” compatibility issue with Bonjour. This update has the potential to resolve other software incompatibilities.
+Improved compatibility with Chrome.
+Fixed “Failed to create empty document” issue.
+Revamped “Contact Covenant Eyes” pop-up to include e-mail address.
+Moved focus on sign-in window to username field if the field is blank.
+Menu changes:
+Reordered list of menu items to bring more important options (like “Restart Covenant Eyes”) to the top.
+Added “Help” (which links to our online support documents).
+Removed “Hide URL Logs.”
+Removed the troubleshooter tool.
+Removed “View User Guide.”
+Removed everything but the name, icon, copyright info, and version number from “About Covenant Eyes.”
+Changed “Configure” to “Preferences.”
+Changed “Panic Button” to “Panic…”
+Changed “Check for software upgrade” to “Check for upgrades.”
+Changed “About…” to “About Covenant Eyes.”
+Windows Version 4.4.2.1718
+Released June 13, 2011
+
+Removed username and password confirmation during installation.
+Removed option to configure proxy servers during installation.
+Added option to reboot later during installation and uninstallation.
+Added “Uninstall Covenant Eyes” to Start Menu.
+Removed warning message during uninstallation.
+Added information to generate an uninstall code.
+Added reminder that uninstalling doesn’t cancel and information for how to cancel.
+Windows Version 4.4.2.1662
+Released March 30, 2011
+
+Updated contact information.
+Added fix to rare isolated crash.
+Windows Version 4.4.2.1631
+Released February 17, 2011
+
+Fixed Firefox crash issue with extremely long URLs.
+Fixed user login bug.
+Fixed “NMFLT could not connect to Filter server” issue.
+Windows Version 4.4.1.1552
+Released October 25, 2010
+
+InstallShield updated.
+Fixed a bug that caused stability issues on startup (fixed in 4.4.1.1547).
+Fixed compatibility issue for Firefox (fixed in 4.4.1.1547).
+Changed Covenant Eyes icons and images to match new branding (fixed in 4.4.0.1502).
+Corrected an issue that caused time of day on Accountability Reports to be incorrect for some users (fixed in 4.4.0.1502).
+Improved reporting of secure sites (fixed in 4.4.0.1502).
+Windows Version 4.4.1.1547
+Released October 11, 2010
+
+Fixed a bug that caused stability issues on startup.
+Fixed compatibility issue for Firefox.
+Windows Version 4.4.0.1502
+Released September 29, 2010
+
+Changed Covenant Eyes icons and images to match new branding.
+Corrected an issue that caused time of day on Accountability Reports to be incorrect for some users.
+Improved reporting of secure sites.
+Windows Version 4.3.8.1393
+Released July 27, 2010
+
+Requirements
+Requires Windows XP, Vista (32- or 64-bit) or Windows 7 (32- or 64-bit).
+Enhancements and Fixes
+Removed green diamond from Covenant Eyes system tray icon.
+Fixed debug log generation on Windows Vista and Windows 7.
+Improved reliability of Covenant Eyes at wireless hotspots.
+Covenant Eyes now works at wireless hotspots by default, so the “Enable Secure Hotspot Access” configuration option has been removed.
+Covenant Eyes now detects network changes, so restarting Covenant Eyes is no longer needed when moving to a hotspot.
+Corrected an issue that caused some users to get a mutex error message from the Covenant Eyes program.
+Removed memory leaks from nmSvc.exe.
+Improved stability with Covenant Eyes in proxy environments.
+Improved communication between Covenant Eyes and our filter servers.
+Improved stability of Filter History and Settings user interface.
+Windows Version 4.3.6.1004
+Released May 26, 2010
+
+Requirements
+Requires Windows XP, Vista (32- or 64-bit) or Windows 7 (32- or 64-bit).
+Enhancements and Fixes
+Increased stability when switching between Windows user profiles.
+Improved upgrade feature for versions 4.2.7c and newer.
+Improved interaction with the LSP stack, to decrease occurrences of the 30-second reboot message.
+Known Issues
+Covenant Eyes may be unable to connect in corporate settings that use proxy servers with firewalls that block DNS queries.
+Windows Version 4.3.5.746
+Released December 21, 2009
+
+Enhancements and Fixes
+Improved stability on Windows.
+Updated the sign in window to include the option to stay logged in.
+Ensured that Covenant Eyes is fully removed during the uninstall process.
+Fixed bugs that were reported by customers.
+Decreased conflicts with programs that require network access before the user logs into Covenant Eyes, such as iTunes and Windows Mobile syncing.
+Made changes to the Support Diagnostics feature.
+Windows Version 4.3.4.588
+Released September 24, 2009
+
+Enhancements and Fixes
+Prevented “Abnormal Termination” message from appearing on the Accountability Report when computers hibernate while Covenant Eyes is running.
+Increased accuracy of the filter time controls.
+Increased reliability of our connection to the filter server, which should decrease occurrences of the “Cannot Connect to Filter Server” message.
+Windows Version 4.3.4.572
+Released September 17, 2009
+
+Enhancements and Fixes
+Provided support for 64-bit Windows Vista.
+Modified installer to prevent installation on incorrect platforms.
+Windows Version 4.3.4
+Released August 19, 2009
+
+Enhancements and Fixes
+Addressed stability issue with Wireless hot spots.
+Windows Version 4.3.3
+Released August 14, 2009
+
+Enhancements and Fixes
+Addressed stability issues with Apple iTunes and other software.
+Windows Version 4.3.2
+Released July 14, 2009
+
+Enhancements and Fixes
+New: Information on programs that use the Internet, like instant messaging software, has been gathered since 4.2.8c. To improve support for program activity in 4.3.2, users may need to log in to Covenant Eyes even when they aren’t using the Internet.
+New: Web page titles are now shown next to Web addresses (URLs) in Accountability Reports and Detailed Browsing Logs.
+New: Added a tool, “Troubleshooter,” in the CE menu that can help customers and Customer Service Representatives diagnose system connectivity problems.
+Addressed stability issues with Apple iTunes software.
+Updated compatibility with file sharing applications.
+Additional security and stability improvements.

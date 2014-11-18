@@ -1,0 +1,228 @@
+Version 4.2.2 (11/17/2014)
+- Fixed a DLL mismatch problem on start-up of the client for some users
+- Stability fixes around simultaneous video uploads and edits
+Version 4.2.1 (11/17/2014)
+Integration with Plays.tv
+- Your videos will now also be displayed in the new Plays.tv gallery.
+- Select and watch your saved gameplay videos.
+- Trim your videos to find the perfect moment.
+- Add a description and easily share your video to Plays.tv.
+- Conveniently access your Plays.tv Feed from the Control Center Home.
+Changes to unregistered users
+- To continue accumulating Reward Points, users must register with Raptr.
+ 
+Version 4.1.2 (10/17/2014)
+- Fixed a problem where the client would not start-up for some users
+ 
+Version 4.1.1 (10/15/2014)
+- Raptr hosted videos: Sharing on Raptr will now upload videos to our own servers.  Uploading to Youtube is still supported when selecting this option from the right click menu in the gallery.
+Version 4.1.0 (8/1/2014)
+In-Game HUD
+- Mute toggling works via hot key GVR
+- Microphone and game sound mute indicators will only be shown when they are muted
+- You can now switch from GVR (Record and/or Replay) to Twitch
+- Simplified HUD display for GVR and Twitch
+GVR:
+- Ability to test and adjust microphone volume from Preferences
+- Ability to adjust game volume from Preferences
+- Replay clip background recording changes – Creating multiple instant replay clips in succession will always create a clip for the length defined by the user.
+Sharing:
+- Support for @tagging
+- Support for UTF-8 hashtags
+- Youku support
+- Larger gallery thumbnails
+- Gallery can now be re-sized
+Optimizations
+- Support for display of Chinese characters
+Version 4.0.1 (8/1/2014)
+Various bug fixes on GVR
+Version 4.0.0 (7/28/2014)
+Control Center Home:
+Replay as a distinct feature alongside Record and Broadcast
+Improved access to your Media Gallery
+Navigation to Community Replay videos
+Support for promotions
+Improved UX to show keyboard shortcuts
+Updated messaging in the Games Library Gallery Tab
+Media Gallery & Sharing:
+Ability to watch videos in Windows Media Player if you do not have Flash installed
+Ability to add hashtags to the video you are sharing
+Improved messaging for a user when they need to register and/or sign in with YouTube before sharing
+Background uploading and processing of video when the user closes the Share widget
+In-Game Features
+Newly designed HUD to show status, information, and keyboard shortcuts for Twitch, Replay, and Record while a user is in-game
+Twitch title can now be updated without stopping your broadcast/stream
+Support for webcam and microphone in Replay and Record
+Ability to toggle from Twitch, Record, and Replay without ending your game session
+Ability to switch from Twitch to Record and/or Replay while playing your game (no need to go to Raptr In-Game and toggle in Home)
+Updated preferences UX
+Version 3.8.1 (5/21/2014)
+Fixed a game detection issue for users that may have the Steam location improperly defined in the system registry
+Version 3.8.0 (4/11/2014)
+Twitch improvements: Major UI change which now allows you to fully customize the quality of your stream by changing your bandwidth, fps, and resolution settings.  We have also added webcam and chat support so that you can now overlay webcam and chat on top of your game while you play!
+Version 3.7.4 (3/31/2014)
+Translated client! – Raptr client is now translated into 10 different languages.  To change your language setting, right click on systray icon -> preferences -> general -> language, pick your preferred language and restart the client
+Fix login issues with PSN and Xbox
+Added new ways to earn points via Offers
+Version 3.7.3 (3/6/2014)
+Fixed a bug where PSN trophies tracking was not working
+Version 3.7.2 (3/4/2014)
+Full redesign of the desktop app!  View details here
+Version 3.7.1 (2/18/2014)
+Improvements to manual add game UX
+Bug fixes with in-game support
+Version 3.6.1 (1/9/2014)
+Fixed a game tracking issue that was caused by the latest Steam update
+Version 3.6.0 (12/19/2013)
+Added In-game support for 64bit games: Added support for World of Warcraft, Battlefield 4 and Call of Duty: Ghosts
+We have also disabled the growl notification on the following events: 1) after you played a game, 2) when you rank up, 3) changes in leaderboard
+Version 3.5.3 (11/6/2013)
+Added in-game support for Battlefield 4  (Known issue: streaming this game may be laggy)
+Fixed a bug where post-game summary would not load for some users
+Fixed a bug where client was unable to properly obtain PSN avatar
+Version 3.5.1 (10/25/2013)
+FPS & APM display in-game!  You can now view what FPS (frames per second) and (actions per second) while playing in-game!  Hit PageUp-F while in-game to activate it.  Go to preferences->in-game to see how to customize it
+Fixed an issue where mouse control sometimes feels laggy tabbing out outside of game
+Version 3.4.0 (10/14/2013)
+Fixed a bug where some users were unable to authenticate via the Facebook and Twitter widgets
+Fixed a bug with trophies scanning for PS3 accounts
+Fixed a potential hanging issue when sharing a Twitch stream
+Version 3.3.3 (9/17/13)
+Fixed connectivity issue with Google Talk
+Huge performance improvement when streaming to Twitch.  You should notice very little performance degradation during streaming
+Fixed an in-game overlay bug where it is hard to activate the right window when multiple windows overlay on top of each other
+Hardware rig – Raptr now detects what hardware you use and we showcase this info on your profile!
+Version 3.3.1 (8/19/13)
+various bug fixes
+Version 3.2.1 (7/17/13)
+Live Broadcast – Show off your skills to other players around the world!  Click on the “Broadcast” widget from the Raptr dock or watch this tutorial to get started.
+Screenshot editor – You can now easily crop, draw, or write on the screenshots that you take!  Create your own meme and show off to the Raptr community!
+Version 3.1.7 (7/2/13)
+Fixed Steam authentication issue
+Improved game scanning of Steam games
+Version 3.1.5 (4/19/13)
+Fixed an Xbox authentication issue
+Version 3.1.4 (3/22/13)
+Fixed a Steam connectivity issue
+Version 3.1.3 (1/29/13)
+Fixed a bug where League of Legends would not detect after the 3.1.2 update
+Version 3.1.2 (1/28/13)
+Steam detection – We can now detect Steam games that are installed outside of your default Steam folder or hard drive
+Fixed bug where users were unable to log-in to Steam
+Fixed bug where some users were unable to connect to Raptr IM
+Version 3.1.1 (12/12/12)
+New features and improvements:
+Added a widget to allow users to manually track their game time
+Hovering over links in browser will now display the URL at the bottom of the browser window
+No longer load libtorrent code if you have not downloaded any free games
+Growls are now clickable once you share a screenshot to Raptr
+Fixed focus issue when new chat tabs are created
+Support for multiple monitors when placing your dock on your desktop
+Added settings icon to dock
+Version 3.0.20 (11/19/12)
+We have received feedback from some users that 3.0.18 was causing intermittent crashes on some of the other applications that they were using.  We believe we have resolved this issue and 3.0.20 contains the fix for this.  Now that we’ve got this one last bug out of the way, we are going to continue to focus on bringing you some new features that we think you will enjoy.  Stay tuned!
+Other bug fixes
+Dock’s context menu will no longer get stuck
+Manually add games should now return full list of supported games
+Games scanning should no longer get stuck
+Version 3.0.18 (11/12/12)
+Thanks for the overwhelming support and feedback of the previous release of 3.0.17.  We listened to your feedback and we worked our butt off to bring you some of these bug fixes and new features in the last few days that should address many of your concerns!
+Added a preference (in General) to assign the double click of the System Tray Icon (Dock, or Friends&Accounts, or both)
+Added a preference (in Chat) to Open links in default browser (Default off)
+Added a preference (in Dock) to set the Dock’s default Monitor/Display to nonprimary monitor
+Fixed Windows 8 Mail and other Metro Apps crashing on Launch when Raptr is running
+Fixed in-game issues for some users with DX9 games
+Fixed Screenshot raptr share button for newly created screenshots
+Fixed a timing issue where a user might be able to trigger in-game before in-game was fully ready
+Put in a hold over to stop dropdown menus from popping people out of games
+Version 3.0.17 (11/7/12)
+We now remember whether or not the dock was in a closed state when you try to relaunch the desktop app
+Fixed a problem where in-game support would not work until you access the “Manage Installed Games” panel.  For existing v3.0 users, you can either fix this problem immediately by right clicking on the raptr systray and selecting “Scan games” or wait for the app to run for 5 minutes to fix itself automatically
+Clicking on Windows 8 growl notification now takes you to the proper page
+Version 3.0.15 (10/29/12)
+New features and improvements
+Completely rebuilt with a sleeker look and new widget interface — quickly access what you want, when you want it, both in and out of game
+Customizable Raptr Dock — drag and drop widgets to create your own preferred setup
+Post-game summary that shows how you much you’ve progressed after playing a game session
+Raptr IM feature is now optional – you can keep the client running while going offline on Raptr IM
+New in-game community widget that displays your current session playtime, friends who are playing, and Raptr’s community feed
+Take a screenshot with a single click using the Take Screenshot widget, view and share your screenshot collection in the new Gallery widget
+New Notifications widget that lets you see the number of new activity and click through to view them
+Additional easy-access widgets including Youtube, Facebook, and Gmail
+Redesigned Games widget detailing your rank, friends that play, and other stats
+New Rewards widget to instantly access the latest Raptr Rewards with one click
+Lots of performance improvements and bug fixes
+Version 2.1.6 (9/12/12)
+Fixed a login problem with steam
+Version 2.1.4 (9/1/12)
+Fixed a login problem with steam community beta accounts
+Version 2.1.3 (7/26/12)
+Fixed a login problem with xbox accounts
+Version 2.1.2 (4/16/12)
+You can now rescan your Xbox achievements by accessing the “Rescan Xbox” button from your preferences
+Control+F find on page feature for the main out-of-game window
+Enable verbose logging in the General section of Preferences
+Bug fixes and enhancements:
+Better Minecraft detection
+Better handling during first time experience if a user has 0 PC games
+Friend request dialog will no longer steal focus as you are using the IM feature
+Fixed in-game bugs with BlazBlue Calamity Trigger, Assassin’s Creed 2, Dreamfall, Blacklight Retribution, Mass Effect 3, Starcraft 2, Lost Saga
+Game no longer minimizes when clicking on screen in a dual monitor setup
+Fixed issue where games would switch to windowed mode when in-game growl appears
+Fixed Find Friends via Twitter feature
+Version 2.0.4 (3/27/12)
+Fixed an issue with getting xbox secret achievements
+Version 2.0.3 (3/6/12)
+Fixed connectivity problem with xbox buddy list and achievements
+Fixed problem where certain programs couldn’t launch with Raptr running
+Steam users who have old accounts with email address as their user name can login to Steam from the desktop app
+Version 2.0.1 (3/1/12)
+New features:
+Raptr Rank! Get ranked among the Raptr community in games based on your hours and achievements, compete with friends with new leaderboards
+New gamer analysis that displays a breakdown of Xbox, PSN, and PC game stats
+Main window has been updated to include the full web experience in the Home screen, click here for a list of new web features
+My PC Games screen now displays your rank in each game, your friend leaderboard, and personalized content based on your gameplay
+New notifications for ranking up and surpassing your friends in a game
+New stats summary notification after crawling a gamer ID
+Bug fixes and enhancements:
+Disabled ICQ support
+Improved PSN trophy crawling
+Fixed bug with game minimizing in a dual monitor setup
+Fixed bug with incoming-chat growls not showing in-game
+Version 1.10.5 (2/8/12)
+Fixed steam authentication issue
+Version 1.10.4 (12/20/11)
+Fixed a windows side-by-side configuration problem for some users
+Enabled in-game support for Star Wars: The Old Republic
+Version 1.10.3 (12/15/11)
+New features:
+Reminders for social games – conveniently lets you set a time to check back on your games with a list of active reminders embedded in the buddy list for easy access. Just play your favorite social game and the reminder options will display when you finish.
+In-game browser supports mouse scroll wheel
+Bug fixes and tweaks:
+Added in-game support for Skyrim and Battlefield 3
+Added special handling for Xbox Live’s Terms of Service change
+Properly handle invalid clients
+Fixed a bug where some website notifications would not be sent to the desktop app
+Fixed issue where growls were not triggering immediately after ending a game session
+Fixed issue where gameplay hours were not tracking properly
+Key bindings no longer pass through as game commands when in-game is active
+F5 now properly triggers a scan for installed games
+Update to support system messages from Facebook
+Various crash fixes and performance improvements
+Version 1.9.7 (11/18/11)
+Fixed Xbox connectivity issue
+Version 1.9.6 (11/7/11)
+New Features:
+New header in the Feed panel to easily manage all of your games and topics
+You can now login to the desktop app using your email address
+Bug fixes and tweaks:
+Fix an in-game overlay issue where the mouse cursor may be moved to a second monitor after in-game overlay has been inactivated
+Fixed bug with PSN service where the buddylist trophies would become stale over time and that trophies would no longer get updated
+Immediately abort game session after the user logs or quits the desktop app
+Don’t re-show same news in game finished notification
+Fixed an XBox buddy list problem where friends aren’t properly shown as playing
+Fixed bug where text could not be typed in the in-game browser
+Enable Twitter button for screenshots is fixed
+Fixed sound lock-up issue for 64-bit Windows 7
+Fixed issue with games launching auto-minimized
+Lots of performance fixes for tracking, in-game features, and the buddy list

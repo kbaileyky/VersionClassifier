@@ -1,0 +1,125 @@
+Version 1.8.0.447 released on October 6, 2014
+
+Quickly launch apps with one click—and safely uninstall apps—from one central place in the Apps panel.
+Save battery life via improved app efficiency.
+Save Creative Cloud Market assets into our new multi-application Creative Cloud Libraries.
+Search Creative Cloud Market using Japanese keywords.[1]
+Take advantage of OS X Yosemite compatibility.
+Troubleshoot file sync issues via more specific error messages.
+Mask services in the desktop app that aren’t available to your users (applicable for Creative Cloud for enterprise customers).
+[1] Japanese version only
+
+Version 1.7.1.418 released on 7/24/2014
+
+Reduced unnecessary internet requests during file sync failures.
+Fixed issue where paid members were seeing "Try" instead of "Install" when running for more than 24 hours.
+Version 1.7.0.413 released on 7/3/2014
+
+Introducing Creative Cloud Market — a selection of useful content licensed for paid Creative Cloud members, including vector objects, icons, patterns, and placement images.
+Restructured navigation with Fonts and Files now under the new Assets tab.
+Apps panel updates for simplified experience around Creative Cloud apps installation.
+File sync now turned on by default.
+Performance and stability improvements for file sync and collaboration, including the ability to manage separate identities on a single desktop.
+Latest build of Lightroom is now available to free members.
+Removed repetitive OS notifications that require admin privileges for Add Ons.
+?Increased number of files supported in a given file sync folder.
+Improved error handling to show multiple OS notifications of file sync errors as a single notification.
+Fixed errors for pending file and font sync operations when quitting application.
+Eliminate erroneous file sync of .tmp files, including Adobe After Effects CC temporary files.
+Quicker file sync response to going back online after being offline on Mac.
+Improved error handling of virus infected files for file sync.?
+Version 1.6.0.393 released on 05/27/2014
+
+You can now install older versions of Adobe products straight from Creative Cloud Desktop. These are installed side-by-side with existing versions.
+Improved performance when syncing a large number of files.
+Fixed scenarios where font sync would show perpetual spinner.
+Improved overall font sync stability.
+Improved error handling for file sync, including the addition of notifications when retrying can resolve an error.
+Batched notifications of file sync operations, limiting the number of notifications when a large number of files are synced in a short period of time.
+Redesigned Sign In experience.
+Increased types of enterprise identities accepted for licensing products.
+Version 1.5.1.369 released on 3/21/2014
+
+Fixed a bug in Creative Cloud desktop application install process on 64-bit Windows systems that resulted in a missing msvcp110.dll error message when launching some CC products.
+Version 1.5.0.367 released on 3/19/2014
+
+Fixed multiple Creative Cloud desktop app download failures.
+Updated installation error messages for better comprehension.
+Usability improvements to the Creative Cloud desktop app update workflow, including the ability to defer non-critical updates. You can also see what is included in an update before you install it. This version deploys these improvements, which will then appear for all future Creative Cloud desktop app updates.
+Made minor usability improvements for product update workflows and Home panel notifications.
+Improved reliability for file synchronization, including the ability to cancel upload or download operations until synchronization is complete. Also includes elimination of known memory leaks.
+Improved file synchronization error handling for full local disk drives and locked files.
+Implemented minor security enhancements.
+Version 1.4.1.351 released on 2/12/2014
+
+Fixed bug for non-administrator Mac OS X users that resulted in termination of various applications. Bridge CC, Edge Inspect CC, Adobe Media Encoder and Scout CC terminated upon launch. Premiere Pro CC terminated upon export of file.
+Correctly set access privileges on "~/Library/Preferences/Adobe" folder on Mac OS X so that the current user has read/write access.
+Version 1.4.0.348 released on 2/03/2014
+
+Enabled access to already synchronized Typekit fonts after going offline.
+Improved performance and reliability of file synchronization.
+Improved error handling when file synchronization fails.
+Fixed links to tutorials in unsupported languages so that users are directed to English version of tutorials.
+Version 1.3.0.322 released on 12/19/2013
+
+Improved performance of Typekit Font Sync
+Enable/disable font sync in the Preferences Pane
+Install latest feature updates at initial install time for free Creative Cloud members
+Support for product names requiring two or more lines of text in the Apps panel
+Links to product tutorials for CC Apps in the Home and Apps panel
+Eliminate ACC install time conflicts with CEPServiceManager so that ACC updates and installs are more likely to succeed.
+Fixes to the install workflow when launched from Internet Explorer 11 on Windows 8.1.
+Fixes to the file synchronization workflow, including fixes for iWorks application crashes and crashes on the Mavericks OS.
+Version 1.2.1.260 released on 11/6/2013
+
+Bug fixes for critical licensing failures
+Windows 8.1 critical compatibility fix
+Version 1.2.0.248 released on 10/28/2013
+
+Much higher reliability for file and font synchronization through improved handling of sign in tokens across panels.
+Paid users get the latest update of a product applied when first installing the product.
+Trial users have access to updates with features in them.
+Compatibility fixes for Windows 8.1
+Ability to minimize ACC while in Window mode.
+Ability to download and install Lightroom 5.2 in previously unavailable locales.
+Fixed cases where Home panel spinner remained spinning indefinitely and CPU utilization was high resulting from having no notifications.
+Performance improvements in loading Behance panel.
+Improved error handling in multiple areas when the sign in credential's device token expires.
+Fixed errors when synchronizing Adelle Sans Italic font.
+Fixed case where font panel spinner remained spinning indefinitely due to turning on and off font sync while synchronizing a font.
+Windows 8.1 fix to properly restart Explorer after installing ACC.
+Fixed ACC install problems resulting from earlier version (AAM) update notification process running.
+Allow internet connection with Windows systems using a PAC file for automatic proxy configuration.
+Fixed case where illegal characters in a synchronized file name resulted in user being taken to incorrect cloud location.
+Fixed cases where product is shown as up to date after an update installation fails.
+Fixed translation problems in multiple languages by moving to newest Adobe Clean font.
+Fixed cases where error icon is displayed on the task bar when signed out after font synchronization error.
+Fixed incorrect version number in Mac's About dialog.
+Include link to customer support URL for system errors.
+Version 1.1.2.232 released on 9/4/2013
+
+Fixed errors during install of Adobe Creative Cloud desktop application due to OS locks on installer backup folders.
+Improvements to the Adobe Creative Cloud desktop application's install workflow, including performance optimizations and better handling of elevation to OS administrator privileges.
+Fixed memory leaks with OS notification activity.
+Improved performance for loading Behance panel content.
+Fix for synchronized fonts to correct some incomplete font activations scenarios that resulted in synchronized fonts being unavailable for use.
+Fix to disable fonts when no user is signed into the Adobe Creative Cloud desktop application.
+Version 1.1.1.220 released on 8/20/2013
+
+Fixed cases of unexpected conflict and copies created from previously synchronized files
+Fixed cases of unexpected deletion of files previously synced from the Creative Cloud Connection Preview application
+Fixed some cases of fonts synchronized when user is signed out later become unavailable
+Version 1.1.0.213 released on 8/8/2013
+
+Adobe CEF Helper (used to display web content) no longer utilizes CPU when not in use
+Enablement for Early Access release of Font and Typekit File Sync (learn more)
+Version 1.0.2.189 released on 7/15/2013
+
+You can access the Release Notes from Preferences > General > Account > Version # 
+The Creative Cloud application no longer shows a confirmation message when you shut down the app
+(Mac OS only) App no longer opens when you switch between Spaces
+(Windows only) By default the app now launches in Window mode instead of pinned to the System Tray
+Version 1.0.0.183, released on 6/24/2013 
+
+General performance improvements, including during sign in and authentication.
+Resolves an issue where some users encountered an "Unknown Server Error" when attempting to sign in.

@@ -1,0 +1,75 @@
+Version 8.0.2 - Nov 3, 2014 - Release Notes:
+Enhanced UI optimized for large high-res screens
+Single screen functionality with advanced list view
+Automated SplashID Backup for cloud users
+Powerful security dashboard to help identify and fix weak, reused, and old passwords
+Deeper integration with web logins for a smoother experience
+Add a credit card record using your device’s camera
+Touch ID
+Version 7.2.5 - May 3, 2014 - Release Notes:
+Fixed an issue with 2-factor authentication
+Fixed an issue with sharing feature
+iPad UI enhancements
+Bug fixes and stability improvements
+Version 7.2.4 - April 2, 2014 - Release Notes:
+Bug fixes and enhancements for the web autofill screen
+Fixed a bug with password being rejected after switching from cloud to WiFi sync, when 2-factor authentication was enabled
+Version 7.2.3 - March 24, 2014 - Release Notes:
+Fixed a few issues with the web autofill feature
+Fixed a few issues with the iPad icon picker
+Added Send Records tool (email vID) to Settings screen
+Bug fixes and stability improvements
+Version 7.2.2 - March 14, 2014 - Release Notes:
+iPad full screen for web autofill view
+Copy button added for masked fields
+Web autofill improvements
+Bug fixes and stability improvements
+Version 7.2.1 - March 12, 2014 - Release Notes:
+Fixed a bug on saving single field edits
+Version 7.2 - March 11, 2014 - Release Notes:
+New and improved user interface!
+Redesigned list view with a powerful new action bar
+Redesigned record view with a single screen experience
+Split view for iPad
+Complete web login auto-fill and auto-submit functionality
+Share securely feature
+Automatic icon selection based on record name
+2-factor authentication (cloud services subscribers)
+Option to mark a record local only
+Airdrop integration to share records between iOS devices
+Bug fixes and stability improvements
+Version 7.1.3 - December 31, 2013 - Release Notes:
+Colorful icons
+Now you can backup to Dropbox. Go to Settings > Dropbox > Export to Dropbox, and allow SplashID to create a folder in your Dropbox account. Dropbox backup and restore requires a subscription for SplashID Cloud Services and a Dropbox account. You must grant SplashID access to your Dropbox folder to use this feature.
+Fixes the issue with the notes field data being misaligned on iPad.
+Version 7.1.2 - December 13, 2013 - Release Notes:
+Added big Sign In button to login screen
+Now you can import vID files from email attachments. Just tap on the VID attachment in your email app, and select SplashID as the app to open it.
+Now you can use a pattern when changing the password
+Other minor bug fixes
+Version 7.1.1 - November 7, 2013 - Release Notes:
+Full iOS 7 support
+Bug fixes and UI enhancements
+Version 7.1 - October 11, 2013 - Release Notes:
+User interface updated for iOS 7
+Fixed the issue with the pattern login displaying the keyboard
+Fixed an issue with adding custom icons
+Updated app icon
+Version 7.0.13 - September 25, 2013 - Release Notes:
+Compatibility fixes for iOS 7
+Stability improvements
+Fix for edit notes save functionality
+Fix for issue with login screen clearing input upon switching between ABC and 123
+Version 7.0.9 - August 25, 2013 - Release Notes:
+Enhanced performance
+Fixed issue with upgrading with no password set
+Updated FAQs screen with version 7 content
+On WiFi sync, swipe to delete no longer results in sync dialog
+Enhancements to Dedupe screen
+Version 7.0.7 - August 16, 2013 - Release Notes:
+Fixes WiFi licensing issue that some users had on upgrade
+Fixes missing records issue in cloud sync
+Version 7.0.6 - August 13, 2013 - Release Notes:
+Stability enhancements and bug fixes
+Version 7.0.4 - August 6, 2013 - Release Notes:
+First version 7 public release

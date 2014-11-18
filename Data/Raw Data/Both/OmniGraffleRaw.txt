@@ -1,0 +1,1395 @@
+
+Version: 6.0.5
+April 2, 2014
+Mac OS X v10.8+
+OmniGraffle 6.0.5 fixes a number of bugs as well as adding support for stencil searching from our online library.
+	•	Stencil search results should now include results from our online Library, which has been seeded with stencils from the old OmniGraffle Extras page. User-submitted stencils are coming soon; if you’ve created any stencils that you would like to contribute, please contact us!
+	•	By popular request, the scale in Page Setup once again applies to canvases as well as to print (just as it did in releases prior to version 6.0.4).
+	•	Fixed an autosave-related crash.
+	•	Fixed a crash when right-clicking a locked layer.
+	•	Fixed a crash importing certain Visio XML documents.
+	•	The “Show in Finder” button should now work appropriately for downloaded stencils as a result of a search.
+	•	Text lists should now propagate while creating them.
+	•	Fixed an issue downloading invalid file types from our online Library.
+
+
+Version: 6.0.4
+February 3, 2014
+Mac OS X v10.8+
+Bug Fixes
+	•	Page Setup scale now only applies to print operations, and should not affect canvas size values.
+	•	The Auto-covert Scaled Objects setting now applies to the destination canvas, not the originating one.
+	•	Multi-touch gesture sensitivity has been dialed back a little.
+	•	It’s now possible to set the default font for Line Labels.
+	•	Imported Visio stencils are automatically saved as file packages to improve performance.
+	•	Fixed a crash when importing certain Visio documents.
+	•	Fixed a bug where notes and data from Visio stencils went missing.
+	•	Page Setup scale should now be correctly taken into account when printing content that gets pushed off of a page.
+	•	Objects on Shared Layers should no longer be selectable via Command-A in Standard mode.
+	•	Fixed an important performance bug involving documents that have placed EPS image data; those images are now converted to PDF on a save operation.
+	•	Adding a corner radius to a straight line type with midpoints no longer adds a ridiculous number of redundant and extraneous midpoints.
+	•	Fixed a bug where user data variables would paste improperly in other applications.
+	•	Fixed a bug preventing the use of the Magnet Tool on objects in Shared Layers.
+	•	Fixed a bug where Action and Note badges, etc. were only displaying the Graphite versions.
+	•	Fixed a bug where margin fields could be erroneously included during Photoshop export.
+	•	Fixed a crash on launch having to do with a certain combination of installed stencils.
+	•	Fixed a possible crash creating new documents when very large and performance-intensive stencils are installed.
+	•	Fixed a bug where a new blank document could be generated on launch depending on one’s System Preferences.
+	•	Fixed a possible crash when closing a document or quitting the application.
+	•	Fixed a bug where it was possible to drag items to a locked layer.
+	•	Fixed a bug where non-printing layers were not displaying the correct status icon.
+	•	Fixed a crash when dragging objects between canvases.
+	•	Fixed a bug where line endings would not display properly on launching the app by opening a file.
+	•	Fixed a bug where the line arrow highlight can sometimes draw incorrectly.
+	•	Fixed a bug scaling line labels.
+	•	Fixed a bug where groups were dragged into canvases with large unit scale settings and came in at the wrong size.
+	•	Fixed a bug where corner radius wasn’t being taken into account when dragging objects to canvases with different unit scale settings.
+	•	Fixed a bug where canvas size adjustment could break using the arrow keys when Page Setup scale was involved.
+	•	Shadow fuzziness should no longer allow negative values when using the arrow keys.
+	•	Fixed a bug where choosing a double stroke would increase the stroke width improperly.
+	•	Fixed a bug where adding bezier points to shapes would put said point in the wrong location.
+	•	Fixed a bug where empty shapes could not get their font information fully styled.
+	•	Fixed a selection highlight bug when editing text.
+	•	Fixed a bug where line labels following a line’s path would not change its color.
+	•	Fixed a bug where keyboard commands to make text bold would not work properly when actively editing text.
+	•	Fixed a crash opening some visio binary files with shapes with notes.
+	•	Fixed a crash duplicating a canvas with certain orthogonal line combinations.
+	•	Fixed a crash changing the font size of text that contains an embedded pdf.
+	•	Fixed a crash uncombining shapes in a group or table.
+	•	Fixed a hang/crash applying a diagram style to a very large shape tree.
+	•	Fixed a crash duplicating shapes on a shared layer when all other non-shared layers are locked.
+	•	Fixed a crash combining shapes in a group or table (by not allowing it).
+	•	Fixed a crash when copying certain objects that had actions attached to them.
+	•	Fixed a crash when closing documents while there was an active text insertion point.
+	•	Some work done avoiding infinite loops and crashes therein.
+
+
+Version: 6.0.3
+December 17, 2013
+Mac OS X v10.8+
+Bug Fixes
+	•	Strokes once again display in points, and there’s a setting in the General Preferences Pane to use canvas units if desired.
+	•	Fixed a crash displaying corrupt documents in the Resource Browser’s Recents folder.
+	•	Fixed a crash when cancelling an export while the Font Panel was showing.
+	•	Fixed a crash when opening Visio stencils.
+	•	Fixed a crash when sub-selecting a cell in certain tables.
+	•	Fixed a crash when previewing corrupt OmniGraffle documents in the Resource Browser.
+	•	Fixed a crash when editing text in very small shapes.
+	•	Fixed a crash when working with objects that had mixed notes.
+	•	Fixed a crash when switching between canvases in Presentation Mode.
+	•	Fixed a crash when adjusting font size using the Font Inspector.
+	•	Fixed a crash editing and restoring stencils from previous versions.
+	•	Fixed a crash related to a zombie process in certain warning sheet notifications. Stupid zombies.
+	•	Fixed a crash previewing files with Enhanced MetaFiles within.
+	•	Fixed a crash moving stencils to the Trash via the Resource Browser.
+	•	More work fixing crashes when editing and deleting installed stencils.
+	•	Fixed a crash when exporting to Visio XML where PNG images could report themselves as being very large.
+	•	Fixed some text positioning issues when importing Visio documents.
+	•	Fixed some line connection issues when importing Visio documents.
+	•	Fixed an import issue where objects could get broken up into separate images.
+	•	Fixed some text encoding issues when exporting to Visio XML.
+	•	Templates saved with decimal inches as the canvas unit should no longer change to fractional inches on a save and re-open.
+	•	Fixed a bug when exporting to HTML where canvas names had spaces in them.
+	•	Fixed a bug where changing the font face for a group would change the font size inappropriately.
+	•	Fixed a bug where the Shape mini-inspector would not show in the Ruler when running with a Standard license.
+	•	Objects on Shared Layers should no longer show in the Selection Matrix when running in Standard Mode.
+	•	Fixed a bug where the arrow keys would not change stroke width when using centimeters as canvas units.
+	•	Fixed a bug where we weren’t consistently showing and hiding ruler inspectors.
+	•	Fixed an issue when exporting to PDF where actions could wind up in the wrong location.
+	•	Fixed a case where scroll bars would cover up content in certain popovers.
+	•	The Diagramming Tool should now properly create a disconnected object on Command click.
+	•	Fixed a UI refresh bug when deleting canvases.
+	•	Fixed a bug where export to HTML would yield incorrect canvas names.
+	•	Fixed a number of rather lumpy issues having to do with strokes on curved paths.
+	•	Fixed a bug where linked images would disappear after restarting OmniGraffle.
+	•	Fixed Edit -> Outlining commands when the outline view is not showing.
+	•	Removed snap-to-grip keyboard shortcut because it conflicts with the accessibility keyboard shortcut.
+	•	The Resource Browser is disabled if the trial period has expired.
+	•	Text formatting commands now disable as well as enable bold/italics style.
+	•	The Pattern Color Picker is pro-only.
+	•	Shadows now print.
+	•	Entering license after trial mode has expired will not result in a problem relaunching the app.
+	•	Fixed displaying EMF images.
+	•	Fixed toggling layer accessory icons.
+	•	Canvas Origin manipulation is now available in standard.
+	•	Shape button title now truncates properly.
+	•	Properties Inspector View menu item no longer shows up in standard.
+
+
+Version: 6.0.2
+November 7, 2013
+Mac OS X 10.8+
+Bug Fixes
+	•	The Keyboard Shortcuts document has returned.
+	•	Fixed a crash reverting changes when closing a document window.
+	•	Fixed a crash opening certain Visio files.
+	•	Fixed some issues when editing stencils on Mac OS X 10.9 Mavericks.
+	•	Canvas names now truncate properly when the sidebar is narrow.
+	•	Strokes thinner than 1 point should now export to PDF properly.
+	•	Fixed a bug where custom origins on canvases would cut off content when exporting to PDF.
+
+
+Version: 6.0.1
+October 3, 2013
+Mac OS X 10.8+
+Bug Fixes
+	•	If a stencil or template that comes with OmniGraffle gets updated by us, and you haven’t made any customizations to it, then the newer version will replace the old.
+	•	Fixed some typographical errors in the Getting Started or Welcome document.
+	•	Fixed a bug where lines connecting to groups in Visio documents weren’t properly connecting.
+	•	Stencil searches now gives results based on object labels.
+	•	Turned on smart guides in the built-in templates for Software Design, Metric Units, and Imperial Units.
+	•	Fixed an exception in the Quick Look plug-in that was causing other apps (like Finder) to see blank previews for OmniGraffle documents.
+	•	Fixed a bug where text on layers that have been toggled to being a Shared Layer would not autoresize the text object, and led to ‘dirt’ being left on the screen.
+	•	More AppleScript performance improvements have been made.
+	•	Fixed a case where hiding Major Grid Lines would not save out to the document.
+	•	Fixed a hang when using keyboard shortcuts to make text bold or italic while editing text in a shape.
+	•	Fixed a crash when switching to Bold or Italic while the insertion point was at the end of a shape’s text.
+	•	Fixed a crash when downloading stencils from Graffletopia.
+	•	Fixed a crash when using the keyboard while an object with an action was selected.
+	•	Fixed a crash sometimes encountered when switching to the style brush after using OmniGraffle 5’s style brush.
+	•	Fixed a crash encountered when Option-dragging items (to copy them) in the sidebar’s outline view.
+	•	Fixed a crash encountered when creating a new label from AppleScript.
+	•	Fixed a crash encountered when saving edits to a stencil which was recently viewed in the sidebar.
+
+
+Version: 6.0
+September 24, 2013
+Mac OS X 10.8+
+New Features
+	•	OmniGraffle 6 offers a complete User Interface redesign from the ground up.
+	•	The application now runs in a Sandboxed environment.
+	•	Application resources such as Templates and Stencils, etc. can now be fully managed from within the application.
+	•	Improved and powerful controls have been added to edit and mask placed images directly on the canvas.
+	•	New artistic Fill and Stroke styles have been added, such as Freehand, Stipple, and Marker.
+	•	Combined shapes can now be uncombined into their starting component shapes.
+	•	New controls to specify which edge or center of an object is reflected in the Geometry Inspector have been added, along with the ability to set the X and Y coordinates of a selected vertex point.
+	•	Layers can now be toggled between a normal and a Shared layer.
+	•	A new and powerful Font Inspector is now available.
+	•	The Notes and Data Inspector now allows unique naming of individual objects.
+	•	You can now set the display zoom level of 100% to reflect one Apple point, one screen pixel, or one PostScript point for work on Retina displays and true WYSIWYG work.
+	•	Zoom levels have been increased to 6400%!
+	•	The color and position of manual Guides can now be set by hand, and can be dragged from one canvas to another.
+	•	A new List Mode has been added when viewing Stencils.
+	•	Photoshop export has returned, and supports the export of OmniGraffle layers to Photoshop layers.
+	•	Line Labels have a new setting that allows the text to follow the path of the line.
+
+
+Version: 5.4.4
+July 9, 2013
+Mac OS X v10.6.8+
+		Download Pro
+		Download Standard
+Bug Fixes
+	•	Fixed a bug where installed Visio stencils would attempt to autosave.
+	•	Fixed a bug where symlinks in the Stencils folder would cause an error.
+
+
+Version: 5.4.3
+June 3, 2013
+Mac OS X v10.6.8 or later
+		Download Pro
+		Download Standard
+Bug Fixes
+	•	Fixed a crash when reverting to a previous version of the document while viewing a canvas that wasn’t present in that previous version.
+	•	Fixed a possible crash when updating printer drivers.
+	•	Fixed a crash when exporting a document where the first canvas was named with a question mark.
+	•	Fixed a crash in OmniGraffle’s automatic layout.
+	•	Fixed a reproducible crash when quitting an application that was connected via LinkBack to OmniGraffle.
+	•	Fixed a crash that could happen when closing a document while the scrolling bounce back animation was in progress.
+	•	Fixed a reproducible crash when resetting inspector locations while the Stencil window was open.
+	•	Fixed an NSFileCoordination issue when having a large number of documents open or viewing the Stencil window or Template Chooser.
+	•	Fixed a bug where OmniGraffle would call on the discrete graphics card when running on battery power on certain MacBook Pro models.
+	•	Fixed a bug when running on Mac OS X 10.6 where orthogonal line handles could render in the wrong location.
+	•	Fixed a canvas title alignment issue when running on Mac OS X 10.6.
+	•	Fixed a bug where copying as AppleScript would list the shape’s label text twice.
+	•	Fixed a layer ordering issue when exporting the current selection.
+	•	It should be possible again to edit an installed stencil.
+	•	Fixed an error when attempting to clear a field in the Document: Data Inspector.
+	•	Fixed a bug where dragging Frameworks into OmniGraffle would fail.
+	•	Graffletopia search results should be previewing again.
+	•	Fixed a bug where embedded ICC profiles could get written over and over again, creating a very large and unwieldy document.
+	•	Fixed a couple of export issues with PDFs that could lead to a crash.
+	•	Fixed a bug when importing a Visio document where shapes that should have been ignored were not.
+	•	Fixed a bug where a downloaded stencil could result in a never-ending string of alerts.
+	•	Fixed a Visio export issue where line midpoints could get ignored.
+	•	Fixed a bug where objects on layers would rearrange when exporting the current selection.
+	•	Changed the address in the About Box to reflect our new office location.
+
+
+Version: 5.4.2
+August 27, 2012
+Mac OS X v10.6.8 or later
+		Download Pro
+		Download Standard
+Bug Fixes
+	•	Fixed a reproducible crash working with certain Visio stencils.
+	•	Fixed a text wrapping bug when text variables were being used.
+	•	Fixed a rare crash when exporting to PDF using the Standard version of OmniGraffle.
+	•	Actions to open files should work more reliably when exporting to PDF and using Preview.
+	•	Searching for notes and metadata on installed stencils should be working again.
+
+
+Version: 5.4.1
+August 8, 2012
+Mac OS X v10.6.8 or later
+		Download Pro
+		Download Standard
+Bug Fixes
+	•	Support for Retina displays has been added.
+	•	Fixed a regression where JPEG export options were not displaying.
+	•	Fixed a bug where exporting to HTML would use the incorrect JPEG file extension.
+	•	Fixed a typo in the AppleScript Dictionary.
+	•	Fixed a couple of crashes when working with certain Visio documents.
+	•	Fixed a regression where the text:size attribute was not being respected in AppleScript.
+	•	Fixed a bug in the Export Sheet where values in input fields may not properly take.
+	•	Fixed a bug where text would improperly wrap in a shape.
+	•	Fixed a regression where actions to open URLs were not exporting properly to PDF.
+	•	Fixed a regression where actions to highlight a shape were broken.
+	•	Fixed a regression where it was no longer possible to use AppleScript to save as various filetypes.
+	•	Fixed a crash when directly opening Adobe Illustrator files in OmniGraffle Professional.
+	•	Fixed a crash when exporting certain documents to Visio XML.
+	•	Fixed a regression when using actions to jump elsewhere in the document and then exporting to PDF.
+	•	Fixed a crash when working with WMF objects imported in Visio files.
+	•	Fixed a hang when performing shape combinations involving objects that have a corner radius.
+	•	Fixed a crash when undoing after dragging a shared layer to a different canvas.
+	•	Fixed a bug that would cause the smart guides for magnet placement to sometimes draw off to the canvas origin.
+	•	Fixed a crash on Mac OS X 10.6.8 when a file was moved while OmniGraffle was not running and the preference to display previously open documents was on.
+	•	Fixed a bug with smart toolbar buttons not working effectively when the toolbar was set to Text Only.
+	•	Fixed a hang when directly opening certain PDFs in OmniGraffle Professional.
+	•	Fixed a bug where directly opening PDFs would result in their scale being very large.
+	•	Fixed a bug where it was very easy to drag a line label off of a line.
+	•	Fixed an alert when using the arrow keys in the Outline Editor from entries that had no label.
+	•	Fixed an edge case on first launch where an exported PDF from an unsaved document would write out with a .graffle file extension.
+	•	Fixed a bug where the Fill control in the ruler accessory view inspector would be out of sync with the actual selection’s fill color.
+	•	Fixed an alert when proofing colors.
+	•	Fixed a crash when changing the alignment of a subgraph’s enclosing object.
+	•	Fixed a bug where actions to switch to the next canvas were saving out as switching to the previous canvas.
+	•	Fixed a bug where exporting to Visio XML would result in line labels having a black fill color.
+	•	Fixed an alert and crash when opening Visio documents that had a mix of line hops and curved lines.
+	•	Fixed a bug where perfectly vertical lines would sometimes render their line endings behind the shape they were connecting to.
+	•	Fixed a bug where layer ordering could jumble around when adding a shared layer.
+	•	Fixed a hang when printing if an object was using the selectedMenuItemColor from the Developer palette.
+	•	Fixed a bug where rotated shapes with pattern fills cause a hang on 10.8.
+
+
+Version: 5.4
+June 4, 2012
+Mac OS X v10.6.8 or later
+		Download Pro
+		Download Standard
+New Features
+	•	64-bit mode: If you’re running Mac OS X 10.6 (Snow Leopard) or Mac OS X 10.7 (Lion), OmniGraffle now takes advantage of 64-bit mode, providing substantial stability and performance improvements. This has changed the minimum Operating System Requirement to Mac OS X 10.6.8 or later.
+	•	A dynamic Quick Look preview generator has been added to OmniGraffle, which brings back the ability to Quick Look files in the Finder while no longer writing out the preview to the file (impacting performance when autosaving and versioning).
+	•	Stencil searching has been greatly improved to help you find stencils or objects in stencils that you have installed.
+	•	Shadows have improved their rendering, particularly when zoomed in.
+	•	Keyboard shortcuts for Zoom In and Zoom Out have been changed to match the iWork applications.
+	•	When OmniGraffle is unlicensed, the right side of the document titlebar should indicate that it is in trial mode, and how many days are left in the trial.
+	•	OmniGraffle now sports a new icon to bring it more into the family of our other applications.
+Bug Fixes
+	•	Fixed a bug where overlapping orthogonal lines snapping to magnets could render one or more of the lines unselectable.
+	•	When dragging an image from a web browser to a canvas, the image should now land under the mouse cursor and not off the canvas to the lower left corner.
+	•	Fixed a bug when editing text and clicking on the canvas that would make a jump to the wrong spot if the canvas is auto-resizing.
+	•	Fixed a bug where “Revert Document” in the File Menu was unavailable after switching to another application in Mac OS X 10.7.
+	•	Duplicating a file in Mac OS X 10.7 now properly cascades the window position.
+	•	The “Duplicate” entry in the Edit Menu has now been changed to “Duplicate Selection” in order to cease confusion with the Duplicate entry in the File Menu.
+	•	Fixed a severe performance issue having to do with a large number of text variables on a particular canvas.
+	•	Addressed an issue where the Stencil Window search could recognize certain files that are not stencils based on their file extension.
+	•	The Open ColorSync Utility button in the ColorSync preference pane should now be working again.
+Crashes
+	•	Fixed a crash when dragging color swatches to various objects.
+	•	Fixed a crash when exporting a document with many canvases with shared layers to file formats that write out multiple files for each canvas.
+	•	Fixed a crash when reverting to a previous version of the document for certain files while running in Mac OS X 10.7.
+	•	As noted above, 64-bit mode offers increased stability and neatly avoids a number of existing reported crashes in the reproducible test cases we have found.
+
+Version: 5.4 rc
+May 21, 2012
+Mac OS X v10.6.8 or later
+New Features
+	•	64-bit mode: If you’re running Mac OS X 10.6 (Snow Leopard) or Mac OS X 10.7 (Lion), OmniGraffle now takes advantage of 64-bit mode, providing substantial stability and performance improvements. This has changed the minimum Operating System Requirement to Mac OS X 10.6.8 or later.
+	•	A dynamic Quick Look preview generator has been added to OmniGraffle, which brings back the ability to Quick Look files in the Finder while no longer writing out the preview to the file (impacting performance when autosaving and versioning).
+	•	Stencil searching has been greatly improved to help you find stencils or objects in stencils that you have installed.
+	•	Shadows have improved their rendering, particularly when zoomed in.
+	•	Keyboard shortcuts for Zoom In and Zoom Out have been changed to match the iWork applications.
+	•	When OmniGraffle is unlicensed, the right side of the document titlebar should indicate that it is in trial mode, and how many days are left in the trial.
+	•	OmniGraffle now sports a new icon to bring it more into the family of our other applications.
+Bug Fixes
+	•	Fixed a bug where overlapping orthogonal lines snapping to magnets could render one or more of the lines unselectable.
+	•	When dragging an image from a web browser to a canvas, the image should now land under the mouse cursor and not off the canvas to the lower left corner.
+	•	Fixed a bug when editing text and clicking on the canvas that would make a jump to the wrong spot if the canvas is auto-resizing.
+	•	Fixed a bug where “Revert Document” in the File Menu was unavailable after switching to another application in Mac OS X 10.7.
+	•	Duplicating a file in Mac OS X 10.7 now properly cascades the window position.
+	•	The “Duplicate” entry in the Edit Menu has now been changed to “Duplicate Selection” in order to cease confusion with the Duplicate entry in the File Menu.
+	•	Fixed a severe performance issue having to do with a large number of text variables on a particular canvas.
+	•	Addressed an issue where the Stencil Window search could recognize certain files that are not stencils based on their file extension.
+	•	The Open ColorSync Utility button in the ColorSync preference pane should now be working again.
+Crashes
+	•	Fixed a crash when exporting a document with many canvases with shared layers to file formats that write out multiple files for each canvas.
+	•	Fixed a crash when reverting to a previous version of the document for certain files while running in Mac OS X 10.7.
+	•	As noted above, 64-bit mode offers increased stability and neatly avoids a number of existing reported crashes in the reproducible test cases we have found.
+
+Version: 5.4 beta
+April 19, 2012
+Mac OS X v10.6.8 or later
+		Download Pro
+		Download Standard
+Recent OmniGraffle 5.4 beta changes
+	•	Exported JPEG files should now get the expected .jpg file extension instead of .jpeg.
+	•	Added localizations for changed menu entries and export options.
+	•	Fixed a bug where overlapping orthogonal lines snapping to magnets could render one or more of the lines unselectable.
+	•	Addressed a performance issue where page number variables on shared layers could slow OmniGraffle down considerably.
+	•	Special-cased the warning that Volumes are not able to be imported to avoid a potential hang or crash when running on Mac OS X 10.6.8.
+	•	The Disk Image’s background and Applications alias should be showing again.
+	•	Visio stencils (.vss files) should now be properly opening and displaying, however there may be some competition in Launch Services for these filetypes if you have BBEdit or TextWrangler installed.
+	•	Fixed a crash when dragging a partition or mounted volume to OmniGraffle’s application icon.
+	•	Fixed a crash when working with connecting shapes.
+	•	The titlebar and Open Recent… menu should now properly display OmniGraffle document icons.
+	•	Xcode projects can now again be directly dragged to the OmniGraffle application icon.
+Previous OmniGraffle 5.4 beta changes
+New Features
+	•	64-bit mode: If you’re running Mac OS X 10.6 (Snow Leopard) or Mac OS X 10.7 (Lion), OmniGraffle now takes advantage of 64-bit mode, providing substantial stability and performance improvements. This has changed the minimum Operating System Requirement to Mac OS X 10.6.8 or later.
+	•	A dynamic Quick Look preview generator has been added to OmniGraffle, which brings back the ability to Quick Look files in the Finder while no longer writing out the preview to the file (impacting performance when autosaving and versioning).
+	•	Stencil searching has been greatly improved to help you find stencils or objects in stencils that you have installed.
+	•	Shadows have improved their rendering, particularly when zoomed in.
+	•	Keyboard shortcuts for Zoom In and Zoom Out have been changed to match the iWork applications.
+	•	When OmniGraffle is unlicensed, the right side of the document titlebar should indicate that it is in trial mode, and how many days are left in the trial.
+	•	OmniGraffle now sports a new icon to bring it more into the family of our other applications.
+Bug Fixes
+	•	When dragging an image from a web browser to a canvas, the image should now land under the mouse cursor and not off the canvas to the lower left corner.
+	•	Fixed a bug when editing text and clicking on the canvas that would make a jump to the wrong spot if the canvas is auto-resizing.
+	•	Fixed a bug where “Revert Document” in the File Menu was unavailable after switching to another application in Mac OS X 10.7.
+	•	Duplicating a file in Mac OS X 10.7 now properly cascades the window position.
+	•	The “Duplicate” entry in the Edit Menu has now been changed to “Duplicate Selection” in order to cease confusion with the Duplicate entry in the File Menu.
+	•	Fixed a severe performance issue having to do with a large number of text variables on a particular canvas.
+	•	Addressed an issue where the Stencil Window search could recognize certain files that are not stencils based on their file extension.
+	•	The Open ColorSync Utility button in the ColorSync preference pane should now be working again.
+Crashes
+	•	Fixed a crash when exporting a document with many canvases with shared layers to file formats that write out multiple files for each canvas.
+	•	Fixed a crash when reverting to a previous version of the document for certain files while running in Mac OS X 10.7.
+	•	As noted above, 64-bit mode offers increased stability and neatly avoids a number of existing reported crashes in the reproducible test cases we have found.
+
+
+Version: 5.3.6
+November 7, 2011
+Mac OS X v10.5 or later
+		Download Pro
+		Download Standard
+Bug Fixes
+	•	Fixed a regression where drop shadows on objects would not print.
+	•	Fixed a bug where shadows were not rendering properly for Mac OS X v10.5 users.
+	•	Found a few more cases where dragging a raster image to a pixel-based canvas would place the image on non-integral pixel coordinates.
+	•	The title of the Stencil Window should now again be localized.
+	•	Addressed an issue that would generate errant vertex points when using the Pen Tool.
+
+
+Version: 5.3.5
+October 26, 2011
+Mac OS X v10.5 or later
+		Download Pro
+		Download Standard
+Bug Fixes
+	•	Turned off the display of drop shadows in canvas icons in the sidebar to improve performance and stability.
+	•	Fixed a bug where the Stencil Window would show on launch whether it had been showing previously or not.
+	•	When exporting a multiple canvas document that’s not using printer sheets for its canvas sizing and canvas size auto-adjustment is on, export areas will fit the content on each canvas appropriately.
+	•	Fixed a bug where drop shadows on canvas name variables on shared layers was showing the incorrect canvas name.
+	•	Fixed another bug having to do with zooming on auto-resizing canvases.
+
+
+Version: 5.3.4
+September 23, 2011
+Mac OS X v10.5 or later
+		Download Pro
+		Download Standard
+Bug Fixes
+	•	Fixed a bug where line endings or arrowheads were not showing in their respective popup menus in the Lines and Shape Inspector.
+	•	Addressed an issue where the new canvas size auto-adjustment Setting would conflict with the “Fit in Window” zoom setting.
+	•	Fixed a regression in the Menu Bar where menu items and entries were not getting localized.
+	•	Fixed a zoom view bug when Page Setup scale was being used.
+
+
+Version: 5.3.3
+September 22, 2011
+Mac OS X v10.5 or later
+		Download Pro
+		Download Standard
+Bug Fixes
+	•	Quick Look previews have been temporarily disabled on Lion while we work out some performance issues which made Auto Save too slow when working with complex documents. (This made the app hang every time you switched away and back.) We plan to bring back Quick Look previews in our next update (after addressing these performance issues).
+	•	Automatic canvas size adjustments now give a bit more padding between the object and the canvas edge.
+	•	Canvases that are set to auto-adjust and are not sized using printer pages will now automatically grow when the window is resized, making for an ‘infinite canvas’ of sorts.
+	•	Fixed a bug where Option-dragging objects from one layer to another in the Layer List sidebar would move objects to the wrong layer.
+	•	Aliases and Symlinks residing in the proper directory that point to folders containing stencils should now show up in the Stencil Window.
+	•	Addressed an NSDocumentController error when opening the Template Chooser.
+	•	Fixed a crash when dragging certain groups that contain both shapes and lines.
+
+
+Version: 5.3.2
+August 22, 2011
+Mac OS X v10.5 or later
+		Download Pro
+		Download Standard
+Bug Fixes
+	•	Fixed a repeatable crash when viewing certain third-party stencils.
+
+
+Version: 5.3.1
+August 17, 2011
+Mac OS X v10.5 or later
+		Download Pro
+		Download Standard
+Bug Fixes
+	•	Fixed a bug where an export of a multiple canvas document to a raster image format would result in blank image files for each canvas after the first.
+	•	Addressed an issue where existing favorite stencils went missing.
+	•	Fixed a bug where we now ensure that there's PNG data on the pasteboard, particularly in Mac OS X v10.5.
+	•	When saving a version of a duplicated file when running Mac OS X v10.7, the “dirty” close button should go away.
+	•	Universal Access on Mac OS X v10.7 has taken our existing keyboard shortcut for “Snap to Grid”, this shortcut has been removed from OmniGraffle; it can be customized in System Preferences.
+	•	Fixed a crash when running on Mac OS X v10.5 and a software update check was run sometime in the past.
+	•	Fixed a bug where deleting stencils could delete other stencils that weren't selected.
+	•	Addressed an over-eager save sheet on Mac OS X v10.7 when the document hasn't been saved in awhile.
+
+Version: 5.3.1 beta 1
+July 21, 2011
+Mac OS X 10.5 or later
+5.3.1 beta 1 Bug Fixes
+	•	Fixed a crash on launch when running Mac OS X v10.5 and there was no existing document open.
+
+
+Version: 5.3
+July 19, 2011
+Mac OS X v10.5 or later
+		Download Pro
+		Download Standard
+New Features
+	•	Mac OS X 10.7 Features and Compatibility — OmniGraffle is ready for Lion, if you are running Mac OS X 10.7 you'll be able to take advantage of the new navigation gestures, automatic document saving and versioning, as well as full screen mode.
+	•	New Line Behavior — We've modified how lines appear when they are connecting to shapes to more appropriately show their actual endpoints at the center of the shape, as well as making the Curvy line type much more attractive visually and adding much more powerful control handles for the Orthogonal line type.   If you would like to enable the new line behavior works, paste the following in Terminal:   “defaults write com.omnigroup.OmniGrafflePro UseOldBezierPathLayout NO” (if you are running OmniGraffle Professional, minus the quotes) “defaults write com.omnigroup.OmniGraffle UseOldBezierPathLayout NO” (if you are running the Standard version of OmniGraffle, minus the quotes) “defaults write com.omnigroup.OmniGrafflePro.MacAppStore UseOldBezierPathLayout NO” (if you are running OmniGraffle Professional purchased in the Mac App Store, minus the quotes) “defaults write com.omnigroup.OmniGraffle.MacAppStore UseOldBezierPathLayout NO” (if you are running the Standard version of OmniGraffle purchased in the Mac App Store, minus the quotes)
+	•	iPad Compatibility — Certain artisitic features available on OmniGraffle for iPad (such as open freehand shapes) now display properly on the desktop.
+	•	Paste in Place has been added as a dedicated control in the Edit Menu.
+	•	The Konigi wireframe stencils are now bundled by default.
+	•	The shared support folder for custom OmniGraffle stencils, diagram styles, templates, and shapes has moved to $HOME/Library/Application Support/The Omni Group/OmniGraffle to conform with Mac App Store guidelines.
+Bug Fixes
+	•	Fixed a particularly nasty crash that could occur when certain ColorSync Profiles were installed.
+	•	Addressed an infinite loop crash when using automatic layout.
+	•	Fixed a hang while applying a change in orientation when using orthogonal lines.
+	•	Smart Guides should now no longer interfere with grid snapping and should never prevent snapping to grid pixel boundaries, regardless of zoom level.
+	•	Dragging an image from a web browser should now drag the image, not the URL for the image.
+	•	Fixed a bug where the Shift and Caps Lock could interfere with drawing tools hotkeys.
+	•	Exporting a multi-canvas document to PDF should now take unit scale into account.
+	•	OmniGraffle now offers PDF and PNG on the pasteboard before PICT and TIFF.
+	•	Fixed a bug where pasting an object could errantly duplicate a canvas.
+	•	Avoided an error when exporting an entire document to HTML if there were colons in any canvas names.
+	•	OmniGraffle now handles font transparency to and from the iPad.
+	•	Fixed some image tiling issues and other image related bugs in flipped tables.
+	•	The Japanese version of the Common > Shapes stencil should now include smart arc and wedge shapes.
+	•	Multi-Touch gestures for trackpad and other input devices are now disabled by default.
+	•	Fixed a bug where the Mac App Store version was not opening LinkBack PDFs from newly created files.
+	•	The Magdalen Islands are now part of Quebec, and not Nova Scotia.
+
+
+Version: 5.2.3
+June 16, 2010
+Mac OS X 10.5 or later
+		Download Pro
+		Download Standard
+Bug Fixes
+	•	Fixed a bug where canvas names were exporting to HTML incorrectly.
+	•	Bézier lines should now render properly when connecting to shapes, and route better when both endpoints are in the same location.
+	•	Fixed a bug where Bézier lines would draw in front of objects.
+	•	Fixed a bug when exporting multiple canvas documents with custom origins to PDF would cut off the canvas.
+	•	Fixed a regression where indenting objects already in a subgraph would draw connecting lines on top of the objects.
+	•	Fixed a bug where exporting a multi-canvas document to PNG would not name the last canvas correctly.
+	•	Fixed a NSCalibratedWhiteColorSpace error when using guides and ColorSync.
+	•	The tables in the UML-General stencil are now set to connect to their components.
+	•	The Faroe Islands are now part of Denmark and not the UK.
+	•	Ghana and Ivory Coast were in each other's places, this has been corrected.
+	•	Exporting to all OmniGraffle document types now offers file settings, compression, and Quick Look preview options.
+	•	When opening documents created on OmniGraffle for iPad, the message is more specific as to the differences between versions.
+
+
+Version: 5.2.2
+March 24, 2010
+Mac OS X v10.5 Leopard or later
+		Download Pro
+		Download Standard
+New Features
+	•	Added a preference to disable multitouch trackpad gestures.
+	•	You can now Option-Command-click to select different Bézier control points where multiple Bézier lines are connected.
+	•	Added a hidden preference to disable scroll wheel zooming to avoid using momentum scrolling "residue" from the Magic Mouse.
+	◦	defaults write com.omnigroup.OmniGrafflePro DisableScrollWheelZooming -boolean True (for OmniGraffle Professional)
+	◦	defaults write com.omnigroup.OmniGraffle DisableScrollWheelZooming -boolean True (for the Standard version of OmniGraffle)
+Bug Fixes
+	•	Fixed a bug where the color picker would lose focus when inputing stroke color values.
+	•	Fixed an "Error while printing" alert when resaving a file on Mac OS 10.6.
+	•	Fixed a bug where orthogonal lines would draw incorrectly in place when a connected shape is moved.
+	•	Fixed a bug where Bézier lines with both endpoints connected to the same object were not respecting magnets.
+	•	Fixed a bug where objects in a shared layer could lose the ability to be reordered.
+	•	Fixed a bug where clicking a link to another file exited Presentation Mode.
+	•	Fixed a bug where it was possible to rotate and zoom locked objects via multitouch trackpad gestures.
+	•	Fixed a bug where undoing after a multitouch gesture undid the previous action instead.
+	•	Fixed a bug where making a table out of a single shape didn't render one of the resize handles.
+	•	Fixed a pasteboard error when duplicating an object with an EPS image.
+	•	Fixed a bug where it was impossible to export to stencil, template, or diagram style on Mac OS X 10.6.
+	•	Actions on groups should now work again in Presentation Mode.
+	•	Fixed a bug where moving objects forward and backward on a shared layer didn't immediately update in the main view.
+	•	Fixed a bug where it was impossible to Tab to cycle through shapes on shared layers.
+	•	Fixed a bug where resetting the inspector locations ordered the inspector groups incorrectly.
+	•	Installing a stencil now copies the stencil from its location as opposed to moving it.
+	•	Fixed a bug where dragging an item into a collapsed subgraph replaced all the contents of the subgraph.
+	•	Fixed a bug where tiled images rendered upside down.
+	•	Localizations updated.
+Crashers
+	•	Fixed a number of crashes when importing Microsoft Visio files.
+	•	Fixed a crash when directly opening PDFs.
+	•	Fixed a hang in GraphicView.
+	•	Fixed an OGRulerView crash when resizing groups with the mouse.
+	•	Fixed a crash when making a new shared layer via AppleScript.
+	•	Fixed a number of Graphviz crashes when working with subgraphs.
+
+
+Version: 5.2.1
+October 29, 2009
+Mac OS X v10.5 or later.
+		Download Pro
+		Download Standard
+Bug Fixes
+	•	Fixed an error when pasting content from OmniOutliner into the Outline Editor.
+	•	Fixed a bug where using a Multi-Touch trackpad would put a document into a dirty state.
+	•	Fixed a problem when saving and the Quick Look preview was on.
+	•	Fixed a bug where one could not inspect the Text Tool properly.
+	•	Fixed a bug where copying a layer to another canvas or another document reversed the order of objects on the new layer.
+	•	Fixed a bug where a custom keyboard shortcut for showing/hiding Guides would result in an error.
+	•	The Open window responds to the Return key now.
+	•	Fixed a rendering issue where sometimes strokes would not appear.
+	•	Fixed a bug where minimized windows wouldn't restore from the dock icon.
+
+
+Version: 5.2
+August 28, 2009
+Mac OS X v10.5 or later
+		
+Mac OS X 10.6 Compatibility
+	•	Fixed a number of interface and cosmetic issues when running on Mac OS X 10.6 "Snow Leopard".
+Multi-Touch Support
+	•	Those running portables with Multi-Touch trackpads can now pinch to zoom in or out, pinch to resize a selection, and rotate a selection.
+Canvases Sidebar
+	•	Fixed a cosmetic issue with the disclosure triangles when using small thumbnail icons.
+	•	Fixed a bug where canvas sidebar expansion state was not getting saved.
+	•	Fixed a bug where Option-dragging multiple layers would only copy one layer.
+	•	Dragging a layer from one canvas to another in the same document will now move the layer as opposed to copying it to the second canvas. Option-dragging will copy layers between canvases in the same document.
+	•	Added a hidden preference to always show the layer status icons in the Canvases Sidebar (Visible, Printing, Lock) to match previous versions of OmniGraffle. defaults write com.omnigroup.OmniGraffle [or com.omnigroup.OmniGrafflePro] AlwaysShowLayerStatusIcons YES at the command line will turn them on.
+Licensing & Software Update
+	•	OmniGraffle will now accept 2 seats per license key.
+	•	Omni Software Update should now allow you to install the update in a different location than where the running copy is.
+	•	Omni Software Update is more informative about error messages and the like.
+	•	Updated trial behavior to Omni-wide standards.
+Bug Fixes
+	•	Fixed a bad URL to the LinkBack project in the Help.
+	•	Fixed display of actions in the Edit Menu - Undo in certain circumstances.
+	•	Amended some issues when opening Xcode and Interface Builder files.
+	•	Fixed some printing issues related to the grid.
+	•	Exporting a document containing linked images to a package with embedded images now properly links the images.
+	•	Switched to NSSearchField.
+	•	Fixed a Visio import bug where certain shapes would come in as two shapes.
+	•	Action badges should be clickable at all times now.
+	•	Graffletopia search results are now no longer limited to five.
+	•	Rank separation can be smaller than .15 inches now.
+	•	Fixed some text flow issues in tables.
+	•	Fixed a Visio import issue where linear blends could come in as radial.
+	•	Addressed group bounding box issues for lines and shapes that are grouped.
+	•	Fixed a Visio import problem where objects could come in without a fill or stroke.
+	•	Fixed a Visio import problem where bezier lines could come in as plain curved lines.
+	•	Components of tables & groups now accept colors dragged from the color pane and the style tray as fills.
+	•	Fixed some connection display issues for nested subgraphs.
+	•	Fixed a display issue with the Zoom button.
+	•	Fixed a flickery display problem when resizing a line in a group at times.
+	•	Addressed a Visio export issue where objects would not get assigned layers.
+	•	Tables containing only autoresizing text objects can now be enlarged.
+	•	Fixed a nasty issue pertaining to rotated autosizing text cells inside of tables.
+	•	Fixed a bug when using "duplicate" in AppleScript that didn't preserve document jump or image fill of graphics.
+	•	Addressed a Visio import problem where WMF files could get dropped.
+	•	Fixed some issues with the Canvas: Size Inspector input fields.
+	•	Fixed some odd text justification behavior for tables and groups when using the Style: Text Inspector.
+	•	Copy As AppleScript now handles image fills.
+	•	Fixed a bug where changing the file format of a multiple-canvas template while file extensions were hidden created a folder with each canvas saved separately.
+	•	Addressed some problems with sub-selected components of groups and tables.
+	•	Fixed some menu wonkiness when the Outline Editor has focus.
+	•	Fixed a bug where after a shape combination, corner radius would apply to all but one corner.
+	•	You can now easily copy/paste/duplicate selected canvases in the sidebar.
+	•	One can now rotate individual table cells.
+	•	One can now rotate tables as a whole.
+	•	Better downsampling of Quick Look previews.
+	•	Addressed a problem where miter corners left dirt and/or had a huge export border.
+	•	Fixed some table cell selection and resize issues.
+	•	Visio date/timestamp formatting should now import correctly.
+	•	OmniGraffle now handles the .gv (Graphviz) file extension.
+	•	AppleScript support for embedded and linked images has been added.
+	•	Fixed a bug where collapsing a child subgraph using the contextual menu would collapse outermost grouping instead.
+	•	Addressed an issue where duplicating a layer or canvas would instead paste whatever was on the pasteboard.
+	•	Fixed a bug where using the contextual menu to duplicate a shared layer would turn it into a non-shared layer.
+	•	Fixed some odd cache-related display issues at high zoom factors.
+	•	Addressed some Visio import issues concerning Visio files coming from applications other than Visio.
+	•	Fixed some related text offset problems in Visio import.
+	•	Insert variable will now create a new object if no text insertion point is available.
+	•	Custom zoom setting no longer cuts off the right side of zoom popup button.
+	•	Actions on objects that are part of a group, table, or subgraph should now be working in Presentation Mode.
+	•	Fixed a bug where using AppleScript to move to different canvases was not working in Presentation Mode.
+	•	Fixed a bug where using Shift-drag to select objects on top of each other didn't behave properly.
+	•	Fixed a bug where placed PDFs could export to EPS and not be opened.
+	•	Fixed a bug where Smart Guides were not working against objects in the same group or table.
+	•	Added a small border around preview thumbnails in the Stencil Window when searching Graffletopia.
+	•	Fixed a bug in the Fill inspector where it wouldn't update when you changed the blend option for objects on shared layers.
+	•	Fixed a bug when using the Text Tool hotkey to create line labels.
+	•	Fixed a bug regarding locked layers and editing text.
+	•	Fixed a bug where undoing an object deletion from a shared layer didn't immediately update the main window.
+	•	The Status Text at the bottom of the main window for objects selected should now count objects on shared layers.
+	•	Fixed a [ConnectedGraphic labels] error when changing automatic layout.
+	•	Fixed a bug where actions that jumped to a specific canvas would not allow you to select another canvas if the previously selected canvas had been deleted.
+	•	Fixed a bug where edits to a duplicated canvas would occur on the originating canvas.
+	•	Dragging a shared layer from one canvas to another should now properly copy the shared layer instead of creating a new shared layer.
+	•	Fixed a bug where it was possible to give a shared layer the same name as a normal layer in a given canvas.
+	•	You can now name a new shared layer using the name of a previously deleted one.
+	•	Fixed a bug where rearranged shared layers would regress to their previous state when the file was saved and reopened.
+	•	Fixed a bug where linked images on shared layers would break their links when dragging said layer to another document.
+	•	Placed PICT images now are correctly converted to PDFs and render properly.
+	•	X and Y position input fields in the ruler accessory view are no longer enabled and populated when a line label is selected.
+	•	Added a UTIImportedTypeDeclarations key to the Quick Look generator's info.plist.
+	•	Adjusted the sensitivity of multi-touch gestures for zooming, rotating, and resizing.
+	•	Canvas names are now retained on export to PDF for bookmarking and a document contents outline.
+	•	Fixed a regression where line labels would lose their fill color on export to Visio XML.
+	•	Fixed a bug where newly installed stencils via the Finder weren't immediately showing up in the Stencil Window.
+	•	Addressed a performance issue where canvas thumbnails could lead to a hang when switching back to OmniGraffle.
+	•	Fixed a bug where resizing a shape would make a connected line jump to a different magnet.
+	•	Fixed a bug where duplicating a canvas pasted whatever was on the clipboard onto the canvas.
+	•	Fixed a number of bugs concerning line spacing and row height when editing text using Asian font faces.
+	•	Fixed a bug where tiled images in shapes could get distorted.
+	•	Addressed an issue where groups on shared layers could sometimes not show a selection highlight.
+	•	Fixed a typo in Tutorial 6 in the OmniGraffle Help.
+	•	Fixed some issues when using pattern fills and exporting to Visio XML.
+	•	Fixed a bug where PDFs would lose all text upon import.
+	•	Tiled images can now be affected by the opacity slider.
+	•	Fixed a bug where the Geometry Inspector wouldn't accept input when localized into Simplified Chinese.
+Crashes
+	•	Fixed an alert when selecting a row with no object in at least one column.
+	•	Fixed an alert when working with shared layers and the selection tool.
+	•	Fixed a crash related to making a table with a connecting shape.
+	•	Fixed a crash related to autosave and shared layers.
+	•	Fixed a prevalent crash when manipulating groups that have shapes and lines within.
+	•	Fixed a crash when opening certain .dot files.
+	•	Fixed a crash related to actions that jumped to non-existent canvases.
+	•	Addressed an error when opening certain PDF files.
+	•	Fixed a hang when resizing grouped and rotated text objects.
+	•	Fixed a crash when dragging a rotated table around.
+	•	Fixed a crash having to do with Visio import and EMF files.
+	•	Fixed a crash when deleting all instances of a shared layer.
+	•	Fixed a crash related to dragging shared layers and canvas thumbnails that had their layer thumbnails disclosed.
+	•	Fixed a crash after deleting all shared layers and selecting a canvas.
+	•	Fixed a crash when nudging groups.
+	•	Fixed a crash that could occur when adjusting Diagram Layout sliders.
+	•	Fixed a crash when loading certain Visio stencils.
+	•	Fixed a crash when dragging connected lines and shapes from the Stencil Window.
+	•	Fixed a crash when inspecting the Drawing Tools.
+	•	Fixed a reproducible crash when setting the group rank property of a shape using AppleScript.
+	•	Fixed a problem where the Quick Look plug-in would crash quicklookd when using Cover Flow.
+	•	Fixed a crash when deleting all instances of a shared layer.
+	•	Fixed a crash when opening certain Visio files.
+	•	Fixed an NSCFArray error when deleting a canvas whilst editing a stencil.
+	•	Fixed a crash when customizing the toolbar.
+	•	Fixed a crash when parsing certain WMFs.
+
+Version:
+August 28, 2009
+Mac OS X 10.5 or later.
+Some highlights of OmniGraffle 5's new features include:
+	•	New layout engine based on Graphviz.
+	•	Bezier control handles on connection lines.
+	•	Redesigned Stencil Window supporting local searches and searches on Graffletopia.com.
+	•	Binary Visio document import support and Enhanced MetaFile support (OmniGraffle Professional only).
+	•	Custom user data on objects (OmniGraffle Professional only).
+	•	Quick Look support in Leopard.
+	•	New ruler accessory view inspection tools.
+	•	Adjustable arc, star, and arrow shapes.
+	•	Shared layers.
+	•	Configurable tools palette.
+	•	Support for Multi-Touch trackpads.
+
+
+Version: 5.1.1
+January 28, 2009
+Mac OS X 10.5 or later
+		Download Pro
+		Download Standard
+Localizations
+	•	Updated localization fixes have been provided for French, Dutch, German, Italian, Spanish, and Chinese.
+	•	Updated Japanese localizations and translations added.
+Crashers
+	•	Fixed a memory leak that was leading to out of memory errors and a nasty string of crashes.
+
+
+Version:
+November 19, 2008
+Mac OS X 10.5 or later
+New Features
+	•	Smart Shapes
+	•	We've added a new Smart Shape (akin to the resizable block arrow shapes), it is a wedge/arc shape that can be resized in degrees by dragging the blue smart handles. This shape is found in the Shapes stencil in the Common folder in the Stencil Window.
+	•	Sidebar Interface changes
+	◦	Fixed a number of focus issues in the Canvases Sidebar, Layer List, and Outline editor.
+	◦	Single clicks in the sidebars will retain focus in the canvas area view.
+	◦	A second click or double-click will give focus to the Layer List or Canvases Sidebar.
+	◦	A single click on the style chit in the Outline Editor retains focus in the canvases area view, a single click on the label in the Outline Editor gives focus to that sidebar.
+	◦	The Layer Selection indicator in the Canvases Sidebar has returned.
+	◦	Added Help Tags for the layer visibility/printing/lock icons.
+	•	Other Interface changes
+	◦	The Workspace Window is now a utility panel.
+	◦	Added a keyboard shortcut for Paste and Match Style to match the iWork applications.
+	◦	Icons in the Stencil Window are a bit more vibrant now.
+	◦	You can now set the background color in the Stencil Window.
+	◦	Added Help Tags for the Image Inspector buttons.
+	•	The Escape key will now deselect.
+	•	Added Spotlight support for custom data.
+	•	We now allow a longer maximum interval for autosaving (30 minutes).
+	•	Added a new canvas numbering variable.
+	•	Quick Look previews are now downsampled and compressed.
+	•	You can now choose whether or not to anonymize the document when sending feedback from the Help Menu.
+Bug Fixes
+	•	Fixed a couple of accessibility problems when navigating in full keyboard access mode.
+	•	Fixed a bug where actions that jumped to another canvas got lost when immediately using the Browse Action Tool.
+	•	The scroll buttons in the Template Chooser should now work.
+	•	Fixed a nasty bug where exporting an entire document to PNG in Japanese localization failed.
+	•	The Colors toolbar button should work now
+	•	For some reason, the Scripts Menu was showing up, this is no longer the case.
+	•	Fixed a regression where one couldn't make a multiple selection in the Stencil Window.
+	•	Shared layers no longer have custom origins.
+	•	Fixed a tab ordering bug in tables.
+	•	Incorporated the latest Omni Software Update changes.
+	•	Addressed a highlight issue in the Canvases Sidebar when layers were reordered.
+	•	Fixed a particularly nasty performance issue.
+	•	Fixed a bug where it could appear to allow the merging of shared layers.
+	•	We no longer throw up an error dialog if a file being opened automatically at launch is missing.
+	•	Fixed a bug where the mouse cursor would hide even on the primary display while in Presentation Mode and using multiple displays.
+	•	Canvas size auto-adjustment now includes hidden objects when determining the canvas size.
+	•	Fixed a .dot import problem where every node would have identical text and no hierarchy.
+	•	Incorporated a licensing fix for multiple network interfaces.
+	•	Fixed a bug where the first click in the stencil source list after starting the app would always scrolls you to the top of the list.
+	•	Fixed a bug where manual guides would take effect even when they were hidden.
+	•	Addressed an issue where shared layers copied to another document would use inches in spite of the canvas settings.
+	•	Fixed a bug where objects with no fill that clip text were very difficult to select.
+	•	Fixed a bug where undoing diagram styles didn't restore proper shapes if the style had resized the objects to auto-fit the text.
+	•	Fixed a bug where trying to remove a workspace while the name was being edited broke the Workspace Window.
+	•	Fixed a problem where editing the tracking or leading for text in a table cell would change that setting for all the cells in the table.
+	•	Fixed a bug where duplicating a canvas would lead to shapes losing their typographic settings.
+	•	Addressed an issue where deleting a row in a table would give an incorrect bounding box.
+	•	You can no longer drop an image onto the Image Inspector even when it's disabled.
+	•	Fixed a bug in Circular layout.
+	•	Fixed a bug where "Print canvas on one printer sheet" and print scale would collide.
+	•	Fixed a bug where renaming a stencil in the Finder would make the Stencil Window throw fits.
+	•	Addressed an issue where duplicating content on a shared layer would make a different layer the active one.
+	•	Fixed a problem with the ruler accessory inspector view where it would show up empty even if you already had something selected.
+	•	You can Tab out of the custom zoom percentage field and have the value take now.
+	•	Fixed an Action badge problem.
+	•	Addressed a text margin error when editing a LinkBack object.
+	•	Fixed a Canvases Sidebar rendering issue where the thumbnails would appear at low resolution.
+	•	Fixed a .dot import problem where angle brackets would cause trouble in records.
+	•	"Bezier" is now spelled "Bézier".
+	•	We now apply the user's default compression setting to the built in templates.
+	•	Undo no longer triggers an automatic layout.
+	•	Fixed a problem where window size and position were not getting saved properly.
+	•	You can now Tab out of the Side Margin field in the Text Inspector and have that value applied.
+	•	Variables in stencils will reflect the unit preference for the current document.
+	•	Project Builder import is now called Xcode import.
+	•	Fixed a bug were after using presentation mode the mouse cursor would disappear when inactive.
+	•	Addressed an issue where the "About" window would always come up behind inspectors on multiple monitors.
+	•	Fixed a .dot import bug where records/tables were being laid out in the wrong direction.
+	•	Fixed a bug where LinkBack really liked using inches regardless of the canvas settings.
+	•	Addressed a PDF export problem where Illustrator CS3 would not open them.
+	•	You can now access actions on locked layers.
+	•	Fixed a window shadowing problem with respect to Spaces.
+	•	We should be properly observing HTML markup in .dot import now.
+	•	Fixed a number of Drawing Tool hot key preference pane UI issues.
+	•	The "This document created by a newer version of graffle" dialog is now a sheet.
+	•	Empty layers now get duplicated when a canvas is duplicated.
+	•	Fixed a bug where Shift-drag to inverse select wasn't working.
+	•	You can rotate a group of shapes with AppleScript now.
+	•	Much harder to delete a stencil from your Favorites list now.
+	•	Fixed a problem where the Help Tag on the Quick Look settings in the Document inspector was humorously misleading.
+	•	Enhanced MetaFiles (EMF) in Visio documents should be importing and displaying now.
+	•	Fixed a number of issues with respect to Windows MetaFiles (WMF) in Visio documents.
+	•	Fixed a text misalignment bug when importing Visio files.
+	•	Addressed an issue importing Visio files where the master contained no shapes.
+	•	Fixed a beyond bounds error working with Visio stencil files.
+	•	Fixed a bug where lines would not render properly when importing Visio documents.
+	•	Fixed another upside down callout text issue.
+	•	Fixed a problem when exporting to Visio where there were placed .bmp files.
+	•	Fixed a bug where lines were getting directly connected to magnets on export.
+	•	Connector shapes should now import from Visio.
+	•	Added support for non-orthogonal connectors when importing Visio files.
+	•	Fixed a Visio import bug where elements of tables were coming in locked.
+	•	Fixed a variety of issues with lines when importing Visio files.
+	•	Enhanced MetaFiles (EMFs) should properly render as vector graphics now.
+	•	Objects on non-visible layers should export to Visio properly now.
+	•	Objects on shared layers get duplicated to each Visio page on export.
+	•	Fixed a bug where line hops got added to lines during import from Visio.
+	•	Fixed an issue where undo was broken with respect to notes.
+	•	Fixed a problem where adjustable arrows could lose their shape when copied and pasted, or closed and re-opened.
+	•	Addressed a potential issue where the Stencil Window had an empty 'Recents' section and was causing problems.
+	•	Polished up some cosmetic issues in the Stencil Window.
+	•	You can now once again click/double click/Return to create a new object in the Outline Editor.
+	•	Fixed a duplicate Help Tag in the Diagram Layout Inspector.
+	•	Documented alignment behavior.
+	•	Documented line label action behavior for HTML export.
+	•	Documented connecting lines directly to magnets.
+	•	Fixed a screenshot of the Fill Inspector in the OmniGraffle Help.
+	•	Fixed a bug that when launching OmniGraffle by dragging a stencil onto the dock icon, the Stencil Window would appear and disappear during launch.
+	•	Addressed an issue with the inspectors where they would not return to their previous location after hiding them and relaunching OmniGraffle.
+	•	Fixed a bug where Presentation Mode would not run on the primary display on a dual monitor setup.
+	•	Fixed a problem where EMF support was broke on PowerPC machines.
+	•	Fixed a bug where percentage scale wouldn't work on PDF export for documents with multiple canvases.
+	•	Fixed a bug where the mouse cursor could go missing after showing the Action Inspector.
+	•	Addressed an issue when files were moved around in the Finder and OmniGraffle could no longer find linked images.
+	•	Fixed a master/shape error when opening certain Visio files.
+	•	Fixed a multiple "Name Index children" error when opening certain VSS files.
+	•	Addressed an issue where text labels were coming in too large on Visio imports.
+	•	Fixed a problem with shape ordering when importing from Visio.
+	•	Fixed a bug concerning certain font names in Visio files that would render missing elements.
+	•	One can no longer connect items on shared layers to items on regular layers.
+	•	Fixed a rendering issue for connections between objects on shared layers when those objects were moved.
+	•	Fixed a bug where actions were not exporting to proper area when scale was applied to PDF export.
+	•	Fixed a rendering issue when resizing objects on shared layers.
+	•	Fixed a bug where the Note Inspector would not work if it was showing on launch.
+	•	Added the Canvases submenu to the Edit Menu in the Standard version of OmniGraffle.
+	•	Fixed a hang related to variables in groups.
+	•	Changed the keyboard shortcuts for zooming in and out as to not conflict with Apple's Universal Access shortcuts on the aluminum keyboards.
+	•	Fixed a Visio import issue surrounding the POLYLINE attribute.
+	•	Fixed a Visio import issue where connecting lines were rendering as too short or not displaying.
+	•	Addressed a problem with EMF files coming in with very thick strokes and unwanted fills.
+	•	Fixed a regression opening certain Visio files.
+	•	Presentation Mode should now once again take place on whichever display has the frontmost OmniGraffle document window.
+	•	Fixed a bug where the Action Inspector could take focus away from the main document window, causing scripts to fail.
+	•	Fixed a regression in .xib file support.
+	•	Fixed a one-pixel gap in the Canvases Sidebar header.
+	•	We now display the new keyboard shortcuts for "Zoom In" and "Zoom Out" in a much less confusing manner.
+	•	Addressed a small number of documentation keyword issues.
+	•	Fixed a bug where an object's shadow would print using the object's previous shape.
+	•	Graffletopia search results should now display the preview icon more properly.
+	•	Fixed an issue where Graffletopia search results didn't handle spaces in the stencil's URL.
+ColorSync
+	•	Fixed an issue where ColorSync profiles were not saving correctly.
+	•	Removed the Cancel button from the ColorSync mismatch panel as it did nothing.
+	•	Fixed a bug where converting ColorSync profiles would set the canvas color to white.
+	•	We now display an error to the user if a profile is removed.
+	•	Addressed an issue where CMYK profiles were not sticking.
+Crashers
+	•	Fixed a *** -[NSCFDictionary setObject:forKey:]: attempt to insert nil value (key: RawData) error when trying to delete a placed PDF image.
+	•	Fixed a crash that would happen when dropping a graphic between two other graphics (this would happen often when creating tables).
+	•	Fixed a getUniqueIDForGraphic crash.
+	•	Fixed a couple of OGCanvasTableCell crashes.
+	•	Fixed an OGCanvas delayedVariableIconCreation crash.
+	•	Killed another zombie. Stupid zombies, man they really creep me out.
+	•	Fixed a GraffleWindowController crash.
+	•	Fixed an OIInspectorRegistry crash.
+	•	Fixed a hang related to a cache deadlock.
+	•	Fixed another cache-related crash.
+	•	Fixed an OGSelection crash.
+	•	Fixed a resurgent crash when saving.
+	•	Fixed a number of crashes opening Visio files that had Enhanced MetaFiles in them.
+	•	Fixed a dreaded StrokeStyleElement crash.
+	•	Fixed an unrecognized selector error when exporting to the OmniOutliner format.
+	•	Fixed a mutated while being enumerated error whilst dragging objects on a canvas. (mutants being better than zombies, at the very least. stupid zombies.)
+	•	Fixed a nasty beyond bounds error when opening certain autosave backups.
+	•	Fixed a reproducible OutlineView crash.
+	•	Fixed an ImageID error working with certain Visio files.
+
+
+Version: 5.0.2
+August 20, 2008
+Mac OS X 10.5 or later
+		Download Pro
+		Download Pro
+Localizations
+	•	A large number of fixes have been made to the Japanese Help and User Interface strings.
+	•	Amended the "Paste and Match Style" string to reflect the iWork apps in German.
+	•	A handful of remaining Japanese localization problems have been mended.
+	•	Japanese localizations to include the Help files have been mended and corrected since the release of OmniGraffle 5.0.
+
+
+Version:
+July 23, 2008
+Mac OS X 10.5 or later
+Bug Fixes
+	•	Tracking input field in the Text Inspector now accepts commas as well as periods.
+	•	You can no longer rename layers in the Action Inspector.
+	•	Fixed the disk image window position.
+	•	Fixed an issue with the Browse Action Tool if the sidebar had focus.
+	•	Custom data set on objects now exports to Visio XML, likewise we now import Visio's metadata.
+	•	Using hotkeys to switch tools no longer destroys the previous tool's stickiness.
+	•	IBTool support is now in place.
+	•	Fixed some line connectivity issues in Visio import.
+	•	Double-clicking a layer thumbnail will now make it the active layer.
+	•	Line labels were losing their background color on Visio import.
+	•	Fixed a bug where copied and pasted PDFs would rasterize when their opacity was changed.
+	•	Non-printing layers no longer have their objects' bounds calculated in an "All Objects" export.
+	•	AppleScript support for subgraphs.
+	•	AppleScript support for connecting shapes.
+	•	We now reset installed stencil state for Graffletopia search results if the file is installed then uninstalled.
+	•	We made the autosave document read-only to prevent accidently modifying it instead of the original on crash recovery.
+	•	Fixed a bug where copying as AppleScript from a shape whose points were made editable yielded AppleScript that resulted in an invariant failure.
+	•	Fixed some scrolling and resizing issues for the Stencil Window.
+	•	Connecting shapes weren't paying attention to the grid or Shift-constraint, they now behave more nicely.
+	•	Fixed a bug where EPS exports were unusable if there was a gradient fill.
+	•	Re-ordered items in the Fonts stencil, and locked the background boxes.
+	•	Template chooser now geos away when a document is opened.
+	•	EOModeld files will now import again.
+	•	Fixed a bug where setting page orientation in the Canvas Size Inspector had no effect.
+	•	Fixed some image loading errors.
+	•	Workspace names will now survive a quit and re-launch.
+	•	We now remove Quick Look previews when anonymizing and sending feedback.
+	•	The Style Brush will now work on shared layers.
+	•	Whenever possible, we now preserve legacy print scale settings.
+	•	Fixed a bug with the Fill portion of the Ruler Accessory View inspector.
+	•	Fixed a bug where OmniGraffle couldn't open an uncompressed OmniOutliner 3 file.
+	•	Template Chooser previews now include shared layers.
+	•	Buttons below the canvas sidebar drop off sooner.
+	•	Fixed a bug where OmniGraffle would throw away all of your changes if you close the second window open on a stencil.
+	•	It's easier to permanently delete legacy master canvases that turned into shared layers.
+	•	Fixed a Visio import issue where extra line or carriage returns were being added to shape labels.
+	•	The Selected Lines: Custom Length setting in the Diagram Layout Inspector is now really working as intended.
+	•	Fixed a bug where shadows of line hops would remain when the hopped line was moved.
+	•	Fixed an issue where gradient fills would go solid when the slider was at the end.
+	•	Notes now exporting to Outliner properly.
+	•	When "Print canvas on one printer sheet" is set, magic is performed on the page number variable.
+	•	Favorite line styles now will keep the basic arrow line ending.
+	•	Fixed a bug with page number variables not printing out correctly if they were on a shared layer.
+	•	Autoscroll now works in the Outline Editor.
+	•	Fixed a bug where lines without a midpoint would not connect to the proper magnet.
+	•	Fixed a weird page orientation/canvas size/page break bug.
+	•	Collapsed subgraphs now get anonymized when sending feedback.
+	•	Shift-Return now should create an item before the selected item instead of after it in the Outline Editor.
+	•	Help tags in the Ruler Accessory View inspector got some capitalization love.
+	•	Fixed an issue where clicking or tabbing out of the canvas width or height field deselected "Auto-adjust canvas size" even if you didn't make a change.
+	•	Locked objects offer their style to the Canvas Style section of the drawing tools, new shapes created with such are no longer locked.
+	•	You can drag style chits onto objects on shared layers now.
+	•	Fixed a bug where holding down Option when creating a line prohibited the creation of midpoints.
+	•	We now check for Applescript when opening a quarantined file.
+	•	Fixed a selection highlight problem in the Canvases Sidebar.
+	•	Mouse actions away from input fields should now accept the current value in the field.
+	•	Fixed a bug where actions on exported PDFs wouldn't go unless you included notes.
+	•	Fixed a scrolling issue in the source list view of the Stencil Window.
+	•	Addressed an issue where changing an object's action didn't always stick if the insertion point was in a different input field.
+	•	The ruler origin is now added to the set of Extras the visibility of which is toggled on and off by the Extras toolbar button.
+	•	Fixed a Visio bug where page breaks in rich text fields was causing all sorts of havoc.
+	•	Fixed a Visio bug where a mix of bold and regular typefaces on the same line would render in odd characters in Visio.
+	•	Fixed a spurious "Can‚Äôt make application "OmniGraffle Professional 5" into type reference." error.
+	•	AppleScript support for the new features in 5.0 has been fleshed out.
+	•	Shared layers now return a result in AppleScript.
+	•	Strokes can now be thinner than .15 pt.
+	•	Fixed a unique image ID bug when copying or dragging canvases.
+	•	Fixed a bug where a canvas wouldn't print if only its shared layers were visible.
+	•	Fixed a bug where the Trash could not be emptied after opening a binary Visio file.
+	•	Fixed a unique image ID bug that would pop up after dragging canvases from one document to another.
+	•	Addressed a responder issue where the rulers wouldn't show in templates that had them showing.
+	•	Fixed a Visio import where lots of extraneous text would show up on import.
+	•	"Print canvas on one printer sheet" should no longer offset content to the right when printing a one page canvas.
+	•	Fixed a bug where arrowing up or down in the Corner Radius field would lose focus.
+	•	Fixed a dangerous duplicate graphic ID upon launch bug where objects could become uneditable.
+	•	Fixed a bug where duplicating canvases would disconnect objects from each other in new canvas.
+	•	Fixed a bug where the Outline Editor was not working properly if a template had the rulers showing.
+	•	Made the selected stencil shadow offset a little smaller in the Stencil Window.
+	•	Fixed a bug where the leading value would reset if you edited it while in text editing mode.
+	•	Fixed a "String::swscanf: offset past end of string" error when importing Visio files.
+	•	Fixed an image file format problem when importing Visio files and later saving them as OmniGraffle files.
+	•	Fixed a regression where Visio stencil files would always ask to be saved on quitting OmniGraffle.
+	•	Fixed a bug where notes were not exporting to PDF in certain circumstances.
+Crashers
+	•	Fixed an exception when using connecting shapes and orthogonal lines.
+	•	Fixed a crash when reverting to the last save and the Layer List View was visible.
+	•	Fixed a hang when opening files that had zero size empty shapes within.
+	•	Fixed a crash with actions on objects that jumped to non-existent canvases.
+	•	Fixed some ColorSync and Color Space crashes.
+	•	Fixed a Stencil Window related crash.
+	•	Killed a zombie crasher. Stupid zombies.
+	•	Addressed a crash having to do with the Ruler Accessory View inspectors.
+	•	Fixed an "Illegal Seek" error when opening Visio files.
+	•	Fixed a printing crash.
+	•	Fixed an error when opening certain Visio stencils.
+	•	Caught an exception when searching Graffletopia from the Stencil Window.
+	•	Fixed a crash when importing Visio and Xcode files.
+	•	Fixed an array index error when opening certain PDFs concerning DeviceGray colorspace, amazingly this bug dates back to version 2.1!
+	•	Fixed a crash where labels that were too long to display in the Outline Editor could lead to a crash.
+	•	Fixed a crash involving the Canvas Sidebar thumbnails.
+	•	Fixed an error thrown when opening certain Visio files.
+	•	Fixed a crash involving line labels from legacy OmniGraffle documents and the drawing tools palette.
+	•	Fixed a lingering ColorSync profile crash.
+	•	Fixed a crash when attempting to add magnets to a polygonal shape that had only two sides.
+	•	Fixed a crash in the Stencil Window when filtering out all of the graphics.
+	•	Fixed another zombie-related crash. Stupid zombies.
+	•	Fixed an exception thrown when collapsing the source list in the Stencil Window.
+Localizations
+	•	Fixed the Simplified Chinese translation of the "Flat" diagram style title.
+	•	Removed Quick Look previews from localized resource folders.
+	•	Addressed quite a few Japanese localization issues, this is still ongoing and Chinese is next.
+	•	Fixed the Diagram Layout Inspector in German.
+	•	Fixed the localized spelling of Hungary and Ukraine on the world map stencils.
+	•	Fixed some French translations.
+	•	Removed the GUI Design stencil from the Japanese localization.
+	•	The Japanese and Simplified Chinese localizations for the User Interface should be much better now, we're still looking into sections of the OmniGraffle Help.
+
+
+Version:
+May 5, 2008
+Mac OS X 10.5 or later
+New Features in OmniGraffle 5
+	•	New layout engine using the GraphViz code
+	◦	A new layout engine has been added using the GraphViz codeset, which reproduces and enhances current hierarchical and force-directed layout options, as well as adding many other layout types and settings. We should afford as many new layouts as is reasonable given limitations of implementation, performance, and UI constraints of the Diagram Layout Inspector. The behavior of the inspector has changed to be more dynamic and change layout whenever any change is made.
+	◦	There are now four different layout styles to choose from
+	▪	Dot Layout: Similar to the current hierarchical layout, offers four-directional layout, rank and object separation controls.
+	▪	Neato Layout: Similar to the current force-directed or web layout, offers shape overlap, line length and object separation controls.
+	▪	Circo Layout: A circular layout that offers shape overlap, line length and object separation controls.
+	▪	Twopi Layout: A radial layout that offers shape overlap, line length and object separation controls.
+	▪	On opening of .dot files, a dialog is presented offering the different layout options.
+	•	Subgraphs
+	◦	Subgraphs are layout groups that abide by layout settings, yet are considered single entities that can be expanded and collapsed in diagram view as well as outline view, showing whatever hierarchy may be present. Subgraphs are a feature of OmniGraffle Professional 5.
+	◦	Subgraphs can be expanded and collapsed in the diagram view.
+	◦	Subgraphs can be expanded and collapsed in the outline view and show their hierarchy.
+	◦	Elements in subgraphs can be connected to much as like current groups.
+	•	Bezier lines
+	◦	Connection lines have been given a fourth type, with bezier handles on control points. This new style is used by the new layout engine as well as by the Line Tool and Line and Shape Inspector.
+	◦	Bezier controls on lines have the same interface and implementation as bezier controls on shapes.
+	◦	Bezier lines will backport to previous versions of OmniGraffle as the curvy line type.
+	◦	Straight and curvy line types, when converted to bezier retain their previous appearance.
+	◦	Bezier lines import and export to the Visio XML format.
+	•	Binary Visio file format support
+	◦	OmniGraffle Professional 5 now has a built in parser to convert the binary Visio file format (VSD) to XML for import.
+	◦	Visio stencils (VSS) and Visio templates (VST) are supported.
+	•	Custom Data
+	◦	Custom key/value pair data has been added to the Note Inspector that exposes to the UI existing object metadata as well as allowing the user to add their own.
+	◦	Custom data imports and exports to the Visio XML format.
+	◦	Custom data is a feature of OmniGraffle Professional 5.
+	•	Shared Layers
+	◦	Instead of using Master Canvases, OmniGraffle Professional 5 now has Shared Layers instead.
+	▪	You can have as many shared layers on a canvas as desired.
+	▪	Changes made to any shared layer dynamically propagate to all instances of the shared layer.
+	▪	Objects on shared layers highlight with a different color.
+	•	Inspector controls in the Ruler Accessory View
+	◦	Many commonly used inspector controls are now available for use from the ruler accessory view.
+	•	Diagram Tool
+	◦	A drawing tool has been added that matches current functionality implemented via keystrokes and mouse input.
+	◦	The Diagram Tool performs the same functionality as current Command-clicking and Command-Option-clicking the empty canvas.
+	•	Presentation Mode
+	◦	Navigational controls have been added to Presentation Mode, moving the mouse to the bottom of the screen will reveal them.
+	•	Tools Palette
+	◦	The drawing tools palette can exist in the document window toolbar as well as in a floating palette. Both versions are configurable by the user.
+	◦	The drawing tools palette in the document window toolbar has a control to reveal/hide lesser used tools.
+	◦	The floating tools palette has controls to change its shape and orientation.
+	•	Style Tray
+	◦	A Style Tray has been added to the bottom bar of the document window as well as the stencil window. This allows easier access to the particular styles of a shape for application to other shapes and objects.
+	◦	The Style Tray's icons or chits can be dragged to selections to change their style.
+	◦	The Style Tray works for all selectable elements.
+	•	Outline Editor
+	◦	The Outline Editor supports copy/paste drag/drop from OmniOutliner.
+	•	Source List view for layers
+	◦	Sharing the same view as the Outlne Editor is a Layer Source List, showing layers and the objects residing within them.
+	◦	Layers have a disclosure triangle revealing object list in non-hierarchical form.
+	◦	Objects in the list can show unique ID numbers for objects. This is a feature of OmniGraffle Professional 5.
+	•	Inspectable Canvases
+	◦	Canvases can now be selected like any other object, and select inspectors can apply to the selected canvases.
+	•	Stencil Window changes
+	◦	Stencil searching has been added, allowing searches for stencils based on stencil name and individual object metadata locally using Spotlight criteria.
+	◦	You can also search for stencils at Graffletopia.com.
+	◦	Stencils at Graffletopia can be downloaded from the Stencil Window.
+	◦	Stencils opened that aren't in the proper location for further use can be easily installed from within the Stencil Window.
+	◦	Selection and viewing of multiple stencils is now supported.
+	◦	The stencil viewer now has a source list allowing viewing of multiple stencils and easier creation of stencil sets.
+	▪	Creation of new folders in the source list is independent of the file system, ala playlists in iTunes.
+	▪	There is a new "Favorites" category that you can add stencils to.
+	◦	A style tray has been added to the stencil viewer.
+	◦	A toggle has been added which switches from the normal stencil document view to a "well" display for showing complex stencils as well as search results.
+	◦	A new view at the bottom of the Stencil Window shows selected items and associated custom data.
+	•	Document Level Inspectors
+	◦	A new group of inspectors that apply at the overall document level have been added.
+	▪	The Document: Data Inspector shows traditional Spotlight information.
+	▪	The Document Inspector shows file saving options and overall page margins.
+	•	Export as OmniOutliner 3
+	◦	OmniGraffle can now export to the OmniOutliner 3 XML format.
+	•	Template Chooser
+	◦	A new interface has been added to create new documents based on a template that shows what the template looks like beforehand.
+	◦	New types of templates created and available based on user intent for document creation (drawing, brainstorm, org chart, etc.)
+	•	New Actions
+	◦	There is a new action in the Action Inspector to show, hide, or toggle visibility of any given number of layers.
+	◦	This action will function in Presentation Mode.
+	•	Connecting Shapes
+	◦	A new stencil has been added containing special shapes that can connect between objects.
+	•	UI changes
+	•	Inspectors
+	◦	The Canvas: Selection Inspector now has a search field.
+	◦	Ruler units and scale have been moved to the Canvas: Size Inspector.
+	◦	Custom data has been added to the Note Inspector in OmniGraffle Professional 5.
+	◦	The Style: Image Inspector has a new set of controls and better support for cropping.
+	•	Menus
+	◦	The Stencils Menu is no more, you can access the Stencil Window from the Window Menu.
+	◦	You can now create new resources (Stencil, Template, Diagram Style) from the File Menu.
+	◦	You can export normal OmniGraffle documents as resources now.
+	◦	Quite a bit of shuffling of controls to different menus has occurred, as well as the overhaul of keyboard shortcuts.
+	◦	The Status Bar is no more. Fare thee well, Status Bar!
+	•	Known Issues
+	•	PDF files that are directly opened in OmniGraffle Professional will have any open paths converted to the new bezier line type. However, those lines will have their geometry vertically flipped and will be offset a bit.
+	•	The new binary Visio parser will open Visio stencil files (VSS), however the stencil files found at Cisco's website aren't opening for some reason.
+Bug Fixes
+	•	Ruler origin now affects the grid origin.
+	•	Unused master canvases in older documents now show as shared layers in the first canvas.
+	•	Fixed a performance issue on some iMac and MacBook models.
+	•	Fixed a Visio XML export problem where Visio would claim it wasn't valid XML.
+	•	You can now install stencils from read-only media.
+	•	Export area exports based on the ruler origin.
+	•	You can add midpoints to perfectly straight standalone orthogonal lines.
+	•	Fixed the export size and resolution for the BMP format.
+	•	Visio import now recognizes font face information.
+	•	AppleScript can now control stroke thickness.
+	•	You can now use the mouse scroll wheel in the Template Chooser.
+	•	Fixed some line routing issues when looping to and from the same shape.
+	•	New, bigger icons for stencils, Visio files, etc.
+	•	We now stop doing ColorSync checking on templates and diagram styles in the Template Chooser.
+	•	Fixed some scroll bar badness.
+	•	Fixed some outdenting problems in the Outline Edtior.
+	•	Hooked up some help buttons.
+	•	The Diagram Tool now handles multiple selections.
+	•	Fixed a bug with respect to orthogonal lines and shadows.
+	•	Copy as PDF now works correctly with Photoshop CS3.
+	•	Fixed a bug where lines would hurtle off to the upper left corner of the document.
+	•	The Stencils toolbar button puts the Stencil Window away now.
+	•	Fixed a bug where radial blends weren't completely filling a shape.
+	•	Resizing the Stencil WIndow is better.
+	•	Unused master canvases from older documents now show in the first canvas, with their visibility and printing turned off.
+	•	The Keyboard Shortcuts document is now up to date.
+	•	Fixed a bug when installing stencils from read-only media.
+	•	Visio bullet lists should import properly now.
+	•	Fixed some character encoding problems when importing Visio files.
+	•	Made a massive fix for AppleScript when running in Leopard.
+	•	Open vectors in PDF files should open properly now.
+	•	Fixed some scroll bar issues in the Outline Editor.
+	•	Stencil searches should automatically scroll to the search results.
+	•	New stencil search display.
+	•	Fixed a lot of disabled Help buttons.
+	•	Fixed some line spacing issues for text objects when using custom fonts.
+	•	Fixed actions that highlight other objects.
+	•	Addressed an issue where text could disappear when editing it.
+	•	Addressed some font sizing issues when importing .dot files.
+	•	Fixed an issue with the Diagram Tool.
+	•	Walvis Bay now belongs to Namibia again.
+	•	Notes should export to PDF again.
+	•	Added a warning when deleting the last instance of a shared layer.
+	•	Fixed some automatic layout issues.
+	•	Pattern fills no longer change color when editing text.
+	•	Fixed an issue with respect to absolute text rotation.
+	•	Line labels should collapse with their subgraph now.
+	•	Style widgets should no longer redraw as often.
+	•	Fixed some PDF import issues.
+	•	Undoing a line length change in the Diagram Layout Inspector should properly move the slider.
+	•	Fixed some display issues when resizing subgraphs.
+	•	Placed PDF files should render properly in the canvas sidebar.
+	•	Fixed some Visio text placement and connection line issues.
+	•	Visio stencils now always open in well view mode.
+	•	Line labels in Visio files should open properly now.
+	•	Fixed some AppleScript issues surrounding exporting with the background.
+	•	X and Y Position variables are now based on the ruler origin.
+	•	The kerning field in the Text Inspector now reflects the kerning value of selected text.
+	•	Fixed a bug where objects on shared layers were getting moved to the back on copy/paste/export.
+	•	Addressed some Stencil Window resizing issues.
+	•	Fixed a bug where URL actions wouldn't work in an exported PDF if an image was set as the background on a shared layer.
+	•	Fixed some vertical text centering problems.
+	•	OmniGraffle no longer searches the Trash for stencils.
+	•	Fixed a bug where theTemplate Chooser was blank in the standard version of OmniGraffle.
+	•	Visio stencils need not be saved as OmniGraffle stencils, and a new icon shows that they are "foreign" stencils.
+	•	OmniGraffle doesn't save Quick Look previews in autosave documents anymore.
+	•	Keyboard navigation of the stencil window source list is now available.
+	•	Window resizing now affects other canvases that are set to fit in the window.
+	•	The ruler accessory controls now can make strokes thinner than 1 point.
+	•	Edit --> Select All now works on a shared layer.
+	•	Template Chooser will open on the last category or directory shown.
+	•	You can now drag shared layers from one document to another.
+	•	Fixed a bug where the Close button would remain "dirty" after a save.
+	•	Items on shared layers now appear in the shape list right away.
+	•	Fixed some text wrapping issues with Visio files.
+	•	Addressed some magnet location problems when importing Visio XML files.
+	•	Placed images are no longer coming in upside down from Visio files.
+	•	The Install button in the Stencil Window should go away after installing a stencil.
+	•	Fixed a problem where Quick Look previews wouldn't work so well when checking into Subversion.
+	•	New canvases created from a template that has multiple shared layers will get all the shared layers.
+	•	Small block arrow shapes should now render properly.
+	•	Fixed some weird text rendering issues when sizing from 13pt to 14pt.
+	•	Umlauts should now import from Visio files.
+	•	Fixed some infinite loop issues on certain layouts.
+	•	Subgraphs should now connect properly.
+	•	Fixed a bug where the default text offsets were not sticking for some shapes.
+	•	Fixed an invalid XML error when exporting to the Visio XML document format.
+	•	Fixed a focus issue in the Canvases Sidebar when selecting all in a layer.
+	•	Bezier handles on lines now resize when the line is resized.
+	•	Variables in shared layers now render properly in Presentation Mode.
+	•	Fixed a cosmetic issue with collapsed Subgraphs in the Outline Editor.
+	•	Edit -> Layers -> Layer Settings menu items are now enabled.
+	•	Fixed a bug where a file exported to the OmniOutliner 3 format would not open back up again.
+	•	You can now import OmniOutliner 2 files again.
+	•	Fixed a bug that was dropping umlauts when importing Visio files.
+	•	Fixed a bug where a duplicate help anchor might have led to incorrect help search results.
+	•	Document windows and the Stencil window can now be dragged by the bottom bar.
+	•	Added help tags for the New Canvas and New Layer buttons in the Canvases sidebar.
+	•	Fixed a layout bug where help tags on shapes would have a blank line at the end if any custom user data was specified for that shape.
+	•	Fixed a layout bug where help tags on shapes would wrap incorrectly if they had custom user data specified.
+	•	Fixed a bug introduced in beta 6 which prevented opening certain files created with earlier beta releases.
+	•	Edit -> Layers --> Layer Settings menu items are now functional.
+	•	Various help links should now take you directly to a help page.
+	•	When importing OmniOutliner 3 files, cascading styles were not being treated correctly; this has been fixed.
+	•	Fixed a bug that was causing Visio stencil shapes to be imported twice.
+	•	Updated and localized the documentation for our support of DOT files.
+	•	Fixed a bug that occurred when attempting to add a point to a connecting shape.
+	•	Fixed a bug that prevented exporting to OmniOutliner 3 format and then importing the resulting file.
+	•	We once again correctly claim to the system that we can import OmniOutliner 2 files.
+	•	Improved performance when dealing with large images.
+	•	Fixed a bug that sometimes caused items to snap to the grid even when they weren't supposed to.
+	•	We believe we fixed some text rendering issues in certain circumstances.
+	•	Fixed a bug that would cause document windows to drift downwards with certain multiple-monitor configurations.
+	•	When we download a stencil from Graffletopia, we now attempt to directly open it, rather that requiring the user to open it from the Finder.
+	•	Resetting inspector locations via the menu now also resets the location of the Stencil window. While the Stencil window is not an inspector, for this context it is generally appropriate to treat it as one.
+	•	Fixed a bug that was resulting in crazy behavior when resizing a connecting shape that was part of a group.
+	•	Some images that should have been displayed in the help for layers were instead being listed as links. These images now display inline.
+	•	Fixed a bug where the Canvas variable was displaying incorrectly on thumbnails in the canvas sidebar.
+	•	Fixed a bug where deleting a magnet could result in other lines being moved even if they were directly connected to other magnets.
+	•	Fixed a bug where fill colors were being exported tom OmniOutliner files even when the fill was disabled.
+	•	Fixed a bug resulting in an error message when attempting to combine accents with other characteers on a Finnish keyboard.
+	•	Fixed a bug where drawing dirt was left behind when resizing a group by shifting line midpoints.
+	•	Selecting the Stencils or Tool Palette items in the Window menu will now hide the corresponding window if it is already visible.
+	•	Fixed a bug that could cause the canvas thumbnails to display incorrectly when a document is opened.
+	•	Fixed a bug where an extraneous light grey line was drawing at the bottom of the canvas area.
+	•	We believe we have fixed a bug which was preventing files from being saved if they had embedded color profiles whose names had changed or were otherwise invalid. This would show up at save time as an NSConcreteMutableData error.
+	•	We believe we have fixed a problem where Software Update would not inform the user if the update required payment.
+Crashers
+	•	Fixed a crash when searching for stencils.
+	•	Fixed a crash when the application was quit with something on the clipboard.
+	•	Fixed an OGAbstractDocument crash.
+	•	Fixed a crash when poking around in the Stencil Window.
+	•	Addressed an exception thrown when moving shapes to a shared layer.
+	•	Fixed a crash when going to the Help Menu, closing a document, and going back to the Help Menu.
+	•	Fixed a hang on launch where the licensing code would perform an unnecessary DNS lookup.
+	•	Fixed a crash when importing Visio files.
+	•	Fixed an error thrown when opening certain .dot files.
+	•	Fixed a crash when creating a new document via AppleScript.
+	•	Fixed an exception thrown importing VSD files.
+	•	Fixed a crash when using AppleScript to move objects to the back.
+	•	Fixed a crash involving relative path links to images.
+	•	Addressed a crash involving the stencil window.
+	•	Fixed another stencil window crash when selecting all stencils.
+	•	Fixed an NSFont crash.
+	•	Fixed a reproducible crash when directly opening certain PDF files.
+	•	Addressed a number of crashes and errors when opening Visio files.
+	•	Fixed a crash involving guides that would get saved out very far away from their original positions.
+	•	Fixed an exception thrown when attempting to add a point to a connecting shape.
+	•	Fixed a crash that occurred after using presentation mode multiple times.
+	•	We believe we have fixed a crasher that would show up in the crash report as -[OGCanvasController updateAddAndRemoveButtons].
+	•	Fixed an OAColorProfile problem.
+	•	Fixed a number of crashes having to do with the stencil window.
+	•	Fixed an ** -[NSCFArray objectAtIndex:]: index (0) beyond bounds (0) error when pasting a copied line label into another label.
+	•	Fixed an exception when all objects were set to the minimum layout rank.
+	•	Fixed an application hang when opening an eomodeld file.
+Localizations
+	•	The general preferences pane is now localized even in the standard edition of the application.
+	•	The text position inspector is now localized even in the standard edition of the application.
+	•	Fixed some places where the German localization was incomplete.
+	•	Some tweaks to the document window layout have now been applied to the non-English localizations as well.
+	•	The canvas size inspector is now localized even in the standard edition of the application.
+	•	Fixed some layout issues with the German localization of the standard edition of the general preferences pane.
+	•	Fixed a bug which was preventing many of the localized nibs from showing as fully localized.
+	•	Fixed a bug where the buttons at the bottom of the template chooser window were not showing up localized.
+	•	Fixed a bug that was preventing the software update preferences from being localized.
+
+
+Version:
+April 30, 2008
+Mac OS X 10.4 or later
+		Download Pro
+		Download Standard
+New Features
+	•	Application and document icons are now high resolution.
+	•	OmniGraffle 4.2.3 is now signed for users running Leopard.
+Bug Fixes
+	•	Readjusted the Plus and Minus buttons at the bottom of the Utilities Drawer so they line up again.
+	•	Now using the standard Apple alert when accessing files that the user doesn't have permissions for.
+	•	Fixed a bug where placed EPS and PDF images got corrupted when their opacity was changed in the Image Inspector.
+	•	Fixed a bug where the export sheet became detached from the document window in Mac OS X 10.4.
+	•	Re-ordered the line endings a bit to properly import .dot files and to solve some line ending clipping issues in the inspector.
+	•	Fixed a Color Profile crash on Mac OS X 10.5 (Leopard).
+	•	Fixed a performance problem with text variables on master canvases.
+	•	Fixed a decimal rounding problem in the Leading input field in the Text Inspector.
+	•	Fixed a continuing and persnickety bug where the .graffle file extension would still get appended to exported folders.
+Crashes
+	•	Fixed a recursive NIB load crash when running in Spanish.
+
+
+Version:
+August 22, 2007
+Mac OS X 10.3
+		Download Pro
+		Download Standard
+Bug Fixes
+	•	Fixed the issue where exported file extensions were reversed on Intel Macs.
+	•	Exporting no longer yields a rather large border at the bottom of the export.
+	•	Addressed a bug where lines would stick out of rotated groups.
+	•	Next and Previous canvas actions on master canvases now export to PDF.
+	•	OmniGraffle now writes the correct file type on exported PDF files.
+	•	Fixed a problem allowing negative percentage scale in the Image Inspector.
+	•	1-bit TIFF files now save out as properly in the file package.
+	•	Fixed an Intel bug where placed Photoshop image had the wrong colors.
+	•	Corrected a regression in saving custom Canvas Size Inspector margins for templates.
+	•	Certain shape combinations now work properly, more fixes in this area are slated for future releases of OmniGraffle Professional 4.1.2.
+	•	Fixed the problem where placed images would swap with each other after dragging a canvas from one document to another.
+	•	Fixed a bug causing inspectors to clip their content if pushed off-screen and hidden.
+	•	Unchecking "Wrap to shape" in the Style: Text Inspector will now undo properly.
+	•	Text Inspector now updates alignment buttons properly when selecting text.
+	•	Transparent backgrounds are working again in EPS exports.
+	•	More work on 1-bit TIFF files saving out as zero byte images in the file package.
+	•	"Allow shapes to become labels" setting now persisting after a save and reopen.
+	•	Addressed a problem where parallel line labels were upside down.
+	•	AppleScript can set methods for 'draws background'.
+	•	AppleScript can access stencil objects once more.
+	•	Fixed a bug where localizations were breaking in certain inspectors.
+	•	Fixed some jumpy text editing.
+	•	Fixed Command-key disabling of smart guides when manipulating line midpoints.
+	•	Text on master canvases now sanitizes when sent in as feedback via the Help Menu.
+	•	Aligning multiple objects once again uses the first selected object as anchor.
+	•	The Command key again disallows connections whenever manipulating a line.
+	•	Changes made to ruler scale no longer detach line labels.
+	•	Locking and unlocking a layer no longer messes with viewing magnets.
+	•	Actions on groups now work again in presentation mode.
+	•	Cleaned up a lot of Console messages pertaining to Spotlight.
+	•	Canvas Size Inspector margins work again for templates.
+	•	Put some more polish on the kerning input field in the Style: Text Inspector.
+	•	Files saved with snap to grid off now stay that way.
+	•	Fixed edge (A -- B) import for .dot files.
+	•	OmniGraffle doesn't get in front of OmniDazzle's window during presentations anymore.
+	•	Addressed some text bounding box issues.
+	•	Fixed a problem where lots of imported (opened) PDFs with custom shapes would interfere with existing shapes in the shapes palette.
+	•	When launching OmniGraffle by opening an OmniOutliner file, inspectors no longer go mysteriously missing.
+	•	Diagram style preferences are now accessible to AppleScript and can be named without specifying the full path to the style.
+	•	Fixed the use of the Enter or Return key in the Text Position Inspector on Intel machines.
+	•	Clicking in a different input field in the Text Position Inspector will now act the same as Enter or Return on PPC machines.
+	•	Escape key should now allow user to back out of the zoom field, restoring previous zoom setting.
+	•	Flipped the X and Y for the Zoom Tool, so that it chooses the one which will zoom in the least.
+Crashes
+	•	Fixed a couple of crashes related to PDF files.
+	•	Fixed an application hang after an exception during a save.
+	•	Addressed a problem when unreadable .omnilicense files (e.g., improper UTF-8) could make the inspectors go completely missing.
+	•	Corrected a crash when Option-dragging shapes to copy them.
+	•	Fixed a crash when laying out very large numbers of objects.
+	•	Dealt with an exception thrown after importing a large .dot file.
+	•	Addressed an error panel when deleting a number from the Geometry Inspector's rotation field.
+	•	Fixed an exception thrown when certain AppleScripts were run.
+	•	OmniGraffle no longer gives an error when cursoring through the outline viewer if the keyboard repeat rate was set to the maximum.
+	•	Addressed an OGModeController crash.
+	•	Brushed up mutlithreaded drawing to fix a possible crash.
+	•	Addressed an exception thrown when using the Style Brush on stencil objects.
+	•	Fixed a crash involving OmniGraffle and the OmniDazzle FocalPoint plugin.
+Localizations
+	•	Simplified Chinese localizations have been added.
+
+
+Version: 3.2.4
+May 19, 2005
+Mac OS X 10.2.8
+		Download Pro
+		Download Standard
+
+	The final release is available for Mac OS X 10.2

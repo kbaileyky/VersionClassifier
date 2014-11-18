@@ -100,8 +100,8 @@ namespace HistoryClassifier
                                         
                                         newRelease.Set_Contents(VersionString);
                                         ReleaseList.Add(newRelease);
-                                        VersionString = String.Empty;
-                                    newRelease = new ReleaseContainer(datePattern, Regex.Match(tempString, SecondVersionPattern).Value);
+                                       VersionString = String.Empty;
+                                   newRelease = new ReleaseContainer(datePattern, Regex.Match(tempString, SecondVersionPattern).Value);
                                     skip = true;
                                 }
 
