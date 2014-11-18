@@ -28,37 +28,37 @@
                         597251953, 
                         378080432, 
                         542557212, 
-                        415378623, 
                         364734296, 
+                        468607901, 
+                        415378623, 
                         395985060, 
-                        453213960, 
-                        600093661, 
-                        921024054, 
-                        356971775, 
-                        539466818, 
                         483281737, 
-                        869502447, 
-                        563273711
+                        453213960, 
+                        316789453, 
+                        921024054, 
+                        379351586, 
+                        310295776, 
+                        600093661
                     ], 
                     "title": "Top Grossing iPad Books Apps"
                 }, 
                 "iphone": {
                     "ids": [
-                        350027738, 
                         378080432, 
+                        350027738, 
                         444553118, 
-                        395985060, 
-                        597251953, 
                         542557212, 
-                        364734296, 
-                        672803850, 
-                        401153476, 
-                        869502447, 
                         310295776, 
-                        435873883, 
-                        415378623, 
+                        869502447, 
                         483281737, 
-                        534174796
+                        597251953, 
+                        395985060, 
+                        364734296, 
+                        401153476, 
+                        664973122, 
+                        389029534, 
+                        622718965, 
+                        435873883
                     ], 
                     "title": "Top Grossing iPhone Books Apps"
                 }
@@ -68,19 +68,19 @@
             }, 
             "moreByThisDeveloper": [
                 418671597, 
-                672796476, 
                 518426085, 
                 932554205, 
+                672796476, 
                 592453480, 
                 634062996, 
                 820381057, 
                 364733950, 
-                373203236, 
                 899164288, 
                 592491974, 
                 592490265, 
                 592489557, 
-                592488578
+                592488578, 
+                573679651
             ], 
             "appRatingsLearnMoreUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/appRatings?cc=us", 
             "versionHistory": [
@@ -191,11 +191,11 @@
             "pageDetails": "National Geographic Society_Weird But True", 
             "pageId": "458424230", 
             "language": "1", 
-            "serverInstance": "1014005", 
+            "serverInstance": "615320", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
-            "environmentDataCenter": "NWK", 
+            "environmentDataCenter": "ST11", 
             "pageType": "Software", 
             "platformName": "iTunes12", 
             "page": "Software_458424230"
@@ -414,10 +414,10 @@
                     "releaseDate": "2011-09-01", 
                     "artistId": 315268468, 
                     "userRating": {
-                        "ratingCountCurrentVersion": 129, 
+                        "ratingCountCurrentVersion": 130, 
                         "valueCurrentVersion": 3.5, 
                         "value": 3.5, 
-                        "ratingCount": 1410
+                        "ratingCount": 1411
                     }, 
                     "artistUrl": "https://itunes.apple.com/us/artist/national-geographic-society/id315268468?mt=8", 
                     "itunesNotes": null, 
@@ -502,7 +502,7 @@
                     "editorialBadgeInfo": null, 
                     "artwork": [
                         {
-                            "url": "http://a3.mzstatic.com/us/r30/Purple4/v4/62/fd/f4/62fdf45b-470a-f7a6-cdcf-eb57b4938de6/icon1024x1024.jpeg", 
+                            "url": "http://a1.mzstatic.com/us/r30/Purple4/v4/62/fd/f4/62fdf45b-470a-f7a6-cdcf-eb57b4938de6/icon1024x1024.png", 
                             "width": 1024, 
                             "height": 1024
                         }, 
@@ -512,17 +512,17 @@
                             "height": 440
                         }, 
                         {
-                            "url": "http://a5.mzstatic.com/us/r30/Purple4/v4/62/fd/f4/62fdf45b-470a-f7a6-cdcf-eb57b4938de6/icon220x220.jpeg", 
+                            "url": "http://a4.mzstatic.com/us/r30/Purple4/v4/62/fd/f4/62fdf45b-470a-f7a6-cdcf-eb57b4938de6/icon220x220.png", 
                             "width": 220, 
                             "height": 220
                         }, 
                         {
-                            "url": "http://a5.mzstatic.com/us/r30/Purple4/v4/62/fd/f4/62fdf45b-470a-f7a6-cdcf-eb57b4938de6/icon256x256.jpeg", 
+                            "url": "http://a5.mzstatic.com/us/r30/Purple4/v4/62/fd/f4/62fdf45b-470a-f7a6-cdcf-eb57b4938de6/icon256x256.png", 
                             "width": 256, 
                             "height": 256
                         }, 
                         {
-                            "url": "http://a4.mzstatic.com/us/r30/Purple4/v4/62/fd/f4/62fdf45b-470a-f7a6-cdcf-eb57b4938de6/icon512x512.png", 
+                            "url": "http://a3.mzstatic.com/us/r30/Purple4/v4/62/fd/f4/62fdf45b-470a-f7a6-cdcf-eb57b4938de6/icon512x512.jpeg", 
                             "width": 512, 
                             "height": 512
                         }
@@ -542,7 +542,7 @@
                         "ipad": [
                             [
                                 {
-                                    "url": "http://a4.mzstatic.com/us/r30/Purple4/v4/1d/a3/a1/1da3a176-2e53-45f2-6df8-38af7902dc29/screen261x261-50.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple4/v4/1d/a3/a1/1da3a176-2e53-45f2-6df8-38af7902dc29/screen261x261-65.jpeg", 
                                     "width": 261, 
                                     "height": 196
                                 }, 
@@ -574,7 +574,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a5.mzstatic.com/us/r30/Purple6/v4/ee/70/a8/ee70a8f4-58ff-2d79-ef17-10a33887fa8c/screen261x261-50.jpeg", 
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple6/v4/ee/70/a8/ee70a8f4-58ff-2d79-ef17-10a33887fa8c/screen261x261-65.jpeg", 
                                     "width": 261, 
                                     "height": 196
                                 }, 
@@ -606,7 +606,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a5.mzstatic.com/us/r30/Purple/v4/e0/83/c9/e083c99b-632e-7665-ee94-5e688dc83388/screen261x261-50.jpeg", 
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple/v4/e0/83/c9/e083c99b-632e-7665-ee94-5e688dc83388/screen261x261-65.jpeg", 
                                     "width": 261, 
                                     "height": 196
                                 }, 
@@ -638,7 +638,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a5.mzstatic.com/us/r30/Purple/v4/c8/f0/ae/c8f0ae97-56bb-78bd-9455-98c95f702977/screen261x261-50.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple/v4/c8/f0/ae/c8f0ae97-56bb-78bd-9455-98c95f702977/screen261x261-65.jpeg", 
                                     "width": 261, 
                                     "height": 196
                                 }, 
@@ -670,7 +670,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple2/v4/78/9b/7c/789b7c7c-0589-4c8e-3dc8-905e7f979b1b/screen261x261-50.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple2/v4/78/9b/7c/789b7c7c-0589-4c8e-3dc8-905e7f979b1b/screen261x261-65.jpeg", 
                                     "width": 261, 
                                     "height": 196
                                 }, 
@@ -1045,7 +1045,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "1014005", 
+        "ITSServerInstance": "615320", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
@@ -1075,7 +1075,7 @@
                 "platformId": "28", 
                 "storeFront": "143441", 
                 "storeFrontHeader": "143441-1,28", 
-                "environmentDataCenter": "NWK", 
+                "environmentDataCenter": "ST11", 
                 "platformName": "iTunes12"
             }, 
             "postFrequency": 60000, 

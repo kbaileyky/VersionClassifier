@@ -1,0 +1,104 @@
+Coda Release Notes
+Coda 2.5.1
+Released on October 24th 2014
+
+Shortened the auto-complete pop-up delay
+Improved indexer performance on 10.7 and 10.8
+Fixed an issue with the publishing list clearing unexpectedly
+Improved unicode support in terminal
+Included new Panic Palette color theme
+Fixed a bug a bug that could cause SCM credentials to be forgotten
+Fixed handling of .ts files
+Fixed many, many other bugs
+
+
+
+
+Coda 2.5
+Released on October 15th 2014
+
+Major New Features
+Site-Wide Autocomplete. Coda will now index your Local Root and autocomplete your own functions, classes, and variables.
+Plug-in Manager. Enable, disable, and update your plug-ins via Preferences.
+Panic Sync. Securely sync your sites, keys, passwords, and more, with other copies of Coda 2.5, Diet Coda 1.6, and Transmit iOS.
+Indentation Guidelines.
+CSS Overrides. Open a site in Preview, and override the CSS with your own creation. Super-useful.
+Fresh UI Update. Yosemite-ready, cleaner, lighter, with new color-coded visual tabs.
+Sidebar Plug-ins. Plug-ins can now extend Coda’s sidebar, adding limitless new tools with rich user interfaces. Plug-ins can be Cocoa or, now, can be written in HTML/CSS/Javascript!
+Validator Plug-ins. Plug-ins can now extend Coda's validator system, add validators for any language you like.
+Save and Publish. A single keystroke can now do both.
+Customizable Column Guide.
+Track External Changes. Publish changed files even when edited outside of Coda, useful for things like SASS.
+Autocomplete.
+Wordpress and jQuery completions built-in
+Can now autocomplete Clips
+3rd parties can now easily extend autocompletion dictionaries
+Open Quickly.
+Search for your functions and variables from the Quick Open window
+Improved partial matching support
+French and German Localizations.
+Improved Performance.
+Syntax highlighting is anywhere from 400% to 1000% faster
+Symbol parsing is over 100% faster
+Improved performance throughout
+Hundreds of Fixes and Improvements
+The plug-in API as been expanded to include new callbacks and functions
+Added Paste and Indent for smarter indentation on paste
+Themes now support text selection and folding bar colors
+Can now disable Coda Pops in the Preferences
+For Modes that support it, Coda can now do single line commenting style by selecting Option-Command-/
+It’s now possible to specify files to exclude/ignore from Publishing
+It's now possible to turn off Publishing for sites that don't use it
+HSLA support added to the Color pop
+Colors chosen in the system color picker will now be inserted into the editor
+Improved CFML / ColdFusion support
+Improved inline CSS support
+New sidebar “Edit” mode to make it easier to customize the sidebar
+Syntax Themes have more options including the ability to change the code folding gutter color
+Numerous syntax/mode improvements
+CSS/LESS/SASS: Added @rules highlighting and animatable properties to the attributes list.
+SASS: Now show placeholder selectors in the sidebar, and highlight @content and !optional keywords.
+CFML: improved tag highlighting inside of HTML tags and code highlighting inside output variables
+LESS: global mix-ins now highlight properly and the code navigator supports @imports
+JS: Method names with curly braces now parsed correctly
+PHP: Added ‘trait’ as a keyword
+Objective-J, Perl, Python: improved keyword and function highlighting
+Improved autocomplete and symbol navigation across the included modes
+SCM Improvements
+GIT, fixes for branches with “/“ in the name
+Improved memory usage with very large SVN repositories
+Source Control and Publishing sidebar now show file hierarchies
+Option-clicking a disclosure arrow in Find in Files will now expand or collapse all items
+Added support for “Live AirPreview” with Diet Coda 1.5
+Clip placeholders will now always be tabbable, even if you type something else
+User Agent strings have been updated
+It’s now possible to provide a custom User Agent
+Go To Line now remembers your previously entered line
+Preview no longer processes CSS overrides on every keystroke
+Live editing CSS is now more reliable (EG: using complex media rules)
+Previewing CSS files will now show their corresponding index page
+Terminal now responds to the Text > Encoding menu selection, and properly encodes non-ASCII characters
+Preview now shows window dimensions to assist with responsive design
+Go To Line will now accept key presses even while the window is popping open
+Page Guide added to the Preferences, to draw a guideline at a user-defined column
+File rules now support Path
+Skip Files rules now apply to Publishing as well
+Folders can now be Published
+Find In Files text fields can now be resized
+Escape Key will now close a Coda Pop
+Can now remove color stops in the Gradient Pop
+Server credentials are now tested and validated automatically when creating a Site
+Remote document sharing now works more reliably
+Improved hidden character appearance
+Improved automatic code formatting
+Improved block edit while using tabs and spaces
+Improved support for bidirectional text
+Find now shows a document looped indicator
+Can now set the encoding on the Terminal
+Improved printing options
+Can now mark folders for publishing
+Can now reverse publish folders
+SFTP now supports compression
+Improved terminal emulation
+Included new Panic Palette color theme
+Fixed many bugs

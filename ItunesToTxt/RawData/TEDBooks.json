@@ -3,21 +3,21 @@
         "softwarePageData": {
             "customerReviewsUrl": "https://itunes.apple.com/us/customer-reviews/id511071050?dataOnly=true&displayable-kind=11", 
             "customersAlsoBoughtApps": [
-                301259483, 
+                458424230, 
                 379351586, 
                 542557212, 
                 431475095, 
                 355833469, 
                 660859538, 
-                458424230, 
-                311507490, 
+                584319126, 
                 454929081, 
-                521227008, 
-                363484920, 
-                427485285, 
-                583834467, 
+                301259483, 
                 394275498, 
-                373311049
+                416454511, 
+                311507490, 
+                363484920, 
+                368195233, 
+                432627811
             ], 
             "sellerLabel": "Seller", 
             "isFatBinary": 1, 
@@ -28,37 +28,37 @@
                         597251953, 
                         378080432, 
                         542557212, 
-                        415378623, 
                         364734296, 
+                        468607901, 
+                        415378623, 
                         395985060, 
-                        453213960, 
-                        600093661, 
-                        921024054, 
-                        356971775, 
-                        539466818, 
                         483281737, 
-                        869502447, 
-                        563273711
+                        453213960, 
+                        316789453, 
+                        921024054, 
+                        379351586, 
+                        310295776, 
+                        600093661
                     ], 
                     "title": "Top Grossing iPad Books Apps"
                 }, 
                 "iphone": {
                     "ids": [
-                        350027738, 
                         378080432, 
+                        350027738, 
                         444553118, 
-                        395985060, 
-                        597251953, 
                         542557212, 
-                        364734296, 
-                        672803850, 
-                        401153476, 
-                        869502447, 
                         310295776, 
-                        435873883, 
-                        415378623, 
+                        869502447, 
                         483281737, 
-                        534174796
+                        597251953, 
+                        395985060, 
+                        364734296, 
+                        401153476, 
+                        664973122, 
+                        389029534, 
+                        622718965, 
+                        435873883
                     ], 
                     "title": "Top Grossing iPhone Books Apps"
                 }
@@ -175,11 +175,11 @@
                 }, 
                 {
                     "price": "$2.99", 
-                    "name": "The Upstream Doctors"
+                    "name": "The Science of Optimism"
                 }, 
                 {
                     "price": "$2.99", 
-                    "name": "The Science of Optimism"
+                    "name": "The Upstream Doctors"
                 }, 
                 {
                     "price": "$2.99", 
@@ -192,11 +192,11 @@
             "pageDetails": "TED Conferences_TED Books", 
             "pageId": "511071050", 
             "language": "1", 
-            "serverInstance": "1010200", 
+            "serverInstance": "615350", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
-            "environmentDataCenter": "NWK", 
+            "environmentDataCenter": "ST11", 
             "pageType": "Software", 
             "platformName": "iTunes12", 
             "page": "Software_511071050"
@@ -415,10 +415,10 @@
                     "releaseDate": "2012-05-23", 
                     "artistId": 376183342, 
                     "userRating": {
-                        "ratingCountCurrentVersion": 11, 
+                        "ratingCountCurrentVersion": 12, 
                         "valueCurrentVersion": 3, 
                         "value": 3, 
-                        "ratingCount": 164
+                        "ratingCount": 165
                     }, 
                     "artistUrl": "https://itunes.apple.com/us/artist/ted-conferences/id376183342?mt=8", 
                     "itunesNotes": null, 
@@ -518,12 +518,12 @@
                             "height": 240
                         }, 
                         {
-                            "url": "http://a1.mzstatic.com/us/r30/Purple/v4/c7/98/df/c798df10-e1cf-afad-da73-99c5f448200e/icon1024x1024.jpeg", 
+                            "url": "http://a3.mzstatic.com/us/r30/Purple/v4/c7/98/df/c798df10-e1cf-afad-da73-99c5f448200e/icon1024x1024.png", 
                             "width": 1024, 
                             "height": 1024
                         }, 
                         {
-                            "url": "http://a2.mzstatic.com/us/r30/Purple/v4/c7/98/df/c798df10-e1cf-afad-da73-99c5f448200e/icon440x440.png", 
+                            "url": "http://a1.mzstatic.com/us/r30/Purple/v4/c7/98/df/c798df10-e1cf-afad-da73-99c5f448200e/icon440x440.jpeg", 
                             "width": 440, 
                             "height": 440
                         }, 
@@ -538,7 +538,7 @@
                             "height": 400
                         }, 
                         {
-                            "url": "http://a5.mzstatic.com/us/r30/Purple/v4/c7/98/df/c798df10-e1cf-afad-da73-99c5f448200e/icon512x512.jpeg", 
+                            "url": "http://a3.mzstatic.com/us/r30/Purple/v4/c7/98/df/c798df10-e1cf-afad-da73-99c5f448200e/icon512x512.png", 
                             "width": 512, 
                             "height": 512
                         }
@@ -1111,7 +1111,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "1010200", 
+        "ITSServerInstance": "615350", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
@@ -1141,7 +1141,7 @@
                 "platformId": "28", 
                 "storeFront": "143441", 
                 "storeFrontHeader": "143441-1,28", 
-                "environmentDataCenter": "NWK", 
+                "environmentDataCenter": "ST11", 
                 "platformName": "iTunes12"
             }, 
             "postFrequency": 60000, 

@@ -1,0 +1,1148 @@
+**** I  Trimmed earlier data because most didn’t have dates - Kendall
+Acorn 4.5.1 September 3rd, 2014.
+	•	Minor New Stuff
+	•	Command-J will now duplicate the current layer, even if there's no selection (previously this would only work if there was a selection).
+	•	Improvements to text editing in the Do JavaScript Automator action.
+	•	The Merge Visible to New Layer command now works if you only have a single layer.
+	•	Fixed Stuff
+	•	Fixed a bug where you could set the blending mode of a layer mask, which makes absolutely no sense whatsoever.
+	•	Fixed a bug where exported PSD files sometimes got the wrong aspect ratio for bitmap layers.
+	•	Fixed a bug where merging multiple shape layers would create a single bitmap layer, instead of the obvious result, which would be a single shape layer.
+	•	Fixed a bug where adding JPEG images to an open image would not open it up in the correct orientation.
+	•	Fixed a crasher when transforming a selection to something very very small. Smaller than the smallest tiny thing you can think of.
+	•	Retina fixes.
+	•	Fixed a bug where duplicating a document would cause weird errors down the road when trying to make new layers.
+	•	Fixed a bug where the New View window would fail to come up if you had certain layer filters applied to your image.
+	•	Fixed a bug where entering .999 into the Levels window wouldn't work correctly.
+	•	Worked around an OS bug where Acorn files of a very large dimension would not save correctly because of corrupt TIFF files being created when LZW compression is involved :| .
+	•	Fixed a bug where the stroke for a new shape would sometimes be reset to 0 when it should have been some other number.
+	•	Fixed a bug where the Rasterize Shape Layers command would only work on the first shape layer you had selected.
+	•	Fixed a bug where inverting a selection would cause boolean selection operations later on to fail.
+	•	Fixed a redraw problem for layers which were pasted in from Keynote.
+
+
+Experimental Stuff
+	•	New Scripting interface for bitmap layers, which will most likely change in a future major version (hopefully based on feedback): var layer = [[[doc baseGroup] layers] objectAtIndex:0];
+	•	
+	•	layer.drawWithHandler(function() {
+	•	    var path = [NSBezierPath bezierPathWithOvalInRect:NSMakeRect(0, 0, 100, 100)];
+	•	    [[NSColor blackColor] set];
+	•	    [path fill];
+	•	    // return the area to commit for undo operations
+	•	    return NSMakeRect(0, 0, 100, 100);
+	•	});
+	•	                
+Acorn 4.5 July 28th, 2014.
+	•	New Stuff
+	•	New international presets when creating a new image - A3, A4, A5, and A6.
+	•	New Command: Layer ▸ Merge Visible to New Layer (shortcut Command-Option-Shift-E). This will add a new layer, which is a composite of all the visible layers. The menu item for Merge Visible will switch to Merge Visible to New Layer when the Option key is pressed.
+	•	You can now paste an image into the brush designer's canvas, which will then take that image and turn it into a brush.
+	•	New Crop preset: "Document". It adds a crop to the canvas at 90% of the canvas size, and will keep its aspect ratio when resizing.
+	•	New AppleScript command: "add layer mask". Works on either the document or layer object, and if there's a selection on the canvas, that will be used as the mask (otherwise the command will add an empty layer mask). There is also a new Cocoa Script interface to it for the layer object- addMask:.
+	•	When browsing for a new filter in the filters list, changing the front and back colors in the tool palette will now update the colors in the current preview filter.
+	•	The Raw Image Import window now supports full screen editing.
+	•	The gradient tool now has an optional blend mode when used on bitmap layers.
+	•	Acorn will automatically hide palettes when Web Export is used.
+	•	If you paste in dimensions such as "1256x408" into the width field of the new image window, Acorn will recognize that you probably want an image with a height of 408, and will automatically set that value for you.
+	•	The eraser tool now has a precision mode option just like the brush tools do (this will slow down your strokes by 3x, making it easier to add small brush strokes).
+	•	You can now click and drag with the flood fill tool to increase its base tolerance setting, just like with the magic wand and instant alpha tools.
+	•	The tolerance setting for the magic wand will live update when you click and drag on the canvas - which will increase it by the base amount you have set.
+	•	You can now reset individual values in a layer filter by double clicking on its label.
+	•	New shortcut (command-option-shift-n) to create a shape layer.
+	•	Spotlight indexing now includes the fonts in the image as well as the pixel count.
+	•	Pressing the + in the Inspector Palette with the Option and Command keys down will add a new Shape layer (and holding down just the Command key will create a new Group layer, and holding down the option key will duplicate the current layer).
+	•	You can now lock / unlock layers with the command-option-l shortcut.
+	•	Acorn can now open up .pict files. Yes, really. Hello, 1984 called and wants its file format back.
+	•	Changed Stuff
+	•	If you have a bitmap layer which is completely transparent, the various transform tools will now let you know that they have no job to do. And if that empty layer has layer filters which generate pixels (such as Render Clouds), Acorn will ask if you want to flatten the filters before continuing.
+	•	The Shape Generator sheet (under Shape ▸ Generate Shapes) will now remember previous settings.
+	•	Acorn no longer lets you set the paragraph spacing of text objects to a negative value. This sometimes worked, even though Acorn was using APIs incorrectly to make it happen- you would get unpredictable results depending on the selected font, and the values were sometimes reset when you reopened a file.
+	•	If the currently selected layer is invisible, the blend mode, opacity slider, and any layer filters it has will now be disabled in the filter palette until the layer is made visible again.
+	•	When using Crop presets that are too big for the canvas, Acorn will now do a better job of scaling things down for you.
+	•	When adding a layer filter preset, Acorn will no longer replace any existing layer filters and instead append to the filters that are already present. If you like the previous behavior, you can hold down the shift key while choosing the preset to replace the current filter(s).
+	•	Web Export: If you have the matte option enabled and are exporting as PNG, Acorn will no longer add a (useless) alpha channel to the image, which will make the file size a bit smaller.
+	•	Deleting the contents of a bitmap layer is way faster now if you've got a huge canvas and just a teeny tiny bit of visible pixels on the layer. Yes, we try and rub the speed on everywhere possible.
+	•	When manipulating star shapes, it will always grow / shrink on either size instead of just one.
+	•	Acorn is taking advantage of more caches to speed up compositing, which helps enormously with layer styles.
+	•	Brought the way background shape layers are selected to be more inline with what happens when selecting bitmap layers. Acorn no longer gives precedence to the currently selected shape layer when clicking on shapes which might be overlapped by other shape layers. If you were enamored with the previous behavior, you can bring it back with this hidden pref: defaults write com.flyingmeat.Acorn4 checkSelectedShapeLayerFirst 1
+	•	Smoother selection animations, as well as rotating colors for the selection (does it stand out more on retina displays now?)
+	•	Less beeping.
+	•	When you have multiple groups selected in the layers list, Acorn will now stuff them into a single group when the New Group command is used. This now matches the same behavior when multiple non-group layers are selected. Previously Acorn would add a new group layer to the selected group (and Acorn will still do this if there is a single group selected).
+	•	Acorn now remembers which color well was selected when you quit and restart.
+	•	New hidden pref for automatically adding a white background when opening a PDF: defaults write com.flyingmeat.Acorn4 whitePDFBackground 1
+	•	Fixed Stuff
+	•	Fixed a bug where removing an anchor in the Curves window wouldn't update the preview.
+	•	Fixed a bug where you couldn't properly use the Outline Path command on Line shapes.
+	•	Fixed a crasher when deleting every selected segment of a bezier path.
+	•	Fixed a bug where Web Export wasn't working when in trial mode.
+	•	Fixed a bug where sometimes dragging and dropping an image from the Canvas into the Brush Designer image well (to make a brush shape from the image) wouldn't always work.
+	•	Making selections with the free and polygon selection tools is a bit more natural feeling when zoomed way in.
+	•	Making single pixel selections with the rectangle selection tool is a lot easier to do when zoomed way in (you don't have to drag your cursor around as much).
+	•	Fixed a bug where precision mode with the brush and eraser didn't work great when you were zoomed in our out a bunch.
+	•	The Magic Wand cursor was missing + and - symbols when you held down the shift and option keys to add or subtract to a selection. This has been corrected.
+	•	Fixed a bug where masks in PSD files wouldn't open up correctly with certain images.
+	•	When in Quickmask mode, adding layer filters to the selection works better now.
+	•	The reset button in the filters palette now matches what you get when you add the filter to your layer.
+	•	The tab key now works correctly to move between fields in the Levels window.
+	•	The text insertion point no longer gets layer effects applied to it when you are editing text.
+	•	New document from clipboard now works better when you've got a bunch of shapes copied from a shape layer.
+	•	Fixed a bug where the ungroup layers command wouldn't work correctly for selections of multiple layers.
+	•	When creating shapes, they now snap to rulers and document bounds.
+	•	Fixed a problem where the clone tool didn't give the greatest results when cloning from transparent areas in a layer.
+	•	The File ▸ Add Images… sheet no longer allows you to select images Acorn can't open (such as EPS files).
+	•	Better drawing of text bounds when you're zoomed in and modifying stuff.
+Acorn 4.4 May 26th, 2014.
+	•	New Stuff
+	•	Live font updates to text boxes as you move look through the font list in the text palette.
+	•	Acorn will now give live updates to the blending mode for layers when using the arrow keys on the Blending popup button.
+	•	New preference for a "Super Scrollable Canvas", which basically means you can scroll your canvas around beyond the bounds of your image. This is awesome if you do lots of work with a stylus.
+	•	When making or moving guides, they will now snap to document bounds (if you have the snap options turned on. And did you know you can temporarily disable snapping by holding down the control key? Well, now you do).
+	•	When dropping into Quickmask mode, Acorn will set the front color to white and the back color to black, making it easier to draw in or erase your selection. When you drop out of Quickmask mode, your previous colors are restored.
+	•	If you have multiple layers selected and want to put them in a group, command-g is your friend. And if you have a group layer selected and would like to ungroup it - command-shift-g is also your friend.
+	•	New Clear Selection and Inverse Selection menu items added to the canvas contextual menu when you have a selection.
+	•	If you double click on the Text Palette's baseline, kerning, line height, or paragraph spacing labels, Acorn will reset the value of that slider. If you hold down the command key while double clicking on any of those, Acorn will reset all the text spacing values.
+	•	You can now select non-contiguous layers in the layers list, and merge them into a single layer using the Layer ▸ Merge Layers menu item.
+	•	The contextual menu in the layers list now allows you to merge a clicked layer down.
+	•	Pressing cmd-1 would always scale your canvas to 100%. But new in 4.4: if your canvas is already at 100% and you press cmd-1, the canvas will center itself.
+	•	You can now export an image as a TIFF with CMKY.
+	•	When you change values in the brush designer, updates to your brush strokes are done in the background. This is awesome because it means Acorn stays super responsive when you're making little changes.
+	•	AppleScript stuff:                
+	•	                
+	•	tell application "Acorn"
+	•		tell document 1
+	•			set current layer to layer 2
+	•		end tell
+	•	end tell
+	•	
+	•	
+	•	tell application "Acorn"
+	•		tell document 1
+	•			
+	•			tell layer 1
+	•				load filter preset name "Checkered Brush"
+	•			end tell
+	•			
+	•			# or on the document, which grabs the current layer:
+	•			# load filter preset name "Checkered Brush"
+	•			
+	•		end tell
+	•		
+	•	end tell
+	•	
+	•	                    
+	•	                    
+	•	                    
+	•	Changed Stuff
+	•	You can now have a negative baseline for text shapes.
+	•	Acorn now defaults to keeping objects selected after creating them (though you can change this in the prefs if you liked the old behavior).
+	•	First, some background: Selections are undable. Shape layers can have selections of their own. Shape layer selections are removed when you switch to another layer. If you are on a shape layer with a selection and move to another layer, your selection would be removed and if you hit undo your selection would come back. However, the active layer was still the one you moved to. So now in version 4.4, if you undo a selection on a shape layer and it's not the active layer, Acorn will now make it active. So an undo (or redo) action could potentionally change the active layer. I hope that made sense.
+	•	There was a menu shortcut conflict introducted at some point, where Hide Selection and Hide Layer were both given control-command-h. The shortcut for Hide Layer has been remapped to shift-control-command-h to resolve this.
+	•	If you delete a layer, and then undo it- Acorn will now remember to reselect it if the layer was selected before deletion.
+	•	You can now delete a layer while transforming it, without an alert coming up.
+	•	Crop preset improvements: If you have the option "Keep aspect ratio" enabled when saving a crop preset, and the size of that preset is smaller than the canvas you are using it against, Acorn will scale up the preset to the size of the canvas while preserving the aspect ratio.
+	•	The Automator actions got a little love - please let us know ASAP if something stoped working for you.
+	•	QuickLook previews of Acorn images should be loading faster now. In addition, Acorn now saves thumbnails for native Acorn images, so QuickLook thumbnails now show up super fast for really big images.
+	•	When copying to the clipboard, Acorn will now make sure the dpi for your image tags along as well.
+	•	If a shape layer has a linked mask, and you are moving every shape on the layer, then the mask will move as well. If you don't have all the shapes selected, the layer mask will not move.
+	•	Fixed Stuff
+	•	Fixed a bug where Acorn wouldn't open rotated + flipped (as set in the exif orientation information) images correctly.
+	•	Fixed a bug where web export would show text selection if you had… text selected in your canvas.
+	•	Fixed a bug where you couldn't delete a layer with command-delete if it wasn't visible.
+	•	Fixed a bug where option-dragging bitmap layers on the canvas to duplicate them would make them show up in strange places sometimes.
+	•	Fixed a bug where PSD files weren't exported correctly for small layers.
+	•	Fixed a bug where setting the opacity for a layer would sometimes fail if you had just deleted a layer's mask.
+	•	Fixed a bug where switching to a layer mask from a shape layer woulnd't clear the layer selection.
+	•	Fixed a bug where the [ and ] keys wouldn't change the pencil tool brush size.
+	•	Better stylus (Wacom and friends) handling when brushing.
+	•	Fixed a bug with the brush tool where sometimes the first dab with a tablet would show up 100% opaque when it wasn't supposed to.
+	•	Fixed some visual glitches with the Magic Wand HUD.
+	•	Fixed a bug where the ruler bounds markers when moving around a vector shape were drawing in the wrong location on retina displays.
+	•	Fixed a problem where moving your layer around while in Free Rotate would cause it to move at half the speed it should on retina displays.
+	•	Fixed a bug where rotated + squished brushes would sometimes clip when drawing.
+	•	Various canvas free rotate bug fixes.
+	•	Fixed a crasher when using Convert to Bezier shape with rectangles of a certain size (or lack of one actually).
+	•	Fixed a crasher when closing an image when in the middle of a canvas free rotate.
+	•	Fixed a bug where Acorn wouldn't respect the system preferences for max documents to be remembered.
+	•	Fixed a problem where moving selected pixels in a layer mask would cause incorrect drawing.
+	•	The image browser now opens up a bunch more RAW file types.
+	•	Fixed a bug where moving a group layer with snap to document edges turned on would cause real ultimate wrongness.
+	•	Fixed a problem when using the Tilt Shift filter when you were zoomed in.
+	•	Fixed a bug where the name of the layer in the layers list palette would sometimes overlap with the fx button when editing.
+	•	Other Stuff
+	•	When entering the versions browser (when Autosave and Versions is turned on in the prefs), Acorn will now hide its tools and inspector palettes.
+	•	defaults write com.flyingmeat.Acorn4 trimToOpaquePixelsOnCopy 1
+Acorn 4.3.1 February 24th, 2014.
+	•	New Stuff
+	•	New menu item in the View ▸ Guides menu to turn on and off snapping to guides.
+	•	If you have a selection, the frame of the selection will now show up in the status bar of your image's window. This is awesome because sometimes it's hard to know if you have a 1x1 pixel selection or not.
+	•	New option to set the image depth when making a new image.
+	•	The Curves window now has a preview toggle button.
+	•	Crop Presets: There is a new option to resize your image to the original crop dimensions when saving a crop preset.
+	•	Raw Import: The raw import window now includes a histogram for your viewing pleasure.
+	•	Raw Import: You can now choose the color profile you want your image to end up in.
+	•	Raw Import: You can now choose the image depth you want your image to end up in.
+	•	Raw Import: You can now more accurately change the width and height of the image that is being opened.
+	•	Raw Import: New option to adjust noise reduction.
+	•	Raw Import: It's faster!
+	•	Changed Stuff
+	•	Web Export more aggressively tries to get your PNGs smaller if your colorspace is sRGB (Acorn will strip out the color profile data in that case).
+	•	BMP files without an embedded colorspace would previously open up in Adobe RGB 1998. In Acorn 4.3, they will now open in whatever your default colorspace is set to (which is sRGB by default). This also matches system behavior.
+	•	Text boxes will now draw an outline when you are rotating or moving them around. This is awesome because it makes it way easier to align stuff up.
+	•	Little pencil and brush improvements with single clicks.
+	•	If it takes more than .2 seconds to render your brush stroke in the Brush Designer, Acorn will cancel the realtime updates for it and wait till you've finished moving your slider around to re-render your stroke with the updated settings.
+	•	When uploading an image to Facebook / Flickr / Wherevr, Acorn will now make sure the exif info for the image tags along.
+	•	Undo should be faster now for Very Large Images.
+	•	If you drag the top colorwell (stroke color) onto a shape, it will now turn on the shape's stroke if it isn't already, and set the stroke color. Likewise, the lower colorwell (fill) will turn on the fill for a shape as well as set it's color.
+	•	The title of the crop preset pulldown will change to the title of the of a selected preset when used.
+	•	The layers list thumbnail drawing has been sped up by a factor of a billion and four.
+	•	The max grid spacing has been bumped up to 500px.
+	•	Fixed Stuff
+	•	Fixed a bug where single clicking outside a selection with the selection tool wouldn't clear the selection.
+	•	Fixed a problem where you'd sometimes get transparent edges by using the nearest neighbor scaling option when resizing an image.
+	•	Better handling of mouse position when using the brush tool's precision mode on secondary displays or retina screens.
+	•	Fixed a bug where Flood Fill wasn't working correctly in quick mask mode.
+	•	Fixed some selection redraw problems when your canvas was scaled up to oddball percentages.
+	•	Shadows on shapes now scale correctly when scaling down a bezier shape.
+	•	The gradient palette preview now updates when you undo a gradient change on a selected shape, instead of retaining the previous gradient.
+	•	Fixed a bug where the title of New View windows weren't updated when you saved a document with a new name.
+	•	Fixed a bug where you couldn't use the arrow keys when using the perspective transform to move your image.
+	•	Fixed a redraw problem with the rulers when panning with a trackpad in full screen mode.
+	•	Fixed some cases where you could alter shapes on a locked layer.
+	•	Fixed a pixel grid redraw problem when resizing the canvas.
+	•	Creating a new rect or oval with the option key down will now make it grow in size from the center of the shape (previously you had to press the option key before clicking).
+	•	Fixed an issue where switching from the poly selection tool (without closing a selection you've started) to another tool would cause ferrets to drop from the ceiling.
+	•	Fixed a crasher when using Select All with the crop tool when there was a selection on the canvas already.
+	•	Better shape selection behavior when you've got one of the shape tools selected and you hold down the command key when clicking on a shape to extend your selection.
+	•	Fixed a bug where Acorn would sometimes lose the currently selected layer when re-ordering layers in the layers list..
+	•	Fixed a bug where dragging and dropping a monochrome image from Safari onto Acorn's icon in the Dock would cause the world to implode.
+	•	Fixed a bug where double clicking on the bezier tool in the tools palette to show it's tool menu, and then quickly double clicking on another tool would cause the bezier tool menu to show up again.
+	•	Fixed a bug where text boxes would look funny when editing them and resizing your image at the same time with the option-command window resize widget trick.
+	•	Fixed a bug with PSD export.
+	•	Fixed a bug where next text boxes wouldn't respect certain text palette settings.
+	•	Fixed a bug where you couldn't convert the first anchor point in a bezier path if it wasn't already a curve.
+	•	Fixed a bug when drawing gradients in the quick mask.
+	•	Various little Tilt Shift filter fixes.
+	•	Acorn does a better job of remembering the layers you had selected when you have multiple images open and frequently switch between them.
+	•	The order in which multiple images are dragged from the Finder into the canvas or layers list is now the same (it was backwards in the layers list).
+	•	Fixed a bug where swapping colors in the palette when you had a range of text selected (in a text box) wouldn't change only the selected text.
+	•	Various little fixes with Quartz Composer plugins.
+	•	Fixed a bug where moving selected shapes with the keyboard wouldn't update its position in the inspector palette.
+	•	Fixed a bug where dragging an image from the Finder would sometimes cause it to show up in the wrong location.
+	•	Fixed a bug where resizing the canvas in centimeters didn't work correctly.
+	•	Fixed a bug where pressing the escape key when making a selection with the polygon select tool wouldn't clear out the canvas.
+	•	Fixed a problem when writing out PSD files with interesting layer names.
+	•	Fixed some problems when drawing bezier paths.
+	•	Fixed a bug where CMKY JPEG broke on 10.9.1
+	•	Fixed a bug where Acorn wouldn't ask if you wanted to finish your rotate or transform if you saved your document while in the thick of it.
+	•	Fixed a bug where merging layer groups would sometimes fail to happen with specific layer filters enabled.
+	•	Fixed a bug where swapping the fill and stroke colors on a text box would cause it's text to become selected.
+	•	Other misc. minor fixes.
+	•	Other Stuff
+	•	A new hidden pref to enable (or disable) brute force compressing when using PNGs in Web Export. Enabling this will take longer for Acorn to produce your file, but the size might well be smaller.
+	•	A new hidden pref to enable (or disable) preliminary LIFT image support (use File ▸ Export to save your image as a LIFT image).
+Acorn 4.2.3 January 4th, 2014.
+	•	Changed Stuff
+	•	The magic wand is a bit smarter about selecting transparent pixels.
+	•	If an image has no detectiable color profile embeded in it, Acorn will now default to whatever you have set in your preferences for a default color space (by default it's sRGB). Previously it would use the display colorspace on 10.8, and sRGB on 10.9.
+	•	The raw import window now remembers its size between uses.
+	•	Added some better defaults for the tilt shift filter.
+	•	When making a new image from the clipboard, Acorn will now set the DPI based on what's on the clipboard says. For instance, screenshots taken on a retina display and copied to the clipboard will open up with a DPI of 144.
+	•	If you have an image on the clipboard, you can now use the Edit ▸ Paste menu item from the start window to make a new image.
+	•	New option when creating a crop preset to remember the location of the saved crop, or otherwise have it centered in the canvas.
+	•	Fixed Stuff
+	•	Fixed a bug that kept you from cropping two documents at once.
+	•	Fixed a bug where resizing the window with the option and command keys down (which will scale your image) wasn't showing the correct preview.
+	•	Fixed a bug where sometimes you couldn't add filters to a newly created layer mask.
+	•	Fixed a problem where you'd sometimes get transparent edges on images when importing a raw image that was scaled down.
+	•	Fixed a bug where bezier lines with no height or width were causing Acorn headaches.
+	•	Fixed a bug where the stepper brush size control in the smudge palette wasn't working.
+	•	Fixed a crash when trying to print an image which has a Japanese file name.
+	•	Fixed a crasher where trying to craftily nest groups inside of themselves would cause Acorn to spin into infinity.
+	•	The grid no longer disappears when you perform a free rotate on the canvas.
+	•	Fixed a redraw problem when moving bitmap layers when zoomed at 75%
+	•	Fixed a bug where some filters on shape layers wouldn't merge down correctly.
+	•	Fixed a scaling bug where pixels near edges would sometimes get stretched out.
+	•	Fixed a bug where an image and window that was greater than 2048 pixels would cause garbage to show up on the canvas (if you had a NVIDIA GeForce GT 120 GPU).
+	•	Fixed a crasher when dragging a specific type of image from Safari onto Acorn's dock icon.
+Acorn 4.2.2 Dec 10, 2013.
+	•	Fixed a problem where PDF files were not opening correctly.
+	•	Fixed a problem where the New View windows where showing the image in the wrong colorspace.
+	•	Fixed a problem where the New View windows where not properly updating sometimes when moving a bitmap layer.
+Acorn 4.2.1 Dec 8, 2013.
+	•	Fixed a problem where some images were showing up washed out.
+	•	Fixed a crasher when using the Levels window on certain grayscale images.
+	•	Fixed a crasher when using the Free Rotate command and pressing the "apply" button to commit it from the toll palette.
+Acorn 4.2 Dec 6, 2013.
+New Stuff:
+	•	A New "Radial Gradient Blur", which is sort of a like a vignette, but with a blur. It's awesome, try it out.
+	•	You can now change change the depth of an image to 16 bits per component with the Image ▸ Image Depth menu item. Hello deep images!
+	•	RAW files are now opened as 16 bit per component / 64 bit pixel images.
+	•	The default color profile has now been changed to sRGB. (You can also change the default profile in Advanced prefs).
+	•	All drawing is now going directly through OpenGL, which makes things quite a bit faster.
+	•	You can now cycle through a layer's blend modes with Option Shift + or Option Shift - keyboard shortcuts.
+	•	You can now share images with Flickr, Twitter, Facebook, iPhoto, Aperture, and other services using the File ▸ Share menu item.
+	•	The Gaussian Blur filter now has a popup menu item to choose between clamping, blending, or doing nothing when blurring your image.
+	•	The smudge and clone tools no longer share brush sizes with the burn and dodge tools.
+	•	The pencil tool has been revamped with pixel editing in mind, making perfect squares to help you make perfect pixel art.
+	•	You can now set the blend mode for the pencil tool, and in addition to this there's a new "Copy" blend mode for the pencil tool which will replace the brushed pixels with the selected color exactly, instead of blending (which is awesome if you're using a color with alpha in it).
+	•	The eraser tool now has a softness option, which replaces the antialias checkbox.
+	•	The brush slider now grows and shrinks in size at a manageable yet very nice speed when you scrub back and forth.
+	•	The crop palette now has an option to keep the aspect ratio of your crop bounds when saving a new preset.
+	•	Added a new menu item to flatten all layer styles/filters in a document. Open up the Layers menu, hold down the option key, and the "Flatten Layer Filters" menu item changes to "Flatten All Layer Filters".
+	•	The color picker will now pick up alpha correctly if used over an Acorn canvas. The colorspace for the picked color is now calculated correctly as well.
+	•	If you use the arrow keys with a selection (and a selection tool is active) and hold down the option key, Acorn will copy the selection in the direction you press with the keys, thus extending the selection by a pixel (or 10 if you hold down the shift key).
+	•	Minor New Thing: The Levels and Curves now remember their window placement between uses.
+
+Changes:
+	•	Holding down the option key with a bitmap drawing tool while on a shape layer will now pickup a color from the shape layer.
+	•	The Levels filter got some tweaks.
+	•	Bumped up the max font size from 1000 pt to 9999 pt.
+	•	No longer snapping to the guides if they aren't visible.
+	•	Removed the blend mode option for the grid since it slowed things down too much.
+	•	Using the View ▸ Zoom To ▸ Fit in Window menu item while in full screen will now re-center your canvas.
+
+Bug Fixes:
+	•	Fixed a bug where non-contiguous wand selections wouldn't work right if the target color had transparency in it.
+	•	Fix: When resizing the crop bounds by an edge with the shift key down, it'll now keep it's aspect ration (previously this only worked if you used a corner to resize).
+	•	Fixed a bug where changing the default color profile for new images wouldn't take effect until you restarted Acorn.
+	•	Fixed a bug where the Tilt Shift filter wouldn't draw right when you were making a selection.
+	•	Fixed a bug where using the auto levels button in the Levels window would sometimes cause portions of your image to go black for the preview.
+	•	Fixed a bug where the rect selection would clip sometimes if you were zoomed way out on an image.
+	•	Fixed a bug where using the subtract selection mode would not clear the selection if you subtracted the whole selection.
+	•	Fixed a bug where group layer thumbnail previews weren't drawn tall enough in the layers list when you added a mask.
+	•	Fixed a bug where the canvas wouldn't update correctly when moving 1px high shapes with the arrow keys.
+	•	Fixed a bug where a shape stroke could only be set by pressing the enter key in the shape palette.
+	•	Fix: You can now set the opacity of layer masks.
+	•	Fixed a bug with selecting vertical bezier paths with only two anchors.
+Acorn 4.1.1 September 18th, 2013.
+	•	You can now drag multiple images from the Finder into the canvas or layers list and they will all be added as new layers.
+	•	Change: No longer drawing handles when creating or modifying shape layer graphics.
+	•	Better command-click selection behavior with overlapping shapes on shape layers.
+	•	Added an alert when trying to delete from a bitmap layer when you have a layer filter enabled which is not set to preserver transparency (such as the Render Clouds filter). Otherwise you'd hit delete and nothing would seem to happen.
+	•	Added warnings when trying to use the draw / erase / brush / instant alpha tools on multiple layers at once.
+	•	Tiny speed improvements with Flood Fill (Mr. Paint Bucket), Instant Alpha, and the Magic Wand.
+	•	Better rounding in the window status bar for canvas sizes displaying in centimeters and inches.
+	•	Acorn is a little smarter about sizing the Layer Filters palette when the Window ▸ Gather Palettes menu item is used.
+	•	Fixed a bug with the destination in layer blend mode.
+	•	Filter fixes for Mavericks.
+	•	Fix: Fixed a bug where the corner radius of a shape would get reset.
+	•	Fix: The Quick Config popover wasn't showing up if your cursor wasn't in the canvas. Now it does.
+	•	Fix: The cursor location in the canvas wasn't being updated when making gradients or drawing out shapes. This bug has now been squashed.'
+	•	Fix: When scaling an image with shapes that had gradients on them, the gradients weren't being scaled along. This is now fixed.
+	•	Fix: The freehand selection tool no longer shows a dashed line when making selections on shape layers.
+	•	Fixed a bug where the marching ants selection marker guy wouldn't draw correctly at oddball zoom levels like 57%.
+	•	Fixed a bug where duplicating a layer by dropping it on the + button in the palette wouldn't select it right away. BTW_ you can duplicate a layer by dragging it from the layers list onto the + button in the palette if you dind't know that already.
+	•	Fixed a bug where drawing with the pencil tool and then holding the shift key to draw a straight line from the last point wouldn't work.
+	•	Fixed a bug where using the Bump Distortion Linear filter would cause redraw problems.
+	•	Fixed a the shading of the 1024px version of the Acorn icon.
+	•	Fixed a bug where the shape height field was not updating correctly on Mavericks.
+	•	Fixed a bug where making multiple images in a row would cause the dimensions of the new image window to increase each time if you had the units set to centimeters.
+	•	Fixed a bug where deleting the very first element in a bezier path would sometimes also delete the last one.
+	•	Fixed a bug where sometimes the Web Export preview window wouldn't center images.
+	•	Fixed a bug where the selection bounds in the palette wouldn't update correctly when switching open images.
+	•	Fixed a bug where the background blur filter didn't look correct at zoom levels less than 100%
+Acorn 4.1 August 12th, 2013.
+	•	New: When exporting an image as JPEG, you can now choose an option to save it as a CMYK image.
+	•	New: You can now flip the canvas vertical or horizontal via the Image ▸ Flip Canvas Horizontal / Vertical menu items.
+	•	New Background Blur filter which will blur the background images behind the current layer, and then mask that blur based on the contents of the current layer. Pro Tip: use white text or boxes to show the blur.
+	•	New: New Mirror filter which will reflect your image in the x and y directions.
+	•	New: Acorn now has a spotlight importer so you can search for acorn images by layer name, text layer contents, width, and height.
+	•	New: When editing a layer name, hitting the tab button will now select the next layer for editing. To end editing, press enter.
+	•	New: You can now change the location and dimensions of a crop with the keyboard. Use the arrow keys to move it around, hold down the option key to change the crop size with the canvas, and hold down the shift key to move or resize in 10 point increments.
+	•	New: Support for multipage TIFF files. If you've got access to a fancy scanner that will place multiple images in a TIFF file, Acorn will now open up each of those pages as a new layer.
+	•	New: If you have multiple layers selected, holding down the command key and clicking on a layer in the canvas will now select the first layer under the mouse click.
+	•	New: If you are viewing your image in shape vector or shape outline only mode, you'll now get a little bit of status text at the bottom of the window letting you know this.
+	•	New: The number of decimal places for the fields in the levels window has been increased for finer control over your adjustments. Plus, it's a forward looking change- we're not always going to be working on only 32 bit images!
+	•	New: When you export an image, Acorn will remember what file type you used last time you exported.
+	•	New: The Shape Quick Config (View ▸ Quick Config Popover) now has alignment options for the selected shapes.
+	•	New: The the Shape Quick Config popover looks a lot better these days.
+	•	New: If you copy a layer's filters to the clipboard and then select multiple layers, you can now paste the copied filters into all the selected layers instead of just the first one.
+	•	New: You can now set the red, blue, or green biases when using the Grayscale filter.
+	•	New: Shape layers now respond to the Layer ▸ Rotate and Transform ▸ Flip Layer Horizontal / Vertical menu items.
+	•	Newish: Exporting as a PDF will try and make a 100% vector PDF if there are no bitmap elements or strange blend modes to get in the way.
+	•	
+	•	Change: When editing a filter field value, you can now press enter to apply the value. Previously pressing enter would flatten the filter (and now command-enter will flatten the filter).
+	•	Change: After editing a layer name, the canvas now becomes the main window, so cmd-a to select everything (and other shortcuts) will operate on the canvas and not the layers list.
+	•	Change: When you've got one or more layer filters on a bitmap or group layer and you being moving the layer image, any filters with center parameters will be moved along with the layer, keeping the location of the filter in sync with where you originally put it.
+	•	Change: The brush designer is better about interpreting values you put in the various number fields.
+	•	Change: Removed the Image ▸ Invert menu item since it duplicated the Filter ▸ Color Effect ▸ Color Invert filter.
+	•	Change: If you have the move tool active and then select a shape, the palette for that shape will then become active.
+	•	Change: If you have a shape tool selected holding down command and shift at the same time will allow you to select multiple shapes (previously it would only allow a single shape to be selected this way).
+	•	Change: When using the difference boolean operation on selected shapes, contiguous paths will now be broken up into their own independent shapes.
+	•	Change: Previously single clicking with a shape tool on the canvas would cause a shape with some default values to appear. In Acorn 4.1 you now need a double click to do this - single clicking will no longer create a new shape by itself.
+	•	Change: No longer using JavaScript to parse the quick math you can use in pixel text fields, and using NSExpression instead, which is kinda neat.
+	•	Change: Updated to the SQLite 3.7.17, and Acorn now uses memory mapped undo databases (so undo writes are much faster now).
+	•	Change: When pasting shapes from a shape layer that were previously located in an area outside the current canvas, Acorn will now center them in the new canvas.
+	•	Change: Now showing a warning when trying to export a file in the Acorn file format without the .acorn extension.
+	•	
+	•	Fix: Shape layers now have better hit detection for rotated rects.
+	•	Fixed a bug where nearest neighbor scaling wasn't correctly moving the origin for bitmap layers.
+	•	Fixed a bug where the fuzz stroke filter didn't look correct when viewing your image at less than 100% magnification.
+	•	Fixed a bug where option-dragging a bitmap layer in the canvas would show the wrong size for the preview on retina displays.
+	•	Fixed a bug where shapes would highlight like you could select them if you had multiple layers selected (you couldn't select a shape if you had multiple shapes selected though). However- you can now hold down the command key to select a single layer.
+	•	Fixed a problem where the background of a text box would sometimes flicker in and out when you were editing it.
+	•	Fixed a bug where you could move a locked layer if it was part of a multi-layer selection.
+	•	Fixed a little but where switching to another tool while a crop was in progress (and canceling the crop) would cause the tool not to be selected.
+	•	Fixed a bug where trying to move a layer in the layers list while you were scaling + rotating the layer would cause the operation to fail.
+	•	Fixed a bug where flipping rotated ovals vertically wouldn't work correctly.
+	•	Fixed a bug where double-clicking on the layer filter widget in the layers list causes the layer name to become editable.
+	•	Fixed a bug where using the Add Border to Layer filter wouldn't work correctly if your bitmap layer had a negative origin.
+	•	Fixed a regression where the Edit ▸ Fill window wouldn't work correctly when you had a selection.
+	•	Fixed a bug where Acorn would not complain that you were trying to crop a locked image when you had autosave and versions turned on.
+	•	Fixed a little lag that sometimes occurred when using the brush tool.
+	•	Fixed some redraw issues when moving a control point on a bezier curve.
+	•	Fixed a bug in the web export window where a chevron wasn't showing up on the image format table.
+	•	Fixed a bug where the clone tool wasn't updating the canvas correctly when you were cloning with a selection. Also managed to speed up the clone tool a bit.
+	•	Fix: There was a bug when resizing certain square images in web export would case the aspect ratio to be incorrectly applied.
+	•	Fix: You can now use the undo/redo keyboard shortcuts from the shape quick config popover.
+	•	Fix: The Opacity filter slider now shows as a percentage again, along with the opacity sliders for the Shadow and Inner Shadow filters.
+	•	Fixed a bug where text would sometimes temporarily disappear when cropping.
+	•	Fixed a bug where copying and pasting a bitmap layer with a non-zero frame origin would set reset its origin to zero.
+	•	Completely removed the Acorn 3 filter interface (which was only available thorough a secret keyboard shortcut).
+Acorn 4.0.5 June 20th, 2013.
+	•	Fixed a bug where the Save panel would sometimes show a checkbox in the middle of the file listing when you had versions turned on.
+	•	Fixed a bug where the tools palette color well wouldn't update its color if you changed the color of a text box via the font palette.
+	•	Change: When calling a filter via the Filter menu, it is now immediately used for the "Last Filter" menu item instead of waiting for a layer to flatten its filters.
+	•	Fixed a bug where the Grid filter wasn't drawing correctly with some oddball settings.
+	•	Fixed a bug when opening files via JavaScript.
+	•	Fixed some various color mismatch problems with the brush and Edit ▸ Fill command.
+	•	Fixed a problem where the flood fill tool was using a bad color with images which had their colorspace set to device RGB.
+	•	Fixed a problem where temporary undo files weren't being cleaned up.
+	•	Performance improvements when drawing on a retina display, as well as color space fixes on a retina display.
+	•	Making a magic wand selection is a little bit faster now.
+	•	Fixed some memory leaks when using instant alpha or the magic wand tool.
+	•	Fixed an issue where using the Edit ▸ Font ▸ Bigger / Smaller menu item would cause ranges of bold text in a text area to be lost.
+	•	Fixed an issue where free transform would stop keeping the aspect ratio when resizing with the shift key down.
+	•	Fixed a bug where two point bezier shapes would sometimes loose their stroke width when the image was resized.
+	•	Fixed a bug where the selection cursor was showing a little blurry on retina displays.
+	•	Fixed a color space problem when applying Quartz Composer filters to layers.
+	•	Fixed a bug with the JS scripting environment, where calling array.length() wouldn't work correctly.
+	•	Fixed a bug with auto-levels sometimes moving a layer around a bit.
+	•	Fixed a couple of memory leaks.
+	•	Fixed a problem where the fill window wouldn't always do the right thing when filling a layer with the clipboard contents.
+	•	Fixed a problem where changing the matte color in web export would also change the color of any currently selected text boxes.
+	•	Fixed a problem where duplicating a bitmap layer on a RMBP display would sometimes assign the wrong colorspace to the new layer.
+	•	Fixed a slowdown with the brush tool when drawing in a selection.
+	•	Fixed a bug where dragging an image from Safari to Acorn's doc where the img had an href tag to / would cause Acorn to try and find every single image on your computer and stick it in the Image Browser. Which would take a very, very long time.
+	•	Change: Now putting PNG data on the clipboard when using the Copy Merged command, to help out with other apps that don't bother reading the TIFF data.
+	•	Fix: The zoom cursor will now update correctly when trying to zoom to an area, but you toggle the behavior with the option key (to zoom out vs. zoom in).
+	•	Fixed a bug where changing the opacity or blend mode when multiple layers was selected would only work on a single layer.
+	•	Change: PDF files are now opened up as Untitled documents since Acorn won't ever save them in place (export only). This also fixes a bug where Acorn would save over a PDF file on quit.
+	•	Fixed a bug where the shape corner radius would silently reset to 10 when you flipped the corner radius off and back on again without any shapes selected.
+	•	When adding a new shape layer when a group layer is selected, Acorn will now insert that shape layer into the group (which currently happens with bitmap and group layers).
+	•	Fixed a couple of bugs where the ruler wasn't updating correctly when dragging or creating new shapes.
+	•	Fixed a bug where scaling down text would sometimes clip it.
+	•	Single clicking inside of a selection will now remove it (previously this only happened when clicking outside of a selection).
+	•	Fixed an issue where Acorn would remove any extended attributes when saving a file.
+Acorn 4.0.4 May 21, 2013.
+	•	Fixed a bug where applying a filter to a selection wouldn't work when using the menu item and the layer filters window wasn't already up.
+	•	Fixed a bug where the layer thumbnail wasn't showing a moved selection in bitmap layers.
+	•	Layers with the random noise filter added to it now look better when zoomed out.
+	•	Fixed a bug where checking / unchecking the "preserve transparency" option in the random noise filter wouldn't always update the whole canvas.
+	•	Fixed a bug where merging layers while doing a layer transform would cause your transform to be lost, instead of asking if you wanted to apply or commit it.
+	•	The "New Layer from Selection" command will apply layer filters first for the new layer.
+	•	Fixed a problem where you wouldn't get the right cursor while transforming a bitmap layer after rotating a little bit.
+	•	Fixed some bugs with the Brush Designer where you couldn't enter zero for certain brush settings.
+	•	You can now export brushes from the Brush Designer using the File ▸ Export… menu item.
+	•	Fixed a bug where clearing a selection on a bitmap layer when it wasn't the active layer would sometimes cause cut out and moved bits to not be composited to the layer and - well, it's complicated. And now it's fixed.
+	•	Fixed a crasher caused by closing the shape popover window by pressing the escape key and closing the main window later on.
+	•	Certain selection commands will no longer throw up a sheet when working on locked files.
+	•	Fixed a bug when resetting the Grid, Checkerboard, and Pixellate filters would cause the center point to show up in the wrong spot.
+	•	Change: The Pixellate filter no longer clamps the input image to it's edges. The reason Acorn used to do this to stop the natural transparent edges from appearing. The reason why it was taken out was because it created all kinds of funky side effects with the non-destructive nature of the filters. If you're getting transparent edges, change the input center of the filter to a different value, or adjust the scale of the filter to be a whole multiple of the image size.
+	•	Fixed a problem where the sheet was opening too high when saving a preset for the crop tool.
+	•	Fixed some bugs relating to drag + drop from the layers list into the canvas, and option + drag (to make a copy of the current bitmap layer) directly in the canvas.
+	•	Changed the new document tab order so that moving from the width field goes directly to the hight field, and then the unit popup after that.
+	•	Fixed a glitch where moving the canvas from a retina to non retina display would cause the checkerboard background to move a little.
+	•	Fixed a bug where the New View window was scaling incorrect when moving from a regular display to a retina display.
+	•	Change: Window ▸ New View windows are now offset by 20pt from the original image instead of matching the frame exactly.
+	•	Fixed a bug where the checkered background for the Window ▸ New View window wasn't drawing correctly on retina displays.
+	•	Fixed a bug where the About box and Feedback window were stuck behind Acorn's welcome window.
+	•	Fixed a bug where bezier shapes were drawing the wrong bounding boxes.
+	•	Fixed a regression where filters weren't working on layer masks.
+	•	Change: PSD files are now opened up as Untitled documents since Acorn won't ever save them in place (export only) and it also works better with autosave and versions support now.
+	•	Fixed some problems when trying to use selection tools on layer masks that belonged to group and shape layers.
+	•	Fixed a bug where the cursor wouldn't always update correctly when moving in and out of a selection.
+	•	Fixed a bug where the option to turn of antialiasing for shapes wasn't working with the text tool.
+	•	Fixed a bug where Acorn would sometimes restore an empty selection when opening a .acorn file.
+	•	Fixed a bug where making a selection from a layer wouldn't update the selection size in the selection palette.
+	•	Fixed a problem where the layers list would not scroll to the selected layer when you selected a new layer in the canvas.
+	•	Better defaults for shape settings when you launch Acorn for the first time.
+	•	Fixed a crasher that would sporadically happen when you register Acorn.
+Acorn 4.0.3 May 7, 2013.
+	•	Fixed a bug where App Store versions of Acorn wouldn't aways correctly save a .acorn file.
+	•	Updated to the latest Vector Boolean sources which fixes some bugs when unioning shapes (Thanks Andy!).
+	•	Fixed a bug where dragging multiple selected layers from the layers list into another canvas wouldn't copy all the layers.
+	•	Change: When selecting a filter preset, you can now hold down the shift key to have it add to any existing filters on the layer.
+	•	Fixed a bug where choosing a filter preset wouldn't update the display when you had a previous filter selected.
+	•	Change: Acorn will no longer throw up a dialog box when using AppleScript to trim and there's no transparent pixels to trim to.
+	•	Fixed a bug where you couldn't set the color for a selected range in a text box.
+	•	Fixed a bug where the Levels tool wouldn't work correctly with non-rectangular selections.
+	•	Fixed a bug where the Exclude Paths command didn't always work with overlapping shapes.
+	•	Fixed a bug where the levels histogram wasn't showing up correctly on MacBook Airs.
+	•	Fixed a bug where the color and text palettes would incorrectly appear sometimes when pressign the tab key to unhide all the palettes (direct only).
+Acorn 4.0.2 May 2nd, 2013.
+	•	Fixed a bug where Merlin (the filter HUD) wouldn't always work correctly on first click on the canvas after adding a new filter.
+	•	Fixed a bug where double clicking a text box when you had another shape selected at the same time would cause color changes on all the selected shapes.
+	•	Fixed a bug where RAW import window wouldn't update the image when you typed in values for some of the input fields.
+Acorn 4 May 2nd, 2013.
+Tools get their own palette now.
+It was getting cramped in there, so we broke out the tool icons into their own palette. In addition we updated a bunch of icons and made everything look better in general.
+Layer styles and Filters sitting in a tree…
+We rolled the layer styles and filters interface into a single non-modal window. This also means that filters are non destructive! You can still chain together filters like before, but now you can undo and redo your adjustments and even save them as part of your Acorn file. In addition to the filter settings being in a non modal window- you can now directly modify filter parameters right on the layer by dragging any little circles that show up when the filter window is present! (And if you'd like the previous filter window back for some reason- we're keeping it around for a little while- just hold down the option and command keys when choosing your filter from the Filters menu.)
+The one exception where the filters window isn't modal (and is destructive) is when you are using a filter on a selection.
+Curves Adjustments (finally!)
+Acorn now has a Curves Adjustment tool, which you can get to from the Image ▸ Curves… menu. To add a new point on a curve, click on the curve and start dragging. To remove a point on a curve, drag it either left or right until it's past the location of the next point on the curve.
+Vector tool improvements.
+	•	We went a little crazy and the vector tools have been pretty much re-written. They work faster, there's a new direct anchor selection tool for bezier paths, and more.
+	•	Boolean operations on shapes! Use union, subtract, intersect on selected shapes in a shape layer.
+	•	You can now set the line join style of vector shapes to either, mitered, round, or beveled (using the View ▸ Quick Config Popover on selected shapes).
+	•	You can now turn anti-aliasing on and off for shapes in the Quick Config Popover.
+	•	You can now delete selected segments in a bezier shape by holding down the option key when pressing the delete key.
+	•	Holding down the shift key when changing the control point for a bezier path element will now snap it to 45 degree increments from its home element.
+	•	New Shape ▸ Outline Path menu item, that'll take the stroke of a shape and turn it into a bezier path.
+	•	New Shape ▸ Add Points menu item that you can use on Bezier shapes to add more control points.
+	•	If you have multiple shapes selected and choose Flip Horizontal or Vertical, the flip point will be the center of the all the selected graphics, and not the individual graphics.
+	•	You can now select multiple shapes and rotate them all at once. Hold down the shift key to constrain the rotation to 45° increments.
+	•	You can now select multiple shapes and resize them all at once! Hold down the shift key to keep the aspect ratio.
+	•	New Shape menu to hold all the awesome new shape stuff.
+	•	To select the next point in a bezier shape, press the > key. < will select the previous point. Holding down the shift key will keep the current selected points, and add the next one to the selection.
+	•	New "Draw Shape Pixels/Outlines/Vectors" menu item under the View menu. Instead of stroking and filling all the shapes in the current shape layer, it'll draw the outline only (in outline mode), or scaled vectors (in vector mode), or pixels (which is the normal way tot do things). This can be super useful if you have lots of shapes you're trying to manage and manipulate when zoomed in.
+	•	You can now undo and redo adding segments to a bezier shape. You can also reposition previous anchors while creating it as well.
+	•	When making a new bezier path, you can now hold down the shift key to snap the next line segment to the closest 45° angle.
+	•	The checkbox to turn a shape's stroke on or off has returned from a brief hiatus in Acorn 3.
+	•	You can now use the arrow keys to move selected points in a bezier shape.
+	•	If you're on a shape layer, you can hold down the option + command keys at the same time to copy styles from one shape to all the selected shapes.
+	•	When selecting shapes on a shape layer with the move tool by dragging, shapes will draw their selection bounds as they are selected (or deselected).
+	•	The little sheet that would come up when you made a new shape without dragging it out is now gone, and instead Acorn will insert a rect/oval/arrow/whatever of a reasonable size.
+	•	Pressing delete on a shape layer without anything selected will remove all the shapes in the layer (which is similar to what bitmap layers do as well).
+	•	When creating an oval or a rectangle shape, you can now press the spacebar to reposition the origin of the shape (which is similar to what you can do with canvas selections if you didn't already know that)
+	•	If you have a shape layer copied to the clipboard, using the File ▸ New Image from Clipboard menu item will now make an image with a single shape layer (previously it created a bitmap layer).
+	•	You can now set the size/width of bezier shapes using the shape tool palette.
+	•	When duplicating vector shapes, the copy is now inserted right above the original instead at the very top of the shape layer.
+	•	When adding a new point to a bezier shape, it's now selected so that you can move it with the arrow keys if you like.
+
+Levels tool improvements.
+The Levels window got a complete rewrite, with a gamma option (to control mid-tones) as well as an option to update the histogram live.
+Speed improvements.
+Compositing, filter previews, and everything in general is faster. Way faster Flood Fill, Magic Wand, and Instant Alpha tools. The Render Clouds filter got a little speed bump as well.
+Multiple layer selection.
+The layers list now allows you to select multiple layers. This means you can re-order, delete, move, or lock a bunch of layers at once.
+Other great things worth mentioning.
+	•	Acorn will now remember your selection when you save a file. This is awesome if you have a selection with some filters applied to it- and then quit. Then when you re-open the image, your selection is there, and you can still change the values of the filters to tweak it and such.
+	•	You can now view a layer's mask. Just option click on the mask thumbnail in the layers list, and you will be able to view (and edit) it just like you would any other layer. This is super handy for being able to edit the mask directly.
+	•	You can now export a document or single layer to a new .acorn file.
+	•	Faster Acorn file saves by switching to using TIFF images for the composites (it's twice as fast at compressing than PNG, which was previously used).
+	•	You can now drag and drop images from web browsers into Acorn's start window, and it'll open up a new window for you with the dragged image in it.
+	•	You can now search for filters in the filter sheet picker. THIS IS AWESOME.
+	•	If you've got multiple layers selected, using the move tool in the canvas will now move them all for you.
+	•	Took out the pref to "Change palettes when using keyboard shortcuts" because it was dumb. It's always done now.
+	•	Moving a shape layer with lots of graphics in it is now quite a bit faster.
+	•	Change: When using the new document window, Acorn would look at the image on the clipboard and then autofill the dimensions. This is great, except if you modified those values then went to another app and back while it was up- it would autofill back in the dimensions on the clipboard. So it no longer does this. However- if you liked the old behavior, you can just type ⌘N again, and Acorn will autofill back in the values from the clipboard.
+	•	When copying a layer and then pasting into into an open document, Acorn will also copy along the layer filters and layer mask associated with the image.
+	•	You can now export a group layer as a PDF, and if there are only shape layers in there and on layer styles to be applied- it'll be a pure vector PDF.
+	•	The 'b' and 'n' keys no longer toggle between the brush and pencil tools
+	•	Split the combined Brush + Pencil palette up into their own palettes.
+	•	When moving a shape a shape layer with the shift key down, it will no longer defer to snapping to guides since that can be pretty annoying.
+	•	When changing layer filter values on the canvas, it now has the ability to snap to guides and canvas bounds.
+	•	Hover over filter names and attributes for a tooltip that describes what it's all about.
+	•	Removed the Geometry Adjustment filter category, since everything in there is possible using built in tools.
+	•	The file browser window will now give you a warning when you open up a folder and it can't find any images in it.
+	•	When assigning a color profile to your image, you now have an option to change the working color space. This is awesome if you use Acorn for painting! You can set the working color space to "Generic RGB Linear" and the blending of brushes and layers becomes more "painterly" like.
+	•	Faster Acorn file saving by switching to using TIFF images for the composites (TIFF is twice as fast at compressing than PNG, which was previously used).
+	•	New Grid filter which will… add a grid to your canvas. It's handy!
+	•	New Random Noise… filter generator. It's really random.
+	•	You can now drag and drop images from web browsers into Acorn's start window, and it'll open up a new window for you with the dragged image in it.
+	•	Using the selection tools on a shape layer now gets a different look, since it's selecting vectors instead of pixels.
+	•	The Offset and Wrap palette now has some buttons to re-center the image, and also to reset it.
+	•	The Offset filter has been retired in favor of the Layer ▸ Rotate and Transform ▸ Offset and Wrap Layer menu item.
+	•	"Layer Styles" has been renamed to "Layer Filters". Don't let the name change scare you- the new stuff is pretty amazing.
+	•	When moving shapes or layers, you can now hold down the control key to temporarily disable bounds and guide snapping.
+	•	When Acorn is in full screen mode, you can move the canvas anywhere in the screen using the hand tool (quick tip- hold down the space bar and move it around easily). This is handy when you are working on a very large image, and want the lower left corner to be in the middle of your monitor.
+	•	The Edit ▸ Copy Merged menu item now uses the shortcut Control-Command-C (stolen from "Duplicate Shape").
+	•	You'll now get a system notification when a file action script is finished running.
+	•	The image resize sheet now has shortcut keys for selecting the various image resize algorithm (cmd-1, cmd-2, cmd-3)
+	•	The options under the Preset Selections menu now respects the modifier keys when adding to an existing selection (shift=add, option=subtract, shift+option=intersect).
+	•	The file extension is always shown now when exporting an image.
+	•	If you have multiple layers selected and you add a canvas selection, nudging the selection with the move tool will now move that selection across all selected layers.
+	•	New "Open Acorn's App Support Folder" menu item under the Help menu to get to things like custom plugins and saved brushes.
+	•	When resizing your image using the nearest neighbor scaling algorithm, you can now have a width value that's different from a height value.
+	•	Acorn 4 has a new bundle ID! This means that you can keep Acorn 3 around if you'd like, and Acorn 4 won't step on its preferences.
+	•	The Monotone filter does a better job with alpha values now.
+	•	Pressing the ESC key when making a zoom selection will cancel the action.
+	•	Fixed the jaggy zoom box and shape selection box which showed up sometimes when zoomed in.
+	•	You can now change the default grid spacing for a new documents with the following hidden pref: 
+	•	defaults write com.flyingmeat.Acorn4 defaultGridSpacing 20
+	•	When moving the canvas between a retina display and a non-retina display, Acorn will adjust the zoom level so that the physical dimensions on the screen don't change.
+	•	The fill window will now remember your last selection between uses (i.e., either fill a color or from the clipboard).
+	•	The file browser window will now give you a warning when you open up a folder and it can't find any images in it.
+	•	No longer setting the default working colorspace for images. Don't worry if you have no idea what this means.
+	•	Acorn is now built with Automatic Reference Counting. I realize you don't care and it probably doesn't even matter in the long run because Apple tends to kill off original technology sooner rather than later, but it was a bit of work and I thought it should be mentioned.
+	•	Command-delete will now delete the selected layers (along with command-control--).
+
+Stuff for Scripters:
+	•	JSTalk scripts no longer need to call autorelease on Cocoa objects.
+	•	New plugin API for scripters: - (CIImage*)renderedCIImage, which grabs a CIImage representation of the layer, with opacity, layer styles, mask, and other such things applied to it.
+
+Acorn 3.5.1 January 22, 2013
+Bug Fixes:
+	•	Fixed a bug where drawing with a selection on transparent pixels would come out incorrectly.
+	•	Fixed a bug where the delete AppleScript command wasn't working.
+	•	Fixed a bug where the rectangle selection cursor was showing up in the wrong location.
+	•	Fixed a bug where writing out a WebP image via AppleScript or JSTalk would always make the background black instead of white.
+	•	Fixed a bug where using the Edit ▸ Fill menu to fill a layer with an image would sometimes not fill the entire image.
+	•	Fixed a bug where taking your hand off the shift key when moving multiple layers inside a group layer would cause some to be moved by 10x (with the shift key down) and others by 1x.
+	•	Fixed a bug where a unique combination of clicking the "trim" option in the web export window while also setting a scale would cause your image to be scaled in an odd manner.
+	•	Fixed a bug where setting the opacity for a group layer would incorrectly apply it to layers below it as well.
+	•	Fixed a bug where the View ▸ Zoom in / out menu items wouldn't work on a new canvas view window.
+	•	Fixed problem where a single click with the selection tools wouldn't clear the current selection.
+Acorn 3.5 October 9, 2012
+New Stuff:
+	•	The magic wand selection tool now has an option for contiguous or non-contiguous selections. In addition to this, if you use the magic wand tool on a shape layer with the contiguous option turned off, it effectively works as a "select all shapes with this fill color" tool. Which is pretty rad if you have a bunch of shapes that you want to change the colors on.
+	•	New File ▸ Layer Export… menu item, which will export a single layer out of Acorn. In addition to this, if you have a shape layer that you want to export and it doesn't have any layer styles associated with it, a pure vector PDF will be written out.
+	•	The contextual menu now has a copy of the Layer ▸ Shape Align and Size menu for working with selected shapes quickly.
+	•	New layer blend modes: Divide, Lighter Color, Darker Color, Hard Mix, and Subtract.
+	•	New Generator ▸ Sunburst filter, which lets you make some awesome backgrounds.
+Changes:
+	•	Guides are now drawn when you free rotate your canvas.
+	•	In the Image Browser window (which you can open via File ▸ Open Folder… menu item), the little icons on either side of the zoom slider will now increase or decrease the zoom level of the preview images when clicked.
+	•	The "Open Image in Acorn" service will now work with selected files when used from the Finder.
+	•	If you're editing a file with Autosave + Versions turned on, and that file happens to be locked, Acorn will no longer warn you to duplicate it if you're only applying selections (which don't alter the image).
+	•	Holding down the shift key while rotating when using the Layer ▸ Rotate and Transform ▸ Scale and Rotate menu item will snap the rotation to 45° increments.
+	•	Increased the amount you can magnify an image with the zoom slider from 1000% to 2000%, which should help out Retina MBP owners. Pro tip: did you know you can click the little icons on either side of the slider to zoom in or out in a controlled fashion? And the zoom tool (shortcut key 'z') can zoom in even more than the slider!
+	•	Remove FXG as an exportable image format, since Adobe seems to have abandoned it.
+	•	Pressing the return or enter key on a shape layer no longer merges it down. Why did Acorn ever do this? I wish I knew, but it was on purpose.
+	•	Slight change in behavior with Image ▸ Trim to Edges: If a bitmap layer has pixels outside the canvas bounds, they are no longer taken into account when trimming down the size of the image.
+	•	Added a new property for JSTalk/JavaScript filters to show up in the Actions menu: set ACIsAction=true in the header section of your script.
+	•	Updated the JSTalk/JavaScript plugin to work on Group layers.
+	•	The "Plus Lighter" blend mode was renamed to "Linear Dodge", to more closely match other image editors.
+	•	The "Plus Darker" blend mode was renamed to "Linear Burn", to more closely match other image editors.
+	•	The blend modes were reordered to more closely match other image editors.
+New Stuff for Scripters:
+	•	Some new plugin APIS:
+	•	A new method on CIImage: - (BOOL)writeToURL:(NSURL*)fileURL withUTI:(NSString*)uti
+	•	A new method to implement for the ACPlugin protocol- (NSNumber*)validateForLayer:(id<ACLayer>)layer;
+	•	A new method for finding the opaque bounds on layers: - (NSRect)opaqueBounds;
+	•	You can also now mess with a layer mask with these new methods on ACLayer:
+	•	- (void)setLayerMaskImage:(CIImage*)ciimage; - (id <ACMaskLayer>)mask; - (BOOL)maskIsLinked; - (void)setMaskIsLinked:(BOOL)value;
+	•	The plugin SDK has been moved to GitHub as well: https://github.com/ccgus/AcornSDK
+Lots of Important Fixes:
+	•	Fixed a bug where sometimes the extension for your filename would disappear in the save sheet.
+	•	When using the various transform tools on a bitmap layer, the transform operation will now apply to the layer mask if it is linked.
+	•	Fixed a bug where sometimes text boxes would not get their line heights correctly scaled when resizing an image.
+	•	Fixed the little Purchase menu blip that you'd sometimes seen when starting up even though Acorn was registered already.
+	•	Various fixes with the magic wand tool, including little speed improvements.
+	•	Fixed a bug where you'd get interesting patterns in your selection in some cases with the magic wand tool.
+	•	Fixed a bug where Acorn thought it would sometimes still have a selection when using the magic wand tool + intersection selection mode, where no intersection was produced.
+	•	When exporting as PDF, Acorn will now create a document which respects the current DPI of the image.
+	•	Fixed a bug with the Scale and Rotate transform tool, where you couldn't enter fractional values for the rotation field in the palette.
+	•	Fixed a bug with the Add Border to Layer filter with Retina displays.
+	•	Fixed a bug where zooming with the scroll wheel (hold down the option key for this!) would put the canvas in unexpected locations on retina displays.
+	•	Fixed a bug where using the Scale And Rotate menu item on an even width/height image with a rotation of 180° would offset the image by 1 pixel.
+	•	Fixed a bug where using the Edit ▸ Fill menu item to fill your image with a pattern would blur the pattern image.
+	•	Fixed a bug in Web Export where the Save button wasn't enabled right away if you switched from saving as a PNG to a JPEG while the PNG was still being processed.
+	•	Fixed a bug where the File ▸ Add Images… menu item would let you select a PDF, but wouldn't actually import it as a new layer to the image.
+	•	Using the tab key to change fields in the Acorn Automator Crop Image Action (say it five times fast!) will no take you to the next field.
+	•	Fixed a bug where sometimes flipping a layer vertical or horizontal would trim out some of the pixels.
+	•	Fixed a bug where the trim bounds of a shape layer was sometimes wrong with multiple shapes.
+	•	Various Retina display fixes with layered screenshots and zoom to fit, among other miscellaneous things.
+	•	Fixed a bug where the file extension would not change correctly when changing the filetype in the Export sheet.
+	•	Fixed a bug where Acorn would crash when making a new document if there was bad data on the clipboard.
+	•	When duplicating a document, Acorn will notice if the rulers are showing and turn them on for the duplicated document if needed.
+	•	Fixed a bug where Acorn wasn't auto-registering from MAS versions of Acorn that were sandboxed.
+	•	Fixed a bug with the "New Image with Curved Drop Shadow" plugin on Retina MacBook Pros.
+	•	Fixed a bug with Trim to Edges, where sometimes the canvas would grow if a layer extended outside the bounds of the canvas.
+	•	Fixed a crasher when web exporting a completely transparent image with the trim and matte buttons checked.
+Acorn 3.3 July 15, 2012
+	•	New Stuff:
+	•	Retina Canvas- Your images look absolutely beautiful on the new Retina MacBook Pros with a a 1 to 1 pixel mapping from the image to the screen. Hello super awesome high resolution!
+	•	Trim out Selection! If you have a fully vertical or horizontal selection, holding down the option key will turn the Image ▸ Trim to Edges menu item into "Trim out Selection" which will slice out the current selection and squish the two endpoints of your image together (bitmap layers only).
+	•	Smart Layer Export! Its like slices, but smarter.
+	•	You can now convert the current selection into a layer mask just by invoking the Layer ▸ Add Layer Mask menu item when your selection is active. Rad.
+	•	Awesome new feature- Reselect! The Select ▸ Reselect menu item will now remember whatever the last selection for your image was. So you can make up some fancy selection, clear it, and then use it again later on.
+	•	New shortcuts for making selections from layers. Holding down the command key while clicking on a layer in the layers list has made a selection based off using the layer image as a mask. Now if you hold command + the shift key, the new mask will be added to an existing selection, command + option will subtract, and command + shift + option will intersect.
+	•	In the resize canvas sheet, you can now use Command 1 through 9 on the number keypad to choose an anchor for the image. Command-1 corresponds to the lower left, Command-9 is the top right, Command-5 is in the middle, etc.
+	•	New iPad presets in the new document window.
+	•	Subtraction and intersection selection modes now works for the magic wand tool.
+	•	The text system got a little makeover so rendering more closely matches what you see when editing a text box.
+	•	You can now close open paths using the Layer ▸ Shape Align and Size ▸ Close Path menu item.
+	•	Command-control-- can now be used as a shortcut to delete the selected layer style in the layer style palette.
+	•	New contextual menu for selected shape layers for Send to Back / Bring to Front.
+	•	The Web Export window now has a scaling option. The AppleScript and JSTalk interfaces have also been updated to take width and height properties.
+	•	Notes for the App Store version of Acorn which is now sandboxed:
+	•	The magic Acorn uses to automatically change the file type popup as you type in the Save sheet no longer works, for your security.
+	•	Using JSTalk to open up images that have not been recently opened will fail.
+	•	Fixes:
+	•	Fixed a bug where selecting a shape close to a snap point would cause it to move, even if you hadn't moved the mouse after selecting it.
+	•	Fixed a bug in the image resize sheet where certain calculations of the canvas size were off by 1.
+	•	Fixed a bug where the Posterize Quartz Composition wouldn't show a good UI for setting its levels.
+	•	Fixed a bug where the layers list would lose the current selection when using its contextual item to delete a layer which wasn't currently selected
+	•	Fixed a bug where scaling an image with bezier paths wouldn't scale the path's stroke or gradient correctly.
+	•	Fixed a bug where the Hue Adjust layer style would show your saved style in radians instead of degrees.
+	•	Fixed a display issue with the ruler when you had units set to Centimeters.
+	•	Fixed a bug where origins on bitmap layers sometimes reset to zero when changing the color profile of the image.
+	•	If you've go the canvas origin set to the top left, then the canvas grid will correctly now set its origin to this point.
+	•	Once again, if you've go the canvas origin set to the top left then the palette's entry for the bounds of a selected shape are calculated correctly.
+	•	Fixed a bug where a PSD layer limit was incorrectly being applied to 10.6 users (Sorry guys! It was only supposed to hit folks on 10.7.0-10.7.3! If you're running 10.7.4 or later, you're also OK. If not- what are you waiting for?)
+	•	The iPhone Retina preset now has the same aspect ration of the old gen iPhone preset.
+	•	Fixed a bug where resizing an image with the Simple Affine scaling algorithm would sometimes show a transparent edge on the right side of the image.
+	•	Shape selection behavior when zoomed way in is better.
+	•	Fixed a bug where merging of the visible layers would cause the final layer to always be placed at the bottom of the layer stack.
+	•	Fixed a bug where expanding the canvas to fit the layers with a selection would sometimes move the selection to the wrong spot.
+	•	Fixed some problems when you were zoomed way in and moving bezier shapes around + snap to pixels turned on.
+	•	Fixed a regression where switching between two images would cause Acorn to forget which layer was selected.
+	•	The opacity slider for the inner shadow layer style now shows as a percentage instead of a decimal number.
+	•	Fixed a bug where sometimes moving the very first element of a bezier curve would cause your endpoints to go a little nuts.
+	•	Fixed a bug where using the magic wand on a layer with multiple selections and transparent areas would sometimes redraw the transparent areas making it more opaque. Which probably isn't what you wanted.
+	•	Fixed a bug on the OS THAT SHALL NOT BE NAMED (10.8) where some JSTalk scripts would not work.
+	•	Fixed a 10.7 bug where saving a document to a file that was already open in another window would cause Acorn to hang.
+	•	Squashed a bug where starting a layered export to PNG and then canceling at just the right time would cause Acorn to beep at you on the next save.
+	•	Fixed a bug where using the magic wand to add to a selection would sometimes shift the selection around.
+	•	Fixed a bug where you could nudge the current crop marks outside the canvas when using the arrow keys (only when the crop was set to stay in the canvas).
+	•	Copying a bitmap layer would sometimes cause changes from the original layer to show up on the copied layer. We have rectified this situation.
+	•	Copy on shape layers no longer adds a border for the PDF representation.
+	•	Other interesting tidbits:
+	•	Added a "New Shape Layer" menu item to the action menu of the Palette.
+	•	Changed the "Zoom Tool" menu item to "Zoom" (under the View ▸ Tools menu), and renamed the Window ▸ Zoom menu item to "Zoom Window" (Pages does this as well, to avoid confusion with custom shortcuts).
+	•	When transforming a selection, you can now use the arrow keys to move your selection around. Hold down the shift key to move 10x as fast!
+	•	The trick to resize the brush tool (by holding down the control and option keys, click on the canvas, and moving the mouse back and forth) now works for the smudge, dodge, burn, and clone tools.
+	•	If the brush or pencil tool is selected, pressing the '5' will set the opacity of the tool to 50%, '3' to 30%, and '0' to 100%. Previously this would change the opacity of the layer (which is still true when the move and other tools are selected).
+	•	When trimming an image, the bounds for invisible layers will no longer be taken into account.
+	•	If you start a selection and move the mouse outside the window and stop, Acorn would stop the selection even if you had more room to scroll around in. In 99% of the cases, this isn't what you wanted- so now Acorn will continue scrolling if you stop moving the mouse outside the window.
+	•	Trying something new- previously if you managed to start creating a shape without a fill or stroke, Acorn would turn on the fill. In 3.3 we've changed that to turning on the stroke with a value of 1.
+	•	Undo when moving vector shapes is quite a bit faster.
+	•	Reworked the warning you get when trying to trim an image without any transparent edges. It is now 84% more accurate.
+	•	The tool palette no longer goes transparent in full screen, because this was kind of annoying. You can use the Tab key to quickly toggle the tool palette's visibility.
+	•	The shortcut to show and hide the grid now works when you're rotating the image.
+	•	When merging visible layers, Acorn will combine all the images into a new layer - and now it'll use the name of the selected layer (assuming it's visible) for the new composited image.
+	•	The layer styles fx symbol in the layers list now dims when layer styles are disabled.
+	•	Various little speed improvements when layers styles are enabled.
+	•	You can now remove a gradient stop-point by moving it off the edge of the preview either left or right, in addition to below as it's always been.
+	•	Flipping a layer in place now keeps it within the layer's opaque bounds.
+	•	When you have a group layer selected and you copy + paste to a new image- instead of a composite of all the images the whole group with layers preserved are pasted.
+	•	You can now use the various selection tools on a hidden layer.
+	•	If you have multiple points selected in a bezier path, pressing the delete key now removes all of them instead of the first one Acorn comes across.
+	•	New API for plugin authors- the document class now implements firstLayerWithName:, which will return the first layer it finds with the given name.
+	•	The formatters in the filter panels no longer use commas in the numbers because that got really annoying.
+	•	Now signing with Developer ID, for your security.
+Acorn 3.2.2 May 1, 2012
+	•	New: You can now copy a layer style from the layer styles window (by using the action menu in the bottom).
+	•	New: New plugin api to add bezier paths to a shape layer.
+	•	
+	•	Fix: Fixed a bug where sometimes text would be redrawn too much and showed up darker than it should have.
+	•	Fix: Fixed a problem where using shift+down arrow + having the move tool selected was causing the fill dialog box to pop up.
+	•	Fix: Fixed a crasher when using the eyedropper tool on bitmap layers which are framed in a specific manner.
+	•	Fix: Added WebP as an export format when exporting with AppleScript.
+	•	Fix: EXIF data is now retained when opening a RAW image.
+	•	Fix: Fixed a problem where kerning was sometimes lost when duplicating a text layer.
+	•	Fix: Fixed a rounding error when resizing an image.
+	•	
+	•	Change: PNGs are now always saved without interlacing.
+Acorn 3.2.1 February 16, 2012
+	•	New: New AppleScript property on bitmap layers to get and set the origin.
+	•	New: You can now delete a point on a bezier curve by selecting it and pressing the delete button.
+	•	
+	•	Change: The menu item for the View ▸ Zoom tool has been renamed from "Zoom" to "Zoom Tool" so it doesn't confuse the system keyboard shortcuts with the menu item "Zoom" under the Window menu.
+	•	Change: Removed the CIColorMatrix from the filters sheet, since it only confused people with its complexity.
+	•	
+	•	Fix: GIF wasn't an option in the "change file type" Automator action. This has now been corrected.
+	•	Fix: Fixed a bug where Acorn would crash when opening zero length .acorn files.
+	•	Fix: Fixed a bug where sometimes bad PSD files were written out because of empty layers.
+	•	Fix: Fixed a crasher when a malformed PSD was opened.
+	•	Fix: Fixed a crasher with the pencil tool and very very small lines.
+	•	Fix: Fixed a crasher web exporting and trimming a completely transparent image.
+	•	Fix: Fixed a crasher when copying very very thin vector shapes.
+Acorn 3.2 December 2, 2011
+	•	New: A new pref to ignore rotation gestures has been added.
+	•	New: Individual points in a bezier curve can now be selected and moved with the arrow keys.
+	•	New: Clicking on the gradient preview where you'd like a new color stop to show up will now add one.
+	•	New: Performance improvements with very large images.
+	•	New: The brush designer can now make brushes up to 400px in size.
+	•	New: The "Layer on Images in Acorn" Automator Action now has an opacity option when adding a new layer, making it easier to add watermarks to your images.
+	•	
+	•	Change: If you add a new group layer using the tool palette + button (hold down the command key when pressing) Acorn will automatically being editing the layer name for you so you can give it a better name than just "Group"
+	•	Change: Text now has it's own setting for stroke with. Previously, setting the stroke from the shape palette would work on text, now it only works from the text palette.
+	•	Change: The hidden pref for adding a "Save A Copy As…" has been removed, since it caused problems on 10.7 with autosave and versions turned on. Since this operation was basically an export, we've assigned the keyboard shortcut for that option to the Export… menu item (cmd-option-s), so everything should be just as awesome as it has always been. However, make sure to let us know if this ruins your day.
+	•	Change: The system font palette (the one that comes up with cmd-t) no longer shows the text shadow widgets. To add a shadow to text, use the shadow widget under the shape palette, or add a drop shadow layer style.
+	•	Changed the for how paths to your workspace documents are saved. This means on the first launch of 3.2, your workspace won't be remembered if you are on 10.6 (this does not effect 10.7 folks). However, later workspaces will be remembered.
+	•	The "Layer on Images in Acorn" no longer automatically closes documents.
+	•	
+	•	Fix: Fixed a crasher when applying a layer style preset.
+	•	Fix: Fixed a bug where your selection was lost when performing a transform on a layer with a selection.
+	•	Fix: When dragging an image out of the layers list to the desktop, a PNG was written without the correct DPI. This has been fixed so it writes the correct DPI to the image now.
+	•	Fix: Sometimes when you rotated rectangle or oval shapes that were rotated, the location in the canvas would change. This has been fixed.
+	•	Fix: JPEG 2000 files now save and export with transparency.
+	•	Fix: Fixed a problem where moving a rotated shape would cause strange drawing.
+	•	Fix: Acorn would switch spaces on 10.7 when you were in full screen mode on 10.7, and you tried to move a canvas guide. This issue has been squashed.
+	•	Fix: Some filters (such as the sunbeam filter) did not show the correct results in the canvas preview. This has been corrected.
+	•	Fix: Drawing on a quickmask or layer mask when you had the opacity slider set to to something other than 100% would delay the showing of the output. This has been fixed.
+	•	Fix: Corrected an issue where sometimes free rotating a canvas exactly 180 degrees would increase the size of the canvas unexpectedly.
+	•	Fix: Undo was sometimes broken after using various Automator actions in Acorn. This has now been corrected.
+	•	Fix: Acorn would crash when opening up PSD files which had more than 190 layers. In cases where a PSD has more than 190 layers, Acorn will now open up the image as a single layer.
+	•	Fix: The bezier tool works a lot better when snap to pixel is turned on.
+	•	Fix: Numerous drawing and behavior fixes when using the bezier tool + zoomed into the canvas.
+	•	Fix: When zoomed way in on a selection, the marching ants now correctly draw in straight lines between adjoining pixels.
+	•	Fix: The View ▸ Enter / Exit Full Screen menu item now correctly updates depending on what state the window is in for 10.7 folks.
+	•	Fix: Fixed a crasher when selecting the Depth of Field from the filters sheet.
+	•	Fix: Fixed a crasher when using the instant alpha tool. My undying gratitude to Jeff Buck for finding a reproducible case for this.
+	•	Fix: Fixed a crasher when opening up a malformed PDF file.
+	•	Fix: Now reading in the correct color space when opening a PSD file.
+	•	Fix: Fixed a crasher when using the magic wand tool with bitmap layers of a certain frame.
+	•	Fix: Fixed a bug where sometimes the sliders on the gradient preview would become unresponsive.
+	•	Fix: Fixed a crasher when opening up certain PSD files.
+	•	Fix: Improvements to the bezier tool when snap to pixels is turned on.
+	•	
+	•	Other: Acorn is now building in Xcode 4.2, various framework bits have been moved around, and there's even an experimental sandboxed version of Acorn on the latest downloads page if you want to play with it.
+	•	Other: There's a new hidden pref, using a different text rendering path for Acorn. To enable it, open up Terminal and paste this in:
+	•	defaults write com.flyingmeat.Acorn nsTextDrawing 1 It hasn't been fully tested yet, but it does fix some issues with the current text path.
+Acorn 3.1.2 October 11, 2011
+	•	Fixed a possible crasher when using the gradient tool.
+	•	Change: To scale the image while resizing the window, you now have to hold down both the command and option keys (previously it only took the option key). This change was made because on 10.7, holding down the option key when resizing a window from a corner will move all corners at the same time.
+	•	Fix: Acorn would draw slowly when working on a shape layer and you had a New View window open at the same time.
+	•	Fix: An issue where a Acorn would crash when opening up the iPhoto Library has been corrected.
+	•	Fix: An issue where holding down the option key with the brush tool selected would not update the brush preview correctly with a new color.
+	•	Fix: An issue where a bitmap layer could disapear when changing the color profile has been fixed.
+	•	Fixed some memory leaks.
+Acorn 3.1.1 September 23, 2011
+	•	Fixed a bug where opening a zero length PDF would crash Acorn.
+	•	Fix: Turned off support for automatic background termination in 10.7.
+	•	Fix: Hiding the palette with the tab key and then trying to use the brush tool where it just was would previously fail. Now it works as expected. Hurray!
+	•	Fixed a bug where using the eyedropper tool to pick up a color wouldn't draw with the right color depending on what the colorspace your image was in.
+	•	Fixed a bug where you would get an error after a warning when canceling a save for an image in a flat format when you had multiple layers.
+Acorn 3.1 September 19, 2011
+	•	New: Native 10.7 full screen support.
+	•	New: Acorn now supports 10.7's autosave and versions features (but it's off by default- turn it on in the preferences window).
+	•	New: You can now change the image's color profile with the Image ▸ Assign Color Profile… menu item.
+	•	New: You can now select a default color profile in the advanced prefs.
+	•	New: If you have PDF content on the clipboard and a shape layer is currently selected, Edit ▸ Paste will insert a special PDF/vector shape into the layer which doesn't care what size you scale it to. So if you want to make a complex vector shape in another application that will copy PDF content to the clipboard, you can then keep that shape in a vector format in your Acorn image.
+	•	Change: The default color space is no longer the device color space, and is now "Generic RGB".
+	•	Change: It's now easier to drag and drop folders onto Acorn's icon in the Dock (for opening an image browser).
+	•	Change: Rearranged the preferences window a bit.
+	•	Change: Now using cmd-control-f to enter and exit full screen (the single keystroke 'f' still works as well)
+	•	Change: The opacity layer style now shows it's value as a percentage instead of a decimal number.
+	•	Change: The default location for the Drop Shadow filter and layer style has been moved a bit.
+	•	Fixed a bug where saving as a PNG while you were in a crop would not render all layers to the saved file.
+	•	Fixed a bug where duplicating a layer by option dragging it would sometimes put it in weird locations.
+	•	Fixed a bug where the "Keep aspect ratio" button could be disabled with the Lanczos scaling algorithm selected (which can only scale keeping the aspect ratio).
+	•	Fixed a bug where using the Image ▸ New Image from Layered Screenshot would clip the main window's shadow on 10.7.
+	•	Closing a document while it has a web export window open will now close that web export window.
+	•	Fixed a bug where the Bring Forward command wasn't working correctly for the very first layer.
+	•	Fixed a bug where using levels would sometimes cause your layer to jump.
+	•	Holding down the space key while making an elliptical selection will move the origin of the selection.
+	•	If a crop preset is too big to fit on the current canvas, it is now scaled down to fit.
+	•	Fixed a bug with the Do JavaScript Automator Action, where your changes wouldn't always be saved.
+	•	Fixed some drawing bugs when using the brush or pencil tool with a drawing opacity not set to 100%.
+	•	Fixed a bug where images would be left open after you closed them (only on 10.7).
+	•	Fixed a bug where the effects from layer styles weren't fully updated in realtime when scaling an image.
+	•	Fixed a bug where the font panel wasn't always updating correctly when you selected some text.
+	•	Fixed a bug where inverting a selection would sometimes give weird bounds.
+	•	Fixed a bug where swapping palette colors while editing a text area would cause the swap to not complete.
+	•	Fixed an issue where memory would grow unexpectedly with lots of zooming in and out.
+Acorn 3.0.3 July 15, 2011
+	•	Fixed a bug where using the dictionary shortcut key would make Acorn take a screenshot.
+	•	Fixed a bug where there layers list would sometimes disappear.
+	•	Fixed a bug where sub layers of groups were sometimes not indented correctly.
+Acorn 3.0.2 May 31, 2011
+	•	Acorn had to change its Automator actions a bit. If you have an existing Automator workflow make sure to open it up and double check that Acorn's workflow items are still there.
+	•	Fixed a hang where scaling down certain text would crash Acorn.
+	•	Fixed a bug where Acorn was not able to draw straight lines with the brush tool when you were using a stylus + shift clicking between points.
+	•	Fixed a bug where making a rectangle selection using two guides would add an extra pixel of width (or height) to the selection.
+	•	Fixed a bug where you couldn't start a new selection within another selection when you had the selection mode set to addition (and you weren't holding the shift key down).
+	•	Fixed a bug where the canvas resize sheet was setting the wrong initial values when inches were selected in the unit popup.
+	•	Fixed a problem with certain blend modes and shape layers.
+	•	Fixed a problem where bringing up the resize image sheet while you were croping mode would cause bad things to happen.
+	•	Fixed a bug where painting wouldn't occur after turning on quick mask, drawing, undoing, and turning off the quickmask.
+	•	Fixed a crasher for certain PSD files created from Fireworks CS3.
+	•	Large PSD files will open a bit faster now.
+	•	New button to bring up layer styles in the bottom of the palette.
+	•	Removed the "Make a new layer when drawing shapes" preference because it hasn't worked for two major releases, and nobody noticed till yesterday.
+	•	Fixed a bug where dragging a filter box in the filter panel would sometimes cause a ghost image to show up in the preview window.
+	•	Fixed a bug where the feather selection command wasn't always working correctly.
+	•	Fixed a bug where negative float values in the styles window were being truncated to whole values.
+	•	Fixed a bug where web exported WebP images were coming out with a red tint to them.
+	•	Layer styles are now scaled when you resize your image.
+	•	Added "Add Layer Mask" and "Enable Layer Mask" to the Layers menu item.
+	•	Fixed a bug with the offset filter.
+	•	The when bringing up the canvas resize sheet, the width field now has automatic focus again.
+	•	Fixed a bug where scaling the image would sometimes add a corner radius to rectangles.
+	•	Fixed a bug where some internal plugins weren't loaded on case sensitive file systems.
+	•	Fixed a bug where using a brush with opacity set to less than 100 would sometimes show white blocks in areas where you had previously made a selection.
+Acorn 3.0.1 May 5th, 2011
+	•	Fixed a trimming bug.
+	•	Fixed a bug where the colors in the filter panel were different than the colors in the canvas when a preview was shown.
+	•	You can now change the levels in a layer mask.
+	•	If Acorn can't seem to open up a layered PSD, it'll try and open up its composite layer instead.
+	•	Fixed a redraw problem with rotated bezier paths.
+	•	Fixed a bug where you could uncheck the "Keep aspect ratio" option when scaling an image with the Lanczos scaling algorithm.
+	•	Fixed a bug where creating a new graphic on a shape layer with a really big drop shadow layer style would draw incorrectly.
+	•	Generator layer styles (like circles, gradients, checkerboard) now have an overlay option which is enabled by default. We've also removed the source atop blend mode, since this did the exact same thing as the overlay button does now.
+	•	Fixed a bug where the bold button in the font palette wasn't working correctly.
+	•	Fixed a bug with moving a selection on a bitmap where cutting was involved and it's much too involved to actually explain here. But it works as expected now, so that's good.
+	•	Fixed a bug where the registration certificate (non app store versions) would show your old registration number.
+	•	Fixed a bug where the canvas wouldn't show up on new documents for certain document sizes.
+	•	Fixed a PSD import bug where the pass through blend mode for layer groups wasn't showing up correctly.
+	•	Fixed a bug where blend modes were not working correctly all the time for layers in a layer group.
+	•	Fixed a bug where you couldn't start a selection outside the canvas with the rect selection tool when corner a radius was set.
+	•	Fixed a bug where drawing with brush opacity in the brush designer wouldn't work.
+	•	New apis for adding shape, group, and bitmap layers. New api for setting the contents of a text area with HTML.
+	•	Fixed a bug where setting the quality parameter was ignored when using webExportWithOptions: in a JSTalk script.
+	•	Fixed a bug where zooming your window while it was in full screen would cause the menu bar to disapear.
+	•	Fixed a crasher when selecting a preset in the layer styles window.
+	•	Fixed a bug where dragging a layer around with a fuzz stroke layer style active would sometimes draw incorrectly.
+	•	If you try and use the gradient tool on a shape that has fill turned off, Acorn will turn it on for you (so the gradient will show up).
+	•	Fixed a regression when Acorn wouldn't remember if you had the fill shape button turned off between launches.
+	•	Fixed a bug where the preview for a layer style wouldn't show up correctly on group layers with masks.
+	•	Fixed a bug where the a mask + layer style on a shape layer was composited in the wrong order.
+	•	Fixed a bug where paste into wasn't working.
+	•	Fixed a bug where minimizing the window would cause graphics to display badly later on.
+	•	Now copying PNG data to the clipboard, making it more compatibly with mail clients.
+	•	If you hold down the option key when opening a PSD, Acorn will now give you the option to open it up with multiple layers, or a single composite layer.
+	•	Two new layer style filters: Monotone and False Color.
+	•	Fixed a bug where trying to change the opacity while you were in a transform operation would cause Acorn to ask you to commit the operation.
+	•	Fixed a bug where layers with an opacity setting would sometimes draw funky pixels at the opaque edges of the image.
+Acorn 3.0 April 12th, 2011
+	•	New: Layer styles!
+	•	New: Quick Mask! Press the 'q' key to toggle it.
+	•	New: Instant Alpha! Instant alpha is a new tool that works like a magic eraser. You can select it from the erase palette, or press 'e' to toggle between the eraser and instant alpha.
+	•	New: Live gradients.
+	•	New: Gradients on text and shapes!
+	•	New: Multistop gradients! Drag and drop colors into the gradient preview window to add, double click on a slider to change it's color + opacity. Option-drag to duplicate a color, drag it down to delete.
+	•	New: You can now export a document as a layered PSD or PDF.
+	•	New: You can now rotate shape and text objects.
+	•	New: Acorn now has a new menu item in the Dock when running: "New Image from Clipboard", which will pop open a new image if you have an image on the clipboard.
+	•	New: You can now add and subtract points from a bezier curve.
+	•	New: If you use the canvas contextual menu to add a guide, it'll autofil the location based on where you clicked.
+	•	New: Layer styles now have presets, and you can export and open new ones. Trade with your friends, collect them all!
+	•	New: Nenu item: Layer ▸ Commit Layer Style, which makes a layer style permanent for bitmap layers.
+	•	New: Acorn will now give a little warning when you try and make an image that's over 50 megapixel.
+	•	New: Holding down the option key when clicking on the (fx) icon in the layers list will toggle that layer's layer style visibility.
+	•	New: The drop shadow filter now has an opacity slider.
+	•	New: 5 new fonts- Lobster, Chunk Five, Prociono, OFL Sorts Mill Goudy, and Raleway Thin.
+	•	New: Additional scripting api to insert layers from a path on disk (via jstalk scripting): var newLayer = doc.baseGroup().insertLayerWithImagePath_atIndex("/Volumes/srv/Users/gus/Pictures/AnotherImage.png", 1).
+	•	New: The shape tools now have tooltips above them.
+	•	New: New Filter ▸ Stylize ▸ Inner Shadow filter + layer style.
+	•	New: Crop presets! You can now save (and choose) custom presets for the crop tool.
+	•	New: If a layer mask is selected, and you use the Paste command - the current clipboard will be pasted into the selection mask instead of a new layer being created.
+	•	New: Bevel layer style + filter.
+	•	New: Vertical Distribute Center and Horizontal Distribute Center menu commands under the Layer ▸ Shape Align and Size menus. Select 3 or more shapes to enable these commands.
+	•	New: You can now drag and drop color swatches onto a layer in the canvas to fill that layer with the dropped color.
+	•	New: New Opacity filter which will change the opacity of a given image. This is useful if you have a bunch of filter operations and you'd like to change the opacity of an image in the middle of it.
+	•	New: You can now delete guides by dragging them off the canvas.
+	•	New: The canvas contextual menu now has an item named "Use Image as Desktop Picture", which will set the current canvas to your desktop image.
+	•	New: You can now drag and drop quartz compositions onto Acorn, and it will prompt you to let Acorn auto install the composition to ~/Library/Compositions.
+	•	New: New "Circles" filter under the Generator filters. It adds a bunch of concentric circles in your choice of color.
+	•	New: You now have the option to use inches or centimeters in the rulers or when making new images.
+	•	New: There's a new pref to autoload a palette when using keyboard shortcuts for tools (such as 'b' for brush, or 'v' for the arrow tool). With this option disabled, click on the icon for the corresponding palette to show up in the tools list. This makes it easier to switch back and forth from the shape or text tools to another tool, without losing the palette's focus.
+	•	Change: Batch closing all the windows (closing a window with the option key down) no longer closes the tool palette.
+	•	New: You can now add, delete, and disable layer masks from the canvas contextual menu.
+	•	New: You can now convert text into Bezier shapes.
+	•	New: Full Screen and Quick Mask buttons are now in the palette.
+	•	New: Image ▸ Expand Canvas to fit Layers command, which will resize the canvas so that all the layers will fit on the canvas.
+	•	New: The magic wand will now adjust it's tolerance as you move it out from where you clicked on the canvas.
+	•	New: Vector shapes now have the option to snap to pixel edges when creating or resizing. You can turn this option on and off from under the shapes palette.
+	•	New "Select Next Shape" and "Select Previous Shape" menu items under the Select menu, enabling you to cycle through the shapes in a shape layer.
+	•	New: The selection palette now shows options for applying addition, subtraction, or intersection modes for the selection tools.
+	•	Misc: The Adjust Levels panel is no longer a black HUD style window.
+	•	Change: Using the Image ▸ Rotate Canvas ▸ Clockwise or Counter-Clockwise commands will now move the guides with the canvas.
+	•	Change: The up and down arrow keys now work to change values in the Feather… selection dialog box.
+	•	Change: The auto-select layers option has moved to the move tool palette.
+	•	Change: Line spacing has been renamed to line height. There was a general issue where you could set negative values for line spacing, which worked sometimes- but it wasn't supported by the system text engine, so it didn't work all the time. So I've replaced it with Line Height, which should work out just as well (and which is supported).
+	•	Change: Removed the HDR filters category, since it was just confusing folks.
+	•	Change: The Snap To settings for documents are now application wide. The View ▸ Snap To menu item is gone, and it's been replaces with some settings in the Advanced preferences.
+	•	Change: If the current tool is the crop tool, and you use the Select All command, instead of a new selection being put on the canvas, the crop tool will be invoked with the canvas bounds as its size.
+	•	Change: When duplicating a layer, the newly duplicated layer is now automatically selected.
+	•	Change: In order to move guides now, you have to have the arrow tool selected.
+	•	Change: There's no longer a toggle switch for stroke width. It's either zero (off), or some other value which will draw it.
+	•	Change: The "new image from selection" and "new layer from selection" menu commands are now disabled when you are in quickmask mode.
+	•	Change: The Snap To prefs are now in the move palette.
+	•	Change: Eliptical and Rect selections will now snap to rulers for the start of the selection (previously only for the end of the selection).
+Acorn 2.6.5 April 1, 2011
+	•	Fix: Fixed an issue where it wasn't working correctly on 10.7 Lion seeds.
+Acorn 2.6.4 Feb 4, 2011
+	•	Fix: Fixed an issue where sometimes the crop frame would jump around if you changed its values in the crop palette.
+	•	Fix: An issue where quartz composer filters would render incorrectly on some layers.
+Acorn 2.6.3 Jan 10, 2011
+	•	Fix: An issue where you couldn't enter a value such as ".5" in the free rotate field has been fixed.
+	•	Fix: Sometimes after rasterizing a text layer, you couldn't always transform it.
+	•	Fix: Acorn would sometimes crash if you added multiple text layers, rasterized them, trimmed the canvas, and then selected everything.
+	•	Fix: Fixed a bug where you would make a intersect selection, and the result of the selection could show up in the wrong spot.
+	•	Fix: The Edit ▸ Fill… menu wasn't working correctly on layer masks.
+Acorn 2.6.2 October 29, 2010
+	•	New: Added a new plugin api for plugin authors to start cropping to specific dimensions (beginCroppingWithRect:)
+	•	Fix: When you had the palettes hidden (by pressing the tab key), sometimes the color panel wouldn't come up when you requested it to. Now it does.
+	•	Fix: Saving a file as ICO would fail if your image didn't have a width and height of 16, 32, 48, 128, or 256. Now you'll get a warning if you try and save a file that does not fit in these dimensions.
+	•	Fix: The Web Export window wasn't always matching up the preview / original display with what you had selected in the window.
+Acorn 2.6.1 October 25, 2010
+	•	Fix: The Scale and Rotate palette now works a bit better when entering text into the rotation angle field.
+	•	Fix: Fixed an issue where the flood fill tool wouldn't work sometimes right after resizing the canvas.
+	•	Fix: Fixed an issue where WebP images weren't opening up for some folks.
+	•	Fix: The Quartz Composition filters now clip to the current selection.
+	•	New Select ▸ Make Selection from Layer menu, which will take the contents of the current layer and turn it into a selection. Works for group and shape layers as well. You can also command-click on a layer in the layers list to perform the same action.
+	•	The Help menu now has links to the keyboard shortcuts, and tutorials online.
+	•	Fix: Resizing the window with the option key down (which will scale your image) now draws correctly at zoom levels other than 100%
+	•	Fix: If you copy a shape from a large image to a smaller image, it was possible that the shape would be pasted somewhere off canvas. This has been fixed.
+Acorn 2.6
+October 21, 2010
+	•	New: Acorn can now use Quartz Composer compositions as filters, which adds over 30 great new filters for you to use.
+	•	New: The Edit ▸ Fill… command will now bring up a window allowing you to select a specific color or image from the clipboard, plus opacity and blend mode for a fill. The shortcut Shift-Delete will bring it up as well. Option-Delete will still fill with the current fore color, and Option-Shift-Delete will fill with the current back color.
+	•	New: Acorn can now open WebP images, as well as write them with Web Export.
+	•	New: A new pixel grid which will show up when you're zoomed in at 500% or more. You can turn this on or off under the Advanced preferences.
+	•	New: Tilt-Shift filter under the Filter ▸ Stylize menu.
+	•	Fixed a bug where selections where drawing incorrectly when you had the selection mask set to "Clipped Out".
+	•	Acorn is now a bit nicer to text when scaling down.
+	•	Acorn now provides an option to draw the grid as a series of dots (when normally it's just a line). Turn this on under View ▸ Grid Settings…
+	•	Fixed a bug where holding the shift key between drawing operations wouldn't draw a straight line from the expected points when you had precision mode turned on.
+	•	Fixed some issues where the rect selection tool wouldn't always show the right values when you were making a selection.
+	•	Fixed a case where saving a image size preset in the New Image panel wouldn't always save correctly if you had an image on the clipboard.
+	•	Fixed some drawing issues with the rect and freehand selection tools.
+	•	If you clicked the close button on the tool palette, hitting the tab key (which would normally toggle the tools palette visibility) wouldn't bring it back. It now does.
+	•	Fixed a bug where rasterizing a shape layer would draw the shapes in the wrong z order.
+	•	The transform tools will now snap to guides and document bounds when turned on.
+	•	Previously, pressing the escape key while in full screen mode and using a transform tool would cause you to exit full screen mode. Now it just cancels the transform tool.
+	•	Fixed a bug where sometimes Acorn would delete the wrong layer when you were currently transforming the image.
+	•	The crop palette now respects the preference for having the origin in the top left corner.
+	•	When the tool palette is overlapping the canvas, and a custom cursor is set, the cursor now resets to the standard arrow cursor when over the palette.
+	•	Fixed a bug where the Save menu item was enabled while Acorn was still compressing your image in web export.
+	•	Fixed some drawing glitches where the grid was drawing outside the canvas.
+	•	Acorn no longer tries to open documents at startup, which you've put in the trash but not yet emptied.
+	•	Acorn will now remember if you last used "jpg" or "jpeg" in the save dialog, for JPEG file extensions.
+	•	Shape layers have a new context menu item, which will allow you to see all the shapes in the layer, and select the Chosen One.
+	•	Acorn is quite a bit more accurate about figuring out which point in a bezier curve you'd like to grab when zoomed in at insane levels.
+	•	The canvas guides now draw outside the canvas view again.
+Acorn 2.5.1
+September 27, 2010
+	•	Fixed a bug where Acorn wouldn't let you resize a free transform when zoomed out to 25%.
+	•	Fixed a bug where you couldn't delete the % character from the simple transform palatte.
+	•	When using the rectangle selection, it doesn't snap to the edge of the document, since it turns out that's pretty annoying most of the time.
+	•	Fixed a bug where you couldn't use the pan tool when you clicked on top of a vector shape to begin moving the image.
+	•	Renamed the 'Hand' tool to 'Pan' in the View ▸ Tool menu.
+	•	The up and down arrow keys now work in the rotate field of the canvas rotate palette.
+	•	Fixed a bug where your image was interpolated when you were zoomed in and you were rotating the canvas.
+	•	If you've got a selection cut out on a bitmap layer, it now respects the layer mask if you've got one enabled.
+	•	Pressing enter when you've got a selection + cutout on a bitmap layer will down clear the selection and place the bit you've cut out.
+	•	Fixed a bug where dragging + dropping an image into a document to create a new layer- the new layer wouldn't get the document's color space, which would eventually lead to some wonky colors showing up at some point.
+	•	The elliptical and rect selection tools now snap to guides.
+	•	The marching ants for selections are now drawn over any guides that might be showing.
+	•	When option-dragging selected shape layer graphics to copy them- the relative z order of the graphics wasn't always kept the same. This is now fixed.
+	•	Certain slider widgets in the text box wouldn't let you set its value to zero. This has been fixed.
+	•	New Grayscale filter under the Filter ▸ Color Adjustment menus.
+	•	The "New Layer from Selection" menu item is no longer enabled when you don't have a selection.
+	•	Fixed some selection issues when zoomed way in.
+	•	Resizing a vector shape will now snap to guides on the canvas.
+	•	Fixed a bug where using the transform tools on a layer with a layer mask wouldn't update the mask associated with it.
+	•	Acorn's hex color picker no longer defaults to creating calibrated colors.
+	•	Fixed a bug where holding down the shift key when making or modifying a line wouldn't snap it's angle to 45 degrees.
+Acorn 2.5
+September 16, 2010
+	•	Acorn now supports layer masks! To enable a mask for a layer, click on the cog widget in the layers list window and select "Add Layer Mask", or control-click on a layer in the list and choose "Add Layer Mask".
+	•	New Automator Actions- Layer on Images (think watermarks), Open Images in Acorn, Close Acorn Image, Change Types of Images, Crop Images, Trim Images, and Do JavaScript.
+	•	Web export now has an option to set the matte (background) color for transparent images.
+	•	Fixed a problem where the Clear Selection menu item was always enabled.
+	•	Fixed a bug where flood fill wouldn't work when you made a selection and then used it to cut out an area from a layer, and then tried to use the flood fill without clearing the selection first.
+	•	Fixed a bug where the flood fill tool wouldn't work on layer masks.
+	•	When adding a layer mask, it is now selected by default.
+	•	When duplicating a shape, it'll no longer fall off the canvas if it's near the bottom.
+	•	Fixed a bug where editing bezier paths caused really weird drawing issues.
+	•	Guides stay in the correct relative position now when using the Resize Canvas command.
+	•	Holding down the option key when selecting and moving a guide will duplicate it.
+	•	Fixed a bug where erasing on a layer mask wouldn't work correctly.
+	•	New menu item: Edit ▸ Paste Into, which pastes into a new layer, using the selection as a mask for that new layer.
+	•	New hidden pref: defaults write com.flyingmeat.Acorn useEdgeColorForFullScreen 1
+	•	When rasterizing a shape layer, if your layer name starts with "Shape Layer", Acorn will replace that with "Bitmap Layer".
+	•	If you have a group layer selected, and you use the Edit ▸ Copy menu item, you'll get a composite of just the group layer put on the clipboard.
+	•	Hold down the option key when selecting a crop preset will cause the width and height values to be swapped. So if you wanted a crop of 3x2 instead of 2x3, just hold down the option key when choosing the preset.
+	•	Updated some menu items to conform with the Apple HIG.
+	•	If you're using the arrow tool, and you've got a group layer selected, clicking on a layer within the group will move all layers inside that group (this hasn't changed). However, if you now click a layer that isn't inside the selected group layer, the clicked on layer will then be auto selected and you can begin moving that guy.
+	•	Fixed an undo bug when adding a text box to a layer, where an extra text box would incorrectly be removed.
+	•	Acorn now uses a "near by" algorithm to find which pixel you wanted to start with, instead of flooring points when doing selections and other operations (most visible when you're zoomed in).
+	•	When using the simple transform tool, the scale and angle fields (in the palette) will update the image in realtime without needing to tab out of the field first. You can also use the up and down arrows to change the values.
+	•	Fixed a bug where setting the width or height for a line in the shape frame fields wouldn't work.
+	•	Fixed a text rendering bug, where sometimes text would shift when editing.
+	•	Fixed some text formatting issues in the filter panel when putting in negative values for various parameters.
+	•	Using the up and down arrows in the width / height fields for the new image window, will increase or decrease the size of the image you want to make.
+	•	Fixed a drawing issue when making a rectangular selection.
+	•	When using the brush, holding down the control and option keys, and then moving the mouse either left or right will make your brush smaller or larger.
+	•	The contextual menu for the canvas now has a Layers submenu, with a list of all the layers in the image and which will make the selected layer active when chosen.
+	•	When changing a layer's visibility from invisible to visible, it will make sure all it's parent groups are set to visible as well.
+	•	New menu item to flip selected Bezier shapes vertically or horizontally, under the Layer ▸ Shape Align and Size menu.
+	•	Bug fix: the align left and right edges now works correctly for bezier shapes.
+	•	Changing the file extension in the save sheet will update the file popup menu to reflect what you've typed in (as long as it's a supported file type, such as png, jpeg, etc).
+	•	New AppleScript and JSTalk commands to add oval selections: -- AppleScript:
+	•	tell application "Acorn"
+	•		open "MyImage.acorn"
+	•		tell document 1
+	•			deselect
+	•			select oval rect {100, 100, 400, 600}
+	•		end tell
+	•	end tell
+	•	
+	•	// JSTalk:
+	•	var acorn = JSTalk.application("Acorn");
+	•	var doc = acorn.open("MyImage.acorn");
+	•	doc.deselect();
+	•	doc.selectOval(NSMakeRect(100, 100, 400, 400));
+	•	The Edit ▸ Delete menu item no longer needs the command key.
+	•	The Gaussian Blur filter now has an option to have opaque edges or not (turned on by default).
+	•	The cursor now updates correctly when editing some text and you've got the command key down (it changes to the move tool icon).
+	•	Fixed a bug where the web export window wouldn't come up sometimes.
+	•	Added a new "Add Images…" menu item under the File menu, which will insert images as layers from an open panel into your image.
+	•	Added a warning when trying to open up an image that is in the Trash.
+	•	Fixed a bug when using the perspective transform tool, and the window was the same size as the canvas, and you grabbed a bottom resize widget.
+	•	Fixed a bug where the "New View" window wouldn't update the image when a vector shape was modified.
+Acorn 2.3.2
+August 2, 2010
+	•	Fixed a problem where the guide bubble wouldn't go away.
+	•	The cursor no longer flickers when moving guides.
+	•	Fixed a bug where bitmap images in FXG 2.0 files wouldn't show up correctly.
+	•	Fixed some edge cases where flood fill wouldn't work correctly.
+	•	Pressing the space bar while cropping will now allow you to pan the image around (assuming scroll bars are present).
+	•	New Filter under Color Adjustment named "Transparentomatic", which will take a color and replace it with empty pixels along with an option to adjust the tolerance for the selected color.
+	•	When cropping an image, guides now keep their relative positions.
+	•	Fixed a bug where the scrollers were showing up at weird times, and causing some clipping of the image.
+	•	Fixed a bug where drawing on a layer that was created via "New Layer via Selection with Cut" would cause the layer to sometimes disappear.
+	•	Fixed a bug where you could move layer groups when it was locked.
+	•	When opening an image which has an orientation flag set, we now rotate the image before presenting it.
+	•	Fixed a bug where adding a horizontal guide wouldn't respect the "origin in top left" preference.
+	•	New "Nearest Neighbor" option for scaling an image.
+	•	No longer animating the selection when a window isn't frontmost, to save CPU (and battery life).
+	•	Fixed a bug where moving a bitmap layer around when a selection was present would cause some bad redrawing.
+	•	Added "New View" under the Window menu, which will give you a new window with the current image in it, which you can then set to different zoom levels for a different perspective from your original image.
+	•	Fixed a bug where snapping to the guides wouldn't always redraw the hit guide correctly.
+	•	Fixed a bug where Acorn images wouldn't always open up correctly from Acorn's file browser.
+	•	Fixes for the flood fill and magic wand tool.
+	•	Fixed a bug which caused blurry outlines on some rectangle shapes.
+Acorn 2.3.1
+May 17, 2010
+	•	Fixed a bug where setting the DPI of a JPEG image wasn't always saved correctly.
+	•	Fixed a bug where creating a guide with the contextual menu wouldn't always put it in the right location.
+	•	Fixed a bug where some really old Acorn documents didn't import lines correctly.
+	•	Fixed a bug where the layers lock icon was drawing incorrectly.
+Acorn 2.3
+April 30, 2010
+	•	Guides and snap to document edges for bitmap layers.
+	•	Pref wording change: "Flip pen position along Y axis" is now "Set canvas origin to top left".
+	•	Fixed a drawing issue with the ruler when you were zoomed in and the origin was set to the top left of the window.
+	•	Fixed some drawing issues with the ruler.
+	•	New little ampersand on the type palette, which will bring up the Typography palette.
+	•	Fixed a bug where small caps were not preserved between saves for text boxes.
+	•	Fixed a bug where using the brush with a selection wouldn't work correctly.
+	•	The ruler markers now update in increments of 10 and 5, instead of powers of 2.
+	•	40 new brushes!
+	•	Fixed misc. AppleScript command.
+	•	New plugin API- NSApplication now has "- (id)currentDocument" which will return the active document, or the document which is currently scripted.
+	•	Renamed "Char Spacing" to "Kerning" in the text tool palette, because... well, that's what it is.
+	•	New option to trim the image in the web export panel.
+	•	Fixed a bug where pull out a selection for a free transform wasn't always working correctly.
+	•	Fixes for rotating the canvas when you had odd images.
+	•	New AppleScript command: rotate canvas angle *angle*. New JSTalk method: rotateCanvas(angle).
+	•	New AppleScript command: auto levels. New JSTalk method: autoLevels().
+	•	Fixed a regression where the brush preview wasn't showing up in the palette.
+	•	Fixed a regression when rotating the canvas.
+	•	Fixed a crasher when opening a certain type of RAW image file.
+	•	A more accurate rendering of the gradient preview.
+	•	Dab Opacity has been renamed to "Flow" for the Brush Designer.
+	•	Updated Brush Designer layout, so all the options are visible at once.
+	•	The way cursors are setup has been reworked a bit. If you run into cursor weirdness- let me know asap!
+	•	If you've got a group layer selected, and the current tool selected is the move tool, clicking in the canvas + dragging will move all the layers in the group. A single click will select the layer under the click.
+	•	Guides now snap to the middle of the image / shape.
+	•	Moving shapes now snaps to the guides.
+	•	New pref to turn on font smoothing (subpixel anti-aliasing for text).

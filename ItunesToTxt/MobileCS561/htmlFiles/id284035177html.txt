@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"> 
+
+  <plist version="1.0">
+    <dict>
+       
+  
+    
+    <key>pings</key>
+<array>
+  
+    <string>https://securemetrics.apple.com/b/ss/applesuperglobal/1/G.6--NS?pccr=true&amp;c22=XML&amp;ch=Item%20Not%20Available&amp;v22=XML&amp;g=http%3A%2F%2Fitunes.apple.com%2FWebObjects%2FMZStore.woa%2Fwa%2FviewSoftware%3Fmt%3D8%26id%3D284035177%26cc%3Dus%26urlDesc%3D&amp;cl=15778463&amp;pageName=Item%20Not%20Available-US&amp;h5=appleitmswww%2Cappleitmsus</string>
+
+    
+    
+
+  
+    <string>https://xp.apple.com/report/2/xp_its_main?message=The%20item%20you%27ve%20requested&amp;storeFrontHeader=143441-1%2C28&amp;buttons=OK&amp;baseVersion=1&amp;eventTime=1416343136122&amp;code=itemNotAvailable&amp;eventType=dialog</string>
+
+  
+</array>
+
+    
+         
+  <key>failureType</key><string></string>
+  <key>customerTitleMessage</key><string>Item Not Available</string>
+  <key>customerMessage</key><string>The item you&#39;ve requested is not currently available in the U.S. store.</string>
+  
+  <key>m-allowed</key><false/>
+  
+  
+  
+  
+  
+       
+       
+    
+      <key>dialog</key>
+      <dict>
+    
+    
+    <key>m-allowed</key><false/>
+      
+    <key>message</key><string>Item Not Available</string>
+    <key>explanation</key><string>The item you&#39;ve requested is not currently available in the U.S. store.</string>
+    <key>defaultButton</key><string>ok</string>
+
+    
+    <key>okButtonString</key><string>OK</string>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+</dict>
+
+    
+    
+    
+      <key>cancel-purchase-batch</key><true/>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+
+
+    
+    </dict>
+  </plist>
+  
+
+
+
+
+        

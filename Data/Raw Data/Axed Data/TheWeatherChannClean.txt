@@ -1,0 +1,212 @@
+Version Number: 6.3.3
+Release Date: 2014-11-01T01:49:18Z
+Bug fixes.
+
+Version Number: 6.3.2
+Release Date: 2014-10-17T02:52:27Z
+Bug fixes.
+
+Version Number: 6.3
+Release Date: 2014-09-19T18:45:03Z
+Social Weather--If the conditions are right for hail, thunderstorms, or fog we now allow you to report it to us using Social Weather._
+
+Widgets__iOS8 allows us to bring The Weather Channel widgets to you, so you can easily get weather information on-the-go.
+
+Weekend Forecast _ Now our 10 Day Forecast includes _a detailed Weekend Forecast, so you can plan your weekend fun.
+
+Version Number: 6.2.2
+Release Date: 2014-08-23T00:43:17Z
+This is a bug fix release.
+
+Version Number: 6.2.1
+Release Date: 2014-08-06T21:35:44Z
+Bug fixes to correct for in-application time being off by one hour.
+
+In order to fix the time in your app:
+1. Download version 6.2.1. 
+2. Open the app. (There will be no changes).
+3. You will see the time correct itself after the first time you close the application and reopen it.
+
+Version Number: 6.2
+Release Date: 2014-07-30T19:54:19Z
+We get it -- your life revolves around the weather. To help you plan seasonal activities and stay safe during hurricane season, the app now tells you the latest about:
+_Hurricane Central: Get detailed hurricane tracking, news, and videos, just in time for the peak of the 2014 season.
+_Boat and Beach Planner: Going to the beach? Be prepared with the marine forecast summary, including local tides and water temperature. 
+
+
+Version Number: 6.1
+Release Date: 2014-06-06T18:48:59Z
+You spoke, and we listened! Here are a few of our most popular, new changes:
+
+_ Colored weather icons are back (replacing the all-white ones)
+_ Detailed current conditions can be viewed by swiping up (instead of tapping on the circle)
+_ The 36-hour forecast is back (simply tap "more" under the 10-day forecast)
+_ Map layers are back
+_ Errors that prevented you from getting forecasts for your GPS location have been fixed
+_ Improved readability
+_ Quickly return to the top of your "feed" by pressing the up arrow
+_ Bug fixes
+
+Version Number: 6.0.1
+Release Date: 2014-05-07T13:52:59Z
+Various bug fixes
+
+Version Number: 6.0.0
+Release Date: 2014-04-24T04:16:23Z
+Wow! Introducing our beautiful new scroll down iOS 7 redesign:
+
+Social Weather_Share your weather conditions with us! We will use that information to identify hard-to-predict spots to improve the forecast for those areas. Plus, whenever you report your weather, you can take and share a photo of your current weather.  We_ll keep track of them so you_ll have a personalized weather history.
+
+Radar maps_Faster than ever
+
+Design_Beautiful and easy to use. Perfectly aligned to the iOS7 aesthetic.
+
+Improved navigation_swiping right to left allows you to browse your saved locations, whereas the detailed forecasts and stories can be viewed by swiping up and down. Check out detailed weather conditions by tapping the circle on the main screen.
+
+App Icon_A new look for the app icon on your home screen signals something completely different, but with the same trusted weather information.
+
+Version Number: 5.5.2
+Release Date: 2014-01-13T22:11:24Z
+Bug fixes and other improvements.
+
+Version Number: 5.5.1
+Release Date: 2013-11-18T21:01:45Z
+Bug fixes and other improvements
+
+Version Number: 5.5.0
+Release Date: 2013-10-07T15:14:20Z
+Thanks for your feedback and support! Here are the latest improvements:
+
+- Even better local forecast
+- Enhanced for iOS 7
+- Bug fixes
+
+Version Number: 5.4.1
+Release Date: 2013-07-17T23:38:25Z
+- Performance enhancements
+- Bug fixes
+
+Version Number: 5.4.0
+Release Date: 2013-06-06T14:13:20Z
+- NEW! TRAVEL WATCH - Save your favorite travel routes and commutes to see how they will be impacted by the weather. To set these up, simply click the travel icon (driving car) on the _Radar Map_ page and follow the prompts
+
+- NEW! Hurricane Central gives you the latest tropical storm and hurricane updates so you can stay informed during the 2013 Hurricane Season.
+
+- Improved Radar Maps animation buttons and easier to access map layers under the page curl. 
+
+- Bug fixes 
+
+
+Version Number: 5.3.1
+Release Date: 2013-04-22T20:26:58Z
+Pollen alert bug fix
+Video player bug fix
+Stability enhancements
+
+
+Version Number: 5.3.0
+Release Date: 2013-03-27T19:34:46Z
+- Improved 15-minute forecasts within your Hourly view
+- EXPECT RAIN tab on your Now screen. If snow, rain or thunderstorms start or change in the next 6 hours the EXPECT RAIN tab appears to let you know 
+- Cleaner design for faster navigation to your live radar and maps, the latest videos, and local pollen levels
+- New video player with enhanced viewing experience
+- Bug fixes and performance enhancements 
+- Improved severe weather alerts
+
+
+Version Number: 5.2.0
+Release Date: 2013-01-22T16:22:12Z
+-Future Radar! Know where the storm is going to go.
+-Pull down to refresh your weather data or simply press the new refresh icon
+-Bug fixes & optimizations
+
+
+Version Number: 5.1.0
+Release Date: 2012-09-21T00:07:29Z
+- NEW! Severe Push Notifications for U.S. locations (manage in Settings menu)
+- NEW! Share button with improved features
+- Improved video streaming
+- Bug fixes for performance
+- Supports iOS 5.0 and above
+- iOS 6 compatible
+
+Version Number: 5.0.1
+Release Date: 2012-06-08T17:46:39Z
+Fixed in this release:
+1. Issue where application freezes on startup screen
+2. Issue where application force-closes when returning from background
+3. Improved GPS/TruPoint "Find Me"
+4. Improved international type-ahead search
+5. Minor bug fixes
+
+
+Version Number: 5.0.0
+Release Date: 2012-05-17T04:10:03Z
+INTRODUCING AN ALL-NEW DESIGN!
+The Weather Channel 5.0 for iPhone is the first major redesign since our initial launch in 2009 of the world_s most popular weather app!
+
+_  Swipe between locations within the app, and swipe to the far left position to return your TruPoint(sm) current location
+_  Beautiful weather-triggered imagery changes the app background based on your local weather conditions
+_  New easy-to-use buttons:
+    -_Find Me Now_ button integrated with Search icon
+    - Standard Search icon replaced the open search box
+    - Settings / Information icon now on all screens
+    - Detailed weather data collapsed for better visual experience with expandable button for more information
+_  Improved location management to easily save, edit and delete your favorite locations
+_  Prominent severe badges quickly alert you of severe weather conditions
+_  Add your own photo to the app  _ customize the background image to be a personal photo and add different weather overlays (within Settings)
+_  A built-in camera button on the Home Screen _ take pictures and share through iWitness, Twitter, Facebook and email. iWitness users: we may even share your weather photos on The Weather Channel or weather.com! 
+
+
+Version Number: 4.3.0
+Release Date: 2012-03-24T15:08:54Z
+- NEW! Pollen push alerts for U.S. locations_in time for Pollen season (manage in Settings tab)
+- The _In Season_ tab now has your_National & Local Pollen_forecasts
+
+Version Number: 4.2.0
+Release Date: 2012-01-24T15:36:34Z
+_ NEW! Forecasted Snow Accumulation amounts for the next 72 hours
+
+_ User Agreement, Privacy Policy, and Terms & Conditions
+
+_ Improved Favorites list functionality
+
+_ Bug fixes and performance enhancements
+
+Version Number: 4.1.1
+Release Date: 2011-10-15T02:13:45Z
+We appreciate all your feedback, and thank you for your patience!  
+This new version will greatly improve stability, eliminate crashing, and make the maps and radar experience faster and more responsive.  Please rate this version to let us know how we're doing.
+
+NEW in 4.1.1:
+
+- iOS 5 compatible 
+
+- Map code rewrite to improve maps and radar speed, stability, and performance
+
+- Removed "How's Your Weather" button from current conditions screen, based on customer feedback
+
+- Added more "Must See" video clips
+
+Version Number: 4.1.0
+Release Date: 2011-08-26T17:32:33Z
+***************
+USERS: We appreciate your feedback about our app crashing and slowness of the interactive maps. Our teams have diligently worked to quickly identify and fix these problems in this version 4.1.0. 
+
+In light of the active hurricane season, we value your safety and wanted to provide you with this update for stability and performance as soon as possible.  We will continue to improve our map experience, including occasional missing map tiles.
+
+Please rate this version to let us know how we're doing, and also send any feedback to us directly at iphone@talk2.weather.com. Thank you for using The Weather Channel!
+*************** 
+
+_ Hurricane Central - inside the Maps section, you_ll find a new collection of storm track maps and projected path maps for active hurricanes and storms, plus maps for other tropical activity in the Atlantic, Gulf of Mexico, Caribbean, and Pacific. 
+
+_ Improved performance and speed of Interactive Maps
+
+_ Fixed crash issues
+
+Version Number: 4.0.1
+Release Date: 2011-08-15T23:02:54Z
+USERS: We have heard your feedback about the GPS Location Services arrow staying on.
+
+This version 4.0.1 will correct the issue as soon as you download the update and launch the app.
+

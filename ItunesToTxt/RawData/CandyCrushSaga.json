@@ -25,18 +25,18 @@
                     "ids": [
                         529479190, 
                         667728512, 
-                        538212549, 
                         485126024, 
                         850417475, 
+                        538212549, 
                         506627515, 
-                        824318267, 
                         608206510, 
-                        469231420, 
                         486363584, 
                         594843575, 
+                        469231420, 
                         834393815, 
                         479516143, 
-                        572821456
+                        824318267, 
+                        483165745
                     ], 
                     "title": "Top Grossing iPad Games Apps"
                 }, 
@@ -44,18 +44,18 @@
                     "ids": [
                         529479190, 
                         667728512, 
-                        538212549, 
                         850417475, 
-                        563474464, 
+                        538212549, 
                         608206510, 
                         506627515, 
+                        563474464, 
+                        855627886, 
                         447553564, 
                         672150402, 
                         860822992, 
-                        694876905, 
-                        855627886, 
-                        485126024, 
-                        558823262
+                        479516143, 
+                        834393815, 
+                        572821456
                     ], 
                     "title": "Top Grossing iPhone Games Apps"
                 }
@@ -249,7 +249,7 @@
             "pageDetails": "King.com Limited_Candy Crush Saga", 
             "pageId": "553834731", 
             "language": "1", 
-            "serverInstance": "2126960", 
+            "serverInstance": "2000604", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
@@ -472,10 +472,10 @@
                     "releaseDate": "2012-11-14", 
                     "artistId": 526656015, 
                     "userRating": {
-                        "ratingCountCurrentVersion": 7017, 
+                        "ratingCountCurrentVersion": 7748, 
                         "valueCurrentVersion": 4.5, 
                         "value": 4, 
-                        "ratingCount": 642846
+                        "ratingCount": 643508
                     }, 
                     "artistUrl": "https://itunes.apple.com/us/artist/king.com-limited/id526656015?mt=8", 
                     "itunesNotes": null, 
@@ -578,7 +578,7 @@
                             "height": 1024
                         }, 
                         {
-                            "url": "http://a1.mzstatic.com/us/r30/Purple1/v4/b5/9f/95/b59f951e-7c75-762c-19b6-16ae568dc7d3/icon440x440.png", 
+                            "url": "http://a1.mzstatic.com/us/r30/Purple1/v4/b5/9f/95/b59f951e-7c75-762c-19b6-16ae568dc7d3/icon440x440.jpeg", 
                             "width": 440, 
                             "height": 440
                         }, 
@@ -593,7 +593,7 @@
                             "height": 400
                         }, 
                         {
-                            "url": "http://a2.mzstatic.com/us/r30/Purple1/v4/b5/9f/95/b59f951e-7c75-762c-19b6-16ae568dc7d3/icon512x512.png", 
+                            "url": "http://a5.mzstatic.com/us/r30/Purple1/v4/b5/9f/95/b59f951e-7c75-762c-19b6-16ae568dc7d3/icon512x512.jpeg", 
                             "width": 512, 
                             "height": 512
                         }
@@ -635,12 +635,12 @@
                                     "height": 414
                                 }, 
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple1/v4/11/3d/e7/113de730-5d50-e38d-f914-d2c4e467ba35/screen420x316.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple1/v4/11/3d/e7/113de730-5d50-e38d-f914-d2c4e467ba35/screen420x420.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
                                 {
-                                    "url": "http://a5.mzstatic.com/us/r30/Purple1/v4/11/3d/e7/113de730-5d50-e38d-f914-d2c4e467ba35/screen420x420.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple1/v4/11/3d/e7/113de730-5d50-e38d-f914-d2c4e467ba35/screen420x316.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
@@ -672,12 +672,12 @@
                                     "height": 414
                                 }, 
                                 {
-                                    "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/fa/57/c2/fa57c275-8a26-7628-5ec1-cd4f8ef39722/screen420x316.jpeg", 
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/fa/57/c2/fa57c275-8a26-7628-5ec1-cd4f8ef39722/screen420x420.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/fa/57/c2/fa57c275-8a26-7628-5ec1-cd4f8ef39722/screen420x420.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/fa/57/c2/fa57c275-8a26-7628-5ec1-cd4f8ef39722/screen420x316.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
@@ -709,12 +709,12 @@
                                     "height": 414
                                 }, 
                                 {
-                                    "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/9a/d7/96/9ad79643-ea8b-9e7f-5fe7-083b770d2752/screen420x316.jpeg", 
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/9a/d7/96/9ad79643-ea8b-9e7f-5fe7-083b770d2752/screen420x420.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/9a/d7/96/9ad79643-ea8b-9e7f-5fe7-083b770d2752/screen420x420.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/9a/d7/96/9ad79643-ea8b-9e7f-5fe7-083b770d2752/screen420x316.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
@@ -746,12 +746,12 @@
                                     "height": 414
                                 }, 
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/af/3a/b9/af3ab95f-463c-0b99-dcae-71bc44594511/screen420x316.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/af/3a/b9/af3ab95f-463c-0b99-dcae-71bc44594511/screen420x420.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
                                 {
-                                    "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/af/3a/b9/af3ab95f-463c-0b99-dcae-71bc44594511/screen420x420.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/af/3a/b9/af3ab95f-463c-0b99-dcae-71bc44594511/screen420x316.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
@@ -1082,7 +1082,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "2126960", 
+        "ITSServerInstance": "2000604", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 

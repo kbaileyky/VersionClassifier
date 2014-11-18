@@ -9,18 +9,18 @@
                     "ids": [
                         529479190, 
                         553834731, 
-                        538212549, 
                         485126024, 
                         850417475, 
+                        538212549, 
                         506627515, 
-                        824318267, 
                         608206510, 
-                        469231420, 
                         486363584, 
                         594843575, 
+                        469231420, 
                         834393815, 
                         479516143, 
-                        572821456
+                        824318267, 
+                        483165745
                     ], 
                     "title": "Top Grossing iPad Games Apps"
                 }, 
@@ -28,18 +28,18 @@
                     "ids": [
                         529479190, 
                         553834731, 
-                        538212549, 
                         850417475, 
-                        563474464, 
+                        538212549, 
                         608206510, 
                         506627515, 
+                        563474464, 
+                        855627886, 
                         447553564, 
                         672150402, 
                         860822992, 
-                        694876905, 
-                        855627886, 
-                        485126024, 
-                        558823262
+                        479516143, 
+                        834393815, 
+                        572821456
                     ], 
                     "title": "Top Grossing iPhone Games Apps"
                 }
@@ -99,12 +99,12 @@
                     "name": "3900 Gold"
                 }, 
                 {
-                    "price": "$4.99", 
-                    "name": "1200 Gold"
-                }, 
-                {
                     "price": "$19.99", 
                     "name": "3300 Gold"
+                }, 
+                {
+                    "price": "$4.99", 
+                    "name": "1200 Gold"
                 }, 
                 {
                     "price": "$9.99", 
@@ -137,11 +137,11 @@
             "pageDetails": "Machine Zone, Inc_Game of War - Fire Age", 
             "pageId": "667728512", 
             "language": "1", 
-            "serverInstance": "613101", 
+            "serverInstance": "1013206", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
-            "environmentDataCenter": "ST11", 
+            "environmentDataCenter": "NWK", 
             "pageType": "Software", 
             "platformName": "iTunes12", 
             "page": "Software_667728512"
@@ -360,10 +360,10 @@
                     "releaseDate": "2013-07-25", 
                     "artistId": 299968102, 
                     "userRating": {
-                        "ratingCountCurrentVersion": 369, 
+                        "ratingCountCurrentVersion": 724, 
                         "valueCurrentVersion": 5, 
                         "value": 4.5, 
-                        "ratingCount": 35067
+                        "ratingCount": 35722
                     }, 
                     "artistUrl": "https://itunes.apple.com/us/artist/machine-zone-inc/id299968102?mt=8", 
                     "itunesNotes": null, 
@@ -461,32 +461,32 @@
                     "editorialBadgeInfo": null, 
                     "artwork": [
                         {
-                            "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/86/5c/eb/865ceb01-350f-e249-cb5c-c4d0ebd4d7e7/icon240x240.png", 
+                            "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/86/5c/eb/865ceb01-350f-e249-cb5c-c4d0ebd4d7e7/icon240x240.jpeg", 
                             "width": 240, 
                             "height": 240
                         }, 
                         {
-                            "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/86/5c/eb/865ceb01-350f-e249-cb5c-c4d0ebd4d7e7/icon1024x1024.png", 
+                            "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/86/5c/eb/865ceb01-350f-e249-cb5c-c4d0ebd4d7e7/icon1024x1024.jpeg", 
                             "width": 1024, 
                             "height": 1024
                         }, 
                         {
-                            "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/86/5c/eb/865ceb01-350f-e249-cb5c-c4d0ebd4d7e7/icon440x440.png", 
+                            "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/86/5c/eb/865ceb01-350f-e249-cb5c-c4d0ebd4d7e7/icon440x440.jpeg", 
                             "width": 440, 
                             "height": 440
                         }, 
                         {
-                            "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/86/5c/eb/865ceb01-350f-e249-cb5c-c4d0ebd4d7e7/icon220x220.jpeg", 
+                            "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/86/5c/eb/865ceb01-350f-e249-cb5c-c4d0ebd4d7e7/icon220x220.png", 
                             "width": 220, 
                             "height": 220
                         }, 
                         {
-                            "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/86/5c/eb/865ceb01-350f-e249-cb5c-c4d0ebd4d7e7/icon400x400.jpeg", 
+                            "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/86/5c/eb/865ceb01-350f-e249-cb5c-c4d0ebd4d7e7/icon400x400.png", 
                             "width": 400, 
                             "height": 400
                         }, 
                         {
-                            "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/86/5c/eb/865ceb01-350f-e249-cb5c-c4d0ebd4d7e7/icon512x512.jpeg", 
+                            "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/86/5c/eb/865ceb01-350f-e249-cb5c-c4d0ebd4d7e7/icon512x512.png", 
                             "width": 512, 
                             "height": 512
                         }
@@ -1061,7 +1061,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "613101", 
+        "ITSServerInstance": "1013206", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
@@ -1091,7 +1091,7 @@
                 "platformId": "28", 
                 "storeFront": "143441", 
                 "storeFrontHeader": "143441-1,28", 
-                "environmentDataCenter": "ST11", 
+                "environmentDataCenter": "NWK", 
                 "platformName": "iTunes12"
             }, 
             "postFrequency": 60000, 

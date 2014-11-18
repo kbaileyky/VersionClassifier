@@ -9,19 +9,19 @@
                     "ids": [
                         302584613, 
                         373582546, 
-                        366869252, 
                         379693831, 
+                        366869252, 
                         597251953, 
-                        306310789, 
                         316789453, 
+                        306310789, 
+                        542557212, 
                         763451959, 
                         364376920, 
                         355833469, 
-                        364612911, 
-                        573623609, 
-                        458424230, 
                         400989007, 
-                        672803850
+                        364612911, 
+                        416454511, 
+                        573623609
                     ], 
                     "title": "Top Free iPad Books Apps"
                 }, 
@@ -29,19 +29,19 @@
                     "ids": [
                         302584613, 
                         379693831, 
+                        316789453, 
                         306310789, 
                         373582546, 
                         366869252, 
-                        316789453, 
                         355833469, 
+                        519625336, 
+                        542557212, 
                         597251953, 
                         521227008, 
                         400989007, 
-                        519625336, 
                         573623609, 
                         417341160, 
-                        311507490, 
-                        320214162
+                        416454511
                     ], 
                     "title": "Top Free iPhone Books Apps"
                 }
@@ -200,7 +200,7 @@
             "pageDetails": "Apple_iBooks", 
             "pageId": "364709193", 
             "language": "1", 
-            "serverInstance": "511504", 
+            "serverInstance": "1013203", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
@@ -423,10 +423,10 @@
                     "releaseDate": "2010-04-02", 
                     "artistId": 284417353, 
                     "userRating": {
-                        "ratingCountCurrentVersion": 7885, 
+                        "ratingCountCurrentVersion": 7889, 
                         "valueCurrentVersion": 2.5, 
                         "value": 3.5, 
-                        "ratingCount": 95562
+                        "ratingCount": 95559
                     }, 
                     "artistUrl": "https://itunes.apple.com/us/artist/apple/id284417353?mt=8", 
                     "itunesNotes": null, 
@@ -515,7 +515,7 @@
                             "height": 1024
                         }, 
                         {
-                            "url": "http://a3.mzstatic.com/us/r30/Purple/v4/6f/fe/a4/6ffea4f6-346e-a1e2-9296-c44c49953704/icon440x440.jpeg", 
+                            "url": "http://a5.mzstatic.com/us/r30/Purple/v4/6f/fe/a4/6ffea4f6-346e-a1e2-9296-c44c49953704/icon440x440.png", 
                             "width": 440, 
                             "height": 440
                         }, 
@@ -525,7 +525,7 @@
                             "height": 220
                         }, 
                         {
-                            "url": "http://a4.mzstatic.com/us/r30/Purple/v4/6f/fe/a4/6ffea4f6-346e-a1e2-9296-c44c49953704/icon256x256.jpeg", 
+                            "url": "http://a2.mzstatic.com/us/r30/Purple/v4/6f/fe/a4/6ffea4f6-346e-a1e2-9296-c44c49953704/icon256x256.png", 
                             "width": 256, 
                             "height": 256
                         }, 
@@ -1073,7 +1073,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "511504", 
+        "ITSServerInstance": "1013203", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 

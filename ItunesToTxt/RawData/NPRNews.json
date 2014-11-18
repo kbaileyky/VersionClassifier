@@ -22,20 +22,20 @@
                 "ipad": {
                     "ids": [
                         367623543, 
-                        898117224, 
                         407824176, 
-                        646100661, 
+                        898117224, 
                         357066198, 
+                        646100661, 
                         427593622, 
                         358801284, 
-                        579581125, 
                         364387007, 
-                        364257176, 
-                        923394341, 
                         369021520, 
+                        579581125, 
+                        923394341, 
+                        364257176, 
                         304158842, 
-                        914453825, 
-                        364183644
+                        364183644, 
+                        444519360
                     ], 
                     "title": "Top Free iPad News Apps"
                 }, 
@@ -43,19 +43,19 @@
                     "ids": [
                         438875956, 
                         331786748, 
-                        923187241, 
                         304158842, 
+                        923187241, 
                         352969997, 
                         367623543, 
                         358801284, 
-                        646100661, 
                         579581125, 
-                        498408628, 
+                        646100661, 
                         912592124, 
+                        498408628, 
                         284862083, 
-                        896628003, 
-                        418671597, 
-                        369021520
+                        369021520, 
+                        784982356, 
+                        418671597
                     ], 
                     "title": "Top Free iPhone News Apps"
                 }
@@ -202,7 +202,7 @@
             "pageDetails": "NPR_NPR News", 
             "pageId": "324906251", 
             "language": "1", 
-            "serverInstance": "2125273", 
+            "serverInstance": "615237", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
@@ -425,10 +425,10 @@
                     "releaseDate": "2009-08-15", 
                     "artistId": 324906254, 
                     "userRating": {
-                        "ratingCountCurrentVersion": 186, 
+                        "ratingCountCurrentVersion": 191, 
                         "valueCurrentVersion": 4, 
                         "value": 3.5, 
-                        "ratingCount": 57543
+                        "ratingCount": 57547
                     }, 
                     "artistUrl": "https://itunes.apple.com/us/artist/npr/id324906254?mt=8", 
                     "itunesNotes": null, 
@@ -513,7 +513,7 @@
                             "height": 240
                         }, 
                         {
-                            "url": "http://a4.mzstatic.com/us/r30/Purple1/v4/1e/34/29/1e3429f7-2734-6b95-68ef-a7abd0f5193a/icon1024x1024.png", 
+                            "url": "http://a3.mzstatic.com/us/r30/Purple1/v4/1e/34/29/1e3429f7-2734-6b95-68ef-a7abd0f5193a/icon1024x1024.jpeg", 
                             "width": 1024, 
                             "height": 1024
                         }, 
@@ -523,12 +523,12 @@
                             "height": 440
                         }, 
                         {
-                            "url": "http://a3.mzstatic.com/us/r30/Purple1/v4/1e/34/29/1e3429f7-2734-6b95-68ef-a7abd0f5193a/icon220x220.png", 
+                            "url": "http://a3.mzstatic.com/us/r30/Purple1/v4/1e/34/29/1e3429f7-2734-6b95-68ef-a7abd0f5193a/icon220x220.jpeg", 
                             "width": 220, 
                             "height": 220
                         }, 
                         {
-                            "url": "http://a3.mzstatic.com/us/r30/Purple1/v4/1e/34/29/1e3429f7-2734-6b95-68ef-a7abd0f5193a/icon400x400.png", 
+                            "url": "http://a1.mzstatic.com/us/r30/Purple1/v4/1e/34/29/1e3429f7-2734-6b95-68ef-a7abd0f5193a/icon400x400.jpeg", 
                             "width": 400, 
                             "height": 400
                         }, 
@@ -1082,7 +1082,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "2125273", 
+        "ITSServerInstance": "615237", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 

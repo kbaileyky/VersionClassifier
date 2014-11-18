@@ -24,17 +24,17 @@
                         597251953, 
                         378080432, 
                         542557212, 
-                        415378623, 
                         364734296, 
+                        468607901, 
+                        415378623, 
                         395985060, 
-                        453213960, 
-                        600093661, 
-                        921024054, 
-                        356971775, 
-                        539466818, 
                         483281737, 
-                        869502447, 
-                        563273711
+                        453213960, 
+                        316789453, 
+                        921024054, 
+                        379351586, 
+                        310295776, 
+                        600093661
                     ], 
                     "title": "Top Grossing iPad Books Apps"
                 }, 
@@ -42,18 +42,18 @@
                     "ids": [
                         378080432, 
                         444553118, 
-                        395985060, 
-                        597251953, 
                         542557212, 
-                        364734296, 
-                        672803850, 
-                        401153476, 
-                        869502447, 
                         310295776, 
-                        435873883, 
-                        415378623, 
+                        869502447, 
                         483281737, 
-                        534174796
+                        597251953, 
+                        395985060, 
+                        364734296, 
+                        401153476, 
+                        664973122, 
+                        389029534, 
+                        622718965, 
+                        435873883
                     ], 
                     "title": "Top Grossing iPhone Books Apps"
                 }
@@ -210,10 +210,6 @@
             ], 
             "addOns": [
                 {
-                    "price": "$3.99", 
-                    "name": "Avengers & X-Men: Axis (2014) #4"
-                }, 
-                {
                     "price": "$1.99", 
                     "name": "Civil War #1"
                 }, 
@@ -222,8 +218,8 @@
                     "name": "Avengers vs. X-Men (2012) #1"
                 }, 
                 {
-                    "price": "$4.99", 
-                    "name": "Amazing Spider-Man (2014) #9"
+                    "price": "$3.99", 
+                    "name": "Avengers & X-Men: Axis (2014) #4"
                 }, 
                 {
                     "price": "$1.99", 
@@ -248,6 +244,10 @@
                 {
                     "price": "$1.99", 
                     "name": "Civil War #5"
+                }, 
+                {
+                    "price": "$1.99", 
+                    "name": "Civil War #7"
                 }
             ], 
             "id": 350027738
@@ -256,11 +256,11 @@
             "pageDetails": "Marvel Entertainment_Marvel Comics", 
             "pageId": "350027738", 
             "language": "1", 
-            "serverInstance": "1003303", 
+            "serverInstance": "2125004", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
-            "environmentDataCenter": "NWK", 
+            "environmentDataCenter": "ST11", 
             "pageType": "Software", 
             "platformName": "iTunes12", 
             "page": "Software_350027738"
@@ -479,10 +479,10 @@
                     "releaseDate": "2010-04-01", 
                     "artistId": 350027742, 
                     "userRating": {
-                        "ratingCountCurrentVersion": 23, 
+                        "ratingCountCurrentVersion": 24, 
                         "valueCurrentVersion": 2.5, 
                         "value": 3.5, 
-                        "ratingCount": 40853
+                        "ratingCount": 40857
                     }, 
                     "artistUrl": "https://itunes.apple.com/us/artist/marvel-entertainment/id350027742?mt=8", 
                     "itunesNotes": null, 
@@ -598,7 +598,7 @@
                             "height": 440
                         }, 
                         {
-                            "url": "http://a3.mzstatic.com/us/r30/Purple5/v4/bf/fa/f9/bffaf97b-1dc6-1634-cfa1-9536d351c125/icon220x220.png", 
+                            "url": "http://a5.mzstatic.com/us/r30/Purple5/v4/bf/fa/f9/bffaf97b-1dc6-1634-cfa1-9536d351c125/icon220x220.jpeg", 
                             "width": 220, 
                             "height": 220
                         }, 
@@ -643,7 +643,7 @@
                                     "height": 340
                                 }, 
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/81/b4/51/81b451aa-e4bc-878c-6ee2-643d5c90f406/screen261x261-65.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/81/b4/51/81b451aa-e4bc-878c-6ee2-643d5c90f406/screen261x261-50.jpeg", 
                                     "width": 200, 
                                     "height": 261
                                 }, 
@@ -680,7 +680,7 @@
                                     "height": 340
                                 }, 
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/96/0a/b8/960ab85b-878d-bdac-3d51-1be5f03a92bd/screen261x261-65.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/96/0a/b8/960ab85b-878d-bdac-3d51-1be5f03a92bd/screen261x261-50.jpeg", 
                                     "width": 200, 
                                     "height": 261
                                 }, 
@@ -717,7 +717,7 @@
                                     "height": 340
                                 }, 
                                 {
-                                    "url": "http://a5.mzstatic.com/us/r30/Purple1/v4/be/00/4f/be004fc9-71d8-46fb-506a-5cde31e06116/screen261x261-65.jpeg", 
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple1/v4/be/00/4f/be004fc9-71d8-46fb-506a-5cde31e06116/screen261x261-50.jpeg", 
                                     "width": 200, 
                                     "height": 261
                                 }, 
@@ -739,7 +739,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/f6/b6/71/f6b671d4-44aa-1891-6cef-f4e31b530403/screen261x261-65.jpeg", 
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/f6/b6/71/f6b671d4-44aa-1891-6cef-f4e31b530403/screen261x261-50.jpeg", 
                                     "width": 261, 
                                     "height": 191
                                 }, 
@@ -764,12 +764,12 @@
                                     "height": 561
                                 }, 
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/f6/b6/71/f6b671d4-44aa-1891-6cef-f4e31b530403/screen420x420.jpeg", 
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/f6/b6/71/f6b671d4-44aa-1891-6cef-f4e31b530403/screen420x316.jpeg", 
                                     "width": 420, 
                                     "height": 307
                                 }, 
                                 {
-                                    "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/f6/b6/71/f6b671d4-44aa-1891-6cef-f4e31b530403/screen420x316.jpeg", 
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/f6/b6/71/f6b671d4-44aa-1891-6cef-f4e31b530403/screen420x420.jpeg", 
                                     "width": 420, 
                                     "height": 307
                                 }
@@ -791,7 +791,7 @@
                                     "height": 340
                                 }, 
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/dc/97/9d/dc979dca-836d-5cb6-b989-fd4c3b1d88a7/screen261x261-65.jpeg", 
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/dc/97/9d/dc979dca-836d-5cb6-b989-fd4c3b1d88a7/screen261x261-50.jpeg", 
                                     "width": 200, 
                                     "height": 261
                                 }, 
@@ -1221,7 +1221,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "1003303", 
+        "ITSServerInstance": "2125004", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
@@ -1251,7 +1251,7 @@
                 "platformId": "28", 
                 "storeFront": "143441", 
                 "storeFrontHeader": "143441-1,28", 
-                "environmentDataCenter": "NWK", 
+                "environmentDataCenter": "ST11", 
                 "platformName": "iTunes12"
             }, 
             "postFrequency": 60000, 

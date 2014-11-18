@@ -1,0 +1,1417 @@
+Pixelmator 3.2.1 (Released on September 11, 2014) View in Mac App Store
+Technology Improvements
+• Migrated to OpenGL Core Profile, so that we can access all of the latest GPU features and have a more streamlined API, with more control over the rendering pipeline.
+• Improved the rendering process with IOSurface technology.
+Other Fixes and Improvements
+• Improved the Paint Selection Tool’s performance when working on large images.
+• Improved the performance of the Reflection style preview.
+• Improved German localization.
+• Resolved some glitches with the Clone Stamp Tool.
+• All Pixelmator brushes now import correctly.
+• The Smudge Tool now paints correctly when using custom brushes.
+• Fixed an issue where the shadow style does not apply on a shape layer.
+• Fixed an issue where the shape layer appears incorrectly when dropped into a locked group.
+• The gradient style no longer loses its settings when one shape is moved into the shape composition.
+• Fixed an issue where newly created shape layers are unmovable.
+• You can now export a text layer from the Layers palette more than once.
+• Fixed an issue where pasted layers are positioned incorrectly.
+• The Paint Bucket’s and Magic Eraser’s tolerance circles now appear correctly in Full Screen mode.
+• Addressed an issue where the Info bar displayed settings incorrectly.
+• You can now export images in WebP format when quality is set to maximum.
+• You will no longer be able to increase an image’s size to more than a maximum allowed size.
+• Images imported from other apps are no longer transparent.
+• Addressed an issue where a disk almost full error appears on systems with plenty of free space left.
+• Fixed major memory leak issue.
+Stability and reliability
+Fixes related to stability and reliability, including issues that could cause Pixelmator to quit unexpectedly in these situations:
+• When transforming small images.
+• When using the Hue effect, in some cases.
+• When editing the line shape.
+
+Pixelmator 3.2 Sandstone (Released on May 22, 2014)
+New Features
+• All-new Repair Tool: Redeveloped from the inside out, the new Repair Tool is built on breakthrough technology that enables removing unwanted objects or image imperfections with an unsurpassed level of quality and precision.
+• 16-bits per channel support: 16-bits per channel support offers the flexibility to make color adjustments that go to extreme lengths while keeping the image color rich and vibrant. Read more here.
+• Lock Layers: When creating large and complex compositions, layer locking makes it easy to protect layer content from any further changes so that you can freely edit the rest of your composition.
+• Convert Selection into Shape: A handy new feature that lets you quickly and easily create all kinds of shapes from any selection.
+User Interface Improvements and Fixes
+• New Repair Tool options available in the Tool Options bar via Action pop-up menu: 
+    • Quick – To remove small objects like dust, blemishes and others.
+    • Standard – To remove larger image areas in a clear background.
+    • Advanced – To remove larger image areas with more complicated background.
+• The new Diameter slider for the Repair Tool in the Tool Options bar makes it easier to change the brush tip size.
+• A new Color Depth dialog to convert images to 16-bits or 8-bits per channel color depth is available from the Image menu.
+• A new option to display bits per channel information in the Info Bar is available via the shortcut menu (Control-click the Info Bar).
+• Keyboard shortcut “/” is now assigned to the lock layers feature instead of locking layer transparency.
+• Fixed Tools palette animations that appear when it’s being customized.
+• The Welcome window no longer appears with other palettes.
+• The Info Bar now updates correctly after restoring an image to its previous version.
+• Fixed an issue where images containing text layers with a gradient fill style would open with an incorrect gradient handle position.
+• The Opacity setting is now shown correctly in both the Tool Options bar and the Layers palette when several layers with different opacities are selected.
+• Fixed an issue where the FX icon sometimes would disappear from the Layers palette.
+• Fixed an issue in which the shape mode radio buttons were active when not intended to be.
+Other Improvements and Fixes
+• Improved the performance of the Stroke and Fill layer styles.
+• You can now select layers that are visible through the empty areas of the shape. 
+• You can now load a selection on a shape layer with a clipping mask.
+• The shape anchor points are no longer visible when using other tools.
+• The layer settings no longer change to the default when the document is imported by dragging it into the canvas or layers palette.
+• Image layers no longer disappear when moving a selection.
+• Resolved an issue where shape layers were shown incorrectly after opening an image.
+• Image compositions that contain grouped layers are no longer incorrectly opened.
+• Resolved an issue where the Refine Selection tool would change the selection size incorrectly.
+• When choosing the redo action, the Convert to Pixelmator document dialog now appears in situations where it should.
+• Colored text no longer becomes a single color within a text box in certain situations.
+• Fixed an issue where the Acknowledgments window would change the color of the active color well.
+• Fixed an issue that caused the inability to export certain files to JPG file format.
+• Fixed an issue caused by Exif data that led to an incorrect image rotation after export.
+• Fixed an issue where certain XMP data caused the inability to export images.
+• Resolved an issue where it was not possible to export layers if the layer style was removed before exporting.
+• Resolved an issue where shape compositions would paste incorrectly.
+• Resolved an issue where layers were shown incorrectly after reverting an image to its last saved version.
+• Resolved several issues where shape layers would disappear after using the Crop Tool.
+• Addressed an issue that sometimes would cause graphical corruptions when moving shapes.
+• Working with WebP file format no longer causes graphical corruptions.
+• Reduced the number of Sandbox entitlements, which means that Pixelmator now adheres to sandboxing rulers more strictly.
+• Replaced the deprecated QuickTime framework with an AV foundation that now improves FaceTime camera capturing in Pixelmator.
+• Removed garbage collection support for Automator actions.
+Stability and reliability
+Fixes related to stability and reliability, including the issues that could cause Pixelmator to quit unexpectedly in these situations:
+• When working with the Red Eye Tool or Paint Selection Tool on small images
+• When opening Pixelmator images with many shape layers
+• When moving a selection in a Quick Mask Mode
+• When moving a document window from the retina to external display
+• When transforming grouped layers
+• When moving a complex shape with a dotted outside stroke
+
+Pixelmator 3.1 Marble (Released on January 23, 2014)
+New Features
+• Exclusive new Mac Pro support: Pixelmator 3.1 Marble takes advantage of the new Mac Pro’s incredible power and speed with its dual-GPU support. This means that just about any edit you make, you will experience remarkably smoother and more fluid performance.
+• 16-bit support on the new Mac Pro: Harnessing the power of the Mac Pro’s dual-GPU architecture, we’re now able to support 16-bit per channel images for the first time. You can now edit rich and vibrant images in Pixelmator 3.1 Marble on the new Mac Pro.
+• Order Prints: You can now quickly and easily turn your gorgeous images into stunning, fine-quality prints. With just a few clicks, order Pixelmator images as postcards, notecards, gallery frames, or posters.
+Optimized for the New Mac Pro
+• Both GPUs are used simultaneously when applying effects: one for computing the effect and the other one for composition rendering.
+• 16-bit per channel color images are supported.
+• The image auto saving is computed in the background while image composition is being rendered.
+• Optimizations made for all 4-core, 6-core, 8-core, or 12-core Intel Xeon processors for better zoom out handling and faster bitmap layer duplications.
+• GCD Dispatch I/O technology and PCIe-based flash storage makes opening and exporting high resolution images faster.
+• Increased memory bandwidth is fully utilized for Pixelmator operations.
+Layer Styles Improvements
+• Now, you can select more than one layer with styles and change the opacity of the selected layers all at once.
+• When you move a selection made on layers with styles, the layer style always stays visible, even when you go to another app and back.
+• You can now apply styles on a new layer right after you’ve painted with the Paint Bucket Tool or the Pixel Tool.
+• When converting layers with styles into regular layers, the Opacity setting always stays intact.
+• When you clear layer contents, the layer style icon disappears as well.
+• The Styles palette stays active when you copy layers with styles into a newly created document.
+• You can now change the gradient fill for newly created text or shape layers from the Gradients palette without opening the Styles palette.
+• When you choose a color in the Colors palette, it doesn’t change the color choice in the Styles palette.
+• You can now remove style presets even if you have several layers with styles selected.
+• After you clear a layer style, you can now remove layer style presets.
+Other Improvements
+• Pointillize, Pixelize, Mandala, Concert, City Lights, Color Hatch, X-ray, Infrared, Line Dye, Tracer, Scanner, Newspaper, Neon, ASCII, Blue Print and Projectile effects are now available again.
+• The effects’ rope is now more stable.
+• Improved RAW image file format support.
+• You can now turn off Auto Select on shape layers as well as on the others layers.
+• When you Control-click the selection on an empty layer, you can now choose Refine selection from the shortcut menu.
+• When grouped text layers are duplicated, the text stays visible.
+• When text or shape layers are converted into pixels, the Opacity setting stays intact.
+• Now you can drag a gradient preset to the Finder.
+• Improvements have been made for the outside stroke effect.
+• New layers are no longer added when painting with the Paint Bucket Tool set to 0% of Opacity.
+• Colors are updated in the Fill dialog correctly, whether you choose the dialog from the Menu bar or use the keyboard shortcut.
+• The “Low disk space” message no longer appears when there’s lots of space on the computer.
+• Improved localizations.
+• And other tiny-yet-annoying bugs, random graphical glitches, and crashes have been fixed.
+
+Pixelmator 3.0 FX (Released on October 22, 2013)
+This is the most advanced version of Pixelmator to date, introducing lots of new features and improvements, including the following:
+• Layer Styles: Thanks to non-destructive Layer Styles, creating polished and advanced compositions is now so much simpler, faster, and more enjoyable
+• Liquify Tools: Shape images in multiple ways—slightly twist an element, add an artistic detail, or completely distort an entire image
+• New Image Editing Engine: The new state-of-the-art image editing engine harnesses the full power of the latest OS X technologies making Pixelmator feature rich, yet blistering fast
+• OS X Mavericks support: Tags, Multiple-Displays, App Nap support and more.
+
+Pixelmator 2.2.2 (Released on October 14, 2013)
+Improvements
+• Improved Pixelmator document compression so that when saving to iCloud, images are saved even faster.
+• Now you can apply strokes to empty layers, too.
+• The brush previews show up correctly in the Brushes palette.
+• Sometimes the app would crash when opening, we fixed this.
+• Now the Quality slider works in the “Save copy as” dialog when saving documents in JPG file format.
+• Soft Proofed Pixelmator documents now open correctly.
+• Solved multiple problems with Refine Selection Tool (slider, text value fields, freezes).
+• Fixed the rest of Spanish and French localization mix ups.
+• You can use the text fields in the Levels dialog again.
+• Fixed rare crashes that happened while using the Gradient Tool.
+• Now you can open Pixelmator documents that contain very large shapes.
+• Other improvements and bug fixes. 
+
+Pixelmator 2.2.1 (Released on September 24, 2013)
+New Features
+A completely new Pixelmator file format that uses all of the today’s OS X technologies and makes your image editing even faster and more enjoyable:
+    • 2x faster: It can open and save your Pixelmator documents twice as fast compared with the previous Pixelmator file format.
+    • Saves in background: This means that while you play with your images, Pixelmator automatically saves the changes in the background.
+    • Faster saving to iCloud: The first image file format saves only the edits you make to iCloud instead of saving the whole picture each time. So it takes less time to       save and you have more time to enjoy image editing.
+    • Progress bar: The new Pixelmator file format allows us to show a progress bar with accurate status while opening and saving documents.
+    • Quick Look support: A better Quick Look support that lets you preview your Pixelmator document without even opening it.
+A new checkbox for opening images in their original file format. This means that you can now choose whether to open and save all images in the Pixelmator file format or in their original file format.
+Improvements
+The Effects Browser improvements let you search, preview, and apply effects even more quickly:
+• Quickly open highlighted effects by simply pressing the Return key on your keyboard while using the search field.
+• Each effect has more keywords, so that you can find effects more quickly.
+• The Effects Browser’s thumbnails preview has been improved, so you can get a better idea of what an effect will look like when applied.
+• Better organization of third-party effects. You can now clearly see the line separating built-in effects and third-party effects.
+• Third-party effects now have a tooltip so that you can view the entire title for an effect.
+Effects improvements that give you more flexibility in previewing effects and faster, smoother performance:
+• Now you can zoom in or out, pan, enter Full Screen, enlarge the document window, switch between Pixelmator documents, or open more images–all while applying   an effect or using the Select Color and Refine Selection features.
+• Quickly compare how an image looks with and without the effect by pressing the Option-Command keyboard shortcut.
+• The Clouds effect now generates a new cloud image each time you apply it.
+• Now, you can sharpen images even more with extended values for the Sharpen effect.
+• The Sharpen effect has a better and more accurate preview on zoomed in or out images.
+• The Light and Dark effect’s performance is now twice as fast.
+• The Halo and Sunbeams effect’s preview is now more accurate.
+• The accuracy and performance of the Black and White effect has been greatly improved.
+• The eyedropper precision for the Replace Color and Select Color tools has been improved so that you can select colors more accurately.
+• Improved selection preview for the Replace Color dialog so that you can see what is being colored more clearly.
+• Effects’ rope now performs more smoothly.
+• Improved support for Noise Industries effects.
+Other annoying bug and crash fixes (issues with the quality of resized images, disappearing fonts, language mix ups on Spanish and French localizations, and others).
+
+Pixelmator 2.2 (Released on May 09, 2013)
+New Features
+• Smart Shape Tools: Quickly adjust shapes’ outlines with easy-to-use controls to get just the look you’re after.
+• Custom Shapes palette: Packed with dozens of readily available shapes that are as easy to add as dragging and dropping.
+• Shape Style palette: Effortlessly create more polished, advanced shapes with the new Fill, Stroke Style, Shadow and Inner Shadow features.
+• Smart Move Tool: Knows when you are working with image or shape layers and gives you the options you need at that time.
+• New Paint Selection Tool: The simplest and fastest way to make even challenging selections in your images with just a few brush strokes.
+• New Light Leak Effect: Makes it easy and fun to create stunning, retro-artistically illuminated images from any of your photos.
+
+Pixelmator 2.1.4 (Released on December 14, 2012)
+Improvements
+• Improves Auto Save support
+• Enables layer Auto Select for painting and retouching tools
+• Improves effects’ responsiveness when working with large images
+• Improves Document Window resizing performance
+• Improves Info Bar responsiveness 
+• Improves selections’ snapping accuracy 
+• Improves Adobe Photoshop CS6 brush collections support 
+• Enhances PDF file format support
+• Improves localizations
+Other Issues
+• Resolves an issue that caused an image to disappear while transforming it
+• Resolves an issue that caused the Brushes palette to expand beyond the computer screen when importing large brush collections
+• Addresses a situation where scanned images could not be imported to the application
+• Resolves an issue that caused the selection to snap when the snapping option is disabled with the Command key
+• Resolves an issue that caused the pointer to become inactive when entering the Full Screen mode
+• Resolves an issue that caused the shape line preview to disappear when entering the Full Screen mode
+• Addresses a situation that caused the duplicated document in Full Screen mode to appear in regular mode
+• Addresses a situation where the shared document is not being updated with further edits if it’s shared more than one time without closing the application
+• Resolves an issue that caused the application to become inactive when canceling the Share command to other applications
+• Addresses a situation that prevented users from creating new documents when the clipboard is filled with files from other applications
+• Addresses a situation where images from iPhoto could not be opened from Photo Browser
+• Resolves an issue that caused the Crop Image action to expand images incorrectly
+• Resolves an issue that caused layer opacity to display incorrectly when transforming the layer
+• Addresses a situation where the Info Bar displayed angle information for text and shape layers when moving them
+• Resolves an issue that caused the layer name to change when duplicating a layer mask with the Option-Arrow keyboard shortcut
+• Addresses a situation where the Move Tool’s handles did not update from a layer mask to a layer after the layer mask is deleted
+• Resolves an issue that caused the action tool tip to display incorrect information when undoing the “merge layers” action 
+• Resolves an issue that caused shape layers to disappear after the image is cropped
+• Addresses a situation where the Auto Select layer shortcut displayed layers from other documents
+• Resolves an issue that caused the Polygonal Lasso Tool to snap while drawing
+• Resolves an issue that caused the Pen Tool to snap while drawing 
+• Addresses an issue that prevented a selection from loading on hidden layers
+• Addresses a situation where the Fill command did not show preview with larger images
+• Addresses an issue where the Stroke command did not work when Blending modes are used on layer
+• Resolves an issue that caused the Clone Stamp Tool to leave strokes on other documents in some cases
+• Resolves an issue that caused the Tools palette to disappear in OS X Snow Leopard
+• Resolves an issue that caused the gradient’s slider stops to appear upside down in some cases
+• Resolves an issue that caused the Colors palette to appear along with tools where the colors are not needed
+• Resolves an issue that caused the Quit and Keep Windows menu to be active when New Document dialog is open
+• Resolves an issue that caused a graphical glitch when using the Stroke command on a MacBook Pro with Retina display
+• Resolves an issue that caused an image to disappear when working with a Gradient Tool on Macs with Intel HD 3000 graphics card
+• Resolves an issue that caused the application to quit unexpectedly when changing the layer’s Blending mode from normal to luminosity on Macs with Intel HD 4000 graphics cards
+• Resolves an issue that caused the application to quit unexpectedly when duplicating layers on Macs with Intel HD 4000 graphics cards
+• Resolves an issue that caused the application to quit unexpectedly when corrupted Onyx font is used
+• Addresses an issue that caused the application to quit unexpectedly when opening files that are larger than 32,000 x 32,000 pixels
+• Addresses a situation where the application stops responding when the transform or crop tool bounding box area size is larger than 32,000 x 32,000 pixels
+• Addresses a situation where the application stops responding when reactivated after deactivation
+• Resolves an issue that caused the application to quit unexpectedly in some cases when undoing actions
+• Resolves an issue that caused the application to quit unexpectedly in some cases when using the Eyedropper Tool
+
+Pixelmator 2.1.3 (Released on November 8, 2012)
+New Features
+• Soft Proofing
+• Full sRGB support
+• Full ColorSync support
+• New Color Management dialog look
+• Italian and Spanish languages added
+Color Management Improvements
+• Improved color profile conversion
+• Improved color management for document window by a specific display color profile
+• Improved color management for text and shape layers
+• Improved color management for tool icons, layer and effect thumbnails
+• Improved gradient preset color handling when changing color profiles
+• Improved color profile handling for color well
+• Improved color profile handling for sliced image preview
+• Improved color conversion when using the undo action
+More Improvements
+• Enhanced PSD file format support
+• Improved and updated Automator actions 
+• The selection is restored when the document is closed and re-opened
+• Rulers and Grid settings are saved for each document individually 
+• All of the tool settings are restored when closing and re-opening the application
+• Gamma, Swipe, Box Blur, and Vibrance effects added
+• Improved Hue and Saturation performance
+• Added the ability to quickly reset default colors with the D keyboard shortcut when any of the tools is active 
+• Added the ability to change quickly between the primary and secondary colors with the X keyboard shortcut when any of the tools is active 
+• Added the ability to reset brush collections by pressing the Option key while in the brush preset Action pop-up menu
+• Added the ability to reset gradient presets by pressing the Option key while in the gradient Action pop-up menu 
+• Color well displays colors consistently throughout all tools
+• Updated document window checkerboard for Retina display
+• Localization improvements
+Other Issues
+• Addresses a situation where the file name was displayed incorrectly when exporting files
+• Addresses an issue where load selection did not work with shape layers
+• Addresses a situation that prevented selection from loading on more than one layer
+• Resolves an issue that caused layer to be deselected when loading a selection onto a layer
+• Addresses a situation where Auto Select did not select layers
+• Addresses the inability to enter values in the Layers palette
+• Addresses an issue where the Preserve Transparency menu was selectable for the text and shape layers
+• Resolves an issue that prevented the Tools palette from keeping the active tool intact
+• Addresses an issue where was an ability to select healing areas with the Healing Tool when shape, text, layer group, or no layers were selected
+• Addresses a situation where the Clone Stamp Tool performed incorrectly
+• Resolves an issue that caused flickering when resizing image layers
+• Resolves an issue that caused the Transform Tool to flip shapes and images when not intended
+• Resolves an issue that caused the relative spacing guides to display information incorrectly while the text layer is being transformed
+• Resolves an issue that caused the guide pointer to appear incorrectly when the Place a Guide dialog is visible
+• Addresses an issue where Constrain Proportions worked with the slice’s middle control points incorrectly 
+• Addresses an issue where Constrain Proportions worked when the text layer’s middle control points incorrectly 
+• Resolves an issue that caused Move Tool handles to appear incorrectly when dragging files on the document window 
+• Resolves an issue that caused Move Tool handles to appear incorrectly when all layers are selected in the Layers palette 
+• Resolves an issue where click on canvas with the Move Tool was treated as a move action
+• Addresses an issue that prevented the Crop Tool selection rectangle from being rotated when the application is inactive 
+• Resolves an issue that caused the Crop button for the Crop Tool to be inactive in some cases in the Tool Options bar
+• Resolves an issue that caused the Tool Options bar to be visible when switching to other document windows 
+• Resolves a problem that caused the Tool Options bar for the Type Tool to display information incorrectly
+• Addresses an issue that caused the inactive Clear Slices menu when the Slice Tool is active
+• Resolves an issue that caused action tooltips to appear incorrectly
+• Addresses a situation that prevented deleting document presets from the New Document dialog 
+• Addresses a situation where the image size from Clipboard was used incorrectly in the New Document dialog 
+• Addresses a situation where presets were saved incorrectly after importing
+• Resolves an issue that caused PXM files to open incorrectly from the New Layer dialog 
+• Resolves an issue that caused the Welcome Screen to appear when image size presets are imported
+• Resolves an issue that caused the application to quit unexpectedly when JPEG files are dragged to the document window from the Finder 
+• Resolves an issue that caused the application to quit unexpectedly when closing two untitled documents
+
+Pixelmator 2.1.2 (Released on October 9, 2012)
+• Improved Healing Tool quality.
+
+Pixelmator 2.1.1 (Released on September 18, 2012)
+New Features
+• The all-new Healing Tool brings major performance and quality improvements
+Improvements
+• Improved performance for saving images
+• Improved Undo and Redo performance
+• Improved Quick Look performance
+• Adds the ability to temporarily disable Alignment Guides with the Command key
+• User interface improvements for the Retina display
+• False Color, Mask to Alpha, and Circular Wrap effects added
+Other Issues
+• Resolves a problem that caused the application to stop responding in various situations
+• Resolves a situation where Pixelmator stopped responding after exiting Full Screen
+• Resolves an issue where the application stopped responding when a file stored in iCloud was used on more than one computer at the same time
+• Resolves a problem that caused an incorrect preview of exported PSD files
+• Addresses a situation where imported documents did not keep their original file title intact 
+• Resolves an issue that prevented the Generator group effects from filling a selection
+• Resolves an issue where the Black and White effect did not apply the Grain setting correctly
+• Resolves a situation where the iCloud dialog opened together with unnecessary application elements
+• Addresses an issue that caused a new document window to go inactive
+• Resolves an issue that caused palettes to disappear
+• Resolves an issue that caused problems with Spotlight and OS X Mountain Lion
+• Addresses an issue where the Clone Stamp Tool did not perform correctly on the Retina display
+• Resolves an issue that caused the Type Tool insertion point to disappear
+• Addresses an issue that caused an incorrect thumbnail preview in the Effects Browser
+• Addresses an issue where the pointer on the Retina display appeared incorrectly when an effect’s thumbnail was dragged from the Effects Browser to the canvas 
+• Addresses an issue that caused the effects rope pointer to center incorrectly
+• Addresses an issue that caused incorrect action tooltips to appear when undoing certain effects
+• Resolves an issue that caused flickering for the “Add Text” tooltip on the Retina display
+• Resolves an issue that caused transparent lines to appear within images on the Retina display
+
+Pixelmator 2.1 (Released on August 09, 2012)
+New Features
+• Retina-Ready: Both Pixelmator’s friendly user interface and its powerful image editing engine are now optimized for the Retina display.
+• iCloud: Built right into the app and keeps your Pixelmator work up to date across all your Macs.
+• Effects Browser: The best and the most fun way to browse: instantly preview and quickly apply special effects or add color adjustments to images.
+• New Effects: Use the new Vintage, Miniaturize, Black and White, Rain, and Snow effects.
+• Alignment Guides: Quickly position, align, and evenly distribute objects in your Pixelmator compositions with pinpoint accuracy.
+• OS X Mountain Lion Support: Pixelmator takes full advantage of all the latest and greatest technologies.
+• And much more.
+
+Pixelmator 2.0.5 (Released on June 12, 2012)
+Improvements
+• Improved performance and stability for the following graphics cards:
+Intel GMA 950, Intel GMA X3000, Intel GMA X3100, ATI Radeon HD 2600, and ATI Radeon X1600
+Other issues
+• Resolves an issue that prevented using Pixelmator as an external editor in iPhoto and Aperture
+• Addresses a problem that sometimes caused an inability to save or export files
+• Addresses an issue that allowed images opened from the Photo Browser to be misplaced
+• Fixes a problem that caused different file names to appear in the Save dialog
+• Resolves an issue that caused brush strokes to perform incorrectly when using some brush presets
+• Resolves an issue that caused the Transform constrain proportion option to work incorrectly
+• Fixes an issue that caused incorrect Paste command behavior when using the Clipboard with content from Snapz Pro
+
+Pixelmator 2.0.4 (Released on May 17, 2012)
+Improvements
+• OS X Lion App Sandbox support adds a line of defense for user data
+• Improved workflow for opening documents
+• Minor user interface improvements
+• Info Bar now shows size of the selected layer
+• Localization improvements
+Other issues
+• Fixes an issue that caused a blank document when quitting Pixelmator after importing a PDF file
+• Fixes a problem that caused the user’s choice of Grid visibility options to be unsaved
+• Fixes an issue that caused incorrect document positioning when the application left Full Screen
+• Fixes a situation that caused an inability to tun off the Constrain Proportion option in the Transform feature
+• Fixes a situation where the Smudge Tool painted corrupt image output
+• Fixes an issue that disabled the arrange commands in the Slice Tool action pop-up menu
+• Fixes an issue that caused an inability to enter some numbers in the Export for Web Colors field
+• Fixes a situation where Shape layers were damaged after applying the Convert into Pixels command
+• Fixes an issue that caused an ability to import unsupported files into the program
+• Fixes a situation where an incorrect color was shown in the Gradient Tool toolbar thumbnail
+• Fixes a problem that caused selection content to disappear when documents were closed
+• Fixes a problem that caused layers to disappear after applying the Transform feature
+• Fixes an issue that caused the Welcome Screen to be shown with other palettes
+• Fixes a situation where brushes would become damaged
+• Fixes an issue that caused an inability to create presets with the same name
+• Fixes a problem that caused the angle stepper to function incorrectly when using Transform
+• Fixes a problem that caused an incorrect document size after leaving Full Screen
+• Fixes a problem that caused an incorrect document size when using the Duplicate command
+• Fixes a problem that caused an incorrect document size when Restore was clicked while using Browse All Versions
+• Fixes a problem that caused an inability to ungroup more than one group of layers at a time
+• Fixes a problem that caused two documents to appear on quitting the application while using Browse All Versions
+• Fixes a situation that sometimes caused an inability to use mouse scrolling in a document
+• Fixes a situation where the Gradients palette became unusable
+• Fixes a problem that would cause a document to become inactive
+• Fixes a problem that sometimes caused an inability to change the selected tool in the Tools palette
+• Fixes a problem that caused the program to stop responding when the Duplicate command was chosen during Export
+• Fixes a problem that caused the program to quit unexpectedly when certain PSD files were imported
+• Fixes a problem that caused the program to quit unexpectedly when Export for Web was chosen
+• Fixes a problem that caused the program to quit unexpectedly when certain PXM files were opened
+• Fixes a problem that caused the program to quit unexpectedly when certain Photoshop brushes were imported
+
+Pixelmator 2.0.3 (Released on April 24, 2012)
+Improvements
+• Improves the performance of the Move Tool
+• Edit > Deselect now uses the Command + D shortcut
+• Edit > Duplicate now uses the Command + Shift + D shortcut
+• The Tools palette is now inactive in Export for Web
+• Adds the ability to overwrite slices in Export for Web
+• Adds a new Hand Tool cursor
+• Localization improvements
+Memory leak fixes
+• Fixes a memory leak that occurred when copying a selection or using Duplicate
+• Fixes a memory leak that occurred when drawing shapes
+• Fixes a number of other small memory leaks that occurred when using shapes
+• Fixes a memory leak that occurred when saving PXM files
+• Fixes memory leaks in the Layers thumbnails
+• Fixes memory leaks in the Gradient Tool
+• Fixes memory leaks in Export for Web and the Slice Tool
+• Fixes a memory leak that occurred during Brush Tool cursor generation
+• Addresses a document window memory leak
+Other issues
+• Fixes a situation where performance would degrade over time
+• Fixes a problem that caused corrupt PXM files
+• Fixes a problem that caused an inability to use the Load Selection feature with text layers
+• Fixes an issue that caused different layer positions in the Layers thumbnails
+• Fixes a problem that caused an inability to change TIFF file compression in the Save dialog
+• Fixes a problem that caused an inability to change JPEG quality in the Save dialog
+• Fixes an issue that caused the Welcome Screen to be shown with other floating palettes after Restore / Don’t Restore
+• Fixes a problem that caused an inability to export all slices
+• Fixes a problem that caused an inability to represent PNG Indexed and GIF images automatically in the Export for Web feature
+• Fixes an issue that caused object handles to show when Export for Web was active
+• Fixes an issue that caused colors to revert when a file was exported as WebP
+• Fixes a problem that caused the ability to change shape fill colors in Export for Web
+• Fixes an issue that caused gray edit lines in the Layers palette
+• Fixes an issue that caused missing slices after Quit
+• Fixes an issue that caused incorrect layer positioning in the Layers palette
+• Fixes an issue that caused different PXM file previews to appear when the Export sheet was opened
+• Fixes an issue that caused a white canvas after Export for Web
+• Fixes a problem that caused the ability to enter Export for Web while showing an empty layer title
+• Fixes a situation that caused incorrect titles to be entered in the Slice Tool
+• Fixes a problem that caused an inability to create slices with the same title
+• Fixes a problem that caused an inability to resize text layers
+• Fixes an issue that caused the bounding box to disappear when a text layer was rotated using the Type Tool
+• Fixes a problem that caused an inability to localize presets when the localization was changed
+• Fixes a problem that caused the inability to represent the Export for Web toolbar thumbnail properly
+• Fixes a problem that caused an inability to save PNG Indexed and GIF images when using Export for Web
+• Fixes an issue that caused incorrect file naming when a slice was exported
+• Fixes a situation that caused missing slice names when Pixelmator was inactive
+• Fixes a problem that made it possible to enter text when Export for Web was active
+• Fixes an issue that caused editable control points to appear on a Shape layer when Export for Web was active
+• Fixes a problem that caused changing of a text layer’s color when Export for Web was active
+• Fixes a problem that caused the inability to export slices containing only a few pixels
+• Fixes an issue that caused the label ‘Quality’ to be dimmed in Export for Web
+• Fixes an issue that caused document window flickering when Export for Web was active
+• Fixes a problem that caused the inability to save Export for Web toolbar options after the thumbnail was dragged to the Finder
+• Fixes a problem that resulted in different behaviors from using the Command + Shift + E shortcut and from clicking Share > Export for Web when a slice was created
+• Fixes an issue that caused a black canvas when the Slice Tool was selected
+• Fixes a problem that caused the ability to open an incorrect contextual menu when Export for Web was active
+• Fixes a problem that caused an inability to enter Transform from the Type Tool’s contextual menu
+• Fixes a situation that caused incorrect tool icon positions in the Tools palette
+• Fixes an issue that caused the Welcome Screen to appear on the Desktop when a document was created in Full Screen
+• Fixes an issue that caused the Welcome Screen to appear when a PXM file was opened
+• Fixes a problem that caused LaunchBar to quit unexpectedly
+• Fixes a problem that caused an inability to open PSD files that contained more than 185 layers
+• Fixes a situation that sometimes caused the program to quit unexpectedly when Canvas Size was changed
+• Fixes a situation that sometimes caused the program to quit unexpectedly when opening Pixelmator
+• Fixes an issue that caused the program to quit unexpectedly when a text layer was converted into pixels and Edit > Undo was chosen
+• Fixes an issue that sometimes caused the program to quit unexpectedly when the Photo Browser was open
+• Fixes a situation that caused the program to quit unexpectedly when slice colors were changed
+• Fixes an issue that sometimes caused the program to quit unexpectedly when PXM files were opened
+• Fixes a situation that caused the program to quit unexpectedly when the canvas was zoomed in or out
+• Fixes a situation that caused the program to quit unexpectedly when a large number of layers were created
+• Fixes a problem that caused the program to quit unexpectedly when layers were merged 
+
+Pixelmator 2.0.2 (Released on February 21, 2012)
+Improvements
+• Move Tool improvements
+• Ability to select individual layers in layer groups added
+• Transform mode constrain proportions option improvements
+• Added the ability to duplicate any object by choosing Edit > Duplicate
+• Ability to rotate an object by holding down the Command key and dragging an object handle
+• Ability to drag and drop PXM files into the image input parameters of filters
+• Ability to drag and drop or paste PXM files with preserved layers into a document
+• Ability to drag and drop shape and text layers from the Layers palette to the Finder
+• Ability to drag and drop layers from the Layers palette to other applications
+• Ability to drag and drop images and text from web browsers
+• Ability to drag and drop layers from one document window to another in Full Screen mode
+• Ability to place an image from another application into the center of a document by dragging and dropping while holding down the Shift key
+• Cursor status changes displayed when dragging and dropping
+• Ability to copy and paste image, shape and text layers, and layer groups
+• Ability to copy layers from the document window to other applications
+• Ability to copy and paste any layer from the Layers palette to another document window
+• Disabled the Layers palette contextual menu while Transform is in use
+• Text, shape and layer group offset adjusted after copying and pasting
+• Angle info improvements
+• When Info Bar is shown, information labels will not appear
+• In-App Help updated
+• Localizations improvements
+Bug fixes
+• A bug that caused an incorrect “Convert pixels to selected profile” output
+• A bug that sometimes caused rulers to be partly visible
+• A bug that caused an incorrect scrollbar position in the Manage Presets sheet
+• A bug that caused the OK and Cancel buttons of the Crop Tool to become invisible
+• A bug that caused the Tools palette to disappear
+• A bug that caused different outlines after dragging and dropping shapes into another document
+• A bug that caused a blurred linked layer icon in the Layers palette
+• A bug that disabled the Merge Layers option in the Layers palette contextual menu
+• A bug that caused layer links to disappear after duplicating layers
+• A bug that caused masks to disappear after copying layers to another document
+• A bug that prevented importing more than one image
+• A bug that caused an insertion selection to show in the Layers palette while dragging a document that was not supported
+• A bug that caused masks to disappear when dragging and dropping to other applications
+• A bug that caused the inability to save during Export for Web
+• A bug that caused incorrect behavior of the shadow angle in the Shape Settings palette
+• A bug that caused the “Click to add text” label to become static
+• A bug that caused the “Click an area to define clone source” label to become static
+• A bug that caused outlines to disappear when a text layer that used a small font size was rotated
+• A bug that caused the inability to rotate a layer selection that includes text layers.
+• A bug that sometimes caused the inability to use the Transform constrain proportion option
+• A bug that prevented setting the Transform constrain proportion option for layer groups
+• A bug that caused incorrect updating of the cursor while using Transform
+• A bug that disabled reset functionality in Transform mode
+• A bug that caused the inability to resize text layers together with shape and image layers
+• A bug that prevented dragging and dropping more than one brush into the Brushes palette
+• A bug that caused Desktop flickering when more than one slice was dragged to other applications in the Dock
+• A bug that caused incorrect information in the cursor over the filter image input
+• A bug that caused incorrect layer titles after copying and pasting
+• A bug that caused a flipped question mark button in localizations
+• A bug that sometimes caused the inability to view In-App Help content
+• Removed entries related to the UTI "com.wpg.wpg" from Info.plist
+• Removed entries related to “dpx” from Info.plist
+• A crash that occurred when exporting as TIFF with the color profile set to None
+• A crash that occurred when entering very large values in the Transform angle field
+• A crash that occurred when using large font sizes
+• A crash that sometimes occurred when closing documents
+• A crash that sometimes occurred when exporting for web as GIF or PNG images
+• A crash that sometimes occurred after dragging and dropping a layer to the Finder
+• A crash that sometimes occurred after pasting a text layer
+• A crash that sometimes occurred when changing font size
+• A crash that sometimes occurred during Auto Saving in the Japan localization
+• A freeze that occurred when selecting other tools from the Crop Tool confirmation sheet
+
+Pixelmator 2.0.1 (Released on November 22, 2011)
+New Features
+German, French, and Japanese languages added
+Improvements
+• Better text line height control added
+• Ability to use the Esc key on your keyboard to exit full screen
+• Shape palette settings are now inactive when not required
+• Ability to paste very large portions of text
+• Grouped tools menu now works correctly when used near the border of the screen
+• Document path and name changes in Finder are now immediately updated in the app
+• Shape layer thumbnail now looks better in all instances
+• Minor improvements added to Versions support 
+• Minor user interface improvements added
+• PSD compatibility improvements added
+Bug Fixes
+• A bug that caused the brushes palette to revert to the Abstract collection
+• A bug that sometimes caused the Move Tool Auto Select feature to turn on automatically
+• A bug that sometimes disabled the Revert Document command
+• A bug that sometimes caused the Aperture library not to show up in the Photo Browser
+• A bug that sometimes caused palettes to hide
+• A bug that sometimes caused the chosen tool not to show up in the Tools palette
+• A crash that sometimes occurred in Versions browsing mode
+• A crash that sometimes occurred when opening certain PSD documents
+• A crash that sometimes occurred when using the Export for Web command
+• A crash that sometimes occurred when using the Healing Tool
+• A crash that sometimes occurred when using the Export sheet
+• A crash that sometimes occurred when reverting documents
+• A crash that occurred when opening the Acknowledgments window for the second time in a row
+• A crash that sometimes occurred when duplicating text layers
+• A crash that occurred when applying the Healing tool in a hidden layer
+
+Pixelmator 2.0 (Released on October 27, 2011)
+New Features
+• New look and feel
+• Drawing Tools and Shapes 
+• Healing Tool with Content-aware fill 
+• Smudge, Sponge, Burn, Dodge, Eyedropper, Pixel, and Red Eye Tools 
+• New Type Tool 
+• Complete OS X Lion Support 
+• And much more…
+
+Pixelmator 1.6.8 (Released on July 21, 2011)
+OS X Lion Support
+Improves compatibility with the new Mac OS X 10.7 Lion.
+
+Pixelmator 1.6.5 (Released on February 8, 2011)
+New Features
+• Subtract blending mode
+• Divide blending mode
+Improvements
+• Shortcuts work improved when the brushes editor or the gradients editor is open
+• Minor user interface improvements added
+Bug Fixes
+• A bug that caused Quartz Composer menu item to disappear
+• A bug that caused Preferences and About windows to render incorrectly on non-English localizations
+• A bug that sometimes caused artifacts to appear in the images when processing with older iMacs
+• A bug that caused selections to work improperly when working with dual monitor setup
+• A bug that sometimes caused Show Rulers menu item to disable
+• A bug that caused stroke to work improperly with some GPU cards
+• A bug that caused stroke preserve transparency to be nonfunctional
+• A bug that caused main window to be inactive when using gradient editor
+• A bug that sometimes caused type layer to change its position after saving and reopening document
+• A bug that sometimes caused gradients palette to work improperly when adding a bunch of gradients
+• A crash that sometimes occured when using the Magic Wand Tool on a type layer
+• A crash that sometimes occurred when painting with the Brush Tool
+• A crash that sometimes occurred when closing document
+
+Pixelmator 1.6.4 (Released on January 11, 2011)
+New Features
+• Faster and smoother Gradient Tool
+• Gradient sharing
+• Faster and more precise Selection Tools
+• Faster JPEG compression and decompression (libjpeg-turbo support in other words)
+Improvements
+• Ability to use the space shortcut when using Lasso Tool
+• Ability to use the keyboard shortcuts (Command + Option + Arrow keys) to copy layers or selections
+• Double-click in the gradients editor to add a new gradient color stop
+• Intersect selection mode added
+• Transparent gradient icons are correctly shown in the Gradients palette
+• Ability to use the Option key to draw selections from the center now added
+• Snapping enabled for all Selection Tools
+• Option-click on a gradient thumbnail in the Gradients palette now does not remove the gradient; instead, it is used to duplicate the gradient
+• Option–click-and-drag a brush in the Brushes palette now will duplicate the brush
+• Minor Save for Web improvements
+• Minor memory management improvements added
+• Minor user interface improvements have been added
+Bug Fixes
+• A memory leak in the Magic Wand tool 
+• A bug that caused the eyedropper in the Apple Colors palette to pick an incorrect color outside the application
+• A bug that sometimes caused XCF files not to open
+• A bug that caused the Undo function not to work properly when using the Brush or Pencil tools
+• A bug that caused the Last Filter command not to work properly after using the Fill command
+• A bug that sometimes caused layer opacity changes after the Deselect command
+• A bug that sometimes caused the type layer icon to appear cropped
+• A bug that caused the inability to use some character symbols to name a layer
+• A bug that caused the inability to change the color of a gradient color stop when double-clicking on it
+• A bug that sometimes caused the gradient angle label to stay on-screen after using a gradient
+• A bug that caused the JPEG-2000 quality slider not to work properly
+• A bug that caused the transparent color wheel to appear in the gradient color stop contextual menu when picking a dark color
+• A bug that sometimes caused layer thumbnails not to update after hiding and showing the Layers palette
+• A bug that caused the inability to choose precise colors for gradient stops
+• A bug that messed up Transform in the Move Tool after choosing the Layer via Copy command
+• A few bugs that caused the inability to precisely move the contents of a selection 
+• A crash that occurred when using some blending modes on a new layer
+• A crash that sometimes occurred when closing some PSD files
+• A crash that occurred when exporting images with background layer opacity set to 0%
+
+Pixelmator 1.6.2 (Released on October 6, 2010)
+New Features
+• WebP image format
+Improvements
+• Check the Updates menu item added to the Pixelmator menu
+Bug Fixes
+• A crash that occurred when clearing the selection using the backspace key
+• A crash that occurred when using the Last Filter command on a type layer
+• A bug that sometimes caused palettes to appear behind the dock
+• A bug that caused Actual Pixels to be inactive in the Hand Tool contextual menu
+
+Pixelmator 1.6.1 (Released on September 28, 2010)
+New Features
+• New, better, and faster Photo Browser
+• Aperture support (via Photo Browser)
+Improvements
+• Stroke results are now much better
+• New Layer sheet now appears in the window instead of in the Layers palette
+• The Export for Web button now works in the Slice tool options palette even if there are no slice settings
+• The Send to Flickr file format has been changed to JPEG so that EXIF information is preserved
+• The Export for Web button in the Slice tool options palette now works even if no slices are present
+• Minor user interface improvements have been added
+Bug Fixes
+• A bug that caused Actual Pixels to be inactive in the Zoom Tool contextual menu
+• A bug that caused the "nil colorUsingColorSpace" message to appear in the console
+• A bug that caused type layers to move to the right after the crop command was used
+• A bug that caused Quartz Composer filters to work incorrectly with large images
+• Export for Web permission problem fixed
+• A bug that sometimes caused painting tools to work incorrectly
+• A memory leak when opening images
+• A bug that caused 40-pixels images to appear incorrectly
+• A bug that caused the Slice tool and Export for Web to work incorrectly after turning layers on and off in layer groups
+• A bug that caused the grid to fail to appear when Guides were disabled
+
+Pixelmator 1.6 Nucleus (Released on July 13, 2010)
+New Features
+• Major performance improvements
+• 64-Bit support
+• Layer Groups
+• Send to Flickr, Picasa, and Facebook
+• Import directly from cameras, scanners, multifunction devices, and devices such as iPhone and iPad
+• New transforming tools
+• New printing engine
+• Trim Images and Watermark Images Automator Actions
+• Deeper Mac OS X 10.6 Snow Leopard integration
+Improvements
+• Open Recent button added to the Welcome Screen
+• iSight support improved
+• Ruler performance improved
+• Progress bar added when saving larger files
+• Edit in Quick Mask mode added to the Edit menu
+• Alpha pixels are now properly supported by clipping masks
+• New cursors for Hand and Zoom tools added
+• Ability to reset pallete locations by pressing Command + Shift + R added
+• Gradient pallete is now separated from Brushes palette and can be shown or hidden by pressing the Command + 4 keyboard shortcut
+• Layers palette contextual menu improved
+• Appearance of type layer thumbnails improved
+• License menu item will not appear if the application is already licensed
+• Fit Images Automator action now includes the ability to proportionally scale images
+• German, French, and Japanese localizations updated
+• Minor user interface improvements added
+• Help in-app documentation updated
+Corrected Bugs
+• A bug that caused incorrect palettes size and position
+• A bug that caused Eyedropper to move by 1 pixel when picking color
+• A bug that caused Gradients palette not to resize when gradients removed
+• A bug that caused the Hand tool not to work correctly after Tab shortcut is pressed
+• A bug that sometimes caused some palettes to disappear
+• A bug that sometimes caused objects to disappear when using Distort transform
+• A bug that caused filters not to load after using the Replace Color function
+• A bug that caused Clipping Mask to work incorrectly after editing layer’s mask
+• A bug that caused clipping layers not to show up after the main layer is hidden
+
+Pixelmator 1.5.1 (Released on February 11, 2010)
+New Features
+• Brushes collections
+Improvements
+• Once launched, the app will ask whether to move itself directly to the Applications folder (thanks for inspiration on this to Potion Factory’s The Hit List and Delicious Library from Delicious Monster).
+• Old Automator Resize Images action is replaced by new Fit Images and Crop Images actions.
+• Untitled document numeration is now according to Apple HIG.
+• You can now drag the Welcome screen by clicking anywhere on it.
+• It is now possible to Quit, Hide, or to use the Show All command when the Welcome screen is launched.
+• You can change the background color of the work area by right-clicking on an area outside the canvas and choosing white, grey, or black. 
+• Dock menu now includes New from Clipboard command.
+• All the app’s localizations have been updated.
+• A newly created document does not show that it is unsaved on window close button (according to Apple Human Interface Guidelines).
+• Disabled checkboxes have been added to UI.
+• A beep has been removed when you are choosing a color from Apple Color Picker Developer palette.
+• Automator actions are now compatible with Snow Leopard.
+• Pixelmator now works properly as an external editor for iPhoto.
+• Clipboard content is now pasted into the center of the viewable canvas area.
+• Guide tooltips are now count-based on the ruler’s zero origin.
+• Minor Undo improvements (especially for when you are painting) have been made.
+• When opening larger size images than the screen image will accommodate fit in window.
+• PXM file format now preserves EXIF, IPTC, and other original metadata.
+• Some unnecessary console logs have been removed.
+• Layer linking is now preserved when exporting to PSD.
+• Minor user interface improvements have been added.
+• Help documentation has been updated.
+Corrected Bugs
+• A bug that sometimes caused ruler measurements to show incorrectly
+• A bug that caused borderless printing not to work correctly
+• A bug that caused rulers to flicker when you are drawing with the tablet
+• A bug that caused some anomalies in the canvas area when the app is launched with the Clone Stamp tool selected
+• A bug that caused issues when in full-screen mode, but with two images open 
+• A bug that caused commas and dots not allowed for Image Size width, height, and resolution fields
+• A bug that sometimes caused incorrect percentages to show in Image Size sheet
+• A bug that caused the Brushes contextual menu to use an inappropriate amount of CPU power
+• A bug that sometimes caused an inability to drag and drop photos from Photo Browser
+• Clone Stamp’s Sample All Layers feature now works properly
+• A crash that occurred when you were using Developer color palette in Apple Color Picker within the Fill command
+• A possible crash that could happen when closing documents
+
+Pixelmator 1.5 Spider (Released on September 8, 2009)
+New Features
+• Save for Web
+• Slice Tool
+• Trim
+• Reveal All command
+• Info Labels indicate: elliptical and rectangular selection size; Magic Eraser, Magic Wand, Paint Bucket tolerance level; Eyedropper color (when clicked and dragged); Crop, slice, and transformation dimensions; Gradient tool angle and radius; and guide position
+• New File Info sheet
+• New Export sheet
+• New Image Size sheet
+• New Canvas Size sheet
+• Send to Mail and iPhoto
+• Italian language
+• Web Colors plug-in for Apple Color Picker (automatically installed on launch of Pixelmator 1.5)
+• Mac OS X Snow Leopard support
+Improvements
+• PSD, PDF, layered TIFF, and images from iPhoto Library will now open as new documents 
+• Double-clicking a Painting tool opens the Brushes palette
+• Double-clicking Gradient tool opens the Gradients palette
+• Edit menu bar items are enabled when entering a license code
+• Welcome screen improved
+• Creator type is now set for PXM documents only
+• German, French, and Spanish localizations updated
+• Minor user interface improvements added
+• Help documentation updated
+Corrected Bugs
+• A bug that caused incorrect Levels and Curves histogram when layer opacity is lower than 100%
+• A crash that occurred when opening some TIFF documents
+• A crash that occurred when printing some small images
+
+Pixelmator 1.4.1 (Released on April 21, 2009)
+New Features
+• Noise filter (Filter > Stylize > Noise)
+Improvements
+• Free transform quality improved
+• Image Size tool quality improved
+• Hue and Saturation tool quality improved
+• Memory management improved
+• Snapping enabled for crop and type tools, as well as when dragging guides
+• International keyboard support improved
+• Gaussian Blur slider is now less sensitive
+• Third-party core image units support improved
+• Minor user experience improvements
+• Help documentation
+Corrected Bugs
+• A bug that caused palettes to be in a hidden state after the Tab key was pressed before quitting the application
+• An error that caused some values to be incorrect when copying HEX color using the Eyedropper tool
+• A bug that sometimes caused an incorrect ruler alignment
+• A bug that sometimes caused an incorrect cursor to appear when using the Spacebar + Command shortcut
+• A bug that sometimes caused cursor flickering
+• A bug that caused incorrect brush shape to appear when creating it from images with transparent areas
+• A bug that caused the Clouds filter to work incorrectly when using it with more than one document at the same time
+• Tool icon in the Tools palette would not change when temporarily switching to it
+• A bug that sometimes caused the Brushes Editor sheet not to appear
+• A bug that wouldn’t allow the user to quit the application when Brushes Editor was shown
+• A bug that caused the Pencil tool not to work at all on PowerPC Macs
+• A bug that caused incompatibility issues when opening PXM documents, which has layers with masks in it, on a PowerPC Mac
+• A crash that occurred when opening GIMP (.xcf) documents
+• A crash that sometimes occurred when preparing to print a document
+• A crash that sometimes occurred when using click-and-drag tools
+
+Pixelmator 1.4 Sprinkle (Released on February 19, 2009)
+New Features
+• New painting engine
+• New brush settings:
+    • Scatter, flow, follow direction, size jitter, stroke jitter, angle jitter, opacity jitter, hue jitter, saturation jitter, lightness jitter
+• Ability to control diameter, flow, and scatter by graphics tablet pressure and tracking speed
+• New brush presets
+• Adobe Photoshop brushes support
+• Save brushes by dragging and dropping them onto the desktop
+• Load brushes by dragging and dropping them onto the application window or Brushes palette
+• Arrange brushes in Brushes palette
+• Document presets
+• Clouds filter (Filter > Generator > Clouds...)
+Improvements
+• Painting tools gained performance improvements
+• Painting tools are now more precise
+• Painting tools cursor shows the shape of selected brush
+• Painting tools brush size limit increased to 1000 pixels
+• Painting tools contextual menu includes brush diameter and hardness settings
+• Setting the source for Clone Stamp tool is improved
+• Double-clicking any of the painting tools will show the Brushes editor
+• Shift-click with any of the painting tools will draw a straight line
+• Improvements to Eyedropper tool
+• Hue and Saturation tool performance
+• Minor improvements to ColorSync support
+• Size of the application DMG package is reduced to 25MB (from 62MB)
+• Levels shortcut is changed to Command + L
+• Curves shortcut is changed to Command + K
+• Minor welcome screen improvements
+• Minor user interface improvements
+Corrected bugs
+• A bug that sometimes caused grid to be shown incorrectly
+• A bug that sometimes caused ruler ticks not to redraw correctly
+• A bug that caused “undo” to work incorrectly after moving and copying layer mask
+• A memory leak that sometimes caused filters to work slowly
+
+Pixelmator 1.3.3 (Released on February 4, 2009)
+Improvements
+• Backspace key now deletes layer if there is no selection
+• Levels and Curves histogram is more precise
+• Crop Tool center point will not appear if the area is too small
+• Command + J will now duplicate type layer
+Corrected Bugs
+• Locked layer state turned off after use of transform tools
+• Linked layers did not link when duplicated
+• Layer linking sometimes behaved incorrectly when editing layer mask
+• Text box did not appear if no layer selection was available
+• Undo did not work properly after merging several linked layers
+• Layer visibility state was not “remembered” after duplication
+• PDF files with multiple pages sometimes showed problems after being opened
+• The document was renamed after dragging a layer with the same name onto Finder from the Layers palette
+• Application sometimes beeped after the cropping of an image and moving the Layers palette around
+• Crash occurred when cropping completely transparent image
+• Crash occurred when dropping unsupported files onto image window
+
+Pixelmator 1.3.2 (Released on December 18, 2008)
+New Features
+• Select Color (Range) Tool
+• Japanese localization
+Improvements
+• Eyedropper allows users to choose a color from an image in the Select Color and Replace Color tools
+• Levels and Curves histogram
+• Type Tool improvements
+• Type Tool blinker now looks nicer at various zoom levels
+• Type layer selecting using Type Tool
+• Type Tool support for specific OpenType symbols
+• Type Tool shadow
+• German, French, and Spanish localizations
+• Help documentation
+Corrected Bugs
+• A bug that caused the menubar not to appear in full-screen mode
+• A bug that sometimes caused filters to show incorrect previews
+• A crash that occurred when loading the type layer as a selection
+• A crash that occurred when copying a selection when no layer is selected
+• A crash that occurred when quitting the application after using the transform tools
+• A crash that occurred when closing the document window when the About window is open
+
+Pixelmator 1.3.1 (Released on November 26, 2008)
+New Features
+• New Color Management sheet
+• New Refine Selection Tool
+Improvements
+• ColorSync support for painting tools
+• Performance after accepting filters or adjustments
+• Performance of click-and-drag tools 
+• iSight support
+• Smart palette hide
+• Action tooltips
+• Tiger compatibility
+• PowerPC support (Copy/paste color issue)
+• PSD compatibility
+• Canvas Size will now work properly when changing size by one pixel
+• Type tool
+• Move Tool auto-select function now works properly after rasterizing a type layer
+• Type Tool now remembers align setting when typing
+• It is now possible to format type layer when it’s mask is selected
+• When using Type Tool on an empty layer, the layer is converted to a type layer
+• It is now possible to move a type layer using keyboard arrows
+• Cursor improvements when working with a type layer
+• Check Spelling & Grammar support improved
+• Character Palette support improved
+• Minor Type Tool UI improvements
+• Type align improved
+• Type Tool when in Quick Mask mode improved
+• Selecting type layer using the Type Tool is more precise now
+• Option + Backspace fills a type layer text with the foreground color
+• Command + Backspace fills a type layer text with the background color
+• French language support
+• Help documentation
+Corrected Bugs
+• Replace Color did not work properly on hidden layers
+• Problems with transforming a selection 
+• Some tools would not enlarge an image by one pixel
+• Profile was assigned even when no profile was selected
+• Eyedropper and Color Panel Picker selecting the incorrect color
+• Inability to use the Eyedropper Tool when working with two displays
+• Some older PXM files did not open in version 1.3
+• A Welcome Screen crash that sometimes occurred when launching the application
+• A crash that occurred when choosing color in Quartz Composer filters
+• A crash that occurred when closing windows or switching apps when the Type Tool was selected
+• A crash that occurred when switching to the Eyedropper Tool
+• A crash that occurred when closing a document in Tiger
+
+Pixelmator 1.3 Tempo (Released on November 11, 2008)
+Major Performance Improvements Added...
+• Overall UI responsiveness
+• Opening and saving images
+• Zooming in and out
+• Adjustment tools used when working with large images
+• Filters utilized when working with large images
+• Transform tools used when working with large images
+• Fullscreen mode
+• Rulers
+• Selection tools
+New Features Added...
+• Magic Eraser (a.k.a. Instant Alpha, click-and-drag tool)
+• Magic Wand (now a click-and-drag tool with an anti-aliasing ability)
+• Paint Bucket (now a click-and-drag tool with an anti-aliasing ability)
+• New Hue and Saturation
+• New Replace Color
+• New Colorize
+• Better Stroke with live preview
+• Smart palette hide
+• Action tooltips
+• French and Spanish languages
+Improvements Made To...
+• Cursor updating
+• Zoom preview in all zoom levels (smoother)
+• Zoom in/out algorithms in fullscreen mode
+• Pixelmator license for multiple accounts and network users
+• Serial number field
+• Stroke anti-aliasing
+• Overall Type tool functionality
+• Ability to draw text box
+• Type layer name will match the layer content
+• Double-click on Type layer will select the Type tool and type layer content
+• Contextual menu for Type tool added
+• Type tool cursors
+• Ability to drag Type layer onto desktop
+• Ability to edit type layer’s content without selecting content
+• Text size in points understands image dpi
+• Hand tool performance when working in fullscreen mode
+• Ruler units changes in Preferences (immediately accepted for rulers)
+• Layer and Photo Browser palettes (will now save their position after application restart)
+• View menu (now active when using Transform tools)
+• Layer thumbnail redrawing (now faster)
+• Foreground or background color (will not change when changing color in filters or adjustments)
+• Ability not to assign any profile to an image
+• Levels and Curves histogram
+• Moving guides
+• iSight support (higher resolution capturing is now possible)
+• Main window transparency
+• Fill palette
+• PXM compression
+• PSD compatibility
+• User Interface (minor)
+• Help documentation
+• Many, many more tiny improvements
+Bugs Corrected That Caused...
+• Inaccurate Curves and Color Balance previews on some MacBooks and MacBook Airs
+• Blinking cursors
+• Inability to drag a layer after using constrained crop
+• Incorrect window focus when using modal palettes
+• Beeps after Tab shortcut is pressed
+• Problems with layer mask linking
+• Auto Select working incorrectly when using the Cmd shortcut
+• Temporary content removal when using the Move tool
+• Eyedropper Tool Options palette going crazy in some situations
+• Inability to move layers using keyboard shortcuts
+• White transparent checkerboard appearing after making a clipping mask
+• Spot color and Spot light filter problems
+• A crash sometimes occurring when using New Layer from the iSight feature if iSight is unavailable
+• Other tiny bug fixes
+Keyboard Shortcuts Added...
+• Shift + Move tool will cause a straight move
+• Esc or Enter (keypad) will commit Type tool changes
+
+Pixelmator 1.2.3 (Released on September 2, 2008)
+New Features Added...
+• Ability to move or duplicate (via Option) layer mask to another layer
+Bugs Corrected That Caused...
+• Type tool problems with comma and dot symbols
+• Transform tools to work incorrectly when layer opacity is lower than 100%
+• Document window and View menu to be inactive when using the Crop tool
+• Document window focus problems with palette sheets (edit brush, edit layer, edit mask)
+• Incorrect layer mask appearance when layer is moved to another document
+• Incorrect type layer handling when transforming
+• Quartz Composer filters not to work with smaller than 16x16 images
+• A crash that occurred when using the Last Filter command on type layer
+• A crash that occurred when merging hidden layers
+• A crash that sometimes occurred when switching between the Move and Hand tools in full screen mode
+Improvements Made To...
+• Move tool
+• Crop tool
+• Transform tools
+• Fill function
+• Rulers when working in full screen
+• Performance of Eyedropper tool options palette
+• Gradient tool when working in full screen mode
+• Scrolling in layer palette
+• Image Size and Canvas Size
+• Serial number sheet
+• Quick Mask mode when using the Move tool
+• Rectangular selection tool when drawing selection outside the canvas
+• Help documentation
+Keyboard Shortcuts Added...
+• Images will be centered when dragging from Finder or Photo Browser with Shift pressed
+• Duplicate: Layer Command + J
+• Fill Layer: Shift + Backspace
+• Fill Layer: Foreground Color Option + Backspace
+• Fill Layer: Background Color Command + Backspace
+• Fill Non-Transparent Pixels of Layer: Background Color Command + Shift + Backspace
+• Fill Non-Transparent Pixels of Layer: Foreground Color Option + Shift + Backspace
+• Command: Click on a Layer Mask to Load Selection
+• Cycle through Brushes: < > 
+• Minimize All Windows: Command + Option + M
+
+Pixelmator 1.2.2 (Released on July 24, 2008)
+New features added...
+• Live Gradient tool...
+• Now works with two clicks
+• Its icon in the Tools palette now shows the selected gradient
+• Now paints a straight or 45° line if Shift is pressed
+• Its contextual menu allows users to choose gradients quickly
+• Users can now transform the selection border (via Contextual Menu > Transform Selection)
+• The Hue/Saturation tool now includes improved hue settings
+Bug Corrected That Caused...
+• Export feature problems with permissions
+• Automator not saving workflow settings
+• Crashing in gradients with more than 20 color stops
+• Reset button not working correctly in the Gradient editor
+• Window focus disappearing after editing the gradient
+• Incorrect alignment of layer mask after using Canvas Size
+• Minor problems with accepting transform changes
+• Incorrect cursor showing when dragging the selection using the Lasso tool
+• Wrong transform tools view after using Crop
+• Print problems in German localization
+Problems Fixed...
+• Natural sorting of photos in the Photo Browser
+• Software Update window relocation
+• More precise Transform tools 
+• OSX-style Window Zoom button behavior 
+• German localization improvements
+• Removal of SVG file format support (due to incompatibility problems)
+Improvements Made To...
+• Tiff compatibility
+• Move and Crop tool icons (now more visible)
+• The Gradient editor (When creating a new gradient in the Gradients palette, the Gradient editor will show the settings of any selected gradient instead of the white gradient)
+• Gradient thumbnails
+• User interface (minor improvements)
+• Help documentation
+Keyboard Shortcuts added...
+• Cycle through gradients [ ]
+• Cycle through gradient types < >
+• Preserve layer transparency /
+• Cycle through blending modes Shift + +/-
+• Select all Layers Shift + Option + A
+• Hide other layers Option + Click on layer checkbox
+• Merge layers and paste as a copy in a new layer Command + Option + E
+• Create a new layer instantly Command + Option + Shift + N
+• Select top layer Option + .
+• Select next layer Option + ]
+• Select previous layer Option + [
+• Select bottom layer Option + ,
+
+Pixelmator 1.2.1 (Released on June 5, 2008)
+Bugs Corrected that Caused…
+• some of the Quartz Composer filters to show incorrect preview
+• selection inaccuracy sometimes when moving selected objects
+• the message “Your startup disk is almost full” to appear
+• printing problems after the dpi is increased
+• the picture to appear in an incorrect position after dragging it to the canvas area from the Photo Browser
+• selection-jumping problems when transforming selection after using the Magic Wand tool
+• adjustments or filters to be added to the wrong portion of an image for awhile after moving selection
+• selection not to rotate 90° or 180°
+• Flip function not to work with selection
+• Last Filter command not to work after using Quartz Composer-based filter
+• Photo Browser to show Aperture 2 items as folders (no Aperture support yet)
+• palettes to appear white on some PowerPC-based Macs
+• incorrect opacity setting when choosing black from Scratch palette
+• transform controls not to be shown after launching application with Move tool selected
+• palettes to disappear after changing display’s resolution
+• selection to jump after transforming it in zoomed-out view
+• content changes after transforming selection outside canvas
+• an incorrect result after using Transform, Rotate, and then Scale tools
+Problems Fixed…
+• A crash that sometimes occurred when saving relatively large images
+• Clone Stamp changing its position after mouse release
+• Print Help button not working
+• Console message with use of some transform tools that said “***-[NSCFDictionarysetObject:forKey:]:attempt to insert nil value (key:delegate)”
+• Beep notice when transforming empty selection 
+• Transform constrain proportions not working correctly
+• Stability problems caused by transform tools after trying to Quit application
+• Help Button in PDF open panel not working correctly
+Improvements Made To…
+• TIFF compatibility
+• PSD compatibility
+• PXM
+• User interface (minor)
+• Performance (minor)
+• Transform (minor)
+• Automator actions
+• Type tool icon (to be more visible)
+• Motion Blur performance
+• Transform tools snapping
+• Layers (When adding a layer mask to layer, if there is a selection active, that selection will now be used as a mask.)
+• Transformed selection (double-click will now accept any changes).
+• Undo/Redo now works with Add/Remove/Hide Guide.
+• Saving an image to a folder that is read-only (Alert message will be shown when saving an image)
+• Rope Tool (when used with Quartz-Composer-based filters)
+• Tab shortcut now works properly
+
+Pixelmator 1.2 Draftsman (Released on May 12, 2008)
+• Rulers, Guides, Grid, and Snap added
+• Curves Tool added
+• Color Balance Tool added
+• Auto Enhance Tool replaced the Auto Levels, Auto Colors, and Auto Contrast tools
+• Polygonal Lasso Tool added to Lasso tool (use L shortcut to switch between polygonal and simple lasso)
+• Automator actions (except Change Type of Images and Transform Images) have been rewritten from scratch
+• Transform tool has been rewritten from scratch for precision and stability
+• Free Transform tool now available in Edit menu (or via Command + F keyboard shortcut)
+• New Help documentation has been added
+• Show Transform Controls option has been added to Move tool in Tool Options palette
+• Tool type has been added to Lasso tool in Tool Options palette
+• Rulers preferences have been added and include default units for rulers, ability to choose guides color, grid color, grid settings
+• Rulers contextual menu (right-click on ruler) includes New Guide..., Show/Hide Guides, Lock/Unlock Guides, Clear Guides, Show/Hide Grid, Snap To, and Ruler Units menu items
+• Transform palette now includes width, height, angle, cancel, and OK
+• Free Transform menu item added to selection tools contextual menu
+• Rectangular Marquee Tool is now precise
+• The transparency of palettes has been reduced
+• Blur has been added behind palettes
+• A bug that sometimes caused a layer to disappear in PXM has been fixed
+• A bug that caused layer mask not to sync with layer after file was saved in PXM format has been fixed
+• A bug that caused Undo to work incorrectly after duplicating layer has been fixed
+• A crash that occurred when launching Photo Browser on some PowerPC-based Macs has been fixed
+• A crash that sometimes occurred when deleting selection with Backspace key has been fixed
+• A crash that sometimes occurred when inverting selection outside of canvas has been fixed
+• A bug that caused application to stay active after Quit command has been fixed
+• As a result of Quick Look crash issues, .mat, .yuv and .pdb file extensions were removed from the Quick Look plug-in
+• PSD compatibility improved
+• It is now possible to click on text near buttons in Welcome screen
+• Minor Levels histogram improvements have been added
+• Minor user interface improvements have been implemented
+• Minor performance improvements have been made
+
+Pixelmator 1.1.4 (Released on March 20, 2008)
+• Added new and more visible cursors for tools
+• Added a feature that allows choosing exact pages via Cover Flow when opening PDF document (Leopard only)
+• Contextual menu for Eyedropper is now available and includes the ability to choose Point Sample, 3 by 3 Average, 5 by 5 Average, 11 by 11 Average, and Copy Color as HEX
+• When using Brush, Pencil, Paint Bucket, or Gradient tools with Option pressed, the selected tool will temporarily switch to Eyedropper
+• Option shortcut added to Eyedropper to change background color instead of foreground color
+• Eyedropper Tool Options palette is updated
+• Eyedropper bug with different ColorSync profiles is fixed
+• Major color management improvements have been added
+• Any painting tool now paints a straight line if shift is pressed
+• Bugs that caused color shifting in Levels, Colorize, Replace Color, Channel Mixer, Hue/Saturation, Exposure, Threshold, and Posterize are now fixed
+• A bug that caused incorrect results when painting with brush with Color Burn blending mode has been fixed
+• Bugs that caused color or position shifting in some filters have been fixed
+• Blending Modes quality improved
+• A bug that caused Fill to show incorrect preview when “preserve transparency” is enabled has been fixed
+• A bug that caused Motion Blur to add an undesired line to image is fixed
+• A console message that when using some color filters said "Exception raised during posting of notification. Ignored. exception: '*** -[CIColor initWithNSColor:]" has been fixed
+• A console message ("Exception raised during posting of notification. Ignored. exception: '*** -blueComponent not defined") that appeared when matching color profiles has been fixed
+• A bug that caused Auto select layer to turn on when switching applications has been fixed
+• A bug that caused an inability to move selection after using the Magic Wand tool has been fixed
+• A bug that caused mask content to disappear after moving selection has been fixed
+• A bug that caused selection to change its position after using Quick Mask and Gaussian Blur has been fixed
+• Default Crop tool mode is changed from hide to delete 
+• A bug that caused Crop tool to select incorrect size has been fixed
+• Selection crop area now clips to canvas
+• A bug that sometimes caused an active layer to be deleted after switching tools has been fixed
+• A bug that caused Type layer not to submit any changes after leaving the type cursor active has been fixed
+• A Quick Look console message that said "quicklookd[10856] Cannot find factory" has been fixed
+• A bug that caused incorrect sizing when pasting from the clipboard has been fixed
+• When Save dialog is active, Tab key will not hide palettes 
+• A bug that caused some temporary files to stay in the root directory has been fixed
+• A bug that saved large temporary "Undo" files on the hard drive has been fixed
+• A crash that occurred when deleting a layer from the Layers palette by highlighting it and pressing Delete on the keyboard has been fixed (Tiger issue only)
+• A crash that occurred when opening PSD files with vector mask has been fixed
+• A crash that occurred when backspace is pressed repeatedly has been fixed
+• JPEG saving is improved
+• The application will remember last export options, JPEG quality settings, and TIFF compression settings
+• Export to PDF improved
+• Minor PXM improvements
+• PSD compatibility improved
+• Minor TGA improvements
+• Minor user interface improvements have been implemented
+• Minor performance improvements have been made
+
+Pixelmator 1.1.3 (Released on February 20, 2008)
+• It is now possible to constrain crop proportions in the crop tool options palette
+• Crop rotate is available
+• Double-click crop selection accepts crop
+• Crop contextual menu includes crop and cancel menu items
+• Crop tool and option + shift keyboard shortcuts now constrains proportions from center
+• Crop tool and option starts crop selection from center
+• Crop tool now crops layer masks
+• Crop selection center point for crop rotation is available
+• A crop function is added to the selection tools contextual menu
+• Shift + rotate crop rotates the crop selection 15 degrees
+• A bug that caused color shifting with some blending modes when using crop tool is fixed
+• Other minor crop improvements have been implemented
+• Using the move tool contextual menu, one can select any layer that is behind the move cursor
+• Layer mask and linked layers now move together with selected layer when using move arrows on keyboard
+• It is now possible to move the selection content when command key is pressed
+• A bug that appeared after moving the layer with keyboard arrows (document close button was in the unchanged state, and undo would not work) is fixed
+• It is now possible to move layers when using transform tools
+• Thumbnail refresh after moving layer bug is fixed
+• Hand tool works outside the canvas in the full screen mode
+• Double-click hand tool works the same as fit in window
+• Fit in window and actual pixels added to hand tool contextual menu
+• A bug that caused keyboard arrows not to move layers after the selection was removed
+• Zoom selection does not include the area outside the canvas when zooming in
+• A bug that appeared when zooming using keyboard shortcuts (which did not always work) is fixed
+• Zoom tool contextual menu now includes fit in window, actual pixels, zoom in, zoom out
+• Zoom selection animation improved
+• Minor zoom performance improvements
+• Zoom in/zoom out using mouse scroll wheel with option key pressed has been added
+• The precision of zoom slider in tool options palette is improved
+• A bug that caused incorrect size of picture when pasting it from Microsoft Word is fixed
+• Using selection tools option + shift now works as a constrain proportion starting from center
+• Shift constrains proportions independently of which selection mode is chosen
+• A bug that appeared when using shift to constrain proportions (which did not work correctly) is now fixed
+• Contextual menu for selection tools when selection is not available includes select all and reselect
+• A bug that caused the app to behave strangely after opening an image when modal palette was active is now fixed
+• A bug that caused some palettes to stay on desktop after switching the apps with command+ tab is fixed
+• A bug that caused a delay when dragging palettes around the desktop is fixed
+• The app remembers jpeg and tiff quality settings
+• Shift clicking after selecting several layers in layers palette now removes layer selection
+• The app will no longer open malware files that have image file extensions
+• A bug that caused selection focus to disappear when using search in photo browser is fixed
+• Photo browser now shows pxm preview
+• Photo browser now understands exif rotate parameter
+• A bug that caused clone stamp tool to change the color after painting is fixed
+• A delay that occurred when using clone stamp tool close to its source is fixed
+• A bug that caused type layer to have errors when using crop tool is fixed
+• A bug that cased a small memory leak when generating pxm preview is fixed
+• A crash that occurred when using clone stamp tool with larger images is fixed
+• A crash that occurred when using painting tools with selection in quick mask mode is fixed
+• A bug that caused photo browser not to show folder aliases is fixed
+• A bug that allowed the movement from the desktop onto the canvas when using adjustments tools is fixed
+• A crash that occurred when switching to other application when using crop tool is fixed
+• PSD bug with memory fixed
+• JPEG quality settings are now much more precise
+• GIF compatibility improvements have been implemented
+• Minor 10.5.2 compatibility improvements have been made
+• Minor user interface improvements have been implemented
+
+Pixelmator 1.1.2 (Released on January 22, 2008)
+• Fill now works in real-time
+• Minor performance improvements added
+• Contextual menu for selection tools now available
+• Layer via Copy (Contextual menu or Command+J shortcut) added
+• Layer via Cut (Contextual menu or Command+Shift+J) added
+• Selection can now be started from outside the canvas area
+• Selection tools can be started from outside the canvas area when in Full Screen mode
+• Selection cursor is now more precise 
+• Image Size sheet now remembers recently-used measure units
+• Improved window scrolling when using Selection tools
+• Transform > Scale now scales proportionally when Shift key is pressed
+• Double-click when scaling layer now accepts changes
+• Mouse-click on active selection now causes deselect
+• Arrow keys on keyboard can be used to move selection
+• Refine Selection keyboard shortcut changed to Command+Option+R
+• New Image palette now remembers previously-selected units
+• Moving selection content when there is preserved transparency on layer is now possible
+• Selection tool cursors are now active outside canvas area
+• Selection appearance improved when zoomed out 
+• Selection animation appearance improved
+• Strange line when using Lasso tool is now gone
+• Bug that did not allow user to select Selection mode in Tool Options palette is fixed
+• Bug that did not allow selection mode in launched app is fixed
+• Content duplication bug after using Refine Selection is fixed
+• Layer now moves together with selection on that layer
+• Transforming outside the canvas is improved
+• Various Filter Rope improvements
+• Minor interface bug fixes
+• Fill color shifting bug fixed
+• Bug that did not allow fill on empty layer fixed
+• Bug that activated Finder window when mouse-clicked outside the canvas in the Full Screen mode fixed
+• Bug causing Gradient Tool to generate garbage on small images fixed
+• Bug that caused Gradient panel not to update fixed
+• Text shadows are no longer cropped
+• A layer thumbnail refresh bug after rotating canvas is fixed
+• Redrawing bug when moving small selection is fixed
+• A console message that said: "Inconsistent set of values to create NSBitmapImageRep" is fixed
+• A bug that caused inverted Tiff images after saving is fixed
+• Tiff compression now works under 10.5 Leopard
+• A bug that did not allow selection content to be filled when it was moved is fixed
+• A bug that caused Brush to paint behind a moved selection layer is fixed
+• A bug that caused switching to another application and back after a selection was created and using transform tools caused wrong selection content is fixed
+• A bug that caused a strange line to appear when editing Image Size and using Fill is fixed
+• A bug that sometimes did not allow user to add stroke on layer is fixed
+• A crash that occurred when using Clone Stamp tool for a while
+• A crash that occurred when using Levels adjustment when none of layers was selected is fixed
+• A crash that occurred when trying to add custom image to Color Map palette is fixed
+• A crash that occurred when saving some specific resolution images as PXM is fixed
+• A crash that occurred when painting on image of 10x10 pixels in size is fixed
+• A crash that occurred when painting on image after changes in Image Size is fixed
+• A bug that caused crash when switching tools with keyboard shortcuts is fixed
+• Various crashes that have to do with memory are fixed
+• A crash that occurred when trying to use fill without any layer selected is fixed
+
+Pixelmator 1.1.1 (Released on December 18, 2007)
+• German language added.
+• Ability to select anchors and more measurement units added to Canvas Size.
+• It is now possible to scroll the window when using selection tools.
+• Quartz Composer Generator and Transition filters now function correctly.
+• Full Screen mode improvements.
+• Type Tool improvements.
+• GIF bug when saving fixed.
+• Canvas Size bug with undo fixed.
+• Other minor improvements and bug fixes.
+
+Pixelmator 1.1 Kitten (Released on December 6, 2007)
+• Custom Core Image Units support
+• Custom Quartz Composer compositions support (Leopard only)
+• Graphics Tablet support
+• Quick Look plug-in added (Leopard only)
+• More than 18 Core Image-based filters have been added (Leopard only):
+Box Blur, Gamma Adjust, Bump Distortion Linear, Comic Effect, Hexagonal Pixellate, Line Overlay, Spot Color, Spotlight, Eightfold Reflected Tile, Fourfold Reflected Tile, Fourfold Rotated Tile, Fourfold Translated Tile, Glide Reflected Tile, Perspective Tile, Sixfold Reflected Tile, Sixfold Rotated Tile, Twelvefold Reflected Tile, and Bar Swipe Transition.
+• More than 60 Quartz Composer-based filters have been added (Leopard only):
+Bulge, Dent, Light Tunnel, Pinch, Squeeze, Twirl, Fish Eye, Mirror, Stretch, ASCII Art, Blue Print, City Lights, Compound Eye, Concert, Crystallize, Dot Screen, False Color, Film Stock, Glow, Kaleidoscope, Line Overlay, Line Screen, Monochrome, Neon, Pixellate, Pointillize, Posterize, Tracer, Zoom Blur, Black and White, Color Pencil, Comic Book, Pop Art, Sepia, Thermal Camera, X-Ray, Defocus, Fall, Floor, Gradient, Grid, Image Hose, Moving Shapes, Travelator, Wall, Blur, Color Controls, Exposure Adjust, Flip-Flop, Gamma Adjust, Image Resizer, Motion Blur, Sharpen, Color Invert, Copy Machine, Cube, Dissolve, Mask, Mod, Mosaic Flip, Push, Swing, Zoom, and Dissolve.
+• Stroke can now be applied inside, outside, and in the center of the path
+• Stroke drawing improved
+• Core Image memory leak fixed
+• Printing improved
+• JPEG files are now non-progressive when saved
+• PNG support improvements
+• Canvas Size bug in percentage adjustment fixed
+• Eyedropper bugs fixed
+• Other minor Leopard compatibility issues and bug fixes
+
+Pixelmator 1.0.2 (Released on November 10, 2007)
+• Blur and Sharpen tools are now significantly faster
+• Tab shortcut now shows/hides all palettes
+• Gradients tool now works (Leopard issue)
+• Photo Browser bugs fixed (Leopard issue)
+• Problems with filters preview fixed (Leopard issue)
+• 512 and 256 icons added (Leopard issue)
+• Fixed bugs in the Magic Wand tool
+• After Cut and/or Clear Layer thumbnail now updates
+• Problems when moving selection fixed
+• When resizing the whole image layer masks also resize now
+• Fixed bugs when moving type layer
+• Other Type tool bug fixes
+• PSD support improvements
+• PNG support improved
+• IPTC/EXIF informations is now stored when saving files
+• TIFF support improvements
+• Software Update issues fixed
+• Minor Help bugs fixed
+
+Pixelmator 1.0.1 (Released on October 13, 2007)
+• Fixed bugs in the Magick Wand tool
+• Fixed a bug in the text tool that prevented opening saved PXM documents
+• Added support for opening CMYK files
+• Fixed crash with Auto Levels, Levels, and Auto Contrast
+• Changed JPEG file extension to .jpg
+• Resolution information is now properly stored
+• Fixed some minor problems with Photo Browser
+• Text Tool now properly supports undo/redo
+• Fixed text layer duplication bug
+• Fixed crash occurring with Eyedropper tool
+• "Show Fonts" button in text tool now always updates
+• Fixed image resizing bug that introduced black lines around images
+• Popup button in Match to Profile window now properly displays long profile names
+• Photo Browser now properly supports iPhoto 6.0.6
+• Improved PSD files support
+• Improved serial number field for easier entering of serial numbers
+• Pixelmator now opens all RAW file formats supported by Mac OS X
+• Minor stability and performance improvements
+
+Pixelmator 1.0 Firestarter (Released on September 25, 2007)
+Initial release.Pixe

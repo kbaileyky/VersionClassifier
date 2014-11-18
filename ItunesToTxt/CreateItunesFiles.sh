@@ -18,8 +18,8 @@ do
 	name=$(basename $f)
 	shortname=${name%.*}
 	shortname="./RawData/"$shortname".json"
-	echo "Processing ${shortname} file...."	
-	python extractJSON.py $f
+	echo "Processing ${shortname} Json file...."	
+	python extractJSON.py $f "./RawData/"
 done
 
 FILESRAW=./RawData/*
@@ -29,7 +29,7 @@ do
 	name=$(basename $f)
 	shortname=${name%.*}
 	shortname="./CleanData/"$shortname"Clean"
-	echo "Processing ${shortname} file...."	
+	echo "Processing ${shortname} clean file...."	
 	python versionFromJson.python $f $shortname
 done
 

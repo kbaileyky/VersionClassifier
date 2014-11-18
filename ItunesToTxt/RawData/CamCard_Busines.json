@@ -23,20 +23,20 @@
                 "ipad": {
                     "ids": [
                         333710667, 
-                        594704446, 
-                        382509315, 
                         576443892, 
+                        594704446, 
                         780621650, 
                         874776696, 
                         364502063, 
-                        504968354, 
-                        556500145, 
-                        373045717, 
-                        558270538, 
                         317107309, 
-                        918093169, 
-                        364876095, 
-                        428974099
+                        382509315, 
+                        504968354, 
+                        484856077, 
+                        428974099, 
+                        513188658, 
+                        295798315, 
+                        366020849, 
+                        338550388
                     ], 
                     "title": "Top Paid iPad Business Apps"
                 }, 
@@ -45,16 +45,16 @@
                         294934058, 
                         342548956, 
                         333710667, 
-                        556500145, 
                         577499909, 
                         428974099, 
+                        556500145, 
                         335047649, 
                         373045717, 
+                        539943615, 
                         561386772, 
                         437818260, 
-                        307868751, 
-                        382013715, 
-                        395904807, 
+                        498174936, 
+                        576443892, 
                         558160040
                     ], 
                     "title": "Top Paid iPhone Business Apps"
@@ -68,12 +68,12 @@
                 355472887, 
                 509070714, 
                 407952605, 
-                388624839, 
                 395904807, 
+                388624839, 
                 914507252, 
+                407949200, 
                 495613029, 
-                932789487, 
-                407949200
+                932789487
             ], 
             "appRatingsLearnMoreUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/appRatings?cc=us", 
             "versionHistory": [
@@ -209,11 +209,11 @@
             "pageDetails": "IntSig Information Co.,Ltd_CamCard - Business card scanner & Business card reader & scan card", 
             "pageId": "347803339", 
             "language": "1", 
-            "serverInstance": "1013305", 
+            "serverInstance": "2125213", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
-            "environmentDataCenter": "NWK", 
+            "environmentDataCenter": "ST11", 
             "pageType": "Software", 
             "platformName": "iTunes12", 
             "page": "Software_347803339"
@@ -515,7 +515,7 @@
                     "editorialBadgeInfo": null, 
                     "artwork": [
                         {
-                            "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/9e/f1/9b/9ef19b80-f125-f626-57ce-99c32e3c901a/icon240x240.jpeg", 
+                            "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/9e/f1/9b/9ef19b80-f125-f626-57ce-99c32e3c901a/icon240x240.png", 
                             "width": 240, 
                             "height": 240
                         }, 
@@ -525,7 +525,7 @@
                             "height": 1024
                         }, 
                         {
-                            "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/9e/f1/9b/9ef19b80-f125-f626-57ce-99c32e3c901a/icon440x440.png", 
+                            "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/9e/f1/9b/9ef19b80-f125-f626-57ce-99c32e3c901a/icon440x440.jpeg", 
                             "width": 440, 
                             "height": 440
                         }, 
@@ -540,7 +540,7 @@
                             "height": 400
                         }, 
                         {
-                            "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/9e/f1/9b/9ef19b80-f125-f626-57ce-99c32e3c901a/icon512x512.png", 
+                            "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/9e/f1/9b/9ef19b80-f125-f626-57ce-99c32e3c901a/icon512x512.jpeg", 
                             "width": 512, 
                             "height": 512
                         }
@@ -951,7 +951,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "1013305", 
+        "ITSServerInstance": "2125213", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
@@ -981,7 +981,7 @@
                 "platformId": "28", 
                 "storeFront": "143441", 
                 "storeFrontHeader": "143441-1,28", 
-                "environmentDataCenter": "NWK", 
+                "environmentDataCenter": "ST11", 
                 "platformName": "iTunes12"
             }, 
             "postFrequency": 60000, 

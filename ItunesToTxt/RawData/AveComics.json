@@ -25,37 +25,37 @@
                         597251953, 
                         378080432, 
                         542557212, 
-                        415378623, 
                         364734296, 
+                        468607901, 
+                        415378623, 
                         395985060, 
-                        453213960, 
-                        600093661, 
-                        921024054, 
-                        356971775, 
-                        539466818, 
                         483281737, 
-                        869502447, 
-                        563273711
+                        453213960, 
+                        316789453, 
+                        921024054, 
+                        379351586, 
+                        310295776, 
+                        600093661
                     ], 
                     "title": "Top Grossing iPad Books Apps"
                 }, 
                 "iphone": {
                     "ids": [
-                        350027738, 
                         378080432, 
+                        350027738, 
                         444553118, 
-                        395985060, 
-                        597251953, 
                         542557212, 
-                        364734296, 
-                        672803850, 
-                        401153476, 
-                        869502447, 
                         310295776, 
-                        435873883, 
-                        415378623, 
+                        869502447, 
                         483281737, 
-                        534174796
+                        597251953, 
+                        395985060, 
+                        364734296, 
+                        401153476, 
+                        664973122, 
+                        389029534, 
+                        622718965, 
+                        435873883
                     ], 
                     "title": "Top Grossing iPhone Books Apps"
                 }
@@ -248,7 +248,7 @@
             "pageDetails": "Ave!Comics Production_AveComics", 
             "pageId": "320199225", 
             "language": "1", 
-            "serverInstance": "2125149", 
+            "serverInstance": "2126279", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
@@ -573,7 +573,7 @@
                     "editorialBadgeInfo": null, 
                     "artwork": [
                         {
-                            "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/20/ec/8b/20ec8bc4-cfe0-61a2-2b9a-570262c1c07e/icon240x240.jpeg", 
+                            "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/20/ec/8b/20ec8bc4-cfe0-61a2-2b9a-570262c1c07e/icon240x240.png", 
                             "width": 240, 
                             "height": 240
                         }, 
@@ -588,7 +588,7 @@
                             "height": 440
                         }, 
                         {
-                            "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/20/ec/8b/20ec8bc4-cfe0-61a2-2b9a-570262c1c07e/icon220x220.png", 
+                            "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/20/ec/8b/20ec8bc4-cfe0-61a2-2b9a-570262c1c07e/icon220x220.jpeg", 
                             "width": 220, 
                             "height": 220
                         }, 
@@ -598,7 +598,7 @@
                             "height": 400
                         }, 
                         {
-                            "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/20/ec/8b/20ec8bc4-cfe0-61a2-2b9a-570262c1c07e/icon512x512.jpeg", 
+                            "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/20/ec/8b/20ec8bc4-cfe0-61a2-2b9a-570262c1c07e/icon512x512.png", 
                             "width": 512, 
                             "height": 512
                         }
@@ -618,7 +618,7 @@
                         "ipad": [
                             [
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple/v4/fd/67/83/fd6783dd-05e2-01d9-9ea4-41b255020fdf/screen261x261-65.jpeg", 
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple/v4/fd/67/83/fd6783dd-05e2-01d9-9ea4-41b255020fdf/screen261x261-50.jpeg", 
                                     "width": 261, 
                                     "height": 196
                                 }, 
@@ -655,7 +655,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple4/v4/03/d1/f0/03d1f0e0-b186-92c0-aa82-77e2c4074a2f/screen261x261-65.jpeg", 
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple4/v4/03/d1/f0/03d1f0e0-b186-92c0-aa82-77e2c4074a2f/screen261x261-50.jpeg", 
                                     "width": 261, 
                                     "height": 196
                                 }, 
@@ -692,7 +692,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple4/v4/2c/b1/0e/2cb10e9a-1221-607f-ecc6-7ff0ae6b0e56/screen261x261-65.jpeg", 
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple4/v4/2c/b1/0e/2cb10e9a-1221-607f-ecc6-7ff0ae6b0e56/screen261x261-50.jpeg", 
                                     "width": 261, 
                                     "height": 196
                                 }, 
@@ -729,7 +729,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple4/v4/00/35/d6/0035d67e-58b5-1e64-2512-660e2b905e9d/screen261x261-65.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple4/v4/00/35/d6/0035d67e-58b5-1e64-2512-660e2b905e9d/screen261x261-50.jpeg", 
                                     "width": 196, 
                                     "height": 261
                                 }, 
@@ -1080,7 +1080,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "2125149", 
+        "ITSServerInstance": "2126279", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 

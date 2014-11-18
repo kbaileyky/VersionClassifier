@@ -1,0 +1,197 @@
+What's New in Version 4.5 Posted Jun 3. 2014
+- Improved algorithm for detecting wake-ups
+- Backup alarm in case you are almost out of battery
+- Several performance improvements
+- Minor bugs and interface fixes
+- Philips HUE light bulb support
+- simulate a natural sunrise to give you an even softer wake-up
+Version 4.4.1 Posted Jan 3. 2014
+- Fixed a bug causing flat sleep graphs for some users.
+- A few fixes for heart rate and activity long term graphs.
+- A fix for time zone error in the long term graphs.
+- A fix for silent notifications: Activate AirPlay support under Settings/Advanced and keep Sleep Cycle in the foreground without locking your phone during the night.
+News in Sleep Cycle 4.4:
+SUPPORT FOR THE M7 CO-PROCESSOR Do you own an iPhone 55? Sleep Cycle will automatically measure your daily physical activity and calculate how it affects your Sleep quality. Includes long term graphs over your daily steps.
+INTEGRATED HEART RATE MONITOR Measure your resting heart rate (RHR) every morning using the camera and flash in your device. The morning heart rate can be used to avoid overtraining, track the results of your basic training and overall health (activate under Settings, i056 and above).
+SUPPORT FOR TIME ZONES
+Sleep Cycle automatically adapts your graphs to the local time zone. Perfect if you travel a lot (will not be applied to your old nights).
+MINOR CHANGES
+- AirPlay support is back let the alarm sound in your external speakers (activate under Settings/Advanced).
+- Major update to Sleepsecure for backing up your entire database or transferring your database to a new device
+- Graphs slightly redesigned and a new app icon without gradient
+- Several other design and stability improvements
+Version 4.4 Posted Dec 27, 2013 We have some really exciting news in Sleep Cycle 4.4:
+SUPPORT FOR THE M7 CO-PROCESSOR Do you own an iPhone 5s? Sleep Cycle will automatically measure your daily physical activity and calculate how it affects your Sleep quality. Includes long term graphs over your daily steps.
+INTEGRATED HEART RATE MONITOR Measure your resting heart rate (RHR) every morning using the camera and flash in your device. The morning heart rate can be used to avoid overtraining, track the results of your basic training and overall health (activate under Settings, i056 and above).
+SUPPORT FOR TIME ZONES Sleep Cycle automatically adapts your graphs to the local time zone. Perfect if you travel a lot (will not be applied to your old nights).
+MINOR CHANGES
+- AirPlay support is back let the alarm sound in your external speakers (activate under Settings/Advanced).
+- Major update to Sleepsecure for backing up your entire database or transferring your database to a new device
+- Graphs slightly redesigned and a new app icon without gradient
+- Several other design and stability improvements
+Version 4.3 Posted Oct 5. 2013
+* Corrected a problem in iOS7 when choosing your own MP3 songs
+- Interface improvements
+* Changed the color of the raw data
+We are investigating Airplay/Bluetooth and notification sound under iOS7, stay tuned!
+Version 4.2.1 Posted Sep 23. 2013
+* Fixed an error showing placeholder texts instead of the real texts
+- New flat icon
+* Automatic adjustment of font size for long words
+* Minor tweaks
+Version 4.2 Posted Sep 13, 2013
+* New iOS 7 design
+* Critical update for full iOS 7 compatibility
+* Performance improvements
+* Various minor bug fixes and improvements
+Version v4.1.1 Posted Mar 23, 2013
+- Fixed an issue with daylight saving time
+- Fixed a "keychain" crash which affected Runkeeper users
+Version 4.1 Posted Dec 12. 2012 iPHONE 5 SUPPORT Enjoy the full screen of the iPhone 5 or the new iPod.
+SLEEP AID Having trouble falling asleep? Sleep Cycle plays carefully selected soothing sounds until you fall asleep.
+WEEKEND MODE Choose weekdays to run Sleep Cycle without alarm
+Other minor changes:
+* Renamed White noise to Sleep aid
+* Added 12 new Sleep aid melodies
+* Added Intelligent and regular mode to the Sleep aid sound duration
+* Added pure white, pink and brownian noise to Sleep aid
+* Smoother fading of the Sleep aid sound
+* Slower increase of volume to maximum level if the user does not wake up
+* At the end of the wake up phase, the phone vibrates on snooze attempts (works only in foreground mode)
+- Airplay and external speakers works again
+* Alarm is not routed from headset / external speaker to the phone speaker anymore
+* Improved the sound quality of all melodies
+* If the users is having more than 20 nights, the landscape graphs are defaulting to All
+* Sleep notes view is automatically updated if the user would leave the view and adjust the Sleep notes under Settings
+- Vibration starts directly when the maximum volume is reached
+* Grey "slide to stop alarm", easier on the eyes in darkness
+* Time zone handling
+Bug fixes:
+* Background stability improved
+* Fixed sound compatibility issues with iOS 6
+* Fixed a rare crash when generating the graph in the morning
+* Several alarm volume / sound bugs fixed
+* Fixed an error with non—existing mp3 songs selected as alarm melody
+- Sleep Cycle remembers where the user is while deleting nights
+Version 4.0.1 Posted Oct 2. 2012 4.0.1:
+* Added Vibration as backup
+- Fixed sound compatibility issues with iOS 6
+4.0:
+SLEEP QUALITY Track the quality of your sleep each night
+FULL BACKGROUND SUPPORT Set your alarm and exit Sleep Cycle — analysis will continue in the background.
+SLEEP NOTES See how events such as drinking coffee, eating too much or having a stressful day affect your sleep quality
+LONG TERM GRAPHS Track your sleep quality over time, see which days of the week you sleep best and much more
+NEW MELODIES 7 new carefully selected wake-up melodies.
+DATA EXPORT Export your sleep data for detailed analysis in, for example, Excel.
+USER INTERFACE Improved and simplified U1.
+PERFORMANCE Vastly improved general performance and graph loading.
+Other new features:
+* Random alarm melody
+* Delete specific nights
+* Wake-up mood — track how you feel each morning
+* Simplified navigation between nights with list view
+* Simplified and improved volume management
+* Statistics view shows best, worst, longest and shortest night
+- Stop alarm without leaving Sleep Cycle
+* Unintentional PM alarm time warning
+* Too little movement warning
+* Low battery warning
+* Turn off various reminders
+* Delete entire database
+* Improved support for headsets
+* Improved saving of alarm time for future sessions
+* Now also available in Japanese, Chinese, Spanish, French, Italian, German and Swedish
+Bug fixes:
+- Fixed issues with Facebook posting
+* Fixed a crash when using your own alarm sound
+- Fixed various wake-up volume issues
+Version 4.0 Posted Sep 20. 2012 New in 4.0:
+SLEEP QUALITY Track the quality of your sleep each night.
+FULL BACKGROUND SUPPORT Set your alarm and exit Sleep Cycle — analysis will continue in the background.
+SLEEP NOTES See how events such as drinking coffee, eating too much or having a stressful day affect your sleep quality.
+LONG TERM GRAPHS Track your sleep quality over time, see which days of the week you sleep best and much more.
+NEW MELODIES 7 new carefully selected wake-up melodies.
+DATA EXPORT Export your sleep data for detailed analysis in, for example, Excel.
+USER INTERFACE Improved and simplified UI.
+PERFORMANCE Vastly improved general performance and graph loading.
+Other new features:
+* Random alarm melody
+* Delete specific nights
+* Wake-up mood — track how you feel each morning
+* Simplified navigation between nights with list view
+* Simplified and improved volume management
+* Statistics view shows best, worst, longest and shortest night
+- Stop alarm without leaving Sleep Cycle
+* Unintentional PM alarm time warning
+* Too little movement warning
+* Low battery warning
+* Turn off various reminders
+* Delete entire database
+* Improved support for headsets
+* Improved saving of alarm time for future sessions
+* Now also available in Japanese, Chinese, Spanish, French, Italian, German and Swedish
+Bug fixes:
+- Fixed issues with Facebook posting
+* Fixed a crash when using your own alarm sound
+- Fixed various wake-up volume issues
+Version 3.0.1 Posted Oct 11. 2011 We are hard at work on the next big update to Sleep Cycle, in the meanwhile here is a minor update that fixes problems with iOS S.
+Version 3.0 Posted Nov 11. 2010
+Major improvements:
++ intelligent snooze
++ adjustable wake up phase length
+anything from 0 minutes (regular alarm clock mode) to 10, 15, 20, 30, 45, 60 and 90 minutes + Sleep Cycle is now up to 5x more sensitive to your movement
+this is great news because better sensitivity means better wake ups
++ no need to recalibrate Sleep Cycle when changing bed, pillow or mattress anymore
++ full support for the iPod touch
++ full iPhone 4 retina resolution support
++ possibility to use music from your iPod library as alarm sound
++ Sleep Cycle no longer mutes music or audiobooks that are playing in the background + no alarm mode
+- use Sleep Cycle to graph your sleep, without using the alarm
+Also improved:
++ added swipe to navigate between graphs
++ added vibration settings ("As Backup", "No vibration", "Only vibrate")
++ more detailed and smoother sleep graphs
++ improved performance
++ screen now fades to black on iPod touches when the device is placed with the glass down
++ advanced accelerometer calibration
+Sleep Cycle needs one or two nights to automatically calibrate to your accelerometer
++ updated graphics for buttons and other UI elements
++ added a regular alarm clock sound in addition to the normal wake up melodies
++ if you shut down Sleep Cycle during the night and start it up again it will continue on the same graph + warning shown on nights that are too short (less than 2.5 hours)
++ warning shown on nights that Sleep Cycle has sensed no or very little movement
++ small gray line below sleep graph to indicate when the alarm window started
++ calculation of average total time is now done in background
++ possibility to log out from Facebook (button in advanced settings)
++ added a default subject line when sharing graph by email
++ removed "dreaming" from graph legend
+we've done a lot of research around this with help from sleep scientists and determined that Sleep Cycle cannot reliably detect when you are in REM sleep
++ fixed bug: fixed problems with non-gregorian calendars (like thai andjapanese calendars)
++ fixed bug: AM/PM being clipped in statistics view
++ fixed bug: navigation arrows in statistics are now always correctly dimmed
++ fixed bug: correct day of week displayed in statistics
++ fixed bug: accelerometer was too sensitive on some devices producing incorrect sleep graphs this is fixed by calibrating to the accelerometer during the first two nights
++ fixed bug: when shutting off the alarm the home-button now works even if the iPhone is covered by a sheet (proximity sensor problem)
++ fixed bug: problem when posting to Facebook when user has changed Facebook password
++ fixed bug: crash when trying to share graph by email and no email accounts where set up
+Version 2.0.2 Posted Feb 24, 2010 Version 2.0.2 is a minor release that fixes several bugs:
+- Graphs not being displayed after 30-50 days (these graphs will show up once you upgrade).
+- Average sleep time is more accurate now.
+- Width of alarm spinner fixed for South Korean users.
+- Corrected various spelling errors.
+- Several other minor fixes.
+Version 2.0 Posted Dec 2, 2009 Sleep Cycle 2.0 is finally out!!
+The big feature in 2.0 is a detailed sleep graph for every night you use Sleep Cycle. Changes
++ Added sleep graph and sleep statistics
++ Steps in the alarm spinner changed from 1 minute to 5
++ Fixed a bug when using Sleep Cycle over a daylight savings change + Fixed a bug when displaying Japanese AM/PM characters
+Version 1.2 Posted sep 18,2009 Version 1.2 is a minor update:
+* added four new wake up melodies
+- added more detailed instructions
+We are happy to announce that we just started working on version 2.0 that will add your most requested features: statistics such as average sleep time and a graph over your sleep cycles each night.
+Version 1.1 Posted Aug 15, 2009 Version 1.1 keeps the phone cool and charged during the night.
+* The screen is now completely turned off when the phone is placed in bed
+- this reduces the heat produced by the phone considerably. The screen is turned off automatically.
+* New placement recommendation that keeps the phone cooler.
+- Vibration is now only used as a back up when the wake-up melody has played for about a minute
+Don't forget to use the new recommended placement!
+Version 1.0 Posted Jul23. 2009

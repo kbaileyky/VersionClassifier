@@ -2,7 +2,7 @@ import re
 import sys
 
 if len(sys.argv) != 5:
-        print "Error: basicRegex <start pattern> <infile> <pattern2> <replace with>"
+        print "Error: basicRegex <start version pattern> <infile> <pattern2> <replace with>"
         print "length = " + str(len(sys.argv))
         sys.exit(2)
 

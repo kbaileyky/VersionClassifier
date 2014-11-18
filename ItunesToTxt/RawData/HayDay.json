@@ -27,17 +27,17 @@
                         529479190, 
                         553834731, 
                         667728512, 
-                        538212549, 
                         485126024, 
                         850417475, 
-                        824318267, 
+                        538212549, 
                         608206510, 
-                        469231420, 
                         486363584, 
                         594843575, 
+                        469231420, 
                         834393815, 
                         479516143, 
-                        572821456
+                        824318267, 
+                        483165745
                     ], 
                     "title": "Top Grossing iPad Games Apps"
                 }, 
@@ -46,17 +46,17 @@
                         529479190, 
                         553834731, 
                         667728512, 
-                        538212549, 
                         850417475, 
-                        563474464, 
+                        538212549, 
                         608206510, 
+                        563474464, 
+                        855627886, 
                         447553564, 
                         672150402, 
                         860822992, 
-                        694876905, 
-                        855627886, 
-                        485126024, 
-                        558823262
+                        479516143, 
+                        834393815, 
+                        572821456
                     ], 
                     "title": "Top Grossing iPhone Games Apps"
                 }
@@ -244,11 +244,11 @@
             "pageDetails": "Supercell_Hay Day", 
             "pageId": "506627515", 
             "language": "1", 
-            "serverInstance": "615291", 
+            "serverInstance": "1014503", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
-            "environmentDataCenter": "ST11", 
+            "environmentDataCenter": "NWK", 
             "pageType": "Software", 
             "platformName": "iTunes12", 
             "page": "Software_506627515"
@@ -467,10 +467,10 @@
                     "releaseDate": "2012-06-21", 
                     "artistId": 488106216, 
                     "userRating": {
-                        "ratingCountCurrentVersion": 9490, 
+                        "ratingCountCurrentVersion": 9844, 
                         "valueCurrentVersion": 4.5, 
                         "value": 4.5, 
-                        "ratingCount": 392216
+                        "ratingCount": 392520
                     }, 
                     "artistUrl": "https://itunes.apple.com/us/artist/supercell/id488106216?mt=8", 
                     "itunesNotes": null, 
@@ -564,7 +564,7 @@
                     }, 
                     "artwork": [
                         {
-                            "url": "http://a3.mzstatic.com/us/r30/Purple5/v4/b0/13/6a/b0136a85-0a3e-47c5-9730-f1ca2817d04f/icon240x240.jpeg", 
+                            "url": "http://a3.mzstatic.com/us/r30/Purple5/v4/b0/13/6a/b0136a85-0a3e-47c5-9730-f1ca2817d04f/icon240x240.png", 
                             "width": 240, 
                             "height": 240
                         }, 
@@ -579,22 +579,22 @@
                             "height": 440
                         }, 
                         {
-                            "url": "http://a1.mzstatic.com/us/r30/Purple5/v4/b0/13/6a/b0136a85-0a3e-47c5-9730-f1ca2817d04f/icon220x220.jpeg", 
+                            "url": "http://a1.mzstatic.com/us/r30/Purple5/v4/b0/13/6a/b0136a85-0a3e-47c5-9730-f1ca2817d04f/icon220x220.png", 
                             "width": 220, 
                             "height": 220
                         }, 
                         {
-                            "url": "http://a1.mzstatic.com/us/r30/Purple5/v4/b0/13/6a/b0136a85-0a3e-47c5-9730-f1ca2817d04f/icon400x400.png", 
+                            "url": "http://a4.mzstatic.com/us/r30/Purple5/v4/b0/13/6a/b0136a85-0a3e-47c5-9730-f1ca2817d04f/icon400x400.jpeg", 
                             "width": 400, 
                             "height": 400
                         }, 
                         {
-                            "url": "http://a4.mzstatic.com/us/r30/Purple5/v4/b0/13/6a/b0136a85-0a3e-47c5-9730-f1ca2817d04f/icon512x512.jpeg", 
+                            "url": "http://a1.mzstatic.com/us/r30/Purple5/v4/b0/13/6a/b0136a85-0a3e-47c5-9730-f1ca2817d04f/icon512x512.png", 
                             "width": 512, 
                             "height": 512
                         }
                     ], 
-                    "requiredCapabilities": "opengles-2 gamekit ", 
+                    "requiredCapabilities": "gamekit opengles-2 ", 
                     "name": "Hay Day", 
                     "kind": "iosSoftware", 
                     "tellAFriendMessageContentsUrl": "https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendEmailBody?cc=us&displayable-kind=11&id=506627515&name=s&type=14", 
@@ -1189,7 +1189,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "615291", 
+        "ITSServerInstance": "1014503", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
@@ -1219,7 +1219,7 @@
                 "platformId": "28", 
                 "storeFront": "143441", 
                 "storeFrontHeader": "143441-1,28", 
-                "environmentDataCenter": "ST11", 
+                "environmentDataCenter": "NWK", 
                 "platformName": "iTunes12"
             }, 
             "postFrequency": 60000, 

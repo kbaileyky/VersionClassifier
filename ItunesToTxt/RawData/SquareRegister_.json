@@ -26,16 +26,16 @@
                         659524331, 
                         607485062, 
                         306273816, 
-                        714464092, 
                         376771144, 
-                        338761996, 
                         698070860, 
-                        363501921, 
-                        898947872, 
                         595563753, 
-                        320659794, 
+                        714464092, 
                         284675296, 
-                        298844386
+                        544633873, 
+                        363501921, 
+                        881415445, 
+                        309735670, 
+                        338761996
                     ], 
                     "title": "Top Free iPad Business Apps"
                 }, 
@@ -44,17 +44,17 @@
                         469337564, 
                         309735670, 
                         514643583, 
-                        444553167, 
                         659503543, 
                         635424128, 
-                        595563753, 
-                        338761996, 
+                        444553167, 
                         881415445, 
+                        595563753, 
+                        333188676, 
                         377672876, 
-                        335023774, 
-                        320659794, 
-                        365399299, 
-                        333188676
+                        544633873, 
+                        886051313, 
+                        376771144, 
+                        406048120
                     ], 
                     "title": "Top Free iPhone Business Apps"
                 }
@@ -196,7 +196,7 @@
             "pageDetails": "Square, Inc._Square Register - Accept Credit Card Payments with Square's Mobile Point of Sale", 
             "pageId": "335393788", 
             "language": "1", 
-            "serverInstance": "1003103", 
+            "serverInstance": "1009201", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
@@ -419,10 +419,10 @@
                     "releaseDate": "2010-04-03", 
                     "artistId": 335393791, 
                     "userRating": {
-                        "ratingCountCurrentVersion": 26, 
+                        "ratingCountCurrentVersion": 28, 
                         "valueCurrentVersion": 3.5, 
                         "value": 3, 
-                        "ratingCount": 14102
+                        "ratingCount": 14105
                     }, 
                     "artistUrl": "https://itunes.apple.com/us/artist/square-inc./id335393791?mt=8", 
                     "itunesNotes": null, 
@@ -528,7 +528,7 @@
                             "height": 400
                         }, 
                         {
-                            "url": "http://a4.mzstatic.com/us/r30/Purple1/v4/dd/d4/63/ddd4636e-94c8-70ef-2236-8d8550dba3a3/icon512x512.jpeg", 
+                            "url": "http://a5.mzstatic.com/us/r30/Purple1/v4/dd/d4/63/ddd4636e-94c8-70ef-2236-8d8550dba3a3/icon512x512.png", 
                             "width": 512, 
                             "height": 512
                         }
@@ -548,7 +548,7 @@
                         "ipad": [
                             [
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple6/v4/07/8b/fb/078bfb63-46c7-bce2-6d4c-aed268f32edb/screen261x261-65.jpeg", 
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple6/v4/07/8b/fb/078bfb63-46c7-bce2-6d4c-aed268f32edb/screen261x261-50.jpeg", 
                                     "width": 261, 
                                     "height": 196
                                 }, 
@@ -568,12 +568,12 @@
                                     "height": 414
                                 }, 
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple6/v4/07/8b/fb/078bfb63-46c7-bce2-6d4c-aed268f32edb/screen420x420.jpeg", 
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple6/v4/07/8b/fb/078bfb63-46c7-bce2-6d4c-aed268f32edb/screen420x316.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple6/v4/07/8b/fb/078bfb63-46c7-bce2-6d4c-aed268f32edb/screen420x316.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple6/v4/07/8b/fb/078bfb63-46c7-bce2-6d4c-aed268f32edb/screen420x420.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
@@ -585,7 +585,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple/v4/f7/95/7b/f7957b55-f3b4-38ec-e47a-a5b186d8fc8f/screen261x261-65.jpeg", 
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple/v4/f7/95/7b/f7957b55-f3b4-38ec-e47a-a5b186d8fc8f/screen261x261-50.jpeg", 
                                     "width": 261, 
                                     "height": 196
                                 }, 
@@ -605,12 +605,12 @@
                                     "height": 414
                                 }, 
                                 {
-                                    "url": "http://a5.mzstatic.com/us/r30/Purple/v4/f7/95/7b/f7957b55-f3b4-38ec-e47a-a5b186d8fc8f/screen420x420.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple/v4/f7/95/7b/f7957b55-f3b4-38ec-e47a-a5b186d8fc8f/screen420x316.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple/v4/f7/95/7b/f7957b55-f3b4-38ec-e47a-a5b186d8fc8f/screen420x316.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple/v4/f7/95/7b/f7957b55-f3b4-38ec-e47a-a5b186d8fc8f/screen420x420.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
@@ -622,7 +622,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple/v4/c9/25/fb/c925fb4b-75c3-422b-185d-218987bc2de3/screen261x261-65.jpeg", 
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple/v4/c9/25/fb/c925fb4b-75c3-422b-185d-218987bc2de3/screen261x261-50.jpeg", 
                                     "width": 261, 
                                     "height": 196
                                 }, 
@@ -642,12 +642,12 @@
                                     "height": 414
                                 }, 
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple/v4/c9/25/fb/c925fb4b-75c3-422b-185d-218987bc2de3/screen420x420.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple/v4/c9/25/fb/c925fb4b-75c3-422b-185d-218987bc2de3/screen420x316.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple/v4/c9/25/fb/c925fb4b-75c3-422b-185d-218987bc2de3/screen420x316.jpeg", 
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple/v4/c9/25/fb/c925fb4b-75c3-422b-185d-218987bc2de3/screen420x420.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
@@ -659,7 +659,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple6/v4/e9/0a/38/e90a38d2-0881-7caf-3a13-de843b73b754/screen261x261-65.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple6/v4/e9/0a/38/e90a38d2-0881-7caf-3a13-de843b73b754/screen261x261-50.jpeg", 
                                     "width": 261, 
                                     "height": 196
                                 }, 
@@ -679,12 +679,12 @@
                                     "height": 414
                                 }, 
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple6/v4/e9/0a/38/e90a38d2-0881-7caf-3a13-de843b73b754/screen420x420.jpeg", 
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple6/v4/e9/0a/38/e90a38d2-0881-7caf-3a13-de843b73b754/screen420x316.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple6/v4/e9/0a/38/e90a38d2-0881-7caf-3a13-de843b73b754/screen420x316.jpeg", 
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple6/v4/e9/0a/38/e90a38d2-0881-7caf-3a13-de843b73b754/screen420x420.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
@@ -696,7 +696,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple/v4/ea/6b/8d/ea6b8d35-af36-90b2-b7f8-cd3158b332a3/screen261x261-65.jpeg", 
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple/v4/ea/6b/8d/ea6b8d35-af36-90b2-b7f8-cd3158b332a3/screen261x261-50.jpeg", 
                                     "width": 261, 
                                     "height": 196
                                 }, 
@@ -716,12 +716,12 @@
                                     "height": 414
                                 }, 
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple/v4/ea/6b/8d/ea6b8d35-af36-90b2-b7f8-cd3158b332a3/screen420x420.jpeg", 
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple/v4/ea/6b/8d/ea6b8d35-af36-90b2-b7f8-cd3158b332a3/screen420x316.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
                                 {
-                                    "url": "http://a4.mzstatic.com/us/r30/Purple/v4/ea/6b/8d/ea6b8d35-af36-90b2-b7f8-cd3158b332a3/screen420x316.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple/v4/ea/6b/8d/ea6b8d35-af36-90b2-b7f8-cd3158b332a3/screen420x420.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
@@ -1116,7 +1116,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "1003103", 
+        "ITSServerInstance": "1009201", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 

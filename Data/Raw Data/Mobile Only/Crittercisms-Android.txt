@@ -1,0 +1,204 @@
+Version 5.1.0 “Release Candidate” (Oct 9, 2014)
+
+Fix: On Kitkat and later, service monitoring caused javax.net.ssl.HttpsURLConnections to fail when connecting to a server with SNI enabled.
+Version 5.0.3 “Stable” (Oct 9, 2014)¶
+
+Introducing Crittercism Transactions API! (please refer to Logging Transactions)
+Added API call to log network endpoints manually. (please refer to Manually Logging Network Requests)
+Fix: Socket-level network errors were not being reported to Crittercism for Service Monitoring.
+Version 4.5.4 (Jul 3, 2014)
+
+Fix: Local services that spawned before Crittercism.initialize() was called would prevent app loads from being reported.
+Fix: Spurious log output appeared in KitKat when enabling service monitoring on initialization.
+Version 4.5.3 (Apr 24, 2014)
+
+Fix: Significant overcounting of app loads for apps that spawn their own service processes.
+Version 4.5.1 (Mar 13, 2014)
+
+Fix: User metadata is now only sent when values change. Previously a bug caused data to be sent on every call to Crittercism.setMetadata()
+Fix: NoSuchAlgorithmException when attempting to generate UUIDs and get MD5 instances while initializing Crittercism. Network monitoring of custom SSL socket factories is disabled for Android versions through Ice Cream Sandwich.
+Version 4.4.0 (Nov 7, 2013)
+
+Fix: Failure to report crashes and exceptions on Nook.
+Version 4.3.0 (Oct 24, 2013)
+
+URLs reported in network statistics are now stripped of query parameters before being reported to Crittercism, unless otherwise specified by the API call CrittercismConfig.setPreserveQueryPatterns(List urlPatterns). (XREF to doc topic)
+Version 4.2.0 (Oct 10, 2013)
+
+Added API call to update most recent location with network or GPS data. (XREF to doc topic)
+Fix: OutOfMemory error that occurred when logging a handled exception under high memory pressure.
+Fix: NullPointerException in network instrumentation.
+Fix: NoSuchAlgorithmException generated from the Crittercism library when creating a UUID.
+Version 4.1.0 (Sep 18, 2013)
+
+Fix: OPTMZ could ignore Crittercism opt-out setting in certain situations.
+Breadcrumbs are now reported for Android NDK crashes.
+Version 4.0.2 (Sep 18, 2013)
+
+Fix: Crash due to certain network responses.
+Fix: Crash due to missing ACCESS_NETWORK_STATE permission.
+Version 4.0.0 (Aug 26, 2013)
+
+OPTMZ network instrumentation for the following Android networking libraries:
+java.net.HttpURLConnection
+java.net.ssl.HttpsURLConnection
+org.apache.http.impl.client.DefaultHttpClient
+Third-party Android libraries that use the above networking libraries.
+HTTP network statistics include:
+URI
+HTTP request method (includes GET, POST, PUT, HEAD, DELETE, TRACE, and CONNECT)
+HTTP status code
+Network latency
+Bytes in
+Bytes out
+Network error reporting for the following conditions:
+Failure to establish connection.
+Server response timeouts.
+Ability to blacklist URLs from being reported to OPTMZ.
+Known issues
+Optmz network monitoring is only be enabled for Android API levels 10 - 18.
+SSL handshake failures are not reported.
+Network statistics are not captured for the Chartboost third-party library.
+Version 3.2.0 (July 1, 2013)
+
+Added API methods for generating and configuring alert dialogs for Rate App Alerts. (XREF to doc topic)
+Added CritterCallback interface for handling data retrieved asynchronously, including opt out status, settings for Rate My App, user UUID, and whether the app crashed in the previous session. (XREF to doc topic)
+Deprecation Notice: The Crittercism.init(Context, String, JSONObject...) method has been deprecated and replaced by Crittercism.initialize(Context, String) and Crittercism.initialize(Context, String, CrittercismConfig). (XREF to Android setup topic)
+Deprecation Notice: The following optional methods have now been deprecated: didCrashOnLastLoad(), getUserUUID(), and getOptOutStatus(). Please use the CritterCallback interface instead. (XREF to doc topic)
+Version 3.1.6 (June 14, 2013)
+
+Fix: Minor bug fixes.
+Version 3.1.5 (June 13, 2013)
+
+Fix: Fixed bug with user metadata, where dictionaries were failing to merge properly.
+Version 3.1.4 (June 11, 2013)
+
+Added a CrittercismConfig object that may be used to configure Crittercism (in lieu of using the old JSONObject). (XREF to doc topic).
+Improved network thread handling.
+Version 3.0.11 (April 5, 2013)
+
+Added option to Crittercism configuration settings to include version code in app version name. (XREF to doc topic).
+Version 3.0.10 (March 26, 2013)
+
+Fix: Fixed bug in which the boolean value indicating whether the app has crashed in the last session was sometimes being reported incorrectly.
+Version 3.0.9 (March 25, 2013)
+
+Fix: Addressed issue with offline data consuming a lot of RAM.
+Version 3.0.8 (February 26, 2013)
+
+Fix: Addressed issue with sending delayed app load data.
+Version 3.0.7 (December 14, 2012)
+
+Fix: Addressed StrictMode violation issues with disk reads and writes.
+Version 3.0.6 (October 30, 2012)
+
+Added method for get user UUID. (XREF to doc topic)
+Version 3.0.5 (October 20, 2012)
+
+Fix: Fixed an issue that could sometimes lead to duplicate reports of app loads, crashes, and exceptions.
+Version 3.0.4 (October 10, 2012)
+
+Fix: Minor bug fixes.
+Version 3.0.3 (September 25, 2012)
+
+Added configuration option for customizing version name. (XREF to doc topic)
+Android NDK:
+Collects memory usage for applications during native crashes.
+Improved directory structure for local storage of native library / crash data.
+Added configuration option on where to place native crash data in the filesystem (nativeDumpPath).
+Version 3.0.2 (August 11, 2012)
+
+Re-enabled logcat collection. (XREF to doc topic)
+Version 3.0.0 (July 13, 2012)
+
+Reduced image size to 40 KB by removing forum, service, and receiver.
+Modified initialization call to accept JSON object with parameters. (XREF to doc topic)
+Fix: Addressed issue in which app would sometimes load more slowly.
+Added functionality to send app load data and receive notifications not immediately after app load, but at some later time. (XREF to doc topic)
+Temporarily removed logcat functionality to resolve issues with building app.
+Version 2.1.7 (June 12, 2012)
+
+Crittercism.init function now returns boolean to indicate whether app crashed on last load.
+Versions 2.1.3 rev 1 and 2.1.6 rev 1 (June 4, 2012)
+
+Modified format of app load data being sent.
+Version 2.1.6 (May 30, 2012)
+
+Increased connection attempt time from 15 seconds to 20 seconds.
+Version 2.1.5 (May 9, 2012)
+
+Off-line app load reporting now supported.
+Fix: Minor bug fixes for a few edge cases where forum page does not load correctly.
+Version 2.1.4 (April 25, 2012)
+
+Added API call to allow developer to see if last session ended with a crash.
+Version 2.1.3 (April 16, 2012)
+
+Added crash-only version of library (no support forum).
+Version 2.1.3 (March 22, 2012)
+
+Fix: Addressed issues with preserving text upon rotating device in forum.
+Fix: Bug fixes.
+Version 2.1.2 (March 7, 2012)
+
+Fix: Addressed a bug with logging handled exceptions.
+Version 2.1.1 (March 4, 2012)
+
+Provided API call to direct compliments to Amazon Marketplace.
+Provided API call to get opt-out statuses of users.
+Fix: Minor bug fixes in forum.
+Version 2.1.0 (March 3, 2012)
+
+Added support for handled exceptions.
+Fix: Resolved minor issue with proguard warnings.
+Version 2.0.1 (February 14, 2012)
+
+Fix: Fixed a font-sizing issue in the forum.
+Fix: Fixed an issue with reloading the forum on device rotation.
+Version 2.0.0 (February 9, 2012)
+
+MAJOR revamping of forum for feedback.
+Fix: Minor fix to improve performance.
+Version 1.3.0 (January 24, 2012)
+
+The Android library now supports breadcrumbs.
+Version 1.2.5 (January 17, 2012)
+
+Cleaned up files and optimized some code.
+Version 1.2.4 (January 12, 2012)
+
+Fix: Minor fix for detecting unique users.
+Version 1.2.3 (January 11, 2012)
+
+Localized a few more strings.
+Version 1.2.2 (January 6, 2012)
+
+Developers can now modify the title for crash notifications.
+Version 1.2.1 (January 5, 2012)
+
+Fix: Fixed minor bug with notifications.
+Version 1.2.0 (January 3, 2012)
+
+CrittercismService is now DISABLED by default.
+Developers can allow users to opt out of Crittercism.
+Version 1.1.2 (December 15, 2011)
+
+Service optional.
+Version 1.1.1 (November 18, 2011)
+
+Fix: App version merge fix.
+Version 1.1.0 (November 18, 2011)
+
+Fix: Fixed backwards compatibility issues, logcat re-enabled.
+Version 1.0.2 (November 8, 2011)
+
+Fix: Version fix.
+Version 1.0.1 (October 27, 2011)
+
+Temporarily disabled logcat output.
+Version 1.0.0 (October 24, 2011)
+
+Offline crashes, more diagnostic data.
+Version 0.82 (October 17, 2011)
+
+Fix: Fixed proguard and app version issue. Improved background thread reporting.

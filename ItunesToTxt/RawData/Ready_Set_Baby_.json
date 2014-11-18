@@ -24,40 +24,40 @@
                 "ipad": {
                     "ids": [
                         581120104, 
-                        924058967, 
-                        591506239, 
                         668598022, 
+                        481109944, 
+                        419021234, 
                         405580816, 
-                        878704422, 
-                        356971775, 
-                        409467802, 
-                        473095033, 
                         310295776, 
-                        442378070, 
                         369859228, 
                         932122201, 
                         398254950, 
-                        419021234
+                        473095033, 
+                        520299922, 
+                        577770847, 
+                        667361209, 
+                        356971775, 
+                        893619699
                     ], 
                     "title": "Top Paid iPad Books Apps"
                 }, 
                 "iphone": {
                     "ids": [
                         444553118, 
-                        311349103, 
-                        573235547, 
                         310295776, 
-                        668598022, 
+                        311349103, 
+                        389029534, 
+                        573235547, 
+                        483281737, 
                         381788004, 
-                        546352307, 
-                        459749670, 
-                        932122201, 
-                        408495176, 
-                        380751745, 
-                        581120104, 
-                        541448401, 
-                        878704422, 
-                        593072972
+                        668598022, 
+                        404199434, 
+                        409467802, 
+                        419020937, 
+                        583672052, 
+                        520299922, 
+                        924058967, 
+                        473095033
                     ], 
                     "title": "Top Paid iPhone Books Apps"
                 }
@@ -123,7 +123,7 @@
             "pageDetails": "Inkling Systems, Inc._Ready, Set, Baby! The Watch and Learn Guide to Your Baby\u2019s First Year", 
             "pageId": "606587469", 
             "language": "1", 
-            "serverInstance": "2125034", 
+            "serverInstance": "2126302", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
@@ -435,27 +435,27 @@
                     "editorialBadgeInfo": null, 
                     "artwork": [
                         {
-                            "url": "http://a1.mzstatic.com/us/r30/Purple/v4/f0/36/da/f036da92-3cbe-237c-7c3b-74f08b27f5ea/icon1024x1024.jpeg", 
+                            "url": "http://a5.mzstatic.com/us/r30/Purple/v4/f0/36/da/f036da92-3cbe-237c-7c3b-74f08b27f5ea/icon1024x1024.png", 
                             "width": 1024, 
                             "height": 1024
                         }, 
                         {
-                            "url": "http://a3.mzstatic.com/us/r30/Purple/v4/f0/36/da/f036da92-3cbe-237c-7c3b-74f08b27f5ea/icon440x440.png", 
+                            "url": "http://a3.mzstatic.com/us/r30/Purple/v4/f0/36/da/f036da92-3cbe-237c-7c3b-74f08b27f5ea/icon440x440.jpeg", 
                             "width": 440, 
                             "height": 440
                         }, 
                         {
-                            "url": "http://a4.mzstatic.com/us/r30/Purple/v4/f0/36/da/f036da92-3cbe-237c-7c3b-74f08b27f5ea/icon220x220.jpeg", 
+                            "url": "http://a4.mzstatic.com/us/r30/Purple/v4/f0/36/da/f036da92-3cbe-237c-7c3b-74f08b27f5ea/icon220x220.png", 
                             "width": 220, 
                             "height": 220
                         }, 
                         {
-                            "url": "http://a2.mzstatic.com/us/r30/Purple/v4/f0/36/da/f036da92-3cbe-237c-7c3b-74f08b27f5ea/icon256x256.jpeg", 
+                            "url": "http://a5.mzstatic.com/us/r30/Purple/v4/f0/36/da/f036da92-3cbe-237c-7c3b-74f08b27f5ea/icon256x256.png", 
                             "width": 256, 
                             "height": 256
                         }, 
                         {
-                            "url": "http://a4.mzstatic.com/us/r30/Purple/v4/f0/36/da/f036da92-3cbe-237c-7c3b-74f08b27f5ea/icon512x512.png", 
+                            "url": "http://a2.mzstatic.com/us/r30/Purple/v4/f0/36/da/f036da92-3cbe-237c-7c3b-74f08b27f5ea/icon512x512.jpeg", 
                             "width": 512, 
                             "height": 512
                         }
@@ -475,7 +475,7 @@
                         "ipad": [
                             [
                                 {
-                                    "url": "http://a5.mzstatic.com/us/r30/Purple4/v4/f0/6e/cc/f06ecc5a-1860-adcb-5bed-e346bff2c16b/screen261x261-50.jpeg", 
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple4/v4/f0/6e/cc/f06ecc5a-1860-adcb-5bed-e346bff2c16b/screen261x261-65.jpeg", 
                                     "width": 261, 
                                     "height": 196
                                 }, 
@@ -507,7 +507,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a5.mzstatic.com/us/r30/Purple4/v4/18/b8/60/18b86086-6c93-2c46-178a-497d46fd08e0/screen261x261-50.jpeg", 
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple4/v4/18/b8/60/18b86086-6c93-2c46-178a-497d46fd08e0/screen261x261-65.jpeg", 
                                     "width": 261, 
                                     "height": 196
                                 }, 
@@ -539,7 +539,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple/v4/67/24/ed/6724ed97-4ff8-3eaf-d3f0-c0eb50c923dc/screen261x261-50.jpeg", 
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple/v4/67/24/ed/6724ed97-4ff8-3eaf-d3f0-c0eb50c923dc/screen261x261-65.jpeg", 
                                     "width": 261, 
                                     "height": 196
                                 }, 
@@ -571,7 +571,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple6/v4/1e/49/b0/1e49b023-bbea-94fc-72c5-a3acc6592094/screen261x261-50.jpeg", 
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple6/v4/1e/49/b0/1e49b023-bbea-94fc-72c5-a3acc6592094/screen261x261-65.jpeg", 
                                     "width": 261, 
                                     "height": 196
                                 }, 
@@ -603,7 +603,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a5.mzstatic.com/us/r30/Purple4/v4/4a/aa/d2/4aaad26a-3757-daa0-69d7-f7d831f758e6/screen261x261-50.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple4/v4/4a/aa/d2/4aaad26a-3757-daa0-69d7-f7d831f758e6/screen261x261-65.jpeg", 
                                     "width": 261, 
                                     "height": 196
                                 }, 
@@ -978,7 +978,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "2125034", 
+        "ITSServerInstance": "2126302", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 

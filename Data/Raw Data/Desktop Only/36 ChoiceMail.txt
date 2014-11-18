@@ -1,0 +1,1132 @@
+Totally 36
+
+December 20th, 2013. ChoiceMail v2014.1
+ChoiceMail v2014.1
+Release Notes - these notes describe changes that apply to ChoiceMail Desktop v2014.1
+
+Bug fixes
+Fixed various minor bugs
+Updates
+Windows compatibility improvements
+
+
+December 3rd, 2012. ChoiceMail v2013.1
+ChoiceMail v2013.1
+Release Notes - these notes describe changes that apply to ChoiceMail Desktop v2013.1
+
+Bug fixes
+Fixed various minor bugs
+Updates
+Windows 8 compatibility
+
+
+October 11th, 2011. ChoiceMail v2012.1
+ChoiceMail v2012.1
+Release Notes - these notes describe changes that apply to ChoiceMail Desktop v2012.1
+
+Bug fixes
+Fixed compatibility issues with latest service packs.
+Fixed compatibility issues with Firefox 7
+Fixed minor documentation issues
+Updates
+Improved the ChoiceMail challenge message sending
+
+
+October 21st, 2009. ChoiceMail v2010.1
+ChoiceMail v2010.1
+Release Notes - these notes describe changes that apply to ChoiceMail Desktop v2010.1
+
+Bug fixes
+Fixed minor issue with date handling.
+Fixed minor documentation issues
+Updates
+Improved the ChoiceMail startup procedures.
+Tested and modified to be compatible with Windows 7 32bit and 64bit
+
+
+July 2nd, 2009. Version 5.300
+July 2nd, 2009
+ChoiceMail v5.300
+Release Notes - these notes describe changes that apply to ChoiceMail Desktop v5.300
+Bug fixes
+Fixed issue where dates in registration information could be wrong.
+Fixed minor documentation issues
+Updates
+Improved the ChoiceMail internal message generation system.
+New Features
+Added option to automatically remove delivery and read receipts from messages before they get into your email application
+
+
+May 8th, 2009. Version 5.200
+May 8th, 2009
+ChoiceMail v5.200
+Release Notes - these notes describe changes that apply to ChoiceMail Desktop v5.200
+Bug fixes
+Fixed issue where forwarding email addresses could be invalid or the lines were automatically added to them.
+Fixed issue where option to email unknown senders list could not be switched off
+
+Updates
+Fixed problem with forwarding where senders were not identified properly. We now use the "Sender:" Header to identiy the sender
+
+
+
+January 23rd, 2009. ChoiceMail Desktop 5.104
+January 23rd, 2009
+ChoiceMail v5.104
+Release Notes - these notes describe changes that apply to ChoiceMail Desktop v5.104
+
+Bug fixes
+Smart Message Forwarding Address Cannot be removed - In ChoiceMail v5.x we introduced a feature where you can forward your good mail to a list of addresses. It seems that under some circumstances you could not later remove those addresses completely from the list. This has been fixed in version 5.104
+
+Release notes file shipped with previous version (5.103) which is accessible directly from ChoiceMail was not updated properly. Now the file is correctly updated.
+
+
+January 15th, 2009. Version 5.103
+January 15th, 2009
+ChoiceMail v5.103
+Release Notes - these notes describe changes that apply to ChoiceMail One v5.103
+
+New Features
+Smart Message Forwarding  - ChoiceMail v5.x can now easily forward your ChoiceMail cleaned mail to your online account. This means that you can now safely get your spam-free mail on your BlackBerry, iPhone or other small device or anywhere where you have a web browser access. The message forwarding that we built into ChoiceMail works differently than message forwarding in your email application. When ChoiceMail forwards a message - you will see the original sender as the sender of the message and if you reply - the reply will go to the correct address of the original sender. Regular message forwarding breaks these rules and forwards messages from you so replying from your phone is actually replying to yourself which is most likely not what you want. Our users requested this feature - we listened!
+Click here to read how to set this up in three easy steps! 
+
+
+Whitelist Exporting built in. ChoiceMail v5.x now has the ability to export your whitelist form the ChoiceMail Admin Control Panel. Just click on User Management, select your username and click the export button. You can backup this file or use it when you move ChoiceMail to a new system. To import your whitelist back - simply select Actions->Import in your ChoiceMail and select the file you exported to.
+
+
+Built in web server . ChoiceMail v5.x contains its own small, but safe web server. This means that you can now access your ChoiceMail using a web browser from anywhere in the house. Anything you could do with your ChoiceMail application can now be done using a web browser. You can also access your ChoiceMail from outside your house provided you have a way to access your computer and set up your firewall/router properly.
+
+
+New skin support. ChoiceMail now support several different skins (including the previous version one). This way you can change the look of your ChoiceMail application with a click of a button. Just look under the "Display" menu.
+
+
+
+February 7th, 2008. Version 4.501
+February 7th, 2008
+ChoiceMail One 4.501
+Release Notes - these notes describe changes that apply to ChoiceMail One v4.501
+
+Updates
+Registration system overhaul - The internal sender registration and verification system has undergone a major change to allow for more scalability and complience with new technologies like SPF (Sender Policy Framework).
+Updated the pre-approval library - the internal pre-approval library responsible for listening for outbound messages has been updated to include some performance improvements and bug fixes.
+
+
+Database optimizations - Internal ChoiceMail database has been improved to offer better performance with large sender lists.
+Internal timeouts increased - The internal timeouts between the ChoiceMail front end and the back end has been slightly increased to account for slower systems with large amounts of data.
+
+Bug Fixes
+Fixed typo on the notification window - There was a typo in the popup notification window when it was displaying the error about server sonnection.
+Fixed summary popup option - Fixed the problem where users were not able to permanently switch off the summary panel on the main window.
+
+
+
+August 16th, 2007. Version 4.203
+August 16th, 2007
+ChoiceMail One 4.203
+Release Notes - these notes describe changes that apply to ChoiceMail One v4.203
+
+New Features
+
+Full Windows Vista compatibility - ChoiceMail One v4.2 is now fully Vista compatible. Main components run as a service in the background and allow several users to use ChoiceMail (if license allows it).
+
+
+Search/Filter functionality extended - Many users asked for the ability to sort unknown senders by recipient or search through by words present in the subject body. ChoiceMail v4.2 includes support for both.
+
+
+Leave mail on server - It is now possible to leave mail on your ISP server for certain amount of time. This feature should only be used with ONE ChoiceMail installation or you may end up sending duplicate challenge messages as well as creating inconsistencies in your mailbox.
+
+
+Support for Windows Mail - ChoiceMail One v4.2 can now recognize Windows Mail accounts and automatically configure them to be used with ChoiceMail.
+
+
+Runs in background - ChoiceMail One v4.2 is comprised of two components now. The main processing component (CMServer.exe) will run in the background even if the ChoiceMail window is closed or users are logged off. This ensures timely identity verification processing for all users as well as lower memory usage.
+
+
+Multi User Support - If license allows it - ChoiceMail can now support multiple users on a single computer. Users will have separate settings and be able to define their email addresses separately.
+
+
+Updates
+
+Better SMTP handling - It is not mandatory to change your outgoing (SMTP) server settings in your email application for Choice Mail's pre-approval feature to work. The new setup wizard will keep your original settings. This solves the problem where messages from different accounts must be sent using different outgoing servers or settings.
+
+
+New look and feel - New user interface. Hopefully we managed to give ChoiceMail pleasing look as well as more functional interface.
+
+
+Help system - New, searchable help system is much easier to use and find relevant information.
+
+
+General operation - ChoiceMail's general operation has been improved and optimized.
+
+
+WebMail Gateway - For users of ChoiceMail 3.x - please note that webmail gateway that was included in some previous versions of ChoiceMail is no longer supporter or distributed by DigiPortal Software. Alternative options are availabe though. Some are described in a knowledge base article please click here to read the article.
+
+
+Bug Fixes
+
+Email processing - Fixed a problem where combination of certain messages and permission rules could result in incorrect rules and mailbox processing.
+
+
+Updater on Vista issue - Fixed a problem where our updater component continually triggered Windows Vista security verifications.
+
+
+Registration popup disappears - Fixed a problem where in some cases registration popup window would disappear immediately after the popup.
+
+
+Reject Sender with Explanation feature - This feature was not working in some instances. Fixed in this release.
+
+
+Coach.exe taking 100% CPU - this was a rare problem on some systems. Coach.exe is not used in this version of ChoiceMail which fixes the issue
+
+
+March 4th, 2005. Version 3.x
+March 4th, 2005
+ChoiceMail 3.x
+Release Notes - these notes describe features that apply to all versions of ChoiceMail except where indicated
+
+
+New features
+Built-in lightweight email client (ChoiceMail One / ChoiceMail Small Business) — It is now possible to send emails directly from within ChoiceMail One or the ChoiceMail Small Business Client. You can create, reply to or forward messages. You can use any of your POP3, alias or virtual email addresses as the FROM address. It's extremely convenient for those quick and dirty emails you need to send out without the bother of starting up your heavyweight email program.
+Virtual email addresses (ChoiceMail One only) — ChoiceMail One now supports the ability to manage more than 5 virtual email addresses. (You can now purchase additional virtual email addresses in blocks of 50 to use with ChoiceMail One)
+Web browser (ChoiceMail Enterprise / ChoiceMail Small Business) — Completely new web browser interface – easier and more efficient navigation.
+Web Browser interface (ChoiceMail Small Business/ChoiceMail Enterprise)— Ability to download attachments directly from the web browser
+Vanity pages (Optional in all versions) — Personalized vanity pages can now be associated with individual email addresses belonging to a user account rather than just one vanity page for the entire user account.
+Built-in customer affiliate system— A great new way for individual customers to spread the word about ChoiceMail and make some money too.
+Logging (CME)— Logging is now available in ChoiceMail Enterprise.
+
+
+Updates
+
+Optimizations— Major overhaul of how email messages are handled – only half as many files will be stored on disk as compared to earlier versions. Retrieval performance is much improved for ChoiceMail One and dramatic improvements occur for ChoiceMail Enterprise when using a database other than the built-in JET system
+Detect registry blockers— The setup wizard can now detect that its attempts to reconfigure email programs failed because the user is running a spyware blocker that is also preventing needed changes to the registry.
+Web Browser interface (ChoiceMail Enterprise/ChoiceMail Small Business)— Display version of ChoiceMail in browser
+Virtual addresses— Virtual addresses are now displayed in sorted order in the online virtual address dialog manager.
+Virtual addresses— Virtual addresses are now displayed in sorted order in the system tray icon menu. You can also invoke the virtual address dialog manager directly from the system tray.
+Interacting with other spam blockers (ChoiceMail Enterprise)— Handle a situation where badly implemented (or misconfigured) spam blockers block ChoiceMail Enterprise from sending emails because ChoiceMail Enterprise (correctly) fails the (incorrectly implemented) attempts of the other spam blocker to validate the legitimacy of the sending domain (sigh).
+Server disconnection— Some POP3 servers disconnect automatically if there’s a long delay without any activity. Added the ability to send periodic signals to the server to let it know that we’re still alive!
+Activity logs and feedback— When copying the activity logs to the clipboard for submission to our online ticket system, basic ChoiceMail configuration is also included to make it easier to diagnose the problem.
+Permission rules— Added (empty) function to test if subject or body is empty
+Process control (ChoiceMail Enterprise)— More ability to prevent ChoiceMail Enterprise from being inappropriately overloaded.
+Filtering disabled— The Accepted-Reason header now indicates WHY filtering is disabled, not just that it IS disabled.
+Setup wizard— Improved ability to recognize configuration changes due to changes by ISP – a number of other misc. improvements as well.
+Sender Info dialog— Eliminated buttons in favor of a menu
+Virtual Email Address dialog— Eliminated buttons in favor of a menu
+Tray icon (ChoiceMail One/ChoiceMail Small Business Client) — Tray icon now tells you how many virtual email addresses you have
+Help system— Context sensitive help is easier to access
+Large system fonts — Dialogs and controls now position themselves better when large system fonts are used.
+General operation— Added checks to prevent users from mistakenly trying to run ChoiceMail directly on their desktop
+Permission rules— Added a default rule to detect Yahoo mailing lists and not respond as those lists don’t follow mailing list standards that ChoiceMail detects automatically.
+
+
+Fixes
+
+AV on exit― Fix to prevent a bizarre problem with thread AV on exit
+Web Browser interface (ChoiceMail Enterprise/ChoiceMail Small Business)― Fixed a bug where certain characters entered into the filter text field could screw up an SQL query
+Setup wizard (ChoiceMail One/ChoiceMail Free)— Now use explicit IP address rather than localhost. This prevents problems that can occur if user installs IPv6 support on their system.
+Installer (ChoiceMail One/ChoiceMail Free)— Fixed a problem where uninstalling could fail if ChoiceMail was installed multiple times.
+Web Browser interface (ChoiceMail Enterprise/ChoiceMail Small Business)― Fixed a bug where the filter field could not always be cleared.
+Web Browser interface (ChoiceMail Enterprise/ChoiceMail Small Business)― Fixed a bug where the FROM address wasn’t always displayed when sending out a new email
+Failed downloading error— Fixed a problem where a notification in a rule could cause an access violation if the message in question did not have a FROM address
+Challenges— Addressed an issue on NT 4 where challenges might not go out
+Challenges (ChoiceMail Small Business)— Fixed a problem where a sender could get multiple challenges
+Administration interface (ChoiceMail Enterprise/ChoiceMail Small Business) Fixed problem where the wrong layout was used for the admin pages in web browser interface
+Permission rules― Fixed a problem where the manual blacklist action was deleting the sender rather than just the message
+Caching (ChoiceMail Small Business)— Fixed problem where some settings were not being cached properly in the ChoiceMail Client
+Email configuration (ChoiceMail Small Business)— Fixed problem where an email address was sometimes not remembered when changed
+ISP changes— Fixed problem where we might not recognize an already configured email addresses properly in the case where the ISP changes servers.
+Junkbox— Fixed problem where messages from the junk box could not be deleted one at a time.
+Permission rules— When using manual checking of whitelist/blacklist, blacklist action was performing a delete sender rather than delete message.
+Memory leaks— Found and squashed a few exotic leaks!
+Domain Address Editor— Fixed a problem where it looked like IP address ranges were disappearing when a new one was added. Also fixed a problem where an invalid range in a region caused the total list to increase each time regions were merged.
+
+
+
+November 19th, 2004. Version 2.66
+November 19th, 2004
+ChoiceMail 2.66
+Release Notes - these notes describe features that apply to all versions of ChoiceMail except where indicated
+
+
+Updates
+Tips- Added more tips.
+Logs- Stop logging "non-error" messages which were confusing people.
+Relaying —(ChoiceMail Enterprise) - Allow connections from explicitly defined IP address ranges to send through mail server
+IP Connection Blocking— (ChoiceMail Enterprise) - Block connections from explicitly defined IP address ranges
+Web interface— (ChoiceMail Enterprise/ChoiceMail Small Business only) - Complete cosmetic overhaul of web-based user interface
+Domain region checking— Improved process for detecting servers contained in message bodies.
+AOL— Update to fix access to AOL mail.
+Automatic login— (ChoiceMail Small Business) — You can store your password in a file called cmpassword.txt in the same folder as the ChoiceMail client. If that file exists, the ChoiceMail client will attempt to login automatically when it starts.
+
+Fixes
+
+Registration— Fixed a problem where responses to registrations could be deleted under some circumstances
+Downloading— Fixed a longstanding problem where ChoiceMail could get delayed for hours downloading and processing a bounced message that contained a very large attachment as well as possibly causing the ISP to disconnect
+Database— Fixed problem where Microsoft JET couldn't handle some fields that didn't have default values.
+Optimizations— Made some more optimizations to speed up ChoiceMail processing.
+Username— Prevented spaces in ChoiceMail's username
+Files— Fixed problem where we weren't always deleting some files.
+Preapproval— Prevent already whitelisted sender from apparently being pre-approved again
+Permission rules- Fixed a problem where an access violation could occur with specially corrupted email messages.
+Junkbox— Fixed bug where alfter applying a filter to the junkbox, the junk box button would only show the count of messages restricted by the filter
+Deleting messages(ChoiceMail Enterprise/ChoiceMail Small Business) — Fixed the problem where messages from domains on the global list could end up directly in the junk box without the reason field set
+Upgrading from ChoiceMail 1.x— Fixed issue where duplicate entries in an old style ini senders file would slow down the importer dramatically.
+Logging (ChoiceMail Enterprise/ChoiceMail Small Business only) — Fixed problem where the logging was not enabled in the service version of CMSB/CME
+
+
+September 9th, 2004. Version 2.61
+September 9th, 2004
+ChoiceMail 2.61
+Release Notes - these notes describe features that apply to all versions of ChoiceMail except where indicated
+
+
+New features
+Product Tour- Added product tour which can be run from the Help menu - a quick way for new users to become familiar with the features in ChoiceMail.
+
+Updates
+
+Headers- Added header for keeping why message was marked as spam inside the message.
+Junkbox- Added the ability to navigate through the list of junk messages by pages like we do on the sender list. This makes access to the junkbox much faster
+Filenames- Fixed a problem where we couldn't save a message if it used a forbidden old-style DOS filename such as CON, LPTx and so forth.
+Address import- The address wizard now defaults to selecting all addresses for possible inclusion.
+CPU 100% usage- Corrected a rare problem where usage could go to 100%
+
+Fixes
+
+Setup wizard— Fixed problem with SMTP port not being correct imported into the setup wizard. Also, when using same credentials as pop3 account and there is only 1 pop3 account, you don't have to pick which one.
+Challenges— Fixed a bug where responses to challenges were being deleted if manual whitelist/blacklist processing was enabled.
+Global permissions (ChoiceMail Enterprise/ChoiceMail Small Business) — Fixed problem where in server versions - global sender lists would be overridden and senders would appear as new again
+Web browser (ChoiceMail Enterprise/ChoiceMail Small Business) — Fixed a problem where an access violation could be triggered when viewing corrupted messages through the web browser. Notification (ChoiceMail Enterprise/ChoiceMail Small Business) — Fixed problem where notification messages would not be forwarded correctly.
+Senders (ChoiceMail Enterprise/ChoiceMail Small Business) — Fixed bug where the wrong sender database record was updated between the local list one and the global list one
+Auto preapproval (ChoiceMail Enterprise/ChoiceMail Small Business) — Fixed incorrect functionality where the local pre-approval options were not taken into account when the "Also approve the sender on user's local whitelist" option is on.
+Web viewer (ChoiceMail Enterprise/ChoiceMail Small Business) - Added ability to delete a message from the web viewer interface.
+Automatic checking- Fixed problem where the "Automatic email checking" option when turned off was keeping checking at regular intervals.
+Global lists (ChoiceMail Enterprise/ChoiceMail Small Business) - Fixed problem where senders were added on global lists without previously checking if the email address was not protected. Same problem with the address book.
+
+
+
+August 15th, 2004. Version 2.600
+August 15th, 2004
+ChoiceMail 2.6
+Release Notes - these notes describe features that apply to all versions of ChoiceMail except where indicated
+
+
+This version of ChoiceMail corrects a serious side effect introduced in 2.54a where senders were being challenged even if they were already on your whitelist. If you are running an earlier version of ChoiceMail, please download and install the latest version as soon as possible.
+
+Updates
+Message viewer - Added ability to delete a message from inside the message viewer.
+Junk box- Added ability to filter the junkbox.
+Challenge messages (CM Enterprise)— Added support for marking CM emails so that our SMTP server is able to distinguish from regular user emails
+Performance improvements- Continued work in improving behind-the-scenes performance
+Administration (CM Enterprise/Small Business)- Added the ability for CMSB/CME administrators to grant/deny other users the control of their email addresses protected by ChoiceMail
+IP blocking (CM Enterprise/Small Business)— Added the ability to block a list of IP addresses or IP ranges
+
+Fixes
+
+System tray- The repair of the access violation broke the ability to get the list of virtual email addresses in the system tray (sigh).
+Whitelist/blacklist- Fixed a problem where ChoiceMail could continue to send challenges out even if someone was on your whitelist.
+Challenge messages— Fixed problem where after disabling and then enabling the Challenge process and positively answering on the question to send registrations to existing senders - we send challenges to BCC senders on the list.
+
+
+August 3rd, 2004. Version 2.54a
+August 3rd, 2004
+ChoiceMail 2.54a
+Release Notes - these notes describe features that apply to all versions of ChoiceMail except where indicated
+
+New features
+Logging (CM Enterprise/Small Business)- Initial work to support HTTP server logging
+
+Updates
+
+Permission rules- Added (seqword) function to the special keywords list
+Performance improvements- Continued work in improving behind-the-scenes performance
+Sender preapproval (CMEnterprise)-Now available
+Fault tolerance (CMEnterprise)-Some extra protection against unexpected failures.
+Permission rules (except CM Free)- You can now disable automatic whitelist/blacklist and approved/rejected domain checking and manage that process through explicit permission rules.
+Virtual email addresses (except CM Free) - You can now select one of your virtual addresses from within ChoiceMail's system tray icon to quickly copy that virtual address to the clipboard
+Sending emails (CMEnterprise/CMSB)- Added the ability to disable email sending from ChoiceMail's web interface
+Preapprovals (CMEnterprise)- Added option to pre-approve to the user's local whitelist
+Customized messages (CMEnterprise)- Added the ability for CME admins to control user customized messages
+Main menus- The "View" menu has been reworked to make it clearer.
+Domain blocking- Added some more IP ranges in regions that were spam sources
+
+Fixes
+
+Access violation - Fixed a problem where upgrading failed if user did not have any virtual addresses enabled - ChoiceMail One only
+Special keywords- The special keyword (seq) was not working properly in some very rare circumstances.
+Recent senders only- Fixed a bug where specifying how far back in time to display received messages was broken
+Tags- Fixed a bug where an HTML tag that was corrupted in a special way could block an email from being downloaded
+Webmail gateway- Fixed a bug where the SMTP and POP ports could sometimes be set to the same value (usually 4) by mistake.
+IMAP- Fixed a problem where we weren't properly handling the case where an anti-virus program deleted an infected message
+Address importing- Fixed a problem where some incorrectly formatted email addresses in MS Outlook were being imported into ChoiceMail
+Setup wizard- Fixed a problem where you could not always unprotect all accounts automatically.
+Automatic registration notification (CMSB/CME)- Fixed a problem where registrations sent to an alias were not being retrieved properly
+Filenames- Fixed a problem where some bizarre messages from spammers with fake email addresses could not be saved (and thereby prevent CM from continuing)
+ISP mailserver issues- Added a modification to let CM better deal with corrupt (non-RFC compliant) email messages that the ISP's mail server should not have allowed in in the first place.
+
+
+
+June 8th, 2004. Version 2.52
+June 8th, 2004
+ChoiceMail 2.52
+Release Notes
+
+
+
+New features
+Virtual email addresses (except CM Free) - Added ability to create and edit virtual email addresses from within the user interface.
+
+Updates
+Approve senders from junkbox- You can now approve a sender whose messages are in the junkbox.
+Concurrent account access- Added mechanism to handle the case where stupid mail clients try to open multiple connections to a server from the same account.
+Message sizes- The size of each message in the unknown sender list is now displayed.
+Permission rules- Added a condition rule to detect whether messages are larger than a defined size.
+Approve/Reject multiple domains- You can now approve or reject multiple domains by selecting the senders whose domains you wish to approve or reject.
+Mailing list servers- Added automatic recognition for Listbox mailing lists
+Permission rules (except CM Free)- Permission rules can now be drag/dropped to/from the desktop from/to the permission rules dialog to export/import rules (hold the SHIFT key while dragging to export all rules in one go)
+Setup wizard- The main CM dialog is now locked until user connects from email program.
+
+Fixes
+
+Deleting messages in junkbox (CMSB Server only)- We no longer open sequential TCP/IP connections to delete non-contiguous messages from the junkbox. This allows individually selected messages to be deleted much more quickly.
+Aliases- Fixed problem where after deleting a user account - alias cache was not refreshed.
+Junk box column sizes- You can now make the column sizes really small if you don't need to see particular columns.
+Memory leak- Fixed a very obscure memory leak that was slowly wasting filehandle resources
+Applying rules- The accepted/rejected domains are now taken into account when you apply the rules manually.
+SMTP test- Improved SMTP testing to make sure username/password is provided if SMTP authenication is selected.
+IMAP configuration- Fixed a problem where users wishing to use IMAP needed to have a POP3 account as well.
+Setup wizard- Fixed an access violation that could occur if no email accounts were found in email application
+Web interface (ChoiceMail Enterprise and CMSB only)- Fixed a problem where an occasional access violation could prevent remote logins.
+Timeout handling for duplicate email addresses- Added a timeout for handling the case where a second thread tries to lock a mailbox while it's already locked (Sometimes customers either have duplicate email addresses in their email clients or for some other reason are trying to access the POP3 server simultaneously from two different threads or applications)
+Permission rules- Fixed problems with OtherHeaders condition. Also now remove trailing colon if someone puts it in by mistake when entering an other header.
+Outlook Express identities- Fixed a problem where the setup wizard could not always determine from which identity to retrieve email addresses.
+Infinite looping (ChoiceMail Enterprise only)- Fixed potential problem where email could get into an infinite loop if mail server was configured to relay all mail through ChoiceMail, generate non delivery reports and spammer used the from address that matches one of CME domains.
+
+
+
+April 27th, 2004. Version 2.5
+April 27th, 2004
+ChoiceMail 2.5
+Release Notes
+
+
+New features
+Detect spam by servers in message- Added the ability to find and resolve to IP addresses all servers referenced in the body of a message. Along with a new transform rule function, this allows messages to be deleted based on IP address ranges.
+Permission rules- When a message is matched by a permission rule, that rule can cause an email message to be sent back to the sender.
+Drag/drop email addresses- Email addresses can now be dragged from compliant email applications into the approved or rejected sender view
+Drag/drop email address files— If you have a file containing email addresses, you can drag that file into the approved or rejected sender view to whitelist or blacklist them respectively. Multiple files can be dragged in one operation.
+Permission rules- Two new permission functions allow domains and IP addresses to be checked against a sequence of IP address ranges.
+Database support- ChoiceMail One now uses a SQL database instead of INI files for most information. The initial main benefit for ChoiceMail One single users will be greatly reduced memory requirements.
+System rules (CM Enterprise only)- Added support for global permission rules that can be applied centrally before individual user rules are applied.
+Tip of the day- Added automatic tip of the day support
+
+Updates
+
+Servers referenced in message- Added ability to see the list of all servers referenced in a message, complete with their IP addresses
+Transform rules- Transform rules now work for headers as well as subject and body. It's also possible to have a single transform rule work for multiple items.
+Transform rules- The transform rules are now displayed in tree format rather than as a raw text file.
+Downloading emails- Added functionality to prevent ChoiceMail from downloading previously downloaded mails when an external error closes the TCP/IP connection.
+Preview from approval dialog- Added the ability to preview messages from the "new sender registration" popup
+Email rules dialog- Added the ability to move the rules with the mouse
+Junk box- Added a TO field in the junk box
+Support for legacy Eudora- Support commands that can be generated by Eudora users who have (or used to have) very old versions of Eudora
+Splash screen- The splash screen can now be disabled by modifying the choicemail.ini file (unsupported)
+Received Header (CM Enterprise)- CM Enterprise now has the option to insert its own received header into a message.
+Permission management- A new action is now available that lets you mark an item as SPAM but leaves it in your unknown senders list and does not send a challenge. This is useful when playing with rules to see which items are affected by a rule. The color of the SPAM icon is different from regular unknown sender icons so as to stand out.
+Permission management- The BCC icon is now displayed in a different color to make it stand out better from regular unknown senders.
+Permission management- A new tab has been added that allows you to match attachment filenames. Attachment filenames can now be seen in the message previewer.
+Permission management- The MoveUp and MoveDown buttons can be held down to make rule positions move quickly.
+Permission management- Redesigned the permission rule dialog so that it fits better on smaller resolution screens
+Permission management- Negating a rule now requires the initial 'not' to be enclosed in parenthesis.
+IMAP- Added ability to disable IMAP proxy.
+Activity logs- The maximum size of the activity logs can be changed by modifying a section in the popmanager.ini file (not officially supported)
+Blocking mail servers- It is now possible to select text in the headers of a message (in the message previewer window) and create (or modify) a permission rule that will block all future messages coming from that mail server.
+Permission rules- Permission rules created by users are displayed in blue while DigiPortal Software provided rules are displayed in black. Future versions of ChoiceMail One may change the behavior of (or silently remove) any permission rule that was provided by DigiPortal Software - therefore, changing permission rules provided by DigiPortal is not a good idea. Instead, disable them if you don't want them and create your own modified rules.
+
+Fixes
+
+Corrupted decode- Addressed an issue where a binary attachment was deliberately corrupted to cause normal decoding to fail and this caused permission management to fail with a range-check error.
+Setup wizard- We had a problem where an old server configuration file where SMTP settings were already in there, but none of the other settings were defined. This was causing List Out Of Bounds errors.
+Eudora- Fixed a problem where importing multiple personalities could cause an access violation.
+Passwords- Fixed problem where user password could be corrupt due to some unpredictable file copy operations.
+Login- Fixed problem where real mailbox and virtual mailboxes could be logged in at the same time.
+Registration- Fixed a problem where pasting in a received usercode and registration key did not enable the OK button. The person responsible for this bug has been slain
+Permission rules- A couple of regular expressions had erroneous OR characters in them.
+Housekeeping- Email cleaner now runs every hour instead of every minute - also removes old registration files properly
+Locking- Fixed incorrect functionality : CM shouldn't start up minimized if it's locked
+IMAP- Re-introduced ChoiceMail IMAP initialization when an IMAP source gets tested
+
+
+
+January 20th, 2004. Version 2.1
+January 20th, 2004
+ChoiceMail 2.1
+Release Notes
+Updates
+Eudora - The setup wizard now indicates that Eudora 6.0 is supported – no actual code changes as 6.0 always in fact worked.
+Junk Box - We now display the TO field in the junk box window.
+Administration management (CM Enterprise/Web only) - Added more statistics data
+Message forwarding (CM Enterprise/Web only) - Improved message forwarding to corporate mail server.
+
+
+
+January 9th, 2004. Version 2.000f
+January 9th, 2004
+ChoiceMail 2.000f
+Release Notes
+
+Updates
+Permission rules - Added two new actions. (1) Change the status of a message to BCC (which essentially stops CM sending a challenge out) and (2) Delete a message permanently, bypassing the junkbox.
+Administration management (CM Enterprise/Web only) - Added support for ChoiceMail Web administrators
+Webmail gateway - New update addresses a number of login problems. Installation of the webmail gateway is now optional and controlled from the main installer.
+Transform Rules - If you modify the transform rules, it is no longer necessary to restart ChoiceMail before you can access the updated rules.
+
+Fixes
+Freeze problem - We finally tracked down a bizarre problem where CM could freeze on Windows 9x/ME systems after running for a long time. The default log size has been reduced to 30 lines.
+Long delay - Fixed a problem where ChoiceMail could be held up for a long time by an incoming attachment that contains no regular text.
+Junk box - We no longer populate the junkbox when CM starts – this prevents CM from hogging CPU cycles for long periods of time at start up.
+SMTP manager - Fixed another problem where a bogus email address could hold up the queue of outgoing challenges.
+Long download delay - Fixed a problem where a received attachment with no body text could take a long time to be processed
+
+
+
+December 4th, 2003. Version 2.000d
+December 4th, 2003
+ChoiceMail 2.000d
+Release Notes
+
+Updates
+Forwarding thread options (CM Enterprise only) — Added option to allow control over how many threads are used to manage forwarding.
+
+Forced password changing (CM Enterprise/Web only) — Added option to allow administrator to force people accessing ChoiceMail interface through a web browser for the first time to have to change their password.
+
+Transform Rules (CM Enterprise/Web only) — Transform rules are now available through the web browser interface.
+
+Domain sorting — Added ability to retrieve domains sorted alphabetically.
+
+Permission rules — Added more rules that detect and delete spam.
+
+Fixes
+
+Bogus FROM addresses — Fixed a problem where a ridiculously long FROM address could generate an access violation.
+
+Rules import — Fixed a problem where you would get an error if you tried to import rules when you didn’t already have some other rules installed.
+
+AV with uninstalled Outlook — Fixed a problem where ChoiceMail could crash at startup if it incorrectly detected that MS Outlook was still installed.
+
+Duplicate domains (CM Enterprise/Web only) — Fixed a problem where duplicate domains could be entered through web browser interface.
+
+Unnecessary args in registration messages (CM Enterprise/Web only) — Fixed a problem where we were arbitrarily adding session IDs to all URLs rather than to just those needed.
+
+Default rules — Fixed problem where html tags inside our xml tags were not properly encoded. Was creating an invalid xml document.
+
+Control Panel service (CM Enterprise) — Registry keys are now stored in HKLM
+
+Account validation — Removing an unwanted account now moves to the next account rather than the previously validated account.
+
+Account validation — Changed the word ‘verified’ to ‘validated’
+
+Audio message — Fixed a problem that was causing the default audio message to not be found.
+
+
+
+November 19, 2003. Version 2.000c
+November 19th, 2003
+ChoiceMail 2.000c
+Release Notes
+
+
+New Features
+
+Registration messages  - The registration message customization has been completely redesigned so that you can completely tailor your outgoing registration message. You can also save multiple registration messages so as to change them.
+
+Automatic approval  - You can now tell ChoiceMail to automatically approve anyone who fills in the registration form.
+
+Updates
+
+
+Tray icon  - Added menu option to system tray icon to allow you to preview approved mail without having to open the ChoiceMail main window.
+
+Fixes
+
+
+Outlook 2003 losing mail   - Modified some internal processing to address a change in Outlook 2003 where Outlook 2003 would sometimes delete mail without downloading it first.
+
+Eudora – invalid pointer   - A problem where an unusually large Eudora.ini could cause ChoiceMail to fail to configure settings properly has been fixed.
+
+Disabled window   - Fixed a problem where trying to configure the SMTP server could cause the error message “Cannot focus an invisible window”
+
+Byte stuffing   - Fixed a bug where incorrect byte stuffing could cause periods to get lost in the registration URL.
+
+100% CPU utilization   - Fixed HTML rule that was causing 100% CPU usage. Note – this only applies to new installs. Existing users should visit http://www.digiportal.com/support/choicemail/technotes/notes/cpu100p.htm to see how to repair an existing installation.
+
+Byte stuffing   - Fixed a bug where incorrect byte stuffing could cause periods to get lost in the registration URL.
+
+Connections   - Improved handling for unstable connections.
+
+Infinite password prompting   - Fixed a problem where Outlook would keep asking for your password even though you entered it correctly. This could happen if an AntiVirus program locked a file before Outlook finished logging in.
+
+
+September 9th, 2003. Version 2.000
+September 9th, 2003
+ChoiceMail 2.000
+Release Notes
+
+
+New Features
+
+Multiple identities  - ChoiceMail now lets your multiple email accounts retrieve only those messages intended for those accounts rather than merging all incoming email into a single account. We have support for retrieving mail for a single email account only. Users can login to CM POP3 server using the format "cm/emailaddress" along with the email address password to get the mail for that email address only.
+
+Incoming message limits  - Added ability to limit time spent downloading emails from each account. Useful for slow internet users with tons of messages.
+
+Lock UI  - The user interface can now be locked so that it can't be seen without entering a password.
+
+Approved mail  - You can now preview approved mail through the ChoiceMail GUI
+
+Permission rules  - Added not operator and a (me) special keyword referring to your sources and aliases.
+
+Permission rules  - You can now reference individual Received headers with an index. This lets you easily check the server from which an email really came. Permission rules now support regular expressions - although not intended for users to edit directly (they can), it will allow more sophisticated rules to be downloaded and installed to block known spam. Transform rules are also implemented to preprocess messages to make it easier to detect spam.
+
+Challenges  - You can now optionally use an alternate (optionally fake) FROM address for challenges. This can be used to (a) prevent your real email address from being validated as live by spammers (b) eliminate bounce-back messages completely and (c) prevent a potential spam trick where a spammer could recognize that a challenge was coming and simply respond with a NEW spam using a NEW fake FROM address, thereby attempting to fill up your POP3 inbox.
+
+IMAP  - ChoiceMail now has experimental support for IMAP - no wizards are available though.
+
+Updates
+
+Installer  - We now delete all old ChoiceMail shortcuts that were on the desktop. We also add desktop shortcuts for userguide and keyinfo
+
+Safe Previewer  - We now include the ability to see the raw message.
+
+Setup wizard  - Aliases and mailing lists can now be configured directly from the setup wizard
+
+Authentication  - Updated to support usage of POP3 account credentials with SMTP server. Solves problem with Verizon SMTP servers where one must authenticate with the same username/password as the sending email address.
+
+Permissions  - Added special keywords that can be used to detect whether the email address in the body of your message is (or is not) in your whitelist (see documentation for more information on how to use this feature)
+
+Permission rule testing  - Testing starts after a delay of 1 second of no typing rather than testing every time you type a character.
+
+Permission rules  - A new name is used each time you create a new rule
+
+Permission rules  - New permission rules can be merged into existing permission rules. DigiPortal Software may make new permission rules available from time to time for this purpose.
+
+Enhanced security  - The registration process has been tightened up to remove some theoretically possible breaches.
+
+Fixes
+
+
+Shutdown  - Fixed problem where ChoiceMail One sometimes prevented MS Windows from shutting down.
+
+Permission rule testing  - The test for self-referenced FROM addresses is now done even if your own domain is in the accept list.
+
+Registration alert popup  - Fixed a problem where the alert popup window was disappearing immediately on some systems.
+
+Username change  - Fixed a problem where changing the username in ChoiceMail One caused lots of grief!
+
+Empty messages  - Corrected a problem where ChoiceMail One could get stuck if the file has a length of 0.
+
+Junkbox  - Added filterReason for mail system messages being deleted.  Without this line, there is no deleted reason when looking at messages in the Junk Box.
+
+Reject with reason  - Fixed a bug where it sometimes wasn't possible to use spaces in the reason.
+
+Domains  - Provide better message if user tries to add a domain that is already on the list.
+
+Hints  - Changed hint for Show Recent Unknown Senders and made the caption reflect when the option was turned on or off.
+
+Norton AV  - Fixed potential problem with older Norton AV usernames that might contain slashes in usernames.
+
+General AV  support - Added handling for special AV case where user might be getting I/O errors instead of our "nice" AV message.
+
+Installer  - Installer now refuses to run if an email application is open. This fixes a problem where the Outlook plugin for ChoiceMail/Exchange was not being installed if Outlook was already running.
+
+Dialogs  - Where possible, increased spacing between controls so that there's less likelihood of characters being cutoff if you are using large fonts.
+
+Setup wizard  - Eudora users can now specify the needed files directly rather than having to do a complete disk search. (Note: this was implemented in 1.505 but somehow it disappeared in subsequent releases!)
+
+Empty FROM  - Fixed a problem where emails were being deleted automatically when it seemed like there was nothing in the FROM header (even though there was).
+
+Empty FROM  - Fixed a bug where an empty FROM header was causing a crash when assertions were enabled
+
+Startup performance  - Initial startup is now faster.
+
+Rejection of system messages  - Was missing filter reason for unverified system messages.
+
+Tab order  - The items in the general preferences now get selected sequentially as you press the TAB key.
+
+List index out of bounds  - Fixed a problem where this error message could appear if you reject a sender with explanation.
+
+Anti-virus collisions  - Added handling for stream errors in case anti-virus removes the temporary files while we are trying to  process them
+
+Junk box  - Fixed a bug where junk box didn't know that messages had been deleted until you quit and restart ChoiceMail.
+
+Integer overflow  - Fixed a problem where ChoiceMail would not allow mail to be retrieved by client if the total size of the mail was greater than 2Gb
+
+Installer  - Installer will now only install into the DigiPortal Software Applications group.
+
+Setup wizard  - Checks that email application is not running more often rather than just once.
+
+Setup wizard  - Changed DELETE button to EXCLUDE in the POP3 source account selection dialog
+
+Hints  - Some buttons in the SMTP settings dialog had incorrect hints.
+
+Email accounts  - Changed "Source enabled" to "Account enabled" label
+
+Permission rules  - Fixed a problem where we were not checking multiple repeated headers (typically , the RECEIVED header) in a message.
+
+Permission rules  - Fixed a problem where multiple messages belong to a single sender were getting deleted incorrectly.
+
+Outlook 2002  - Another attempt to address issues with multiple SRS files
+
+Configuration  - Warn people if they try to change the "logging into ChoiceMail" userid as it's a BAD idea to do this.
+
+Configuration  - Account testing now being done on server side on multi user version
+
+Away/registration messages  - Fixed problem with Getting Default Messages in SingleUser mode that was preventing users from resetting to the default message
+
+Client/Server  - Optimized some communication transfer
+
+Client/Server  - Transferred listing of messages and deleting of messages to server side.  Accounts need to be contacted from the server end and not directly by the client.
+
+Installer  - Fixed a problem where %APPTITLE% was being displayed rather than the program name when uninstalling ChoiceMail One.
+
+Installer  - Fixed a (harmless but annoying) problem where a double-slash was being used in pathnames.
+
+SMTP errors  - Added functionality that allows us to detect unusual SMTP sender errors and force CM to delete a message from sending queue.
+
+
+
+April 8th, 2003. Version 1.600
+April 8th, 2003
+ChoiceMail 1.600
+Release Notes
+
+
+Update
+Auto-responder — You can now store different messages and select which one you wish to use at any time.
+Automatic deletion — You can now control whether ChoiceMail automatically should delete a sender when it fails to send a registration request.
+POP3 lists — You can now access the list of messages waiting on the server and optionally deleting individual messages. This lets you quickly delete a spam message if ChoiceMail was unable to download it.
+Exchange support — Numerous modifications to support Outlook clients using MS Exchange.
+Activity logs — Now remembers 1024 lines of data rather than 256.
+
+
+Fixes
+
+Sender Filter — The state of sender filter (for looking up senders) is no longer remembered when you restart ChoiceMail. This was changed for usability reasons based on customer feedback.
+Non US yahoo accounts — Fixed a problem where the webmail wizard would not allow yahoo accounts to be created if they did not end with the .com postfix.
+Multiple monitors — Fixed a bug where ChoiceMail crashed if the window size was made to large, as can happen when using multiple monitors.
+HTTP accounts — We now recognize and handle HTTP accounts that were already created in Outlook Express.
+Webmail — Includes updated DLL to support change in login process for AOL as well as some other speed improvements. Also fixed a problem (again) to manage AOL addresses that did not include domains.
+AV on exit — Fixed problem where sometimes there will be an AV accessing recycle bin form while quitting the application. This MAY also be responsible for a problem where ChoiceMail would sometimes prevent Windows from shutting down.
+Account detection on Outlook XP — Now properly recognize accounts that have hex characters in them
+Junk box dates — Received dates of junk box messages was being retrieved incorrectly.
+Junk box files — Fixed problem where some messages could not be moved into the junk box if the filenames were the same.
+
+
+
+February 8th, 2003. Version 1.505
+February 8th, 2003
+ChoiceMail 1.505
+Release Notes
+
+
+Fixes
+Sender list refresh — Fixed another problem where an invalid date could cause a message to NOT be deleted from the POP3 server, causing the message to be retrieved multiple times.
+Number of accounts — Fixed a problem where ChoiceMail One would not allow you to have more than about 30 POP3 accounts configured.
+
+Update
+
+Eudora — Added ability to allow location of required files to be specified manually rather than only through the automatic search process.
+
+
+
+
+January 26th, 2003. Version 1.504
+January 26th, 2003
+ChoiceMail 1.504
+Release Notes
+
+Fixes
+Sender list refresh — Fixed a problem where the sender list would refresh constantly if certain kinds of vira were downloaded. This fix may also address some other obscure access violations that were been seen infrequently.
+
+
+January 24th, 2003. Version 1.503
+January 24th, 2003
+ChoiceMail 1.503
+Release Notes
+Fixes
+Anti-virus interaction — Fixed problem where an AV program could delete a newly downloaded but infected email file before ChoiceMail recognized that the download was complete. This would result in ChoiceMail repeatedly trying to download the message over and over again, never deleting the message from POP server.
+Disappearing lists — A recent change appears to have had an odd side-effect of making the sender lists be not displayed on startup. Although we’re still not totally sure why this happened, we have made a change that appears to handle this issue.
+
+
+January 14th, 2003. Version 1.502
+January 14th, 2003
+ChoiceMail 1.502
+Release Notes
+Updates
+System mail blocking — Modified the monitoring of returned system mail messages to do a better job of blocking fake messages disguised as bounced mail.
+
+Fixes
+Webmail Setup Wizard — The webmail setup wizard was not working in the trial version.
+Message headers — Fixed a problem with headers that contained a ‘:’ in them.
+
+
+
+
+January 6th, 2003. Version 1.500
+January 6th, 2003
+ChoiceMail 1.500
+Release Notes
+
+
+New features
+Web-mail support — ChoiceMail now supports four major web-based email systems including HotMail, AOL, MSN and Yahoo using an optional plugin. The plugin is included with new purchases of ChoiceMail and previous ChoiceMail users will be able to buy the plugin separately.
+Junk box — ChoiceMail now moves email it rejects into a junk box where you can review it if you wish.
+Away auto-responder — ChoiceMail can now optionally send messages back to people who are on your white list.
+Spam-O-Meter(tm) — Lets you see some statistics about your incoming mail
+
+Updates
+
+Message previewer — You can now copy selected text from the message previewer
+Activity logs — The contents of the logs can be more easily copied to the clipboard.
+Double-clicking on sender — Double-clicking on a sender now simply expands the tree to show the messages belonging to the sender. The previous function, opening your email application to send a message to the sender, has been removed.
+Empty domains — It is now possible to create a rule to allow messages with no domain to be rejected automatically.
+Restricting to “today” — When restricting the new senders list to just today’s entries, you can now control how long “today” should be, rather than just the calendar day. This fixes a problem where unknown senders appeared to disappear at midnight if the “today” filter was enabled.
+Copy text in previewer — You can now select text from the message previewer and copy it to the clipboard
+Wild cards in domains — Accepted/Rejected domains now accepted ? and * as valid domain name
+characters.
+Registration URL — We now generate a coaching hint when you toggle the inclusion of the registration link in your message back to new senders.
+Sender actions from messages — User can now perform sender actions when messages are selected in the view. This allows a message to be selected and that sender to be approved/rejected/deleted.
+Attachments — A different icon is used to display unknown messages that contain attachments
+Purging message queue — It is now possible to get ChoiceMail to remove all pending messages that it’s preparing to send out.
+Empty domains — Now allows special domain like '(none)' to be placed on accepted/rejected list and transformed into real domain.
+Permission rules — The body tab can now access HTML messages
+Sender view — The sender view tree is now expanded by default so you see the message subjects for each sender.
+Balloon hints — They are now a pretty blue color and can be turned off!
+Activity logs — Changed logs to show your email address rather than username + host. This is more informative, particularly for web accounts.
+
+Fixes
+
+Message previewer failure - Fixed a problem where messages could sometimes not be previewed due to some invalid data in the message.
+Forgetting port assignments - Fixed bug where SMTP servers with non standard port would "loose" the port information while switching from one server to another.
+Message deletion - Fixed the problem where not all the locked messages were deleted when a sender is rejected.
+Stuck email sending - Fixed problem where error code 550 5.1.1 received from smtp sender would make the smtp queue get stuck.
+Unnecessary registration requests — Fixed the problem where a registration request entry was re-queued even though the sender status had changed meanwhile.
+Rule testing and domains — The rule testing system now takes into account accepted and rejected domains.
+Unnecessary registration requests — Fixed the problem where the allow/block all messages from sender's domain was still enabled even though several senders were selected.
+Importing multiple email addresses from Outlook — Fixed the problem where multiple email addresses for a single contact were not being imported.
+Prevent modal dialog from being hidden — Fixed problem where tray icon would still be accessible even if we were showing a modal dialog. This could disable CM is some cases since it was popping up disable main window in front and allow operation at the time that these operations should not be accessible.
+Message retrieval failure — Fixed problem where the message retrieval would fail if the smtp queue file was read only.
+Message subjects too large — Fixed problem where extremely large message subject could break the sending of a registration message.
+CPU 100% utilization — Fixed the code in another place where this could happen
+
+
+October 22nd, 2002. Version 1.410
+October 22nd, 2002
+ChoiceMail 1.41
+Release Notes
+
+
+New features
+SMTP Ports — You can now change the ports associated with outgoing SMTP servers.
+
+Updates
+
+Resources and RAM — Optimized synchronization process reduces resources and memory requirements
+System tray notification — The tray icon now flashes yellow whenever new mail arrives from unknown senders. It is reset as soon as you open the ChoiceMail mail window.
+Registration link — Users who do not want or need to use our registration process can modify the registration message so that the registration link is not included. Such users will need to include some other mechanism of their own to tell people how to contact them for approval.
+
+Fixes
+
+Very long message ID - Fixed a problem where a message ID header greater than 1000 characters could crash ChoiceMail.
+Green light flashing but no email - Fixed a problem ChoiceMail indicated that email was available but it couldn’t be accessed.
+Activity log - Fixed the problem where the Outgoing Emails log would report as going to the first of the distinct addresses when sending emails simultaneously.
+
+
+
+October 1st, 2002. Version 1.400
+October 1st, 2002
+ChoiceMail 1.4
+Release Notes
+New Features
+MSN — ChoiceMail now supports MSN
+Secure Password Authentication (SPA) — ChoiceMail now supports standard authentication and secure password authentication for both SMTP and POP.
+SSL — ChoiceMail now supports SSL for SMTP and POP servers
+Outlook 98,2000,XP — ChoiceMail can now configure the three main flavors of Outlook automatically.
+Multiple SMTP server support — You can now have multiple SMTP servers and switch from one to another from the ChoiceMail system tray icon. This facilitates mobile users who connect to the internet in different ways.
+Safe message viewing — You can now safely preview messages within ChoiceMail without sending any information back to a spammer or website.
+Open email application automatically — You can now configure ChoiceMail so that it opens your default email application automatically after a specified number of messages have been approved by ChoiceMail.
+Disabling registration requests — You can temporarily disable registration requests so that you can manually review incoming messages before ChoiceMail sends a request out to unknown senders.
+
+Updates
+Change default email application — You can specify a different email application to be used by ChoiceMail.
+Icon for queued registration — Added support for displaying unknown senders with a special icon when a registration was queued but not yet sent.
+Unverified messages from your own email address — You can now configure ChoiceMail so that it allows messages that appear to come from yourself but cannot be verified as really your own. Not recommended for normal usage
+Permission rules — Permission rules are now checked before the test for self-messages so that you can allow messages from yourself to come through only if some other information is present in the message (e.g. add ‘xyz’ to the subject field).
+Configuration wizard — The configuration wizard now runs automatically for first time users. You are not asked if you wish to run the wizard.
+Configuration wizard — Configuration wizard now checks to make sure that the email application is not running before ChoiceMail tries to configure it.
+Edit sender info — Added ability to modify the sender info (Reason and name)
+POP port — ChoiceMail POP3 accounts can now use non-standard ports.
+Names of senders — The name of registered senders is now set using the name part of the FROM header on first message receiving
+Trial version — The “trial expired” panel now tells you not to uninstall if you are planning to purchase the retail version.
+Splash screen —You can now press any key to close it.
+SMTP sender — User can specify a separate SMTP sender email address to deal with some SMTP relaying problems.
+Server timeouts — You can control how long ChoiceMail will wait to connect to servers. The default is 5 minutes.
+Activity logging — Added server disconnection notification in the pop grabber log.
+Mail message handling — Added support to make sure a message file is not marked "read only" prior to deleting it.
+Self-message checking — Re-introduced Reply-To header checking in IsMessageFromMyself function
+Registration messages and HTML —Added support for multipart registration message. Email clients that support HTML preview will see the HTML version of the email with registration link hidden. Others will see the old plain text message. This also fixes the problem with Outlook breaking the link.
+
+
+Fixes
+Window state - ChoiceMail now remembers whether it was open or minimized.
+Timeout problem with Outlook XP - Fixed a problem where Outlook XP would timeout from time to time when communicating with ChoiceMail.
+Invalid message ID — Fixed problem where message Id with invalid characters would break message saving procedure.
+Mail not being sent or retrieved — Fixed the problem where ChoiceMail would sometimes stop receiving mail and/or stop sending out registration requests.
+Messages to yourself — Fixed the problem where sending a message to yourself was pre-approving you
+Recognizing accounts - Fixed a problem where some emails were not recognized as really intended for the user.
+Silent failure in approve/reject — Fixed the problem where clicking on approve/reject another sender when the sender already exists would fail silently
+Reject with message — Fixed a bug where the dialog was popping up BEHIND the approval dialog so you couldn’t get at it to enter your rejection message.
+Sender deletion failure — Fixed the problem where modifying the sender info would cause a sender deletion to fail.
+Deletion after relay failure — Fixed the problem where a "relay" problem on the SMTP server was causing the sender to be deleted.
+Importing addresses — Fixed the problem where blank email addresses could crash the import process
+Multiple messages with same subject — Fixed problem where 3 messages from an unknown sender with the same subject would appear as one message in the client's view
+
+
+August, 2002. Version 1.301
+August 2002
+ChoiceMail 1.301
+Release Notes
+
+
+Updates
+Checking for new email — It is now possible to disable the automatic check for new mail. The interval between checks can now be up to 9999 minutes!
+
+Memory usage — Email messages are no longer held in memory – this reduces drastically the amount of RAM needed by ChoiceMail.
+
+Logging — ChoiceMail now provides better progress information while downloading large attachments.
+
+Domains — You can now specify a single root domain (prefixed with a period) for which messages should always be excluded.
+
+Permission header — Emails accepted by ChoiceMail now contain an extra X-ChoiceMail header that indicates WHY the email was accepted (a rule, on your white list, manually, etc)
+
+Checking for updates — There is now a command in the Help menu that causes ChoiceMail to check for new updates and optionally download and install the updates.
+
+Fixes
+
+Unrecognized POP3 headers - Fixed a problem where ChoiceMail could fail to retrieve messages. It would loop continuously but never actually download anything.
+
+99% CPU utilization - Addressed a problem where ChoiceMail was temporarily using 99% CPU utilization while processing some large attachments. This can still occur but not for as long as before.
+
+Blank messages — Fixed a problem where accepting a message could remove all the blank lines from the body in Outlook Express.
+
+Changing ports — Fixed a bug in error handling when user changed ports manually.
+
+Terminate thread timeout message — Fixed a non-serious but annoying dialog message that could sometimes occur when ChoiceMail closes.
+
+Email addresses with % — Fixed problem where a username containing a '%' would generate an exception.
+
+TOP command — This command was not being handled properly.
+
+
+August, 2002. Version 1.301
+August 2002
+ChoiceMail 1.301
+Release Notes
+
+
+Updates
+Checking for new email — It is now possible to disable the automatic check for new mail. The interval between checks can now be up to 9999 minutes!
+
+Memory usage — Email messages are no longer held in memory – this reduces drastically the amount of RAM needed by ChoiceMail.
+
+Logging — ChoiceMail now provides better progress information while downloading large attachments.
+
+Domains — You can now specify a single root domain (prefixed with a period) for which messages should always be excluded.
+
+Permission header — Emails accepted by ChoiceMail now contain an extra X-ChoiceMail header that indicates WHY the email was accepted (a rule, on your white list, manually, etc)
+
+Checking for updates — There is now a command in the Help menu that causes ChoiceMail to check for new updates and optionally download and install the updates.
+
+Fixes
+
+Unrecognized POP3 headers - Fixed a problem where ChoiceMail could fail to retrieve messages. It would loop continuously but never actually download anything.
+
+99% CPU utilization - Addressed a problem where ChoiceMail was temporarily using 99% CPU utilization while processing some large attachments. This can still occur but not for as long as before.
+
+Blank messages — Fixed a problem where accepting a message could remove all the blank lines from the body in Outlook Express.
+
+Changing ports — Fixed a bug in error handling when user changed ports manually.
+
+Terminate thread timeout message — Fixed a non-serious but annoying dialog message that could sometimes occur when ChoiceMail closes.
+
+Email addresses with % — Fixed problem where a username containing a '%' would generate an exception.
+
+TOP command — This command was not being handled properly.
+
+
+
+
+July, 2002. Version 1.228
+ChoiceMail 1.228
+
+
+New Features
+Registration message — Users can now configure the messages that are sent out by ChoiceMail asking somebody to register and when you approve someone.
+
+Updates
+
+Tab consolidation — The number of tabs has been consolidated from seven down to five. There is now only one tab for the whitelist and one tab for the blacklist. Also, “new senders” are now called “unknown senders”.
+
+Configuration — The configuration wizard has been improved so that when you’re trying (but failing) to connect to ChoiceMail from your email app, ChoiceMail can tell you if the userid or password is correct
+
+Menu reorganization — It is now easier to access some of the more important dialogs directly from the Options menu.
+
+Logging — More information is now displayed in the logs indicating the size of messages being downloaded. If you click the “Check for new emails” button and ChoiceMail is already downloading messages, it will so indicate.
+
+Fixes
+
+Testing for BCC — Fixed a problem where our test to see if your email address was included was case-sensitive when it shouldn’t have been. This sometimes stopped ChoiceMail from sending out a registration request.
+
+Window size — Fixed a problem where it was possible to shrink the main window so much horizontally that some buttons were no longer visible.
+
+Hint windows — ChoiceMail sometimes didn’t remember that you checked the “Don’t show this to me again” option after seeing a hint.
+
+Invalid file name — Fixed a bug where an invalid sender email address could sometimes try to create an invalid message file name.
+
+Messages not deleted — Fixed a problem where downloading a limited number of lines of a message on one device caused a problem where the message could not be deleted and other email apps would then get the same message multiple times.
+
+List out of bounds error — Fixed a problem where you could get this error if you got to the POP accounts setup and didn’t have any accounts there already.
+
+POP server stopped sometimes — POP server was stopping by itself — fixed.
+
+
+
+
+July, 2002. Version 1.227
+ChoiceMail 1.227
+
+Critical Update
+This update fixes two very important problems.
+
+1) ChoiceMail would download all emails as soon as it was configured BUT if your email application wasn’t also configured, you could no longer get any emails. All users should update to this version immediately. If you are an existing user and you do not have your email application configured yet to work with ChoiceMail, you will not lose any new emails. Your olds ones will be available as soon as you have configured your email application properly. ChoiceMail will detect this automatically and warn you.
+
+2) ChoiceMail was sending registration messages to old email addresses that the user had already seen. This could happen if the user was leaving all their email on their server. This was very confusing to people receiving such messages as they might not have had any recent contact with the sender.
+
+
+How this release works
+1) First time users of this release will get a message that ChoiceMail will not download or filter any emails until it can verify that the user's email application can connect to ChoiceMail correctly. Once the user has configured his or her email application properly, ChoiceMail will then begin operating. Existing users who are having trouble configuring their email application will still not be able to retrieve emails downloaded by previous versions of ChoiceMail until their email application is configured. However, no new emails will go temporarily astray.
+
+A red light on the top right corner of ChoiceMail indicates that ChoiceMail processing is disabled. It will stay red until your email application has connected successfully.
+
+A green light means that ChoiceMail is processing email normally.
+
+
+2) The second problem above is solved by causing ChoiceMail to retrieve all existing (old) messages from the server and pass them through to the user unprocessed. The user may see some old duplicate emails and some spam that was sent before ChoiceMail was installed. This is a one-time event after which ChoiceMail will begin to block spam again and send out registration requests normally.
+
+There is now a new new button on the top right corner of the main ChoiceMail window. That button allows users to temporary disable the ChoiceMail filtering process so that all incoming email will be passed through to the email application and no registration messages will be sent out. The button is normally green to indicate normal operation. It turns red if you disable ChoiceMail.
+
+
+Other Fixes
+Email Rules Dialog — Fixed a problem where some of the buttons weren’t displayed properly if people were using different screen resolutions. This was preventing some users from being able to add their own email rules.
+
+
+
+July, 2002. Version 1.225/1.226
+ChoiceMail 1.225 update
+July, 2002
+Release Notes
+Updated
+NAV — ChoiceMail now coexists better with older versions of Norton AntiVirus that create their own POP server on your computer.
+Email rules — You can now control whether all headers must match or any of them. This saves you from having to create multiple rules in some cases.
+Email rules — X-Headers are now supported – you can add a new X-header and then create a rule for how to handle a message containing that X-header
+Sender approval dialog — Added an icon to show in which view the sender is currently contained
+
+
+Fixes
+Trial process — We now make sure trial dialog runs before the rest of the system starts running. This is a cosmetic change – it was confusing to be able to configure the system before discovering you were in trial mode.
+Email rules — Applying rules to existing senders was sometimes not working properly for messages.
+Configuration wizard — We now make sure we import the address book contacts before enabling ChoiceMail to start retrieving any email messages
+Configuration wizard — Fixed invalid tab order
+More obscure memory leaks — We’re sure killin’ those leaks
+Mixed up menu items — auto-approve and auto-reject were interchanged
+Accept message problem — Fixed problem where a message wasn’t being accepted if there was no messageID in it
+Folder name changes — When renaming a user, the aliases file and the pending request folder were not renamed
+
+
+
+June, 2002. Version 1.20
+ChoiceMail 1.20 update
+June, 2002
+Release Notes
+
+New features
+Search filter — Added a filter so that you can temporarily restrict your view of senders to those matching text in the filter – makes it easier to find particular senders of interest
+Trial support — ChoiceMail now supports trial mode. When the trial expires, ChoiceMail will simply pass all mail through untouched. Throughout the trial and after the trial expires you have option to purchase ChoiceMail through the internet.
+
+
+Updated
+
+Support for non-standard mail ports — Added ability to change the default ports used by ChoiceMail to better coexist with other mail proxies that may be installed on the user’s system. The configuration wizard can auto-detect and modify the ports as necessary.
+Improved icons — Well, some people think they’re prettier now!
+Renamed views We have changed "Pre-approved" and "Approval" to "Approved" and "Auto-approved". The former means you explicitly approved someone - the latter means they were approved through an email rule or because you sent them a message first.
+Individual rule testing — individual rules can now be tested more easily
+Status display during mail check — When ChoiceMail checks mail, the status bar displays the connection information from the activity logs.
+
+Fixes
+
+Focus error — fixed minor problem where the focus could not be set to an invisible control
+Memory leaks — fixed a memory leak that was related to the number of senders
+Stack overflow opening browser — fixed a problem where we sometimes got an error trying to open the user’s external browser.
+
+
+
+
+May, 2002. Version 1.1
+ChoiceMail 1.1
+May, 2002
+Release Notes
+
+New features
+Merged client/server — Client and server in one executable for single user version
+
+Autostart option — You can now control whether ChoiceMail should start automatically when you start windows
+
+Leave mail on ChoiceMail — ChoiceMail now supports ability to keep all email so that you can access from multiple email clients: an indicator is provided so you can tell the number of new vs old emails.
+
+Coaching — The OmniViewer coaching mechanism has been ported to ChoiceMail — coaching available for Delete and Reject as well as for explaining the meaning of each view.
+
+Aliases — You can now tell ChoiceMail your email aliases so that it will recognize them as belonging to you when you CC an email to yourself and ChoiceMail will insert the private code header (this prevents a spammer from sending you an email as if it was from yourself).
+
+Explicit mail check — ChoiceMail now checks for mail every 10 minutes (a default you can change) but provides a button and menu option to allow it to check for email immediately.
+
+Sounds — ChoiceMail can now play a sound when a sender registers.
+
+Chameleon and OmniViewer support — ChoiceMail can now be queried from OmniViewer and Chameleon. This provides alternate ways for you to be alerted to your emails through the OmniViewer system (voice output, remote wireless access, desktop tickers and so forth – see www.digiportal.com for more information on OmniViewer and Chameleon).
+
+Updated
+
+Accept confirmation email — When you accept a new sender who has registered, the message sent back to that sender contains an abbreviated list of the email messages he (or she) originally sent to you.
+
+Merged client/server — Client and server in one executable for single user version
+Icons — Much prettier – registration icon flashes
+Progress bar — ChoiceMail displays a progress bar when it is performing internal synchronization
+Configuration wizard — You are now forced to supply an SMTP server
+X-ChoiceMail-OriginalAccount — ChoiceMail now adds this X-header to indicate the originating account of each email message
+Email rules dialog — Now resizable
+Domain add/remove dialog — When you choose to accept or reject the domain of a sender, the domain is added automatically – you no longer have to press the Add button
+
+Restrictions
+
+Issues with some anti-virus products — Some older anti-virus products create email proxy servers on your computer to intercept email attachments. Since ChoiceMail also needs to create an email proxy server, there will be a conflict when using the default ports. DigiPortal Software will release a minor update of ChoiceMail that allows you to change the ports it uses but until that time, you cannot use ChoiceMail with such products unless you disable them. We have verified that Norton anti-virus 2002 and ChoiceMail work fine together
+
+
+Fixes
+AV when reading email from Comcast server — fixed.
+Default values — the “Delete after N days” had the wrong default value — fixed.
+Empty FROM messages — now deleted automatically.
+Username — ChoiceMail now checks that the characters are valid
+Activity logs — The Show/Hide menu is now just a Show! Use the standard X to close the activity logs
+Activity logs — Improved the names of the tab
+
+
+
+
+

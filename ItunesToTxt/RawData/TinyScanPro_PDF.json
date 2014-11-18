@@ -25,19 +25,20 @@
                 "ipad": {
                     "ids": [
                         333710667, 
-                        594704446, 
-                        382509315, 
                         576443892, 
+                        594704446, 
                         780621650, 
                         874776696, 
                         364502063, 
-                        504968354, 
-                        373045717, 
-                        558270538, 
                         317107309, 
-                        918093169, 
-                        364876095, 
-                        428974099
+                        382509315, 
+                        504968354, 
+                        484856077, 
+                        428974099, 
+                        513188658, 
+                        295798315, 
+                        366020849, 
+                        338550388
                     ], 
                     "title": "Top Paid iPad Business Apps"
                 }, 
@@ -51,11 +52,11 @@
                         428974099, 
                         335047649, 
                         373045717, 
+                        539943615, 
                         561386772, 
                         437818260, 
-                        307868751, 
-                        382013715, 
-                        395904807, 
+                        498174936, 
+                        576443892, 
                         558160040
                     ], 
                     "title": "Top Paid iPhone Business Apps"
@@ -68,13 +69,13 @@
                 595563753, 
                 514917848, 
                 424575621, 
-                596655478, 
                 571588936, 
+                596655478, 
                 484000695, 
                 563155321, 
-                599237591, 
                 424576247, 
                 421102532, 
+                599237591, 
                 679572722
             ], 
             "appRatingsLearnMoreUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/appRatings?cc=us", 
@@ -176,11 +177,11 @@
             "pageDetails": "Appxy_TinyScan Pro - PDF scanner to scan multipage documents", 
             "pageId": "556500145", 
             "language": "1", 
-            "serverInstance": "1002403", 
+            "serverInstance": "2125708", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
-            "environmentDataCenter": "NWK", 
+            "environmentDataCenter": "ST11", 
             "pageType": "Software", 
             "platformName": "iTunes12", 
             "page": "Software_556500145"
@@ -402,7 +403,7 @@
                         "ratingCountCurrentVersion": 210, 
                         "valueCurrentVersion": 5, 
                         "value": 4.5, 
-                        "ratingCount": 3171
+                        "ratingCount": 3172
                     }, 
                     "artistUrl": "https://itunes.apple.com/us/artist/appxy/id760100924?mt=8", 
                     "itunesNotes": null, 
@@ -494,17 +495,17 @@
                             "height": 440
                         }, 
                         {
-                            "url": "http://a4.mzstatic.com/us/r30/Purple5/v4/ca/40/a9/ca40a99d-0c43-fbf6-6128-8f4d4cee183c/icon220x220.png", 
+                            "url": "http://a1.mzstatic.com/us/r30/Purple5/v4/ca/40/a9/ca40a99d-0c43-fbf6-6128-8f4d4cee183c/icon220x220.jpeg", 
                             "width": 220, 
                             "height": 220
                         }, 
                         {
-                            "url": "http://a4.mzstatic.com/us/r30/Purple5/v4/ca/40/a9/ca40a99d-0c43-fbf6-6128-8f4d4cee183c/icon400x400.png", 
+                            "url": "http://a4.mzstatic.com/us/r30/Purple5/v4/ca/40/a9/ca40a99d-0c43-fbf6-6128-8f4d4cee183c/icon400x400.jpeg", 
                             "width": 400, 
                             "height": 400
                         }, 
                         {
-                            "url": "http://a4.mzstatic.com/us/r30/Purple5/v4/ca/40/a9/ca40a99d-0c43-fbf6-6128-8f4d4cee183c/icon512x512.jpeg", 
+                            "url": "http://a4.mzstatic.com/us/r30/Purple5/v4/ca/40/a9/ca40a99d-0c43-fbf6-6128-8f4d4cee183c/icon512x512.png", 
                             "width": 512, 
                             "height": 512
                         }
@@ -543,12 +544,12 @@
                                     "height": 414
                                 }, 
                                 {
-                                    "url": "http://a4.mzstatic.com/us/r30/Purple4/v4/eb/39/9e/eb399ed6-d3f6-b77d-9aea-431bebcc41cb/screen420x316.jpeg", 
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple4/v4/eb/39/9e/eb399ed6-d3f6-b77d-9aea-431bebcc41cb/screen420x420.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple4/v4/eb/39/9e/eb399ed6-d3f6-b77d-9aea-431bebcc41cb/screen420x420.jpeg", 
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple4/v4/eb/39/9e/eb399ed6-d3f6-b77d-9aea-431bebcc41cb/screen420x316.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
@@ -580,12 +581,12 @@
                                     "height": 414
                                 }, 
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple/v4/c0/66/53/c06653da-c62c-f136-254c-3515b4907b69/screen420x316.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple/v4/c0/66/53/c06653da-c62c-f136-254c-3515b4907b69/screen420x420.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
                                 {
-                                    "url": "http://a5.mzstatic.com/us/r30/Purple/v4/c0/66/53/c06653da-c62c-f136-254c-3515b4907b69/screen420x420.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple/v4/c0/66/53/c06653da-c62c-f136-254c-3515b4907b69/screen420x316.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
@@ -617,12 +618,12 @@
                                     "height": 414
                                 }, 
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple4/v4/98/3e/83/983e8371-e447-0ac1-741a-2d5a17e634f8/screen420x316.jpeg", 
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple4/v4/98/3e/83/983e8371-e447-0ac1-741a-2d5a17e634f8/screen420x420.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple4/v4/98/3e/83/983e8371-e447-0ac1-741a-2d5a17e634f8/screen420x420.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple4/v4/98/3e/83/983e8371-e447-0ac1-741a-2d5a17e634f8/screen420x316.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
@@ -654,12 +655,12 @@
                                     "height": 414
                                 }, 
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple4/v4/d3/8e/5e/d38e5e27-9304-f835-aa35-067a93afc767/screen420x316.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple4/v4/d3/8e/5e/d38e5e27-9304-f835-aa35-067a93afc767/screen420x420.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
                                 {
-                                    "url": "http://a5.mzstatic.com/us/r30/Purple4/v4/d3/8e/5e/d38e5e27-9304-f835-aa35-067a93afc767/screen420x420.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple4/v4/d3/8e/5e/d38e5e27-9304-f835-aa35-067a93afc767/screen420x316.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
@@ -691,12 +692,12 @@
                                     "height": 414
                                 }, 
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple4/v4/b9/7c/c7/b97cc747-1fde-6a26-db9f-504ccc33fa32/screen420x316.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple4/v4/b9/7c/c7/b97cc747-1fde-6a26-db9f-504ccc33fa32/screen420x420.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple4/v4/b9/7c/c7/b97cc747-1fde-6a26-db9f-504ccc33fa32/screen420x420.jpeg", 
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple4/v4/b9/7c/c7/b97cc747-1fde-6a26-db9f-504ccc33fa32/screen420x316.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
@@ -1101,7 +1102,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "1002403", 
+        "ITSServerInstance": "2125708", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
@@ -1131,7 +1132,7 @@
                 "platformId": "28", 
                 "storeFront": "143441", 
                 "storeFrontHeader": "143441-1,28", 
-                "environmentDataCenter": "NWK", 
+                "environmentDataCenter": "ST11", 
                 "platformName": "iTunes12"
             }, 
             "postFrequency": 60000, 

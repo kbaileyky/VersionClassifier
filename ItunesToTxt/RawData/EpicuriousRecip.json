@@ -8,19 +8,20 @@
                 "ipad": {
                     "ids": [
                         819440982, 
-                        321560858, 
                         399072152, 
                         911422904, 
+                        321560858, 
                         436491861, 
-                        296581815, 
                         299515267, 
+                        296581815, 
                         480009749, 
                         503569987, 
                         304132604, 
                         302920553, 
-                        488860392, 
-                        475905823, 
-                        727866441
+                        727866441, 
+                        494090075, 
+                        480016415, 
+                        475905823
                     ], 
                     "title": "Top Free iPad Food & Drink Apps"
                 }, 
@@ -29,17 +30,17 @@
                         331177714, 
                         497387361, 
                         436491861, 
-                        321560858, 
                         552020897, 
-                        407517450, 
-                        302920553, 
-                        296581815, 
+                        321560858, 
                         418971697, 
-                        284708449, 
-                        691617940, 
+                        302920553, 
                         589625334, 
-                        692365393, 
+                        407517450, 
+                        691617940, 
+                        296581815, 
                         399072152, 
+                        284708449, 
+                        692365393, 
                         638323895
                     ], 
                     "title": "Top Free iPhone Food & Drink Apps"
@@ -54,11 +55,12 @@
                 720808869, 
                 289380413, 
                 485772087, 
+                528597834, 
                 596928966, 
                 576547634, 
-                528597834, 
                 426415850, 
-                391597058
+                391597058, 
+                547687764
             ], 
             "appRatingsLearnMoreUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/appRatings?cc=us", 
             "versionHistory": [
@@ -184,7 +186,7 @@
             "pageDetails": "Cond\u00e9 Nast Digital_Epicurious Recipes & Shopping List", 
             "pageId": "312101965", 
             "language": "1", 
-            "serverInstance": "1005803", 
+            "serverInstance": "512095", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
@@ -410,7 +412,7 @@
                         "ratingCountCurrentVersion": 28, 
                         "valueCurrentVersion": 2, 
                         "value": 3, 
-                        "ratingCount": 35269
+                        "ratingCount": 35270
                     }, 
                     "artistUrl": "https://itunes.apple.com/us/artist/conde-nast-digital/id289380416?mt=8", 
                     "itunesNotes": {
@@ -496,7 +498,7 @@
                     }, 
                     "artwork": [
                         {
-                            "url": "http://a4.mzstatic.com/us/r30/Purple1/v4/3c/88/9f/3c889f25-3445-9b7a-4c32-b9d9681795fa/icon240x240.jpeg", 
+                            "url": "http://a2.mzstatic.com/us/r30/Purple1/v4/3c/88/9f/3c889f25-3445-9b7a-4c32-b9d9681795fa/icon240x240.png", 
                             "width": 240, 
                             "height": 240
                         }, 
@@ -516,12 +518,12 @@
                             "height": 220
                         }, 
                         {
-                            "url": "http://a5.mzstatic.com/us/r30/Purple1/v4/3c/88/9f/3c889f25-3445-9b7a-4c32-b9d9681795fa/icon400x400.jpeg", 
+                            "url": "http://a5.mzstatic.com/us/r30/Purple1/v4/3c/88/9f/3c889f25-3445-9b7a-4c32-b9d9681795fa/icon400x400.png", 
                             "width": 400, 
                             "height": 400
                         }, 
                         {
-                            "url": "http://a5.mzstatic.com/us/r30/Purple1/v4/3c/88/9f/3c889f25-3445-9b7a-4c32-b9d9681795fa/icon512x512.png", 
+                            "url": "http://a3.mzstatic.com/us/r30/Purple1/v4/3c/88/9f/3c889f25-3445-9b7a-4c32-b9d9681795fa/icon512x512.jpeg", 
                             "width": 512, 
                             "height": 512
                         }
@@ -541,7 +543,7 @@
                         "ipad": [
                             [
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple/v4/eb/13/49/eb134910-873b-abb6-5daa-0a3729c3ad69/screen261x261-65.jpeg", 
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple/v4/eb/13/49/eb134910-873b-abb6-5daa-0a3729c3ad69/screen261x261-50.jpeg", 
                                     "width": 196, 
                                     "height": 261
                                 }, 
@@ -573,7 +575,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/5e/a5/47/5ea547b6-9cda-da2a-5b38-5ae807e93965/screen261x261-65.jpeg", 
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/5e/a5/47/5ea547b6-9cda-da2a-5b38-5ae807e93965/screen261x261-50.jpeg", 
                                     "width": 261, 
                                     "height": 196
                                 }, 
@@ -593,12 +595,12 @@
                                     "height": 414
                                 }, 
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/5e/a5/47/5ea547b6-9cda-da2a-5b38-5ae807e93965/screen420x316.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/5e/a5/47/5ea547b6-9cda-da2a-5b38-5ae807e93965/screen420x420.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
                                 {
-                                    "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/5e/a5/47/5ea547b6-9cda-da2a-5b38-5ae807e93965/screen420x420.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/5e/a5/47/5ea547b6-9cda-da2a-5b38-5ae807e93965/screen420x316.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
@@ -610,7 +612,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/a3/6c/b3/a36cb382-7944-6071-bfdd-6315bc4ce328/screen261x261-65.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/a3/6c/b3/a36cb382-7944-6071-bfdd-6315bc4ce328/screen261x261-50.jpeg", 
                                     "width": 261, 
                                     "height": 196
                                 }, 
@@ -630,12 +632,12 @@
                                     "height": 414
                                 }, 
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/a3/6c/b3/a36cb382-7944-6071-bfdd-6315bc4ce328/screen420x316.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/a3/6c/b3/a36cb382-7944-6071-bfdd-6315bc4ce328/screen420x420.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/a3/6c/b3/a36cb382-7944-6071-bfdd-6315bc4ce328/screen420x420.jpeg", 
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/a3/6c/b3/a36cb382-7944-6071-bfdd-6315bc4ce328/screen420x316.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
@@ -647,7 +649,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple/v4/ea/7d/29/ea7d2923-ad73-8295-5823-125f655abc80/screen261x261-65.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple/v4/ea/7d/29/ea7d2923-ad73-8295-5823-125f655abc80/screen261x261-50.jpeg", 
                                     "width": 261, 
                                     "height": 196
                                 }, 
@@ -667,12 +669,12 @@
                                     "height": 414
                                 }, 
                                 {
-                                    "url": "http://a4.mzstatic.com/us/r30/Purple/v4/ea/7d/29/ea7d2923-ad73-8295-5823-125f655abc80/screen420x316.jpeg", 
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple/v4/ea/7d/29/ea7d2923-ad73-8295-5823-125f655abc80/screen420x420.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple/v4/ea/7d/29/ea7d2923-ad73-8295-5823-125f655abc80/screen420x420.jpeg", 
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple/v4/ea/7d/29/ea7d2923-ad73-8295-5823-125f655abc80/screen420x316.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
@@ -684,7 +686,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a4.mzstatic.com/us/r30/Purple/v4/fa/18/61/fa186136-c7b0-47bf-abfc-74de84a57786/screen261x261-65.jpeg", 
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple/v4/fa/18/61/fa186136-c7b0-47bf-abfc-74de84a57786/screen261x261-50.jpeg", 
                                     "width": 196, 
                                     "height": 261
                                 }, 
@@ -1109,7 +1111,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "1005803", 
+        "ITSServerInstance": "512095", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 

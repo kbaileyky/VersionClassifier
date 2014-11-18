@@ -27,18 +27,18 @@
                         529479190, 
                         553834731, 
                         667728512, 
-                        538212549, 
                         485126024, 
                         850417475, 
+                        538212549, 
                         506627515, 
-                        824318267, 
                         608206510, 
-                        469231420, 
                         486363584, 
                         594843575, 
+                        469231420, 
                         834393815, 
                         479516143, 
-                        572821456
+                        824318267, 
+                        483165745
                     ], 
                     "title": "Top Grossing iPad Games Apps"
                 }, 
@@ -47,17 +47,17 @@
                         529479190, 
                         553834731, 
                         667728512, 
-                        538212549, 
                         850417475, 
-                        563474464, 
+                        538212549, 
                         608206510, 
                         506627515, 
+                        563474464, 
+                        855627886, 
                         672150402, 
                         860822992, 
-                        694876905, 
-                        855627886, 
-                        485126024, 
-                        558823262
+                        479516143, 
+                        834393815, 
+                        572821456
                     ], 
                     "title": "Top Grossing iPhone Games Apps"
                 }
@@ -213,16 +213,16 @@
                     "name": "52,500 coins"
                 }, 
                 {
-                    "price": "$4.99", 
-                    "name": "Advanced Package"
-                }, 
-                {
                     "price": "$1.99", 
                     "name": "1,500 coins"
                 }, 
                 {
                     "price": "$4.99", 
                     "name": "6,000 coins"
+                }, 
+                {
+                    "price": "$4.99", 
+                    "name": "Advanced Package"
                 }, 
                 {
                     "price": "$1.99", 
@@ -247,7 +247,7 @@
             "pageDetails": "Playtika LTD_Slotomania - Free Video Slots Games", 
             "pageId": "447553564", 
             "language": "1", 
-            "serverInstance": "511715", 
+            "serverInstance": "1005701", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
@@ -470,10 +470,10 @@
                     "releaseDate": "2011-11-07", 
                     "artistId": 447553567, 
                     "userRating": {
-                        "ratingCountCurrentVersion": 1222, 
+                        "ratingCountCurrentVersion": 1267, 
                         "valueCurrentVersion": 4, 
                         "value": 4, 
-                        "ratingCount": 135470
+                        "ratingCount": 135505
                     }, 
                     "artistUrl": "https://itunes.apple.com/us/artist/playtika-ltd/id447553567?mt=8", 
                     "itunesNotes": null, 
@@ -573,17 +573,17 @@
                             "height": 240
                         }, 
                         {
-                            "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/57/c5/88/57c58869-76f6-0cc8-09cb-cbe1d027eaac/icon1024x1024.png", 
+                            "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/57/c5/88/57c58869-76f6-0cc8-09cb-cbe1d027eaac/icon1024x1024.jpeg", 
                             "width": 1024, 
                             "height": 1024
                         }, 
                         {
-                            "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/57/c5/88/57c58869-76f6-0cc8-09cb-cbe1d027eaac/icon440x440.jpeg", 
+                            "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/57/c5/88/57c58869-76f6-0cc8-09cb-cbe1d027eaac/icon440x440.png", 
                             "width": 440, 
                             "height": 440
                         }, 
                         {
-                            "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/57/c5/88/57c58869-76f6-0cc8-09cb-cbe1d027eaac/icon220x220.jpeg", 
+                            "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/57/c5/88/57c58869-76f6-0cc8-09cb-cbe1d027eaac/icon220x220.png", 
                             "width": 220, 
                             "height": 220
                         }, 
@@ -593,7 +593,7 @@
                             "height": 400
                         }, 
                         {
-                            "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/57/c5/88/57c58869-76f6-0cc8-09cb-cbe1d027eaac/icon512x512.jpeg", 
+                            "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/57/c5/88/57c58869-76f6-0cc8-09cb-cbe1d027eaac/icon512x512.png", 
                             "width": 512, 
                             "height": 512
                         }
@@ -1168,7 +1168,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "511715", 
+        "ITSServerInstance": "1005701", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 

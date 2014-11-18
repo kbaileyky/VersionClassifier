@@ -8,17 +8,17 @@
                     "ids": [
                         490217893, 
                         899628497, 
-                        664306853, 
-                        543851593, 
                         435588892, 
+                        543851593, 
+                        664306853, 
                         474207297, 
-                        707189889, 
-                        570060128, 
-                        613398383, 
                         510301841, 
                         435138734, 
                         481623941, 
-                        661639471, 
+                        707189889, 
+                        570060128, 
+                        435539858, 
+                        613398383, 
                         923367559, 
                         565200595
                     ], 
@@ -29,18 +29,18 @@
                         490217893, 
                         919087726, 
                         570060128, 
-                        577232024, 
                         435588892, 
+                        577232024, 
                         565200595, 
                         546473125, 
-                        613398383, 
                         481623941, 
-                        522826277, 
+                        613398383, 
                         435539858, 
-                        442879358, 
+                        522826277, 
                         435138734, 
-                        467329677, 
-                        552602056
+                        442879358, 
+                        543851593, 
+                        510301841
                     ], 
                     "title": "Top Free iPhone Education Apps"
                 }
@@ -82,7 +82,7 @@
             "pageDetails": "LitCharts LLC_LitCharts", 
             "pageId": "867311750", 
             "language": "1", 
-            "serverInstance": "2126173", 
+            "serverInstance": "615122", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
@@ -388,7 +388,7 @@
                     "editorialBadgeInfo": null, 
                     "artwork": [
                         {
-                            "url": "http://a3.mzstatic.com/us/r30/Purple5/v4/80/98/8e/80988e92-ff79-d5cf-77b6-1f8382008352/icon240x240.png", 
+                            "url": "http://a5.mzstatic.com/us/r30/Purple5/v4/80/98/8e/80988e92-ff79-d5cf-77b6-1f8382008352/icon240x240.jpeg", 
                             "width": 240, 
                             "height": 240
                         }, 
@@ -398,12 +398,12 @@
                             "height": 1024
                         }, 
                         {
-                            "url": "http://a5.mzstatic.com/us/r30/Purple5/v4/80/98/8e/80988e92-ff79-d5cf-77b6-1f8382008352/icon440x440.png", 
+                            "url": "http://a2.mzstatic.com/us/r30/Purple5/v4/80/98/8e/80988e92-ff79-d5cf-77b6-1f8382008352/icon440x440.jpeg", 
                             "width": 440, 
                             "height": 440
                         }, 
                         {
-                            "url": "http://a1.mzstatic.com/us/r30/Purple5/v4/80/98/8e/80988e92-ff79-d5cf-77b6-1f8382008352/icon220x220.png", 
+                            "url": "http://a3.mzstatic.com/us/r30/Purple5/v4/80/98/8e/80988e92-ff79-d5cf-77b6-1f8382008352/icon220x220.jpeg", 
                             "width": 220, 
                             "height": 220
                         }, 
@@ -824,7 +824,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "2126173", 
+        "ITSServerInstance": "615122", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
