@@ -1,0 +1,13 @@
+Version\s\d+(\.\d+)+\sPosted
+\d+(\.\d+)+
+(J|F|M|A|S|O|N|D)\w*\s?\d{1,2}(th|st|rd|nd)?(\,|\.)\s?\d{4}
+MMM d. yyyy
+MMM dd. yyyy
+MMM d, yyyy
+MMM dd, yyyy
+MMMd, yyyy
+MMMdd, yyyy
+MMMd. yyyy
+MMMdd. yyyy
+MMMd.yyyy
+MMMdd.yyyy
