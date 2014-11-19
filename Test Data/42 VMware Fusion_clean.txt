@@ -1,4 +1,5 @@
-﻿VMware Fusion 7.0.1 | 28 October 2014
+
+VMware Fusion 7.0.1 | 28 October 2014
 
 These release notes cover the following topics:
 What's New
@@ -577,6 +578,7 @@ VMware Fusion 5.0.5 has been updated to the OPENSSL library version openssl- 0.9
 
 VMware Fusion 5.0.4 | 03 DECEMBER 2013 | Build 1435862
 
+Last updated: 09 DECEMBER 2013
 
 Check frequently for additions and updates to these release notes.
 
@@ -749,6 +751,7 @@ Known issues from prior releases of VMware Fusion 5 also might apply to VMware F
 
 VMware Fusion 5.0 | 23 August 2012 | Build 802507
 
+Last updated: 28 August 2012
 
 Check frequently for additions and updates to these release notes.
 
@@ -953,6 +956,7 @@ Known issues from prior releases of VMware Fusion 4 also might apply to VMware F
 
 VMware Fusion 4.1.3 | 13 JUNE 2012 | Build 730298
 
+Last updated: 13 JUNE 2012
 
 These release notes cover the following topics:
 
@@ -1005,6 +1009,7 @@ Top of Page
 
 VMware Fusion 4.1.2 | 12 APR 2012 | Build 683185
 
+Last updated: 10 APR 2012
 
 These release notes cover the following topics:
 
@@ -1060,6 +1065,7 @@ Workaround: None.
 
 VMware Fusion 4.1.1 | 23 11 2011 | Build 536016
 
+Last updated: 29 NOV 2011
 
 Check frequently for additions and updates to these release notes.
 
@@ -1226,6 +1232,7 @@ Workaround: Connect the USB printer to the guest directly. Alternatively, connec
 
 VMware Fusion 4.1 | 17 11 2011 | Build 529802
 
+Last updated: 19 AUG 2013
 
 Check frequently for additions and updates to these release notes.
 
@@ -1524,6 +1531,7 @@ Some pen tablets, such as the Wacom Intuos 4, experience erratic mouse behavior.
 
 VMware Fusion 4.0.2 | 27 09 2011 | Build 491587
 
+Last updated: 18 OCT 2011
 
 Check frequently for additions and updates to these release notes.
 
@@ -1814,6 +1822,7 @@ Workaround: Connect the USB printer to the guest directly. Alternatively, connec
 
 VMware Fusion 4.0.1 | 14 09 2011 | Build 474597
 
+Last updated: 18 OCT 2011
 
 Check frequently for additions and updates to these release notes.
 
@@ -2105,6 +2114,7 @@ Workaround: Connect the USB printer to the guest directly. Alternatively, connec
 
 VMware Fusion 4.0 | 14 09 2011 | Build 465617
 
+Last updated: 18 OCT 2011
 
 Check frequently for additions and updates to these release notes.
 
@@ -3160,6 +3170,7 @@ Workaround for OVF Tool 2.0.0: Edit line 23 of the ovftool script to contain the
 
 VMware Fusion 3.1.1 | 12 AUG 2010 | Build 282344
 
+Last Document Update: 12 AUG 2010
 
 
 These release notes cover the following topics:
@@ -3521,6 +3532,7 @@ Audio recordings can now be made from devices that output at a sampling rate oth
 
 VMware Fusion 3.1 | 25 MAY 2010 | Build 261058
 
+Last Document Update: 28 MAY 2010
 
 
 These release notes cover the following topics:
@@ -4222,6 +4234,7 @@ Workaround for OVF Tool 2.0.0: Edit line 23 of the ovftool script to contain the
 
 VMware Fusion 3.0.2 | 18 FEB 2010 | Build 232708
 
+Last Document Update: 18 FEB 2010
 
 
 These release notes cover the following topics:
@@ -4269,6 +4282,7 @@ Workaround: Apple has fixed the underlying problem in Mac OS X 10.6 Snow Leopard
 
 VMware Fusion 3.0.1 | 10 DEC 2009 | Build 215242
 
+Last Document Update: 08 MAR 2010
 
 
 These release notes cover the following topics:
@@ -4779,6 +4793,7 @@ If you plug a USB device into a host machine when you are running a Mac OS X 10.
 
 VMware Fusion 2.0.7 | 08 APR 2010 | Build 246742
 
+Last Document Update: 07 APR 2010
 
 
 These release notes cover the following topics:
@@ -4979,6 +4994,7 @@ If you plug a USB device into a host machine when you are running a Mac OS X 10.
 
 VMware Fusion 2.0.6 | 1 OCT 2009 | Build 196839
 
+Last Document Update: 28 OCT 2009
 
 
 These release notes cover the following topics:
@@ -5152,6 +5168,7 @@ If you plug a USB device into a host machine when you are running a Mac OS X 10.
 
 VMware Fusion 2.0.5 | 23 JUN 2009 | Build 173382
 
+Last Document Update: 26 JUN 2009
 
 
 These release notes cover the following topics:
@@ -5358,6 +5375,7 @@ If you plug a USB device into a host machine when you are running a Mac OS X 10.
 
 VMware Fusion 2.0.4 | 10 APR 2009 | Build 159196
 
+Last Document Update: 28 OCT 2009
 
 
 These release notes cover the following topics:
@@ -5488,6 +5506,7 @@ If you plug a USB device into a host machine when you are running a Mac OS X 10.
 
 VMware Fusion 2.0.3 | 02 APR 2009 | Build 156731
 
+Last Document Update: 15 APR 2009
 
 
 These release notes cover the following topics:
@@ -5617,6 +5636,7 @@ If you plug a USB device into a host machine when you are running a Mac OS X 10.
 
 VMware Fusion 2.0.2 | 11 FEB 2009 | Build 147997
 
+Last Document Update: 13 FEB 2009
 
 These release notes cover the following topics:
 
@@ -5783,6 +5803,7 @@ If you plug a USB device into a host machine when you are running a Mac OS X 10.
 
 VMware Fusion 2.0.1 | 14 NOV 2008 | Build 128865
 
+Last Document Update: 15 DEC 2008
 
 These release notes cover the following topics:
 
@@ -5983,10 +6004,6 @@ Windows Vista or Windows Server 2008 virtual machines that were imported from Pa
 
 Do not disable USB 2.0 support for a Mac OS X Server virtual machine.
 Plugging a USB device into a host machine when you are running a Mac OS X 10.5.5 virtual machine on which you disabled USB 2.0 support causes the virtual machine to fail. In this situation, VMware Fusion displays the message "The device was unable to connect to its ideal host controller" when you plug in the USB device, and displays the message "The CPU has been disabled by the guest operating system" when you click OK to close the previous message. If this happens, go to the USB Devices panel of the Settings window for this virtual machine, and select Enable USB 2.0 support.
-
-
-
-
 
 
 VMware Fusion 2.0 | 27 Oct 2008 | Build 116369
@@ -7068,11 +7085,4 @@ Sound should now work in your Microsoft Vista 32-bit virtual machine.
 
 Sound does not work in virtual machines running Windows 2003 Server 64-bit Enterprise Edition R2. 
 To enable sound in a virtual machine running Windows 2003 Server 64-bit Enterprise Edition R2, you must enable the Windows Audio Service: open the Sounds and Audio Devices Control Panel. Windows prompts you to enable the audio device. When you enable the device, Windows reboots. Sound should now work in the virtual machine.
-
-
-
-
-
-
-
 
