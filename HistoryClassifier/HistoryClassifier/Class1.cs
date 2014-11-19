@@ -193,12 +193,20 @@ namespace HistoryClassifier
               DateTime date;
               if (DateTime.TryParseExact(oldDate, datePattern, enUS, DateTimeStyles.None, out date))
               {
+                  
                   ReleaseDate = date.ToString("dd/MM/yyyy");
                   return ReleaseDate;
               }
               else
               {
-
+                  try
+                  {
+                      DateTime.ParseExact(oldDate, datePattern, enUS, DateTimeStyles.None);
+                  }
+                  catch(Exception ex)
+                  {
+                      Console.Out.WriteLine(ex.Message);
+                  }
                   return oldDate;
               }
            
