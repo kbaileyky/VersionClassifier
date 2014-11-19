@@ -1,219 +1,196 @@
 {
     "pageData": {
         "softwarePageData": {
-            "customerReviewsUrl": "https://itunes.apple.com/us/customer-reviews/id453111583?dataOnly=true&displayable-kind=11", 
+            "customerReviewsUrl": "https://itunes.apple.com/us/customer-reviews/id573116090?dataOnly=true&displayable-kind=11", 
             "customersAlsoBoughtApps": [
-                391732937, 
-                346194763, 
-                438690886, 
-                404040847, 
-                378195188, 
-                440844625, 
-                474048409, 
-                371549613, 
-                335060889, 
-                385815082, 
-                342138881, 
-                608609424
+                417563413, 
+                606310581, 
+                603092599, 
+                687792357, 
+                559500608, 
+                433398108, 
+                523481129, 
+                595095288, 
+                440279995, 
+                435913585, 
+                377989827, 
+                650415564, 
+                484604482, 
+                574443485
             ], 
             "sellerLabel": "Seller", 
             "isFatBinary": 1, 
             "topApps": {
                 "ipad": {
                     "ids": [
-                        284035177, 
-                        324684580, 
-                        781817640, 
-                        933296264, 
-                        402300086, 
-                        897824086, 
-                        421254504, 
-                        418987775, 
-                        336353151, 
-                        510855668, 
-                        691029645, 
-                        509993510, 
-                        408878018, 
-                        895761050, 
-                        895347090
+                        377298193, 
+                        455066445, 
+                        924695435, 
+                        495716481, 
+                        697826715, 
+                        459248037, 
+                        688831692, 
+                        382451198, 
+                        576729372, 
+                        489389646, 
+                        486781045, 
+                        548077023, 
+                        552100086, 
+                        926024111, 
+                        365152940
                     ], 
-                    "title": "Top Free iPad Music Apps"
+                    "title": "Top Grossing iPad Photo & Video Apps"
                 }, 
                 "iphone": {
                     "ids": [
-                        284035177, 
-                        897824086, 
-                        324684580, 
-                        781817640, 
-                        336353151, 
-                        290638154, 
-                        284993459, 
-                        691029645, 
-                        899067390, 
-                        898631029, 
-                        895761050, 
-                        895347090, 
-                        933296264, 
-                        418987775, 
-                        421254504
+                        606310581, 
+                        329670577, 
+                        588013838, 
+                        486781045, 
+                        615563599, 
+                        869138137, 
+                        907159478, 
+                        417571834, 
+                        867338987, 
+                        645746786, 
+                        756298885, 
+                        459248037, 
+                        576729372, 
+                        878601569
                     ], 
-                    "title": "Top Free iPhone Music Apps"
+                    "title": "Top Grossing iPhone Photo & Video Apps"
                 }
             }, 
             "rating-and-advisories": {
-                "advisories": [
-                    "Infrequent/Mild Profanity or Crude Humor", 
-                    "Infrequent/Mild Mature/Suggestive Themes", 
-                    "Infrequent/Mild Sexual Content and Nudity", 
-                    "Infrequent/Mild Alcohol, Tobacco, or Drug Use or References"
-                ], 
-                "rating-text": "Rated 12+ for the following:"
+                "rating-text": "Rated 4+"
             }, 
-            "moreByThisDeveloper": [
-                479526435
-            ], 
             "appRatingsLearnMoreUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/appRatings?cc=us", 
             "versionHistory": [
                 {
-                    "releaseDate": "2014-11-06T22:15:26Z", 
-                    "releaseNotes": "Bug fixes, particularly for an issue affecting some iPad users in the last update", 
-                    "versionString": "3.3.1"
+                    "releaseDate": "2014-09-25T17:18:43Z", 
+                    "releaseNotes": "Here is what's new in Afterlight 2.6\n\nFUSION FILTERS\n\n- You can now share your Fusion Filters with your friends via email! Tap the sharing icon when your filter is selected to begin.\n\niOS 8 optimization\n\n- Afterlight now utilizes the new Extension editor for the iOS 8 photos app.\n- Now fully optimized for the iPhone 6 and 6 plus.\n- Manual camera controls are now added to the camera.\n\nThanks for using Afterlight!", 
+                    "versionString": "2.6"
                 }, 
                 {
-                    "releaseDate": "2014-10-17T13:00:24Z", 
-                    "releaseNotes": "-New and improved iPad redesign\n-Search results on iPad are now categorized by artists, playlists, and activities\n-Note to airplay users on iPad: iOS 8 displays the airplay device options strangely. It may not look like it, but you can scroll down in the small view and find your device. We are hoping this will be fixed soon.", 
-                    "versionString": "3.3"
+                    "releaseDate": "2014-09-19T18:22:35Z", 
+                    "releaseNotes": "- Bug fixes and optimization for iOS 8.\n- Integrated SNS sharing.\n- Updated instagram button to our new account @afterlight.", 
+                    "versionString": "2.5.1"
                 }, 
                 {
-                    "releaseDate": "2014-09-24T22:35:14Z", 
-                    "releaseNotes": "Bug fix for a problem in the last version where the app doesn't load properly for some users.", 
-                    "versionString": "3.2.7"
+                    "releaseDate": "2014-08-21T07:51:33Z", 
+                    "releaseNotes": "Here is what's new in Afterlight 2.5\n\nFUSION FILTERS\n\n- We have a brand new filter section called Fusion. The Fusion filters allow you to create unique filters in your personal style.\n\n- Create your own filters out of adjustment tools, filters, and textures to get a precise style of your liking. Experiment with mixing filters together to get unique coloring, or go all the way with a 20+ step fusion that includes your entire editing process.\n\n- Make your Fusion filters personal by naming them what you want, and even go back and remove unwanted steps.\n\nBUG FIXES\n\n- A crash that occurred when an image is sent to Afterlight from another app has been fixed.\n\n- Other small bug fixes and improvements.\n\nThanks for using Afterlight, and we hope you enjoy this free update! You can follow us personally for occasional hints at new features, @simonfilip and @keynut.", 
+                    "versionString": "2.5"
                 }, 
                 {
-                    "releaseDate": "2014-09-12T16:16:56Z", 
-                    "releaseNotes": "We're aware of an issue where Songza is not loading properly for some users. If you are having this problem, please delete the app and reinstall it. We will have a fix out as soon as possible - we're so sorry for the hassle! \n\nP.S. The issue affects some users who have logged in with both a Songza username and with Facebook. If deleting and reinstalling Songza doesn't address your problems, please email support@songza.com so we can help you directly.", 
-                    "versionString": "3.2.6"
+                    "releaseDate": "2014-06-27T22:56:17Z", 
+                    "releaseNotes": "We fixed some minor bugs in this small update.\n\nThanks for using Afterlight!", 
+                    "versionString": "2.4.1"
                 }, 
                 {
-                    "releaseDate": "2014-07-01T11:38:27Z", 
-                    "releaseNotes": "* Bug fixes and improvements", 
-                    "versionString": "3.2.5"
+                    "releaseDate": "2014-06-12T06:04:07Z", 
+                    "releaseNotes": "Here is what's new in Afterlight 2.4\n\n- Introducing the new Double Exposure tool! It can be found in the cropping/rotating menu.\n\n- There is a new set of 6 instant film frames created by Jacob Wick (@jacobleewick) at no additional charge to the Instant Film pack in-app purchase.\n\n- We have added 43 frames in the new Script category.\n\n- Frame categories have been re-grouped.\n\n- Choosing a photo is now easier with the ability to swipe left/right when in the preview menu.\n\n- Tapping and holding on a photo while using a tool or filter hides the selected effect.\n\n- Sub menus are now hidden when moving sliders.\n\n- Bug fixes\n\nThanks for using Afterlight!\n\nFollow us on Instagram for the occasional early peek at a new feature! @simonfilip and @keynut", 
+                    "versionString": "2.4"
                 }, 
                 {
-                    "releaseDate": "2014-05-31T15:05:04Z", 
-                    "releaseNotes": "Easily find your favorite artists, playlists, and situations (like \"driving\" and \"working out\") with a single search!", 
-                    "versionString": "3.2.4"
+                    "releaseDate": "2014-04-14T21:05:28Z", 
+                    "releaseNotes": "Here's what's new in Afterlight version 2.3\n\n- Our good friends The Honey Trees (@thehoneytrees) have created a new Guest Filter called Bright Fire, named after their brand new album. Check it out on iTunes!\n\n- Two new Seasons filters by Angel Dorr (@angelisdarling) have been added. One called Drift, to say farewell to Winter, and one called Equinox, to welcome Spring.\n\n- Two new man and woman silhouette frames have been added, created by Becky Filip (@beckybird). These are possibly the first of a silhouette frame set, so let us know what you think!\n\n- There is now a horizontal guide in the Camera Mode. Toggle it with the Grid button.\n\n- We have now partnered with Mosaic, who offer incredible photo books printed with your personal photos. Check it out in the Save & Share menu after editing a photo.\n\nFollow us on Instagram for the occasional early peek at a new feature! @simonfilip and @keynut", 
+                    "versionString": "2.3"
                 }, 
                 {
-                    "releaseDate": "2014-02-22T16:28:56Z", 
-                    "releaseNotes": "Now on your iPhone you can easily listen to the music video for all of your favorite songs, any time, anywhere!", 
-                    "versionString": "3.2.3"
+                    "releaseDate": "2014-02-07T20:08:05Z", 
+                    "releaseNotes": "Here's what's new in Afterlight version 2.2\n\n- An Instagram button can now be seen on the home page. Afterlight is now on Instagram at @Afterlightapp, follow and tag #Afterlight and we will feature our favorites.\n\n- A light grey theme is now available for editing. Choose your theme in the settings, or swipe up/down with two fingers while editing to switch between the two color themes.\n\n- A white balance lock for the camera mode.\n\n- An automatic landscape mode is now supported for iPhone.\n\n- There are 3 new wallpapers added to the Wallpaper Pack at no extra charge.\n\n- Small bug fixes.\n\nFollow us on Instagram for the occasional early peek at a new feature! @simonfilip and @keynut", 
+                    "versionString": "2.2"
                 }, 
                 {
-                    "releaseDate": "2013-12-10T11:34:26Z", 
-                    "releaseNotes": "- Better streaming performance when you have a weak signal\n\n- Fixed top crashes", 
-                    "versionString": "3.2.2"
+                    "releaseDate": "2013-11-05T19:28:49Z", 
+                    "releaseNotes": "Version 2.1 marks a great milestone for us. Afterlight is now one year old as of today! Thanks to all of you for the great support we've had in the past year.\n\nHere's what's new in Afterlight version 2.1\n\n- The App icon and Afterlight's entire UI have been re-designed for iOS 7.\n\n- The Wallpaper pack can now be used with the Square frame.\n\n- The frames now have a new color option to give you full control to pick any color you want.\n\n- Added an \"Auto save to camera roll\" setting for the camera mode.\n\nFollow us on Instagram for the occasional early peek at a new feature! @simonfilip and @keynut", 
+                    "versionString": "2.1"
                 }, 
                 {
-                    "releaseDate": "2013-11-14T20:01:03Z", 
-                    "releaseNotes": "- By popular demand, you can now see all songs that you've thumbs'd up! (Just go to 'Favorites')\n- Fixed bug in selecting favorite playlists for some iPad users", 
-                    "versionString": "3.2.1"
+                    "releaseDate": "2013-09-19T19:24:11Z", 
+                    "releaseNotes": "Here's what's new in Afterlight version 2\n\n- The Wallpaper Pack ($0.99 in-app purchase) is now available! This pack includes 15 hand drawn patterns to be used with the frames to create a very unique look. This is a growing pack that will receive new content. Wallpaper pack created by Becky Filip. @beckybird\n\n- This update also includes the new free Seasons filter pack with 16 new filters. The Seasons pack was created by Angel Dorr. @angelisdarling\n\n- Focus and Exposure can now be controlled in the camera mode, use two fingers to activate it.\n\n- Photos are now automatically saved to your camera roll in camera mode.\n\n- A new low light boost setting has been added to the settings menu. (iPhone 5)\n\n- The Temperature tool has been recreated and enhanced.\n\n- The Exposure tool has been recreated and enhanced.\n\n- The t-shirt button has been removed, and the store shut down. Thanks to every one who got a shirt, we were able to raise $6,000 for charity!\n\n- Multiple bugs causing crashes have been fixed.\n\nFollow us on Instagram for the occasional early peek at a new feature! @simonfilip and @keynut", 
+                    "versionString": "2.0"
                 }, 
                 {
-                    "releaseDate": "2013-10-16T17:07:22Z", 
-                    "releaseNotes": "Updated for iOS 7, Songza 3.2  includes:\n\n- a more attractive, full-screen Now Playing experience\n\n- easier access to key features from Now Playing screen, including buy song, sharing playlist and saving playlist\n\n- fixed #1 crash", 
-                    "versionString": "3.2"
+                    "releaseDate": "2013-07-30T00:30:13Z", 
+                    "releaseNotes": "Here's what's new in Afterlight version 1.9\n\nAfterlight for iPad is here! This is at no additional cost to current Afterlight users, so update now and enjoy!\n\nSmall changes have also been made to enhance the sliders.\n\nFollow us on Instagram for the occasional early peek at a new feature! @simonfilip and @keynut", 
+                    "versionString": "1.9"
                 }, 
                 {
-                    "releaseDate": "2013-09-12T10:30:35Z", 
-                    "releaseNotes": "- Fixed bugs and crashes, including the most frequently reported crash (which occurred right when users opened the app).", 
-                    "versionString": "3.1.3"
+                    "releaseDate": "2013-06-26T22:57:24Z", 
+                    "releaseNotes": "Here's what's new in Afterlight version 1.8\n\n- We've split the Original Textures into two parts. Dusty Textures and Light Leak Textures.\n\n- You can find 3 brand new textures in the Dusty Textures category.\n\n- We've created 13 new real light leaks with 35mm film. Those can be found at the end of the Light Leak Textures category.\n\n- 2 new original frames have been added.\n\nFollow us on Instagram for the occasional early peak at a new feature! @simonfilip and @keynut\n", 
+                    "versionString": "1.8"
                 }, 
                 {
-                    "releaseDate": "2013-08-20T18:32:52Z", 
-                    "releaseNotes": "- Sept. 9th: Fixed #1 reported crash (it happened right when opening the app)!\n\n- Squished some bugs and fixed some crashes.", 
-                    "versionString": "3.1.2"
+                    "releaseDate": "2013-06-15T22:17:13Z", 
+                    "releaseNotes": "This update is a small update for a new button on the home page. The button will take you to our new store, where we now sell Afterlight t-shirts. 100% of the profit will be going to charity, so please take a look!\n\nVersion 1.8 coming soon!\n\nFollow us on Instagram for the occasional early peak at a new feature! @simonfilip and @keynut", 
+                    "versionString": "1.7.1"
                 }, 
                 {
-                    "releaseDate": "2013-08-08T11:05:51Z", 
-                    "releaseNotes": "Introducing Club Songza, an optional in-app subscription that offers you 100% ad-free listening, exclusive activities and playlists, and more.\n\nJoin the Club to experience Songza in its purest, most beautiful form.\n\nThis update also contains fixes for bugs and crashes.", 
-                    "versionString": "3.1"
+                    "releaseDate": "2013-05-18T00:40:46Z", 
+                    "releaseNotes": "Here's what's new in Afterlight version 1.7\n\n- A Hue button has been included with the Original Textures and the Instant Film textures, giving you an extra 7 coloring options for each texture.\n\n- An invert button has been added to the dusty textures, the Vignette tool, and the Grain tool.\n\n- Images can now be sent to Afterlight from any other apps that allow the \"Open In\" option.\n\n- 1 new Original Filter : Relic\n\n- 2 new Original Textures.\n\n- The free Type frame pack now has 6 new frames.\n\n- 8 new frames have been added to the Original Frames pack.\n\nTo any one experiencing crashes, please close all your apps or restart your phone and try again. If the problem persists, please contact us at hello@afterlight.us\n\nFollow us on Instagram for the occasional early peak at a new feature! @simonfilip and @keynut", 
+                    "versionString": "1.7"
                 }, 
                 {
-                    "releaseDate": "2013-06-14T19:29:44Z", 
-                    "releaseNotes": "- Removed a third party library that was crashing the app for some users.", 
-                    "versionString": "3.0.3"
+                    "releaseDate": "2013-04-11T16:15:53Z", 
+                    "releaseNotes": "Here's what's new in AfterLight version 1.6\n\n- We now have an undo button! The revert button will now turn into a one step undo button when available.\n\n- The option to take a photo now includes a camera timer.\n\n- We've added a preview when selecting a photo to use.\n\n- We've added three new original textures.\n\n- The Instant Film pack has 3 new textures, and 4 new frames. Free for all users who have already purchased the pack.\n\n- All of the instant film frames now have the square background option.\n\n- We now have 36 new frames in the new free Type pack.\n\n- The frames can now be changed to black instead of white.\n\n- The frames also have a transparency slider now.\n\nWe hope everyone enjoys this update, and we'll see you again for version 1.7 next month! \n\nFollow us on Instagram for the occasional early peak at a new feature! @simonfilip and @keynut", 
+                    "versionString": "1.6"
                 }, 
                 {
-                    "releaseDate": "2013-06-05T15:01:28Z", 
-                    "releaseNotes": "- Most frequent crash now fixed!\n- We've also squashed a number of other bugs and performance issues.", 
-                    "versionString": "3.0.2"
+                    "releaseDate": "2013-03-11T18:52:03Z", 
+                    "releaseNotes": "We have now changed from the name Afterglow, to AfterLight. We hope this isn't a confusing change, but it had to be done for legal reasons.\n\nWelcome to AfterLight! Here's what's new in version 1.5\n\n- This update comes with the Instant Film pack. It includes 19 new textures and 3 new frames. All inspired by and created with instant film. This will be a growing pack that will receive new content.\n\n- To celebrate the transition to a new name, we've created 5 new Original Filters. All you have to do is like our new Facebook page to unlock them. It will greatly help us through this new change, so thank you to every one in advance!\n\n- Try out our new Mid Tone tool. It has been created to go along with our Shadow Tone and Highlight tone tools for even more control over your coloring.\n\n- Pinching and zooming with the frames has been enhanced with a fixed sensitivity issue.\n\n- We've added 3 new frames.\n\n- Tap and hold on your image when Filter & Texture editing to hide any part of the interface that might be covering your image.\n\n- The Clarify tool has been enhanced for quality and speed, and we've fixed a bug.\n\n- The cropping tool has been enhanced. The free transform option has more control, and we've added a golden ratio crop option.\n\nWe hope everyone enjoys this update, and we'll see you again for version 1.6 next month!\n\nFollow us on Instagram for the occasional early peak at a new feature! @simonfilip and @keynut", 
+                    "versionString": "1.5"
                 }, 
                 {
-                    "releaseDate": "2013-05-12T21:25:23Z", 
-                    "releaseNotes": "Songza 3.0.1 contains performance improvements to Songza 3.0, which has been reimagined to help make the things you do every day better:\n\n- Doing something special? From the Concierge screen on iPhone or iPod Touch, shake your device and tell Songza exactly what you're up to; Songza will then find the right music to make it better. For example, you could enter 'Entertaining' and Songza will find you music to soundtrack the perfect party. \n\n- Enjoying your favorite artists is now better than ever. When you search for an artist, you\u2019ll see every expert-curated playlist on Songza that features them. Any playlist you choose will begin with a song by that artist. \n\n- Get faster performance and less buffering, even when you have so-so internet connection. We\u2019ve also fixed the most common crashes and bugs. \n\n- When you\u2019re in a rush, a long press on any Concierge situation (e.g. Driving) immediately starts playing the playlist Songza thinks you'll love most at that moment. Starting your Songza playlist can now be as fast as turning on your car radio. \n\n- Songza\u2019s HQ Audio feature, powered by Audyssey, significantly improves your headphone sound quality without increasing your data plan usage. With Songza 3.0\u2019s improved HQ Audio, 200 headphone models are now available and it\u2019s now easier to select your headphones whenever you add a new pair. \n\n- A new full-screen Concierge experience takes advantage of the iPhone 5 screen and removes visual clutter, while a simplified navigation focuses on the most powerful and user-friendly additional features. \n\n- To make music discovery easier, in-app tips on iPhone or iPod Touch help you move from playlists you\u2019re getting tired of to new playlists that will make you feel fresh all over again. \n\n- We\u2019ve made navigation simpler by removing unnecessary things and unburying cool features like browsing playlists by mood, genre, decade or activity.", 
-                    "versionString": "3.0.1"
+                    "releaseDate": "2013-02-22T18:00:36Z", 
+                    "releaseNotes": "Here's what's new in Afterglow version 1.4\n\n- Try out our new adjustment tool, Clarify. The clarify tool was designed to really bring out the detail in your landscape photos.\n\n- We now support a \"Before and After\" feature. Tap and hold on your image to see the original unedited version.\n\n- Two new frames have been added.\n\n- Pinch and zoom functionality has been added when you use one of our shaped frames.\n\n- Flickr sharing support has been added.\n\n- Photos can be taken with the volume buttons.\n\n- A small fix to a location data bug.\n\nThank you everyone for your support. We'll be back next month for version 1.5, our biggest content update yet!\n\nFollow us on Instagram for the occasional early peak at a new feature! @simonfilip and @keynut", 
+                    "versionString": "1.4"
                 }, 
                 {
-                    "releaseDate": "2013-05-02T07:34:57Z", 
-                    "releaseNotes": "Welcome to Songza 3.0, reimagined to help make the things you do every day better!\n \n- Doing something special? From the Concierge screen on iPhone or iPod Touch, shake your device and tell Songza exactly what you're up to; Songza will then find the right music to make it better. For example, you could enter 'Entertaining' and Songza will find you music to soundtrack the perfect party. \n\n- Enjoying your favorite artists is now better than ever. When you search for an artist, you\u2019ll see every expert-curated playlist on Songza that features them. Any playlist you choose will begin with a song by that artist.\n\n- Get faster performance and less buffering, even when you have so-so internet connection. We\u2019ve also fixed the most common crashes and bugs.\n\n- When you\u2019re in a rush, a long press on any Concierge situation (e.g. Driving) immediately starts playing the playlist Songza thinks you'll love most at that moment. Starting your Songza playlist can now be as fast as turning on your car radio.\n\n- Songza\u2019s HQ Audio feature, powered by Audyssey, significantly improves your headphone sound quality without increasing your data plan usage. With Songza 3.0\u2019s improved HQ Audio, 200 headphone models are now available and it\u2019s now easier to select your headphones whenever you add a new pair. \n\n- A new full-screen Concierge experience takes advantage of the iPhone 5 screen and removes visual clutter, while a simplified navigation focuses on the most powerful and user-friendly additional features.\n \n- To make music discovery easier, in-app tips on iPhone or iPod Touch help you move from playlists you\u2019re getting tired of to new playlists that will make you feel fresh all over again.\n\n- We\u2019ve made navigation simpler by removing unnecessary things and unburying cool features like browsing playlists by mood, genre, decade or activity.", 
-                    "versionString": "3.0"
+                    "releaseDate": "2013-01-18T00:28:31Z", 
+                    "releaseNotes": "Here's what's new in Afterglow version 1.3\n\n- We've created 5 new shaped frames. Celebrate Valentine's Day early with the new heart frame! \n\n- There are two new textures. One was made from an image of snowfall, and the other created with instant film.\n\n- There is one new Guest Filter.\n\n- Both the filter and texture buttons have been made larger and easier to see.\n\n- The slider bars are now less sensitive.\n\n- Afterglow can now preserve full EXIF data.\n\n- We have a newly designed Camera UI.\n\n- Mixing filters and textures is now easier than before. We have a new setting to immediately finalize a texture/filter, so you can move on to the next one.\n\n- Fixed a small saving bug.\n\nHave any questions? Contact us! afterglow-app.com\n\nWe're just a very small team of two, so we really appreciate the support and feedback from everyone.\n\nFollow us on Instagram for the occasional early peak at a new feature! @simonfilip and @keynut", 
+                    "versionString": "1.3"
                 }, 
                 {
-                    "releaseDate": "2013-03-25T15:48:15Z", 
-                    "releaseNotes": "- Get to your perfect playlist from Concierge even faster\n\n- Improved navigation to get from Now Playing to Concierge section\n\n- Improved loading during weak internet connection\n\n- Fixed HQ Audio bug that would mute volume\n\n- Easily change which headphones are being optimized for HQ Audio in Settings section \n\nThe full story behind HQ Audio: \n\nAudyssey\u2019s HQ Audio optimizes your music at every volume for deep, detailed, pitch-perfect sound. Pick your headphones, play your favorite Songza playlist, and hear the difference.\n\nAudyssey developed a brand new technology to measure headphones and bring them closer to studio reference sound. Using this technology Audyssey creates a unique fine-tuned profile for each of the top-selling headphone brands and makes it available in the world\u2019s largest headphone database.\n\nThe Audyssey HQ Audio feature on Songza works by applying this headphone-specific profile to the song file in real-time. Adjustments are made to the music at each frequency so that the signal that the media player sends to the headphone has taken into account its particular fit and specs. The result is studio reference sound that has the quality of a much bigger music file. \n\nYou can turn Audyssey\u2019s HQ Audio on from the Now Playing screen when you have headphones plugged in to your device. Simply slide the HQ switch down, select your headphones and you're done! The HQ switch will turn blue when active.", 
-                    "versionString": "2.91"
+                    "releaseDate": "2012-12-11T17:55:43Z", 
+                    "releaseNotes": "Here's what's new in Afterglow version 1.2\n\n- You can now create and send postcards with your photos in Afterglow! Try it out in the Save & Share page.\n\n- Try out the \"New\" button in the Save & Share page. It will allow you to load your next photo without having to go to the home page.\n\n- Photos can now be moved horizontally or vertically behind all of our shaped frames.\n\n- Enjoy a new original filter called Hollow for free!\n\n- We've fixed a small bug in the sharpening tool.\n\n- The grain adjustment tool has been enhanced for easier use.\n\nThank you to everyone for the suggestions so far. If you have a suggestion, you can either leave us a review, or contact us through afterglow-app.com. We'd love to hear your suggestions for Afterglow version 1.3, releasing next month!", 
+                    "versionString": "1.2"
                 }, 
                 {
-                    "releaseDate": "2012-12-26T20:45:34Z", 
-                    "releaseNotes": "- Improved High-Quality Audio, with no extra data plan usage!\n\n- Improved volume loudness when your device is docked to a speaker\n\n- Fixed playback crashes on earlier versions of iOS\n\nThe full story behind HQ Audio: \nMusic is mixed in acoustically calibrated studios by professionals listening at very high volumes. When you listen over headphones two things change: (1) every headphone has its own acoustical characteristics that are different from the studio and (2) most people listen to music at volumes well below studio levels, so their perception of high and low frequency balance is completely different from the original recording. \n\nAudyssey's audio engineers developed new technology to measure headphone characteristics and bring them closer to studio sound while adjusting the music balance so that it preserves the original content even when listening at lower volumes. \n\nThe HQ Audio feature on Songza works by applying a headphone-specific filter to the song file in real-time that makes adjustments to the music at each frequency so that the signal that the media player sends to the headphone has taken into account its particular fit and specs. The result is sound that has the quality of a much bigger music file and can be heard the way the artist intended it to be heard. \n\nYou can turn HQ Audio on from the Now Playing screen when you have headphones plugged in to your device. Simply slide the HQ switch down, select your headphones and you're done! The HQ switch will turn blue when active.", 
-                    "versionString": "2.9"
+                    "releaseDate": "2012-11-20T19:43:39Z", 
+                    "releaseNotes": "Here's what's new in Afterglow version 1.1\n\n- Enjoy another layer of color control with our new Highlight Tone tool!\n- Check out the Guest Filters for two new filters! Be sure to check the info page to see the creators.\n- We've enhanced the texture section with the option to rotate and flip textures.\n- We now support full resolution for the iPhone 3GS and 4.\n- One new frame, the diamond frame.\n- One new light leak texture we've created with 35mm film.\n- The size buttons now show what size they will be saving.\n- The cropping view has been enhanced for an easier crop.\n- All of the frame sliders now have value indicators.\n- The option to use full resolution images is now default.\n\nKeep tagging your Instagram photos with #afterglowapp, we love seeing them!\n\nWe're listening to your thoughts on the app, and you can expect even more features and control in version 1.2 coming soon!", 
+                    "versionString": "1.1"
                 }, 
                 {
-                    "releaseDate": "2012-12-13T07:21:49Z", 
-                    "releaseNotes": "New High-Quality Audio dramatically improves headphone sound without increasing data plan usage! Powered by Audyssey Labs.\n\n*iOS version 5 or 6 required for this update*\n\nThe full story behind HQ Audio:\nMusic is mixed in acoustically calibrated studios by professionals listening at very high volumes.  When you listen over headphones two things change: (1) every headphone has its own acoustical characteristics that are different from the studio and (2) most people listen to music at volumes well below studio levels, so their perception of high and low frequency balance is completely different from the original recording.\n\nAudyssey's audio engineers developed new technology to measure headphone characteristics and bring them closer to studio sound while adjusting the music balance so that it preserves the original content even when listening at lower volumes.\n\nThe HQ Audio feature on Songza works by applying a headphone-specific filter to the song file in real-time that makes adjustments to the music at each frequency so that the signal that the media player sends to the headphone has taken into account its particular fit and specs. The result is sound that has the quality of a much bigger music file and can be heard the way the artist intended it to be heard. \n\nYou can turn HQ Audio on from the Now Playing screen when you have headphones plugged in to your device. Simply slide the HQ switch down, select your headphones and you're done! The HQ switch will turn blue when active.", 
-                    "versionString": "2.8"
-                }, 
-                {
-                    "releaseDate": "2012-11-20T02:07:29Z", 
-                    "releaseNotes": "-Fixed playback crash for users with earlier versions of iOS.", 
-                    "versionString": "2.72"
-                }, 
-                {
-                    "releaseDate": "2012-11-09T00:47:13Z", 
-                    "releaseNotes": "*Wake up happier to your favorite playlist with improved Alarm Clock feature\r\n*Fixed playback control for  lock screen, Bluetooth and various headphones", 
-                    "versionString": "2.71"
-                }, 
-                {
-                    "releaseDate": "2012-10-25T11:25:07Z", 
-                    "releaseNotes": "*Wake up happier to your favorite playlist with new Alarm Clock feature\n*Easier song purchase from iTunes Store\n*Easier Facebook and Twitter sharing\n*iOS 6 and iPhone 5 updates", 
-                    "versionString": "2.70"
-                }, 
-                {
-                    "releaseDate": "2012-07-25T14:44:08Z", 
-                    "releaseNotes": "\u2605Fixed buffering bugs\n\u2605Faster song loads\n\u2605Improved navigation ", 
-                    "versionString": "2.60"
-                }, 
-                {
-                    "releaseDate": "2012-06-11T21:10:22Z", 
-                    "releaseNotes": "- iPad Crash Fix\n- New Sleep Timer Feature\n- Various Bug Fixes", 
-                    "versionString": "2.50"
+                    "releaseDate": "2012-11-03T23:06:07Z", 
+                    "releaseNotes": null, 
+                    "versionString": "1.0"
                 }
             ], 
-            "id": 453111583
+            "addOns": [
+                {
+                    "price": "$0.99", 
+                    "name": "Instant Film Pack"
+                }, 
+                {
+                    "price": "$0.99", 
+                    "name": "Wallpaper Pack"
+                }
+            ], 
+            "id": 573116090
         }, 
         "metricsBase": {
-            "pageDetails": "Songza Media, Inc._Songza", 
-            "pageId": "453111583", 
+            "pageDetails": "Afterlight Collective, Inc_Afterlight", 
+            "pageId": "573116090", 
             "language": "1", 
-            "serverInstance": "2126750", 
+            "serverInstance": "1013300", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
-            "environmentDataCenter": "ST11", 
+            "environmentDataCenter": "NWK", 
             "pageType": "Software", 
             "platformName": "iTunes12", 
-            "page": "Software_453111583"
+            "page": "Software_573116090"
         }, 
         "footerBreadcrumbs": [
             {
@@ -225,16 +202,16 @@
                 "label": "App Store"
             }, 
             {
-                "url": "https://itunes.apple.com/us/genre/ios-music/id6011?mt=8", 
-                "label": "Music"
+                "url": "https://itunes.apple.com/us/genre/ios-photo-video/id6008?mt=8", 
+                "label": "Photo & Video"
             }, 
             {
-                "url": "https://itunes.apple.com/us/artist/songza-media-inc./id453111586", 
-                "label": "Songza Media, Inc."
+                "url": "https://itunes.apple.com/us/artist/afterlight-collective-inc/id573116093", 
+                "label": "Afterlight Collective, Inc"
             }, 
             {
-                "url": "https://itunes.apple.com/us/app/songza/id453111583?mt=8", 
-                "label": "Songza"
+                "url": "https://itunes.apple.com/us/app/afterlight/id573116090?mt=8", 
+                "label": "Afterlight"
             }
         ], 
         "copyright": "Copyright \u00a9 2014 Apple Inc.", 
@@ -248,12 +225,12 @@
                 "label": "App Store"
             }, 
             {
-                "url": "https://itunes.apple.com/us/genre/ios-music/id6011?mt=8", 
-                "label": "Music"
+                "url": "https://itunes.apple.com/us/genre/ios-photo-video/id6008?mt=8", 
+                "label": "Photo & Video"
             }, 
             {
-                "url": "https://itunes.apple.com/us/artist/songza-media-inc./id453111586", 
-                "label": "Songza Media, Inc."
+                "url": "https://itunes.apple.com/us/artist/afterlight-collective-inc/id573116093", 
+                "label": "Afterlight Collective, Inc"
             }
         ], 
         "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/95A6/frameworks-sf6/images/", 
@@ -263,8 +240,8 @@
             "isClickMetricsEnabled": false, 
             "isBuyMetricsEnabled": true, 
             "isPageMetricsEnabled": true, 
-            "products": "Songza Media, Inc.-Songza-453111583", 
-            "pageName": "Software-US-Songza Media, Inc.-Songza-453111583", 
+            "products": "Afterlight Collective, Inc-Afterlight-573116090", 
+            "pageName": "Software-US-Afterlight Collective, Inc-Afterlight-573116090", 
             "shouldIncludeRecommendationInfoInClickMetrics": true, 
             "channel": "Software Pages"
         }, 
@@ -423,61 +400,52 @@
         "product-dv-product": {
             "version": 1, 
             "results": {
-                "453111583": {
+                "573116090": {
                     "uber": null, 
-                    "hasInAppPurchases": false, 
-                    "releaseDate": "2011-09-13", 
-                    "artistId": 453111586, 
+                    "hasInAppPurchases": true, 
+                    "releaseDate": "2012-11-05", 
+                    "artistId": 573116093, 
                     "userRating": {
-                        "ratingCountCurrentVersion": 43, 
-                        "valueCurrentVersion": 4, 
+                        "ratingCountCurrentVersion": 643, 
+                        "valueCurrentVersion": 4.5, 
                         "value": 4.5, 
-                        "ratingCount": 33398
+                        "ratingCount": 10233
                     }, 
-                    "artistUrl": "https://itunes.apple.com/us/artist/songza-media-inc./id453111586?mt=8", 
+                    "artistUrl": "https://itunes.apple.com/us/artist/afterlight-collective-inc/id573116093?mt=8", 
                     "itunesNotes": null, 
-                    "id": 453111583, 
-                    "bundleId": "com.songza.Songza", 
+                    "id": 573116090, 
+                    "bundleId": "com.simonfilip.AfterGlow", 
                     "genres": [
                         {
-                            "url": "https://itunes.apple.com/us/genre/id6011", 
-                            "name": "Music"
-                        }, 
-                        {
-                            "url": "https://itunes.apple.com/us/genre/id6016", 
-                            "name": "Entertainment"
+                            "url": "https://itunes.apple.com/us/genre/id6008", 
+                            "name": "Photo & Video"
                         }
                     ], 
-                    "copyright": "\u00a9 2012 Songza Media, Inc.", 
+                    "copyright": "\u00a9 Simon Filip", 
                     "supportsPassbook": false, 
                     "description": {
-                        "standard": "Working? Relaxing? At the gym? Songza plays you the right music at the right time.\n\n*App Store Best of 2012*\n*Free, with no listening limits. \n*Need help? Email: support@songza.com\n*Stream thousands of original playlists handmade by music experts.\n*Let Songza's 'Music Concierge' find the right music for your moments. \n*Browse a curated playlist library organized by activity, genre, decade, & mood.\n*Search for an artist, you\u2019ll see every expert-curated playlist on Songza that features them. Any playlist you choose will begin with a song by that artist.\n*Save your favorite playlists & share them via Facebook, Twitter or email.\n\nSongza is currently for US and Canadian users only."
+                        "standard": "Afterlight is the perfect image editing app for quick and straight forward editing. Our simple design, paired with powerful and snappy tools, will give you the look you want in seconds.\n\nDownload now and look forward to free content and app enhancements monthly!\n\n15 ADJUSTMENT TOOLS\nUse any of our 15 uniquely made adjustment tools to enhance your images to perfection with ease.\n\n\n59 FILTERS\nAfterlight has 27 fully adjustable Original Filters, 14 Guest Filters by various Instagram users, and the new Seasons filter pack including 18 filters. Now including the new Fusion filters, allowing you to mix tools, filters and textures to create your own personal filters.\n\n\n66 TEXTURES\nAfterlight includes a range of real and natural light leaks we created with 35mm film and instant film, to simplistic scratchy film textures.\n\n\nCROPPING & TRANSFORMING TOOLS\nCrop your photos with our quick and easy cropping tool with 15 different presets.\nTransform your photos with our rotating tool, vertical and horizontal flipping tools, and straightening. Now with the new Double Exposure tool.\n\n\nFRAMES\nWe provide a list of 128 different simplistic and adjustable frames, paired perfectly with Instagram. Now including the new Wallpaper Pack.\n\nHave any questions? Contact us!\n\nafterlight.us\nfacebook.com/afterlightapp"
                     }, 
                     "softwareInfo": {
-                        "privacyPolicyUrl": "http://songza.com/page/privacy/", 
-                        "supportUrl": "https://songza.desk.com/", 
+                        "privacyPolicyUrl": "http://afterlight.us/privacy", 
+                        "supportUrl": "http://afterlight.us", 
+                        "hasInAppPurchases": true, 
                         "languagesDisplayString": "English", 
-                        "seller": "Songza Media, Inc.", 
-                        "websiteUrl": "http://songza.com", 
-                        "requirementsString": "Requires iOS 7.0 or later. Compatible with iPhone, iPad, and iPod touch. This app is optimized for iPhone\u00a05.", 
+                        "seller": "Afterlight Collective, Inc", 
+                        "websiteUrl": null, 
+                        "requirementsString": "Requires iOS 6.0 or later. Compatible with iPhone, iPad, and iPod touch. This app is optimized for iPhone\u00a05.", 
                         "eulaUrl": null
                     }, 
                     "contentRating": {
                         "system": "GAMES", 
-                        "advisories": [
-                            "Infrequent/Mild Profanity or Crude Humor", 
-                            "Infrequent/Mild Mature/Suggestive Themes", 
-                            "Infrequent/Mild Sexual Content and Nudity", 
-                            "Infrequent/Mild Alcohol, Tobacco, or Drug Use or References"
-                        ], 
-                        "value": 300, 
-                        "rank": 3, 
-                        "name": "12+"
+                        "value": 100, 
+                        "rank": 1, 
+                        "name": "4+"
                     }, 
                     "appBundleAdamIds": [], 
-                    "shortUrl": "https://appsto.re/us/F8EaB.i", 
+                    "shortUrl": "https://appsto.re/us/66qkI.i", 
                     "ageBand": null, 
-                    "familyShareEnabledDate": "0001-04-23T00:00:00Z", 
+                    "familyShareEnabledDate": "2014-06-25T07:00:00Z", 
                     "deviceFamilies": [
                         "iphone", 
                         "ipad", 
@@ -485,244 +453,241 @@
                     ], 
                     "contentRatingsBySystem": {
                         "appsApple": {
-                            "rank": 3, 
-                            "advisories": [
-                                "Infrequent/Mild Profanity or Crude Humor", 
-                                "Infrequent/Mild Mature/Suggestive Themes", 
-                                "Infrequent/Mild Sexual Content and Nudity", 
-                                "Infrequent/Mild Alcohol, Tobacco, or Drug Use or References"
-                            ], 
-                            "name": "12+", 
-                            "value": 300
+                            "rank": 1, 
+                            "advisories": [], 
+                            "name": "4+", 
+                            "value": 100
                         }
                     }, 
                     "offers": [
                         {
                             "actionText": {
                                 "downloaded": "Installed", 
-                                "medium": "Get", 
-                                "short": "Get", 
+                                "medium": "Buy", 
+                                "short": "Buy", 
                                 "downloading": "Installing", 
-                                "long": "Get App"
+                                "long": "Buy App"
                             }, 
                             "assets": [
                                 {
                                     "flavor": "iosSoftware", 
-                                    "size": 34648037
+                                    "size": 66280708
                                 }
                             ], 
-                            "priceFormatted": "$0.00", 
-                            "price": 0, 
+                            "priceFormatted": "$0.99", 
+                            "price": 0.99, 
                             "version": {
-                                "externalId": 770342746, 
-                                "display": "3.3.1"
+                                "externalId": 716654188, 
+                                "display": "2.6"
                             }, 
-                            "buyParams": "productType=C&price=0&salableAdamId=453111583&pricingParameters=STDQ&appExtVrsId=770342746", 
-                            "type": "get"
+                            "buyParams": "productType=C&price=990&salableAdamId=573116090&pricingParameters=STDQ&appExtVrsId=716654188", 
+                            "type": "buy"
                         }
                     ], 
-                    "editorialBadgeInfo": null, 
+                    "editorialBadgeInfo": {
+                        "editorialBadgeType": "staffPick", 
+                        "nameForDisplay": "Essentials"
+                    }, 
                     "artwork": [
                         {
-                            "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/55/ea/2f/55ea2fdf-c55a-a1db-00ad-8223e3b477d7/icon240x240.png", 
+                            "url": "http://a1.mzstatic.com/us/r30/Purple5/v4/62/b2/e0/62b2e0f9-ee11-573e-dcb8-db0dba2bb80b/icon240x240.jpeg", 
                             "width": 240, 
                             "height": 240
                         }, 
                         {
-                            "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/55/ea/2f/55ea2fdf-c55a-a1db-00ad-8223e3b477d7/icon1024x1024.jpeg", 
+                            "url": "http://a1.mzstatic.com/us/r30/Purple5/v4/62/b2/e0/62b2e0f9-ee11-573e-dcb8-db0dba2bb80b/icon1024x1024.png", 
                             "width": 1024, 
                             "height": 1024
                         }, 
                         {
-                            "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/55/ea/2f/55ea2fdf-c55a-a1db-00ad-8223e3b477d7/icon440x440.png", 
+                            "url": "http://a1.mzstatic.com/us/r30/Purple5/v4/62/b2/e0/62b2e0f9-ee11-573e-dcb8-db0dba2bb80b/icon440x440.jpeg", 
                             "width": 440, 
                             "height": 440
                         }, 
                         {
-                            "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/55/ea/2f/55ea2fdf-c55a-a1db-00ad-8223e3b477d7/icon220x220.jpeg", 
+                            "url": "http://a2.mzstatic.com/us/r30/Purple5/v4/62/b2/e0/62b2e0f9-ee11-573e-dcb8-db0dba2bb80b/icon220x220.jpeg", 
                             "width": 220, 
                             "height": 220
                         }, 
                         {
-                            "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/55/ea/2f/55ea2fdf-c55a-a1db-00ad-8223e3b477d7/icon400x400.jpeg", 
+                            "url": "http://a2.mzstatic.com/us/r30/Purple5/v4/62/b2/e0/62b2e0f9-ee11-573e-dcb8-db0dba2bb80b/icon400x400.jpeg", 
                             "width": 400, 
                             "height": 400
                         }, 
                         {
-                            "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/55/ea/2f/55ea2fdf-c55a-a1db-00ad-8223e3b477d7/icon512x512.png", 
+                            "url": "http://a5.mzstatic.com/us/r30/Purple5/v4/62/b2/e0/62b2e0f9-ee11-573e-dcb8-db0dba2bb80b/icon512x512.jpeg", 
                             "width": 512, 
                             "height": 512
                         }
                     ], 
-                    "requiredCapabilities": null, 
-                    "name": "Songza", 
+                    "requiredCapabilities": "armv7 ", 
+                    "name": "Afterlight", 
                     "kind": "iosSoftware", 
-                    "tellAFriendMessageContentsUrl": "https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendEmailBody?cc=us&displayable-kind=11&id=453111583&name=s&type=14", 
-                    "nameRaw": "Songza", 
-                    "url": "https://itunes.apple.com/us/app/songza/id453111583?mt=8", 
+                    "tellAFriendMessageContentsUrl": "https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendEmailBody?cc=us&displayable-kind=11&id=573116090&name=s&type=14", 
+                    "nameRaw": "Afterlight", 
+                    "url": "https://itunes.apple.com/us/app/afterlight/id573116090?mt=8", 
                     "genreNames": [
-                        "Music", 
-                        "Entertainment"
+                        "Photo & Video"
                     ], 
-                    "artistName": "Songza Media, Inc.", 
+                    "artistName": "Afterlight Collective, Inc", 
                     "screenshotsByType": {
                         "ipad": [
                             [
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple1/v4/fe/81/8c/fe818c9a-35e9-04bc-49bd-192cf9e22e73/screen261x261-50.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple5/v4/3a/8e/9b/3a8e9b29-f8c4-0127-baa3-9886c69ad651/screen261x261-65.jpeg", 
                                     "width": 196, 
                                     "height": 261
                                 }, 
                                 {
-                                    "url": "http://a4.mzstatic.com/us/r30/Purple1/v4/fe/81/8c/fe818c9a-35e9-04bc-49bd-192cf9e22e73/screen460x460.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple5/v4/3a/8e/9b/3a8e9b29-f8c4-0127-baa3-9886c69ad651/screen460x460.jpeg", 
                                     "width": 345, 
                                     "height": 460
                                 }, 
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple1/v4/fe/81/8c/fe818c9a-35e9-04bc-49bd-192cf9e22e73/screen920x920.jpeg", 
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple5/v4/3a/8e/9b/3a8e9b29-f8c4-0127-baa3-9886c69ad651/screen920x920.jpeg", 
                                     "width": 690, 
                                     "height": 920
                                 }, 
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple1/v4/fe/81/8c/fe818c9a-35e9-04bc-49bd-192cf9e22e73/screen600x600.jpeg", 
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple5/v4/3a/8e/9b/3a8e9b29-f8c4-0127-baa3-9886c69ad651/screen600x600.jpeg", 
                                     "width": 450, 
                                     "height": 600
                                 }, 
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple1/v4/fe/81/8c/fe818c9a-35e9-04bc-49bd-192cf9e22e73/screen310x414.jpeg", 
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple5/v4/3a/8e/9b/3a8e9b29-f8c4-0127-baa3-9886c69ad651/screen310x414.jpeg", 
                                     "width": 310, 
                                     "height": 413
                                 }, 
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple1/v4/fe/81/8c/fe818c9a-35e9-04bc-49bd-192cf9e22e73/screen768x768.jpeg", 
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple5/v4/3a/8e/9b/3a8e9b29-f8c4-0127-baa3-9886c69ad651/screen768x768.jpeg", 
                                     "width": 576, 
                                     "height": 768
                                 }
                             ], 
                             [
                                 {
-                                    "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/c9/76/13/c9761304-70ce-e222-5af3-3e2adeeaefaf/screen261x261-50.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple4/v4/dc/86/cc/dc86cc6f-3bd0-05f5-70ad-c53be6e16501/screen261x261-65.jpeg", 
                                     "width": 196, 
                                     "height": 261
                                 }, 
                                 {
-                                    "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/c9/76/13/c9761304-70ce-e222-5af3-3e2adeeaefaf/screen460x460.jpeg", 
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple4/v4/dc/86/cc/dc86cc6f-3bd0-05f5-70ad-c53be6e16501/screen460x460.jpeg", 
                                     "width": 345, 
                                     "height": 460
                                 }, 
                                 {
-                                    "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/c9/76/13/c9761304-70ce-e222-5af3-3e2adeeaefaf/screen920x920.jpeg", 
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple4/v4/dc/86/cc/dc86cc6f-3bd0-05f5-70ad-c53be6e16501/screen920x920.jpeg", 
                                     "width": 690, 
                                     "height": 920
                                 }, 
                                 {
-                                    "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/c9/76/13/c9761304-70ce-e222-5af3-3e2adeeaefaf/screen600x600.jpeg", 
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple4/v4/dc/86/cc/dc86cc6f-3bd0-05f5-70ad-c53be6e16501/screen600x600.jpeg", 
                                     "width": 450, 
                                     "height": 600
                                 }, 
                                 {
-                                    "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/c9/76/13/c9761304-70ce-e222-5af3-3e2adeeaefaf/screen310x414.jpeg", 
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple4/v4/dc/86/cc/dc86cc6f-3bd0-05f5-70ad-c53be6e16501/screen310x414.jpeg", 
                                     "width": 310, 
                                     "height": 413
                                 }, 
                                 {
-                                    "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/c9/76/13/c9761304-70ce-e222-5af3-3e2adeeaefaf/screen768x768.jpeg", 
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple4/v4/dc/86/cc/dc86cc6f-3bd0-05f5-70ad-c53be6e16501/screen768x768.jpeg", 
                                     "width": 576, 
                                     "height": 768
                                 }
                             ], 
                             [
                                 {
-                                    "url": "http://a5.mzstatic.com/us/r30/Purple1/v4/94/8d/25/948d25ce-b5e3-d6a8-d6e1-e235c793048d/screen261x261-50.jpeg", 
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple4/v4/06/58/e7/0658e731-fb57-e695-aab0-8226631be788/screen261x261-65.jpeg", 
                                     "width": 196, 
                                     "height": 261
                                 }, 
                                 {
-                                    "url": "http://a4.mzstatic.com/us/r30/Purple1/v4/94/8d/25/948d25ce-b5e3-d6a8-d6e1-e235c793048d/screen460x460.jpeg", 
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple4/v4/06/58/e7/0658e731-fb57-e695-aab0-8226631be788/screen460x460.jpeg", 
                                     "width": 345, 
                                     "height": 460
                                 }, 
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple1/v4/94/8d/25/948d25ce-b5e3-d6a8-d6e1-e235c793048d/screen920x920.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple4/v4/06/58/e7/0658e731-fb57-e695-aab0-8226631be788/screen920x920.jpeg", 
                                     "width": 690, 
                                     "height": 920
                                 }, 
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple1/v4/94/8d/25/948d25ce-b5e3-d6a8-d6e1-e235c793048d/screen600x600.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple4/v4/06/58/e7/0658e731-fb57-e695-aab0-8226631be788/screen600x600.jpeg", 
                                     "width": 450, 
                                     "height": 600
                                 }, 
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple1/v4/94/8d/25/948d25ce-b5e3-d6a8-d6e1-e235c793048d/screen310x414.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple4/v4/06/58/e7/0658e731-fb57-e695-aab0-8226631be788/screen310x414.jpeg", 
                                     "width": 310, 
                                     "height": 413
                                 }, 
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple1/v4/94/8d/25/948d25ce-b5e3-d6a8-d6e1-e235c793048d/screen768x768.jpeg", 
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple4/v4/06/58/e7/0658e731-fb57-e695-aab0-8226631be788/screen768x768.jpeg", 
                                     "width": 576, 
                                     "height": 768
                                 }
                             ], 
                             [
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple5/v4/f4/88/8e/f4888e59-8eef-5b52-d153-814ce72c8965/screen261x261-50.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple4/v4/58/d6/36/58d636e3-3530-a417-1f00-17112748112b/screen261x261-65.jpeg", 
                                     "width": 196, 
                                     "height": 261
                                 }, 
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple5/v4/f4/88/8e/f4888e59-8eef-5b52-d153-814ce72c8965/screen460x460.jpeg", 
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple4/v4/58/d6/36/58d636e3-3530-a417-1f00-17112748112b/screen460x460.jpeg", 
                                     "width": 345, 
                                     "height": 460
                                 }, 
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple5/v4/f4/88/8e/f4888e59-8eef-5b52-d153-814ce72c8965/screen920x920.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple4/v4/58/d6/36/58d636e3-3530-a417-1f00-17112748112b/screen920x920.jpeg", 
                                     "width": 690, 
                                     "height": 920
                                 }, 
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple5/v4/f4/88/8e/f4888e59-8eef-5b52-d153-814ce72c8965/screen600x600.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple4/v4/58/d6/36/58d636e3-3530-a417-1f00-17112748112b/screen600x600.jpeg", 
                                     "width": 450, 
                                     "height": 600
                                 }, 
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple5/v4/f4/88/8e/f4888e59-8eef-5b52-d153-814ce72c8965/screen310x414.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple4/v4/58/d6/36/58d636e3-3530-a417-1f00-17112748112b/screen310x414.jpeg", 
                                     "width": 310, 
                                     "height": 413
                                 }, 
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple5/v4/f4/88/8e/f4888e59-8eef-5b52-d153-814ce72c8965/screen768x768.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple4/v4/58/d6/36/58d636e3-3530-a417-1f00-17112748112b/screen768x768.jpeg", 
                                     "width": 576, 
                                     "height": 768
                                 }
                             ], 
                             [
                                 {
-                                    "url": "http://a4.mzstatic.com/us/r30/Purple5/v4/c2/92/92/c2929204-7075-ceb2-598d-dee2e77a4a67/screen261x261-50.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/8a/5f/7e/8a5f7e23-7f07-adbd-7680-24ed0e06052e/screen261x261-65.jpeg", 
                                     "width": 196, 
                                     "height": 261
                                 }, 
                                 {
-                                    "url": "http://a4.mzstatic.com/us/r30/Purple5/v4/c2/92/92/c2929204-7075-ceb2-598d-dee2e77a4a67/screen460x460.jpeg", 
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/8a/5f/7e/8a5f7e23-7f07-adbd-7680-24ed0e06052e/screen460x460.jpeg", 
                                     "width": 345, 
                                     "height": 460
                                 }, 
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple5/v4/c2/92/92/c2929204-7075-ceb2-598d-dee2e77a4a67/screen920x920.jpeg", 
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/8a/5f/7e/8a5f7e23-7f07-adbd-7680-24ed0e06052e/screen920x920.jpeg", 
                                     "width": 690, 
                                     "height": 920
                                 }, 
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple5/v4/c2/92/92/c2929204-7075-ceb2-598d-dee2e77a4a67/screen600x600.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/8a/5f/7e/8a5f7e23-7f07-adbd-7680-24ed0e06052e/screen600x600.jpeg", 
                                     "width": 450, 
                                     "height": 600
                                 }, 
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple5/v4/c2/92/92/c2929204-7075-ceb2-598d-dee2e77a4a67/screen310x414.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/8a/5f/7e/8a5f7e23-7f07-adbd-7680-24ed0e06052e/screen310x414.jpeg", 
                                     "width": 310, 
                                     "height": 413
                                 }, 
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple5/v4/c2/92/92/c2929204-7075-ceb2-598d-dee2e77a4a67/screen768x768.jpeg", 
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/8a/5f/7e/8a5f7e23-7f07-adbd-7680-24ed0e06052e/screen768x768.jpeg", 
                                     "width": 576, 
                                     "height": 768
                                 }
@@ -731,210 +696,210 @@
                         "iphone5": [
                             [
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/b3/93/86/b39386ef-1af9-3113-40f4-211321f00603/screen406x722.jpeg", 
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/dd/d1/ad/ddd1adde-7cf9-869a-1c20-744c997f809d/screen406x722.jpeg", 
                                     "width": 406, 
                                     "height": 721
                                 }, 
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/b3/93/86/b39386ef-1af9-3113-40f4-211321f00603/screen920x920.jpeg", 
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/dd/d1/ad/ddd1adde-7cf9-869a-1c20-744c997f809d/screen920x920.jpeg", 
                                     "width": 518, 
                                     "height": 920
                                 }, 
                                 {
-                                    "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/b3/93/86/b39386ef-1af9-3113-40f4-211321f00603/screen696x696.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/dd/d1/ad/ddd1adde-7cf9-869a-1c20-744c997f809d/screen696x696.jpeg", 
                                     "width": 392, 
                                     "height": 696
                                 }, 
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/b3/93/86/b39386ef-1af9-3113-40f4-211321f00603/screen525x296.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/dd/d1/ad/ddd1adde-7cf9-869a-1c20-744c997f809d/screen525x296.jpeg", 
                                     "width": 167, 
                                     "height": 296
                                 }, 
                                 {
-                                    "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/b3/93/86/b39386ef-1af9-3113-40f4-211321f00603/screen460x460.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/dd/d1/ad/ddd1adde-7cf9-869a-1c20-744c997f809d/screen460x460.jpeg", 
                                     "width": 259, 
                                     "height": 460
                                 }, 
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/b3/93/86/b39386ef-1af9-3113-40f4-211321f00603/screen348x348.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/dd/d1/ad/ddd1adde-7cf9-869a-1c20-744c997f809d/screen348x348.jpeg", 
                                     "width": 196, 
                                     "height": 348
                                 }, 
                                 {
-                                    "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/b3/93/86/b39386ef-1af9-3113-40f4-211321f00603/screen670x377.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/dd/d1/ad/ddd1adde-7cf9-869a-1c20-744c997f809d/screen670x377.jpeg", 
                                     "width": 212, 
                                     "height": 377
                                 }, 
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/b3/93/86/b39386ef-1af9-3113-40f4-211321f00603/screen568x568.jpeg", 
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/dd/d1/ad/ddd1adde-7cf9-869a-1c20-744c997f809d/screen568x568.jpeg", 
                                     "width": 320, 
                                     "height": 568
                                 }
                             ], 
                             [
                                 {
-                                    "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/f6/91/9e/f6919edf-bfe2-c717-63bb-d4b1abb11e94/screen406x722.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/44/12/14/441214ac-cad0-7d96-fb11-560785086f75/screen406x722.jpeg", 
                                     "width": 406, 
                                     "height": 721
                                 }, 
                                 {
-                                    "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/f6/91/9e/f6919edf-bfe2-c717-63bb-d4b1abb11e94/screen920x920.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/44/12/14/441214ac-cad0-7d96-fb11-560785086f75/screen920x920.jpeg", 
                                     "width": 518, 
                                     "height": 920
                                 }, 
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/f6/91/9e/f6919edf-bfe2-c717-63bb-d4b1abb11e94/screen696x696.jpeg", 
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/44/12/14/441214ac-cad0-7d96-fb11-560785086f75/screen696x696.jpeg", 
                                     "width": 392, 
                                     "height": 696
                                 }, 
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/f6/91/9e/f6919edf-bfe2-c717-63bb-d4b1abb11e94/screen525x296.jpeg", 
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/44/12/14/441214ac-cad0-7d96-fb11-560785086f75/screen525x296.jpeg", 
                                     "width": 167, 
                                     "height": 296
                                 }, 
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/f6/91/9e/f6919edf-bfe2-c717-63bb-d4b1abb11e94/screen460x460.jpeg", 
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/44/12/14/441214ac-cad0-7d96-fb11-560785086f75/screen460x460.jpeg", 
                                     "width": 259, 
                                     "height": 460
                                 }, 
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/f6/91/9e/f6919edf-bfe2-c717-63bb-d4b1abb11e94/screen348x348.jpeg", 
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/44/12/14/441214ac-cad0-7d96-fb11-560785086f75/screen348x348.jpeg", 
                                     "width": 196, 
                                     "height": 348
                                 }, 
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/f6/91/9e/f6919edf-bfe2-c717-63bb-d4b1abb11e94/screen670x377.jpeg", 
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/44/12/14/441214ac-cad0-7d96-fb11-560785086f75/screen670x377.jpeg", 
                                     "width": 212, 
                                     "height": 377
                                 }, 
                                 {
-                                    "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/f6/91/9e/f6919edf-bfe2-c717-63bb-d4b1abb11e94/screen568x568.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/44/12/14/441214ac-cad0-7d96-fb11-560785086f75/screen568x568.jpeg", 
                                     "width": 320, 
                                     "height": 568
                                 }
                             ], 
                             [
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple1/v4/5d/83/a1/5d83a105-5116-b3de-df22-3c133966ae40/screen406x722.jpeg", 
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple4/v4/9f/53/30/9f533014-8370-d9ba-2705-92e59d1a0ba8/screen406x722.jpeg", 
                                     "width": 406, 
                                     "height": 721
                                 }, 
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple1/v4/5d/83/a1/5d83a105-5116-b3de-df22-3c133966ae40/screen920x920.jpeg", 
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple4/v4/9f/53/30/9f533014-8370-d9ba-2705-92e59d1a0ba8/screen920x920.jpeg", 
                                     "width": 518, 
                                     "height": 920
                                 }, 
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple1/v4/5d/83/a1/5d83a105-5116-b3de-df22-3c133966ae40/screen696x696.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple4/v4/9f/53/30/9f533014-8370-d9ba-2705-92e59d1a0ba8/screen696x696.jpeg", 
                                     "width": 392, 
                                     "height": 696
                                 }, 
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple1/v4/5d/83/a1/5d83a105-5116-b3de-df22-3c133966ae40/screen525x296.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple4/v4/9f/53/30/9f533014-8370-d9ba-2705-92e59d1a0ba8/screen525x296.jpeg", 
                                     "width": 167, 
                                     "height": 296
                                 }, 
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple1/v4/5d/83/a1/5d83a105-5116-b3de-df22-3c133966ae40/screen460x460.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple4/v4/9f/53/30/9f533014-8370-d9ba-2705-92e59d1a0ba8/screen460x460.jpeg", 
                                     "width": 259, 
                                     "height": 460
                                 }, 
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple1/v4/5d/83/a1/5d83a105-5116-b3de-df22-3c133966ae40/screen348x348.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple4/v4/9f/53/30/9f533014-8370-d9ba-2705-92e59d1a0ba8/screen348x348.jpeg", 
                                     "width": 196, 
                                     "height": 348
                                 }, 
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple1/v4/5d/83/a1/5d83a105-5116-b3de-df22-3c133966ae40/screen670x377.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple4/v4/9f/53/30/9f533014-8370-d9ba-2705-92e59d1a0ba8/screen670x377.jpeg", 
                                     "width": 212, 
                                     "height": 377
                                 }, 
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple1/v4/5d/83/a1/5d83a105-5116-b3de-df22-3c133966ae40/screen568x568.jpeg", 
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple4/v4/9f/53/30/9f533014-8370-d9ba-2705-92e59d1a0ba8/screen568x568.jpeg", 
                                     "width": 320, 
                                     "height": 568
                                 }
                             ], 
                             [
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/c2/42/f3/c242f317-dfb0-2e03-1e8a-a8509a6e687e/screen406x722.jpeg", 
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple4/v4/2f/7a/d0/2f7ad0e0-d9da-f305-88d4-d6452838417b/screen406x722.jpeg", 
                                     "width": 406, 
                                     "height": 721
                                 }, 
                                 {
-                                    "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/c2/42/f3/c242f317-dfb0-2e03-1e8a-a8509a6e687e/screen920x920.jpeg", 
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple4/v4/2f/7a/d0/2f7ad0e0-d9da-f305-88d4-d6452838417b/screen920x920.jpeg", 
                                     "width": 518, 
                                     "height": 920
                                 }, 
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/c2/42/f3/c242f317-dfb0-2e03-1e8a-a8509a6e687e/screen696x696.jpeg", 
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple4/v4/2f/7a/d0/2f7ad0e0-d9da-f305-88d4-d6452838417b/screen696x696.jpeg", 
                                     "width": 392, 
                                     "height": 696
                                 }, 
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/c2/42/f3/c242f317-dfb0-2e03-1e8a-a8509a6e687e/screen525x296.jpeg", 
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple4/v4/2f/7a/d0/2f7ad0e0-d9da-f305-88d4-d6452838417b/screen525x296.jpeg", 
                                     "width": 167, 
                                     "height": 296
                                 }, 
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/c2/42/f3/c242f317-dfb0-2e03-1e8a-a8509a6e687e/screen460x460.jpeg", 
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple4/v4/2f/7a/d0/2f7ad0e0-d9da-f305-88d4-d6452838417b/screen460x460.jpeg", 
                                     "width": 259, 
                                     "height": 460
                                 }, 
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/c2/42/f3/c242f317-dfb0-2e03-1e8a-a8509a6e687e/screen348x348.jpeg", 
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple4/v4/2f/7a/d0/2f7ad0e0-d9da-f305-88d4-d6452838417b/screen348x348.jpeg", 
                                     "width": 196, 
                                     "height": 348
                                 }, 
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/c2/42/f3/c242f317-dfb0-2e03-1e8a-a8509a6e687e/screen670x377.jpeg", 
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple4/v4/2f/7a/d0/2f7ad0e0-d9da-f305-88d4-d6452838417b/screen670x377.jpeg", 
                                     "width": 212, 
                                     "height": 377
                                 }, 
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/c2/42/f3/c242f317-dfb0-2e03-1e8a-a8509a6e687e/screen568x568.jpeg", 
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple4/v4/2f/7a/d0/2f7ad0e0-d9da-f305-88d4-d6452838417b/screen568x568.jpeg", 
                                     "width": 320, 
                                     "height": 568
                                 }
                             ], 
                             [
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple5/v4/11/5d/82/115d829c-9e9a-d83b-b6d5-f41c0c1821ec/screen406x722.jpeg", 
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple1/v4/c5/24/86/c5248604-3bc7-0163-51d6-bc908c38e7c7/screen406x722.jpeg", 
                                     "width": 406, 
                                     "height": 721
                                 }, 
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple5/v4/11/5d/82/115d829c-9e9a-d83b-b6d5-f41c0c1821ec/screen920x920.jpeg", 
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple1/v4/c5/24/86/c5248604-3bc7-0163-51d6-bc908c38e7c7/screen920x920.jpeg", 
                                     "width": 518, 
                                     "height": 920
                                 }, 
                                 {
-                                    "url": "http://a4.mzstatic.com/us/r30/Purple5/v4/11/5d/82/115d829c-9e9a-d83b-b6d5-f41c0c1821ec/screen696x696.jpeg", 
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple1/v4/c5/24/86/c5248604-3bc7-0163-51d6-bc908c38e7c7/screen696x696.jpeg", 
                                     "width": 392, 
                                     "height": 696
                                 }, 
                                 {
-                                    "url": "http://a4.mzstatic.com/us/r30/Purple5/v4/11/5d/82/115d829c-9e9a-d83b-b6d5-f41c0c1821ec/screen525x296.jpeg", 
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple1/v4/c5/24/86/c5248604-3bc7-0163-51d6-bc908c38e7c7/screen525x296.jpeg", 
                                     "width": 167, 
                                     "height": 296
                                 }, 
                                 {
-                                    "url": "http://a4.mzstatic.com/us/r30/Purple5/v4/11/5d/82/115d829c-9e9a-d83b-b6d5-f41c0c1821ec/screen460x460.jpeg", 
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple1/v4/c5/24/86/c5248604-3bc7-0163-51d6-bc908c38e7c7/screen460x460.jpeg", 
                                     "width": 259, 
                                     "height": 460
                                 }, 
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple5/v4/11/5d/82/115d829c-9e9a-d83b-b6d5-f41c0c1821ec/screen348x348.jpeg", 
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple1/v4/c5/24/86/c5248604-3bc7-0163-51d6-bc908c38e7c7/screen348x348.jpeg", 
                                     "width": 196, 
                                     "height": 348
                                 }, 
                                 {
-                                    "url": "http://a4.mzstatic.com/us/r30/Purple5/v4/11/5d/82/115d829c-9e9a-d83b-b6d5-f41c0c1821ec/screen670x377.jpeg", 
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple1/v4/c5/24/86/c5248604-3bc7-0163-51d6-bc908c38e7c7/screen670x377.jpeg", 
                                     "width": 212, 
                                     "height": 377
                                 }, 
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple5/v4/11/5d/82/115d829c-9e9a-d83b-b6d5-f41c0c1821ec/screen568x568.jpeg", 
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple1/v4/c5/24/86/c5248604-3bc7-0163-51d6-bc908c38e7c7/screen568x568.jpeg", 
                                     "width": 320, 
                                     "height": 568
                                 }
@@ -943,167 +908,193 @@
                         "iphone": [
                             [
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple5/v4/9a/d9/d3/9ad9d33a-8349-6c78-662e-91b2665a3e9d/screen263x263.jpeg", 
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple4/v4/c4/ec/e8/c4ece846-0ee0-6c2e-f315-7e683458c764/screen263x263.jpeg", 
                                     "width": 175, 
                                     "height": 263
                                 }, 
                                 {
-                                    "url": "http://a4.mzstatic.com/us/r30/Purple5/v4/9a/d9/d3/9ad9d33a-8349-6c78-662e-91b2665a3e9d/screen466x466.jpeg", 
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple4/v4/c4/ec/e8/c4ece846-0ee0-6c2e-f315-7e683458c764/screen466x466.jpeg", 
                                     "width": 311, 
                                     "height": 466
                                 }, 
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple5/v4/9a/d9/d3/9ad9d33a-8349-6c78-662e-91b2665a3e9d/screen400x400.jpeg", 
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple4/v4/c4/ec/e8/c4ece846-0ee0-6c2e-f315-7e683458c764/screen400x400.jpeg", 
                                     "width": 267, 
                                     "height": 400
                                 }, 
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple5/v4/9a/d9/d3/9ad9d33a-8349-6c78-662e-91b2665a3e9d/screen526x526.jpeg", 
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple4/v4/c4/ec/e8/c4ece846-0ee0-6c2e-f315-7e683458c764/screen526x526.jpeg", 
                                     "width": 351, 
                                     "height": 526
                                 }, 
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple5/v4/9a/d9/d3/9ad9d33a-8349-6c78-662e-91b2665a3e9d/screen932x932.jpeg", 
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple4/v4/c4/ec/e8/c4ece846-0ee0-6c2e-f315-7e683458c764/screen932x932.jpeg", 
                                     "width": 621, 
                                     "height": 932
                                 }, 
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple5/v4/9a/d9/d3/9ad9d33a-8349-6c78-662e-91b2665a3e9d/screen800x800.jpeg", 
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple4/v4/c4/ec/e8/c4ece846-0ee0-6c2e-f315-7e683458c764/screen800x800.jpeg", 
                                     "width": 533, 
                                     "height": 800
                                 }
                             ], 
                             [
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple5/v4/1a/e6/6d/1ae66d81-3206-9c13-cb63-ec612fe82130/screen263x263.jpeg", 
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple5/v4/bc/d8/1f/bcd81f52-19ec-1fac-f7c6-78f009d4ecd6/screen263x263.jpeg", 
                                     "width": 175, 
                                     "height": 263
                                 }, 
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple5/v4/1a/e6/6d/1ae66d81-3206-9c13-cb63-ec612fe82130/screen466x466.jpeg", 
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple5/v4/bc/d8/1f/bcd81f52-19ec-1fac-f7c6-78f009d4ecd6/screen466x466.jpeg", 
                                     "width": 311, 
                                     "height": 466
                                 }, 
                                 {
-                                    "url": "http://a4.mzstatic.com/us/r30/Purple5/v4/1a/e6/6d/1ae66d81-3206-9c13-cb63-ec612fe82130/screen400x400.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple5/v4/bc/d8/1f/bcd81f52-19ec-1fac-f7c6-78f009d4ecd6/screen400x400.jpeg", 
                                     "width": 267, 
                                     "height": 400
                                 }, 
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple5/v4/1a/e6/6d/1ae66d81-3206-9c13-cb63-ec612fe82130/screen526x526.jpeg", 
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple5/v4/bc/d8/1f/bcd81f52-19ec-1fac-f7c6-78f009d4ecd6/screen526x526.jpeg", 
                                     "width": 351, 
                                     "height": 526
                                 }, 
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple5/v4/1a/e6/6d/1ae66d81-3206-9c13-cb63-ec612fe82130/screen932x932.jpeg", 
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple5/v4/bc/d8/1f/bcd81f52-19ec-1fac-f7c6-78f009d4ecd6/screen932x932.jpeg", 
                                     "width": 621, 
                                     "height": 932
                                 }, 
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple5/v4/1a/e6/6d/1ae66d81-3206-9c13-cb63-ec612fe82130/screen800x800.jpeg", 
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple5/v4/bc/d8/1f/bcd81f52-19ec-1fac-f7c6-78f009d4ecd6/screen800x800.jpeg", 
                                     "width": 533, 
                                     "height": 800
                                 }
                             ], 
                             [
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple1/v4/42/28/31/42283127-1208-f168-36aa-c0b8490ea383/screen263x263.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple1/v4/68/d9/35/68d935cf-7f43-0f51-05ef-cff2ab8f866d/screen263x263.jpeg", 
                                     "width": 175, 
                                     "height": 263
                                 }, 
                                 {
-                                    "url": "http://a5.mzstatic.com/us/r30/Purple1/v4/42/28/31/42283127-1208-f168-36aa-c0b8490ea383/screen466x466.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple1/v4/68/d9/35/68d935cf-7f43-0f51-05ef-cff2ab8f866d/screen466x466.jpeg", 
                                     "width": 311, 
                                     "height": 466
                                 }, 
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple1/v4/42/28/31/42283127-1208-f168-36aa-c0b8490ea383/screen400x400.jpeg", 
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple1/v4/68/d9/35/68d935cf-7f43-0f51-05ef-cff2ab8f866d/screen400x400.jpeg", 
                                     "width": 267, 
                                     "height": 400
                                 }, 
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple1/v4/42/28/31/42283127-1208-f168-36aa-c0b8490ea383/screen526x526.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple1/v4/68/d9/35/68d935cf-7f43-0f51-05ef-cff2ab8f866d/screen526x526.jpeg", 
                                     "width": 351, 
                                     "height": 526
                                 }, 
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple1/v4/42/28/31/42283127-1208-f168-36aa-c0b8490ea383/screen932x932.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple1/v4/68/d9/35/68d935cf-7f43-0f51-05ef-cff2ab8f866d/screen932x932.jpeg", 
                                     "width": 621, 
                                     "height": 932
                                 }, 
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple1/v4/42/28/31/42283127-1208-f168-36aa-c0b8490ea383/screen800x800.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple1/v4/68/d9/35/68d935cf-7f43-0f51-05ef-cff2ab8f866d/screen800x800.jpeg", 
                                     "width": 533, 
                                     "height": 800
                                 }
                             ], 
                             [
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple1/v4/34/62/e3/3462e334-8320-9248-3ef5-6e3dccb65f48/screen263x263.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple4/v4/ce/13/fc/ce13fc45-49fa-71b0-75a1-d34320b3070a/screen263x263.jpeg", 
                                     "width": 175, 
                                     "height": 263
                                 }, 
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple1/v4/34/62/e3/3462e334-8320-9248-3ef5-6e3dccb65f48/screen466x466.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple4/v4/ce/13/fc/ce13fc45-49fa-71b0-75a1-d34320b3070a/screen466x466.jpeg", 
                                     "width": 311, 
                                     "height": 466
                                 }, 
                                 {
-                                    "url": "http://a5.mzstatic.com/us/r30/Purple1/v4/34/62/e3/3462e334-8320-9248-3ef5-6e3dccb65f48/screen400x400.jpeg", 
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple4/v4/ce/13/fc/ce13fc45-49fa-71b0-75a1-d34320b3070a/screen400x400.jpeg", 
                                     "width": 267, 
                                     "height": 400
                                 }, 
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple1/v4/34/62/e3/3462e334-8320-9248-3ef5-6e3dccb65f48/screen526x526.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple4/v4/ce/13/fc/ce13fc45-49fa-71b0-75a1-d34320b3070a/screen526x526.jpeg", 
                                     "width": 351, 
                                     "height": 526
                                 }, 
                                 {
-                                    "url": "http://a4.mzstatic.com/us/r30/Purple1/v4/34/62/e3/3462e334-8320-9248-3ef5-6e3dccb65f48/screen932x932.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple4/v4/ce/13/fc/ce13fc45-49fa-71b0-75a1-d34320b3070a/screen932x932.jpeg", 
                                     "width": 621, 
                                     "height": 932
                                 }, 
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple1/v4/34/62/e3/3462e334-8320-9248-3ef5-6e3dccb65f48/screen800x800.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple4/v4/ce/13/fc/ce13fc45-49fa-71b0-75a1-d34320b3070a/screen800x800.jpeg", 
                                     "width": 533, 
                                     "height": 800
                                 }
                             ], 
                             [
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple5/v4/ab/3a/ec/ab3aec66-07af-e52e-751a-2e5a98d8f8e4/screen263x263.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple5/v4/ca/87/6f/ca876f1f-ddad-5ed4-e407-0c9e22802241/screen263x263.jpeg", 
                                     "width": 175, 
                                     "height": 263
                                 }, 
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple5/v4/ab/3a/ec/ab3aec66-07af-e52e-751a-2e5a98d8f8e4/screen466x466.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple5/v4/ca/87/6f/ca876f1f-ddad-5ed4-e407-0c9e22802241/screen466x466.jpeg", 
                                     "width": 311, 
                                     "height": 466
                                 }, 
                                 {
-                                    "url": "http://a5.mzstatic.com/us/r30/Purple5/v4/ab/3a/ec/ab3aec66-07af-e52e-751a-2e5a98d8f8e4/screen400x400.jpeg", 
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple5/v4/ca/87/6f/ca876f1f-ddad-5ed4-e407-0c9e22802241/screen400x400.jpeg", 
                                     "width": 267, 
                                     "height": 400
                                 }, 
                                 {
-                                    "url": "http://a4.mzstatic.com/us/r30/Purple5/v4/ab/3a/ec/ab3aec66-07af-e52e-751a-2e5a98d8f8e4/screen526x526.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple5/v4/ca/87/6f/ca876f1f-ddad-5ed4-e407-0c9e22802241/screen526x526.jpeg", 
                                     "width": 351, 
                                     "height": 526
                                 }, 
                                 {
-                                    "url": "http://a4.mzstatic.com/us/r30/Purple5/v4/ab/3a/ec/ab3aec66-07af-e52e-751a-2e5a98d8f8e4/screen932x932.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple5/v4/ca/87/6f/ca876f1f-ddad-5ed4-e407-0c9e22802241/screen932x932.jpeg", 
                                     "width": 621, 
                                     "height": 932
                                 }, 
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple5/v4/ab/3a/ec/ab3aec66-07af-e52e-751a-2e5a98d8f8e4/screen800x800.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple5/v4/ca/87/6f/ca876f1f-ddad-5ed4-e407-0c9e22802241/screen800x800.jpeg", 
                                     "width": 533, 
                                     "height": 800
                                 }
                             ]
                         ]
                     }, 
-                    "videoPreviewByType": {}, 
+                    "videoPreviewByType": {
+                        "iphone5": {
+                            "video": "http://a840.phobos.apple.com/us/r30/PurpleVideo4/v4/60/0b/e0/600be0c0-4d0e-52fe-c8ce-43ed6f44707e/P26005540_default.m3u8", 
+                            "previewFrame": [
+                                {
+                                    "url": "http://a5.mzstatic.com/us/r30/Video3/v4/8c/92/5e/8c925eba-5767-16ec-5e95-bb5973eaf04d/image500x376.jpeg", 
+                                    "width": 212, 
+                                    "height": 376
+                                }, 
+                                {
+                                    "url": "http://a5.mzstatic.com/us/r30/Video3/v4/8c/92/5e/8c925eba-5767-16ec-5e95-bb5973eaf04d/image408x300.jpeg", 
+                                    "width": 169, 
+                                    "height": 300
+                                }, 
+                                {
+                                    "url": "http://a3.mzstatic.com/us/r30/Video3/v4/8c/92/5e/8c925eba-5767-16ec-5e95-bb5973eaf04d/image630x420.jpeg", 
+                                    "width": 237, 
+                                    "height": 420
+                                }, 
+                                {
+                                    "url": "http://a5.mzstatic.com/us/r30/Video3/v4/8c/92/5e/8c925eba-5767-16ec-5e95-bb5973eaf04d/image400x226.jpeg", 
+                                    "width": 127, 
+                                    "height": 226
+                                }
+                            ]
+                        }
+                    }, 
                     "newsstandArtwork": null, 
                     "isFirstParty": false
                 }
@@ -1122,7 +1113,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "2126750", 
+        "ITSServerInstance": "1013300", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
@@ -1152,7 +1143,7 @@
                 "platformId": "28", 
                 "storeFront": "143441", 
                 "storeFrontHeader": "143441-1,28", 
-                "environmentDataCenter": "ST11", 
+                "environmentDataCenter": "NWK", 
                 "platformName": "iTunes12"
             }, 
             "postFrequency": 60000, 

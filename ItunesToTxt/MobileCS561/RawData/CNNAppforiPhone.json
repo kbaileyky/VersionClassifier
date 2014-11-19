@@ -23,20 +23,20 @@
                 "ipad": {
                     "ids": [
                         367623543, 
-                        898117224, 
                         407824176, 
+                        898117224, 
                         357066198, 
-                        579581125, 
-                        369021520, 
                         358801284, 
-                        364387007, 
+                        579581125, 
                         427593622, 
+                        364387007, 
+                        369021520, 
                         364257176, 
                         914453825, 
                         923394341, 
+                        364147881, 
                         304158842, 
-                        444519360, 
-                        646100661
+                        364183644
                     ], 
                     "title": "Top Free iPad News Apps"
                 }, 
@@ -45,17 +45,17 @@
                         304158842, 
                         438875956, 
                         923187241, 
-                        367623543, 
                         352969997, 
+                        367623543, 
                         358801284, 
-                        579581125, 
-                        912592124, 
                         284862083, 
-                        369021520, 
+                        912592124, 
+                        579581125, 
                         498408628, 
-                        784982356, 
+                        369021520, 
                         364147881, 
-                        913753848
+                        364387007, 
+                        784982356
                     ], 
                     "title": "Top Free iPhone News Apps"
                 }
@@ -203,7 +203,7 @@
             "pageDetails": "CNN Interactive Group, Inc._CNN App for iPhone", 
             "pageId": "331786748", 
             "language": "1", 
-            "serverInstance": "2125154", 
+            "serverInstance": "2126956", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
@@ -426,10 +426,10 @@
                     "releaseDate": "2009-09-29", 
                     "artistId": 331786752, 
                     "userRating": {
-                        "ratingCountCurrentVersion": 268, 
+                        "ratingCountCurrentVersion": 291, 
                         "valueCurrentVersion": 3.5, 
                         "value": 4, 
-                        "ratingCount": 87164
+                        "ratingCount": 87181
                     }, 
                     "artistUrl": "https://itunes.apple.com/us/artist/cnn-interactive-group-inc./id331786752?mt=8", 
                     "itunesNotes": null, 
@@ -492,10 +492,10 @@
                         {
                             "actionText": {
                                 "downloaded": "Installed", 
-                                "medium": "Free", 
-                                "short": "Free", 
+                                "medium": "Get", 
+                                "short": "Get", 
                                 "downloading": "Installing", 
-                                "long": "Free App"
+                                "long": "Get App"
                             }, 
                             "assets": [
                                 {
@@ -524,7 +524,7 @@
                             "height": 240
                         }, 
                         {
-                            "url": "http://a2.mzstatic.com/us/r30/Purple1/v4/d0/90/5c/d0905cd3-5dd3-2a88-f7aa-a078ccb9c6bb/icon1024x1024.jpeg", 
+                            "url": "http://a5.mzstatic.com/us/r30/Purple1/v4/d0/90/5c/d0905cd3-5dd3-2a88-f7aa-a078ccb9c6bb/icon1024x1024.png", 
                             "width": 1024, 
                             "height": 1024
                         }, 
@@ -539,7 +539,7 @@
                             "height": 220
                         }, 
                         {
-                            "url": "http://a1.mzstatic.com/us/r30/Purple1/v4/d0/90/5c/d0905cd3-5dd3-2a88-f7aa-a078ccb9c6bb/icon400x400.png", 
+                            "url": "http://a5.mzstatic.com/us/r30/Purple1/v4/d0/90/5c/d0905cd3-5dd3-2a88-f7aa-a078ccb9c6bb/icon400x400.jpeg", 
                             "width": 400, 
                             "height": 400
                         }, 
@@ -1168,7 +1168,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "2125154", 
+        "ITSServerInstance": "2126956", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 

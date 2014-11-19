@@ -20,19 +20,19 @@
                     "ids": [
                         454638411, 
                         284882215, 
-                        442012681, 
                         429047995, 
+                        442012681, 
                         333903271, 
                         288429040, 
                         643496868, 
                         447119634, 
                         466122094, 
                         372513032, 
-                        738989604, 
                         913855602, 
+                        738989604, 
                         428845974, 
-                        566223681, 
-                        414478124
+                        414478124, 
+                        566223681
                     ], 
                     "title": "Top Free iPad Social Networking Apps"
                 }, 
@@ -41,8 +41,8 @@
                         454638411, 
                         284882215, 
                         310633997, 
-                        429047995, 
                         333903271, 
+                        429047995, 
                         357218860, 
                         304878510, 
                         382617920, 
@@ -194,7 +194,7 @@
             "pageDetails": "Raptr, Inc._Raptr - Xbox, PS3, PC Friends Tracker", 
             "pageId": "374989053", 
             "language": "1", 
-            "serverInstance": "1000205", 
+            "serverInstance": "1004504", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
@@ -476,10 +476,10 @@
                         {
                             "actionText": {
                                 "downloaded": "Installed", 
-                                "medium": "Free", 
-                                "short": "Free", 
+                                "medium": "Get", 
+                                "short": "Get", 
                                 "downloading": "Installing", 
-                                "long": "Free App"
+                                "long": "Get App"
                             }, 
                             "assets": [
                                 {
@@ -505,7 +505,7 @@
                             "height": 240
                         }, 
                         {
-                            "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/70/65/17/706517e8-8209-e329-c37b-4afa8f08da36/icon1024x1024.png", 
+                            "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/70/65/17/706517e8-8209-e329-c37b-4afa8f08da36/icon1024x1024.jpeg", 
                             "width": 1024, 
                             "height": 1024
                         }, 
@@ -515,7 +515,7 @@
                             "height": 440
                         }, 
                         {
-                            "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/70/65/17/706517e8-8209-e329-c37b-4afa8f08da36/icon220x220.png", 
+                            "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/70/65/17/706517e8-8209-e329-c37b-4afa8f08da36/icon220x220.jpeg", 
                             "width": 220, 
                             "height": 220
                         }, 
@@ -862,7 +862,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "1000205", 
+        "ITSServerInstance": "1004504", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 

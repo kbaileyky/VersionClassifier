@@ -22,20 +22,20 @@
             "topApps": {
                 "ipad": {
                     "ids": [
+                        527445936, 
                         539297584, 
                         588013838, 
-                        527445936, 
-                        396799352, 
                         448639966, 
+                        396799352, 
                         659614190, 
-                        331975235, 
                         576731399, 
+                        331975235, 
                         512727332, 
-                        756298885, 
-                        843006560, 
-                        486781045, 
+                        709020278, 
+                        587366035, 
                         543577420, 
-                        709020278
+                        843006560, 
+                        546821797
                     ], 
                     "title": "Top Free iPad Photo & Video Apps"
                 }, 
@@ -43,16 +43,16 @@
                     "ids": [
                         389801252, 
                         447188370, 
-                        561452319, 
-                        592447445, 
                         527445936, 
+                        592447445, 
                         512727332, 
                         576649830, 
                         543577420, 
                         448639966, 
                         454768104, 
-                        577423493, 
+                        561452319, 
                         475976577, 
+                        577423493, 
                         587366035, 
                         570748340
                     ], 
@@ -215,7 +215,7 @@
             "pageDetails": "Google, Inc._YouTube", 
             "pageId": "544007664", 
             "language": "1", 
-            "serverInstance": "2003806", 
+            "serverInstance": "2002900", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
@@ -438,10 +438,10 @@
                     "releaseDate": "2012-09-11", 
                     "artistId": 281956209, 
                     "userRating": {
-                        "ratingCountCurrentVersion": 1191, 
+                        "ratingCountCurrentVersion": 1295, 
                         "valueCurrentVersion": 2.5, 
                         "value": 2.5, 
-                        "ratingCount": 134358
+                        "ratingCount": 134460
                     }, 
                     "artistUrl": "https://itunes.apple.com/us/artist/google-inc./id281956209?mt=8", 
                     "itunesNotes": null, 
@@ -519,10 +519,10 @@
                         {
                             "actionText": {
                                 "downloaded": "Installed", 
-                                "medium": "Free", 
-                                "short": "Free", 
+                                "medium": "Get", 
+                                "short": "Get", 
                                 "downloading": "Installing", 
-                                "long": "Free App"
+                                "long": "Get App"
                             }, 
                             "assets": [
                                 {
@@ -556,12 +556,12 @@
                             "height": 1024
                         }, 
                         {
-                            "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/8e/30/06/8e3006a5-db0d-ccad-9100-337632ae466b/icon440x440.jpeg", 
+                            "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/8e/30/06/8e3006a5-db0d-ccad-9100-337632ae466b/icon440x440.png", 
                             "width": 440, 
                             "height": 440
                         }, 
                         {
-                            "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/8e/30/06/8e3006a5-db0d-ccad-9100-337632ae466b/icon220x220.jpeg", 
+                            "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/8e/30/06/8e3006a5-db0d-ccad-9100-337632ae466b/icon220x220.png", 
                             "width": 220, 
                             "height": 220
                         }, 
@@ -571,7 +571,7 @@
                             "height": 400
                         }, 
                         {
-                            "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/8e/30/06/8e3006a5-db0d-ccad-9100-337632ae466b/icon512x512.png", 
+                            "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/8e/30/06/8e3006a5-db0d-ccad-9100-337632ae466b/icon512x512.jpeg", 
                             "width": 512, 
                             "height": 512
                         }
@@ -591,7 +591,7 @@
                         "ipad": [
                             [
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple5/v4/7f/2a/5f/7f2a5fee-58b1-b711-4ffe-5d539a766191/screen261x261-65.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple5/v4/7f/2a/5f/7f2a5fee-58b1-b711-4ffe-5d539a766191/screen261x261-50.jpeg", 
                                     "width": 261, 
                                     "height": 196
                                 }, 
@@ -611,12 +611,12 @@
                                     "height": 414
                                 }, 
                                 {
-                                    "url": "http://a4.mzstatic.com/us/r30/Purple5/v4/7f/2a/5f/7f2a5fee-58b1-b711-4ffe-5d539a766191/screen420x316.jpeg", 
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple5/v4/7f/2a/5f/7f2a5fee-58b1-b711-4ffe-5d539a766191/screen420x420.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple5/v4/7f/2a/5f/7f2a5fee-58b1-b711-4ffe-5d539a766191/screen420x420.jpeg", 
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple5/v4/7f/2a/5f/7f2a5fee-58b1-b711-4ffe-5d539a766191/screen420x316.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
@@ -628,7 +628,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple5/v4/89/e5/ea/89e5ea29-5b35-171f-9a3f-ff25c3c6e682/screen261x261-65.jpeg", 
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple5/v4/89/e5/ea/89e5ea29-5b35-171f-9a3f-ff25c3c6e682/screen261x261-50.jpeg", 
                                     "width": 196, 
                                     "height": 261
                                 }, 
@@ -660,7 +660,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple5/v4/2f/67/13/2f671341-f50e-070f-1dec-e2ae8e75e032/screen261x261-65.jpeg", 
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple5/v4/2f/67/13/2f671341-f50e-070f-1dec-e2ae8e75e032/screen261x261-50.jpeg", 
                                     "width": 196, 
                                     "height": 261
                                 }, 
@@ -692,7 +692,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple5/v4/3d/3b/75/3d3b757b-3460-17ff-3e56-a7e5667e9283/screen261x261-65.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple5/v4/3d/3b/75/3d3b757b-3460-17ff-3e56-a7e5667e9283/screen261x261-50.jpeg", 
                                     "width": 196, 
                                     "height": 261
                                 }, 
@@ -724,7 +724,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a4.mzstatic.com/us/r30/Purple5/v4/a5/bf/b9/a5bfb952-e0e8-a18c-265d-7ea16f0c0cae/screen261x261-65.jpeg", 
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple5/v4/a5/bf/b9/a5bfb952-e0e8-a18c-265d-7ea16f0c0cae/screen261x261-50.jpeg", 
                                     "width": 261, 
                                     "height": 196
                                 }, 
@@ -744,12 +744,12 @@
                                     "height": 414
                                 }, 
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple5/v4/a5/bf/b9/a5bfb952-e0e8-a18c-265d-7ea16f0c0cae/screen420x316.jpeg", 
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple5/v4/a5/bf/b9/a5bfb952-e0e8-a18c-265d-7ea16f0c0cae/screen420x420.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
                                 {
-                                    "url": "http://a4.mzstatic.com/us/r30/Purple5/v4/a5/bf/b9/a5bfb952-e0e8-a18c-265d-7ea16f0c0cae/screen420x420.jpeg", 
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple5/v4/a5/bf/b9/a5bfb952-e0e8-a18c-265d-7ea16f0c0cae/screen420x316.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
@@ -1154,7 +1154,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "2003806", 
+        "ITSServerInstance": "2002900", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 

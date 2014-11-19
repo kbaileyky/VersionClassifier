@@ -28,17 +28,17 @@
                         912536422, 
                         728293409, 
                         625334537, 
-                        623592465, 
                         899626973, 
-                        363282253, 
                         364234221, 
+                        623592465, 
                         915074326, 
                         868692227, 
-                        606784772, 
-                        622613679, 
-                        640364616, 
+                        426747278, 
                         940202798, 
-                        882453590
+                        363282253, 
+                        881270303, 
+                        525818839, 
+                        622613679
                     ], 
                     "title": "Top Paid iPad Games Apps"
                 }, 
@@ -51,14 +51,14 @@
                         728293409, 
                         625334537, 
                         932315244, 
-                        337021781, 
                         525818839, 
-                        937255144, 
+                        337021781, 
+                        511459648, 
                         343200656, 
-                        326912270, 
                         899607767, 
-                        350642635, 
-                        563718995
+                        326912270, 
+                        563718995, 
+                        937255144
                     ], 
                     "title": "Top Paid iPhone Games Apps"
                 }
@@ -74,14 +74,13 @@
                 575658129, 
                 727420266, 
                 681370499, 
-                922621329, 
-                582417365, 
                 349051443, 
+                582417365, 
+                922621329, 
                 681253652, 
                 758999884, 
                 663965632, 
                 855556927, 
-                805900038, 
                 620012789
             ], 
             "appRatingsLearnMoreUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/appRatings?cc=us", 
@@ -108,11 +107,11 @@
             "pageDetails": "Warner Bros._Bastion", 
             "pageId": "537773100", 
             "language": "1", 
-            "serverInstance": "2126499", 
+            "serverInstance": "1007804", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
-            "environmentDataCenter": "ST11", 
+            "environmentDataCenter": "NWK", 
             "pageType": "Software", 
             "platformName": "iTunes12", 
             "page": "Software_537773100"
@@ -331,10 +330,10 @@
                     "releaseDate": "2012-08-30", 
                     "artistId": 298372283, 
                     "userRating": {
-                        "ratingCountCurrentVersion": 1615, 
+                        "ratingCountCurrentVersion": 1616, 
                         "valueCurrentVersion": 4.5, 
                         "value": 4.5, 
-                        "ratingCount": 13170
+                        "ratingCount": 13172
                     }, 
                     "artistUrl": "https://itunes.apple.com/us/artist/warner-bros./id298372283?mt=8", 
                     "itunesNotes": null, 
@@ -440,17 +439,17 @@
                             "height": 440
                         }, 
                         {
-                            "url": "http://a1.mzstatic.com/us/r30/Purple/v4/8f/d5/06/8fd50613-22ae-a954-32ea-13812af3c314/icon220x220.png", 
+                            "url": "http://a5.mzstatic.com/us/r30/Purple/v4/8f/d5/06/8fd50613-22ae-a954-32ea-13812af3c314/icon220x220.jpeg", 
                             "width": 220, 
                             "height": 220
                         }, 
                         {
-                            "url": "http://a2.mzstatic.com/us/r30/Purple/v4/8f/d5/06/8fd50613-22ae-a954-32ea-13812af3c314/icon256x256.png", 
+                            "url": "http://a3.mzstatic.com/us/r30/Purple/v4/8f/d5/06/8fd50613-22ae-a954-32ea-13812af3c314/icon256x256.jpeg", 
                             "width": 256, 
                             "height": 256
                         }, 
                         {
-                            "url": "http://a3.mzstatic.com/us/r30/Purple/v4/8f/d5/06/8fd50613-22ae-a954-32ea-13812af3c314/icon512x512.jpeg", 
+                            "url": "http://a1.mzstatic.com/us/r30/Purple/v4/8f/d5/06/8fd50613-22ae-a954-32ea-13812af3c314/icon512x512.png", 
                             "width": 512, 
                             "height": 512
                         }
@@ -974,7 +973,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "2126499", 
+        "ITSServerInstance": "1007804", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
@@ -1004,7 +1003,7 @@
                 "platformId": "28", 
                 "storeFront": "143441", 
                 "storeFrontHeader": "143441-1,28", 
-                "environmentDataCenter": "ST11", 
+                "environmentDataCenter": "NWK", 
                 "platformName": "iTunes12"
             }, 
             "postFrequency": 60000, 

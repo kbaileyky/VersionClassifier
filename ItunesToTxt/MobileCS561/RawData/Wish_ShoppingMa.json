@@ -29,15 +29,15 @@
                         477128284, 
                         399563465, 
                         473539089, 
-                        352683833, 
                         310738695, 
                         454607051, 
+                        352683833, 
                         336698281, 
+                        910398738, 
                         561263218, 
                         288487321, 
-                        392988420, 
                         402742793, 
-                        908571976
+                        392988420
                     ], 
                     "title": "Top Free iPad Lifestyle Apps"
                 }, 
@@ -51,11 +51,11 @@
                         397533889, 
                         352683833, 
                         659563061, 
-                        314855255, 
-                        477128284, 
                         472014516, 
+                        477128284, 
                         335364882, 
-                        740204829, 
+                        314855255, 
+                        341036067, 
                         523045896
                     ], 
                     "title": "Top Free iPhone Lifestyle Apps"
@@ -63,13 +63,18 @@
             }, 
             "rating-and-advisories": {
                 "advisories": [
-                    "Infrequent/Mild Profanity or Crude Humor", 
-                    "Infrequent/Mild Sexual Content and Nudity"
+                    "Infrequent/Mild Sexual Content and Nudity", 
+                    "Infrequent/Mild Profanity or Crude Humor"
                 ], 
                 "rating-text": "Rated 12+ for the following:"
             }, 
             "appRatingsLearnMoreUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/appRatings?cc=us", 
             "versionHistory": [
+                {
+                    "releaseDate": "2014-11-19T18:48:40Z", 
+                    "releaseNotes": "Tons of fixes and improvements", 
+                    "versionString": "3.8.0"
+                }, 
                 {
                     "releaseDate": "2014-10-10T00:40:16Z", 
                     "releaseNotes": "Tons of fixes and improvements", 
@@ -189,11 +194,6 @@
                     "releaseDate": "2012-08-16T00:24:14Z", 
                     "releaseNotes": "\u2605 Barcode Scanner \n    - Upload products by scanning product barcodes\n\n\u2605 Improved Details Page\n    - Follow uploader directly from details page\n    - View profiles of recent wishers\n    - Other various UI improvements\n\n\u2605 Comments\n    - Add and view comments on your favorite items\n\n\u2605 Filter Feed by Price\n\u2605 Improved Recommendation & Invite Pages\n\u2605 Quicker Access to Following and Followers on Profile", 
                     "versionString": "1.2.0"
-                }, 
-                {
-                    "releaseDate": "2012-07-26T16:54:42Z", 
-                    "releaseNotes": "Thanks everyone for all the great reviews & feedback!\n\n- View more photos on certain products\n- Add more photos to a product from camera or URL\n- Ability to remove recommendations while browsing. Tap and hold in the grid view, and swipe to delete in the list view\n- Updated Settings page including link to \"My Rewards\"\n- Bug and stability fixes\n", 
-                    "versionString": "1.1.0"
                 }
             ], 
             "id": 530621395
@@ -202,7 +202,7 @@
             "pageDetails": "ContextLogic Inc._Wish - Shopping Made Fun", 
             "pageId": "530621395", 
             "language": "1", 
-            "serverInstance": "2126914", 
+            "serverInstance": "2001205", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
@@ -425,10 +425,10 @@
                     "releaseDate": "2012-06-14", 
                     "artistId": 530621398, 
                     "userRating": {
-                        "ratingCountCurrentVersion": 3161, 
-                        "valueCurrentVersion": 4.5, 
+                        "ratingCountCurrentVersion": 0, 
+                        "valueCurrentVersion": 0, 
                         "value": 4.5, 
-                        "ratingCount": 44786
+                        "ratingCount": 44888
                     }, 
                     "artistUrl": "https://itunes.apple.com/us/artist/contextlogic-inc./id530621398?mt=8", 
                     "itunesNotes": null, 
@@ -447,12 +447,12 @@
                     "copyright": "\u00a9 2014 ContextLogic Inc.", 
                     "supportsPassbook": false, 
                     "description": {
-                        "standard": "Start shopping in a smarter and more rewarding way today. Download Wish to join over 30 million people who are using it to make shopping smart, fun, and rewarding. Start your Wishlists and get special offers and gift cards for items you like directly from merchants and brands.\n\n\"Love, Love this app. Its a fun app that u can wish on things u love and want. Highly Reccommend it to frndz & fmly.\" - Olivia Austin\n\n\"I love most of the stuff it suggests for me. I wind up surfing for hours sometimes. Then I got a $10 gift card off some items I wished for!\" - Meg Blaylock\n\n\"Must have app. The clothing, suggestions and all the other wonderful stuff in here is awesome. I'm hooked.\" - Claudia Betancur"
+                        "standard": "Over 50 million people are getting trending items 50-80% cheaper than what you pay at the local mall. Get the hottest products at incredible prices delivered directly to your door. Wish is the #1 shopping mall in Europe and North America allowing you to browse a worldwide selection of trending fashion, accessories, and electronics directly at your fingertips.\n\n\"Love, Love this app. Its a fun app that u can wish on things u love and want. Highly Reccommend it to frndz & fmly.\" - Olivia Austin\n\n\"I love most of the stuff it suggests for me. I wind up surfing for hours sometimes. Then I got a $10 gift card off some items I wished for!\" - Meg Blaylock\n\n\"Must have app. The clothing, suggestions and all the other wonderful stuff in here is awesome. I'm hooked.\" - Claudia Betancur"
                     }, 
                     "softwareInfo": {
                         "privacyPolicyUrl": "http://www.wish.com/privacy_policy", 
                         "supportUrl": "http://www.wish.com/help", 
-                        "languagesDisplayString": "English, Bokm\u00e5l, Norwegian, Catalan, Chinese, Croatian, Czech, Danish, Dutch, Finnish, French, German, Greek, Hungarian, Indonesian, Italian, Japanese, Korean, Malay, Polish, Portuguese, Romanian, Russian, Simplified Chinese, Slovak, Spanish, Swedish, Thai, Traditional Chinese, Turkish, Ukrainian, Vietnamese", 
+                        "languagesDisplayString": "English, Belarusian, Bokm\u00e5l, Norwegian, Catalan, Chinese, Croatian, Czech, Danish, Dutch, Estonian, Finnish, French, German, Greek, Hungarian, Indonesian, Italian, Japanese, Korean, Lithuanian, Malay, Polish, Portuguese, Romanian, Russian, Simplified Chinese, Slovak, Slovenian, Spanish, Swedish, Thai, Traditional Chinese, Turkish, Ukrainian, Vietnamese", 
                         "seller": "ContextLogic Inc.", 
                         "websiteUrl": null, 
                         "requirementsString": "Requires iOS 6.0 or later. Compatible with iPhone, iPad, and iPod touch. This app is optimized for iPhone\u00a05.", 
@@ -461,8 +461,8 @@
                     "contentRating": {
                         "system": "GAMES", 
                         "advisories": [
-                            "Infrequent/Mild Profanity or Crude Humor", 
-                            "Infrequent/Mild Sexual Content and Nudity"
+                            "Infrequent/Mild Sexual Content and Nudity", 
+                            "Infrequent/Mild Profanity or Crude Humor"
                         ], 
                         "value": 300, 
                         "rank": 3, 
@@ -481,8 +481,8 @@
                         "appsApple": {
                             "rank": 3, 
                             "advisories": [
-                                "Infrequent/Mild Profanity or Crude Humor", 
-                                "Infrequent/Mild Sexual Content and Nudity"
+                                "Infrequent/Mild Sexual Content and Nudity", 
+                                "Infrequent/Mild Profanity or Crude Humor"
                             ], 
                             "name": "12+", 
                             "value": 300
@@ -492,56 +492,56 @@
                         {
                             "actionText": {
                                 "downloaded": "Installed", 
-                                "medium": "Free", 
-                                "short": "Free", 
+                                "medium": "Get", 
+                                "short": "Get", 
                                 "downloading": "Installing", 
-                                "long": "Free App"
+                                "long": "Get App"
                             }, 
                             "assets": [
                                 {
                                     "flavor": "iosSoftware", 
-                                    "size": 32306256
+                                    "size": 33287354
                                 }
                             ], 
                             "priceFormatted": "$0.00", 
                             "price": 0, 
                             "version": {
-                                "externalId": 737402745, 
-                                "display": "3.7.5"
+                                "externalId": 801033279, 
+                                "display": "3.8.0"
                             }, 
-                            "buyParams": "productType=C&price=0&salableAdamId=530621395&pricingParameters=STDQ&appExtVrsId=737402745", 
+                            "buyParams": "productType=C&price=0&salableAdamId=530621395&pricingParameters=STDQ&appExtVrsId=801033279", 
                             "type": "get"
                         }
                     ], 
                     "editorialBadgeInfo": null, 
                     "artwork": [
                         {
-                            "url": "http://a4.mzstatic.com/us/r30/Purple1/v4/3c/6b/63/3c6b632d-691a-ca57-6f5b-8949d7dfd16f/icon240x240.png", 
+                            "url": "http://a3.mzstatic.com/us/r30/Purple1/v4/61/95/56/619556c4-20ce-e16c-4943-f55df65e80e3/icon240x240.jpeg", 
                             "width": 240, 
                             "height": 240
                         }, 
                         {
-                            "url": "http://a3.mzstatic.com/us/r30/Purple1/v4/3c/6b/63/3c6b632d-691a-ca57-6f5b-8949d7dfd16f/icon1024x1024.png", 
+                            "url": "http://a2.mzstatic.com/us/r30/Purple1/v4/61/95/56/619556c4-20ce-e16c-4943-f55df65e80e3/icon1024x1024.jpeg", 
                             "width": 1024, 
                             "height": 1024
                         }, 
                         {
-                            "url": "http://a3.mzstatic.com/us/r30/Purple1/v4/3c/6b/63/3c6b632d-691a-ca57-6f5b-8949d7dfd16f/icon440x440.jpeg", 
+                            "url": "http://a5.mzstatic.com/us/r30/Purple1/v4/61/95/56/619556c4-20ce-e16c-4943-f55df65e80e3/icon440x440.jpeg", 
                             "width": 440, 
                             "height": 440
                         }, 
                         {
-                            "url": "http://a2.mzstatic.com/us/r30/Purple1/v4/3c/6b/63/3c6b632d-691a-ca57-6f5b-8949d7dfd16f/icon220x220.png", 
+                            "url": "http://a1.mzstatic.com/us/r30/Purple1/v4/61/95/56/619556c4-20ce-e16c-4943-f55df65e80e3/icon220x220.jpeg", 
                             "width": 220, 
                             "height": 220
                         }, 
                         {
-                            "url": "http://a4.mzstatic.com/us/r30/Purple1/v4/3c/6b/63/3c6b632d-691a-ca57-6f5b-8949d7dfd16f/icon400x400.jpeg", 
+                            "url": "http://a1.mzstatic.com/us/r30/Purple1/v4/61/95/56/619556c4-20ce-e16c-4943-f55df65e80e3/icon400x400.jpeg", 
                             "width": 400, 
                             "height": 400
                         }, 
                         {
-                            "url": "http://a2.mzstatic.com/us/r30/Purple1/v4/3c/6b/63/3c6b632d-691a-ca57-6f5b-8949d7dfd16f/icon512x512.png", 
+                            "url": "http://a5.mzstatic.com/us/r30/Purple1/v4/61/95/56/619556c4-20ce-e16c-4943-f55df65e80e3/icon512x512.png", 
                             "width": 512, 
                             "height": 512
                         }
@@ -1114,7 +1114,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "2126914", 
+        "ITSServerInstance": "2001205", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 

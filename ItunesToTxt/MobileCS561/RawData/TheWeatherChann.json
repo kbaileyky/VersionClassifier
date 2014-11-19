@@ -7,17 +7,17 @@
                 "ipad": {
                     "ids": [
                         364252504, 
-                        404516121, 
                         628677149, 
+                        404516121, 
                         364616869, 
                         749083919, 
                         322439990, 
                         281940292, 
                         749133753, 
                         408451987, 
-                        403037266, 
                         906099986, 
                         364884105, 
+                        403037266, 
                         537308269, 
                         649264704, 
                         483922001
@@ -26,20 +26,20 @@
                 }, 
                 "iphone": {
                     "ids": [
-                        281940292, 
                         300048137, 
+                        281940292, 
+                        628677149, 
                         486154808, 
                         322439990, 
-                        628677149, 
-                        935459156, 
                         404516121, 
+                        935459156, 
                         749133753, 
                         749083919, 
                         414215658, 
+                        935445197, 
                         585726025, 
-                        483922001, 
-                        649264704, 
-                        929276290
+                        935468776, 
+                        649264704
                     ], 
                     "title": "Top Free iPhone Weather Apps"
                 }
@@ -185,7 +185,7 @@
             "pageDetails": "The Weather Channel Interactive_The Weather Channel and weather.com - local forecasts, radar, and storm tracking", 
             "pageId": "295646461", 
             "language": "1", 
-            "serverInstance": "511706", 
+            "serverInstance": "512074", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
@@ -408,10 +408,10 @@
                     "releaseDate": "2008-11-09", 
                     "artistId": 295646464, 
                     "userRating": {
-                        "ratingCountCurrentVersion": 1661, 
+                        "ratingCountCurrentVersion": 1714, 
                         "valueCurrentVersion": 4, 
                         "value": 3.5, 
-                        "ratingCount": 411944
+                        "ratingCount": 411989
                     }, 
                     "artistUrl": "https://itunes.apple.com/us/artist/weather-channel-interactive/id295646464?mt=8", 
                     "itunesNotes": null, 
@@ -467,10 +467,10 @@
                         {
                             "actionText": {
                                 "downloaded": "Installed", 
-                                "medium": "Free", 
-                                "short": "Free", 
+                                "medium": "Get", 
+                                "short": "Get", 
                                 "downloading": "Installing", 
-                                "long": "Free App"
+                                "long": "Get App"
                             }, 
                             "assets": [
                                 {
@@ -494,7 +494,7 @@
                     }, 
                     "artwork": [
                         {
-                            "url": "http://a5.mzstatic.com/us/r30/Purple5/v4/c1/44/21/c14421b9-242d-d9fe-f37f-736b871bcc20/icon240x240.jpeg", 
+                            "url": "http://a2.mzstatic.com/us/r30/Purple5/v4/c1/44/21/c14421b9-242d-d9fe-f37f-736b871bcc20/icon240x240.png", 
                             "width": 240, 
                             "height": 240
                         }, 
@@ -514,7 +514,7 @@
                             "height": 220
                         }, 
                         {
-                            "url": "http://a1.mzstatic.com/us/r30/Purple5/v4/c1/44/21/c14421b9-242d-d9fe-f37f-736b871bcc20/icon400x400.jpeg", 
+                            "url": "http://a5.mzstatic.com/us/r30/Purple5/v4/c1/44/21/c14421b9-242d-d9fe-f37f-736b871bcc20/icon400x400.png", 
                             "width": 400, 
                             "height": 400
                         }, 
@@ -1006,7 +1006,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "511706", 
+        "ITSServerInstance": "512074", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 

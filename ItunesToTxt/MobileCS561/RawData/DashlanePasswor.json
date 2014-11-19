@@ -27,18 +27,18 @@
                         586447913, 
                         743974925, 
                         281796108, 
-                        327630330, 
                         586683407, 
-                        360593530, 
-                        904071710, 
-                        489262811, 
-                        361285480, 
                         361309726, 
-                        287170072, 
-                        528122602, 
+                        360593530, 
                         778658393, 
+                        327630330, 
+                        528122602, 
+                        287170072, 
+                        363448914, 
+                        374211477, 
+                        904071710, 
                         443369807, 
-                        363998953
+                        586449534
                     ], 
                     "title": "Top Grossing iPad Productivity Apps"
                 }, 
@@ -47,17 +47,17 @@
                         327630330, 
                         287170072, 
                         281796108, 
-                        695429656, 
                         443369807, 
-                        430478223, 
+                        849732663, 
                         514917848, 
-                        695415794, 
+                        695429656, 
                         319185557, 
                         407108860, 
-                        568903335, 
-                        743974925, 
-                        352743549, 
-                        328401678, 
+                        430478223, 
+                        695415794, 
+                        614810693, 
+                        380732176, 
+                        690305341, 
                         406644151
                     ], 
                     "title": "Top Grossing iPhone Productivity Apps"
@@ -245,11 +245,11 @@
             "pageDetails": "Dashlane_Dashlane Password Manager & Secure Digital Wallet", 
             "pageId": "517914548", 
             "language": "1", 
-            "serverInstance": "615147", 
+            "serverInstance": "1003106", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
-            "environmentDataCenter": "ST11", 
+            "environmentDataCenter": "NWK", 
             "pageType": "Software", 
             "platformName": "iTunes12", 
             "page": "Software_517914548"
@@ -468,10 +468,10 @@
                     "releaseDate": "2012-05-21", 
                     "artistId": 507134346, 
                     "userRating": {
-                        "ratingCountCurrentVersion": 129, 
+                        "ratingCountCurrentVersion": 139, 
                         "valueCurrentVersion": 4.5, 
                         "value": 4.5, 
-                        "ratingCount": 7571
+                        "ratingCount": 7579
                     }, 
                     "artistUrl": "https://itunes.apple.com/us/artist/dashlane/id507134346?mt=8", 
                     "itunesNotes": null, 
@@ -534,10 +534,10 @@
                         {
                             "actionText": {
                                 "downloaded": "Installed", 
-                                "medium": "Free", 
-                                "short": "Free", 
+                                "medium": "Get", 
+                                "short": "Get", 
                                 "downloading": "Installing", 
-                                "long": "Free App"
+                                "long": "Get App"
                             }, 
                             "assets": [
                                 {
@@ -568,7 +568,7 @@
                             "height": 1024
                         }, 
                         {
-                            "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/67/bb/a5/67bba512-dbe3-0eae-a58f-2acfd337991b/icon440x440.png", 
+                            "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/67/bb/a5/67bba512-dbe3-0eae-a58f-2acfd337991b/icon440x440.jpeg", 
                             "width": 440, 
                             "height": 440
                         }, 
@@ -578,12 +578,12 @@
                             "height": 220
                         }, 
                         {
-                            "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/67/bb/a5/67bba512-dbe3-0eae-a58f-2acfd337991b/icon400x400.jpeg", 
+                            "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/67/bb/a5/67bba512-dbe3-0eae-a58f-2acfd337991b/icon400x400.png", 
                             "width": 400, 
                             "height": 400
                         }, 
                         {
-                            "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/67/bb/a5/67bba512-dbe3-0eae-a58f-2acfd337991b/icon512x512.jpeg", 
+                            "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/67/bb/a5/67bba512-dbe3-0eae-a58f-2acfd337991b/icon512x512.png", 
                             "width": 512, 
                             "height": 512
                         }
@@ -1207,7 +1207,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "615147", 
+        "ITSServerInstance": "1003106", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
@@ -1237,7 +1237,7 @@
                 "platformId": "28", 
                 "storeFront": "143441", 
                 "storeFrontHeader": "143441-1,28", 
-                "environmentDataCenter": "ST11", 
+                "environmentDataCenter": "NWK", 
                 "platformName": "iTunes12"
             }, 
             "postFrequency": 60000, 

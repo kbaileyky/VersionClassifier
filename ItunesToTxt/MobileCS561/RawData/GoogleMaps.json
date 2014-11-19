@@ -8,19 +8,19 @@
                 "ipad": {
                     "ids": [
                         323229106, 
-                        585193266, 
                         340268949, 
+                        585193266, 
                         682438211, 
                         447442214, 
-                        378640003, 
-                        915571252, 
                         504677517, 
-                        547464550, 
-                        553771681, 
                         495230948, 
-                        791168388, 
-                        480887516, 
-                        561866269
+                        561866269, 
+                        378640003, 
+                        324384027, 
+                        547464550, 
+                        703796787, 
+                        553771681, 
+                        915571252
                     ], 
                     "title": "Top Free iPad Navigation Apps"
                 }, 
@@ -31,15 +31,15 @@
                         467816643, 
                         447442214, 
                         585193266, 
-                        905449457, 
                         498477945, 
-                        303217144, 
+                        905449457, 
+                        324384027, 
                         307529605, 
                         498151501, 
-                        324384027, 
+                        303217144, 
                         340268949, 
                         751972942, 
-                        469463298
+                        561866269
                     ], 
                     "title": "Top Free iPhone Navigation Apps"
                 }
@@ -150,7 +150,7 @@
             "pageDetails": "Google, Inc._Google Maps", 
             "pageId": "585027354", 
             "language": "1", 
-            "serverInstance": "2125473", 
+            "serverInstance": "2126690", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
@@ -373,10 +373,10 @@
                     "releaseDate": "2012-12-13", 
                     "artistId": 281956209, 
                     "userRating": {
-                        "ratingCountCurrentVersion": 1762, 
+                        "ratingCountCurrentVersion": 1828, 
                         "valueCurrentVersion": 4, 
                         "value": 4.5, 
-                        "ratingCount": 100241
+                        "ratingCount": 100304
                     }, 
                     "artistUrl": "https://itunes.apple.com/us/artist/google-inc./id281956209?mt=8", 
                     "itunesNotes": null, 
@@ -444,10 +444,10 @@
                         {
                             "actionText": {
                                 "downloaded": "Installed", 
-                                "medium": "Free", 
-                                "short": "Free", 
+                                "medium": "Get", 
+                                "short": "Get", 
                                 "downloading": "Installing", 
-                                "long": "Free App"
+                                "long": "Get App"
                             }, 
                             "assets": [
                                 {
@@ -471,7 +471,7 @@
                     }, 
                     "artwork": [
                         {
-                            "url": "http://a1.mzstatic.com/us/r30/Purple1/v4/d6/64/7f/d6647f94-e6b1-8645-ceee-eeecd63da949/icon240x240.png", 
+                            "url": "http://a1.mzstatic.com/us/r30/Purple1/v4/d6/64/7f/d6647f94-e6b1-8645-ceee-eeecd63da949/icon240x240.jpeg", 
                             "width": 240, 
                             "height": 240
                         }, 
@@ -486,12 +486,12 @@
                             "height": 440
                         }, 
                         {
-                            "url": "http://a4.mzstatic.com/us/r30/Purple1/v4/d6/64/7f/d6647f94-e6b1-8645-ceee-eeecd63da949/icon220x220.png", 
+                            "url": "http://a4.mzstatic.com/us/r30/Purple1/v4/d6/64/7f/d6647f94-e6b1-8645-ceee-eeecd63da949/icon220x220.jpeg", 
                             "width": 220, 
                             "height": 220
                         }, 
                         {
-                            "url": "http://a1.mzstatic.com/us/r30/Purple1/v4/d6/64/7f/d6647f94-e6b1-8645-ceee-eeecd63da949/icon400x400.png", 
+                            "url": "http://a4.mzstatic.com/us/r30/Purple1/v4/d6/64/7f/d6647f94-e6b1-8645-ceee-eeecd63da949/icon400x400.jpeg", 
                             "width": 400, 
                             "height": 400
                         }, 
@@ -501,7 +501,7 @@
                             "height": 512
                         }
                     ], 
-                    "requiredCapabilities": "opengles-2 location-services armv7 ", 
+                    "requiredCapabilities": "armv7 location-services opengles-2 ", 
                     "name": "Google Maps", 
                     "kind": "iosSoftware", 
                     "tellAFriendMessageContentsUrl": "https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendEmailBody?cc=us&displayable-kind=11&id=585027354&name=s&type=14", 
@@ -1170,7 +1170,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "2125473", 
+        "ITSServerInstance": "2126690", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 

@@ -22,38 +22,38 @@
                     "ids": [
                         349554263, 
                         332615624, 
+                        341922306, 
+                        721048927, 
                         450123799, 
                         567008119, 
-                        341922306, 
                         364740856, 
-                        477971748, 
                         576588894, 
-                        447919187, 
-                        308018823, 
-                        342876705, 
-                        334989259, 
+                        300845855, 
                         287462072, 
-                        595559531, 
-                        892128363
+                        804637783, 
+                        286041914, 
+                        301349397, 
+                        287734809, 
+                        383462870
                     ], 
                     "title": "Top Grossing iPad Reference Apps"
                 }, 
                 "iphone": {
                     "ids": [
-                        291270748, 
-                        349554263, 
-                        892128363, 
                         287734809, 
+                        892128363, 
+                        349554263, 
+                        341922306, 
                         385756768, 
                         334989259, 
-                        804637783, 
-                        332615624, 
-                        376971699, 
+                        291270748, 
                         576588894, 
+                        301349397, 
+                        804637783, 
                         647922968, 
-                        286041914, 
-                        478126577, 
-                        340835423
+                        447498678, 
+                        332615624, 
+                        695061867
                     ], 
                     "title": "Top Grossing iPhone Reference Apps"
                 }
@@ -237,7 +237,7 @@
             "pageDetails": "Dictionary.com, LLC_Dictionary.com Dictionary & Thesaurus", 
             "pageId": "308750436", 
             "language": "1", 
-            "serverInstance": "2125472", 
+            "serverInstance": "2126820", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
@@ -460,10 +460,10 @@
                     "releaseDate": "2009-04-07", 
                     "artistId": 308750439, 
                     "userRating": {
-                        "ratingCountCurrentVersion": 502, 
+                        "ratingCountCurrentVersion": 512, 
                         "valueCurrentVersion": 4.5, 
                         "value": 4, 
-                        "ratingCount": 192208
+                        "ratingCount": 192219
                     }, 
                     "artistUrl": "https://itunes.apple.com/us/artist/dictionary.com-llc/id308750439?mt=8", 
                     "itunesNotes": null, 
@@ -520,10 +520,10 @@
                         {
                             "actionText": {
                                 "downloaded": "Installed", 
-                                "medium": "Free", 
-                                "short": "Free", 
+                                "medium": "Get", 
+                                "short": "Get", 
                                 "downloading": "Installing", 
-                                "long": "Free App"
+                                "long": "Get App"
                             }, 
                             "assets": [
                                 {
@@ -549,12 +549,12 @@
                             "height": 240
                         }, 
                         {
-                            "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/29/49/d8/2949d8cf-dd7f-4993-3884-8ce192c03941/icon1024x1024.jpeg", 
+                            "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/29/49/d8/2949d8cf-dd7f-4993-3884-8ce192c03941/icon1024x1024.png", 
                             "width": 1024, 
                             "height": 1024
                         }, 
                         {
-                            "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/29/49/d8/2949d8cf-dd7f-4993-3884-8ce192c03941/icon440x440.jpeg", 
+                            "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/29/49/d8/2949d8cf-dd7f-4993-3884-8ce192c03941/icon440x440.png", 
                             "width": 440, 
                             "height": 440
                         }, 
@@ -569,7 +569,7 @@
                             "height": 400
                         }, 
                         {
-                            "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/29/49/d8/2949d8cf-dd7f-4993-3884-8ce192c03941/icon512x512.jpeg", 
+                            "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/29/49/d8/2949d8cf-dd7f-4993-3884-8ce192c03941/icon512x512.png", 
                             "width": 512, 
                             "height": 512
                         }
@@ -980,7 +980,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "2125472", 
+        "ITSServerInstance": "2126820", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
