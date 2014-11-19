@@ -1,0 +1,252 @@
+Update 1
+08-16-2011, 02:26 PM
+Our first update should be going out now. Exit out of the game to apply it. The fixes include:
+
+- Leaderboard crash due to some SteamIDs using alphanumeric characters not supported by our in-game fonts
+
+- Issue where menu pickboxes become too small when running the game at the lowest resolution setting
+
+- Issue where the first How to Play screen can crash for those using a gamepad.
+
+
+We will continue monitoring the feedback in this thread and via email. To those of you who've experienced any issues with the launch of the game, we appreciate your patience.
+
+Update 2
+ 08-17-2011, 11:14 AM
+Our second update should be going out now. Please exit out of the game to apply it. The fixes include:
+
+- Fixed an issue causing the game to display unsupported resolution settings in certain conditions
+
+- Fixed an issue where players could get stuck on a free-floating tile in the The Singer's Dream sequence
+
+- Fixed an issue where the game was not loading custom-mapped mouse control settings
+
+We'll continue monitoring the feedback in this thread and via email. Thank you guys for your support.
+
+Update 3
+08-18-2011, 12:03 PM
+Our third update for Bastion should be out now, addressing several issues reported by players as well as adding some advanced settings. This update will be applied automatically when players restart their Steam client. The change list includes: 
+
+- Fixed an issue in which the game would not detect local saved data if players lost their connection to Steam cloud storage
+
+- Fixed an issue where remapping the Left Trigger and Right Trigger gamepad controls fired the default commands unexpectedly
+
+- Fixed an issue in Roathus Lagoon that could cause players to get locked out of the level's final area
+
+- Added support for several advanced command-line parameters (aka Launch Options in Steam).
+
+To set Launch Options in Steam, right-click on Bastion inyour game library, select Properties, then select Set Launch Options.
+
+NOTE: Please be advised that these settings are recommended for advanced users and may adversely affect your game experience.
+
+The parameters are:
+
+-isomovement
+Using the default Slinger-style WASD controls, diagonal movements will more closely adhere to the isometric perspective. We would appreciate your feedback about this change. 
+
+-windowed
+Forces the game to start in windowed mode.
+
+-x [value]
+Forces the game to a specific X resolution.
+
+-y [value]
+Forces the game to a specific Y resolution.
+
+Example: to run the game in 1280x720 (720p) resolution:"-windowed -x 1280 -y 720"
+
+-noborder
+Runs the game in windowed mode but with no windows titlebar or border. (This may improve compatibility or performance versus full-screen mode in some cases or provide a preferable experience.)
+
+-deadzone [value]
+Allows a custom joystick dead zone for players experiencingissues with their gamepads. Value is the fraction at which input should register. Example: "-deadzone 0.4".
+
+-lang [value]
+Forces the game to load a specific text language. Available options are "en", "fr", "it","de", and "es" for English, French, Italian, German, and Spanish, respectively. Example: "-lang de"
+
+-nofixedstep
+Turns off fixed time step so that the game no longer dictates the frame rate. (This may improve performance for some users but may also lead to erratic performance in other cases.)
+
+Thank you for playing Bastion.
+
+Update 4
+ 08-19-2011, 11:03 AM
+Hey, our fourth update should be out there now, once again addressing various issues reported by players as well as adding several enhancements. This update will be applied automatically when players restart their Steam client. The change list includes:
+
+- Updated the default "Slinger-style" WASD controls to make the character move relative to the isometric perspective.
+
+NOTE: In the previous update, this required using a commandline parameter "-isomovement", which is no longer necessary. To restore the original setting, use the new commandline parameter "-orthomovement".
+
+- In-game menus now respond to right-clicking as well as left-clicking. One for the lefties!
+
+- Added support for resolutions greater than 1920x1080, at which visual issues with the background visuals could occur.
+
+- Fixed several issues that were causing the game to crash for some players.
+
+- Fixed an issue in Burstone Quarry that could cause players to get locked out of the level's final area.
+
+- Fixed an issue in Mt. Zand that could cause players to get locked out of the level's final area.
+
+- Fixed an issue in Zulten's Hollow that caused the level's weapon pickup animation not to play.
+
+- Fixed an issue in the Bullhead Trial where the text stated that the Gold Prize requirement involved completing the trial having taken less than two hits instead of three.
+
+- Fixed an issue causing the opening splash screens to overlap when running the game using the "-nofixedstep" commandline parameter, which unlocks the frame rate.
+
+- Fixed a rare issue where weapon slots at the Arsenal could become unselectable.
+
+We plan to continue updating the game in the coming days at this cadence. Thank you for playing.
+
+Update 5
+08-22-2011, 11:57 AM
+Hey, our fifth update should be deploying today. This update is focused on improving game stability and will be applied automatically when players restart their Steam client. The change list includes:
+
+- Various crash fixes based on user-submitted reports.
+
+- Fix to typographical error in the Memorial Vigil, "The Skippers".
+
+Thank you to everyone who's taken the time to send crash logs. 
+We plan to continue updating the game in the coming days. Thank you for playing.
+
+Update 6
+Old 08-24-2011, 03:01 PM
+Hey, our sixth update should be deploying today. It addresses additional crash issues and also adds seven new Steam Achievements. This update will be applied automatically when players restart their Steam client. The change list includes:
+
+- Fixed a rare issue in Who Knows Where sequences, in which foes could get knocked so far out of range that they would ignore the player and not return to the combat area.
+
+- Fixed additional crash bugs based on user-submitted reports. Thank you to everyone who's taken the time to send crash logs.
+
+- Added seven new Steam Achievements! They are:
+
+Man-at-Arms
+Use the Forge to fully upgrade every weapon.
+
+Whatever's Out There
+Complete the Kid's Dream with five or more Shrine Idols invoked.
+
+Just Like That
+Complete the Kid's Dream with all ten Shrine Idols invoked.
+
+Lock Yourself In
+Complete the Singer's Dream with five or more Shrine Idols invoked.
+
+Calamity All Around
+Complete the Singer's Dream with all ten Shrine Idols invoked.
+
+A Lasting Peace
+Complete the Survivor's Dream with five or more Shrine Idols invoked.
+
+Ashes in the Sky
+Complete the Survivor's Dream with all ten Shrine Idols invoked.
+
+Note: These achievements will not be awarded retroactively to players who met the requirements before this update. Man-at-Arms will be awarded when entering a fully upgraded Forge. 
+
+Thanks again to everyone who's taken the time to send crash logs, and to all of you for playing.
+
+Update 7
+09-02-2011, 11:25 AM
+Hey, our seventh update should be deploying today. It addresses several issues and adds support for other alphabets, enabling translations in other languages. This update will be applied automatically when players restart their Steam client. The change list includes:
+
+- Fixed an issue that caused Secret Skills to sometimes become unselectable after successive play-throughs of the game.
+
+- Fixed an issue that could cause the Man-at-Arms achievement not to unlock when expected.
+
+- Fixed an issue that could cause weapon upgrades of the same tier to both become selected in the Forge.
+
+- Fixed an issue causing Bastion.exe to not exit cleanly as intended.
+
+- Added custom language support for alphabets based on Latin, Greek, and Cyrillic, to support requests for player-created translations to other languages. To add a custom language to the game, follow these steps:
+
+1. Determine the two-letter language code according to ISO 639-1
+(http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
+
+e.g. Portuguese = pt, Russian = ru, Polish = pl
+
+The following example is for creating a Russian (ru) translation.
+
+2. Navigate to Steam\steamapps\common\bastion\Content\Game\Text, and make a copy of HelpText.en.xml called HelpText.ru.xml.
+
+3. Translate the text in HelpText.ru.xml from English to Russian. At the top of the file, make sure the line reads: <HelpText lang="ru">
+
+4. Create a folder in Steam\steamapps\common\bastion\Content\Subtitles\r u
+
+5. Copy over the files in Steam\steamapps\common\bastion\Content\Subtitles\e n, and translate them.
+
+6. Launch the game with '-lang ru' Launch Options
+(for Launch option instructions: https://support.steampowered.com/kb_...1040-JWMT-2947)
+
+Thanks to those of you expressing interest in taking the time to create fan translations and for playing.
+
+Update 8
+12-14-2011, 11:09 AM
+
+Hey! Our eighth update, featuring the new Stranger's Dream free DLC, should be deploying today. This update will be applied automatically when players run their Steam client. The change list includes:
+
+- The Stranger's Dream: a new fully narrated Who Knows Where sequence, bigger and tougher than the others.
+
+- Score Attack Mode: a new way to play through the story! You start at level one with all Spirits and Idols unlocked. Combat performance is rated for efficiency, and all areas are repeatable.
+
+Note: To access the Stranger's Dream sequence as well as Score Attack Mode, you need to have finished the game at least once. The Stranger’s Dream sequence will be available early on in your New Game Plus or Score Attack play-through.
+
+- No-Sweat Mode: for those who just want to experience the story of Bastion, this mode provides unlimited chances to carry on from where you left off if you’re defeated in battle.
+
+- Added two new Leaderboards for the Stranger's Dream and Score Attack Mode.
+
+- Added four new Steam Achievements! They are:
+
+Ride the Wind
+Use the Skyway in the Wharf District.
+
+All in the Mind
+Complete the Stranger's Dream with five or more Shrine Idols invoked.
+
+About the Author
+Complete the Stranger's Dream with all ten Shrine Idols invoked.
+
+Hard Bargain
+Earn a total of at least 1,000,000 points in Score Attack Mode.
+
+- Fixed an issue in Prosper Bluff that could cause players to get stuck in a specific area.
+
+- Fixed an issue in the final area of the game where players could fall through the environment unexpectedly.
+
+- Fixed some English-language subtitles.
+
+We hope you enjoy the new content! Thanks everyone for your continued support of this game.
+
+Update 9
+ 12-19-2011, 10:19 AM
+
+Hey, we've just posted our ninth update, which tweaks the new Score Attack mode and addresses two issues with the game. This update will be applied automatically when players are signed in to the Steam client. The change list includes:
+
+- Score Attack Mode: It is now possible to earn Fragments and XP when revisiting areas. Try revisiting areas using different weapons, spirits, and idols!
+
+- Fixed an issue where the Fragment Globes in Bullhead Court ceased yielding as many Fragments as intended.
+
+- Fixed an issue where certain subtitles containing accented characters appeared as asterisks.
+
+Thanks for your continued support!
+
+Update 10
+5-4-2012
+An update to Bastion has been released. The major changes include:
+
+- [Mac OSX] Fixes to crash on level of "Workmen Ward" for certain iMac users.
+- [Mac OSX] Fixes to misc crash issues based on user-submitted reports. Thanks again to everyone who's taken the time to send crash logs.
+- [Mac OSX] Wireless 360 Controller support via wireless receiver
+
+Update 11
+5-4-2012
+Bastion Update Released
+Product Update - Valve
+An update to Bastion has been released. The major changes include:
+
+- Fix startup crashes for some older model Macs
+
+Update 12
+6-11-2012
+An update to Bastion has been released. The major changes include:
+
+- Fixes screen flickering/stuttering for certain Mac users
+- Fixes OS X 10.5 crashes on startup
+
