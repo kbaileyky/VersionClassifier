@@ -1,0 +1,9 @@
+Version\s\d+(\.\d+)+
+\d+(\.\d+)+
+(\d{1,2}/\d{1,2}/\d{4}|(J|F|M|A|S|O|N|D)\w*\s\d{1,2}(th|st|rd|nd)?\,\s\d{4})
+M/d/yyyy
+M/dd/yyyy
+MM/d/yyyy
+MM/dd/yyyy
+MMMM dd, yyyy
+MMMM d, yyyy
