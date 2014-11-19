@@ -1,0 +1,9 @@
+Version\s\d+(\.\d+)+
+\d+(\.\d+)+
+\d{1,2}/\d{1,2}/\d{2,4}
+MM/dd/yy
+MM/dd/yyyy
+M/d/yy
+M/d/yyyy
+MM/d/yy
+M/dd/yyyy
