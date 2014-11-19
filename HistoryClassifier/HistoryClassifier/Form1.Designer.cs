@@ -69,6 +69,8 @@
             this.btnSet = new System.Windows.Forms.Button();
             this.btnMergeDown = new System.Windows.Forms.Button();
             this.btnMergeUp = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
+            this.lblReleaseDate = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -79,13 +81,13 @@
             this.lsbxVersions.FormattingEnabled = true;
             this.lsbxVersions.Location = new System.Drawing.Point(12, 37);
             this.lsbxVersions.Name = "lsbxVersions";
-            this.lsbxVersions.Size = new System.Drawing.Size(84, 264);
+            this.lsbxVersions.Size = new System.Drawing.Size(84, 303);
             this.lsbxVersions.TabIndex = 0;
             this.lsbxVersions.SelectedIndexChanged += new System.EventHandler(this.lsbxVersions_SelectedIndexChanged);
             // 
             // btnBug
             // 
-            this.btnBug.Location = new System.Drawing.Point(102, 307);
+            this.btnBug.Location = new System.Drawing.Point(102, 344);
             this.btnBug.Name = "btnBug";
             this.btnBug.Size = new System.Drawing.Size(104, 37);
             this.btnBug.TabIndex = 1;
@@ -99,12 +101,12 @@
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(498, 264);
+            this.textBox1.Size = new System.Drawing.Size(498, 301);
             this.textBox1.TabIndex = 2;
             // 
             // btnFeature
             // 
-            this.btnFeature.Location = new System.Drawing.Point(223, 307);
+            this.btnFeature.Location = new System.Drawing.Point(223, 344);
             this.btnFeature.Name = "btnFeature";
             this.btnFeature.Size = new System.Drawing.Size(104, 37);
             this.btnFeature.TabIndex = 3;
@@ -114,7 +116,7 @@
             // 
             // btnEnhancement
             // 
-            this.btnEnhancement.Location = new System.Drawing.Point(344, 307);
+            this.btnEnhancement.Location = new System.Drawing.Point(344, 344);
             this.btnEnhancement.Name = "btnEnhancement";
             this.btnEnhancement.Size = new System.Drawing.Size(104, 37);
             this.btnEnhancement.TabIndex = 4;
@@ -124,7 +126,7 @@
             // 
             // btnIrrelevant
             // 
-            this.btnIrrelevant.Location = new System.Drawing.Point(465, 307);
+            this.btnIrrelevant.Location = new System.Drawing.Point(465, 344);
             this.btnIrrelevant.Name = "btnIrrelevant";
             this.btnIrrelevant.Size = new System.Drawing.Size(104, 37);
             this.btnIrrelevant.TabIndex = 5;
@@ -135,7 +137,7 @@
             // chkbFlag
             // 
             this.chkbFlag.AutoSize = true;
-            this.chkbFlag.Location = new System.Drawing.Point(12, 318);
+            this.chkbFlag.Location = new System.Drawing.Point(12, 355);
             this.chkbFlag.Name = "chkbFlag";
             this.chkbFlag.Size = new System.Drawing.Size(46, 17);
             this.chkbFlag.TabIndex = 6;
@@ -145,7 +147,7 @@
             // 
             // btnSplit
             // 
-            this.btnSplit.Location = new System.Drawing.Point(704, 241);
+            this.btnSplit.Location = new System.Drawing.Point(707, 290);
             this.btnSplit.Name = "btnSplit";
             this.btnSplit.Size = new System.Drawing.Size(68, 48);
             this.btnSplit.TabIndex = 7;
@@ -160,7 +162,7 @@
             this.saveToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(871, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(869, 24);
             this.menuStrip1.TabIndex = 8;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -233,7 +235,7 @@
             this.lsbxHistory.FormattingEnabled = true;
             this.lsbxHistory.Location = new System.Drawing.Point(102, 37);
             this.lsbxHistory.Name = "lsbxHistory";
-            this.lsbxHistory.Size = new System.Drawing.Size(84, 264);
+            this.lsbxHistory.Size = new System.Drawing.Size(84, 303);
             this.lsbxHistory.TabIndex = 9;
             this.lsbxHistory.SelectedIndexChanged += new System.EventHandler(this.lsbxHistory_SelectedIndexChanged);
             // 
@@ -258,7 +260,7 @@
             // 
             // btnAd
             // 
-            this.btnAd.Location = new System.Drawing.Point(586, 307);
+            this.btnAd.Location = new System.Drawing.Point(586, 344);
             this.btnAd.Name = "btnAd";
             this.btnAd.Size = new System.Drawing.Size(104, 37);
             this.btnAd.TabIndex = 12;
@@ -268,7 +270,7 @@
             // 
             // btnChangeRating
             // 
-            this.btnChangeRating.Location = new System.Drawing.Point(707, 307);
+            this.btnChangeRating.Location = new System.Drawing.Point(707, 344);
             this.btnChangeRating.Name = "btnChangeRating";
             this.btnChangeRating.Size = new System.Drawing.Size(104, 37);
             this.btnChangeRating.TabIndex = 13;
@@ -287,9 +289,9 @@
             this.lblDatePattern,
             this.toolStripStatusLabel5,
             this.lblDateFormat});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 349);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 384);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(871, 22);
+            this.statusStrip1.Size = new System.Drawing.Size(869, 22);
             this.statusStrip1.TabIndex = 14;
             this.statusStrip1.Text = "statusStrip1";
             // 
@@ -430,7 +432,7 @@
             // 
             // btnMergeDown
             // 
-            this.btnMergeDown.Location = new System.Drawing.Point(781, 266);
+            this.btnMergeDown.Location = new System.Drawing.Point(784, 315);
             this.btnMergeDown.Name = "btnMergeDown";
             this.btnMergeDown.Size = new System.Drawing.Size(75, 23);
             this.btnMergeDown.TabIndex = 19;
@@ -440,7 +442,7 @@
             // 
             // btnMergeUp
             // 
-            this.btnMergeUp.Location = new System.Drawing.Point(781, 241);
+            this.btnMergeUp.Location = new System.Drawing.Point(784, 290);
             this.btnMergeUp.Name = "btnMergeUp";
             this.btnMergeUp.Size = new System.Drawing.Size(75, 23);
             this.btnMergeUp.TabIndex = 20;
@@ -448,11 +450,32 @@
             this.btnMergeUp.UseVisualStyleBackColor = true;
             this.btnMergeUp.Click += new System.EventHandler(this.btnMergeUp_Click);
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(697, 236);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(78, 13);
+            this.label4.TabIndex = 21;
+            this.label4.Text = "Release Date :";
+            // 
+            // lblReleaseDate
+            // 
+            this.lblReleaseDate.AutoSize = true;
+            this.lblReleaseDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblReleaseDate.Location = new System.Drawing.Point(723, 258);
+            this.lblReleaseDate.Name = "lblReleaseDate";
+            this.lblReleaseDate.Size = new System.Drawing.Size(13, 20);
+            this.lblReleaseDate.TabIndex = 22;
+            this.lblReleaseDate.Text = ".";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(871, 371);
+            this.ClientSize = new System.Drawing.Size(869, 406);
+            this.Controls.Add(this.lblReleaseDate);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.btnMergeUp);
             this.Controls.Add(this.btnMergeDown);
             this.Controls.Add(this.btnSet);
@@ -531,6 +554,8 @@
         private System.Windows.Forms.ToolStripMenuItem saveForComparisonToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem comparisonFileToolStripMenuItem;
         private System.Windows.Forms.RadioButton rbSiblingM;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label lblReleaseDate;
     }
 }
 

@@ -189,6 +189,7 @@ namespace HistoryClassifier
             label2.Text = activeHistory[lsbxHistory.SelectedIndex].Get_Classification_String();
             chkbFlag.Checked = activeHistory[lsbxHistory.SelectedIndex].flag;
             lsboxindex = lsbxHistory.SelectedIndex;
+            lblReleaseDate.Text = activeHistory[lsbxHistory.SelectedIndex].ReleaseDate;
         }
 
         private void btnSplit_Click(object sender, EventArgs e)
