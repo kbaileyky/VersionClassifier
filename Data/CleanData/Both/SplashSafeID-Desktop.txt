@@ -1,0 +1,45 @@
+Version 7.2.2 - April 30, 2014 - Release Notes:
+Fixed an issue with 2-factor authentication
+Fixed an issue with emailing records
+Bug fixes and stability improvements
+Version 7.2.1 - March 20, 2014 - Release Notes:
+Fix for Safari crash when autofilling from SplashID Safe
+Version 7.2 - March 11, 2014 - Release Notes:
+Share records securely (right click or click the Share Securely button)
+2-factor authentication (cloud services subscribers)
+Option to mark a record local only (so it won't sync)
+Bug fixes and stability improvements
+Version 7.1.1 - January 13, 2014 - Release Notes:
+Colorful icons
+Ability to change to a pattern password from Change Password tool
+Keychain import crash fixed
+Bug fixes and stability improvements
+Version 7.1 - October 30, 2013 - Release Notes:
+Email auto-backup issue fixed
+Fixed issues with printing individual records
+Mavericks support
+Stability improvement
+Version 7.0.10 - September 19, 2013 - Release Notes:
+Fixed an issue with cloud sync
+Version 7.0.9 - September 6, 2013 - Release Notes:
+Web autofill by clicking globe button works again
+Crash after sync with Windows phone is resolved
+Switching to WiFi sync when when licensed for cloud sync no longer loses cloud licensing
+Dedupe is performed after VID import
+There now is a hint button in the enter password dialog during onboarding
+Version 7.0.8 - August 29, 2013 - Release Notes:
+Fixed an issue some users were having where the app would crash on launch
+Version 7.0.7 - August 22, 2013 - Release Notes:
+Fixed an issue with emailing vID files directly from the app
+Version 7.0.6 - August 19, 2013 - Release Notes:
+Fixed an issue where changing your email during upgrade failed to load data
+Fixed an issue where entering an incorrect password after upgrade caused the app to think your password had changed
+Version 7.0.5 - August 16, 2013 - Release Notes:
+Removed Restore tool to prevent unfiled type issue on cloud sync. To "restore" a vID file, you should delete all records, then import the vID.
+Fixed an issue where upgrading users were not getting automatically licensed for WiFi sync
+Version 7.0.3 - August 13, 2013 - Release Notes:
+Custom data location upgrade message added
+Export and Backup features fixed
+WiFi sync fixed for handheld overwrites desktop
+Version 7.0.2 - August 6, 2013 - Release Notes:
+First version 7 public release
