@@ -34,7 +34,7 @@ Tableau Mobile: 1 updates
 8.2
 Tableau 8.2 introduces many new capabilities that expand your ability to access and analyze data. The release includes the first-ever Mac OS version of Tableau Desktop, Story Points for interactive, data-driven storytelling, a more visual connection experience with data previews and improved experience in defining data table joins, and updated maps, in addition to enhancements to simplify administration and support of Tableau Server.
 
-See what's new in Tableau 8.2
+See what's new in Tableau <<Some Versions>>
 
 Release Date: June 18, 2014
 Desktop Build Number: 8200.14.0616.0146
@@ -171,17 +171,16 @@ Tableau Server: 1 updates
 8.1.1
 This release is an important update to address the following product issue in Tableau Server 8.1. It does not affect Tableau Desktop.
 
-Note: Tableau Online will not be upgrading to 8.1.1 until December 7, 2013. Please do not upgrade any workbooks you intend to publish to Tableau Online until that upgrade occurs.
+Note: Tableau Online will not be upgrading to 8.1.1 until <<Some Date>>. Please do not upgrade any workbooks you intend to publish to Tableau Online until that upgrade occurs.
 
 Release Date: December 4, 2013
 Server Build Number: 8100.13.1202.0916
 Tableau Server: 1 updates
 
 
-8.1.
+8.1
 
-Tableau 8.1 contains many new capabilities in both Tableau Desktop and Tableau Server. See what's new in Tableau 8.1
-
+Tableau 8.1 contains many new capabilities in both Tableau Desktop and Tableau Server. See what's new in Tableau <<Some Version>>
 Tableau Online has been upgraded. You may need to upgrade to Tableau Desktop 8.1 to continue using some features of Tableau Online. See Tableau Online Version Compatibility to learn more about compatibility between Tableau Desktop and Tableau Online.
 
 The version of Apache provided with Tableau Server was upgraded to 2.4.6.
@@ -1597,7 +1596,7 @@ Version 7.0 released January 17, 2012.
 New Capabilities
 Tableau 7.0 will empower you with new visualizations like filled maps and area charts. It is also easier to use with an improved Show Me interface, one-click sorting and interactive tooltips. Large organizations will love Multi-Tenancy and significantly improved scalability and performance. 
 
-+ See what's new in Tableau 7.0
++ See what's new in Tableau <<Some Version>>
 
 Corrected Issues
 Tableau Desktop
