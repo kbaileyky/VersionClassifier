@@ -1,3 +1,4 @@
+﻿Delete 0.14.3 and 0.14.1, as there are no date.--Angie
 v0.25
 Released 7th October, 2014.
 Destructible Facilties at KSC
@@ -863,13 +864,7 @@ Bug Fixes:
 	•	Launching the updater with the game in fullscreen mode will no longer cause the updater to crash.
 	•	The game will no longer launch the patcher if the latest update is available only as a full download. It will open the KSP Store instead.
 	•	Changed the default game settings so terrain scatter is off by default
-v0.14.3
-Bug Fixes:
-	•	Fixed an issue with prevented unfocused ships from being saved.
-	•	Removed the KSC on the Mun (don't ask).
-	•	Tweaked the altitude of KSC to better match the terrain level.
-	•	Tweaked Kerbin landclasses to raise ocean and remove the blue from the ice caps.
-	•	Fixed the Sun flare not getting obscured by planets on the Tracking Station view.
+
 v0.14.2
 Released 27th March, 2012
 New:
@@ -884,16 +879,7 @@ Bug Fixes:
 	•	The Map and Tracking Station cameras now respond to the camera control input axes.
 	•	Fixed an issue with symmetrical parts not clearing references to decoupled counterparts.
 	•	Fixed an issue with the patcher not being able to login using passwords containing special characters.
-v0.14.1
-Bug Fixes:
-	•	Found and fixed the real cause of the staging issues that have plagued every release from 13.2 onward.
-	•	The debug console is no longer spammed with NaN errors. This could cause extreme lag in densely populated game worlds.
-	•	Fixed an issue where unloaded vessels would not update their orbits, causing them to resume incorrectly if they switched SOIs.
-	•	Fixed the save folder paths on the Mac version (they were ending up inside the app package)
-	•	It is now possible to do a Quickload (F9) after a crash (with the flight end screen up).
-	•	The game will no longer overwrite the quicksave when resuming flights. Only when creating new ones.
-	•	Landed vessels no longer explode when approached by the player (as when landing near other landed ships)
-	•	Fixed an issue with landing detection when landed on other vessels.
+
 
 v0.14.0
 Released 3rd March, 2012
@@ -1146,11 +1132,11 @@ Bug Fixes:
 	•	The altimeter will now go past 999,999K correctly (it will move up to 1000M, then 1000G, 1000T and so on)
 	•	Fixed a bug that could cause large ships to explode at 5,000m altitude.
 v0.8.4
-Released July 14th, 2011
+Released 14th July, 2011
 Bug Fixes:
 	•	Fixed a small but incredibly disruptive bug which prevented engines from being connected to fuel tanks
 v0.8.3
-Released 14 th July, 2011
+Released 14th July, 2011
 New on 0.8.3:
 	•	Added key to lock staging, to prevent accidental jettisoning (remember to set it off later). Set to Alt+L
 	•	Added a tooltip for the Symmetry Button
@@ -1160,7 +1146,7 @@ Bug Fixes:
 	•	Fixed a glitch introduced in 0.8.3 RC1 that allowed parts to be attached to frozen parts.
 
 v0.8.2
-Released 13 th July, 2011
+Released 13th July, 2011
 This version is a hotfix for a couple of ugly bugs found with the 0.8.1 release.
 Note: The 0.8.1 release introduced a few changes to the .craft file format, so it is possible that ships created with versions prior to 0.8.1 might not be compatible with the new version.
 Bug Fixes:
@@ -1185,7 +1171,7 @@ Bug Fixes:
 	•	Updated editor tutorial to reflect the changes in this update
 
 v0.8
-Released July 7th, 2011
+Released 7th July, 2011
 New on 0.8:
 	•	Saving and Loading buttons in the interface, as well as a ship loading dialog for picking new ships.
 	•	Ship name field in the editor, allows saving ships with any filename.
@@ -1225,7 +1211,7 @@ Bug fixes:
 	•	Updated tutorial to reflect the changes made in this update (like the new cameras in flight).
 	•	Tweaked the Radial Decoupler separation. It can now eject lit SRBs safely away from the ship and not kill the crew everytime.
 v0.7.3
-Released June 24th, 2011
+Released 24th June, 2011
 	•	Initial Release[2]
 Notable Features
 	•	Downloaded over 5000 times[3]

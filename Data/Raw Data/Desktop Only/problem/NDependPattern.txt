@@ -1,6 +1,6 @@
 Version\n\d+(\.\d+)+
 \d+(\.\d+)+
-\d{1,2}(th|st|rd|nd)?\s(of\s)?(J|F|M|A|S|O|N|D)\w*\s\d{4}
+\d{1,2}(th|st|rd|nd)?\s(of\s)?(J|j|F|f|M|m|A|a|S|s|O|o|N|n|D|d)\w*\s\d{4}
 MMMM d, yyyy
 MMMM dd, yyyy
 MMMM d yyyy

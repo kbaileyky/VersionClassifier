@@ -1,0 +1,5 @@
+v\d+(\.\d+)+
+\d+(\.\d+)+
+\d+(th|st|rd|nd)?\s(J|F|M|A|S|O|N|D)\w*\,?\s\d{4}
+dd MM, YYYY
+
