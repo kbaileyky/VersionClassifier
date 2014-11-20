@@ -1,0 +1,669 @@
+
+VERSION 3.9.3
+22 October 2014
+Minor bug fixes and improvements:
+	•	SSL improvements, including SNI support
+	•	Bypass Domains in Proxy Settings supports wildcards on domains again
+	•	Charles automatically detects a headless environment and runs in headless mode (such as Linux command-line)
+Mac OS X improvements:
+	•	iOS Simulator SSL configuration: Charles can now install its SSL CA certificate into your iOS Simulators (in the Help menu)
+	•	Mac OS X Yosemite support
+	•	1Password 5 support (Charles configures the bypass proxy settings to avoid conflicting with 1Password's browser extension)
+VERSION 3.9.2
+26 May 2014
+Minor bug fixes and improvements:
+	•	Mac OS X: improve menubar show/hide behaviour, menubar icon improvements, improved 1Password detection
+	•	Configuration fixes for Protobuf and others
+	•	Map Remote bug fixed when mapping https to http
+VERSION 3.9.1
+5 May 2014
+Minor bug fixes and improvements:
+	•	Retina toolbar icons on Mac OS X no longer go rogue when disabled or pressed
+	•	Full-screen support on Mac OS X
+	•	Menu bar item / System tray item improvements
+VERSION 3.9
+25 April 2014
+Major new features and improvements:
+	•	Focus; focus on hosts that you're most interested in, and they'll be separated out in the structure view
+	•	Structure view highlighting to show where requests and responses are being added
+	•	Gist publish; publish one or more request and response traces as a Gist
+	•	Charles menu bar item on Mac OS X (with option to disable in the Preferences)
+	•	Retina icons and graphics for Mac OS X (not quite all, but a lot!)
+	•	1Password 4 compatibility (fixes issue where 1Password shows a warning, and wouldn't fill passwords in a browser when Charles was running)
+	•	Webp support
+	•	Line wrapping support in the Raw viewer
+	•	Improved sorting in the Structure view (Can sort by name and revert to original ordering)
+	•	Rewrite rules; add case-sensitive option
+	•	Full-screen support on Mac OS X
+Bug fixes
+	•	Character set detection fixed so unicode characters (and others) will be correctly displayed.
+	•	CSS viewer fixed so that CSS files with windows ('\r\n') line endings and a multi-line comment can be displayed.
+	•	Fix corrupt saved or exported files.
+	•	Stripped the query string from the automatically generated filenames in the Save Response to avoid creating file names with illegal characters.
+	•	Sequence view filter is now applied (if one exists) when switching from Tall to Wide view or vice versa.
+	•	Changes made in the Protobuf Text editor would be lost if the user switched to another editor tab.
+	•	Malformed HTTP requests would show in the Charles Sequence and Structure views as 'null:0'.
+	•	Requests where the path of the request is unknown (such as unproxied SSL connections) are now shown as '<unknown>' rather than '<default>' in the Structure view.
+	•	Fixed incorrectly formatted date/times that were shown in some summary and overview tables when Charles was configured to display times with millisecond precision.
+	•	The popup dialog that allows inspection of long content in some table columns would not be available if the table columns were rearranged to a different order.
+	•	Socket closed exception on kept-alive sockets now correctly detected as a failed keep-alive and retried. Addresses a fault when using the Rewrite tool with response body rewriting.
+VERSION 3.8.3
+23 October 2013
+Minor bug fixes and improvements:
+	•	Support for Mac OS X Mavericks: prevents Charles from being starved of CPU resources by App Nap.
+	•	Headless mode fixed (no longer exits immediately on some platforms), and the preference setting to activate Throttling on startup will be respected.
+	•	-throttling command-line switch added to activate Throttling on startup.
+VERSION 3.8.2
+21 October 2013
+Minor bug fixes:
+	•	SSL bad_record_mac errors with some SSL servers have been resolved
+	•	Fix loading saved .chls files from old Charles versions
+VERSION 3.8.1
+9 September 2013
+Minor bug fixes and improvements:
+	•	Blacklist tool fixed (wouldn't activate)
+	•	CSV export: fix failure when exporting incomplete requests
+	•	Import/Export Settings: tidy naming and alert copy
+	•	Tooltips on the Recording button, Throttling button, and similar, now reflect the current state
+VERSION 3.8
+4 September 2013
+Major new features and improvements:
+	•	Viewer mappings: specific locations may be mapped to viewer types, this enables specific viewers to be used, such as when the content isn't identified correctly (also Protocol Buffer mappings can be defined)
+	•	CSS viewer and editor added which formats minified CSS content for display
+	•	XML Text viewer now supports tag folding
+	•	Sort by name in structure view: now sorts by hostname rather than protocol and hostname.
+	•	Rewrite tool: allow rewriting of response status
+	•	Import and export Charles settings
+	•	Mac OS X Mavericks support
+Bug fixes and minor changes:
+	•	Fixed the misleading handling of path patterns that don't start with '/', these paths will now automatically have a leading '/' prepended as all paths always start with '/'
+	•	Fixed authorization header editing
+	•	Fixed bug that caused error message dialogs to be hidden behind main Charles window when the 'Window Always On Top' option was enabled
+	•	Fix SSL certificate cache collision bug
+	•	JSON viewer: remove quotes from around strings. It was noisy.
+	•	HAR export timings now correct and validate.
+VERSION 3.7
+12 February 2013
+Major new features and improvements:
+	•	Charles now bundles Java on Windows and Mac OS X so you do not need to have Java installed before using Charles
+	•	Mac OS X: Charles is now signed so you can launch it without warning on Mountain Lion. Also the look & feel on Mountain Lion has been improved
+	•	DNS lookup, TCP connection, and SSL negotiation timing information is now measured and reported
+	•	Keep-alive status for each request is now reported, so you can see whether a request was part of a kept-alive channel
+	•	Protocol Buffer support, see the documentation.
+Bug fixes:
+	•	ACL warning no longer blocks all traffic
+	•	Comparing transactions sometimes resulted in incorrectly repeated content
+	•	Reverse proxy now correctly sets the Host header in the case of default ports
+	•	Other minor bug fixes and improvements
+VERSION 3.6.5
+8 December 2011
+Major bug fixes:
+	•	Java 1.7 now supported. Corrects slow startup and hung responses bugs.
+	•	Java 1.7 bad certificate error workaround for sites that use now disabled algorithms (ie. MD2withRSA)
+	•	Windows: Fix launching Charles by opening a file
+	•	SSL empty requests regression from 3.6.4 fixed
+	•	SSL now records the correct remote address details
+	•	SSL errors now more consistently displayed in the browser
+	•	Authentication header viewer can now recover from slightly oddly formatted headers
+	•	Closed connections regression from 3.6.4 fixed
+Other changes:
+	•	Double-clicking a request no longer switches Structure and Sequence view. I did this too many times accidentally. The contextual menu now has an option to switch.
+VERSION 3.6.4
+15 November 2011
+Major enhancements:
+	•	Linux support greatly improved, including an APT repository for installing Charles, integration into Gnome window manager and an application icon.
+Minor enhancements:
+	•	JSON-RPC support now includes named parameters support
+	•	CSV export includes more information
+	•	AMF viewer, contextual menu includes copy to clipboard and base 64 decode.
+	•	Mac OS X UI improvements: including save dialog improvements (no longer save into the parent)
+	•	Firefox add-on now supports Firefox 9 beta
+	•	Add "Always bypass external proxies for localhost" option to external proxies configuration, defaults to on to maintain existing behaviour.
+HAR import/export bug fixes and enhancements:
+	•	Missing data handling
+	•	Charles specific status and exception information included for better export/import round-tripping
+	•	Non-name-value POST bodies supported
+	•	Date format compatibility
+	•	Better error messages in the case of unsupported HAR imports
+	•	Blank header handling
+PCAP import bug fixes and enhancements:
+	•	Now works again.
+	•	Correctly import keep-alive responses
+	•	Display imported requests in the correct order
+Major bug fixes:
+	•	Fix launch race condition that could result in a blank screen on startup
+	•	Fix apparent hang on startup at Configuring Proxies on Linux
+	•	Fix potential deadlock when using Breakpoints
+	•	Mac OS X: fix problems on 10.6.8 with automatically configuring proxies
+Minor bug fixes:
+	•	Toolbar tools menu: remove tools that don't support toggling
+	•	Fix bug when opening some HTTP trace files
+	•	Fix bug handling zipped boddies on some Java versions
+VERSION 3.6.3
+5 September 2011
+Minor bug fixes:
+	•	Mac OS X Lion: fix regression in 3.6.2 on Lion UI for tab panes
+VERSION 3.6.2
+5 September 2011
+Major bug fixes:
+	•	High CPU usage on Mac OS X resolved
+	•	Msvcr100.dll not found error on Windows resolved
+Minor bug fixes:
+	•	SAZ file import: close SAZ files after importing so they can be used, moved or renamed by another process
+	•	Firefox integration reports success more accurately and links to the correct download URL if automatic installation fails.
+Minor enhancements:
+	•	Recording Settings - include and exclude lists are now sorted
+	•	Windows installer now allows the user to choose the install location 
+VERSION 3.6.1
+24 August 2011
+Minor enhancements:
+	•	512x512 icons on Mac OS X and 256x256 icons on Windows 7
+	•	Firefox 7 add-on update
+	•	Added an alert displaying the local OS IP address to the Help menu
+	•	Map Local tool now adds a note to requests that fail to map local as the expected local resource doesn't exist
+Bug fixes:
+	•	Fiddler / SAZ import fixed and improved
+	•	Fix hang on start up at "Starting proxies..." on some configurations
+	•	Improved multipart body viewer detection of multipart/form-data bodies
+VERSION 3.6
+18 August 2011
+New features:
+	•	HAR file import and export
+	•	Fiddler session (SAZ files) import
+	•	Mac OS X 10.7 support improved
+Enhancements:
+	•	Rewrite tool URL rewrite now allows query strings to be created
+	•	Mirror tool, filename length limit increased
+	•	Firefox add-on detection improved for newer Firefox versions
+Bug fixes:
+	•	Authentication viewer bug fix
+	•	Fault on startup due to invalid data in RewriteConfiguration
+	•	Map Remote bug where Set-Cookie headers set a domain with a port of -1 
+VERSION 3.5.2
+17 August 2010
+Bug fixes and minor enhancements.
+	•	Include response status in filtering for sequence view
+	•	Fix bug in table views for multipart responses
+	•	Fix SSL certificate bugs in Internet Explorer
+	•	Fix bug when using a custom CA cert that needs a password on startup
+	•	Fix bug in reverse proxy not rewriting redirects over SSL
+	•	Add "Use External Proxy Servers" toggle in Windows tray icon menu
+	•	Fix Base64 decode popup positioning over text areas
+	•	Fix multi-monitor positioning of the Charles window
+	•	Fix bug where on Mac OS X the "Grant Privileges" prompt would repeat endlessly
+	•	Fix POST support when authenticating with external proxy servers
+	•	Add Multipart request editor
+	•	Add Authentication request editor
+	•	Add OAuth authentication header support
+VERSION 3.5.1
+1 January 2010
+Minor bug fixes.
+	•	Repeat advanced tool: fix bug which caused it to stop prematurely after a number of requests
+	•	Auto save tool: fix bug where "Enable on startup" didn't work
+VERSION 3.5
+23 December 2009
+Major new features, performance enhancements and bug fixes.
+New features:
+	•	Import .pcap files captured by WireShark, tcpdump etc
+	•	Transparent HTTP proxying – activated in the Proxy Settings, so you can connect to Charles as if it was any web server and it will connect to the remote host based on the Host header. This means you can transparently redirect HTTP traffic through Charles using firewall rules.
+	•	NTLM (NT LAN Manager) authentication for external proxies now supported in the External Proxies configuration
+	•	JavaScript syntax highlighting
+	•	JSON syntax highlighting
+	•	Base 64 decode right-click option for text areas
+	•	GUI improvements for Mac OS X and Windows, especially Windows 7
+Performance enhancements:
+	•	Improve network performance by using tcpNoDelay
+	•	Memory usage problems on large downloads fixed
+Bug fixes and enhancements:
+	•	Validation tool now validates CSS to CSS3
+	•	Character encoding of XML responses is now detected based on the ?xml encoding="" ? header or defaults to UTF-8.
+	•	Ignore action in the contextual menu now works across multiple hosts
+	•	Repeat tool now respects throttling settings
+	•	Repeat, Edit, Validate added to the Tools menu. A shortcut key has been added for Repeat.
+	•	Sequence filter now also filters on the Info column
+	•	Sequence filter waits for you to stop typing before filtering, improves the performance when filtering large lists
+	•	Sequence auto scroll now automatically disables if you click off the last request, and re-enables when you click back onto the last request.
+	•	External Proxy Settings: bypass domains now supports wildcards
+	•	External Proxy Settings: don't pass localhost requests to the external proxy
+	•	Request / response viewers: improve automatic choosing of viewers
+	•	Mac OS X code-signing to solve issue with strict firewall setting
+	•	AMF editing bug fix for error when changing the type of a property to a string
+	•	Throttling bug fix for throttling when using an external proxy server
+	•	Repeat bug fix for repeating when using an external proxy server
+	•	Fix erroneous recording of chunked post request size as 2GB.
+	•	Fix the Host header on SSL connections made through a reverse proxy
+	•	Fix SSL Proxying for SSL connections through reverse proxy
+	•	VERSION 3.4.1
+	•	17 October 2009
+	•	Minor feature and bug fix update.
+	•	Breakpoints: Bug fix on request body editing, this now works again
+	•	Location forms: pasting a full URL into the Host field parses it into the appropriate fields again, and better than before
+	•	Location forms: warn when invalid characters are entered into fields
+	•	Recording settings > Include: if this list contains entries but all disabled it will be treated as if it were empty and everything will be recorded
+	•	VERSION 3.4
+	•	27 September 2009
+	•	Major changes and new features. SSL proxying has been changed to be opt-in per site, rather than on for all sites by default. This is to reduce user problems with Charles's SSL certificates. Charles also uses a new SSL CA certificate.
+	•	Please note that the Charles config file in version 3.4 is not backwards compatible. Charles makes a backup of the 3.3.1 config file when you first start Charles 3.4 in case you need to downgrade.
+	•	SSL Proxying
+	◦	Added an explicit list of locations for which SSL proxying will be enabled. You can add to this list by right-clicking on host names in the Structure view.
+	◦	Support for client SSL certificates for authentication. See the Client SSL Certificates option in the Proxy menu.
+	◦	Setting to use your own SSL CA certificate for Charles to use (PKCS12 format)
+	◦	Charles's generated SSL certificates can now be permanently trusted in the browser, as an alternative to trusting the CA certificate
+	◦	Mac OS X Leopard and Snow Leopard SSL certificate fixes
+	•	Recording settings
+	◦	Separate include and exclude lists, for people who exclusively want to record specific sites in Charles
+	•	Location matching
+	◦	Location matching now supports query strings
+	◦	Location path matching no longer implicitly adds a * after the final /, so you can more accurately match paths. Existing patterns will be ported on upgrade.
+	•	Content viewers
+	◦	XML text view performance improvements using a new layout engine
+	◦	Syntax highlighted HTML
+	◦	Line numbers can now be used in combination with word wrap
+	◦	Diff request/responses. Including experimental tree-diff support for XML and AMF etc.
+	•	AMF / Flex
+	◦	Improved error messages in the event of invalid data
+	◦	AMF3 over HTTP support
+	◦	AMF editor – change the type of a property
+	◦	AMF3 support added for LiveCycle DS externalizable classes
+	◦	Improved display of Flex method calls in transaction info
+	•	Tools
+	◦	Rewrite tool: Add to the response Notes field to describe the Rewrite rules that have been applied
+	◦	Rewrite tool: can now add to empty query strings
+	◦	Map Local & Map Remote in the contextual menu
+	•	Mac OS X
+	◦	Mac OS X Snow Leopard look and feel improvements
+	•	Mozilla Firefox
+	◦	Auto-install Firefox add-on
+	•	Bug fixes
+	◦	Fix hang with certain Nvidia graphics cards
+	◦	Find results sorting
+	◦	Fix lsof and netstat runaway processes in Client Process tool
+	•	Minor enhancements
+	◦	Add -config command line switch to specify config file location
+	◦	Support for ; as an alternative for & in query strings
+	◦	WinHTTP proxy settings autoconfiguration
+	◦	Web Interface improvements – now export & clear sessions, enable/disable any tool
+	◦	Record how long it takes to send the request – improves latency calculation on uploads
+	◦	Brief details of each response are shown in the Structure view tree
+	◦	Headless support using -headless command-line switch
+	•	VERSION 3.3.1
+	•	7 March 2009
+	•	Minor new features and bug fixes. Experimental 64 bit Windows support.
+	•	Windows 64 bit support: Now with a separate 64 bit download to work with 64 bit JVMs
+	•	Mirror tool now no longer turns itself off when you restart Charles
+	•	Settings dialogs are now resizable
+	•	UI preference for display font now applies in more places, removed from some inappropriate places
+	•	Windows system tray icon – added more controls
+	•	Add "Copy URLs" option to request contextual menus to copy all of the request URLs
+	•	Add Raw editor to Edit & Repeat and Breakpoints
+	•	Add Breakpoints toggle button to toolbar and system tray icon on Windows
+	•	Bug fix: Copy and paste from tree+table views
+	•	Bug fix: Map Local rules that fail to find a suitable local file now try next matching rule
+	•	VERSION 3.3
+	•	15 February 2009
+	•	Major new features and bug fixes.
+	•	New Features
+	◦	HTML, CSS & RSS/Atom Validation
+	◦	Export recorded sessions as XML
+	◦	Auto Save tool can now use any export format
+	◦	JSONP support
+	◦	"Window Always On Top" setting in Preferences
+	◦	Summary view table sorting improved to sort numerically and in reverse order
+	◦	Map Remote can now map HTTP to HTTPS (vice versa already worked)
+	◦	Location matching: Add /$ so that you can specify a pattern that matches only the given path, no files or subpaths.
+	•	Bug Fixes
+	◦	Fix edit request bug where the path couldn't be changed
+	◦	Improve handling of errors in Repeat & Edit
+	◦	Improve SSL Map Remote support for non-existent source domains or non-existent source SSL servers.
+	◦	SOCKS as external proxy bug fix
+	◦	JSON viewer bug fixes
+	◦	Window now remembers maximised state
+	•	VERSION 3.2.3
+	•	23 September 2008
+	•	Minor new features and bug fixes.
+	•	SSL certificates generated as part of the SSL decryption are now version 3 (if appropriate) and include certificate extensions
+	•	Breakpoints: Can now edit the first line of the response headers, including the response code
+	•	Upgrade 3rd party libraries
+	•	Fix preference update bugs introduced in 3.2.2
+	•	VERSION 3.2.2
+	•	6 September 2008
+	•	Minor new features and bug fixes
+	•	Fix Decrypt SSL through Reverse Proxy
+	•	Fix Session memory leak when sessions were closed but not garbage collected
+	•	Remember whether you view sessions in Structure or Sequence mode
+	•	Fix display of CDATA in XML Text view
+	•	Reverse Proxies & Port Forwarding now support binding to a specific local address
+	•	Fix keyboard expand/collapse in JTreeTable views
+	•	Large file support (> 2GB)
+	•	Location matching fix so that *s behave more consistently matching 0 or more chars
+	•	AMF header view/edit fix
+	•	AMF3 reference bug fix
+	•	VERSION 3.2.1
+	•	17 April 2008
+	•	Minor new features and bug fixes
+	•	AMF3 date references parse bug fix
+	•	AMF3 XML support improved
+	•	AMF3 BlazeDS acknowledgement message parsing fix
+	•	AMF editing: Dates & Booleans can now be edited
+	•	Editor now automatically updates Host header value if URL host changes
+	•	Breakpoints: add scheme to breakpoints
+	•	Proxy bug causing slow Flex (in particular) application performance fixed
+	•	Map Remote mapping now more consistent – slight behaviour change, can now map file to file.
+	•	Map Local can now map onto a single file (if you write in the destination path manually).
+	•	VERSION 3.2
+	•	23 March 2008
+	•	Major new features.
+	•	New features
+	◦	Breakpoints
+	◦	Throttling tool with individual throttle configurations per host and asymmetric throttling
+	◦	Help pages added to most Tools, more to follow
+	◦	Adobe BlaseDS support
+	◦	Auto Save tool – auto saves timestamped session files for long-term monitoring and testing
+	◦	New .chls file suffix and OS integration for opening Charles when you open a .chls file
+	◦	Open .amf, .amf0 and .amf3 dump files directly in Charles
+	◦	Open any file directly in Charles and view it as if it had been downloaded
+	◦	Import multiple session files into one
+	◦	Single-instance on Windows – only one copy of Charles can be running at a time
+	•	Enhancements
+	◦	Tools with lists of locations can now enable/disable individual locations as well as the entire tool
+	◦	AMF3 streaming over HTTP support
+	◦	Hotkey on Windows to bring Charles to the front – Windows key C
+	◦	Header viewer now pretty printed
+	◦	SWF viewer shows total size of all fonts
+	◦	Raw view added, shows the raw HTTP request or response
+	◦	Map Local tool with case-sensitivity switch
+	◦	SSL performance enhancements
+	◦	Preference option to display seconds or milliseconds and bytes/second or bits/second
+	•	Bug fixes
+	◦	Fix SSL with Decrypt SSL off over transparent SOCKS proxy
+	◦	AMF3 integer encoding bug
+	◦	Fix HTTP 100 continue bug where headers weren't cleared
+	◦	and more
+	•	VERSION 3.1.4
+	•	19 December 2007
+	•	Bug fixes and minor new features.
+	•	Rewrite Tool: Fix partial matches in rewrite value.
+	•	SOAP viewer: Improve detection of SOAP messages for clients who don't set the content-type properly (eg. Flash), and add resolution of references so SOAP display is now much improved.
+	•	AMF3: Raw AMF3 object parsing support now added for content-type application/x-amf3-object
+	•	Map Local: Add support for encoded URLs such as those with %20 in the path; these are now correctly converted before looking for the path/file on disc.
+	•	UI: Column states are now remember on all tables in the UI, so you can now resize and rearrange to suit your preferences.
+	•	VERSION 3.1.3
+	•	12 November 2007
+	•	Minor bug fixes, minor new features.
+	•	Chart tab now includes charts for sizes, durations and types
+	•	Request & Response can now be displayed combined on one split-panel (in Preferences)
+	•	SSL handshake and certificate errors are now displayed in the tree
+	•	Default single-response recording limit increased to 100MB
+	•	Fixed Modal dialog lost-focus bug
+	•	Fixed Mac OS X proxy configuration hang occurred on some systems
+	•	Fix cookie parsing bug with last cookie attribute
+	•	Add Unicode BOM parsing capability
+	•	Change default text viewer tab size to 4 spaces from 8 spaces
+	•	Map tool now changes the request port if the protocol is changed
+	•	Version checker now reports OS and Java version for statistical purposes
+	•	VERSION 3.1.2
+	•	29 August 2007
+	•	Minor bug fixes.
+	•	Fix tool and settings dialog sizing
+	•	Fix fault in Summary and Chart views for non-HTTP requests
+	•	Improved file popups for Map Local and Save All
+	•	Fix Recording settings bug where max requests can't be turned off
+	•	ICO and BMP viewers now work on Java 1.4
+	•	VERSION 3.1.1
+	•	27 August 2007
+	•	Minor bug fixes.
+	•	AMF3 serialization fix (when used with edit function)
+	•	Proxy settings revert back to HTTP when SOCKS proxy disabled
+	•	Activating tools from request popup menu now correctly activated Selected Hosts mode if required
+	•	VERSION 3.1
+	•	13 August 2007
+	•	Major new features. Please note this version drops support for Java 1.3.
+	•	User Interface
+	◦	Dialog form layouts rewritten to unify layouts and show correct layout cross-platform (thanks to MigLayout)
+	◦	Add "Minimise to System Tray" option in Preferences on Windows
+	◦	Memory usage indicator now an option in Preferences
+	•	SSL
+	◦	Map and Map Local tools now supported with SSL
+	◦	New SSL root certificate with increased key sizes
+	•	Viewers
+	◦	ICO support
+	◦	BMP support
+	◦	AMF tree now shows references inline to improve readability
+	◦	AMF3 bug fix and improvements
+	◦	Improved detection of resource types (using filename if mime-type unavailable)
+	•	Web Interface for controlling Charles added (Proxy menu)
+	•	SOCKS transparent proxying
+	•	Miscellaneous
+	◦	Pattern matching can now include protocol (eg. http/https)
+	◦	Tray icon now includes Start/Stop Recording and Throttling
+	•	Bug fixes
+	◦	System proxy settings correctly reverted on Windows shutdown
+	◦	Quit cleanly when another instance of Charles already running
+	•	VERSION 3.0.4
+	•	22 May 2007
+	•	Minor bug fixes
+	•	SSL proxying bug on Java 1.4 fixed (was introduced in 3.0.3)
+	•	VERSION 3.0.3 RE-RELEASE
+	•	Fixes launch bug on computers that haven't used Charles before
+	•	VERSION 3.0.3
+	•	12 May 2007
+	•	Various improvements and minor bug fixes
+	•	Repeat and Edit functions now support SSL
+	•	SSL certificates now more closely match the actual server certificate
+	•	Chart now shows requests that are still in progress
+	•	Client Process tool added, to show which application is responsible for each request
+	•	DNS Spoofing now works through External Proxy servers
+	•	AMF viewer: double-click to resolve a reference restored
+	•	ASCII viewer renamed to Text
+	•	Port numbers are now shown, if appropriate, in the Sequence and Summary views
+	•	Map Local mime-type handling improved for server-side scripting pages and unknown file types
+	•	Rewrite tool with body rules now doesn't mangle binaries
+	•	SSL latency now properly reported
+	•	SSL latency bug for kept-alive connections fixed
+	•	Mozilla Firefox configuration bug fixed when profile directory couldn't be found
+	•	Mozilla Firefox profile directory can now be detected correctly on Java 1.4 on non-English Windows systems
+	•	Windows tray-icon functionality restored
+	•	Windows proxy settings are now only set for HTTP and SSL as Charles doesn't support FTP proxying
+	•	Windows configuration file moved to workaround Vista permissions issue
+	•	Windows installer removes Start option to workaround Vista user elevation issue
+	•	VERSION 3.0.2
+	•	23 April 2007
+	•	Minor bug fixes and improvements
+	•	Copy to Clipboard: inconsistent image copying fixed
+	•	Microsoft Proxy Server as external proxy: bug with HTTPS connections fixed (thanks to Frans for his help debugging this)
+	•	DNS Spoofing and Map tools conflict resolved
+	•	JSON mime types now includes application/x-json
+	•	Windows: Installer UI changed
+	•	Windows: Launcher now supports IBM JRE
+	•	Mac OS X: Download now just includes the application
+	•	Mac OS X: Charles Proxy Settings helper now shows the Charles icon
+	•	Mac OS X: Upgrade to Quaqua 3.7.7, improves file chooser dialogs
+	•	VERSION 3.0.1
+	•	28 March 2007
+	•	Minor bug fixes
+	•	The new JDIC tray icon code caused crashes on some Windows computers. The tray icon has been removed while a fix for this is investigated.
+	•	AMF Detail view parsing bug fixed
+	•	VERSION 3.0
+	•	23 March 2007
+	•	Major new features and improvements
+	•	Editing and repeating of requests, including editing of AMF / Flash Remoting requests
+	•	Repeat multiple requests and Repeat Advanced for performance testing
+	•	Chart view of loading timeline
+	•	Local mapping tool to facilitate local development: use local files as if they are part of a website
+	•	Remote mapping tool to use parts of one website as if they were part of another
+	•	User Interface enhancements
+	•	Also changed and improved:
+	•	Summary table user interface: icons added, separate host name column added
+	•	Firefox 2 CSS: images loaded from CSS files have the CSS as their referer; now included in the summary of resources loaded for a page
+	•	Win32 launcher changed to provide Charles with its own task bar entry and Charles.exe in process list
+	•	Win32 application icon added to task bar and task switcher
+	•	No Caching tool now respects existing cache-control headers and adds stronger cache-control headers to bust caching
+	•	SWF viewer shows font information
+	•	Copy to Clipboard expanded to copy text and images
+	•	"General" tab improvements to include more information, including more summary data and compression statistics
+	•	and many other minor bug fixes and improvements
+	•	VERSION 2.6.4
+	•	27 February 2007
+	•	Minor bug fixes
+	•	IBM JDK compatibility fix (thanks to Lance for reporting the issue)
+	•	Improved malformed Referer header handling (thanks to Kalle Ravn)
+	•	Improved compatibility with some webservers that would sometimes not work through Charles (thanks to Kalle Ravn)
+	•	VERSION 2.6.3
+	•	17 February 2007
+	•	Minor bug fixes
+	•	Fixed Port Forwarding fault introduced in v2.6.2
+	•	VERSION 2.6.2
+	•	1 February 2007
+	•	Major improvements and bug fixes
+	•	No more recording limits. Large responses are now saved to temporary files, reducing memory usage.
+	•	Viewer state including open/closed tree nodes and scroll bar position are now remembered for each request, making it easier to switch between two requests and compare results.
+	•	Throttling controller changed to respect an MTU setting in an attempt to reduce the fragmenting of packets. Thanks to Rich Riendeau for reporting the fragmentation problem and collaborating on the solution.
+	•	AMF3 / Flex2 / Flash Remoting
+	◦	Class definition deserialization fix
+	◦	Multiple responses for a single request now supported
+	◦	Array references fix
+	◦	thanks to Patrick Mineault for reporting these bugs.
+	•	Multipart body viewer now supports quoted boundary headers, as seen in Safari bug reports
+	•	Authentication header viewer added to show details of Basic and Digest authentication
+	•	JSON viewer performance increase and support for requests/responses containing just an array
+	•	Session Export exports transactions in sequence order
+	•	Repeat request now auto-selects the repeated transaction in the tree
+	•	Double-click switch between sequence and structure views restored
+	•	UI library upgrades; Quaqua to 3.7, JGoodies Looks to 2.1.2
+	•	JDK 1.3 compatibility restored
+	•	VERSION 2.6.1
+	•	2 December 2006
+	•	Minor bug fixes and improvements
+	•	SOAP information visible while response is still loading
+	•	AMF3 externalizable object parsing regression fixed
+	•	AMF view for AMF3/Flex messages simplified to hide Flex implementation details
+	•	VERSION 2.6
+	•	27 November 2006
+	•	Major improvements and bug fixes
+	•	Major UI overhaul, including the use of Quaqua and JGoodies libraries to improve the native look and feel on Mac OS X and Windows respectively.
+	•	Internal windows removed and replaced by a tab navigation if multiple sessions are open.
+	•	Sequence view now uses a table when in Wide layout, to show a quick summary of important attributes.
+	•	XML tree display. View XML documents in a tree format as well as the existing pretty-printed text format.
+	•	XML pretty-printed text format improved to not load DTDs.
+	•	JSON and JSON-RPC support.
+	•	SOAP support.
+	•	AMF3 parsing improvements.
+	•	AMF parser now displays during the response download and shows download progress.
+	•	Fixed nil dereference in Mac OS X proxy configuration in some configurations.
+	•	Rewrite Tool body rules now support non-type mime types and improved debugging output.
+	•	VERSION 2.5
+	•	20 September 2006
+	•	Major improvements and bug fixes
+	•	AMF / Flash Remoting
+	◦	Recover from malformed UTF-8 in AMF parsing, and still display string
+	◦	Added AMF summary in addition to AMF detail, to view AMF data as an RPC
+	•	New and changed Viewers for different file types
+	◦	FLV viewer
+	◦	Header viewers, including cookies and query string
+	◦	Multipart body viewers
+	◦	Show image dimensions in image viewer
+	•	User Interface
+	◦	Fixed UI deadlocks
+	◦	File choosers unified so current directory is consistent
+	◦	Repeat option in event contextual menu to repeat the request
+	◦	Option to allow host directly from ACL alert dialog
+	◦	Can remove events from the tree (using delete key or contextual menu)
+	◦	Allow selecting multiple nodes in trees and view summary stats
+	◦	Fix JTreeTable handle clicking behaviour on Mac OS X
+	◦	Keyboard short cuts to activate the different tabs in the session frame
+	◦	Improved layout of tables: column widths are now smarter
+	◦	Changes to calculation of download speeds and show more information on general tab
+	◦	Improvements to behaviour of internal frames wrt closing, reopening and being maximised or not
+	◦	Save All option on path/host/multiple selections
+	◦	Sequence view filtering improvements: regex options and max rows
+	◦	New dimmed icon for requests that are still loading
+	•	General
+	◦	Added support for SEARCH webdav method and any future different methods / schemes
+	◦	Reduced memory usage
+	◦	Increased maximum memory size from 64MB to 256MB
+	◦	Added Recording limits option to record only the last X events
+	◦	Host matching now supports full glob wildcards and optional port matching
+	◦	Fix Client closed connection reporting for large response bodies.
+	◦	Reverse proxy options extended. Preserve host header now works. Rewrite redirects now an option. Rewrite redirect now uses original Host header instead of guessing correct URL.
+	◦	Rewrite filter refactored – now continues using set for a request even if the hostname has been rewritten by that set and no longer matches.
+	•	Browser Integration
+	◦	Fix Firefox installation detection if having to use manual profile configuration
+	◦	Windows proxy settings now changed for all network connections rather than just local LAN (ie. now includes dial up and VPN)
+	•	NTLM Authentication
+	◦	Improved support for NTLM proxy (as opposed to website) authentication
+	◦	NTLM using HTTP 1.0 support
+	◦	External NTLM proxy authentication for SSL
+	•	VERSION 2.4.2
+	•	1 June 2006
+	•	Minor improvements and bug fixes
+	•	Support for request body compression (used by web services)
+	•	Fix for parsing of AMFPHP responses
+	•	Improvements to AMF viewer, including a new Parseable Binary recording limit setting (in Recording Settings) so Charles doesn't truncate large responses.
+	•	VERSION 2.4.1
+	•	6 May 2006
+	•	Minor improvements and bug fixes
+	•	Firefox extension improved – should now find all Firefox installations regardless of where they are located. The extension now adds a Charles option to the Tools menu that displays the current status. Thanks to Kathryn Aaker for helping test these improvements.
+	•	AMF 0 and AMF 3 parsing improved – including AMF 3 undefined type, AMF 3 integer parsing improvements
+	•	Look and Feel changes to give a greater (and more consistent) range of font sizes in the Charles look and feel
+	•	SSL error reporting improved when a connection cannot be made to a remote host
+	•	Port Forwarding tool and Reverse Proxy tool re-bind exception fixed
+	•	VERSION 2.4
+	•	26 April 2006
+	•	Major new features, improvements and bug fixes
+	•	AMF 3 support (thanks to Kevin Langdon for his work on the AMF 3 spec)
+	•	SSL support for IBM JDK (thanks to Lance Bader for helping solve this)
+	•	Automatic Update Checking
+	•	Documentation wiki open to public
+	•	Fixes for JDK 1.3 support
+	•	Better reporting of XML parse errors (showing the line number and column of the error)
+	•	Fix Serializable problem for External Proxy configuration
+	•	Miscellaneous bug fixes and improvements
+	•	VERSION 2.3
+	•	25 March 2006
+	•	Major improvements and bug fixes
+	•	Proxy implementation improvements including better handling of keep-alive connections
+	•	SOCKS proxy added, so any SOCKSified application can now run through Charles
+	•	External proxies configuration improvements including authentication
+	•	Autoconfiguration of system proxy settings resets "Don't Use Proxy For These Addresses"
+	•	Latency displayed for each request
+	•	Added Filter to sequence view
+	•	Added Tray Icon on Windows
+	•	Added Rewrite rule options: Match whole value, Replace first / Replace all
+	•	Flash Remoting / AMF viewer improvements
+	•	Dynamic proxy port support, for multiuser systems
+	•	VERSION 2.2.1
+	•	5 November 2005
+	•	Minor improvements and bug fixes
+	•	Changed wording of browser configuration menu items and settings panel for clarity
+	•	UDP forwarding support added to Port Forwarding tool
+	•	Port Forwarding tool now supports port ranges rather than just individual ports
+	•	Reverse proxy tool now records traffic correctly in the session
+	•	Firefox extension improved for non-English Windows and general stability improvements
+	•	Fixed NPE when loaded configuration on Java 1.3
+	•	AMF parser now tolerates invalid body count which previously caused an EOFException
+	•	VERSION 2.2
+	•	5 October 2005
+	•	Major improvements and bug fixes
+	•	Image responses now scroll if the image is larger than the frame size
+	•	Show line numbers in ASCIIBodyViewer (UI preference)
+	•	Line wrap preference – only works when show line numbers is off
+	•	XML viewer now recognises more mime types as XML: text/xml and application/xml
+	•	XML viewer caches DTDs so rendering speed when using DTDs is greatly increased
+	•	XML viewer now shows comments and DOCTYPE definitions
+	•	XML viewer formatting / layout improved
+	•	XML viewer can now resolve relative DTD urls
+	•	XML viewer now tolerates white space before <?xml declaration
+	•	More accurate mime type reading when choosing which body viewers to show
+	•	Session frame layout now horizontal or vertical
+	•	Frame divider locations remembered
+	•	Fix for left over data after the response body if a tool that decompressed the response body was on
+	•	Linux startup script improved – charles.config stored in home dir
+	•	Rewrite tool non-regex value matches are now partial matches rather than whole matches
+	•	Improved error messages to browser in cases of unsupported protocols etc
+	•	Proxy configuration menu items and preferences naming improved
+	•	Firefox configuration now works on non-english Windows OS (JDK 1.5+)
+	•	Firefox configuration improved for restoring proxy settings to normal (especially after restart of FF)
+	•	Firefox setting status in Charles updated by any manual changes in FF
+	•	Bug fix – kept-alive connections didn't disconnect if DNS information has changed, such as turning on/off DNS Spoofing tool
+	•	Bug fix – URL rewrite now rewrites port as well
+	•	Bug fix – port forwarding data wasn't shown in session viewer
