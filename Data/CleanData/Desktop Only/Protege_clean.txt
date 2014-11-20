@@ -1,0 +1,1913 @@
+﻿Protege 4.3 Release -- April 15, 2013
+Bug Fixes
+Fixed a bug in the code generator that in some cases caused deletion of a user's home directory. Java code generation is accessible from Tools | Generate Protege-OWL Java Code.
+
+
+Protege 4.2 Release -- March 18, 2013
+Release Notes
+
+This section describes changes relative to Protege 4.1
+Enhancements
+Bundling the new OWL Diff plug-in for calculating the differences between two versions of an ontology. OWL Diff is loosely based on the PROMPT plug-in for Protege 3.x. Check out our YouTube video for an overview of OWL Diff usage.
+Support for executing SPARQL queries from the user interface. Enable the "SPARQL Query Tab" from Window | Tabs, or the "SPARQL query" view from Window | Views | Ontology views.
+Introduced a new explanation plug-in in addition to the basic explanation plug-in provided in previous releases. The new explanation plug-in, referred to as "Justification Based Explanation", will generate multiple explanations for a single inference, will sort the explanation to be more readable, and can generate laconic explanations (laconic justifications). The plug-in can also generate explanations for inconsistent ontologies (previous releases only included an ad-hoc tool, which in some cases was unable to find any explanation for a problem).
+Added support for Java code generation. Available from Tools | Generate Protege-OWL Java Code.
+Launching the Protege application now opens an empty ontology instead of a welcome screen. This is part of a broader effort to align Protege's behavior with common document editing tools, e.g., opening Microsoft Word presents users with a blank document.
+Improved the user interface for the Active Ontology tab so that the ontology name and version are much more prominent, thereby encouraging users to set versions when appropriate.
+Deprecated entities now get rendered with strikethroughs.
+Made some improvements to the "Ontology annotations" view to more clearly indicate language and type information. Also fixed a problem that caused text overlap.
+The button for editing annotations on axioms now gets highlighted in orange when an axiom has annotations, thus making it easier to notice.
+Modified the annotation editor so that it remembers which tab was last selected.
+Added a Stop reasoner menu item to allow users to stop a reasoner (Reasoner | Stop reasoner). Previously, the best method of stopping a reasoner was to select a different default reasoner type.
+Interrupting a reasoner now works properly with two provisos: 1) some reasoners will not respond to an interrupt, which is a reasoner problem that we can't fix, and 2) after the interrupt, Protege will continue to use the reasoner. This will be dealt with in a future version of Protege.
+Changed the default configuration of the Individuals tab in response to some comments on the mailing list. The previous configuration could be confusing because all the views of the collection of individuals were filtered by the selected class.
+Centralized and improved the handling of vacuous inferred results. Previously, several inferred views would be cluttered with a large number of trivial results. Now this clutter has been somewhat trimmed and the trimming is applied consistently across the user interface.
+It is now possible for users to download and/or update plug-ins even when the Protege distribution is read-only. If the auto update mechanism can't write to Protege's plugin subdirectory, it falls back to writing to a user directory. This mainly effects Windows users who install to the Program Files directory, but it's also important for Linux administrators who create a shared Protege installation for multiple users.
+Protege no longer requires administrative privileges to run on Windows machines.
+Bundling an updated version of the Apache Felix Framework (version 4.0.1). Previous versions were problematic for Java 7 users. Please note that we don't officially support Java 7 yet.
+Bundling a new version of the HermiT OWL Reasoner (1.3.6).
+Bug Fixes
+Fixed a problem with the installer that was preventing users from being able to perform silent uninstalls.
+The rename multiple entities tool (Refactor | Rename multiple entities...) no longer has problems renaming URIs that include characters with special meanings for a regular expression search.
+Fixed a bug that prevented the datatype panel on the entities tab from getting refreshed properly.
+Fixed a problem with selection after an annotation property is refactored (thanks go to András Förhécz for contributing the fix).
+Fixed several bugs in the Refactor | Copy/move/delete axioms... menu.
+Fixed a bug that caused the Usage view to fail with a NullPointerException if it was displayed before an entity of the appropriate type was selected. For example, if a user opened an ontology and selected the class usage view before selecting a class, the view would fail. The view could then only be restored by resetting the UI or restarting Protege.
+Fixed a problem with new entity preferences where it was possible for the generated fragment to use an auto-generated ID, but the label provided by the user was not used.
+Fixed a bug where the Object/Data restriction creator sometimes failed to allow valid input.
+Fixed the Add to ontology button in the DL Query tab.
+Fixed two bugs in the OWLViz visualization plug-in that caused NumberFormat and TokenMgrError exceptions, and prevented OWLViz from working with the latest version of Graphviz (2.30).
+Fixed several bugs in the OntoGraf visualization plug-in that caused ClassCastExceptions.
+Fixed a bug in the ontology repository mechanism that caused some valid XML catalog files to be rejected.
+Fixed a bug that caused the save operation to add extra axioms from imported to importing ontologies.
+Fixed a bug where automatically generated IDs would get incremented on each keystroke when users created new entities.
+Fixed a long-standing bug where Protege would freeze while trying to generate a new ID for an entity.
+Fixed a bug in the Bookmarks plug-in that caused it to fail immediately upon being activated in the user interface. The Bookmarks plug-in is available for download via the auto update mechanism (File | Check for plugins... | Downloads | Bookmark View).
+Fixed a bug in the OWLDoc plug-in where clicking on the Show Source button caused a NullPointerException. The OWLDoc plug-in is available for download via the auto update mechanism (File | Check for plugins... | Downloads | OWLDoc).
+Fixed a bug that could cause Protege to crash during start-up.
+
+
+Protege 4.2 Release Candidate 1 -- February 21, 2013
+Release Notes
+Added a graph query capability to the SPARQL query engine.
+Fixed a bug in the code generator to check for individuals that already exist.
+This build was generated with a new version of our installer software (InstallAnywhere), which now supports Windows 8.
+
+
+Protege 4.2 Beta
+Release Notes
+The contents of the release notes section describe changes relative to Protege 4.1 and Protege 4.2 alpha.
+Build 284 -- November 13, 2012
+The SPARQL Query tab now has better compatibility with SPARQL 1.1 (we upgraded to the latest Sesame libraries).
+Fixed several bugs in the Refactor | Copy/move/delete axioms... menu.
+Build 278 -- July 12, 2012
+Fixed a bug that caused the Usage view to fail with a NullPointerException if it was displayed before an entity of the appropriate type was selected. For example, if a user opened an ontology and selected the class usage view before selecting a class, the view would fail. The view could then only be restored by resetting the UI or restarting Protege.
+The rename multiple entities tool (Refactor | Rename multiple entities...) no longer has problems renaming URIs that include characters with special meanings for a regular expression search.
+Interrupting a reasoner now works properly with two provisos. First, some reasoners will not respond to an interrupt. This is a reasoner problem and we can't fix that. Second, after the interrupt, Protege will continue to use the reasoner. This will be dealt with in the next version of Protege.
+Added a Stop reasoner menu item to allow users to stop a reasoner (Reasoner | Stop reasoner). Previously, the best method of stopping a reasoner was to select a different default reasoner type.
+Changed the default configuration of the Individuals tab in response to some comments on the p4-feedback mailing list. The previous configuration could be confusing because all the views of the collection of individuals were filtered by the selected class.
+Centralized and improved the handling of vacuous inferred results. Previously, several inferred views would be cluttered with a large number of trivial results. Now this clutter has been somewhat trimmed and the trimming is applied consistently across the user interface.
+Fixed a problem with new entity preferences where it was possible for the generated fragment to use an auto-generated ID, but the label provided by the user was not used.
+Fixed a bug where the Object/Data restriction creator sometimes failed to allow valid input.
+Fixed the Add to ontology button in the DL Query tab.
+Build 276 -- May 21, 2012
+Fixed a bug in the OWLViz visualization plug-in that caused NumberFormatExceptions.
+Build 274 -- May 18, 2012
+Fixed several bugs in the OntoGraf visualization plug-in that caused ClassCastExceptions.
+Build 273 -- May 11, 2012
+It is now possible for users to download and/or update plug-ins even when the Protege distribution is read-only. If the auto update mechanism can't write to Protege's plugin subdirectory, it falls back to writing to a user directory. This mainly effects Windows users who install to the Program Files directory, but it's also important for Linux administrators who create a shared Protege installation for multiple users.
+Modified the annotation editor so that it remembers which tab was last selected.
+Deprecated entities now get rendered with strikethroughs.
+The button for editing annotations on axioms now gets highlighted in orange when an axiom has annotations, thus making it easier to notice.
+Fixed a bug in the ontology repository mechanism that caused some valid XML catalog files to be rejected.
+Fixed a bug that caused the save operation to add extra axioms from imported to importing ontologies.
+Fixed a bug where automatically generated IDs would get incremented on each keystroke when users created new entities.
+Fixed a long-standing bug where Protege would freeze while trying to generate a new ID for an entity.
+Fixed a bug in the Bookmarks plug-in that caused it to fail immediately upon being activated in the user interface. The Bookmarks plug-in is available for download via the auto update mechanism (File | Check for plugins... | Downloads | Bookmark View).
+Fixed a bug in the OWLDoc plug-in where clicking on the Show Source button caused a NullPointerException. The OWLDoc plug-in is available for download via the auto update mechanism (File | Check for plugins... | Downloads | OWLDoc).
+Build 269 -- March 21, 2012
+Introduced a new explanation plug-in in addition to the existing basic explanation plug-in provided in previous releases. The new explanation plug-in, referred to as "Justification Based Explanation", will generate multiple explanations for a single inference, will sort the explanation to be more readable, and can generate laconic explanations (laconic justifications). The plug-in can also generate explanations for inconsistent ontologies (previous releases only included an ad-hoc tool, which in some cases was unable to find any explanation for a problem).
+Fixed a bug that could cause Protege to crash during start-up.
+Build 265 -- March 14, 2012
+Improved the user interface for the Active Ontology tab so that the ontology name and version are much more prominent, thereby encouraging users to set versions when appropriate.
+Launching the Protege application now opens an empty ontology instead of a welcome screen. This is part of a broader effort to align Protege's behavior with common document editing tools, e.g., opening Microsoft Word presents users with a blank document.
+Added support for Java code generation. Available from Tools | Generate Protege-OWL Java Code.
+Protege no longer requires administrative privileges to run on Windows machines. Please note the exception that downloading new plug-ins will still require Protege to be run in administrative mode.
+
+
+
+Protege 4.2 Alpha
+Release Notes
+The contents of the release notes section describe changes relative to Protege 4.1.
+Build 256 -- January 20, 2012
+The default installation now includes support for executing SPARQL queries from the user interface. Enable the "SPARQL Query Tab" from Window | Tabs, or the "SPARQL Query" view from Window | Views | Ontology views.
+Made some improvements to the "Ontology annotations" view to more clearly indicate language and type information. Also fixed a problem that caused text overlap.
+Bundling an updated version of the Apache Felix Framework (version 4.0.1). Previous versions were problematic for Java 7 users. Please note that we don't officially support Java 7 yet.
+Fixed a problem with the installer that was preventing users from being able to perform silent uninstalls.
+Build 249 -- October 4, 2011
+Bundling initial release of OWL Diff; a new plug-in to calculate the differences between two versions of an ontology. OWL Diff is loosely based on the PROMPT plug-in for Protege 3.x. Please refer to Tim Redmond's YouTube video for an overview of OWL Diff usage.
+Bundling a new version of the HermiT OWL Reasoner (1.3.5).
+Fixed a bug that prevented the datatype panel on the entities tab from getting refreshed properly.
+Fixed a problem involving the selection of classes and individuals.
+Fixed a problem with selection after an annotation property is refactored (thanks go to András Förhécz for contributing the fix).
+
+
+Protege 4.1 Release -- July 26, 2011
+Complete Release Notes
+This section describe changes relative to Protege 4.0.2.
+Enhancements
+Bundling the new OntoGraf visualization plug-in with the default installation. OntoGraf is accessible as a tab via the Window | Tabs menu, or as a view via the Window | Views | Class views menu. Thanks go to Sean Falconer for this contribution.
+Protege's ontology repository mechanism is now implemented according to the XML Catalogs specification from the OASIS open standards group.
+Added a basic explanation feature. Many inferred assertions now have a clickable question mark icon nearby, which will display a simple explanation dialog.
+The manner in which reasoners are started was simplified. Selecting the reasoner and choosing to classify the ontology are now divided into separate steps. New reasoner preferences were also added, including fine-grained control of what classification steps take place during a classify operation.
+Bundling an updated version of the OWL API (3.2.3).
+Simplified and consolidated some of the menu items in the main menu bar.
+Made rendering preferences much quicker to access via the new "View" menu, e.g., View | Render by name, View | Render by label.
+Axiom annotations are now displayed in axiom tooltips.
+Added support for the disjoint union axiom.
+When parsing errors occur, Protege closes all file handles. Users of the Windows platform can now edit malformed ontologies in external applications, then reload the ontologies in Protege without having to close the Protege application. This already worked on other non-Windows platforms.
+Dublin Core annotation properties are no longer included by default in new ontologies. If users want Dublin Core annotation properties, we recommend you import protege-dc.owl.
+Modified the user interface of the dialog for creating/editing annotations to disable the "Lang" combo box if a type other than plain literal is selected.
+Users can now enter inverse object properties when adding object property disjoint or equivalent axioms.
+After a user runs a reasoner, Protege will now display inferred same individuals and disjoint classes. The display of inferred disjoint classes is turned off by default.
+If a user edits a general class axiom (GCI) in the "General class axioms" view in such a way that it became a regular class axiom, Protege will present a dialog after completion of the edit to notify the user that the GCI is now a regular class axiom and will be displayed in the appropriate view (not the GCIs view).
+Assertions that an individual has a certain type can now be deleted from the class description panel for said type.
+The asserted and inferred class hierarchies are now synchronized for class selection.
+The class members list view is now aware of imports.
+Protege now lets you specify the prefixes that are used in an ontology.
+Protege now uses a recursive search starting at the working directory to find on-disk versions of ontologies to import.
+Provided new user interface mechanisms to give users the ability to edit ontology repositories from within Protege.
+Added explanation support for the DLQuery plug-in.
+It is now possible to add annotation values that are IRIs that do not correspond to any known entity.
+The merge ontologies functionality no longer includes the merged ontologies as imports.
+Modified the installer program to add a new item to the program group on Windows called "Protege (advanced start)". Clicking on this program group item will launch Protege using the "run.bat" file in the root directory of the Protege installation.
+Bug Fixes
+Axiom annotations are no longer lost when an axiom is changed.
+Fixed a NullPointerException that occurred when using the imports wizard to import anonymous ontologies.
+Fixed a problem where the create class hierarchy tool (Tools | Create class hierarchy...) did not respect the preference that new entities should be created with a particular URI.
+Made qualified name rendering consistent when a user moves between ontologies in a workspace. This is done by calculating a merged prefix name to prefix map for the entire workspace that doesn't change when switching active ontologies.
+Declarations are no longer copied from imported ontologies to importing ontologies on save.
+Fixed a bug that allowed Protege to create empty disjoint/equivalent axioms. These axioms asserted that a class, object property, or data property was disjoint or equivalent to something, but no other entity was mentioned. A similar problem existed for same and distinct individuals.
+Fixed the misspelling of the NMTOKEN data type.
+Removed extra owl:topObjectProperty and owl:topDatatypeProperty super-property when creating new properties.
+Fixed a relative URL problem that prevented users from moving an ontology repository (in the form of a catalog.xml file) from one directory or machine to another.
+Fixed a rarely occurring bug where files with international character sets were not being correctly saved.
+Made several improvements and fixes to the process of exporting inferred axioms, including a progress monitor, improved performance of the inferred disjoint classes, and better management of the OWL reasoner.
+Fixed a problem where Protege was making the facet value for a data restriction, e.g., int[>= 3], have the string type rather than the appropriate type, which caused trouble with reasoner plug-ins.
+The application startup process was significantly improved. Previously, some users were getting exceptions when they started multiple instances of Protege, and had problems when running different versions of Protege at the same time.
+Fixed a bug that caused new users to have their font inadvertently set by the renderer preferences panel.
+Imports of anonymous ontologies no longer fail.
+Fixed a serious data loss bug that occurred when users double-clicked on OWL files to open in Protege.
+Fixed an issue with the rendering preferences that was making it difficult to see ontologies rendered with rdfs:label.
+Fixed a bug that caused the list of active ontologies to be incomplete in some cases.
+Fixed a bug that prevented SWRL built-ins with variable numbers of arguments from being used.
+Fixed a bug that in some cases caused a case-insensitive search to be case-sensitive.
+Fixed a problem with the installer that caused empty program groups on Windows 7.
+Fixed a problem that prevented the uninstaller from working properly on 64-bit Windows 7 machines.
+Fixed a problem with the installer program that caused broken application bundle files on the Mac OS.
+Made a small configuration change to fix a serious performance problem with the OS X application bundle.
+
+
+Protege 4.1 Release Candidate 5 -- July 5, 2011
+Release Notes
+Deprecated classes and properties are now shown with the deprecated icon in their respective hierarchy trees.
+Fixed a problem where the default font for Protege was calculated incorrectly on OS X machines when users changed their rendering preferences.
+Made the property change editor bigger and gave it a scrollbar to facilitate easier editing of long property chains.
+Fixed a bug where the reasoner would be out of sync with the ontology, but could not be synchronized by choosing Reasoner | Synchronize reasoner.
+Resetting Protege preferences from the Welcome screen now prompts the user to restart Protege (so that residual settings present in the JVM don't interfere with a clean reset).
+The top object/data properties can now be used in the restriction editors.
+If entity rendering preferences are set to render by qualified name, Protege will now show the long names of entities if no prefix is specified. This allows users to add prefixes until all entities have unambiguous names.
+Render by label is now the default rendering.
+
+
+Protege 4.1 Release Candidate 4 -- May 23, 2011
+Release Notes
+Users now have the option to enter raw URLs or prefixed names when creating OWL entities (in any of the entity creation dialogs, check the "Ignore entity creation preferences" check box). We anticipate this will most commonly be used when providing the name of an entity from another ontology that is not imported.
+Removed the ability to delete topObjectProperty and topDataProperty.
+Removed the ability to assign property characteristics, e.g., Functional, Inverse Functional, etc., when no properties are selected, which fixed a null pointer exception.
+The Datatypes view now shows data types for the active ontology and will update its contents when the active ontology is changed.
+Added the capability for the start of sequential numeric Auto IDs to be saved between Protege sessions (check the "Remember last id between Protege sessions" check box in the Auto ID section of the File | Preferences... New Entities tab).
+Fixed refresh problems with the Members list on the Individuals tab.
+
+
+
+Protege 4.1 Release Candidate 3 -- May 17, 2011
+Release Notes
+Restored the ability for a user-defined repository location to persist across sessions and installs. Customize repository location via File | Preferences... | Plugins.
+Improved the algorithm for resolving ontology imports. For more detail, please see item #3212 in our bug tracker.
+
+
+Protege 4.1 Release Candidate 2 -- May 10, 2011
+Release Notes
+Fixed a problem where classes in an RDF file with only an rdf:Class declaration were not being seen by Protege.
+Fixed a problem where the Cancel button for a reasoner initialization was being ignored.
+
+
+Protege 4.1 Release Candidate 1 -- April 27, 2011
+Release Notes
+Fixed a problem where some ontologies were slow to load due to internal checks that ontologies could be found at particular URLs.
+After classifying an inconsistent ontology, Protege now displays a dialog with an experimental explanation facility.
+Added better language defaults for first time Protege users.
+Added the ability to reset Protege preferences or check for plug-ins from the "Welcome to Protege" splash screen (available from More actions... | Reset Protege Preferences, More actions... | Check For Plugins).
+Fixed a problem where dragging a class to itself in the class hierarchy removed the class's parent.
+Fixed an out of range exception that sometimes occurred when editing class expressions such as equivalent or superclasses of a class.
+Fixed a refresh problem where the property hierarchy was not getting updated when properties were deleted.
+
+
+Protege 4.1 Beta
+Release Notes
+The contents of the release notes section describe changes relative to Protege 4.0.2 and Protege 4.1 alpha.
+Build 220 -- March 11, 2011
+Bundling an updated version of the OWL API, which fixes some issues that caused data loss when users tried to load malformed ontologies in Protege. Many thanks to Matthew Horridge for this new version of the API.
+When parsing errors occur, Protege closes all file handles. Users of the Windows platform can now edit malformed ontologies in external applications, then reload the ontologies in Protege without having to close the Protege application. This already worked on other non-Windows platforms.
+Fixed a NullPointerException that occurred when using the imports wizard to import anonymous ontologies.
+Build 218 -- February 25, 2011
+Implemented a small change to make saving OWL ontologies more robust.
+It is now possible to add annotation values that are IRIs that do not correspond to any known entity.
+Made a small configuration change to fix a serious performance problem with the OS X application bundle.
+Build 217 -- February 18, 2011
+Please note that the Manchester OWL Syntax is now discouraged as a format for saving the entire ontology as certain axioms cannot be represented in this format and are lost during save operations.
+Enhancements
+Upgraded Protege to use version 3.2.2 of the OWL API.
+Added support to the OntoGraf visualization plug-in to export the current visible graph into a DOT language format file. Thanks go to Sean Falconer for this contribution.
+Simplified and consolidated some of the menu items in the main menu bar.
+Made rendering preferences much quicker to access via the new "View" menu, e.g., View | Render by name, View | Render by label.
+Axiom annotations are now displayed in axiom tooltips.
+Added support for the disjoint union axiom.
+Dublin Core annotation properties are no longer included by default in new ontologies. If users want Dublin Core annotation properties, we recommend you import protege-dc.owl.
+Modified the user interface of the dialog for creating/editing annotations to disable the "Lang" combo box if a type other than plain literal is selected.
+Users can now enter inverse object properties when adding object property disjoint or equivalent axioms.
+After a user runs a reasoner, Protege will now display inferred same individuals and disjoint classes. The display of inferred disjoint classes is turned off by default.
+Added an explanation facility for why classes are disjoint.
+In previous builds, if a user edited a general class axiom (GCI) in the "General class axioms" view in such a way that it became a regular class axiom, the resulting regular class axiom disappeared from the GCIs view. This mistakenly gave the impression that the edit to the GCI was unsuccessful. Going forward, Protege will present a dialog after completion of an edit to notify the user that the GCI is now a regular class axiom and will be displayed in the appropriate view (not the GCIs view).
+Bug Fixes
+Axiom annotations are no longer lost when an axiom is changed.
+Fixed a problem where the create class hierarchy tool (Tools | Create class hierarchy...) did not respect the preference that new entities should be created with a particular URI.
+Made qualified name rendering consistent when a user moves between ontologies in a workspace. This is done by calculating a merged prefix name to prefix map for the entire workspace that doesn't change when switching active ontologies.
+Declarations are no longer copied from imported ontologies to importing ontologies on save.
+Fixed a bug that allowed Protege to create empty disjoint/equivalent axioms. These axioms asserted that a class, object property, or data property was disjoint or equivalent to something, but no other entity was mentioned. A similar problem existed for same and distinct individuals.
+Fixed the ontology reload feature.
+Fixed a problem with the OS X application bundle format, which prevented it from loading on some platforms.
+Build 213 -- October 26, 2010
+Fixed a rarely occurring bug where files with international character sets were not being correctly saved.
+Made several improvements and fixes to the process of exporting inferred axioms, including a progress monitor, improved performance of the inferred disjoint classes, and better management of the OWL reasoner.
+Fixed a problem where Protege was making the facet value for a data restriction, e.g., int[>= 3], have the string type rather than the appropriate type, which caused trouble with reasoner plug-ins.
+The import mechanism now searches recursively through folders for imports by default.
+Provided new UIs to give users the ability to edit ontology repositories from within Protege.
+Fixed a relative URL problem that prevented users from moving an ontology repository (in the form of a catalog.xml file) from one directory or machine to another.
+Added explanation support for the DLQuery plug-in.
+Bundling a new version of the HermiT reasoner (1.3.1).
+Fixed the misspelling of the NMTOKEN data type.
+Removed extra owl:topObjectProperty and owl:topDatatypeProperty super-property when creating new properties.
+The merge ontologies functionality no longer includes the merged ontologies as imports.
+Build 209 -- September 3, 2010
+A new version of the OWL API (3.1.0) was released with several improvements and bug fixes. We've updated Protege to be in line with this latest release. Unfortunately, this transition introduced some incompatibilities for plug-in developers. We don't anticipate that these incompatibilities will be too difficult to resolve.
+Added a basic explanation feature. Many inferred assertions will have a question mark icon nearby. Click on the icon and a simple explanation dialog appears.
+The manner in which reasoners are started has been simplified. The usage model is a bit different than in previous versions of Protege 4, which may take some getting used to. Selecting the reasoner and choosing to classify the ontology are now divided into separate steps. New reasoner preferences have also been added, including fine-grained control of what classification steps take place during a classify operation.
+The Protege startup process has been significantly improved. Previously, some users were getting exceptions when they started multiple instances of Protege, and had problems when running different versions of Protege at the same time.
+Protege now lets you specify the prefixes that are used in an ontology.
+Protege now uses a recursive search starting at the working directory to find on-disk versions of ontologies to import.
+Fixed a bug that caused new users to have their font inadvertently set by the renderer preferences panel.
+The inferred class hierarchy now synchronizes with other views.
+The class members list view is now aware of imports.
+Imports of anonymous ontologies no longer fail.
+Build 206 -- July 30, 2010
+Fixed a problem with the platform-independent installer program that caused broken application bundle files on the Mac OS.
+The asserted and inferred class hierarchies are now synchronized for class selection.
+Build 203 -- June 28, 2010
+Fixed a serious data loss bug that occurred when users double-clicked on OWL files to open in Protege.
+Fixed some bugs in the refactor menu.
+Fixed an issue with the rendering preferences that was making it difficult to see ontologies rendered with rdfs:label.
+Bundling a new version of HermiT (1.2.4), which has the following bug fixes:
+bottomObjectProperty encoding corrected
+blocking cache cached inactive nodes under single blocking
+correct INF/-INF parsing for doubles
+no empty node sets in case the next node in the property hierarchy has only inverses
+improved property instance retrieval
+new disjunction ordering strategy
+negative object property assertion encoding no longer requires nominals
+command line outputs full IRIs instead of abbreviated ones with HermiT's prefixes
+apply changes in non-buffering mode only when needed for a query
+data values are stored also with their lexical form
+new data property classification
+Build 200 -- June 16, 2010
+Users now have more control over the ontology repository mechanism (XML Catalog). In order to grant more user control, we had to rename ontology repositories from catalog.xml to catalog-v001.xml. All automatic updates of this file by Protege, e.g., scans of directories to determine possible imports, are now optional.
+The OntoGraf visualization plug-in is now bundled with the default installation. OntoGraf is accessible as a tab via the Tabs menu, or as a view via the Views | Class views menu. Thanks go to Sean Falconer for this contribution.
+Fixed a bug that caused the list of active ontologies to be incomplete in some cases.
+Fixed a bug that prevented SWRL built-ins with variable numbers of arguments from being used.
+Assertions that an individual has a certain type can now be deleted from the class description panel for said type.
+Fixed a bug that in some cases caused a case-insensitive search to be case-sensitive.
+Fixed a problem with the platform independent installer that caused empty program groups on Windows 7.
+Fixed a problem that prevented the uninstaller from working properly on 64-bit Windows 7 machines.
+Modified the platform independent installer program to add a new item to the program group on Windows called "Protege (advanced start)". Clicking on this program group item will launch Protege using the "run.bat" file in the root directory of the Protege installation.
+
+Protege 4.1 Alpha
+Release Notes
+Build 102 -- March 19, 2010
+This build includes a fix for a serious bug with all save dialogs that can cause ontologies to be overwritten. We strongly suggest that all users upgrade to this build.
+Also in this build:
+Fixed the update mechanism so that in the future the type of problem listed above could be fixed with an update.  :)
+Added some reasoner preferences that allow the user to have fine grained control over what reasoning Protege performs.
+Corrected some errors in the displayed inferences.
+Restored the old Mac open and save dialogs.
+Fixed the shortcut for the performing a classification on the Mac.
+
+Build 100 -- March 4, 2010
+Initial alpha release.
+
+
+Protege 4.0.2 Patch Release -- December 3, 2009
+Release Notes
+Fixed several import issues that were causing Protege to reject valid imports.
+Fixed a bug that prevented Protege from starting if an ontology with a bad URI was in the "Open recent" ontologies list.
+Fixed a bug that caused poor performance when loading large ontologies, e.g., the OpenCyc ontology.
+The Protege installer now supports 64-bit Windows, 64-bit Linux, and Windows 7.
+
+
+Protege 4.0.1 Patch Release -- October 28, 2009
+Release Notes
+Removed the ability to choose an output format (e.g., OWL/XML, OWL Functional Syntax, etc.) when saving an ontology. Protege 4.0.1 only supports the RDF/XML format. The reason for this change is that we discovered that all the other formats have problems that will not be resolved until we move to version 3 of the OWL API. We plan to move to version 3 in an alpha release of Protege 4.1, which will be out shortly.
+Fixed a problem that prevented proper importing of certain ontologies (e.g., time, protege.owl, protege-dc.owl).
+Updated the underlying Eclipse engine so that it will report machine architectures more accurately (this is significant for the FaCT++ reasoner).
+Users are now given a reload option if Protege encounters a syntax error while trying to load an ontology. This allows users to attempt to correct the problem and try again.
+
+
+Protege 4.0 Release -- June 16, 2009
+Release Highlights
+Protege-OWL editor built on top of the open source OWL API
+Support for OWL 2
+Direct, in-memory connection to Pellet and FaCT++ reasoners
+Support for editing multiple ontologies
+Creation, import, and export of user configurable tabs
+... and much more! Please refer to our overview of the Protege 4.0 feature set.
+
+
+
+Protege 4.0 Beta Series Release Notes
+The contents of this page describe changes relative to Protege 3.4.
+
+
+Build 111 -- April 23, 2009
+
+Bug Fixes in Protege-OWL
+Fixed a bug that caused an exception when saving an ontology to a non-existent directory.
+
+
+Build 110 -- April 14, 2009
+
+Enhancements in Protege-OWL
+A basic SWRL expression editor is now functional. Please be aware that only RDF/XML is recommended for saving ontologies containing rules.
+Temp files are now used when saving files. If exceptions are thrown, your original file will not be overwritten.
+Refactoring support for disjoints (pairwise <–> allDisjoint).
+Convert URIs to labels: new options allow the user control over where annotations are placed.
+
+Bug fixes in Protege-OWL
+Change entity URI(s): does not work with entities containing escapes in their URI.
+Import from file: gets the ontology URI wrong (uses the xml base instead).
+Move axioms: finish can be pressed when no target ontology selected.
+Open from URI: should not accept unless URI specified.
+Expression editor: expression cache doesn't update on switching active ontology.
+Edit | Create etc actions do not work correctly - label generation could be ignored.
+New classes are always asserted to be subclasses of owl:Thing if nothing else suggested.
+Disjoint properties: cannot add multiple disjoints.
+Axiom annotations: cannot roundtrip in RDF/XML.
+OWLAPI RDF/XML renderer: allDisjointClasses/rules with axiom annotation incorrect.
+Button "OK" in "Asserted class hierarchy" tab for property domain/range editor is disabled the first time the window is opened.
+SWRL: A(?x) ^ B(?x) -> C(?x) does not get parsed correctly.
+Editors in class creation dialog are in random order.
+
+
+Build 109 -- February 27, 2009
+
+Enhancements in Protege-OWL
+A URI preview is now shown in the new entity creation dialog.
+Tabs in the OWL class description editor dialog are now plugins. More information is available on the wiki.
+
+Bug fixes in Protege-OWL
+Fixed several bugs in the expression editor:
+"Literal" is now correctly translated into rdfs:Literal instead of xml:Literal.
+Underlining of syntax errors has been corrected.
+Completion of multi-word entities should work even after a space.
+Fixed a bug where the autocomplete popup was not showing on some Windows/Java combinations.
+Autocomplete works even if nothing has been typed.
+Properties are now properly removed from the hierarchy when they are deleted.
+Warnings are now shown when duplicate multiword names are entered during new entity creation.
+Bundling an updated version of FaCT++ (1.2.2), which contains a fix for missing inferred property assertions.
+Encoding of output is now utf8 in OWLDoc.
+
+
+Build 108 -- January 22, 2009
+
+Bug fixes in Protege-OWL
+Fixed a bug where the inferred class hierarchy was being closed (and thus selection lost) on reclassify.
+The autoupdate download functionality now works for Linux users.
+Fixed a bug where all tabs fail to initialize if a plug-in with no ID is loaded.
+Fixed a problem with the InstallAnywhere installer that prevented the file.encoding system property from being properly set on the Mac OS.
+
+
+Build 107 -- January 9, 2009
+
+Enhancements in Protege-OWL
+A Beanshell plug-in is now available that allows users to write scripts to interact with the model/user interface from within Protege-OWL.
+A Manchester syntax view is now available (shows the current selected entity), which is good for easy cut and paste into emails.
+Refactor | Copy/move/delete axioms... has been revisited such that you can select axioms by profile, e.g., EL++, and it is also now pluggable.
+There is a new Individuals by inferred type view.
+Load errors for some formats now provide more help with line numbers and allow you to view the sources.
+It is now possible to save as OBO 1.2 flat file format. This feature should be used with care. In particular:
+Not everything in OWL can be represented in OBO format. Warnings are currently only reported to the console so please have this open when using this feature.
+This was written using incomplete OBO documentation. We expect bugs and omissions and are interested in user feedback, so please try it and let us know what you think.
+There are several OWLViz updates:
+Some global preferences have been moved into the File | Preferences | OWLViz menu.
+Tracking view: OWLViz views (including plug-ins such as OWLPropViz) now allow a tracking mode which follows the current selection:
+You can select the default mode for all OWLViz views in File | Preferences | OWLViz.
+Some views allow you to turn this on/off locally using the view's Options button and selecting the Mode tab.
+"Track selection" means that the global selection will be followed in OWLViz, making it good for using it as a navigation tool.
+"Create graph manually" is the default behaviour, where you tell OWLViz which classes to show using the toolbar.
+Providing a radius tells OWLViz how many classes around the current selection you wish to see.
+Inferred view: nothing is only displayed as a subclass of Thing (no longer all classes making the view hard to read).
+Rename entity has been renamed (!) to "Change entity URI...".
+Change entity URI... allows you to select whether you wish to also rename puns.
+DL Query now provides result counts.
+Individuals by class view now gives membership counts.
+Custom tab layouts can now be removed.
+The changes plug-in has been updated to provide a simple axiom diff view to see the difference between two loaded ontologies. Note that this plug-in must be downloaded separately: http://code.google.com/p/co-ode-owl-plugins/wiki/ChangeView.
+
+Bug fixes in Protege-OWL
+Fixed a bug where an exception was raised if searching for datatypes.
+Fixed a bug where FaCT++ was not returning inferred domain and range information.
+Fixed a bug where an exception was being thrown when trying to accept auto-updates.
+Fixed a bug where it was possible to add multiple prefixes with the same name.
+Fixed a bug in the class hierarchy that was causing gaps to appear in the tree after drag and drop.
+Fixed a bug in the class hierarchy where selection failed in some circumstances.
+Individuals on the "Individuals by Class" tab are now sorted.
+dataOneOf now works in the expression editors.
+owl:Nothing and other unsatisfiable classes are now hidden in DL query results.
+owl:deprecated was added to standard annotation URIs.
+The export format can now be selected when saving inferred axioms.
+Local/web imports are now added to the recent locations list.
+
+
+Build 104 -- November 21, 2008
+
+Changes & bug fixes in Protege-OWL
+There is now an auto-update facility that can:
+Let you know when new versions of installed plug-ins are available
+Help you find and install plug-ins from within Protege-OWL
+More information is available on our wiki.
+There is now an inferred object property hierarchy view.
+The new entity preferences have been tidied up and you can now choose / instead of #. More information is available on our wiki.
+The search/find preferences have been renamed to "General" and also include a setting for the expression editor delay.
+Usage allows you to turn on/off certain filters.
+Property and individual views show more inferred information.
+Updates to FaCT++ allow us to get inferred properties of individuals and domains/ranges of properties. Please note that FaCT++ for 64-bit Linux has not yet been updated.
+Bundling an updated version of the OWL API to allow fixes for several bugs.
+Fixed a bug where the General Axioms editor autocompleted with unnecessary : characters.
+Fixed a bug where the usage view broke in the presence of GCIs.
+Fixed a bug where individuals with the same name were disappearing.
+Fixed a bug where reasoners kept running in the background even when cancel was pressed.
+Fixed a bug where autcomplete would not work for the fillers of QCRs.
+Fixed a bug where the ontology annotations were not correctly handled when merging ontologies.
+Fixed a bug where find would not switch to an appropriate tab to display the entity.
+Fixed a bug in "Rename entities..." where tickboxes were ignored.
+Web link menu items (like those in the Help menu) are now implemented as plugins. More information is available on our wiki.
+The explanation/debugger has been removed from the default installation and will be available as a separate plug-in(s).
+
+
+Build 103 -- October 15, 2008
+
+Changes & bug fixes in Protege-OWL
+Individual ontologies can now be unloaded via the "Ontology source locations" dialog box. To access the dialog, choose File | Loaded ontology sources. Right-click on ontologies you want to unload and select "Close ontology" from the context menu.
+Individuals by class view now reflects ontology changes.
+Fixed a bug where the annotation editor would return an empty language in certain circumstances.
+Fixed a bug where subclass axioms with a description on the LHS would cause anomalies in the asserted class hierarchy.
+Fixed a bug in some lists where the edit button caused deletion.
+Fixed a bug where deleted entities still showed up in the finder and the new entity dialog.
+Fixed a bug where the general axioms editor added a : after axiom keywords (SubClassOf, EquivalentTo, etc.)
+
+
+Build 102 -- September 30, 2008
+
+Enhancements in Protege-OWL
+File associations now work properly, i.e., users can start Protege-OWL by double-clicking on OWL files. Users of the OS X platform must perform an extra step for this to function - documentation for how to do this is available on the wiki.
+Axiom annotation is now possible. Documentation is available on the wiki.
+Expression editors now have memory. Expressions previously entered during the current session will be suggested as users type and will also be used for rendering.
+Ontology files that have changed outside of Protege-OWL will be detected and users will be asked if they wish to reload them.
+The restriction editor now has support for datatype restrictions.
+The create class/property/individual dialog has been overhauled to provide feedback. Warnings about duplicate names and invalid input are now given at entry time.
+Bookmarks are now available when importing from the web.
+Move axioms selection strategies are now plug-ins.
+Merging ontologies now attempts to remove redundant imports statements.
+When duplicating classes, a dialog now prompts the user if the new statements should go into the active ontology or in the same places as the originals.
+Bundled updated versions of the OWL API and FaCT++.
+
+Bug fixes in Protege-OWL
+Protege-OWL now shuts down correctly - all windows with unsaved work will prompt before allowing the application to exit (even with Command-Q on the Mac OS!).
+Windows users finally have an exit option in the file menu.
+Mac users will notice the application behaving more consistently:
+Preferences and About are both in the correct menu.
+The save indicator now appears in the close window button.
+Clicking on hyperlinks does not cause the annoying tab switch if the current tab is capable of displaying the linked object.
+The superclasses views have been fixed to sort out several update issues.
+Pellet only requires reclassification when logical axioms are changed - for example, adding annotations no longer requires reclassification for DL queries.
+Fixed several bugs in autocomplete:
+Popup would get stuck on screen and could not be removed.
+Highlighting parts of the editor text would cause problems.
+The top level datatype (Literal) was not available and other datatypes were not in the list.
+Default bookmarks for opening ontologies from a URI work correctly again.
+Opening from a URI now prompts the user to open in the current or new window (also, the default has changed to current window).
+Fixed a bug where collapsing tree nodes caused odd selection behaviour.
+Reasoner errors are now presented to the user directly (inconsistent ontologies/non-simple properties, etc.).
+Fixed a bug in OWLViz that prevented it from showing most international characters including Chinese and many others.
+
+
+Build 101 -- August 27, 2008
+
+The only change in this build is a fix for the ZIP file to install Protege. The name of the directory where Protege is installed still contained the text "alpha" instead of being updated to "beta" as it was in the platform independent installer program.
+
+If you installed Protege using InstallAnywhere, there is no need to upgrade to build 101.
+
+
+Build 100 -- August 22, 2008
+
+Changes & bug fixes in Protege-OWL
+The first time you install build 100, all preferences will be reset to their defaults. Sorry, but this was necessary to allow us to upgrade the way preferences are stored.
+Tab layouts are now stored with other preferences so that they will persist across installations.
+It is now possible to move all entity names captured in the URI to annotation labels. The URI fragments will be replaced with an Auto ID generated in accordance with your "New Entities" preferences. Try Refactor | Convert entity URIs to labels.
+Punning has been reinstated. Now, when creating new entities, the URI is checked against existing entities of the same type only.
+Fixed a bug preventing disjoint properties and some other axioms from appearing in the usage views.
+Multiple selection now works in the "loaded sources" page of the imports wizard.
+File | Open recent now asks if you want to open the desired ontology in the current frame or in a new frame.
+Tools | Create class hierarchy now takes into consideration the "New Entities" preferences.
+Links to Protege 4 documentation now appear in the Help menu for convenience.
+Fixed a bug where lists (particularly list of individuals) were not being rendered with the correct font.
+
+
+Protege 4.0 Alpha Series Release Notes
+
+The contents of this page describe changes relative to the Protege 3.3.1 release and the Protege 3.4 beta series.
+
+
+Build 66 -- August 4, 2008
+
+Bug fixes in Protege-OWL
+Fixed a bug introduced in a previous build that prevented users from seeing newly created properties if "Create label" is unchecked on the Preferences | New Entities tab.
+
+
+Build 65 -- August 1, 2008
+
+New features in the Protege-OWL editor
+Added finer control over the naming of new entities, including automatic ID generation. This is described in more detail on the wiki.
+Created a wizard to selectively move axioms (Refactor | Move axioms to ontology...). When multiple ontologies are loaded, there are several strategies to select sets of axioms that can then be moved from one ontology to another, e.g., move all disjoint axioms, move all axioms referencing a certain class or classes, move all labels, etc.
+Implemented an action that removes all of the disjoint axioms that reference subclasses of a selected class (Edit | Remove disjoints for subclasses...).
+Fixed and re-enabled the export of OWLViz diagrams to PNG and JPG.
+Changed the the default path to the dot executable for OWLViz on Mac OS X to correspond to the current distribution (/usr/local/graphviz-2.14/bin/dot).
+Implemented a timestamp for debugging, accessible from Window | Timestamp log/console.
+64-bit Linux support for FaCT++ has been added.
+
+Bug fixes for the Protege-OWL editor
+Fixed a bug that was causing DL queries to ignore changes in the ontology since the previous classification.
+Fixed multiple rebuilds of rendering caches (therefore speeding startup with large ontologies).
+The order of languages specified in the annotation renderer is now correctly respected.
+Optimized the painting of most views (using framelists - such as the Class Description) to speed up responsiveness.
+Corrected multiple bugs in the caches that caused old names for entities to be retained in searches/expression editors and views to ignore updates when the labels were changed (including the annoying bug in trees where the new name got cut off if it was longer than the old name).
+Inherited anonymous classes pick up defined classes correctly (i.e., now shown for equivalent class axioms on ancestors).
+Reasoner errors should be more visible to users now. In particular, Pellet now throws an exception if unsupported axioms are used in your ontology (rather than silently stripping these out).
+Search now finds anything starting with the search string, regardless of whether it is rendered with ' escapes (for names with spaces).
+It is now possible to cancel a close if ontologies are unsaved.
+Individual editors tidied up and now available for sameAs and differentFrom assertions.
+Editing of disjoint axioms is now possible (and with a multiselect tree or a comma separated list syntax, sets of classes/descriptions can be added).
+Work has been done to ensure consistency between expression editors so that they all use the same parsers.
+Multiple selection now reinstated for individuals (to allow deletion, etc.).
+Partially fixed a bug where OWLViz was failing to layout graphs when accented characters were used in the names of things. Support for Latin Extended A, Latin Extended B, and Korean characters was added. We would appreciate feedback as to which other character sets should be supported - in particular, if you are able to help us check that a particular set works, that would be very useful.
+Changes to the ontology libraries are now saved when OKed and ignored when cancelled.
+Selecting the location from which to load a new ontology no longer ignores the user input when a bookmark is selected.
+Fixed "duplicate class" dialog exceptions on cancel.
+Look & feel options on the command line are no longer ignored.
+Ontologies menu cleaned up (including correct updates on ontology name changes).
+A new version of the OWL API was bundled that fixes several Manchester OWL Syntax issues.
+
+
+Build 64 -- June 12, 2008
+
+Changes & Bug Fixes in Protege-OWL
+Added an "Ontologies" menu to facilitate the following:
+The active ontology can be chosen from the menu (as an alternative to the dropdown), making it more accessible.
+Provides different strategies for determining the active ontologies, i.e., the ontologies whose contents are visible in the editor and get sent to the reasoner. The default setting is "Show the imports closure of active ontology" as it always has been, but the user can also choose:
+Show only the active ontology (useful for checking that an ontology contains only the statements it should)
+Show all loaded ontologies (sometimes some ontologies are not in the imports graph)
+Active ontologies are now highlighted in the OWLViz imports graph. Double-clicking an ontology makes it the active ontology.
+New customizable tabs can be created and shared with other users. Select Tabs | Create new tab..., give it a name, and then add whichever views you want. When you select Tabs | Save current layout, or close Protege, the layout will be saved and available the next time the application is started. You can also distribute the layout by sending someone the configuration file. The file is located in the Protege installation directory under Data/View Configurations/ and will be named something like "viewconfig-custom-MyTab.xml". Just have your friends copy this into their Data/View Configurations/ directory and as long as they have the required view plug-ins, the tab will pop up as available in their Protege installation.
+Ontologies are now sorted in the imports wizard.
+The default heap size was increased to 200M.
+The Inferred Superclass view is now updated when a reasoner is selected or classification is performed.
+Named inferred equivalents now show up correctly in the Class Description view.
+Users will now get a warning message when trying to open an ontology with the same URI as the one already loaded (in the same window).
+Close windows behaviour was made more consistent.
+Drag and drop exception on Mac OS X finally destroyed. Yippee!!
+A bug that caused FaCT++ to continuously reclassify was fixed. This was occurring when FaCT++ threw an exception during classification and meant that subsequent calls to the reasoner caused reloading and reclassification. It was most noticeable in drastic slowdown of navigating the inferred hierarchy.
+Fixed a bug where FaCT++ didn't like disjoints containing one class.
+Bundling an updated version of the OWL API to include fixes for property chain syntax changes (OWL 2.0).
+
+
+Build 63 -- June 4, 2008
+
+Changes & Bug Fixes in Protege-OWL
+The "Usage" views can now be filtered (see File | Preferences | Usage) to remove disjoint and simple subclass axioms where the classes on both sides are named. This should make the views less cluttered. Filtering is off by default.
+All lists of ontologies have been tidied up to render more consistently (by short name) and are sorted to make finding the correct ontology easier.
+A refactoring action for converting min cardinality 1 restrictions to someValuesFrom restrictions is now available.
+Additional rendering preferences allow a combination of an annotation renderer, but with prefixes. This should help resolve ambiguity in the interface.
+Bundling an updated version of FaCT++ (the imminent 1.1.12 release) to solve several bugs, including min cardinality 0 and data facets on floats. This version of FaCT++ now also supports 64-bit editions of Windows.
+Bundling an updated version of the OWL API to solve several parser errors (particularly those with datatypes and properties).
+Right click menu on the class description view now functions correctly.
+Internationalization on dialog button labels now works.
+Pellet now updating on reclassify when ontology has changed.
+Property (role) chain parser now accepts more than 2 elements.
+Removed bug where axioms were getting crossed out.
+Floating views now show the selection correctly (previously they were blank).
+Proper screen refresh when closing views.
+Editor in general axioms view now partially implemented.
+Old views for which the "Cannot load" gray button of despair appears can now be closed.
+Annotations can now be copied when "duplicate selected class" is called.
+Editing the features of properties in the property description view now works for all sections.
+The search box does not magically disappear for those users lucky enough to have a tiny little screen.
+Equivalent classes now show in the class hierarchy.
+Ontologies that have been loaded from the Web can now be saved to disk (rather than the save being ignored).
+The individuals view now has tooltips for the full URI of the individual.
+Carriage returns (generated by Windows) are now correctly ignored in expression editors (such as DL Query).
+Canceling rename operations is now possible.
+When creating annotations, user are no longer limited to the languages hard-coded in the dropdown (which is now editable).
+Property trees are now sorted alphabetically for ease of navigation.
+(rdfs)Literal - the top datatype - is now accepted by the expression editor.
+Fixed a bug that prevented button icons from showing up in the OWLViz tab.
+
+
+Build 62 -- April 30, 2008
+
+Changes & Bug Fixes in Protege-OWL
+This build was generated with a new version of InstallAnywhere, which fixes an exception (java.lang.NumberFormatException: For input string: "0-b19") being thrown when users try to install and/or uninstall Protege.
+The name of the executable file for the Protege installer has been changed from "install_protege.exe" to "install_protege_4.exe". A number of people are using both Protege 3.4 and Protege 4 and asked that the installer executable for the different versions have different names.
+Bundling a new version of the OWL API (version 2.2.0), which fixes a parser crash when there are missing imports.
+Users now have the ability to render entities using an annotation value of their choice and may also specify the default language. These options are configurable via the File | Preferences dialog on the Renderer tab.
+"Usage" views no longer throw exceptions when no entity is selected.
+The Manchester OWL Syntax Parser now handles renderings with spaces.
+The expression editor is now inside of a scroll pane.
+The default directory for Graphviz (used by OWLViz) for Windows machines was upated to C\:\\Program Files\\Graphviz\\bin\\dot.exe.
+Fixed a problem where a "blank" superclass is added to a class if add covering axiom is selected when a class with no asserted subclasses is selected.
+The "Resolve missing import?" dialog no longer appears after enabling the Inferred Axioms view.
+Fixed a problem where users can create nameless classes using the Tools | Create Class Hierarchy wizard if blank lines exist in the input.
+Cut-and-paste now works with entity annotations.
+The process of merging ontologies into an exisitng ontology is no longer missing the step that allows users to specify the existing ontology.
+Fixed some problems handling class hierarchies containing loops. In particular, ontologies such as BIRNLex can now be viewed properly.
+
+Changes in Plug-ins
+A new View plug-in entitled "Annotation Search" is available for download from the CO-ODE project's Web site. The plug-in allows users to search entity annotations for a string or regular expression match.
+
+
+Build 61 -- March 26, 2008
+
+Changes & Bug Fixes in Protege-OWL
+Fixed a bug that caused FaCT++ to crash if the active ontology was changed.
+Fixed a bug that caused Pellet to throw exceptions when the active ontology was changed.
+Wildcard search is now supported in entity views.
+The "Gather ontologies" dialog box now has a scrollbar for the list of ontologies.
+Fixed a bug that prevented the Inferred Axioms view from loading.
+
+
+Build 60 -- March 4, 2008
+
+Changes & Bug Fixes in Protege-OWL
+Disabled reclassifying when the active ontology is switched.
+Fixed a bug that caused individuals to disappear.
+Fixed a bug where only a single annotation for each URI was being shown in the annotation view.
+Bundling a more recent OWL API (version 2.1.1).
+
+
+Build 59 -- December 21, 2007
+
+Changes & Bug Fixes in Protege-OWL
+The Protege-OWL editor is now more tolerant of OWL Full style imports where the name of the imported ontology does not match the name of the ontology used in the imports statement. When an import is broken, the editor makes a best effort attempt to load the correct ontology. The broken import is highlighted and an option to fix the import is suggested.
+It is now possible to add Self and Data restrictions.
+Fixed some problems with refreshing the user interface when changing the style of entity rendering.
+Added a context menu to the Ontology Metrics view that allows users to launch a dialog that displays the axioms included in an axioms count. To display the dialog, right-click any item in the metrics view that with an axioms count (for example: Disjoint classes axioms count) and choose "Show axioms".
+Added an option to auto-expand the class tree when an ontology is opened. The auto-expansion depth is configurable via File | Preferences... | Tree preferences.
+Fixed several problems with the display of individuals, including a refresh problem in the Individuals tab that occurred when switching between ontologies.
+Fixed a bug that caused some class expressions to contain strike-out text.
+
+
+Build 58 -- November 13, 2007
+
+The only change in this build is a recompiled version of a FaCT++ JNI library. The library in the previous build was causing problems with FaCT++ on older versions of the Mac OS.
+
+
+Build 57 -- November 2, 2007
+
+General
+We have made a significant change to the plug-in architecture in this build. The existing Java Plugin Framework was replaced with the OSGi framework. OSGi is gaining traction in industry and, in particular, has been adopted by the popular Eclipse Language IDE and Rich Client Platform. The advantages of using the OSGi framework include:
+the stability of a plug-in framework that is industry standard and has reference implementations developed and used by companies such as IBM
+the ability to extend Protege by adding existing OSGi bundles
+the availability of a plug-in framework that can easily be used by applications that have graduated beyond being just a Protege tab
+To use the new framework, plug-in developers will need to modify their MANIFEST.MF and plugin.xml files. Code changes are not generally required. Instructions for how to modify a plug-in to fit the new framework are available on the Protege Wiki.
+
+Bug Fixes in Protege-OWL
+Bundling a new version of FaCT++, which fixes a bug that was causing Protege-OWL to crash when using the DL Query tab.
+
+
+Build 56 -- October 8, 2007
+
+General
+Added apple.laf.useScreenMenuBar=true to the Protege.lax file so that Protege uses the screen menu bar on the Mac OS.
+Added entries in the Protege.lax file for lax.nl.java.option.java.heap.size.initial and lax.nl.java.option.java.heap.size.max. Values for the initial and max heap sizes are set at 200M initially, but can be modified by users directly in the LAX file. Further instructions for setting the heap size in Protege are available on the Wiki.
+
+Changes & Bug Fixes in Protege-OWL
+Bundling a more recent OWL API (Subversion revision number 455).
+Bundling a new version of FaCT++ (version 1.1.9, which supports floating point datatypes).
+Added the ability to save ontologies in the Manchester OWL Syntax format. This functionality is accessible via the File | Save as... menu item.
+Fixed a problem that prevented individual property axioms from being asserted and edited.
+Fixed a problem with the Pellet connection. Ontology updates are now reflected in reasoner results.
+Fixed a problem with the repository mechanism.
+Improved explanation and reasoning support.
+
+
+Build 53 -- July 6, 2007
+
+Bug Fixes in Protege-OWL
+Fixed some problems that were preventing the direct in-memory connection to FaCT++ from working in the previous build (build 51).
+
+
+Build 51 -- July 3, 2007
+
+What's included?
+
+An exciting new version of the Protege-OWL editor, developed by our collaborators at the University of Manchester.
+
+New features in the Protege-OWL editor include:
+Built on top of the OWL API. Large ontologies such as the NCI ontology can be loaded in around 500M of memory.
+Support for OWL 1.1 (qualified cardinality restrictions, property chains, disjoint properties, self restrictions, user-defined datatypes, reflexive, irreflexive, and antisymmetric properties, etc.).
+Support for loading ontologies in RDF/XML, OWL/XML, OWL Functional Syntax, KRSS, and OBO Flat File format.
+Direct in-memory connections to Pellet 1.5 and FaCT++.
+Preliminary support for the explanation of entailments.
+Hyperlinking for classes, properties, and individuals when browsing ontologies.
+Dynamic usage views which allow the usage of any class, property, or individual to be seen instantly while browsing the ontology.
+Support for editing multiple ontologies:
+Axioms can easily be pulled from one ontology to another.
+Tolerance of missing imports.
+Automatic mapping of locally stored ontologies when resolving imports.
+DL Reasoner query tab for asking standard DL queries.
+Improved keyboard navigation.
+There are several additional plug-ins for the Protege-OWL editor, available for download from the University of Manchester's CO-ODE website. 
+
+What's not included, but coming soon?
+Protege-Frames editor
+Protege Services
+Protege Web client
+New Plug-in Architecture
+
+
+Protege 3.5 Release -- April 24, 2013
+Release Notes
+
+This section describes changes relative to Protege 3.4.8
+Core Protege
+Dialogs are now centered in the main window.
+System slots can now be selected for export to CSV in the Query Tab.
+Fixed a bug that prevented the Finish button from being enabled when creating a database project.
+Protege-OWL
+When running in client-server mode, the Protege native writer export is now done in a more efficient way on the server. The performance increase should be significant, especially on slow networks.
+Fixed a bug in the Protege native writer that prevented some untyped resources from being exported.
+SWRL
+The SWRLTab now supports the Drools rule engine. A new tab called the SWRLDroolsTab provides a graphical interface for interacting with this implementation. The existing SWRLJessTab is still available. All existing SWRL built-in libraries are supported in the Drools implementation. Both the Drools and Jess implementations now use a pair of OWL 2 RL-based reasoners for performing inference (read more). These reasoners are also used by the SQWRL query language. The Java APIs provided by the SWRLTab have changed slightly so users of these APIs will need to update their code. Information on these changes can be found here. The process of building the SWRLTab and its associated rule engines has also changed. The new build process is outlined here.
+BioPortal Import Plug-in
+Made significant enhancements to the BioPortal Import Plug-in:
+Users may now search for terms in all BioPortal ontologies, and navigate to a specific BioPortal ontology to import branches of the class tree.
+Added the ability to start multiple import processes at the same time.
+Importing is now done in separate threads, and can be canceled at any time by the user.
+Added a progress dialog to show import progress.
+Users may now specify a BioPortal API Key in the BioPortal Configuration dialog (accessible from BioPortal | Configure... | General). This allows access to private ontologies for which users have an API Key.
+Collaborative Protege
+Users may now add the collab.precache.notes.count property to the protege.properties file for controlling whether or not ontology notes are precached. If set to false, no precaching is done. This improves the start up time of Protege clients for projects that have large numbers of notes.
+Read more about Collaborative Protege.
+Change Management
+Added Java utilities for exporting changes and notes as CSV files. Source code and export scripts are available in our Subversion repository.
+
+
+Protege 3.5 Beta
+Release Notes
+The contents of the release notes section describe changes relative to Protege 3.4.8.
+Build 649 (beta) -- May 9, 2012
+Minor bug fixes for the SWRLTab.
+Build 646 (alpha) -- April 23, 2012
+Minor bug fixes for the SWRLTab.
+Fixed an issue with the build process that caused some corrupt installer files in the previous build.
+Build 644 (alpha) -- April 3, 2012
+Minor bug fixes to Jess and Drools OWL 2 RL reasoners.
+Build 643 (alpha) -- March 23, 2012
+The SWRLTab now supports the Drools rule engine.
+A new tab called the SWRLDroolsTab provides a graphical interface for interacting with this implementation. The existing SWRLJessTab is still available. All existing SWRL built-in libraries are supported in the Drools implementation.
+Both the Drools and Jess implementations now use a pair of OWL 2 RL-based reasoners for performing inference (read more). These reasoners are also used by the SQWRL query language.
+The Java APIs provided by the SWRLTab have changed slightly so users of these APIs will need to update their code. Information on these changes can be found here. The process of building the SWRLTab and its associated rule engines has also changed. The new build process is outlined here.
+
+
+
+Protege 3.4.8 Patch Release -- January 12, 2012
+Release Notes
+Bundling an updated version of Jena (version 2.6.4).
+Fixed a number of bugs in the MappingMaster plug-in.
+Fixed a number of bugs in the BioPortal Import plug-in.
+
+
+Protege 3.4.7 Patch Release -- July 15, 2011
+Release Notes
+Core Protege
+- Fixed a problem that caused a warning dialog to appear each time Protege started.
+- Fixed a bug that caused newly created and renamed instances in OWL ontologies to be displayed with the original name (only present in client-server mode).
+- Added the serialVersionUID to all serializable classes in protege-core, owl, and a number of plug-ins (standard-extensions, protege-pellet-reasoner, rdf-backend, change-management, change-analysis, protege-collab, chat, prompt, lucene-query, bioportal-reference-plug). This will improve compatibility between different versions of Protege servers and clients.
+BioPortal Reference Plug-in
+- Updated the BioPortal Reference Plug-in to work with the latest release of NCBO BioPortal, which now requires a mandatory argument be appended to all REST calls (read more).
+BioPortal Import Plug-in
+- The BioPortal Import Plug-in is now bundled with the default Protege installation. It is integrated into the OWL Classes tab as an extra button that allows importation of classes or class sub-tress from ontologies stored in NCBO BioPortal. The plug-in is highly configurable, and supports importation of class properties, e.g., labels, synonyms, defintions, and metadata, e.g., import author, timestamp, source ontology, etc. (read more). New versions will be downloadable from the plug-in's wiki page.
+BioPortal Java API
+- The BioPortal Java API used by both the BioPortal Reference and Import plug-ins was modified to be less sensitive to NCBO BioPortal service changes. The API is documented on this wiki.
+
+
+Protege 3.4.6 Patch Release -- April 25, 2011
+Release Notes
+Fixed several bugs in the MappingMaster plug-in.
+Fixed several bugs in Protege's SWRL support.
+Fixed a bug in the OWLDoc plug-in (Tools | Generate OWLDoc...) that caused large numbers of broken links in the generated HTML files.
+
+
+Protege 3.4.5 Patch Release -- March 11, 2011
+Release Notes
+Core Protege
+Fixed a database connection leak.
+Removed unicode_panel.jar from the classpath of Protege server's startup script because it threw headless exceptions if Protege-OWL used Forms.
+Made some updates to the Metaproject API. The Metaproject API facilitates programmatic access to Protege's Metaproject, which is used by the client-server version of Protege.
+Change Management
+Added new options to the Change menu (under Change | Clean Up Changes Ontology...):
+Delete sub-changes (keep only top-level changes)
+Wipe out changes and annotations (replace ChAO with an empty one)
+The Change menu will now only appear if change tracking is enabled.
+Added a "View Change Analysis" menu item in the Change menu that will start the Change Analysis plug-in.
+Implemented a fix for storing timestamps with different locales in the ChAO.
+Added a watchedBranch property to the ChAO.
+Significantly improved performance of the initial change caching for database mode.
+Added a column in the Change History table to display the ontology entity on which the change occurred.
+Lucene Query
+It's now possible to configure which entities, i.e., classes, properties, or individuals, should be indexed.
+The query result list can now be filtered by entity type, i.e, class, property, individual, using check-boxes at the bottom of the result list.
+It's now possible to index the browser text for entities by indexing the :NAME slot. A current limitation is that you also need to index the properties/slots that are part of browser slot patterns to ensure that the browser text index will be correctly updated. We're working on a better solution for this.
+Implemented support for expanded queries for browser text, e.g., "mal mel" will retrieve results for "malignant melanoma".
+MappingMaster
+Implemented significant extensions to the MappingMaster spreadsheet-to-OWL mapping language.
+BioPortal Reference
+Updated the BioPortal Reference plug-in to work with the latest version of BioPortal (2.6.4).
+
+
+Protege 3.4.4 Patch Release -- March 8, 2010
+Release Notes
+
+Core Protege
+Fixed a bug that caused the creation of new database projects to fail on certain machines.
+Fixed several caching problems that occurred when Protege is run in client-server mode.
+Protege-OWL
+Fixed a bug that caused the native writer to output invalid statements when exporting database projects to OWL files.
+Fixed a bug in the Protege-OWL parser for dealing with ontologies with untyped resources.
+Implemented a faster algorithm for computing orphan classes in the Protege-OWL parser.
+SQWRL
+Added additional SQWRL operators to support more elaborate query result selection:
+selecting a subset of results
+retrieving all elements from a collection.
+Added an ontology containing a large number of SQWRL queries to the set of pre-installed example ontologies.
+Updated SQWRL Query API.
+Change Analysis
+Bundling the new ChangeAnalysisTab plug-in. The plug-in provides different views for exploring the annotation/change ontology associated with a Protege project that uses the Change Management plug-in. Changes and annotations can be explored based on authors, ontology terms, and visualized with respect to the life cycle of the project.
+Many thanks go to Sean Falconer for this contribution.
+Collaborative Protege
+Only top-level changes associated with a class are displayed. In previous versions, sub-changes were also shown.
+BioPortal Reference
+Updated the BioPortal Reference plug-in to store the short term ID properly.
+
+
+
+Protege 3.4.3 Patch Release -- February 3, 2010
+Release notes
+Significant expansion of the SQWRL query language - the language has new collections built-ins that support more advanced closure operations, including a limited form of negation as failure. Grouping and aggregation functionality are also provided. Read more: http://protege.cim3.net/cgi-bin/wiki.pl?CollectionsSQWRL.
+Bundling the new MappingMaster plug-in - MappingMaster can be used to transform the content of spreadsheets into OWL ontologies. It supports a domain specific language (DSL) for defining these transformations and a graphical user interface for defining, managing, and executing these mappings. Read more: http://protege.cim3.net/cgi-bin/wiki.pl?MappingMaster.
+
+
+Protege 3.4.2 Patch Release -- December 16, 2009
+Release Notes
+Protege Client-Server
+Modifications to the metaproject
+Passwords are now encrypted using the MD5 hash function.
+Existing metaproject files will automatically be updated to the new metaproject format (see below). An archive of the old metaproject will be created in a subfolder of where the metaproject was stored. Passwords will automatically be encrypted.
+The DigestedPassword widget can be employed to change a user's password without exposing the existing text.
+New metaproject format:
+Groups are now a subclass of PolicyControlledObject, such that policies can be attached to groups, e.g., who is allowed to add a user to a group, etc.
+Instances of several classes now have property lists attached, such that property-value pairs can be added and accessed without the need to modify the APIs.
+Last access and last login times are now stored in User instances.
+A salt property was added to the User class for the MD5 encryption algorithm.
+Added an "email" property to the User class.
+Modifications to the Server Admin Panel
+A live copy of the metaproject is now shown in the Server Admin Panel, which allows for modification of the metaproject contents at server runtime. For example, policies can be modified on the fly, users and projects can be added, etc. (read more).
+A "Save metaproject" button is now available on the "Server Control" tab
+Modifications to the API
+Methods for checking the policies on Groups have been added to the RemoteServer interface.
+Session IDs are now cryptographically secure and support delegation.
+The metaproject API was updated to mirror the new metaproject structure.
+Much better logging and error reporting for cases in which a client cannot connect to a Protege server.
+
+Core Protege
+A combo box instance widget was added that facilitates the selection of existing allowed values. The widget can be attached to single cardinality properties of type Instance.
+A password widget was added that hides typed text from the user. The widget can be attached to single cardinality properties of type string.
+The default MySQL column length was reduced to 333 (from 500) to fix the error: "Specified key was too long; max key length is 1000 bytes".
+
+Protege-OWL
+The steps to change the way in which resources are displayed (rdf:id vs. rdfs:label) have been significantly simplified.
+Corrected a problem where the name of an ontology was determined by calculating the xml:base, which is not compatible with the OWL specification.
+Fixed browser text for entities with multiple types.
+
+Collaborative Protege & Change Management
+Modifications to the Changes & Annotation Ontology (ChAO)
+More structured proposal types are available, e.g., NewConcept proposal, MergeProposal, etc.
+A status property was added to AnnotatableThing so that the status of the notes, ontology components, and changes can be set. The values of the status are configurable by defining instances of the Status class.
+Added Review, ReviewRequest, User, and Reviewer classes.
+Added an "archived" property on the Annotation class.
+Other
+Collaborative Protege now supports the archival of notes and discussion threads. If a note is marked as "Archived", it can then be hidden from the display using the Collaboration menu (Configure | Options | Hide archived notes).
+The default notes view will show an "archived" check box and a drop-down list for selecting the status of a note. The status can also be set for ontology components or changes.
+The number of notes attached to a class is shown in the class tree next to the notes icon. The number of notes attached to subclasses is also shown in parenthesis, such that notes at lower levels in the hierarchy are more easily located.
+A status filter for notes and changes has been added to the filter combo box.
+Made performance improvements by using a cache of note counts and ontology components.
+IMPORTANT: To use new features in Collaborative Protege with an existing ChAO ontology, you need to update your ChAO ontology to the new format. Instructions for updating are available on this wiki.
+
+New Bundled Plug-ins
+Axiome
+Axiome is a plug-in for SWRL rules elicitation and management (read more).
+BioPortal Reference Plugin
+The BioPortal Reference Plugin allows users to insert references to external ontologies and terminologies from BioPortal into their ontologies. The plug-in works with the latest BioPortal 2.2.2 release. A generic Java library for accessing BioPortal services was implemented as part of this plug-in. The library is available in the bioportal_services_lib.jar in the <your-protege-install-dir>/plugins/edu.stanford.bmir.protegex.bp.ref folder.
+- Read the BioPortal Reference Plugin user's guide and other documentation.
+- Read documentation on the Java library for accessing BioPortal services.
+Lucene Query
+Lucene Query is a tab plug-in that provides a wide variety of ways to search an ontology (many features are specific to OWL ontologies). Examples of Lucene queries against the NCI Thesaurus are:
+Preferred_Name sounds like onkoejene
+
+... or ...
+
+Find all classes that have a necessary or sufficient condition connecting them to genes found in a human organism
+The tab allows users to search for resources (individuals, properties or classes) by specifying such things as:
+A data or annotation property value of the resource is a match for some search criteria. Available search criteria include exact match, strings starting or ending with a specified string, phonetic match, and Lucene query match.
+A property value is either missing or present. This search works for annotation, object, and data properties.
+The absence or presence of a necessary or sufficient condition that includes a restriction with a specified property.
+In addition, Lucene Query searches can be combined. Users can form conjunctions or disjunctions of primitive Lucene Query searches and can search for classes with necessary or sufficient conditions that contain a restriction with a class matching a query. 
+
+Updates to Existing Bundle Plug-ins
+Included a new version of DataMaster (version 1.3.2), which contains a fix to work with PostgreSQL databases that have database schemas defined. DataMaster is documented on this wiki.
+
+
+
+Protege 3.4.1 Patch Release
+Jennifer Vendetti vendetti at stanford.edu  Thu Jun 18 15:49:34 PDT 2009
+
+Changes & Bug Fixes in Core Protege
+---------------------------------------
+- Significant improvements in client-server performance, especially when 
+the server is serving database projects. (Thanks to Bob Dionne for 
+discovering some of the problems).
+
+- Significant performance improvement for frame replace, especially for 
+large database projects.
+
+- Fixed a bug where remnants of a recently deleted frame remain on 
+Protege clients, leading to confusion if a client recreates a frame with 
+the same name.
+
+- Implemented a change in event generation - at frame replace, we only 
+generate the frame replace event, not the other "backwards-compatible" 
+events (delete and create).  This may confuse some external plug-ins, 
+which should all be updated to react to the frameReplace event.
+
+- Added more logging to the Protege server, which will help with 
+debugging of login or project open problems.
+
+
+Changes & Bug Fixes in Protege-OWL & SWRL
+---------------------------------------------------
+- Removed quotes from the class tree and individuals list.  The browser 
+text of values containing spaces will still contain quotes, but they are 
+not rendered in the user interface.  The ResourceRenderer now has a 
+constructor with an argument that allows programmers to specify whether 
+or not the quotes should be shown (the default behavior is to show quotes).
+
+- In the database repository panel, it is now possible to select a table 
+from a drop-down list of available database tables. Previous 
+implementations only allowed the specification of a database.
+
+- Changed the repository mechanism to allow users to override the 
+default import behavior.
+
+- Made improvements to the native OWL writer so that output is now sorted.
+
+- Fixed OWLViz to work with Graphviz 2.22 and higher.
+
+- Fixed the export of an OWL database to an OWL file to include 
+generation of the default namespace and xml:base.
+
+- Fixed a bug where the MultiResourceWidget did not update if a value 
+changed when the browser slot is set.
+
+- Fixed a bug that caused an empty profile list in OWL Preferences.
+
+- The creation of clones with null names is now allowed through the API 
+(names will be autogenerated).
+
+- Removed "Experimental" from the native writer in OWL Preferences.
+
+- Fixed a bug where the SPARQL query panel misbehaved if there was no 
+default namespace defined in the ontology.
+
+- Added a fix for the SWRL form that did not show up correctly the first 
+time the SWRLTab was enabled in a project.
+
+
+Bug Fixes in Standard Extensions
+----------------------------------
+- The graph widget was not functioning properly for OWL ontologies from 
+approximately Protege 3.4 beta build 500 through the Protege 3.4 
+release.  These issues have been fixed in Protege 3.4.1.  If you have 
+OWL ontologies in Protege 3.3 that use the graph widget, please refer to 
+a (required) guide on our wiki about how to upgrade your project [1].
+
+- Fixed an infinite loop in the EditorPaneWidget related to displaying 
+external links.
+
+- Updated the HTML exporter to display the browser slot for slots.
+
+
+Changes in Change Management
+----------------------------------
+- It is now possible to search and filter the change log in the Changes 
+tab by different criteria (author, text, date, etc.).
+
+
+
+
+Protege 3.4 release notes
+The contents of this page describe changes relative to the 3.3.1 release of Protege.
+
+Release Highlights
+Database inclusion is now supported!
+Major enhancements to Protege-OWL:
+Direct connection to the Pellet reasoner
+New Protege-OWL parser with improved performance
+Improved handling of untyped resources
+Major enhancements to Protege Client-Server:
+Huge performance improvements
+Several access policies are now enforced
+User friendly administration of the Protege server
+Improved support for collaborative ontology development
+... and many more. Click on the navigation links below to see a complete list of changes.
+
+Important Installation Notes
+Do not install this build over an older version. You need to do a clean install for this release to work properly. A "clean install" means that you should either a) install this release into an empty directory, or b) uninstall previous versions of Protege before installing this release.
+Protege 3.4 requires Java 5.0 (JDK 1.5).
+If you have a project in database format in version 3.3.1 and you want to upgrade, you must first convert the project to a file-based one in Protege 3.3.1 , and then regenerate the database project with Protege 3.4.
+For OWL projects, the format of the PPRJ file (.pprj) has changed in an incompatible way. Protege 3.4 will be able to read existing PPRJ files, but when these files are saved they will not be properly understood by previous versions of Protege.
+For OWL projects that use the graph widget, please refer to a guide on the wiki for upgrading your project from Protege 3.3.1 to Protege 3.4.
+
+Enhancements
+Protege-OWL & SWRL
+Core Protege & Protege-Frames
+Protege Client-Server
+Collaborative Protege
+Bundled Plugins
+Bug Fixes
+Protege-OWL & SWRL
+Core Protege & Protege-Frames
+Protege Client-Server
+
+
+
+Protege 3.3 Update
+Changes & Bug Fixes in Core Protege
+---------------------------------------
+- The export of results in the Queries tab is now configurable.
+
+- Improved performance of Collaborative Protege.  As part of this work, 
+the optimizations done in the client-server code were modularized so 
+that significant improvements in client-server performance
+(e.g., for Frames ontologies with many instances) can be made in future 
+releases.
+
+- The Protege installation now includes a script (called 
+shutdown_protege_server) to shutdown the Protege server.
+
+- Fixed a bug related to several Protege clients listening for events on 
+the same server project.
+
+Changes & Bug Fixes in Protege-OWL
+----------------------------------------
+- Added a method called getCommonSuperclasses to the OWLModel interface 
+(Javadoc: http://tinyurl.com/2a2gpv).
+
+- Fixed a bug in the domain and range widgets that occurred when 
+removing classes from the domain/range of a property.
+
+- Fixed a bug that disabled the delete button from the PropertiesTab.
+
+- Fixed a bug that caused the "?forceReadOnly" string to be appended 
+multiple times in the repository entry of a relative file repository.
+
+- Bug fix for the paths of relative file repositories on Windows.
+
+- Enabled the form for the simple annotation properties, so that users 
+can now add other annotation properties on them.
+
+- Adjusted the OWL meta-model in Protege, especially the OWL properties 
+metaclass hierarchy.
+
+- The Add repository pop-up dialog does not appear at missing imports 
+anymore if Protege is not running in GUI mode.
+
+- Fixed the ValuePartition and Enum wizards to generate the correct 
+domains for the properties.
+
+Changes & Bug Fixes in Collaborative Protege
+-----------------------------------------------
+- Added "collaborativePizza" as an example collaborative project that 
+can be run both in stand-alone and client-server Protege.
+
+- Annotations can now be added on properties and individuals.  Users can 
+also annotate the OWL ontologies in the OWLMetadataTab.
+
+- The ChatTab can now work simultaneously as a collaborative tab and as 
+a "normal" Protege tab widget.
+
+
+Protege 3.2.1 release notes December 20,2006
+Changes & Bug Fixes in Core Protege
+---------------------------------------
+- Fixed a bug in the "protege.properties" tab in the Project -> 
+Configure dialog that caused Protege to freeze on Mac OS X.
+- The Window -> Increase Font Size menu item now increases the font size 
+in a larger increment.
+- When the GUI is reloaded (after adding a new tab for example) Protege 
+no longer resets the display to the first tab.
+- Fixed a problem with logging.
+- Fixed a minor problem with events.
+
+Changes & Bug Fixes in Protege-OWL
+----------------------------------------
+- The Jena parser error level used by the Protege-OWL parser can now be 
+set in the protege.properties file with "jena.parser.error_level".  This 
+new property takes either "lax", "default", or "strict" as a value.  
+These values correspond to the Jena error levels and if no error level 
+is set, the "lax" level is used.
+- Fixed a bug in multi-user Protege that caused the client to freeze 
+when changing the language of an annotation property.
+- Fixed a bug related to changing the restriction parser from the OWL -> 
+Preferences... menu.
+- Fixed a SWRL factory initialization bug.
+- The GUI now prevents the editing of Read-only annotations properties.
+- Changing the widget labels in the Forms tab works now.
+- The class tree in the Individuals tab now has the Expand and Collapse 
+options in the context menu.
+- Added cut, copy, and paste options to the context menu of the 
+AnnotationsTable for single-lined annotations (such as rdfs:label).
+- Updated SWRL built-in bridge to allow user-defined built-ins to assign 
+values to arguments.
+- Modified mapping of SWRL rules to exploit rule engine optimizations.
+
+Changes & Bug Fixes in Prompt
+---------------------------------
+- Fixed a problem with the CogZ Prompt plug-in that prevented Prompt 
+from starting up.
+- Added a configuration dialog that allows users to enable/disable GUI 
+plug-ins (which are enabled by default).
+
+
+Protege 3.2 release notes  2006-Nov-07
+Enhancements (Core Protege & Protege-Frames)
+Enhancements (Protege-OWL)
+Bug Fixes (Core Protege & Protege-Frames)
+Bug Fixes (Protege-OWL)
+What's new in Protege's bundled plug-ins?
+
+
+Protege 3.1 release notes 2005-Jul-08
+Enhancements
+We are now including an "experimental" XML back-end. This back-end is under development and feedback on the schema is strongly solicited. The schema should not be considered fixed at this point and users should not rely on this back-end to function correctly or upon the schema remaining fixed from build to build. We do encourage you to try it out and report any problems that you see. To convert your core Protege project to XML for testing purposes, just do "File -> Convert Project to Format -> Experimental XML". Please be sure to choose a new name for this project file so that you don't overwrite your "good" project file. More information is available on our Wiki: http://protege.cim3.net/cgi-bin/wiki.pl?XmlBackend.
+Greatly improved support for exporting ontologies in HTML format (accessible via "File -> Export to Format -> HTML"):
+Improved look and feel that is more consistent with Protege's user interface.
+The ability to specify custom HTML headers and footers.
+The ability to specify a custom stylesheet.
+The ability to specify which slots and facets to export.
+The ability to save export configurations.
+The ability to sort subclasses on the class hierarchy page alphabetically or by model.
+The ability to choose to numbering for lists of instances.
+HTML export is accessible programmatically.
+The ability to control some of the text labels on generated pages via a properties file (htmlexport.properties)
+Protege now directly supports PostgreSQL as a database for use with the database back-end. No parameter definitions or other hacks are required to make the system work. Thanks go to Andrew Hastie for providing both the code and the prodding necessary to finally make this happen. Current PostgreSQL users may wish to regenerate their database projects.
+You can now copy and move slots from one class to another using drag and drop.
+There is now a mechanism to flush multi-user server file-based projects to disk and shutdown the server. This mechanism is documented on our Wiki: http://protege.cim3.net/cgi-bin/wiki.pl?ShuttingDownTheServer.
+The Protege installer has a new option called "Basic + OWL" that allows users to install the base system, the OWL plug-in, and only those plug-ins with OWL specific support
+Combined the "Open Project" and "Open Remote Project" menu items into a single item that presents a unified dialog. Modified the welcome dialog so that "Open Existing Project..." also displays this dialog.
+The "Build" and "New" dialogs have been replaced with a single wizard for creating new projects.
+Added the capability on the Instances tab to view/add/remove the direct types of an instance. Form view modifications to support multiple types is not available yet.
+Completed UI support for instances with multiple types. By default, the form for an instance with more than one type displays as a single large form. This can be configured from the Project | Configure | Options dialog to instead display as a tabbed pane. 
+Improved the performance of searching in the classes tree. Also limited the number of search results to 100 and made this a configurable parameter. Previously it was hard-coded to 1000. Added a dialog to notify people that their search results were truncated because of this.
+Changed the way system classes are handled by the database back-end. Cleanest would be to rebuild all current databases (dumping to a file and then rebuilding). Rebuilding is required for OWL databases.
+Added a getImage() method to the graph widget that allows you to get the contents of the graph widget as an image. Also posted example code on the Wiki that demonstrates how to use the method and save the resulting image object to a file: http://protege.cim3.net/cgi-bin/wiki.pl?WorkingWithTheGraphWidget.
+The IntegerListWidget and FloatListWidget now validate user input.
+The instances list on the Instances tab now remembers whether it was displaying subclass instances.
+Modified the way classes are loaded by RMI. This may address some plug-in classloading problems in the server.
+Incorporated the OWL Plugin toolbar icons into the core toolbar.
+Made URLWidget loading asynchronous.
+Changed the behavior of the KnowledgeBase.createCls call to be the same as the KnowledgeBase.createInstance call when an empty set of direct types is passed in. Previously, createCls would "guess" a type to use while createInstance would create a "typeless" instance. Now both calls will create a typeless frame.
+An attempt to create a database project by overwriting an existing database table now results in a warning dialog.
+Added code to the graph widget that prevents anonymous classes from being displayed in the palette (applicable to Protege OWL projects).
+Added PluginUtilities.isOWLAvailable() method to test if the OWL plug-in has been installed.
+Reworked the "Include Projects" menu items and their implementations
+
+Bug Fixes
+The "add superclass" control on the Classes tab now respects the "allowed parents" facet on the "direct-superclasses" slot. Thanks go to Marc Dzaebel for contributing this fix.
+Fixed a bug occurring in slots which had both inverses and template values.
+Fixed a bug that caused the final change in a text component to sometimes get lost before a save.
+Added some code to try to ensure that the Help menu remains the last menu on the menu bar.
+Fixed a crashing bug in the UMLS Tab.
+Fixed some inconsistencies in the use of text antialiasing.
+Worked around a problem in the multi-user server that caused a ClassCastException on some operations with the OWL Plugin
+Fixed some JDK 1.5 incompatibilities.
+Fixed a problem with our installation software that prevented Protege from launching properly with JDK 1.5.
+Fixed a problem which caused exceptions when no default slot metaslot was set.
+Fixed a problem with the multi-user server cache not being updated sometimes.
+Fixed a problem with relative URLs not working in the URL widget.
+Fixed a problem that caused newly opened projects not to be added to the most recently used list.
+Fixed a problem with the "Open Remote Server" panel not remembering the last information that was entered.
+Fixed an exception on "manage included projects" with new projects.
+Fixed problems that prevented the override of system slots.
+Fixed a problem which caused spurious console messages to be generated when viewing instances with multiple types.
+Fixed a problem with slot values getting lost for instances with more than one type.
+Fixed a problem which occurred when duplicate definitions of a frame appeared in more than one included project.
+Fixed a problem which prevented cursor changes on instance forms.
+Fixed a problem which caused duplicated instances to get the wrong values for slots with subslots or template slot values.
+Fixed a longstanding problem which sometimes caused "Operation on closed kb" stack traces after closing a project.
+Searching in class trees now works in situations with recursive inheritance. Previously it resulted in "stack overflow" messages.
+Fixed a problem which sometimes caused save failures on new Clips and RDF projects.
+Fixed problem resulting from file case insensitivity on MS Windows.
+Copying instances with more than one type now works correctly.
+Fixed a problem with form update on slot change.
+Fixed a problem with the Facet Constraints tab throwing a class cast exception.
+
+
+Protege 3.0 release notes 2005-Feb-04
+Enhancements
+Mnemonics have been added to most menu items (for keyboard access).
+Modal dialogs now cancel/close on an Escape.
+The focus is now painted on toolbar buttons so that it's possible to access much of the UI by keyboard.
+The Project menu has been split into two menus.
+The direct type and names of instances now appear in the header.
+Forms in top level frames will now resize vertically.
+The template slots widget has been reworked a bit and now shows tooltips on inherited and overridden slots.
+Modified all of the "pick something" dialogs to close on a double-click.
+Label text that is too long to show up completely now appears as a tooltip on the label.
+Changed the way the splitter panel lays things out by default in order to avoid "hidden panels".
+The Project -> Configure dialog now only contains project specific configuration items. Application specific configuration items have been moved to the File -> Preferences dialog.
+The "beautification" of slot widget labels (whether they are capitalized and have '_' converted to ' ') is now controllable at the application and at the project level. Changing the application level value will affect the default behavior of new projects. 
+Inverse slots are now so indicated in the template slots widget and in the tree on the Slots tab.
+Modified the tab display so that the selected tab is more apparent.
+Implemented support for Cut, Copy, and Paste menu items on text components.
+Added the capability to add/remove user defined toolbars. There are now methods on AbstractTabWidget and on ProtegeManager that support this.
+Hidden slots no longer show up in several places in the UI.
+The "Find" fields are now combo boxes that remember the previously searched for strings.
+Added an "Insert Unicode" character dialog to the Edit menu. Thanks goes to Simon White who implemented this dialog and allowed us to use it in Protege.
+Made some performance improvements in the multi-user system.
+Specifying client side ports to use in the multi-user server environment (in order to work around firewall problems) now works better. The ports can be reused in subsequent connections without waiting several minutes for the connection to time-out.
+Added the ability to save the contents of the Graph Widget to a JPG.
+Added a method to the Graph Widget called getPositionInfo, which makes it much easier to access position information for nodes.
+The class trees on different tabs are now synchronized by default. This behavior can be controlled at the application level from the Window menu.
+The Queries Tab now supports the export of its results to a tab separated file. Thanks go to Tania Tudorache and Daniel Schober for providing this code.
+The source code distribution now includes an Ant build file located in the root directory. Thanks go to Olivier Dameron for submitting the build file.
+Made some performance improvements on some database access calls.
+The default (CLIPS) back-end now supports instances having multiple types.
+Converted logging over to use the standard Java logging mechanisms. This includes both the console window output and the journaling functionality.
+Protege console window output is now additionally logged to a file in the <protege_installation>/logs directory.
+The system now prints plug-in names in addition to plug-in directories to the console window.
+Changed the way file encodings are specified in order to be more reliable. Now UTF-8 is always used unless the system is told otherwise by specifying the protege.file.encoding Java parameter.
+You can now specify a "Default-Widget-For-Slot" manifest entry to get a widget assigned to a slot of a particular name by default. This entry has been used on all of the system slot widgets (such as InstanceNameWidget) to get the correct widgets assigned. It can of course also be used for user slots.
+The HTML generator now writes out classes sorted alphabetically.
+Modified the Unix "run_protege" scripts to work better. Thanks go to Carsten Pohle for contributing most of this work.
+Renamed the nested Model ID interfaces (such as Model.Cls.ID -> Model.ClsID).
+Side-effect events, such as own-slot-value-changed, are no longer generated by default while a frame is being deleted. If you want these events, you must call KnowledgeBase.setGenerateDeletingFrameEventsEnabled(true). If they are generated, then both the event and the frame may be queried to see if they are one of the side-effect events.
+Decreased the Protege standard max memory allocation to 100 MB.
+Modified the UglyWidget to include the Java class name for the widget that failed to load.
+The RDF Backend now validates frame names when they are entered.
+Made some performance improvements in the handling of subslots.
+The KnowledgeBase.getFrame(FrameID) method now works for database projects. Thanks go to Todd Detwiler for contributing this code.
+
+
+Bug Fixes
+Fixed a problem that caused hidden frames to become visible after a merge.
+The ProjectPlugin.afterLoad method is now called on both the client and the server in the multi-user system. Previously it was called by neither.
+Fixed a performance problem in the TemplateSlotsWidget when displaying many slots.
+Fixed a problem which caused the system to not display some kinds of parsing errors.
+Fixed a problem with shortcuts on the Mac.
+Fixed a GenerateHTML problem with slots of type CLASS.
+The database back-end now correctly identifies MS SQL Server when present and optimizes table creation accordingly.
+Fixed a problem which caused forms to not resize correctly in some situations.
+Fixed a problem which caused widgets to often overlap vertically.
+Fixed a problem with the Queries Tab not being able to reload some query library entries.
+The RDF Backend no longer duplicates values for inverse slots.
+Fixed some problems with subslots and their domains not working as expected.
+Incorporated a fix to the FloatField widget. Thanks go to Marc Dzaebel for providing this fix.
+Fixed a problem with About Box contents sometimes not showing up.
+Fixed a problem that caused buttons to disappear when the label text was too long.
+Fixed a problem with inverse slot values not being updated in the multi-user server.
+Fixed a problem in renderer if setMainIcon() was called twice.
+Fixed a problem in the Graph Widget that was preventing duplicate links between nodes.
+The classes tree right-mouse menu now works better with multiple selections.
+Copying of classes and slots is now disabled (since it didn't work anyway).
+Fixed a bug in the Remote KB Tab that was causing exceptions in the UMLS Tab.
+Modified the UMLS Tab to use the latest version of the NLM's API for accessing the UMLSKS (which fixed a couple of bugs that were causing exceptions).
+Yellow sticky notes now resize correctly.
+Fixed server metaproject to work on Unix and Windows.
+Constraints are no longer lost if they are attached to instances of :STANDARD-CLASS.
+Fixed some thread safety problems in the server.
+Fixed a problem with the RDF back-end writing out invalid XML tag names for classes.
+Fixed a problem that caused exceptions when database table values are null.
+Fixed a problem with Generate HTML if more than one root class is specified.
+Fixed a problem with writing to a database from the Mac.
+Fixed a problem with PluginUtilities using the wrong class loader when Protege is run by another application that uses its own class loader (e.g. Eclipse).
+
+Protege 2.1.2 Release Notes August 04, 2004
+Please note that there are no changes to the base Protege system in this update.  The only changes are bug fixes in several of the bundled 
+plug-ins.  If you aren't using any plug-ins, there is no need to download this update.
+
+
+Protege 2.1.1 Release Notes
+Changes:
+-------------
+1. Fixed a problem with the database back-end not reading string values 
+longer than 255 characters in most situations.  The values were written 
+correctly.  Special thanks go to Neil Ernst for not only finding and 
+reporting this bug but also for providing the fix.
+
+2. Fixed a problem which caused the frame name for a newly created frame to 
+not be selected. The name should be selected so that it can be easily replaced.
+
+
+
+
+Protege 2.1 Release Notes June 11, 2004
+
+Enhancements
+There are three new plug-in types available in this release called "import plug-ins", "export plug-ins", and "project plug-ins". The documentation for both of these types is available from the main plug-in documentation pages.
+Implemented support for the new "Project Plugin" type that allows a plugin author to manipulate projects and the Protege UI as they are created. Documentation for this plugin type is available on our Web site.
+Added the capability for one plug-in to declare itself "dependent" upon another. Updated the 2.1 plug-in documentation to explain how to do this.
+The Instances tab and the "Pick Instances" dialog now allow you to select between showing all instances or only direct instances when a class is selected.
+The URLWidget can now display image files.
+Added additional configuration options to the Graph Widget that allow users to control the snap-to-grid functionality on the canvas. The new options are accessible from the View Properties tab in the widget configuration dialog.
+Created the UniqueStringWidget for acquiring a unique value for a slot. The values are tested for uniqueness against all frames in the entire knowledge base.
+Added the ability to enter an arbitrary Unicode character into any text component by typing the four character hex code and then pressing the key combination "Alt-x".
+Subslots with more than one parent now are displayed with a trailing "M" icon in the slots tab.
+Included a script to run the protege server on Unix machines (run_protege_server.sh).
+Added a property to allow the protege.properties file to be stored in the users home directory (rather than the default of the application installation directory). The property can be specified in the LAX file as:
+
+protege.properties.in.user.home=true
+
+On the java command line, the property can be specified as:
+
+java -Dprotege.properties.in.user.home=true ...
+Added a method called getInstallationDirectory to PluginUtilities so that a plugin can now discover what directory it is installed in.
+Added a method to the PluginUtilities class to find classes with particular attributes and values.
+Tabs can now have an "isSuitable" static method with a signature boolean isSuitable(Project p, Collection errors). If your tab won't work with a given project, then return false from this method and add a string to the errors collection explaining why. Some examples might be:
+
+     "Only works with OWL.",
+     "Doesn't work with OWL.",
+     "Hasn't been installed completely. See the readme."
+     "Can't handle projects with >10000 frames."
+     "Requires foo.pprj to be included."
+
+This method will keep your tab from being selected by a user for projects that it cannot handle and doing lots of bad things.
+The Instances tab now displays sorted instances.
+Replaced the redundant "attached classes" panel in the slots tab with a "superslots" panel. Navigation with this panel directly parallels that of the superclasses panel in the classes tab.
+The constraints slot widget no longer allows values to be set on included classes and the default back-end no longer stores these values.
+Added a method on FrameEvent to return the "old values" on an ownSlotValueChanged event.
+The server "connect" panel now shows the user's machine name for connected users.
+The server now preloads all projects by default. This behavior can be disabled by passing the server the "-noprelaod" option.
+Modified the "create subslot" code to automatically create the appropriate inverse slots for subslots of slots with inverses.
+Refactored SystemUtilities and created a class PluginUtilities that contains about half of it's methods.
+Added "domain" slot to the slots form.
+The template slots value widget can now be removed from the slot form.
+Removed borders from toolbar buttons except when the mouse is over them.
+Modified layout algorithm to generate 3 columns on larger forms.
+Made default column size slightly narrower.
+Modified form "stretching" algorithm to not stretch forms vertically.
+Modified the way the current file encoding is determined before it is printed out when the program loads in order to handle some "problem cases". More information is available in a post from our discussion list archive.
+Removed the User's Guide and Tutorial from the standard distribution. The Help items now go to our Web site.
+Removed bolding from fonts in the Metal UI.
+Added the capability for arbitrary frames to be marked hidden with the API.
+Modified the "About Box" to be moderately less ugly than it was previously.
+Changed the text returned when the "browser display slot" value is not set. Now just the instance name is returned.
+Added a "getClsWidget" method to AbstractSlotWidget.
+Raised the visibility of some methods in DefaultFrameFactory.
+Improved the error message for handling a missing JDBC driver.
+Revised the implementation of FrameID (should be transparent to everyone).
+Changed the "Import" menu item text to be more descriptive.
+The system now prints the text for "cannonical" name rather than the "historical" name for the file encoding on startup.
+Configuring tabs no longer causes all tabs to be regenerated.
+Bug Fixes
+
+The allowed-values for included symbol slots can no longer be edited.
+Implemented the KnowledgeBase.isValidOwnSlotValue() method.
+The "add superslots" panel on the slots tab no longer allows you to set up recursive slot inheritance hierarchies.
+Added "..." as appropriate to some items on the Project menu.
+The "add slot" button on the template slot widget now allows you to pick a slot which is not an instance of the default metaslot.
+Fixed a problem that caused exceptions to be thrown if system slots like :DIRECT-SUPERCLASSES got attached to something that was not a class and then the user attempted to set a value.
+Fixed a problem that occasionally caused part of the slot cardinality multiple widget to become obscured.
+Fixed a problem that caused sample projects in the multi-user system to not load on Unix platforms.
+Fixed a problem that caused deleted frame events to appear to not propagate to clients in the multi-user client.
+Fixed a problem that caused KnowledgeBaseEvents to have no "source" object in the multi-user client.
+Fixed a problem that caused the "save interval" feature on multi-user file projects to not work at all.
+Fixed a problem with graph widget "elbows" getting lost.
+Fixed some graph widget code that was causing the display to be updated more frequently than required.
+Removed calls to methods that have been deprecated in JDK 1.5.
+Fixed a problem with the plug-in dependency mechanism.
+The About Box now shows up when Protege is running under JDK 1.5 beta.
+Disallowed in-place editing of node text in the graph widget when multiple display slots are configured.
+Fixed problem in the graph widget with not being able to "draw" reified relations between nodes.
+Prevented "archive" on new projects (which used to throw exceptions).
+Put in work around for metrics panel header display problem on Mac.
+Fixed problem with "errors window" going to the back on load.
+Fixed problem which caused duplicate delete class events.
+Launching a browser for displaying help now works on the Mac.
+Fixed a number of problems with Undo, most of which were related to UI operations requiring multiple Undo actions. All UI operations should now just require a single "undo" action to reverse. Note that this change required some modifications to the "handleRemove" protected methods for most of the standard cardinality multiple widgets. If you've subclassed one of the standard widgets to override this functionality, your widget may now be broken.
+Removed some useless information that was being written to the PINS file.
+Fixed a bug in the graph widget that was preventing "Undo" from working when adding/removing nodes from the graph.
+Fixed some broken links on the "index.html" page that is installed in the root directory and points to local and on-line Protege documentation.
+Modified "create inverse slot" code to automatically create an inverse slot that has the correct allowed-classes, domain, and superslots.
+Made some hacks so that subslots of :DIRECT-TEMPLATE-SLOTS behave more "correctly".
+Fixed a number of API methods that didn't work when accessing a project on the server.
+Journaling now works.
+Fixed a problem which caused "java packages" classes not to load from a plugin directory.
+Fixed behavior of subslots so that the correct attributes are inherited from their superslots.
+The CLIPS back-end no longer creates and then deletes a class as a side effect of doing a save.
+Fixed a problem with plug-in dependency mechanism when dependent plug-ins are missing.
+Fixed a problem in the multiuser version that caused clients to stop updating.
+Worked around a problem that would show up intermittently when writing a knowledge base to MS Access.
+Fixed a problem in the Graph Widget that was causing nodes added programmatically (rather than through drag and drop) to draw into negative space behind the palette.
+Cleaned up the display of the "Configure Tabs" panel.
+Fixed a problem that caused the "Project Load Error" window to hide behind the application window.
+"Save" menu items are now disabled for the multiuser client.
+Fixed a "slot at class" update problem in InstanceDisplay.
+
+
+
+Protege 2.0.1 Release Notes  February 13, 2004
+Please note that there is only one code change in this update which fixes a bug in the Graph Widget. 
+
+
+Protege 2.0 Release Notes  February 4, 2004
+Enhancements
+
+The "brower slot" has been renamed in the UI to be the "Display Slot". More significantly, you can set the "display slot" directly in the Instances tab. We have also changed the text displayed when the "display slot" is not set so that it is more informative. We hope that these changes will help to clear up one of the more confusing issues for beginners trying to figure out the system.
+
+All project and file references are now done by URI. Read more about this below.
+
+Created simple ImageWidget to display the contents of an image. The image location is the value of a string slot. The path can be either an absolute URL or relative to the project file.
+
+Created simple URLWidget to display the contents of a URL. The URL is the value of a string slot. The path can be either an absolute URL or relative to the project file.
+
+Changed the way that the file encoding is specified in order to make this less error prone.
+
+Added the ability to specify browser text that depends on more than one slot.
+
+The text of nodes in the Graph Widget is now centered.
+
+The "look and feel" that you select is now remembered across invocations of the program.
+
+You can now insert FrameStore implementations into the FrameStore chain. This is done via the KnowledgeBase.insertFrameStore call. You can also get the current FrameStore chain (via KnowledgeBase.getFrameStores) and insert your framestore at an arbitrary location.
+
+Added a feature to allow forms to be customized to not "stretch" when they are displayed. This feature is accessed by selecting "<<NONE>>" from "select stretcher" items on the "Layout" pane of the form configuration dialog.
+
+Added a project level event for the creation of "runtime" forms.
+
+Changed the Knowledge Base API to uniformly return unmodifiable collections. Previously, the API returned unmodifiable collections in some cases and modifiable ones in other cases. This led to lots of confusion.
+
+Added the ability to override the type names reported by the JDBC driver for all column types used by the database back-end. Previously this ability just existed with the LONGVARCHAR type. The mechanism is the same as before: to override a type name you set a JAVA property (either on the command line or in the LAX file). The names for the properties are:
+
+Database.typename.longvarchar
+Database.typename.varchar
+Database.typename.integer
+Database.typename.small_integer
+Database.typename.tiny_integer
+Database.typename.bit
+Database.typename.char
+
+
+You only have to worry about setting one or more of these if the system cannot create a table in your database because of problems with your JDBC driver.
+
+The standard text components now commit their changes when the user presses the "Enter" key.
+
+Created application properties to enable tracing of SQL calls in the database back-end: database.tracing.query=true, database.tracing.update=true
+
+Added the ability to control the number of instances that the direct instances widget will sort: ui.DirectInstancesList.sort_limit=1000
+
+Removed some less than useful information from the metrics panel.
+
+Refactored DefaultKnowledgeBase code so that it can be subclassed more easily.
+
+Removed the DiagramWidget from the distribution.
+
+Implemented code to test for and correctly dispatch get/set own slot values calls on system slots (such as :DIRECT-SUPERCLASSSES). You can now call, for example, setOwnSlotValues on the slot :DIRECT-SUPERCLASSES and it will "do the right thing".
+
+Added the ability to read in projects in the local machine file encoding and write out UTF-8. Read more about this below.
+
+Reimplemented the ability to set the "default class metaclass" in the UI. This metaclass is only used when creating subclasses of :THING. Otherwise, you get the metaclass of your parent.
+
+Put some checks into the API to prevent the default class/slot metaclass being set programmatically to something that is not a class/slot metaclass.
+
+Added a "View in Browser" button to the URL Widget.
+
+Frames from different knowledge bases no longer compare equal, independent of their frame id values.
+
+Deleting a slot now causes "direct template slot removed" events on all classes that it is directly attached to.
+
+The "Archive Revert" dialog now has the last archive selected by default.
+
+Refactored the FileUtilities class and moved a bunch of methods to the new URIUtilities class.
+
+Made some performance improvements in file loading/saving.
+
+Added documentation about saving of file-based projects in the multiuser version.
+
+Added the ability to specify a port for the Protege server to use. You can specify this port with the java command line option -DProtege.rmi.server.port=N. This is useful when running the server behind a firewall. Now only the rmiregistry port and the Protege server port need to be opened in the firewall.
+
+Deleting a frame no longer removes the frame ID from the object. This change may make it easier for programmers to track down (or avoid) some sorts of problems.
+
+The method Frame.hasBeenDeleted() has been renamed to Frame.isDeleted() to work better with undo (where deleted frames can be undeleted).
+
+FileField is changed so that it can optionally acquire directories. Thanks go to Stanley Knutson for contributing this code.
+
+Specifying slot type INSTANCE with no allowed-class value is now interpreted to allow any value. Previously it allowed no value and this behavior was inconsistent with the notion of a constraint.
+
+Made some performance improvements to address the needs of projects with large numbers of template slots attached to :THING (i.e. OWL projects).
+
+Added a subinterface to KnowledgeBaseFactory (called KnowledgeBaseFactory2) to allow a factory to modify the knowledge base before the user executes a save to another format.
+
+Moving widgets on the Forms tab with the arrow buttons on the keyboard now causes the Forms on other tabs to update (just like moving the widgets with the mouse does).
+
+Added a search field to the slots tab.
+
+The API now blocks attempts to set a frame name to either null or to a name already used. An exception is thrown.
+
+The various setAllowedClses/Parents/Values calls now remove duplicate values.
+
+Made some performance improvements to DefaultRenderer.
+
+Made some paint methods in DefaultRenderer protected.
+
+Changed the behavior of the "direct domain" slot for subslots. The value is no longer inferred from superslots.
+
+Bug Fixes
+
+Fixed a problem that was preventing users from drawing reified relations in the graph widget when using the database back-end.
+
+Fixed a problem in the graph widget that was causing a null pointer exception in some situations.
+
+Fixed the Frame.getOwnSlotDefaultValues() call.
+
+Fixed a problem with the Queries Tab throwing null pointer exceptions on some pick list operations.
+
+Fixed a problem with default values not propagating correctly.
+
+Fixed an obscure problem with a default value for the :DIRECT_SUPERCLASSES slot.
+
+Fixed a problem with the Cls.getBrowserSlot() method call.
+
+Fixed a problem which caused template slot values to show up twice in some situations.
+
+Fixed a problem with drag and drop on the Mac that caused classes to "disappear".
+
+Forms now update correctly when slots attached to :THING are changed.
+
+Float and integer field widgets no longer throw exceptions when they have no value.
+
+Fixed a problem with custom instances/subclasses of :INSTANCE-ANNOTATION.
+
+Fixed a problem with some overridden slots not showing up as overridden in the template slots widget.
+
+Exceptions generated in startup code are now caught so that the system will come up even if there are strange problems.
+
+Made CLIPS save mechanism more robust in the face of some types of KnowledgeBase corruption.
+
+Fixed a problem with selection in the instance table widget with the windows look-and-feel installed.
+
+Removed the "hashcode called for deleted frame" trace message.
+
+Made some corrections to direct-type slot facet overrides on several system frames.
+
+Fixed a problem with the BooleanList widget.
+
+Fixed some problems with listeners on deleted frames. It is now no longer necessary to detach listeners from deleted frames (but it is harmless to continue to do so).
+
+Fixed a problem with forms not updating immediately when a slot value type is changed.
+
+Fixed UI bug which prevented users from overriding instance and class type slots.
+
+Fixed a problem with "include" for new projects.
+
+Changing the value-type of a slot now clears out all values of the slot.
+
+Made CLIPS back-end somewhat more robust in the face of problems with the input files. You are now more likely to get a "partial load" of your files rather than a complete failure.
+
+Fixed a bug in the Graph Widget that was causing text not to be positioned properly the first time a user drops a node onto the view from the palette.
+
+Fixed a number of problems where new dialogs did not get the focus appropriately. This made editing more clumsy than it has to be. This problem affected the "yellow stickies" and a number of places where integers, floats, and symbol values were input.
+
+Fixed a number of places where "NumberFormatException" was thrown when the user attempted to enter an integer or a float.
+
+Fixed a problem with the CLIPS parser not accepting slots as facet values. Thanks go to Reiner Borchert for sending in this patch.
+
+Fixed a UI update problem with dragging and dropping slots to create subslots in the Slots tab.
+
+Fixed slot default values and template values to be removed if a change to the value type (type, allowed values, allowed classes or allowed parents) makes it no longer valid.
+
+Fixed a problem with symbol allowed values being discarded on the load of a project.
+
+Fixed a problem with setValueType() removing information under some circumstances.
+
+Fixed the Getting Started button on the Welcome dialog to show the Getting Started tutorial instead of a file not found error.
+
+Fixed a problem that caused the values for inverse slots to get duplicated on a save/load cycle.
+
+Fixed a problem that caused the API call Project.isDirty() to return false even though instances had been created.
+
+Fixed a number of problems with event generation including:
+
+missing add/remove sub/super slot events
+missing ownSlotValueChanged events on calls such as KnowledgeBase.addDirectSuperclass
+
+
+Fixed a problem that caused PPRJ files to grow every time they are saved.
+
+Fixed a problem with sorting frames with an empty string as their display name (browser text).
+
+Fixed a problem which caused saving to a new directory and importing to fail for both the Clips and RDF back-ends.
+
+Fixed a problem with drag and drop throwing exceptions in some situations.
+
+
+
+
+Protege-2000 1.9 Release Notes
+August 8, 2003
+
+Release Highlights
+Protege now requires JDK 1.4.
+The standard Protege installation no longer comes with the Xerces 1.4 XML parser. We now use the Java API for XML Processing (JAXP) specification and Crimson parser implementation that are bundled with JDK 1.4. If you install version 1.9 without without uninstalling older versions, you should delete the xerces.jar file from your plugins subdirectory to avoid XML parser conflicts. If you want to use a plug-in that requires a different XML parser, there are a couple of steps to perform to avoid parser conflicts. In the jre/lib directory of your JDK 1.4 installation, create a new subdirectory called endorsed. Move your XML parser JAR file from the Protege-2000/plugins directory to the jre/lib/endorsed directory. If you are curious, this rather strange procedure is explained in more detail by Sun.
+The diagram widget is read-only in this release and will be removed entirely in the next release. Please update your projects to use the graph widget. General documentation for the graph widget, as well as conversion instructions are available on our Web site.
+We removed the RDF back-end from the standard Protege installation. It is now available for download from our plug-ins library
+Enhancements:
+
+Added a Remove ("-") button to the graph widget to allow removal of nodes.
+Updated the graph widget to allow user-defined colors for nodes, node text, and connectors.
+Added the ability to hide label text on simple connectors in the graph widget.
+Added the ability to create reified relations outside of the graph widget and then have them show up in the graph.
+Added a method to the GraphDocument class called "getNodeRectangle()" that allows programmatic access to node position in the graph widget.
+Deleting simple connectors in the graph widget using the Delete button/key updates the list of own slot values on the source node's connector slot.
+Projects can now be loaded from a JAR file.
+Added a "copy" button to the direct instances list on the Instances tab. You can make either shallow or deep copies. (Contributed by Vsevolod Ilyushchenko).
+Added capability to create a new instance from the template slots value and default value widgets.
+Added a hook to AbstractSlotWidget to allow a user to catch calls to "showInstance" (the "V" view button) and do something special with them.
+Added a property to the Protege-2000.lax file called "UMLSTab.dbyear" that allows users to specify the release number of Metathesaurus data to query in the UMLS Tab.
+Bug Fixes
+
+For HTML generation, removed links to instances from class HTML page when instance HTML pages are not generated. (Contributed by Samson Tu).
+For HTML generation, removed the phrase "Class slot documentation: " from slot documentations. (Contributed by Samson Tu).
+For HTML generation, gave class documentation appropriate heading. (Contributed by Samson Tu).
+Fixed various javadoc warnings.
+Fixed problem that caused the CLIPS backend to not save slot constraint constraints.
+On Mac OS X, Protege now launches with the correct version of the VM (which is 1.4 and above).
+Fixed HTML generation to write out the correct encoding (usually UTF-8).
+Fixed RDF backend to write out the correct encoding.
+Fixed a problem with highlighting of nodes and connectors in some circumstances in the graph widget.
+Fixed a problem on the slots form that caused buttons on the default-values and template-slot-values widgets to be disabled inappropriately at times.
+Incorporated a fix for a problem with recursive inclusion not being detected in some situations. Thanks go to Thiru Vidai for sending us this fix.
+Fixed Graph Widget bug so that text editing on node and reified relations labels when the :NAME slot is the form browser key now works.
+Fixed Graph Widget bug so that the Remove ("-") button is no longer enabled on instances of the Graph Widget in included projects.
+Fixed a problem that caused the system not to be able to load a file based project after loading a project from a jar.
+Fixed graph widget bug so that text of reified relations is now updated when users change this value via an instance form.
+Fixed a problem with window positioning on systems with virtual screen capabilities.
+Fixed a problem that occurred when a slot has both template value and default value specified. Now the template values "win".
+Fixed a problem that caused a stack dump when a change to a template slot value was canceled.
+Fixed a problem that made it impossible to override the allowed-classes in some situations.
+Fixed a problem that caused the system to only recognize projects in jar files when they are passed in on the command line (and not, when passed in programmatically through a call to "new Project()").
+Fixed graph widget so that adding an own slot value to a node's connector slot via an instance form now updates the graph's display.
+Fixed graph widget so that removing an own slot value from a node's connector slot via an instance form now updates the graph's display.
+Fixed a problem which caused the application to crash if you included a project in itself.
+Worked around JDK 1.4 problem that caused tabs to get "shown" events when the project is closed.
+Fixed problem with PAL constraints in the Newspaper example.
+Fixed problem with overriding class-type template slots so that only "narrowing" operations are now permitted.
+Fixed a problem with the template slot value and default values widget not allowing a value to be entered in some situations involving overriding.
+Fixed problem with generated HTML documentation slot.
+Fixed a problem with KnowledgeBase.hasDirectlyOverriddenTemplateSlot().
+Fixed some problems with the return values from several of the facet override testing methods on knowledge base.
+Fixed a problem with cardinality single slot widgets displaying template slot values in some cases.
+Fixed a problem which caused the template and default values slot widgets on overridden slots to allow incorrect values.
+Fixed a problem that sometimes caused text own slot values to not get updated in the KB after they were changed on a widget.
+Fixed a problem with "create slot using metaclass" menu item not allowing a user to select a metaslot.
+Fixed a problem that caused the Graph Widget to fail when slot overrides exist at the class level.
+The template slots widget now pays attention to the facets on the template-slots slot.
+The widget for overriding allowed classes now just allows you to narrow the selected class.
+The Frame.setName() call now generates an OWN_SLOT_VALUE_CHANGED event for the :NAME slot.
+Long slot widget labels no longer appear on top of the buttons for the widget.
+
+
+Protege-2000 1.8 Release Notes
+April 9, 2003
+Release Highlights
+
+A new version of the Graph Widget (formerly known as the Diagram Widget) which is an alternative to forms for populating instances of classes in Protege. It is particularly useful for visualizing networks of instances and relationships between instances. The Graph Widget has many new features and enhancements such as greatly improved selection appearance for nodes and connectors, labeled connectors, in-place text editing for node and connector labels, two different types of connectors to choose from, and the ability to add multiple points to connectors. Also, we no longer store graph specific information such as node size and position in the ontology thus eliminating the need to include the "diagram.pprj" project when working with the Graph Widget.
+Several valuable new plug-ins were recently posted to our plug-ins library. The "XML Backend", developed by John Gennari and Ching-Ping Lin stores ontologies in XML format. The output from this back-end is an XML file that validates against an XML Schema describing the Protege knowledge model. The "UML Backend", developed by Holger Knublauch, allows ontologies to be stored as UML class diagrams. The "TGVizTab", developed by Harith Alani, allows visualization of ontologies as interactive 3d networks.
+Enhancements:
+
+Provided a new version of the Graph Widget. We've posted a Web page (http://protege.stanford.edu/doc/tutorial/graph_widget/) with the following information:
+Documentation on how to use the new version of the widget.
+Major differences between the old and new versions of the widget.
+List of new features.
+List of enhancements.
+Known bug list.
+Known feature request list.
+Changed the way manifest files are processed. This change will allow users who run protege from the command line (or from another process) to put plug-in JAR files on the class path and still have the system detect the plug-ins. Previously, Protege would only detect plug-ins located in the plug-ins directory.
+The default (CLIPS) back-end now supports any sequence of characters (including punctuation characters) for class, slot, or instance names.
+Changed the mechanism for include so that you can now remove and replace included projects. This mechanism also prevents you from adding included projects from other directories. Any change to the list of included projects now forces a save and reload.
+Forms for instances are now explicitly constrained to be smaller than the screen size. On Windows this was always the case but on the Mac there were problems with large forms. Larger forms should now scroll on both platforms.
+Made UTF-8 the default file encoding. This change was made to allow users to more easily share files. You can return to the default system encoding by editing the protege-2000.lax file and removing the "UTF" line. If you have projects that use another incompatible encoding we suggest that you migrate them to UTF-8 using the "nativetoascii" translation program available from Sun (or one of the other character set conversion programs available on the web).
+We added two new system classes ":RELATION" and ":DIRECTED-BINARY-RELATION". If any of your projects have classes with either of these names, you should rename the conflicting classes before installing this build.
+The installation now includes an example Mac applescript ("run_protege.applescript") for running Protege from the command line. Thanks go to Monica Crubezy and Natasha Noy for providing help with this.
+The installation now includes an example UNIX shell script ("run_protege.sh") for running Protege from the command line. Thanks go to Monica Crubezy and Zach Pincus for providing help with this.
+Removed several hundred unneeded import statements and variable declarations from the source code.
+Upgraded to JUnit 3.8.1. If you compile our source code, you'll need to download the new version of this JAR file from http://www.junit.org/index.htm.
+Using the Project | Save As... menu item to save projects under a new name and/or location now adds an entry to the most recently used project list. (The most recently used project list can be accessed from the Project | Open Recent menu item).
+The InstanceTableWidget now has optional buttons that allow items to be reordered.
+Added a "browser.html" property to the protege.properties file for the display of HTML files on non-MS Windows systems. Windows systems always use the "default browser" for display. Non-windows system may set this property (by editing the file) to the browser that they want to use.
+Added InstanceList/FieldWidget.setShowNewInstances(boolean) API call to allow a programmer to turn off the automatic display of a form when a user creates a new instance.
+Added instance name to the instance title bar when the name is different from the browser text.
+Added ClsWidget.getSlotWidget(Slot) call to provide API programmers direct access to slot widgets.
+Added a public method Form.highlight(Slot, Color) that gives API programmers the ability to highlight a given slot widget programmatically.
+The methods on widgets to add toolbar buttons and menu items may now be called from the initialize() method. Previously they only worked if called in addNotify() or later.
+Renamed Project get/set propertyMap to Project get/set client information to parallel the similar concept on the KnowledgeBase class.
+Added javadoc to a number of methods throughout the source code. Also added class documentation comments to every class in the core Protege system.
+The "Ugly Slot Widget" now displays the slot with which it is associated.
+Cleaned up the source code for many of the "standard plug-ins".
+Added a new method "getFramesWithValue" on KnowledgeBase to allow a user to lookup frames which have a particular value as a slot or facet value.
+Made several "private" methods "protected" to aid users in subclassing.
+Modified the database back-end so that it recovers if there are intermittent connection problems with the database.
+Removed the empty Edit menu from the main menu bar.
+Increased the initial size of some internal buffers.
+Protege icon now shows up on the Mac OS X.
+Updated list of sponsors in the About Box.
+Plug-in Enhancements
+
+Changed the RDF back-end so people can now attach :NAME to user-defined classes (only :NAME, not other system frames - the Protege and RDFS knowledge models are too different to allow this in general). Thanks go to Michael Sintek for making this change.
+Modified PAL parser to accept Unicode characters. Pal constraints can now accept non-ascii characters.
+Updated the pal_query project that's distributed with the standard release to have fields of PAL-Query configured to use the appropriate widgets.
+Bug Fixes
+
+Fixed problem which caused customized forms from included projects to get copied into an including project file. One side effect of this was that project files got very large when including other projects. This fix will not cause existing project files to get smaller however. To reduce their size you need to either rebuild them (Project | Import) or remove customizations from all forms on the Forms tab and then save. The latter can be done by selecting :THING on the forms tab and then selecting from the right mouse menu.
+Fixed manifests for all JAR files to comply with the standard.
+Template slot values now work better with cardinality single slot widgets.
+Made change to FrameDBStorage that prevents a "null pointer exception" on some searches done with the API.
+Made a change in the database back-end to prevent "null frames" from occurring in the collection returned by the getFrames() call.
+Restored "DeletedFrameException" on method access of deleted frames.
+Added test to prevent duplicate adds of direct superclasses, superslots, and template slots.
+Renaming a frame to have the same name as it currently has is now treated as a no-op rather than an error.
+Added changes so the software doesn't fail so gracelessly when you try to open a project that doesn't exist.
+Fixed problem that caused some system slots (such as documentation) to not get saved on some instances.
+Removed "debugging stack dump" on load of project with maximum-cardinality=0.
+Fixed a problem that caused the background on forms on the Mac (and sometimes on other platforms) to be nonuniform and ugly.
+Fixed an error in the run_protege.sh script that was causing it to fail for paths with spaces in them. Thanks go to Zach Pincus for contributing this fix.
+Fixed problem with the metrics dialog menu item appearing to hang the application when it's doing lengthy calculations.
+Fixed a problem which caused the "Import Project" dialog to not cancel properly.
+Implemented the KnowledgeBase.getSuperslots() method.
+Fixed a number of inconsistencies in the standard newspaper example.
+Fixed a problem with default and template values not working for integer and floating point types.
+Modified the clips back-end to handle a situation where an included project was changed and the including project would no longer load. The specific problem related to changing a slot type from INSTANCE to CLASS.
+Fixed a problem that caused old project frame names to sometimes appear with a '^' in them.
+Fixed error in protege.jar manifest line where '.' appeared rather than '/'.
+Fixed error in protege.jar manifest that caused "java -jar" command line execution to fail.
+Fixed problem in clips parser handling of '%' characters in frames names and symbols for old projects.
+Fixed a problem with inclusion that causes absolute paths to be put into the project file.
+Fixed a number of javadoc tag errors throughout the code base.
+Fixed problem that could occur when creating classes from the instances tab.
+Fixed a bug that showed projects names in the most recently used list that users deleted while running Protege.
+Fixed a PAL problem with some arithmetic and equality operations.
+Fixed a bug in our installation program that was causing the Protege program group to be empty on Windows XP.
+Fixed a problem with inverse slots and included projects.
+The PAL queries findall function now works.
+Incorporated a bug fix into InstanceReader.java in the XML Schema Backend. Thanks go to Rowland Johnson for this contribution.
+Fixed a problem with the database back-end. Some SQL escape syntax code introduced in one of the earlier beta builds appears to be unsupported by some JDBC drivers.
+"Change Direct Type" operation on instances now works on the Mac.
+The menu items on the "Help" menu now work on Windows XP.
+Fixed a problem which caused the "maximum cardinality" on the slots tab to display the wrong value.
+Fixed some CLIPS compatibility problems with standard_project.pont. Thanks go to Mike Clarkson for providing this fix.
+Fixed a problem which caused form changes to occasionally result in exceptions.
+Fixed problem with new "Changed Included Projects" dialog when it was called on a new project.
+Updated the "antlr.jar" file used by the PAL tabs. The old version of the JAR file was missing some class files.
+Fixed a problem in the file back-end that caused it to not interpret the '*' character for "getReferences" calls.
+Fixed some problems with the database back-end which caused it to not correctly match on strings with either a '%' or at '_' character.
+Fixed problem which caused the JDBC back-end query calls to not properly handle the '%' character.
+Fixed problem which caused security exceptions when you tried to run Protege as an applet.
+Fixed an index out of bounds exception caused by double clicking on an empty list item in the Welcome Dialog.
+Fixed the "All Topics" button on the Welcome Dialog to point to the proper HTML page.
+Removed cause of "listener not attached" messages which sometimes occurred on a project reload.
+Made database back-end more robust when encountering unexpected values.
+
+
+Protege-2000 1.7 Release Notes
+April 10, 2002
+Enhancements:
+
+A new "Welcome Dialog" is available when you launch Protege. Users can quickly open a new project, reopen a project from a most recently used list, or click one of several help buttons to access our User's Guide, FAQ, and tutorials. You can turn off the "Welcome Dialog" if so desired on the Project -> Configure... -> Options tab.
+The Project menu contains a new menu item called "Open Recent" which displays a list of the most recently used projects.
+You can now run Protege from the command line using the command: java -jar protege.jar.
+Form customizations of a class are now automatically "inherited" by subclasses. Previously you had to do a manual "customize subclasses" step with the consequence that your .pprj file could become quite large. This is no longer necessary. Instead the "customize subclass" right mouse item has been replaced with "remove subclass customizations".
+The RDF backend now supports user defined facets as well as preserving "yellow stickies" and pal constraints.
+For the JDBC backend there is now a way to specify the string used to create the LONGVARCHAR data type. Previously the system queried the driver and used the data type name in a CREATE TABLE call. Some systems (DB2) require a size for this parameter and the only way to get protege to work with these databases was to recompile the source. Now the entire datatype name can now be specified as the value for a java property "SimpleJdbcDatabaseManager.longvarcharname". The best way to set this variable is by setting the corresponding value in the protege.lax file. Note that you do not need to use this for most database systems.
+The template slots widget now sorts template slots differently. Previously all slots on a class appeared alphabetically. Now the direct slots appear first and inherited slots follow, grouped by class, as you walk up the class hierarchy. Slots are no longer sorted alphabetically, even within a group. The template slots widget can be customized to display arrow buttons that allow you to change the order of slots.
+The Help menu in Protege is now much more helpful. Updated the Help -> FAQ menu item to point to the FAQ on our Web site rather than a page that said "to be written". Also changed the text to "Frequently Asked Questions" for the purpose of clarity. Deleted the Help -> Shortcuts menu item which displayed an HTML page that said "to be written".
+Updated installer to now include a step which allows you to select the VM that you want to use. This is of use to those who download the "without VM" versions of Protege.
+You can now pass a URL for a project into Protege on the command line.
+Generate HTML now can optionally produce HTML documentation for instances. (Special thanks goes to Robert Voorn for contributing this code).
+Modified javadoc generation so that it links back to the JDK API documentation on the javasoft web site. Added javadoc documentation to the obscure model.ValueType class methods and some of the more obscure KB methods.
+Changed some Query tab default sizes so the default layout is nicer on small screens.
+There is a new method on ProjectManager that allows you to keep the VM from exiting when you close the Protege application.
+The browser text for slots is now used more consistently in the UI in place of the slot name.
+The "About box" now credits Protege Affiliates and funding agencies.
+The Clips backend now supports class names that contain an internal single quote character. (Names may not start with such a character however).
+Users can now set the slot maximum cardinality to zero. Note that the API method KnowledgeBase.getMaximumCardinality() now returns -1 if the maximum cardinality is not set (previously it returned 0).
+The value-type widget no longer accepts symbol allowed-values with spaces. These were never legal values but the widget previously allowed them.
+Set the "contextClassLoader" in the SystemUtilities static initializer to be the class loader that knows how to load from the plugins directory. This will usually result in the "main" thread having its contextClassLoader set to this value.
+Added a method SystemUtilities.getDefaultClassLoader() method to return the plugins directory classloader.
+Added index on JDBC backend database table for Oracle in order to improve performance of case-insensitive search.
+Plug-in Enhancements
+
+Removed built-in XML parser from rdf-api.jar and configured the system to use the Xerces XML parser (version 1.4.4).
+Modified the XML DTD and XML Schema backends in the plug-ins library so that they both use the same version of the Xerces XML parser. Repackaged these XML backends so that Xerces is an external JAR rather than included in the backend JAR.
+Added some missing class to the PAL distribution. PAL now comes as two jar files that need to go into the plugins directory: pal.jar and antlr.jar.
+Added a hook to several widgets to enable tab widgets to capture the "double click" operation.
+Bug Fixes
+
+Removed references to missing tabs at project load time. This also results in only "real" tabs showing up in the Project | Configure dialog.
+Fixed incorrect error message in "Warnings" panel on InstanceRowWidget.
+InstanceTableWidget and InstanceRowWidget no longer allow you to delete instances from included projects.
+Fixed a long standing problem that caused the database back-end to sometimes print out "duplicate frame id" error messages after the user creates frames. Thanks go to Daniel Rubin for providing a reproducible test case for this problem.
+Fixed a performance problem in the database back-end when talking specifically to Oracle RDBMS.
+Incorporated a fix from Michael Sintek for the RDF back-end concerning references to slots in included projects.
+Fixed problem that caused FormsTab to not update when forms are changed programmatically.
+Fixed a regression in the clips parser that caused exceptions when double quote characters were encountered in frame names.
+The "standard text" (clips) backend now accepts unicode escape sequences. This change addresses the problem that caused load-time failures with error messages that look like Lexical error at line N, column M. Encountered: "\u2019" ...
+Fixed bug that caused the clips backend to incorrectly handle strings which terminate in a "\".
+Fixed a bug that allowed a user to change the override of facets on included classes.
+Fixed a bug that caused hidden classes from included projects to behave incorrectly.
+Fixed a bug that caused cardinality multiple template slot values to multiply like rabbits in instances.
+Removed dead code that supported a very old version of the RDF backend.
+The database backend now works correctly with MS Access again.
+The Windows "Look and Feel" now displays included classes in the classes tree more clearly.
+The Welcome Dialog now remembers the opened project if you exit Protege by closing the console window.
+The "New" button on the "Welcome Dialog" now works correctly.
+Removed some unused menu items and tool bar buttons.
+Fixed the "Project | Include" menu item which did not result in included projects being set up correctly. (This wasn't a problem for previously included projects, just new ones).
+Fixed a problem wherein the project files grew without bound with each save.
+Fixed a problem wherein setting a template slot value for a slot would cause existing own slot values for that slot to not be displayed anymore.
+
+
+Protege 1.6.1 Release Notes
+Release Notes
+
+Protege now installs correctly on Mac OS 10.1.
+The About box for the 1.6 release still said "Beta".
+The splitter bar between classes and instances in the "pick an instance" dialog would sometimes come up all the way to one side. This has been fixed.
+The "UI" section of the release announcement refered to a "automatic recording of modification information feature" but, in fact, this feature was only available to users calling the api directly. In this update we have added a configuration option (in Project | Configure | Options) to enable this feature from the user interface. The feature is disabled by default because there is a performance penalty for using it.
+
+
+Protege 1.6 Release Notes 
+Release Notes
+
+Installation
+Linux and Solaris installation is now more reliable.
+JDK 1.3 is included in the "with VM" versions of all downloads.
+Mac OS X is now partially supported. The installation appears to work fine but the resulting application cannot be started by double-clicking. It must then be started from the unix command line. We hope that this problem will be addressed shortly by the company providing the installation software. When it is we will update the release.
+User Interface
+
+You can now create annotations which are attached to a frame. You create an annotation by clicking on the yellow "C" button at the top of each form. Annotations are displayed as "yellow stickies" on the form. They can be used to capture design information or just to make notes about a frame for future reference.
+The customization of a form for a class is now inherited by the form for each subclass.
+You can now create and override your own facets on a slot. You do this by adding a template slot to a subclass of :STANDARD-SLOT.
+We have updated the RDF backend so that it supports all the new features. In addition, you can now save PAL constraints with this backend.
+There is a custom editor for entering PAL constraints. It provides assistance with PAL syntax and information on available predicates, functions, and their arguments.
+The system can now automatically record such things as author and creation/modification times for frames and slot values. This recording can be enabled for the instances of a class by attaching one or more of the slots :CREATOR, :CREATION-DATE, :MODIFIER, :MODIFICATION-DATE to the class.
+Programmer Interface
+
+We changed the implementation of a number of widgets and components to make them easier to modify and extend
+We instrumented the knowledge base API to check the arguments for all methods before performing any action. This should make it easier to debug protege plugins. Method calls with invalid parameters now throw exceptions.
