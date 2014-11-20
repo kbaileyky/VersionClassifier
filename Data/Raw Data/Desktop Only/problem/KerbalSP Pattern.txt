@@ -1,5 +1,39 @@
 v\d+(\.\d+)+
 \d+(\.\d+)+
 \d+(th|st|rd|nd)?\s(J|F|M|A|S|O|N|D)\w*\,?\s\d{4}
-dd MM, YYYY
-
+dd MMM yyyy
+d MMM yyyy
+dd MMMM, yyyy
+d MMMM, yyyy
+d\s\t MMMM, yyyy
+dd\s\t MMMM, yyyy
+d\r\d MMMM, yyyy
+dd\r\d MMMM, yyyy
+d\n\d MMMM, yyyy
+dd\n\d MMMM, yyyy
+d\t\h MMMM, yyyy
+dd\t\h MMMM, yyyy
+d\s\t MMMM yyyy
+dd\s\t MMMM yyyy
+d\r\d MMMM yyyy
+dd\r\d MMMM yyyy
+d\n\d MMMM yyyy
+dd\n\d MMMM yyyy
+d\t\h MMMM yyyy
+dd\t\h MMMM yyyy
+d\s\t MMM yyyy
+dd\s\t MMM yyyy
+d\r\d MMM yyyy
+dd\r\d MMM yyyy
+d\n\d MMM yyyy
+dd\n\d MMM yyyy
+d\t\h MMM yyyy
+dd\t\h MMM yyyy
+d\s\t MMM, yyyy
+dd\s\t MMM, yyyy
+d\r\d MMM, yyyy
+dd\r\d MMM, yyyy
+d\n\d MMM, yyyy
+dd\n\d MMM, yyyy
+d\t\h MMM, yyyy
+dd\t\h MMM, yyyy

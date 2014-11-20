@@ -717,7 +717,7 @@ Bug Fixes and Tweaks:
 	•	Removed an unused asset from the tracking station scene, which was taking up memory without adding anything.
 	•	Fixed a problem that could cause parachutes to despawn when travelling at high speeds.
 v0.17
-Released 19th Sept, 2012
+Released 19th Sep, 2012
 New:
 	•	Internal Cockpit Views: The first iteration of the IVAs (Intra-Vehicular Activities) feature set.
 	•	Multiple Player Saves: You can now have multiple ongoing game sessions, as each save is kept in its own folder (instead of all using the saves/default one).
