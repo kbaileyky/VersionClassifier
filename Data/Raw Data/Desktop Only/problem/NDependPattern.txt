@@ -1,9 +1,15 @@
-Version\n\d+(\.\d+)+
+(\d+(\.\d+){2,3}(\sRC|\n|\s(.*\)))|\*\*\d+(\.\d+)+)
 \d+(\.\d+)+
 \d{1,2}(th|st|rd|nd)?\s(of\s)?(J|j|F|f|M|m|A|a|S|s|O|o|N|n|D|d)\w*\s\d{4}
-MMMM d, yyyy
-MMMM dd, yyyy
-MMMM d yyyy
-MMMM dd yyyy
-MMM d yyyy
-MMM dd yyyy
+dd MMM yyyy
+d MMM yyyy
+dd MMMM yyyy
+d MMMM yyyy
+d\s\t \o\f MMMM yyyy
+dd\s\t \o\f MMMM yyyy
+d\r\d \o\f MMMM yyyy
+dd\r\d \o\f MMMM yyyy
+d\n\d \o\f MMMM yyyy
+dd\n\d \o\f MMMM yyyy
+d\t\h \o\f MMMM yyyy
+dd\t\h \o\f MMMM yyyy

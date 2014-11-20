@@ -1,5 +1,5 @@
-Version
-5.4.1.8430
+﻿Version
+**5.4.1.8430
 Date
 15th of September 2014
 Description
@@ -19,7 +19,7 @@ Some misleading message could appear when a problem occured while attaching or d
 
 
 Version
-5.4.0.8391
+**5.4.0.8391
 Date
 1st of August 2014
 Description
@@ -59,7 +59,7 @@ More information are provided in the bug log when an exception occurs while load
 
 
 Version
-5.3.0.8360
+**5.3.0.8360
 Date
 17th of June 2014
 Description
@@ -81,7 +81,7 @@ A new Power Tool named "Dated Log Trend Values" is now provided to show the vari
 
 
 Version
-5.2.1.8320
+**5.2.1.8320
 Date
 26th of February 2014
 Description
@@ -95,7 +95,7 @@ Concurrency issue resolved while loading analysis result in the UI.
 
 
 Version
-5.2.0.8280
+**5.2.0.8280
 Date
 29th of January 2014
 Description
@@ -148,7 +148,7 @@ When DPI was higher than 100%, in VisualNDepend.exe closing an Analysis Result S
 
 
 Version
-5.1.0.8180
+**5.1.0.8180
 Date
 28th of November 2013
 Description
@@ -211,7 +211,7 @@ In VS, attaching the currently opened project to the currently opened VS solutio
 
 
 Version
-5.0.0.8085
+**5.0.0.8085
 Date
 26th of September 2013
 Description
@@ -969,7 +969,7 @@ Date
 15th of February 2010
 Description
 Features: VisualStudio Integration 
-Integration of all VisualNDepend panels in VisualStudio 2010, 2008 and 2005.
+Integration of all VisualNDepend panels in VisualStudio 2010, 20<<Some Versions>> 2005.
 A global NDepend menu lets access any of these panels.
 All NDepend features are available on right-clicking anything that can be recognized as a code-elements in the Code Editor and Solution Explorer.
 Possibility to place some NDepend menus at the first level of the code element contextual menu.
@@ -1439,7 +1439,7 @@ Date
 Description
 
 CQL 1.7: 
-Support for harnessing code coverage data importing from NCover 2.x or VisualStudio TeamSystem (2005 or 2008) 
+Support for harnessing code coverage data importing from NCover 2.x or VisualStudio TeamSystem (<<version>>> 2008) 
 Metrics: 
 - PercentageCoverage available for Assemblies Namespaces Types Methods 
 - NbLinesOfCodeCovered available for Assemblies Namespaces Types Methods 
@@ -1529,7 +1529,7 @@ When opening an Url or a Report from VisualNDepend, VisualNDepend now use the de
 
 
 Bug fix:
-The NDepend addins XML files for VisualStudio 2005 and 2008 are now installed under the LocalUser settings. Windows Vista refused to install them under AllUser settings.
+The NDepend addins XML files for VisualStudio <<some version>> and 2008 are now installed under the LocalUser settings. Windows Vista refused to install them under AllUser settings.
 When closing an analysis, the Error List might not be emptied under certain conditions.
 On CQL intellisense, when the currently edited word was alphabetically lower than the first intellisense proposition, the intellisense proposed the last proposition instead of the first one.
 Regression bug: When selecting a CQL query with Warning or Error status on the CQL query list, the status description was not updated in the status bar. 
@@ -1810,7 +1810,7 @@ CQL 1.3:
 Version
 2.0.6.676 (Trial Edition) / 2.0.6.677 (Professional Edition)
 Date
-21 fev 2007
+21 feb 2007
 Description
 Bug fix : initializing a project from a Solution file that references some Web
 
@@ -1818,7 +1818,7 @@ Bug fix : initializing a project from a Solution file that references some Web
 Version
 2.0.5.661 (Trial Edition) / 2.0.5.662 (Professional Edition)
 Date
-13 fev 2007
+13 feb 2007
 Description
 Quick selection of assemblies to analyze from VisualNDepend.exe
 Support for Windows 64 bits
@@ -1828,7 +1828,7 @@ Bug fixes.
 Version
 2.0.4.640 (Trial Edition) / 2.0.4.641 (Professional Edition)
 Date
-01 fev 2007
+01 feb 2007
 Description
 Availability of Trial and Professional Editions (Not in betas anymore).
 Ability to choose between relative and absolute pathes to your assemblies in NDepend project XML files.

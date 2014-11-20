@@ -1,4 +1,4 @@
-((Version\s)\d+(\.\d+)+\sreleased|\d{1,2}(\.\d{1,2}){1,2}\n)
+(\*\*\d{1,2}(\.\d{1,2}){1,2}|(Version\s)\d+(\.\d+)+\sreleased)
 \d+(\.\d+)+
 (J|F|M|A|S|O|N|D)\w*\s?\d{1,2}(th|st|rd|nd)?(\,|\.)?\s?\d{4}
 MMMM d, yyyy

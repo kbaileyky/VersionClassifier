@@ -1,4 +1,4 @@
-﻿8.2.3
+﻿**8.2.3
 Release Date: September 29, 2014
 Desktop Build Number: 8200.14.0925.1717
 Server Build Number: 8200.14.0925.1717
@@ -13,7 +13,7 @@ Tableau Desktop: 21 updates
 Tableau Server: 17 updates
 Tableau Mobile: 1 updates
 
-8.2.2
+**8.2.2
 Release Date: August 21, 2014
 Desktop Build Number: 8200.14.0819.2015
 Server Build Number: 8200.14.0819.2015
@@ -22,7 +22,7 @@ Tableau Desktop: 30 updates
 Tableau Server: 12 updates
 Tableau Mobile: 2 updates
 
-8.2.1
+**8.2.1
 Release Date: July 24, 2014
 Desktop Build Number: 8200.14.0720.2105
 Server Build Number: 8200.14.0720.2105
@@ -30,7 +30,7 @@ Tableau Desktop: 22 updates
 Tableau Server: 9 updates
 Tableau Mobile: 1 updates
 
-8.2
+**8.2
 Tableau 8.2 introduces many new capabilities that expand your ability to access and analyze data. The release includes the first-ever Mac OS version of Tableau Desktop, Story Points for interactive, data-driven storytelling, a more visual connection experience with data previews and improved experience in defining data table joins, and updated maps, in addition to enhancements to simplify administration and support of Tableau Server.
 
 See what's new in Tableau <<Some Versions>>
@@ -42,7 +42,7 @@ Tableau Desktop: 22 updates
 Tableau Server: 20 updates
 Tableau Mobile: 1 updates
 
-8.1.11
+**8.1.11
 Release Date: September 29, 2014
 Desktop Build Number: 8100.14.0914.1345
 Server Build Number: 8100.14.0914.1345
@@ -50,21 +50,21 @@ Tableau Desktop: 5 updates
 Tableau Server: 8 updates
 Tableau Mobile: 1 updates
 
-8.1.10
+**8.1.10
 Release Date: August 21, 2014
 Desktop Build Number: 8100.14.0812.1930
 Server Build Number: 8100.14.0812.1930
 Tableau Desktop: 4 updates
 Tableau Server: 9 updates
 
-8.1.9
+**8.1.9
 Release Date: July 24, 2014
 Desktop Build Number: 8100.14.0717.0952
 Server Build Number: 8100.14.0717.0952
 Tableau Desktop: 18 updates
 Tableau Server: 12 updates
 
-8.1.8
+**8.1.8
 This release contains a critical security fix to Tableau Desktop, Tableau Server, and Tableau Reader that reduces exposure to man-in-the-middle and denial of service vulnerabilities. To address these vulnerabilities, the OpenSSL library used by the affected Tableau products has been upgraded.
 
 Release Date: June 12, 2014
@@ -73,7 +73,7 @@ Server Build Number: 8100.14.0605.2307
 Tableau Desktop: 12 updates
 Tableau Server: 9 updates
 
-8.1.7
+**8.1.7
 Release Date: May 13, 2014
 Desktop Build Number: 8100.14.0510.1702
 Server Build Number: 8100.14.0510.1702
@@ -81,7 +81,7 @@ All Products: 2 updates
 Tableau Desktop: 23 updates
 Tableau Server: 21 updates
 
-8.1.6
+**8.1.6
 This release contains a critical security update that addresses the Heartbleed security issue.
 
 Heartbleed is a critical security vulnerability in the OpenSSL library (version 1.0.1). OpenSSL is an open source software that is used by many websites and software products, including some Tableau products. The Heartbleed vulnerability allows a remote attacker to read client or server application memory. This can allow for encryption keys to be read, which can enable the decrypting of data obtained by intercepting traffic. For more details on Tableau’s updates for this issue, the Tableau products that are affected, and how to upgrade Tableau, see the Heartbleed Issue Knowledge Base article.
@@ -100,7 +100,7 @@ Tableau Desktop: 24 updates
 Tableau Server: 22 updates
 Tableau Mobile: 1 updates
 
-8.1.5
+**8.1.5
 Release Date: March 17, 2014
 Desktop Build Number: 8100.14.0312.2049
 Server Build Number: 8100.14.0312.2049
@@ -108,7 +108,7 @@ Tableau Desktop: 6 updates
 Tableau Server: 13 updates
 Tableau Mobile: 1 updates
 
-8.1.4
+**8.1.4
 Release Date: February 18, 2014
 Desktop Build Number: 8100.14.0213.2024
 Server Build Number: 8100.14.0213.2024
@@ -123,7 +123,7 @@ Added support for connecting to Teradata OLAP Connector 14.10.
 Added support for connecting to Splunk 6 Enterprise.
 
 
-8.1.3
+**8.1.3
 Release Date: January 8, 2014
 Desktop Build Number: 8100.13.1231.1350
 Server Build Number: 8100.13.1231.1350
@@ -151,7 +151,7 @@ Tableau Desktop: 23 updates
 Tableau Server: 25 updates
 
 
-8.1.2
+**8.1.2
 This release is an important update to address the following product issues in Tableau 8.1 and 8.1.1.
 
 All Salesforce extracts that were created in 8.0, 8.1, or 8.1.1 or were upgraded to these versions may contain corrupt or inaccurate data. Refreshing the extracts using Tableau 8.1.2 corrects the issue. Scheduled and manual refreshes will be forced to become a full refresh initially. Subsequent refreshes will return to incremental as originally specified.
@@ -167,7 +167,7 @@ Tableau Desktop: 3 updates
 Tableau Server: 1 updates
 
 
-8.1.1
+**8.1.1
 This release is an important update to address the following product issue in Tableau Server 8.1. It does not affect Tableau Desktop.
 
 Note: Tableau Online will not be upgrading to 8.1.1 until <<Some Date>>. Please do not upgrade any workbooks you intend to publish to Tableau Online until that upgrade occurs.
@@ -177,7 +177,8 @@ Server Build Number: 8100.13.1202.0916
 Tableau Server: 1 updates
 
 
-8.1
+**8.1
+released November 20, 2013
 
 Tableau 8.1 contains many new capabilities in both Tableau Desktop and Tableau Server. See what's new in Tableau <<Some Version>>
 Tableau Online has been upgraded. You may need to upgrade to Tableau Desktop 8.1 to continue using some features of Tableau Online. See Tableau Online Version Compatibility to learn more about compatibility between Tableau Desktop and Tableau Online.
@@ -195,14 +196,14 @@ Tableau Reader: 1 updates
 Tableau Mobile: 4 updates
 
 
-8.0.16
+**8.0.16
 Release Date: October 28, 2014
 Desktop Build Number: 8000.14.1015.1337
 Server Build Number: 8000.14.1015.1337
 Tableau Server: 3 updates
 
 
-8.0.15
+**8.0.15
 There are no Release Notes for Tableau version 8.0.15
 
 Release Date: September 29, 2014
@@ -210,7 +211,7 @@ Desktop Build Number: 8000.14.0914.1345
 Server Build Number: 8000.14.0914.1345
 
 
-8.0.14
+**8.0.14
 Release Date: August 21, 2014
 Desktop Build Number: 8000.14.0811.1930
 Server Build Number: 8000.14.0811.1930
@@ -218,14 +219,14 @@ Tableau Desktop: 1 updates
 Tableau Server: 1 updates
 
 
-8.0.13
+**8.0.13
 Release Date: July 24, 2014
 Desktop Build Number: 8000.14.0710.1930
 Server Build Number: 8000.14.0710.1930
 Tableau Server: 3 updates
 
 
-8.0.12
+**8.0.12
 This release contains a critical security fix to Tableau Desktop, Tableau Server, and Tableau Reader that reduces exposure to man-in-the-middle and denial of service vulnerabilities. To address these vulnerabilities, the OpenSSL library used by the affected Tableau products has been upgraded.
 
 Release Date: June 12, 2014
@@ -236,7 +237,7 @@ Tableau Server: 3 updates
 
 
 
-8.0.11
+**8.0.11
 Release Date: May 13, 2014
 Desktop Build Number: 8000.14.0506.1930
 Server Build Number: 8000.14.0506.1930
@@ -245,7 +246,7 @@ Tableau Desktop: 3 updates
 Tableau Server: 5 updates
 
 
-8.0.10
+**8.0.10
 This release contains a critical security update that addresses the Heartbleed security issue.
 
 Heartbleed is a critical security vulnerability in the OpenSSL library (version 1.0.1). OpenSSL is an open source software that is used by many websites and software products, including some Tableau products. The Heartbleed vulnerability allows a remote attacker to read client or server application memory. This can allow for encryption keys to be read, which can enable the decrypting of data obtained by intercepting traffic. For more details on Tableau’s updates for this issue, the Tableau products that are affected, and how to upgrade Tableau, see the Heartbleed Issue Knowledge Base article.
@@ -266,7 +267,7 @@ Tableau Server: 4 updates
 
 
 
-8.0.9
+**8.0.9
 Release Date: March 17, 2014
 Desktop Build Number: 8000.14.0228.1930
 Server Build Number: 8000.14.0228.1930
@@ -274,7 +275,7 @@ Tableau Desktop: 3 updates
 Tableau Server: 7 updates
 
 
-8.0.8
+**8.0.8
 Release Date: February 18, 2014
 Desktop Build Number: 8000.14.0211.1608
 Server Build Number: 8000.14.0211.1608
@@ -294,7 +295,7 @@ Tableau Server: 12 updates
 
 
 
-8.0.7
+**8.0.7
 Release Date: January 8, 2014
 Desktop Build Number: 8000.13.1228.1930
 Server Build Number: 8000.13.1228.1930
@@ -313,7 +314,7 @@ Tableau Server: 24 updates
 
 
 
-8.0.6
+**8.0.6
 Release Date: November 20, 2013
 Desktop Build Number: 8000.13.1114.1434
 Server Build Number: 8000.13.1114.1434
@@ -331,7 +332,7 @@ Tableau Server: 28 updates
 Tableau Mobile: 1 updates
 
 
-8.0.5
+**8.0.5
 Release Date: October 8, 2013
 Desktop Build Number: 8000.13.1001.1930
 Server Build Number: 8000.13.1001.1930
@@ -339,7 +340,7 @@ Tableau Desktop: 26 updates
 Tableau Server: 22 updates
 
 
-8.0.4
+**8.0.4
 Release Date: August 27, 2013
 Desktop Build Number: 8000.13.0825.0947
 Server Build Number: 8000.13.0825.0947
@@ -347,14 +348,14 @@ Tableau Desktop: 28 updates
 Tableau Server: 33 updates
 
 
-8.0.3
+**8.0.3
 Release Date: July 17, 2013
 Desktop Build Number: 8000.13.0712.1936
 Server Build Number: 8000.13.0712.1936
 Tableau Desktop: 32 updates
 Tableau Server: 34 updates
 
-8.0.2
+**8.0.2
 Release Date: June 11, 2013
 Desktop Build Number: 8000.13.0605.1330
 Server Build Number: 8000.13.0605.1330
@@ -362,7 +363,7 @@ Tableau Desktop: 44 updates
 Tableau Server: 34 updates
 
 
-8.0.1
+**8.0.1
 Release Date: May 6, 2013
 Desktop Build Number: 8000.13.0502.1826
 Server Build Number: 8000.13.0502.1826
@@ -370,7 +371,7 @@ Tableau Desktop: 18 updates
 Tableau Server: 24 updates
 
 
-8.0
+**8.0
 Release Date: March 20, 2013
 Desktop Build Number: 8000.13.0319.1225
 Server Build Number: 8000.13.0319.1225
@@ -3510,7 +3511,7 @@ When connected to an Oracle database, calculated fields that use a field that is
 When installing Tableau Server to a directory other than the default C:\Program Files location on Vista or Windows 2008, the application generated data content is now stored in the same directory as the application files instead of the default directory. This change allows you to install Tableau Server completely on a drive other than the C drive.
 
 
-Version 5.0.3 released September 9th, 2009.
+Version 5.0.3 released September 9, 2009.
 Tableau Desktop
 When working with Oracle databases that are defined with NLS_LANG=ENGLISH_CANADA.WE8MSWIN1252 Tableau would return a "#Error" in place of number columns.
 
