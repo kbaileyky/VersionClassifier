@@ -1,6 +1,6 @@
-NetNewsWire \d+(\.\d+)+(\sPublic Beta \d+)?
-\d+(\.\d+)+(\sPublic Beta \d+)?
-(J|F|M|A|S|O|N|D)\w*\s?\d{1,2}(th|st|rd|nd)?(\,|\.)?\s\d{4}
+Version\n\d+(\.\d+)+
+\d+(\.\d+)+
+\d{1,2}(th|st|rd|nd)?\s(of\s)?(J|F|M|A|S|O|N|D)\w*\s\d{4}
 MMMM d, yyyy
 MMMM dd, yyyy
 MMMM d yyyy
