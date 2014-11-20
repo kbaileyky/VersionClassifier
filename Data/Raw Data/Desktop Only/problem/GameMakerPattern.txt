@@ -1,4 +1,4 @@
-Version\s\d+(\.\d+)+(\s-\s\w*)?\n
+Version\s\d+(\.\d+)+(\s-\s\w*)?
 \d+(\.\d+)+(\s-\s\w*)?
 \d{1,2}/\d{1,2}/\d{4}
 dd/MM/yyyy
