@@ -1,0 +1,229 @@
+﻿Kaleidoscope 2.1 - build 134 (Direct) / 133.01 (Mac App Store) April 30 2014
+		New Feature: Added support for ignoring whitespace (leading, trailing and line ending) in text comparisons.
+		New Feature: Added an indicator to display remaining unresolved conflicts in a merge document.
+		Text Scope
+		Added dropdown menus on either side of Choose Left/Choose Right buttons to make “Choose Both” options more discoverable.
+		Added better tooltips for the “Copy to” buttons when in Unified view.
+		Fixed various issues with Dark Theme which made text difficult to read.
+		Fixed issue where selecting different text scope views on one window could affect copy right/left buttons on other windows.
+		Fixed issue where holding option to modify the behavior of copy right/left buttons on one window could affect other windows.
+		Fixed issue that could prevent Kaleidoscope from picking up changes made to a document open in more than one window.
+		Fixed issue that could prevent Kaleidoscope from picking up changes made to documents externally, especially on the MAS build.
+		Folder Scope
+		Fixed issue where sometimes Folder Scope copies would not show up correctly after the copy had taken place.
+		Fixed issue where Folder Scope would not pick up external additions of empty files or directories.
+		Fixed issue that caused the app to reject dragging of folders to the dock icon.
+		Integration
+		Fixed issue that caused git integration to fail on 10.9 Mavericks.
+		Fixed issue where ksdiff was sometimes not able to connect to Kaleidoscope after reboots with window restoration enabled.
+		Fixed issue that where Kaleidoscope would not allow quitting when choosing “Review Conflicts” on a modified document.
+		General Improvements
+		Updated Automator actions to categorize correctly in Automator.
+		Added support for copy/paste shortcuts in the crash reporter window.
+		Kaleidoscope now avoids saving files without changes.
+		Kaleidoscope will now disallow edits to files that can be read but not written to (e.g. docx files).
+		Kaleidoscope now better remembers size and position of your windows.
+		Fixed issue that stopped the comparison windows from minimizing when double clicking their title bar.
+		Fixed issue where the path bar area could fail to update correctly when switching tabs.
+		Fixed issue where clicking the dock icon would not restore minimized documents.
+		Fixed issue where dragging a group of files that were already open in Kaleidoscope could cause issues resulting in not all new files being added.
+		Fixed issue that made it possible for the comparison window to grow vertically offscreen on 10.9 leaving you with a window you could not reposition afterwards.
+		Fixed issue that made it impossible to bring up the open dialog by clicking on an empty tab when fullscreen in 10.9.
+		Fixed issue where sometimes full-screen windows would not be full-screen.
+		Fixed small visual issues with the Ignored Files dialog window.
+		Fixed documentation issues with ksdiff help.
+		Improved Help Documentation.
+		Various performance and stability fixes.
+Kaleidoscope 2.0.2 - build 116 October 23 2013
+		Improved compatibility with OS X 10.9 Mavericks
+		Improved stability
+Kaleidoscope 2.0.1 - build 114 February 19 2013
+		Text Scope
+		Tweaked the visual appearance of the change count stepper in Text Scope.
+		Fixed the "Reset Selection" menu item in Text Scope to enable and disable properly.
+		The Save menu is now properly disabled when comparing text snippets.
+		Fixed a bug where the summary text in document titles and tabs might not properly update.
+		The Resolved document in Three Way Blocks now has better alignment with similar content in A and B.
+		Kaleidoscope can now properly diff .textClipping documents.
+		Folder Scope
+		User-defined system date formats will now be properly used.
+		Fixed a bug that prevented Folder Scope from having the correct keyboard focus by default.
+		Image Scope
+		Kaleidoscope now handles different color spaces more reliably in Image Scope.
+		Kaleidoscope now properly accounts for camera orientation when displaying images in Image Scope.
+		Changesets
+		Improved keyboard navigation in changesets.
+		Unsaved files will now be properly marked as dirty in changesets.
+		Changesets now properly select the list of files on the left when opening, allowing you to quickly review changes.
+		General Improvements
+		Direct Sale fulfillment emails will now properly activate Kaleidoscope for users with diacritics in their names.
+		Kaleidoscope will no longer move itself to ~/Applications if that folder exists. It will now move to /Applications in all cases.
+		Fixed a bug that caused temporary licenses to expire one day earlier than they should have.
+		Fixed a bug that caused the corner radii of windows in Full Screen to not match.
+		Fixed an issue that sometimes led to poor vertical alignment in the File Shelf.
+		Dragging files to Kaleidoscope will properly open to a comparison document and will no longer leave the launch window open in the background.
+		Fixed a bug that caused accessing files from the Recents list to sometimes stop working.
+		Improved the messaging if Kaleidoscope is unable to open a document that was previously available via AFP.
+
+Kaleidoscope 2.0 - build 104 January 17, 2013
+		Resets trial period for users whose trial period expired during beta
+		New Feature: Added support for merging text documents using a Two-Way interface in Text Scope.
+		New Feature: Added version control integration for merging and resolving conflicts using a Three-Way interface in Text Scope.
+		New Feature: Folder Scope — now you can spot the differences between folders and copy files and folders between them. Double click any row to open a new comparison and look at any pair of files or folders more closely.
+		New Feature: Kaleidoscope Snippets and Services
+		You can now drag text and images directly into the Kaleidoscope window, or the Kaleidoscope dock icon, to create Snippets. This lets you quickly compare content without having to save and name files. Try dragging images or text directly from Safari or an email message!
+		Kaleidoscope now includes OS X System Services to make you more productive. They are enabled by default, but you can manually turn them On or Off in the Keyboard section of System Preferences. You can also set global keyboard shortcuts for them in the Keyboard pane of System Preferences if you want to get to these even faster.
+		Open in Kaleidoscope: Right click on any files or folders in Finder, and compare them in a single Kaleidoscope tab. This is the easiest way to compare folders!
+		Text and Image Compare: Right click on text or images and send them directly to Kaleidoscope as Snippets. Try this by selecting and right clicking on any text in TextEdit, then select “Compare Text in Kaleidoscope” from the Services menu.
+		New Feature: Clipboard Support
+		You can use the new "Edit -> Paste as File" and "File -> New from Clipboard" menu items to compare directly from the Clipboard. This works similarly to the drag and drop Snippets functionality. Use this to quickly create a new comparison document or to add existing text or images to an open document.
+		New Feature: Kaleidoscope now supports resolving merge conflicts for images.
+		New Feature: Added support for Full Screen on Lion and Mountain Lion.
+		Full support for Macs with Retina displays.
+		Substantially updated and modernized user interface.
+		Added support for sending arbitrary changesets and partial changsets with ksdiff.
+		Added support for arbitrary merges and diffs using ksdiff.
+		Integration with third-party tools now requires installation of the ksdiff command-line tool from the Integration window. You can find the Integration window by selecting “Integration” from the “Kaleidoscope” menu.
+		Stability improvements and bug fixes to ksdiff.
+		General bug fixes and stability improvements.
+
+Kaleidoscope 1.1.8 - build 57 August 1 2012
+		Corrects a problem that broke full-screen mode on Mac OS X 10.7.
+Kaleidoscope 1.1.7 - build 56 July 23 2012
+		Adds support for Developer ID on Mac OS X 10.8.
+Kaleidoscope 1.1.6 - build 55 December 15 2011
+		Implemented full screen support for Mac OS X 10.7 (Lion)
+		Integration improvements for Mercurial & Bazaar
+		Updated License Agreement and Acknowledgements information
+		Updated ownership and contact information from Sofa to Black Pixel
+Kaleidoscope 1.1.5 - build 54 July 20 2011
+		Improved compatibility with Mac OS X 10.7 (Lion)
+Kaleidoscope 1.1.4 - build 50 June 7 2011
+		Integration improvements on some versions of Mac OS X
+		Clarified steps in the Integration Window
+		Fixed a bug where Kaleidoscope would launch twice following an update
+		Fixed a bug where comparing license agreements would display an empty window for expired trial versions
+		Minor stability and performance improvements
+		Small refresh to the look and feel
+		Updated license agreement
+Kaleidoscope 1.1.3 - build 48 April 12 2011
+		Text Scope
+		Fixed some drawing issues in the Text Scope search bar
+		Image Scope
+		Fixed a crash when some images could not be loaded
+		Integration
+		Fixed a bug where the Integration Window would fail to report ksdiff as installed
+		Fixed a crash that could occur when using the Integration Window
+		Integration Window no longer shows an alert when users cancel authorization install of ksdiff
+		Other Improvements
+		Clicking the file shelf button in a background tab now selects the tab
+		Fixed a crash that could occur during registration
+Kaleidoscope 1.1.2 - build 46 January 24 2011
+		General Improvements
+		The “Close Other Tabs” menu item in the tab context menu is now disabled when there is only one tab
+		Kaleidoscope now always opens an empty tab when the Dock icon is clicked and there are no open tabs
+		Fixed bug where new tabs could be displayed in the wrong order
+		Clicking “Open Files In New Tab...” from the tab bar context menu and clicking the Cancel button in the Open dialog no longer opens an empty tab
+		The File Shelf context menu is now hidden when the file you were looking at is deleted in the background
+		Fixed a bug where Kaleidoscope would not open a changeset after the license agreement was accepted
+		Kaleidoscope now remembers the width of the changeset source list between comparisons
+		Fixed issues related to showing multiple “Ignored Files” alerts
+		Various other small improvements
+		Text Scope
+		SVG files are now opened in the Text Scope, instead of showing a empty Image Scope
+		Comparing text files with a large number of lines is now much faster
+		Image Scope
+		“Transparency” is now spelled correctly in the Image Scope preferences
+		Integration
+		Added steps for setting up TextMate's Mercurial bundle in the Integration window
+		Software Updates
+		Kaleidoscope will now ask for administrator privileges when installing an update if needed
+		Fixed a rare crash that could occur when checking for updates
+Kaleidoscope 1.1.1 - build 44 December 14 2010
+		General Improvements
+		Truncated items in the Changeset source list now have tooltips
+		Fixed TextMate SVN bundle integration (problem introduced in 1.1)
+		Fixed a crash that could affect some users while updating Kaleidoscope
+		Context menus are now hidden when a changeset is reloaded while it's being viewed
+		Fixed a crash that would occur when a context menu of an item in the Path Bar was visible, and the file you were looking at is deleted in the background without switching apps
+		Kaleidoscope no longer adds messages to the console when closing a Changeset on Mac OS X 10.5
+		Text Scope
+		Fixed a drawing issue with highlighting search results
+		Image Scope
+		Reduced memory footprint
+Kaleidoscope 1.1 - build 40 December 1 2010
+		Changesets
+		This release introduces Changesets, a major improvement to Kaleidoscope's command-line integration. When launching a comparison from Git, SVN, Mercurial or Bazaar, the changes for that comparison are now grouped together in one tab, including any added or deleted files. If you haven't already, use the “Integration” window to make Kaleidoscope the comparison tool for your version control system of choice, and take it for a spin.
+		All changed files are conveniently grouped into a single tab
+		See which app opened the changeset, how long ago, and how many files where sent
+		View the locations of files in your project (only available for local files from Git or SVN)
+		Works with Git, SVN, Mercurial and Bazaar
+		General Improvements
+		Added a “Save a Copy As…” menu for temporary files in the path bar
+		Improved reliability of monitoring changes, moves and deletions of files
+		Major improvements to keyboard navigation
+		Keyboard focus is now maintained when switching between tabs
+		Improved performance of opening tabs
+		Improved performance of closing the window when many tabs are open
+		The “Open…” item in the “File” is now always available
+		Improved reliability and accuracy of detecting file types
+		Various performance improvements
+		Fixed various memory leaks
+		Several minor visual improvements
+		Text Scope
+		New Functionality
+		It's now possible to pick another font for text comparisons
+		New preference to choose between light and dark backgrounds
+		New preference to switch between multicolored and single color change indication
+		Various small improvements to the default color scheme
+		Drawing and Layout fixes
+		Fixed an issue where differences would be highlighted in black until selected or scrolled
+		Fixed a rare crash while calculating the difference between files
+		Loading small files no longer results in a brief flicker
+		Changes in the Blocks view are now correctly aligned when the window is resized
+		Swapping files in the Blocks view now longer causes the text to scroll slightly
+		Line numbers in the Unified view correctly increase their size as the number of lines increases
+		Fixed a bug where the last line of a text file could be obscured by horizontal scroll bars
+		Fixed an issue where the text view would not display properly when toggling line-wrapping
+		Interaction
+		Simplified the context menus for temporary files
+		Copying text now works when search results are dismissed by selecting text
+		Progress indication is now shown in the text scope after a short delay
+		Improved keyboard control for searching
+		Fixed a bug where searching for line breaks in an empty file would return results
+		Search
+		Improved keyboard control for searching
+		Fixed a bug where searching for line breaks in an empty file would return results
+		Search results are now shown in the selected text view
+		Stability
+		Fixed a crash when comparing text with Chinese characters
+		Fixed a crash when comparing two empty files
+		Fixed a rare crash when files were edited in an external editor
+		Other Improvements
+		Fixed updating the badges in the File Shelf when swapping files
+		Fixed an issue where the checkmark for the “Wrap Lines” menu item would disappear
+		Fixed an issue where text in both file A and B could be selected at the same time
+		The change stepper in the toolbar now resizes less often
+		The progress indicator no longer disappears when switching between Fluid, Blocks and Unified
+		Fixed a bug where files would occasionally not be displayed
+		Improved reliability of detecting file encodings
+		Image Scope
+		Improved drawing efficiency
+		Added preliminary support for showing a difference mask for images of different sizes
+		Added a new background color slider in preferences
+		Fixed a bug where generating difference masks for small images would never finish
+		Fixed a bug where images would occasionally not appear after they were loaded
+Kaleidoscope 1.0.2 - build 24 June 3 2010
+		Fixed Bazaar integration
+		Fixed Text Mate integration
+		Fixed a bug that could crash Kaleidoscope while configuring Bazaar or Git
+		Fixed a typo in the About window
+		Fixed bug in Image Scope > Difference view where the “Processing…” overlay would remain after the view was closed
+		Fixed a bug that could crash Kaleidoscope when updating file names in the Path Bar
+		Fixed a rare crash which could occur during registration
+Kaleidoscope 1.0.1 - build 23 June 1 2010
+		Fixed a crash in the software updater.
+		Fixed crash on launch when running on a MacBook Air.
+Kaleidoscope 1.0 - build 21 June 1 2010
+Hello World!
+Copyright © 2014 Black Pixel. Kaleidoscope is a trademark of Black Pixel. License agreement.

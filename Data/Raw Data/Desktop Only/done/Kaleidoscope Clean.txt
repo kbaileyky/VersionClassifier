@@ -1,4 +1,4 @@
-Kaleidoscope 2.1 - build 134 (Direct) / 133.01 (Mac App Store) April 30 2014
+﻿Kaleidoscope 2.1 - build 134 (Direct) / 133.01 (Mac App Store) April 30 2014
 		New Feature: Added support for ignoring whitespace (leading, trailing and line ending) in text comparisons.
 		New Feature: Added an indicator to display remaining unresolved conflicts in a merge document.
 		Text Scope
@@ -64,9 +64,9 @@ Kaleidoscope 2.0.1 - build 114 February 19 2013
 		Dragging files to Kaleidoscope will properly open to a comparison document and will no longer leave the launch window open in the background.
 		Fixed a bug that caused accessing files from the Recents list to sometimes stop working.
 		Improved the messaging if Kaleidoscope is unable to open a document that was previously available via AFP.
-Kaleidoscope 2.0 - build 107 January 17, 2013
-		Resets trial period for users whose trial period expired during beta
+
 Kaleidoscope 2.0 - build 104 January 17, 2013
+		Resets trial period for users whose trial period expired during beta
 		New Feature: Added support for merging text documents using a Two-Way interface in Text Scope.
 		New Feature: Added version control integration for merging and resolving conflicts using a Three-Way interface in Text Scope.
 		New Feature: Folder Scope — now you can spot the differences between folders and copy files and folders between them. Double click any row to open a new comparison and look at any pair of files or folders more closely.
