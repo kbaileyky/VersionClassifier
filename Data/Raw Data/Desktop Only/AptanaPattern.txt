@@ -1,0 +1,4 @@
+((\d+(\.\d+)+)\sRelease|Aptana\sCore\s\d+(\.\d+)+)\s(V\d\s)?\(.*\)
+\d+(\.\d+)+(\sV\d)?
+\d{4}-\d{2}-\d{2}
+yyyy-MM-dd
