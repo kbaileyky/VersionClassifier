@@ -1,0 +1,13 @@
+Acorn\s\d(\.\d)+\s(J|F|M|A|S|O|N|D)\w*\s\d{1,2}(th|st|rd|nd)?\,\s\d{4}
+\d(\.\d)+
+(J|F|M|A|S|O|N|D)\w*\s\d{1,2}(th|st|rd|nd)?\,\s\d{4}
+MMMM d, yyyy
+MMMM dd, yyyy
+MMMM d\s\t, yyyy
+MMMM dd\s\t, yyyy
+MMMM d\r\d, yyyy
+MMMM dd\r\d, yyyy
+MMMM d\n\d, yyyy
+MMMM dd\n\d, yyyy
+MMMM d\t\h, yyyy
+MMMM dd\t\h, yyyy
