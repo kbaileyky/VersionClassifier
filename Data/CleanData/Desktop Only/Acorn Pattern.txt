@@ -11,3 +11,13 @@ MMMM d\n\d, yyyy
 MMMM dd\n\d, yyyy
 MMMM d\t\h, yyyy
 MMMM dd\t\h, yyyy
+MMM d, yyyy
+MMM dd, yyyy
+MMM d\s\t, yyyy
+MMM dd\s\t, yyyy
+MMM d\r\d, yyyy
+MMM dd\r\d, yyyy
+MMM d\n\d, yyyy
+MMM dd\n\d, yyyy
+MMM d\t\h, yyyy
+MMM dd\t\h, yyyy

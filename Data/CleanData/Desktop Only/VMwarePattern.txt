@@ -1,0 +1,9 @@
+VMware\sFusion\s\d+(\.\d+)+\s\|
+\d+(\.\d+)+
+\d{1,2}\s((J|F|M|A|S|O|N|D)\w*|\d{1,2})\s\d{4}
+dd MMM yyyy
+d MMM yyyy
+dd MMMM yyyy
+d MMMM yyyy
+dd MM yyyy
+d MM yyyy

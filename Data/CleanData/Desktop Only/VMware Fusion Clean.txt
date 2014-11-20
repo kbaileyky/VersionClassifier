@@ -500,7 +500,7 @@ Workaround: Use the desktop application version of Internet Explorer, or use sin
 Upgrading VMware Tools may result in Windows desktop black screen
 In isolated cases, upgrading VMware Tools may result in the Windows desktop appearing black for two minutes before completing successfully.
 
-Workaround: Apply the Windows 8.0 May 2013 roll-up prior to upgrading VMware Tools. See http://support.microsoft.com/kb/2836988 for more information.
+Workaround: Apply the Windows 8.0 <<Some Date>> roll-up prior to upgrading VMware Tools. See http://support.microsoft.com/kb/2836988 for more information.
 
 McAfee Virus Scan Plus software is not compatible with Windows 8.1
 The included introductory McAfee Virus Scan Plus software is not compatible with Windows 8.1.
