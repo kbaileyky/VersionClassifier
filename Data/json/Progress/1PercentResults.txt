@@ -1,0 +1,1482 @@
+Number different - 36	Total Classified - 133	Percent Agreement - 72.9323308271%	NumberSplit - 6
+Data/json/Progress/Kendall1Per.txt{
+    "ApplicationName": "Kerbal Space Program", 
+    "original_text": "\t\u2022\tPart costs are now used in career mode.", 
+    "classification": {
+        "str_type": "Non-Functional", 
+        "int_type": 3
+    }, 
+    "flag": false, 
+    "ReleaseDate": "17/07/2014", 
+    "VersionNumber": "0.24", 
+    "ApplicationType": {
+        "str_type": "Desktop", 
+        "int_type": 0
+    }, 
+    "entry": "\t\u2022\tPart costs are now used in career mode.", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/HongyanCompFiles1per.json{
+    "ApplicationName": "Kerbal Space Program", 
+    "original_text": "\t\u2022\tPart costs are now used in career mode.", 
+    "classification": {
+        "str_type": "Feature", 
+        "int_type": 1
+    }, 
+    "flag": false, 
+    "ReleaseDate": "17/07/2014", 
+    "VersionNumber": "0.24", 
+    "ApplicationType": {
+        "str_type": "Desktop", 
+        "int_type": 0
+    }, 
+    "entry": "\t\u2022\tPart costs are now used in career mode.", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/Kendall1Per.txt{
+    "ApplicationName": "Kerbal Space Program", 
+    "original_text": "Demo Restrictions and changes:", 
+    "classification": {
+        "str_type": "Non-Functional", 
+        "int_type": 3
+    }, 
+    "flag": false, 
+    "ReleaseDate": "12/02/2013", 
+    "VersionNumber": "0.18.3", 
+    "ApplicationType": {
+        "str_type": "Desktop", 
+        "int_type": 0
+    }, 
+    "entry": "Demo Restrictions and changes:", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/HongyanCompFiles1per.json{
+    "ApplicationName": "Kerbal Space Program", 
+    "original_text": "Demo Restrictions and changes:", 
+    "classification": {
+        "str_type": "Enhancement", 
+        "int_type": 2
+    }, 
+    "flag": false, 
+    "ReleaseDate": "12/02/2013", 
+    "VersionNumber": "0.18.3", 
+    "ApplicationType": {
+        "str_type": "Desktop", 
+        "int_type": 0
+    }, 
+    "entry": "Demo Restrictions and changes:", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/Kendall1Per.txt{
+    "ApplicationName": "NDepend", 
+    "original_text": "Bug Fixes ", 
+    "classification": {
+        "str_type": "Bug", 
+        "int_type": 0
+    }, 
+    "flag": false, 
+    "ReleaseDate": "24/02/2010", 
+    "VersionNumber": "5.0.0.8041", 
+    "ApplicationType": {
+        "str_type": "Desktop", 
+        "int_type": 0
+    }, 
+    "entry": "Bug Fixes ", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/HongyanCompFiles1per.json{
+    "ApplicationName": "NDepend", 
+    "original_text": "Bug Fixes ", 
+    "classification": {
+        "str_type": "Non-Functional", 
+        "int_type": 3
+    }, 
+    "flag": true, 
+    "ReleaseDate": "24/02/2010", 
+    "VersionNumber": "5.0.0.8041", 
+    "ApplicationType": {
+        "str_type": "Desktop", 
+        "int_type": 0
+    }, 
+    "entry": "Bug Fixes ", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/Kendall1Per.txt{
+    "ApplicationName": "Tableau", 
+    "original_text": "Hiding a row with all NULL values would also incorrectly hide the grand totals row.", 
+    "classification": {
+        "str_type": "Bug", 
+        "int_type": 0
+    }, 
+    "flag": false, 
+    "ReleaseDate": "15/12/2010", 
+    "VersionNumber": "6.0.2", 
+    "ApplicationType": {
+        "str_type": "Desktop", 
+        "int_type": 0
+    }, 
+    "entry": "Hiding a row with all NULL values would also incorrectly hide the grand totals row.", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/HongyanCompFiles1per.json{
+    "ApplicationName": "Tableau", 
+    "original_text": "Hiding a row with all NULL values would also incorrectly hide the grand totals row.", 
+    "classification": {
+        "str_type": "Non-Functional", 
+        "int_type": 3
+    }, 
+    "flag": true, 
+    "ReleaseDate": "15/12/2010", 
+    "VersionNumber": "6.0.2", 
+    "ApplicationType": {
+        "str_type": "Desktop", 
+        "int_type": 0
+    }, 
+    "entry": "Hiding a row with all NULL values would also incorrectly hide the grand totals row.", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/Kendall1Per.txt{
+    "ApplicationName": "Acorn", 
+    "original_text": "Layer styles are now scaled when you resize your image.", 
+    "classification": {
+        "str_type": "Enhancement", 
+        "int_type": 2
+    }, 
+    "flag": false, 
+    "ReleaseDate": "31/05/2011", 
+    "VersionNumber": "3.0.2", 
+    "ApplicationType": {
+        "str_type": "Desktop", 
+        "int_type": 0
+    }, 
+    "entry": "Layer styles are now scaled when you resize your image.", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/HongyanCompFiles1per.json{
+    "ApplicationName": "Acorn", 
+    "original_text": "Layer styles are now scaled when you resize your image.", 
+    "classification": {
+        "str_type": "Feature", 
+        "int_type": 1
+    }, 
+    "flag": false, 
+    "ReleaseDate": "31/05/2011", 
+    "VersionNumber": "3.0.2", 
+    "ApplicationType": {
+        "str_type": "Desktop", 
+        "int_type": 0
+    }, 
+    "entry": "Layer styles are now scaled when you resize your image.", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/Kendall1Per.txt{
+    "ApplicationName": "Kerbal Space Program", 
+    "original_text": "New part joints", 
+    "classification": {
+        "str_type": "Non-Functional", 
+        "int_type": 3
+    }, 
+    "flag": false, 
+    "ReleaseDate": "01/04/2014", 
+    "VersionNumber": "0.23.5", 
+    "ApplicationType": {
+        "str_type": "Desktop", 
+        "int_type": 0
+    }, 
+    "entry": "New part joints", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/HongyanCompFiles1per.json{
+    "ApplicationName": "Kerbal Space Program", 
+    "original_text": "New part joints", 
+    "classification": {
+        "str_type": "Feature", 
+        "int_type": 1
+    }, 
+    "flag": false, 
+    "ReleaseDate": "01/04/2014", 
+    "VersionNumber": "0.23.5", 
+    "ApplicationType": {
+        "str_type": "Desktop", 
+        "int_type": 0
+    }, 
+    "entry": "New part joints", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/Kendall1Per.txt{
+    "ApplicationName": "NDepend", 
+    "original_text": "In the panel Project Properties > Code to Analyze, when drag-and-droppig many folders or many assemblies, the UI could take time to refresh and response.", 
+    "classification": {
+        "str_type": "Bug", 
+        "int_type": 0
+    }, 
+    "flag": false, 
+    "ReleaseDate": "24/02/2010", 
+    "VersionNumber": "5.0.0.8041", 
+    "ApplicationType": {
+        "str_type": "Desktop", 
+        "int_type": 0
+    }, 
+    "entry": "In the panel Project Properties > Code to Analyze, when drag-and-droppig many folders or many assemblies, the UI could take time to refresh and response.", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/HongyanCompFiles1per.json{
+    "ApplicationName": "NDepend", 
+    "original_text": "In the panel Project Properties > Code to Analyze, when drag-and-droppig many folders or many assemblies, the UI could take time to refresh and response.", 
+    "classification": {
+        "str_type": "Feature", 
+        "int_type": 1
+    }, 
+    "flag": false, 
+    "ReleaseDate": "24/02/2010", 
+    "VersionNumber": "5.0.0.8041", 
+    "ApplicationType": {
+        "str_type": "Desktop", 
+        "int_type": 0
+    }, 
+    "entry": "In the panel Project Properties > Code to Analyze, when drag-and-droppig many folders or many assemblies, the UI could take time to refresh and response.", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/Kendall1Per.txt{
+    "ApplicationName": "NDepend", 
+    "original_text": "When analyzing thousands of assemblies, an exception could popup because the analysis log relating assemblies resolving could be too large.", 
+    "classification": {
+        "str_type": "Bug", 
+        "int_type": 0
+    }, 
+    "flag": false, 
+    "ReleaseDate": "24/02/2010", 
+    "VersionNumber": "5.0.0.8041", 
+    "ApplicationType": {
+        "str_type": "Desktop", 
+        "int_type": 0
+    }, 
+    "entry": "When analyzing thousands of assemblies, an exception could popup because the analysis log relating assemblies resolving could be too large.", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/HongyanCompFiles1per.json{
+    "ApplicationName": "NDepend", 
+    "original_text": "When analyzing thousands of assemblies, an exception could popup because the analysis log relating assemblies resolving could be too large.", 
+    "classification": {
+        "str_type": "Feature", 
+        "int_type": 1
+    }, 
+    "flag": false, 
+    "ReleaseDate": "24/02/2010", 
+    "VersionNumber": "5.0.0.8041", 
+    "ApplicationType": {
+        "str_type": "Desktop", 
+        "int_type": 0
+    }, 
+    "entry": "When analyzing thousands of assemblies, an exception could popup because the analysis log relating assemblies resolving could be too large.", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/Kendall1Per.txt{
+    "ApplicationName": "Kerbal Space Program", 
+    "original_text": "\t\u2022\tCompletely remodelled the Communotron 88-88 Comms Dish. The new mesh uses the same placement rules so it won't break ships that have it.", 
+    "classification": {
+        "str_type": "Enhancement", 
+        "int_type": 2
+    }, 
+    "flag": false, 
+    "ReleaseDate": "16/10/2013", 
+    "VersionNumber": "0.22", 
+    "ApplicationType": {
+        "str_type": "Desktop", 
+        "int_type": 0
+    }, 
+    "entry": "\t\u2022\tCompletely remodelled the Communotron 88-88 Comms Dish. The new mesh uses the same placement rules so it won't break ships that have it.", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/HongyanCompFiles1per.json{
+    "ApplicationName": "Kerbal Space Program", 
+    "original_text": "\t\u2022\tCompletely remodelled the Communotron 88-88 Comms Dish. The new mesh uses the same placement rules so it won't break ships that have it.", 
+    "classification": {
+        "str_type": "Bug", 
+        "int_type": 0
+    }, 
+    "flag": false, 
+    "ReleaseDate": "16/10/2013", 
+    "VersionNumber": "0.22", 
+    "ApplicationType": {
+        "str_type": "Desktop", 
+        "int_type": 0
+    }, 
+    "entry": "\t\u2022\tCompletely remodelled the Communotron 88-88 Comms Dish. The new mesh uses the same placement rules so it won't break ships that have it.", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/Kendall1Per.txt{
+    "ApplicationName": "1PasswordD", 
+    "original_text": "Improved translations, added Polish translation.", 
+    "classification": {
+        "str_type": "Enhancement", 
+        "int_type": 2
+    }, 
+    "flag": false, 
+    "ReleaseDate": "05/11/2013", 
+    "VersionNumber": "4.0.7", 
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop", 
+        "int_type": 2
+    }, 
+    "entry": "Improved translations,", 
+    "merged": false, 
+    "split": true
+}
+
+Data/json/Progress/HongyanCompFiles1per.json{
+    "ApplicationName": "1PasswordD", 
+    "original_text": "Improved translations, added Polish translation.", 
+    "classification": {
+        "str_type": "Not Classified", 
+        "int_type": 6
+    }, 
+    "flag": false, 
+    "ReleaseDate": "05/11/2013", 
+    "VersionNumber": "4.0.7", 
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop", 
+        "int_type": 2
+    }, 
+    "entry": "", 
+    "merged": false, 
+    "split": true
+}
+
+Data/json/Progress/Kendall1Per.txt{
+    "ApplicationName": "Wish", 
+    "original_text": "- Lots of improvements and fixes", 
+    "classification": {
+        "str_type": "Enhancement", 
+        "int_type": 2
+    }, 
+    "flag": false, 
+    "ReleaseDate": "07/11/2013", 
+    "VersionNumber": "3.2.0", 
+    "ApplicationType": {
+        "str_type": "Mobile", 
+        "int_type": 1
+    }, 
+    "entry": "- Lots of improvements ", 
+    "merged": false, 
+    "split": true
+}
+
+Data/json/Progress/HongyanCompFiles1per.json{
+    "ApplicationName": "Wish", 
+    "original_text": "- Lots of improvements and fixes", 
+    "classification": {
+        "str_type": "Non-Functional", 
+        "int_type": 3
+    }, 
+    "flag": false, 
+    "ReleaseDate": "07/11/2013", 
+    "VersionNumber": "3.2.0", 
+    "ApplicationType": {
+        "str_type": "Mobile", 
+        "int_type": 1
+    }, 
+    "entry": "- Lots of improvements and fixes", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/Kendall1Per.txt{
+    "ApplicationName": "NDepend", 
+    "original_text": "Computation of the metrics LCOM and LCOM-HS defined on types no longer takes into account compiler generated members.", 
+    "classification": {
+        "str_type": "Enhancement", 
+        "int_type": 2
+    }, 
+    "flag": false, 
+    "ReleaseDate": "15/02/2010", 
+    "VersionNumber": "3.0.0.4527", 
+    "ApplicationType": {
+        "str_type": "Desktop", 
+        "int_type": 0
+    }, 
+    "entry": "Computation of the metrics LCOM and LCOM-HS defined on types no longer takes into account compiler generated members.", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/HongyanCompFiles1per.json{
+    "ApplicationName": "NDepend", 
+    "original_text": "Computation of the metrics LCOM and LCOM-HS defined on types no longer takes into account compiler generated members.", 
+    "classification": {
+        "str_type": "Feature", 
+        "int_type": 1
+    }, 
+    "flag": false, 
+    "ReleaseDate": "15/02/2010", 
+    "VersionNumber": "3.0.0.4527", 
+    "ApplicationType": {
+        "str_type": "Desktop", 
+        "int_type": 0
+    }, 
+    "entry": "Computation of the metrics LCOM and LCOM-HS defined on types no longer takes into account compiler generated members.", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/Kendall1Per.txt{
+    "ApplicationName": "1PasswordD", 
+    "original_text": "Catalan and Danish localization", 
+    "classification": {
+        "str_type": "Feature", 
+        "int_type": 1
+    }, 
+    "flag": true, 
+    "ReleaseDate": "11/03/2014", 
+    "VersionNumber": "4.2", 
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop", 
+        "int_type": 2
+    }, 
+    "entry": "Catalan and Danish localization", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/HongyanCompFiles1per.json{
+    "ApplicationName": "1PasswordD", 
+    "original_text": "Catalan and Danish localization", 
+    "classification": {
+        "str_type": "Non-Functional", 
+        "int_type": 3
+    }, 
+    "flag": false, 
+    "ReleaseDate": "11/03/2014", 
+    "VersionNumber": "4.2", 
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop", 
+        "int_type": 2
+    }, 
+    "entry": "Catalan and Danish localization", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/Kendall1Per.txt{
+    "ApplicationName": "OmniGraffleD", 
+    "original_text": "\t\u2022\tWhen saving a version of a duplicated file when running Mac OS X v10.7, the \u201cdirty\u201d close button should go away.", 
+    "classification": {
+        "str_type": "Enhancement", 
+        "int_type": 2
+    }, 
+    "flag": false, 
+    "ReleaseDate": "17/08/2011", 
+    "VersionNumber": "5.3.1", 
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop", 
+        "int_type": 2
+    }, 
+    "entry": "\t\u2022\tWhen saving a version of a duplicated file when running Mac OS X v10.7, the \u201cdirty\u201d close button should go away.", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/HongyanCompFiles1per.json{
+    "ApplicationName": "OmniGraffleD", 
+    "original_text": "\t\u2022\tWhen saving a version of a duplicated file when running Mac OS X v10.7, the \u201cdirty\u201d close button should go away.", 
+    "classification": {
+        "str_type": "Bug", 
+        "int_type": 0
+    }, 
+    "flag": true, 
+    "ReleaseDate": "17/08/2011", 
+    "VersionNumber": "5.3.1", 
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop", 
+        "int_type": 2
+    }, 
+    "entry": "\t\u2022\tWhen saving a version of a duplicated file when running Mac OS X v10.7, the \u201cdirty\u201d close button should go away.", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/Kendall1Per.txt{
+    "ApplicationName": "NDepend", 
+    "original_text": "- Immediate responsivness with asynchronous assemblies loading.", 
+    "classification": {
+        "str_type": "Enhancement", 
+        "int_type": 2
+    }, 
+    "flag": false, 
+    "ReleaseDate": "10/12/2007", 
+    "VersionNumber": "2.6.0.1607", 
+    "ApplicationType": {
+        "str_type": "Desktop", 
+        "int_type": 0
+    }, 
+    "entry": "- Immediate responsivness with asynchronous assemblies loading.", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/HongyanCompFiles1per.json{
+    "ApplicationName": "NDepend", 
+    "original_text": "- Immediate responsivness with asynchronous assemblies loading.", 
+    "classification": {
+        "str_type": "Feature", 
+        "int_type": 1
+    }, 
+    "flag": false, 
+    "ReleaseDate": "10/12/2007", 
+    "VersionNumber": "2.6.0.1607", 
+    "ApplicationType": {
+        "str_type": "Desktop", 
+        "int_type": 0
+    }, 
+    "entry": "- Immediate responsivness with asynchronous assemblies loading.", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/Kendall1Per.txt{
+    "ApplicationName": "Kerbal Space Program", 
+    "original_text": "\t\u2022\tGraphics: 800x600 is no longer a valid resolution option. Minimum possible resolution is now 960x720.", 
+    "classification": {
+        "str_type": "Enhancement", 
+        "int_type": 2
+    }, 
+    "flag": false, 
+    "ReleaseDate": "20/12/2012", 
+    "VersionNumber": "0.18.2", 
+    "ApplicationType": {
+        "str_type": "Desktop", 
+        "int_type": 0
+    }, 
+    "entry": "\t\u2022\tGraphics: 800x600 is no longer a valid resolution option. Minimum possible resolution is now 960x720.", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/HongyanCompFiles1per.json{
+    "ApplicationName": "Kerbal Space Program", 
+    "original_text": "\t\u2022\tGraphics: 800x600 is no longer a valid resolution option. Minimum possible resolution is now 960x720.", 
+    "classification": {
+        "str_type": "Feature", 
+        "int_type": 1
+    }, 
+    "flag": false, 
+    "ReleaseDate": "20/12/2012", 
+    "VersionNumber": "0.18.2", 
+    "ApplicationType": {
+        "str_type": "Desktop", 
+        "int_type": 0
+    }, 
+    "entry": "\t\u2022\tGraphics: 800x600 is no longer a valid resolution option. Minimum possible resolution is now 960x720.", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/Kendall1Per.txt{
+    "ApplicationName": "OmniGraffleD", 
+    "original_text": "\t\u2022\tRedesigned Stencil Window supporting local searches and searches on Graffletopia.com.", 
+    "classification": {
+        "str_type": "Enhancement", 
+        "int_type": 2
+    }, 
+    "flag": false, 
+    "ReleaseDate": "28/08/2009", 
+    "VersionNumber": "5.2", 
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop", 
+        "int_type": 2
+    }, 
+    "entry": "\t\u2022\tRedesigned Stencil Window supporting local searches and searches on Graffletopia.com.", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/HongyanCompFiles1per.json{
+    "ApplicationName": "OmniGraffleD", 
+    "original_text": "\t\u2022\tRedesigned Stencil Window supporting local searches and searches on Graffletopia.com.", 
+    "classification": {
+        "str_type": "Feature", 
+        "int_type": 1
+    }, 
+    "flag": false, 
+    "ReleaseDate": "28/08/2009", 
+    "VersionNumber": "5.2", 
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop", 
+        "int_type": 2
+    }, 
+    "entry": "\t\u2022\tRedesigned Stencil Window supporting local searches and searches on Graffletopia.com.", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/Kendall1Per.txt{
+    "ApplicationName": "Tableau", 
+    "original_text": "The error \"Tableau Exception: Could not send Query (connection dead)\" would sometimes display when accessing a published workbook that connects to an Amazon Redshift data source. ", 
+    "classification": {
+        "str_type": "Bug", 
+        "int_type": 0
+    }, 
+    "flag": false, 
+    "ReleaseDate": "11/06/2013", 
+    "VersionNumber": "7.0.16", 
+    "ApplicationType": {
+        "str_type": "Desktop", 
+        "int_type": 0
+    }, 
+    "entry": "The error \"Tableau Exception: Could not send Query (connection dead)\" would sometimes display when accessing a published workbook that connects to an Amazon Redshift data source. ", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/HongyanCompFiles1per.json{
+    "ApplicationName": "Tableau", 
+    "original_text": "The error \"Tableau Exception: Could not send Query (connection dead)\" would sometimes display when accessing a published workbook that connects to an Amazon Redshift data source. ", 
+    "classification": {
+        "str_type": "Enhancement", 
+        "int_type": 2
+    }, 
+    "flag": true, 
+    "ReleaseDate": "11/06/2013", 
+    "VersionNumber": "7.0.16", 
+    "ApplicationType": {
+        "str_type": "Desktop", 
+        "int_type": 0
+    }, 
+    "entry": "The error \"Tableau Exception: Could not send Query (connection dead)\" would sometimes display when accessing a published workbook that connects to an Amazon Redshift data source. ", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/Kendall1Per.txt{
+    "ApplicationName": "Pandora", 
+    "original_text": "For iPhone and iPod Touch owners, this update includes all the same great features from Pandora 4.0:", 
+    "classification": {
+        "str_type": "Non-Functional", 
+        "int_type": 3
+    }, 
+    "flag": false, 
+    "ReleaseDate": "17/11/2012", 
+    "VersionNumber": "4.1", 
+    "ApplicationType": {
+        "str_type": "Mobile", 
+        "int_type": 1
+    }, 
+    "entry": "For iPhone and iPod Touch owners, this update includes all the same great features from Pandora 4.0:", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/HongyanCompFiles1per.json{
+    "ApplicationName": "Pandora", 
+    "original_text": "For iPhone and iPod Touch owners, this update includes all the same great features from Pandora 4.0:", 
+    "classification": {
+        "str_type": "Enhancement", 
+        "int_type": 2
+    }, 
+    "flag": true, 
+    "ReleaseDate": "17/11/2012", 
+    "VersionNumber": "4.1", 
+    "ApplicationType": {
+        "str_type": "Mobile", 
+        "int_type": 1
+    }, 
+    "entry": "For iPhone and iPod Touch owners, this update includes all the same great features from Pandora 4.0:", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/Kendall1Per.txt{
+    "ApplicationName": "Acorn", 
+    "original_text": "Minor New Stuff", 
+    "classification": {
+        "str_type": "Non-Functional", 
+        "int_type": 3
+    }, 
+    "flag": false, 
+    "ReleaseDate": "03/09/2014", 
+    "VersionNumber": "4.5.1", 
+    "ApplicationType": {
+        "str_type": "Desktop", 
+        "int_type": 0
+    }, 
+    "entry": "Minor New Stuff", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/HongyanCompFiles1per.json{
+    "ApplicationName": "Acorn", 
+    "original_text": "Minor New Stuff", 
+    "classification": {
+        "str_type": "Enhancement", 
+        "int_type": 2
+    }, 
+    "flag": false, 
+    "ReleaseDate": "03/09/2014", 
+    "VersionNumber": "4.5.1", 
+    "ApplicationType": {
+        "str_type": "Desktop", 
+        "int_type": 0
+    }, 
+    "entry": "Minor New Stuff", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/Kendall1Per.txt{
+    "ApplicationName": "Tableau", 
+    "original_text": "The --administrator option is one of the options you can use with the tabcmd syncgroup command. In earlier versions it assigned the Administrator user right to a group of users. Now it also allows you to designate an Administrator type of system, content, or none.", 
+    "classification": {
+        "str_type": "Enhancement", 
+        "int_type": 2
+    }, 
+    "flag": false, 
+    "ReleaseDate": "24/05/2012", 
+    "VersionNumber": "7.0.4", 
+    "ApplicationType": {
+        "str_type": "Desktop", 
+        "int_type": 0
+    }, 
+    "entry": "The --administrator option is one of the options you can use with the tabcmd syncgroup command. In earlier versions it assigned the Administrator user right to a group of users. Now it also allows you to designate an Administrator type of system, content, or none.", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/HongyanCompFiles1per.json{
+    "ApplicationName": "Tableau", 
+    "original_text": "The --administrator option is one of the options you can use with the tabcmd syncgroup command. In earlier versions it assigned the Administrator user right to a group of users. Now it also allows you to designate an Administrator type of system, content, or none.", 
+    "classification": {
+        "str_type": "Feature", 
+        "int_type": 1
+    }, 
+    "flag": false, 
+    "ReleaseDate": "24/05/2012", 
+    "VersionNumber": "7.0.4", 
+    "ApplicationType": {
+        "str_type": "Desktop", 
+        "int_type": 0
+    }, 
+    "entry": "The --administrator option is one of the options you can use with the tabcmd syncgroup command. In earlier versions it assigned the Administrator user right to a group of users. Now it also allows you to designate an Administrator type of system, content, or none.", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/Kendall1Per.txt{
+    "ApplicationName": "Tableau", 
+    "original_text": "Enabled zoom and pan for dual axis charts in the iPad application.", 
+    "classification": {
+        "str_type": "Enhancement", 
+        "int_type": 2
+    }, 
+    "flag": false, 
+    "ReleaseDate": "05/10/2011", 
+    "VersionNumber": "6.1.3", 
+    "ApplicationType": {
+        "str_type": "Desktop", 
+        "int_type": 0
+    }, 
+    "entry": "Enabled zoom and pan for dual axis charts in the iPad application.", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/HongyanCompFiles1per.json{
+    "ApplicationName": "Tableau", 
+    "original_text": "Enabled zoom and pan for dual axis charts in the iPad application.", 
+    "classification": {
+        "str_type": "Feature", 
+        "int_type": 1
+    }, 
+    "flag": false, 
+    "ReleaseDate": "05/10/2011", 
+    "VersionNumber": "6.1.3", 
+    "ApplicationType": {
+        "str_type": "Desktop", 
+        "int_type": 0
+    }, 
+    "entry": "Enabled zoom and pan for dual axis charts in the iPad application.", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/Kendall1Per.txt{
+    "ApplicationName": "RaptrM", 
+    "original_text": "- Updates to PSN connectivity", 
+    "classification": {
+        "str_type": "Feature", 
+        "int_type": 1
+    }, 
+    "flag": false, 
+    "ReleaseDate": "21/06/2013", 
+    "VersionNumber": "2.8", 
+    "ApplicationType": {
+        "str_type": "Sibling - Mobile", 
+        "int_type": 4
+    }, 
+    "entry": "- Updates to PSN connectivity", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/HongyanCompFiles1per.json{
+    "ApplicationName": "RaptrM", 
+    "original_text": "- Updates to PSN connectivity", 
+    "classification": {
+        "str_type": "Enhancement", 
+        "int_type": 2
+    }, 
+    "flag": false, 
+    "ReleaseDate": "21/06/2013", 
+    "VersionNumber": "2.8", 
+    "ApplicationType": {
+        "str_type": "Sibling - Mobile", 
+        "int_type": 4
+    }, 
+    "entry": "- Updates to PSN connectivity", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/Kendall1Per.txt{
+    "ApplicationName": "NDepend", 
+    "original_text": "\t\tAPI Breaking Changes: Types", 
+    "classification": {
+        "str_type": "Non-Functional", 
+        "int_type": 3
+    }, 
+    "flag": false, 
+    "ReleaseDate": "24/02/2010", 
+    "VersionNumber": "5.0.0.8041", 
+    "ApplicationType": {
+        "str_type": "Desktop", 
+        "int_type": 0
+    }, 
+    "entry": "\t\tAPI Breaking Changes: Types", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/HongyanCompFiles1per.json{
+    "ApplicationName": "NDepend", 
+    "original_text": "\t\tAPI Breaking Changes: Types", 
+    "classification": {
+        "str_type": "Enhancement", 
+        "int_type": 2
+    }, 
+    "flag": false, 
+    "ReleaseDate": "24/02/2010", 
+    "VersionNumber": "5.0.0.8041", 
+    "ApplicationType": {
+        "str_type": "Desktop", 
+        "int_type": 0
+    }, 
+    "entry": "\t\tAPI Breaking Changes: Types", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/Kendall1Per.txt{
+    "ApplicationName": "NDepend", 
+    "original_text": "The VisualStudio Add-In might not work properly for some VB.NET methods with some Object parameters.", 
+    "classification": {
+        "str_type": "Bug", 
+        "int_type": 0
+    }, 
+    "flag": false, 
+    "ReleaseDate": "08/08/2008", 
+    "VersionNumber": "2.9.1.2235", 
+    "ApplicationType": {
+        "str_type": "Desktop", 
+        "int_type": 0
+    }, 
+    "entry": "The VisualStudio Add-In might not work properly for some VB.NET methods with some Object parameters.", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/HongyanCompFiles1per.json{
+    "ApplicationName": "NDepend", 
+    "original_text": "The VisualStudio Add-In might not work properly for some VB.NET methods with some Object parameters.", 
+    "classification": {
+        "str_type": "Feature", 
+        "int_type": 1
+    }, 
+    "flag": true, 
+    "ReleaseDate": "08/08/2008", 
+    "VersionNumber": "2.9.1.2235", 
+    "ApplicationType": {
+        "str_type": "Desktop", 
+        "int_type": 0
+    }, 
+    "entry": "The VisualStudio Add-In might not work properly for some VB.NET methods with some Object parameters.", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/Kendall1Per.txt{
+    "ApplicationName": "NDepend", 
+    "original_text": "The metric NbVariables defined on method now doesn't take account of compiler generated variables anymore.", 
+    "classification": {
+        "str_type": "Enhancement", 
+        "int_type": 2
+    }, 
+    "flag": false, 
+    "ReleaseDate": "24/02/2010", 
+    "VersionNumber": "5.0.0.8041", 
+    "ApplicationType": {
+        "str_type": "Desktop", 
+        "int_type": 0
+    }, 
+    "entry": "The metric NbVariables defined on method now doesn't take account of compiler generated variables anymore.", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/HongyanCompFiles1per.json{
+    "ApplicationName": "NDepend", 
+    "original_text": "The metric NbVariables defined on method now doesn't take account of compiler generated variables anymore.", 
+    "classification": {
+        "str_type": "Feature", 
+        "int_type": 1
+    }, 
+    "flag": false, 
+    "ReleaseDate": "24/02/2010", 
+    "VersionNumber": "5.0.0.8041", 
+    "ApplicationType": {
+        "str_type": "Desktop", 
+        "int_type": 0
+    }, 
+    "entry": "The metric NbVariables defined on method now doesn't take account of compiler generated variables anymore.", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/Kendall1Per.txt{
+    "ApplicationName": "Kerbal Space Program", 
+    "original_text": "Bug Fixes and Tweaks", 
+    "classification": {
+        "str_type": "Bug", 
+        "int_type": 0
+    }, 
+    "flag": false, 
+    "ReleaseDate": "29/05/2013", 
+    "VersionNumber": "0.20.1", 
+    "ApplicationType": {
+        "str_type": "Desktop", 
+        "int_type": 0
+    }, 
+    "entry": "Bug Fixes and ", 
+    "merged": false, 
+    "split": true
+}
+
+Data/json/Progress/HongyanCompFiles1per.json{
+    "ApplicationName": "Kerbal Space Program", 
+    "original_text": "Bug Fixes and Tweaks", 
+    "classification": {
+        "str_type": "Non-Functional", 
+        "int_type": 3
+    }, 
+    "flag": true, 
+    "ReleaseDate": "29/05/2013", 
+    "VersionNumber": "0.20.1", 
+    "ApplicationType": {
+        "str_type": "Desktop", 
+        "int_type": 0
+    }, 
+    "entry": "Bug Fixes and Tweaks", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/Kendall1Per.txt{
+    "ApplicationName": "Plague Inc", 
+    "original_text": "- Decide when your apes should rampage against research labs, move apes to avoid detection from military drones and use ape migration to prevent scientists from conducting aggressive ape experiments.", 
+    "classification": {
+        "str_type": "Non-Functional", 
+        "int_type": 3
+    }, 
+    "flag": false, 
+    "ReleaseDate": "14/07/2014", 
+    "VersionNumber": "1.9.1", 
+    "ApplicationType": {
+        "str_type": "Mobile", 
+        "int_type": 1
+    }, 
+    "entry": "- Decide when your apes should rampage against research labs, move apes to avoid detection from military drones and use ape migration to prevent scientists from conducting aggressive ape experiments.", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/HongyanCompFiles1per.json{
+    "ApplicationName": "Plague Inc", 
+    "original_text": "- Decide when your apes should rampage against research labs, move apes to avoid detection from military drones and use ape migration to prevent scientists from conducting aggressive ape experiments.", 
+    "classification": {
+        "str_type": "Feature", 
+        "int_type": 1
+    }, 
+    "flag": false, 
+    "ReleaseDate": "14/07/2014", 
+    "VersionNumber": "1.9.1", 
+    "ApplicationType": {
+        "str_type": "Mobile", 
+        "int_type": 1
+    }, 
+    "entry": "- Decide when your apes should rampage against research labs, move apes to avoid detection from military drones and use ape migration to prevent scientists from conducting aggressive ape experiments.", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/Kendall1Per.txt{
+    "ApplicationName": "SplashIDM", 
+    "original_text": "Stability enhancements and bug fixes", 
+    "classification": {
+        "str_type": "Enhancement", 
+        "int_type": 2
+    }, 
+    "flag": false, 
+    "ReleaseDate": "13/08/2013", 
+    "VersionNumber": "7.0.6", 
+    "ApplicationType": {
+        "str_type": "Not Classified", 
+        "int_type": 3
+    }, 
+    "entry": "Stability enhancements ", 
+    "merged": false, 
+    "split": true
+}
+
+Data/json/Progress/HongyanCompFiles1per.json{
+    "ApplicationName": "SplashIDM", 
+    "original_text": "Stability enhancements and bug fixes", 
+    "classification": {
+        "str_type": "Non-Functional", 
+        "int_type": 3
+    }, 
+    "flag": true, 
+    "ReleaseDate": "13/08/2013", 
+    "VersionNumber": "7.0.6", 
+    "ApplicationType": {
+        "str_type": "Not Classified", 
+        "int_type": 3
+    }, 
+    "entry": "Stability enhancements and bug fixes", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/Kendall1Per.txt{
+    "ApplicationName": "Instapaper", 
+    "original_text": "4.2.1 is a minor bugfix update. 4.2's changes:", 
+    "classification": {
+        "str_type": "Bug", 
+        "int_type": 0
+    }, 
+    "flag": false, 
+    "ReleaseDate": "21/05/2012", 
+    "VersionNumber": "4.2.1", 
+    "ApplicationType": {
+        "str_type": "Mobile", 
+        "int_type": 1
+    }, 
+    "entry": "4.2.1 is a minor bugfix update. 4.2's changes:", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/HongyanCompFiles1per.json{
+    "ApplicationName": "Instapaper", 
+    "original_text": "4.2.1 is a minor bugfix update. 4.2's changes:", 
+    "classification": {
+        "str_type": "Non-Functional", 
+        "int_type": 3
+    }, 
+    "flag": true, 
+    "ReleaseDate": "21/05/2012", 
+    "VersionNumber": "4.2.1", 
+    "ApplicationType": {
+        "str_type": "Mobile", 
+        "int_type": 1
+    }, 
+    "entry": "4.2.1 is a minor bugfix update. 4.2's changes:", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/Kendall1Per.txt{
+    "ApplicationName": "Acorn", 
+    "original_text": "Closing a document while it has a web export window open will now close that web export window.", 
+    "classification": {
+        "str_type": "Enhancement", 
+        "int_type": 2
+    }, 
+    "flag": false, 
+    "ReleaseDate": "19/09/2011", 
+    "VersionNumber": "3.1", 
+    "ApplicationType": {
+        "str_type": "Desktop", 
+        "int_type": 0
+    }, 
+    "entry": "Closing a document while it has a web export window open will now close that web export window.", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/HongyanCompFiles1per.json{
+    "ApplicationName": "Acorn", 
+    "original_text": "Closing a document while it has a web export window open will now close that web export window.", 
+    "classification": {
+        "str_type": "Feature", 
+        "int_type": 1
+    }, 
+    "flag": false, 
+    "ReleaseDate": "19/09/2011", 
+    "VersionNumber": "3.1", 
+    "ApplicationType": {
+        "str_type": "Desktop", 
+        "int_type": 0
+    }, 
+    "entry": "Closing a document while it has a web export window open will now close that web export window.", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/Kendall1Per.txt{
+    "ApplicationName": "Versions", 
+    "original_text": "IMPROVED BOOKMARKS LIST", 
+    "classification": {
+        "str_type": "Enhancement", 
+        "int_type": 2
+    }, 
+    "flag": false, 
+    "ReleaseDate": "05/10/2010", 
+    "VersionNumber": "1.1", 
+    "ApplicationType": {
+        "str_type": "Desktop", 
+        "int_type": 0
+    }, 
+    "entry": "IMPROVED BOOKMARKS LIST", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/HongyanCompFiles1per.json{
+    "ApplicationName": "Versions", 
+    "original_text": "IMPROVED BOOKMARKS LIST", 
+    "classification": {
+        "str_type": "Non-Functional", 
+        "int_type": 3
+    }, 
+    "flag": true, 
+    "ReleaseDate": "05/10/2010", 
+    "VersionNumber": "1.1", 
+    "ApplicationType": {
+        "str_type": "Desktop", 
+        "int_type": 0
+    }, 
+    "entry": "IMPROVED BOOKMARKS LIST", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/Kendall1Per.txt{
+    "ApplicationName": "NDepend", 
+    "original_text": "Empty static constructor can be discarded.", 
+    "classification": {
+        "str_type": "Enhancement", 
+        "int_type": 2
+    }, 
+    "flag": false, 
+    "ReleaseDate": "09/09/2008", 
+    "VersionNumber": "2.10.0.2393", 
+    "ApplicationType": {
+        "str_type": "Desktop", 
+        "int_type": 0
+    }, 
+    "entry": "Empty static constructor can be discarded.", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/HongyanCompFiles1per.json{
+    "ApplicationName": "NDepend", 
+    "original_text": "Empty static constructor can be discarded.", 
+    "classification": {
+        "str_type": "Feature", 
+        "int_type": 1
+    }, 
+    "flag": false, 
+    "ReleaseDate": "09/09/2008", 
+    "VersionNumber": "2.10.0.2393", 
+    "ApplicationType": {
+        "str_type": "Desktop", 
+        "int_type": 0
+    }, 
+    "entry": "Empty static constructor can be discarded.", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/Kendall1Per.txt{
+    "ApplicationName": "Kerbal Space Program", 
+    "original_text": "\t\u2022\tThe render distance is only 1500\u00a0km, and Kerbin will \"sink\" into the sky background, vanishing entirely as that altitude is achieved", 
+    "classification": {
+        "str_type": "Enhancement", 
+        "int_type": 2
+    }, 
+    "flag": false, 
+    "ReleaseDate": "24/06/2011", 
+    "VersionNumber": "0.7.3", 
+    "ApplicationType": {
+        "str_type": "Desktop", 
+        "int_type": 0
+    }, 
+    "entry": "\t\u2022\tThe render distance is only 1500\u00a0km, and Kerbin will \"sink\" into the sky background, vanishing entirely as that altitude is achieved", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/HongyanCompFiles1per.json{
+    "ApplicationName": "Kerbal Space Program", 
+    "original_text": "\t\u2022\tThe render distance is only 1500\u00a0km, and Kerbin will \"sink\" into the sky background, vanishing entirely as that altitude is achieved", 
+    "classification": {
+        "str_type": "Feature", 
+        "int_type": 1
+    }, 
+    "flag": false, 
+    "ReleaseDate": "24/06/2011", 
+    "VersionNumber": "0.7.3", 
+    "ApplicationType": {
+        "str_type": "Desktop", 
+        "int_type": 0
+    }, 
+    "entry": "\t\u2022\tThe render distance is only 1500\u00a0km, and Kerbin will \"sink\" into the sky background, vanishing entirely as that altitude is achieved", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/Kendall1Per.txt{
+    "ApplicationName": "Kerbal Space Program", 
+    "original_text": "\t\u2022\tCompletely overhauled the interior models for the VAB and SPH buildings, complete with animated trucks and cargo lifts.", 
+    "classification": {
+        "str_type": "Enhancement", 
+        "int_type": 2
+    }, 
+    "flag": false, 
+    "ReleaseDate": "24/07/2013", 
+    "VersionNumber": "0.21", 
+    "ApplicationType": {
+        "str_type": "Desktop", 
+        "int_type": 0
+    }, 
+    "entry": "\t\u2022\tCompletely overhauled the interior models for the VAB and SPH buildings, complete with animated trucks and cargo lifts.", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/HongyanCompFiles1per.json{
+    "ApplicationName": "Kerbal Space Program", 
+    "original_text": "\t\u2022\tCompletely overhauled the interior models for the VAB and SPH buildings, complete with animated trucks and cargo lifts.", 
+    "classification": {
+        "str_type": "Bug", 
+        "int_type": 0
+    }, 
+    "flag": false, 
+    "ReleaseDate": "24/07/2013", 
+    "VersionNumber": "0.21", 
+    "ApplicationType": {
+        "str_type": "Desktop", 
+        "int_type": 0
+    }, 
+    "entry": "\t\u2022\tCompletely overhauled the interior models for the VAB and SPH buildings, complete with animated trucks and cargo lifts.", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/Kendall1Per.txt{
+    "ApplicationName": "Clash of Clans", 
+    "original_text": "_ Archers get new bow techniques and fashionable tiaras from their Queen", 
+    "classification": {
+        "str_type": "Non-Functional", 
+        "int_type": 3
+    }, 
+    "flag": false, 
+    "ReleaseDate": "05/02/2013", 
+    "VersionNumber": "3.25", 
+    "ApplicationType": {
+        "str_type": "Mobile", 
+        "int_type": 1
+    }, 
+    "entry": "_ Archers get new bow techniques and fashionable tiaras from their Queen", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/HongyanCompFiles1per.json{
+    "ApplicationName": "Clash of Clans", 
+    "original_text": "_ Archers get new bow techniques and fashionable tiaras from their Queen", 
+    "classification": {
+        "str_type": "Feature", 
+        "int_type": 1
+    }, 
+    "flag": false, 
+    "ReleaseDate": "05/02/2013", 
+    "VersionNumber": "3.25", 
+    "ApplicationType": {
+        "str_type": "Mobile", 
+        "int_type": 1
+    }, 
+    "entry": "_ Archers get new bow techniques and fashionable tiaras from their Queen", 
+    "merged": false, 
+    "split": false
+}
+-----------SPLIT JSON ----------
+Data/json/Progress/Kendall1Per.txt{
+    "ApplicationName": "1PasswordD", 
+    "original_text": "This release isnt about big heroic new features, but the everyday heroes that help make 1Password shine.", 
+    "classification": {
+        "str_type": "Non-Functional", 
+        "int_type": 3
+    }, 
+    "flag": false, 
+    "ReleaseDate": "30/10/2014", 
+    "VersionNumber": "5.0.2", 
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop", 
+        "int_type": 2
+    }, 
+    "entry": "This release isnt about big heroic new features, but the everyday heroes that help make 1Password shine.", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/Kendall1Per.txt{
+    "ApplicationName": "", 
+    "original_text": "and fixes", 
+    "classification": {
+        "str_type": "Bug", 
+        "int_type": 0
+    }, 
+    "flag": false, 
+    "ReleaseDate": "", 
+    "VersionNumber": "3.2.0", 
+    "ApplicationType": {
+        "str_type": "Not Classified", 
+        "int_type": 3
+    }, 
+    "entry": "and fixes", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/Kendall1Per.txt{
+    "ApplicationName": "", 
+    "original_text": "Tweaks", 
+    "classification": {
+        "str_type": "Enhancement", 
+        "int_type": 2
+    }, 
+    "flag": false, 
+    "ReleaseDate": "", 
+    "VersionNumber": "0.20.1", 
+    "ApplicationType": {
+        "str_type": "Not Classified", 
+        "int_type": 3
+    }, 
+    "entry": "Tweaks", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/Kendall1Per.txt{
+    "ApplicationName": "", 
+    "original_text": "and bug fixes", 
+    "classification": {
+        "str_type": "Bug", 
+        "int_type": 0
+    }, 
+    "flag": false, 
+    "ReleaseDate": "", 
+    "VersionNumber": "7.0.6", 
+    "ApplicationType": {
+        "str_type": "Not Classified", 
+        "int_type": 3
+    }, 
+    "entry": "and bug fixes", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/HongyanCompFiles1per.json{
+    "ApplicationName": "1PasswordD", 
+    "original_text": "This release isn\ufffdt about big heroic new features, but the everyday heroes that help make 1Password shine.", 
+    "classification": {
+        "str_type": "Enhancement", 
+        "int_type": 2
+    }, 
+    "flag": true, 
+    "ReleaseDate": "30/10/2014", 
+    "VersionNumber": "5.0.2", 
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop", 
+        "int_type": 2
+    }, 
+    "entry": "This release isn\ufffdt about big heroic new features, but the everyday heroes that help make 1Password shine.", 
+    "merged": false, 
+    "split": false
+}
+
+Data/json/Progress/HongyanCompFiles1per.json{
+    "ApplicationName": "", 
+    "original_text": "Improved translations, added Polish translation.", 
+    "classification": {
+        "str_type": "Enhancement", 
+        "int_type": 2
+    }, 
+    "flag": true, 
+    "ReleaseDate": "", 
+    "VersionNumber": "4.0.7", 
+    "ApplicationType": {
+        "str_type": "Not Classified", 
+        "int_type": 3
+    }, 
+    "entry": "Improved translations,", 
+    "merged": false, 
+    "split": true
+}
