@@ -238,6 +238,9 @@
             this.lsbxHistory.Size = new System.Drawing.Size(84, 303);
             this.lsbxHistory.TabIndex = 9;
             this.lsbxHistory.SelectedIndexChanged += new System.EventHandler(this.lsbxHistory_SelectedIndexChanged);
+
+            this.lsbxHistory.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lsbxHistory_KeyPress);
+
             // 
             // label1
             // 

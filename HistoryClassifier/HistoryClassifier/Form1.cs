@@ -47,10 +47,20 @@ namespace HistoryClassifier
         {
             e.DrawBackground();
             e.DrawFocusRectangle();
-            e.Graphics.DrawString(activeHistory[e.Index].Get_ID(),
-                                    Control.DefaultFont,
-                                 colors[activeHistory[e.Index].Get_Classification()],
-                                  e.Bounds);
+            if (e.Index < 0)
+            {
+                e.Graphics.DrawString(activeHistory[lsboxindex].Get_ID(),
+                                       Control.DefaultFont,
+                                    colors[activeHistory[lsboxindex].Get_Classification()],
+                                     e.Bounds);
+            }
+            else
+            {
+                e.Graphics.DrawString(activeHistory[e.Index].Get_ID(),
+                                        Control.DefaultFont,
+                                     colors[activeHistory[e.Index].Get_Classification()],
+                                      e.Bounds);
+            }
 
         }
 
@@ -250,24 +260,30 @@ namespace HistoryClassifier
 
         private void MoveToNextIndex(){
             //TODO roll over version
-            if (lsboxindex == lsbxHistory.Items.Count-1)
+            try
             {
-                if (lsbxVersions.SelectedIndex == lsbxVersions.Items.Count - 1)
+                if (lsboxindex == lsbxHistory.Items.Count - 1)
                 {
+                    if (lsbxVersions.SelectedIndex == lsbxVersions.Items.Count - 1)
+                    {
+                        return;
+                    }
+
+                    lsbxVersions.SelectedIndex = lsbxVersions.SelectedIndex + 1;
+                    lsboxindex = 0;
                     return;
                 }
-
-                lsbxVersions.SelectedIndex = lsbxVersions.SelectedIndex + 1;
-                lsboxindex = 0;
-                return;
+                lsbxHistory.SelectedIndex = lsboxindex + 1;
             }
-            lsbxHistory.SelectedIndex = lsboxindex +1;
-            
+            catch (Exception ex)
+            {
+                Console.Out.Write(ex.Message);
+            }
         }
 
         private void Form1_KeyPress(object sender, KeyPressEventArgs e)
         {
-
+            
             if (!(textBox1.Text.Equals(String.Empty)) && !(txtName.ContainsFocus))
             {
                 switch (e.KeyChar)
@@ -670,6 +686,43 @@ namespace HistoryClassifier
         }
 
 
+
+        private void lsbxHistory_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = true;
+        }
+
+        private void KeyRouter(char c){
+            if (!(textBox1.Text.Equals(String.Empty)) && !(txtName.ContainsFocus))
+            {
+                switch (c)
+                {
+                    case 'q':
+                        Classify_Statement(new Bug());
+                        break;
+                    case 'w':
+                        Classify_Statement(new Feature());
+                        break;
+                    case 'e':
+                        Classify_Statement(new Enhancement());
+                        break;
+                    case 'r':
+                        Classify_Statement(new Junk());
+                        break;
+                    case 'u':
+                        Classify_Statement(new Ad());
+                        break;
+                    case 'i':
+                        Classify_Statement(new RevChangeRequest());
+                        break;
+                    case '\r':
+                        MoveToNextIndex();
+                        break;
+                    default: //do nothing
+                        break;
+                }
+            }
+        }
      
 
     }
