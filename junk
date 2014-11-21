@@ -1,0 +1,342 @@
+Number different - 1	Total Classified - 16	Percent Agreement - 93.75%	NumberSplit - 16
+Test Data/CompTest3{
+    "ApplicationName": "TEstAppl", 
+    "original_text": "freature", 
+    "classification": {
+        "str_type": "Feature", 
+        "int_type": 1
+    }, 
+    "flag": false, 
+    "ReleaseDate": "10-10-2010", 
+    "VersionNumber": "1.0", 
+    "ApplicationType": {
+        "str_type": "Desktop", 
+        "int_type": 0
+    }, 
+    "entry": "freature", 
+    "merged": false, 
+    "split": false
+}
+
+Test Data/CompTest5{
+    "ApplicationName": "TEstAppl", 
+    "original_text": "freature", 
+    "classification": {
+        "str_type": "Enahancement", 
+        "int_type": 2
+    }, 
+    "flag": false, 
+    "ReleaseDate": "10-10-2010", 
+    "VersionNumber": "1.0", 
+    "ApplicationType": {
+        "str_type": "Desktop", 
+        "int_type": 0
+    }, 
+    "entry": "freature", 
+    "merged": false, 
+    "split": false
+}
+-----------SPLIT JSON ----------
+Test Data/CompTest3{
+    "ApplicationName": "TEstAppl", 
+    "original_text": "bug", 
+    "classification": {
+        "str_type": "Bug", 
+        "int_type": 0
+    }, 
+    "flag": false, 
+    "ReleaseDate": "10-10-2010", 
+    "VersionNumber": "1.0", 
+    "ApplicationType": {
+        "str_type": "Desktop", 
+        "int_type": 0
+    }, 
+    "entry": "bug", 
+    "merged": false, 
+    "split": false
+}
+
+Test Data/CompTest3{
+    "ApplicationName": "TEstAppl", 
+    "original_text": "bug", 
+    "classification": {
+        "str_type": "Bug", 
+        "int_type": 0
+    }, 
+    "flag": false, 
+    "ReleaseDate": "10-10-2010", 
+    "VersionNumber": "1.0", 
+    "ApplicationType": {
+        "str_type": "Desktop", 
+        "int_type": 0
+    }, 
+    "entry": "bug", 
+    "merged": false, 
+    "split": false
+}
+
+Test Data/CompTest5{
+    "ApplicationName": "TEstAppl", 
+    "original_text": "bug", 
+    "classification": {
+        "str_type": "Bug", 
+        "int_type": 0
+    }, 
+    "flag": false, 
+    "ReleaseDate": "10-10-2010", 
+    "VersionNumber": "1.0", 
+    "ApplicationType": {
+        "str_type": "Desktop", 
+        "int_type": 0
+    }, 
+    "entry": "bug", 
+    "merged": false, 
+    "split": false
+}
+
+Test Data/CompTest5{
+    "ApplicationName": "TEstAppl", 
+    "original_text": "bug", 
+    "classification": {
+        "str_type": "Bug", 
+        "int_type": 0
+    }, 
+    "flag": false, 
+    "ReleaseDate": "10-10-2010", 
+    "VersionNumber": "1.0", 
+    "ApplicationType": {
+        "str_type": "Desktop", 
+        "int_type": 0
+    }, 
+    "entry": "bug", 
+    "merged": false, 
+    "split": false
+}
+
+Test Data/CompTest3{
+    "ApplicationName": "TEstAppl", 
+    "original_text": "bug", 
+    "classification": {
+        "str_type": "Bug", 
+        "int_type": 0
+    }, 
+    "flag": false, 
+    "ReleaseDate": "10-11-2011", 
+    "VersionNumber": "1.1", 
+    "ApplicationType": {
+        "str_type": "Desktop", 
+        "int_type": 0
+    }, 
+    "entry": "bug", 
+    "merged": false, 
+    "split": false
+}
+
+Test Data/CompTest3{
+    "ApplicationName": "TEstAppl", 
+    "original_text": "bug", 
+    "classification": {
+        "str_type": "Bug", 
+        "int_type": 0
+    }, 
+    "flag": false, 
+    "ReleaseDate": "10-11-2011", 
+    "VersionNumber": "1.1", 
+    "ApplicationType": {
+        "str_type": "Desktop", 
+        "int_type": 0
+    }, 
+    "entry": "bug", 
+    "merged": false, 
+    "split": false
+}
+
+Test Data/CompTest5{
+    "ApplicationName": "TEstAppl", 
+    "original_text": "bug", 
+    "classification": {
+        "str_type": "Bug", 
+        "int_type": 0
+    }, 
+    "flag": false, 
+    "ReleaseDate": "10-11-2011", 
+    "VersionNumber": "1.1", 
+    "ApplicationType": {
+        "str_type": "Desktop", 
+        "int_type": 0
+    }, 
+    "entry": "bug", 
+    "merged": false, 
+    "split": false
+}
+
+Test Data/CompTest5{
+    "ApplicationName": "TEstAppl", 
+    "original_text": "bug", 
+    "classification": {
+        "str_type": "Feature", 
+        "int_type": 1
+    }, 
+    "flag": false, 
+    "ReleaseDate": "10-11-2011", 
+    "VersionNumber": "1.1", 
+    "ApplicationType": {
+        "str_type": "Desktop", 
+        "int_type": 0
+    }, 
+    "entry": "bug", 
+    "merged": false, 
+    "split": false
+}
+
+Test Data/CompTest3{
+    "ApplicationName": "TEstAppl", 
+    "original_text": "junk", 
+    "classification": {
+        "str_type": "Non-Functional", 
+        "int_type": 3
+    }, 
+    "flag": false, 
+    "ReleaseDate": "11-11-2011", 
+    "VersionNumber": "1.2", 
+    "ApplicationType": {
+        "str_type": "Desktop", 
+        "int_type": 0
+    }, 
+    "entry": "junk", 
+    "merged": false, 
+    "split": false
+}
+
+Test Data/CompTest3{
+    "ApplicationName": "TEstAppl", 
+    "original_text": "junk", 
+    "classification": {
+        "str_type": "Non-Functional", 
+        "int_type": 3
+    }, 
+    "flag": false, 
+    "ReleaseDate": "11-11-2011", 
+    "VersionNumber": "1.2", 
+    "ApplicationType": {
+        "str_type": "Desktop", 
+        "int_type": 0
+    }, 
+    "entry": "junk", 
+    "merged": false, 
+    "split": false
+}
+
+Test Data/CompTest5{
+    "ApplicationName": "TEstAppl", 
+    "original_text": "junk", 
+    "classification": {
+        "str_type": "Non-Functional", 
+        "int_type": 3
+    }, 
+    "flag": false, 
+    "ReleaseDate": "11-11-2011", 
+    "VersionNumber": "1.2", 
+    "ApplicationType": {
+        "str_type": "Desktop", 
+        "int_type": 0
+    }, 
+    "entry": "junk", 
+    "merged": false, 
+    "split": false
+}
+
+Test Data/CompTest5{
+    "ApplicationName": "TEstAppl", 
+    "original_text": "junk", 
+    "classification": {
+        "str_type": "Non-Functional", 
+        "int_type": 3
+    }, 
+    "flag": false, 
+    "ReleaseDate": "11-11-2011", 
+    "VersionNumber": "1.2", 
+    "ApplicationType": {
+        "str_type": "Desktop", 
+        "int_type": 0
+    }, 
+    "entry": "junk", 
+    "merged": false, 
+    "split": false
+}
+
+Test Data/CompTest3{
+    "ApplicationName": "TEstAppl", 
+    "original_text": "junk junk", 
+    "classification": {
+        "str_type": "Non-Functional", 
+        "int_type": 3
+    }, 
+    "flag": false, 
+    "ReleaseDate": "11-11-2011", 
+    "VersionNumber": "1.2", 
+    "ApplicationType": {
+        "str_type": "Desktop", 
+        "int_type": 0
+    }, 
+    "entry": "junk ", 
+    "merged": false, 
+    "split": true
+}
+
+Test Data/CompTest3{
+    "ApplicationName": "TEstAppl", 
+    "original_text": "junk junk", 
+    "classification": {
+        "str_type": "Non-Functional", 
+        "int_type": 3
+    }, 
+    "flag": false, 
+    "ReleaseDate": "", 
+    "VersionNumber": "1.2", 
+    "ApplicationType": {
+        "str_type": "Not Classified", 
+        "int_type": 3
+    }, 
+    "entry": "junk", 
+    "merged": false, 
+    "split": false
+}
+
+Test Data/CompTest5{
+    "ApplicationName": "TEstAppl", 
+    "original_text": "junk junk", 
+    "classification": {
+        "str_type": "Non-Functional", 
+        "int_type": 3
+    }, 
+    "flag": false, 
+    "ReleaseDate": "11-11-2011", 
+    "VersionNumber": "1.2", 
+    "ApplicationType": {
+        "str_type": "Desktop", 
+        "int_type": 0
+    }, 
+    "entry": "junk ", 
+    "merged": false, 
+    "split": true
+}
+
+Test Data/CompTest5{
+    "ApplicationName": "TEstAppl", 
+    "original_text": "junk junk", 
+    "classification": {
+        "str_type": "Bug", 
+        "int_type": 1
+    }, 
+    "flag": false, 
+    "ReleaseDate": "", 
+    "VersionNumber": "1.2", 
+    "ApplicationType": {
+        "str_type": "Not Classified", 
+        "int_type": 3
+    }, 
+    "entry": "junk", 
+    "merged": false, 
+    "split": false
+}
