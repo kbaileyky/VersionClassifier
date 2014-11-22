@@ -215,6 +215,11 @@ namespace HistoryClassifier
             CheckOriginal();
         }
 
+        public void Set_Original_Text(string text)
+        {
+            original_text = text;
+        }
+
         private void CheckOriginal()
         {
             if(original_text.Equals(entry)){
