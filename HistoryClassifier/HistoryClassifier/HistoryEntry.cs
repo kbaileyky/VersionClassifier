@@ -18,7 +18,7 @@ namespace HistoryClassifier
 
         public AppType ApplicationType;
 
-        private string[] datePattern;
+        public string[] datePattern;
 
         public bool flag = false;
 

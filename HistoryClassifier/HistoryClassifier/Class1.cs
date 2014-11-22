@@ -158,9 +158,9 @@ namespace HistoryClassifier
         }
 
         public void Split_Entry(int index, int SubstringPosition){
-            string entry = EntryList[index].Get_Entry();
-            EntryList[index].Set_Entry(entry.Substring(0, SubstringPosition));
-            EntryList.Insert(index + 1, new HistoryEntry(entry.Substring(SubstringPosition)));
+            HistoryEntry entry = EntryList[index];
+            EntryList[index].Set_Entry(entry.Get_Entry().Substring(0, SubstringPosition));
+            EntryList.Insert(index + 1, new HistoryEntry(entry.Get_Entry().Substring(SubstringPosition),new NotClassified(), entry.ApplicationName,entry.VersionNumber,entry.ReleaseDate, entry.datePattern,entry.ApplicationType));
             EntryList[index].Set_Split(true);
             EntryList[index + 1].Set_Split(true);
             return;
