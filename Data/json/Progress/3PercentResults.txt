@@ -1,0 +1,5257 @@
+﻿Percent Agreement:	71.3178294573643	 Total Classified:	387	 Number Different:	111	Total Split:	9
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "\t•\tPart costs are now used in career mode.",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "0.24",
+    "ReleaseDate": "17/07/2014",
+    "ApplicationName": "Kerbal Space Program",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t•\tPart costs are now used in career mode."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "\t•\tPart costs are now used in career mode.",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "0.24",
+    "ReleaseDate": "17/07/2014",
+    "ApplicationName": "Kerbal Space Program",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t•\tPart costs are now used in career mode."
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "Demo Restrictions and changes:",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "0.18.3",
+    "ReleaseDate": "12/02/2013",
+    "ApplicationName": "Kerbal Space Program",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Demo Restrictions and changes:"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "Demo Restrictions and changes:",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "0.18.3",
+    "ReleaseDate": "12/02/2013",
+    "ApplicationName": "Kerbal Space Program",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Demo Restrictions and changes:"
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "Bug Fixes ",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "5.0.0.8041",
+    "ReleaseDate": "24/02/2010",
+    "ApplicationName": "NDepend",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Bug Fixes "
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "Bug Fixes ",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "5.0.0.8041",
+    "ReleaseDate": "24/02/2010",
+    "ApplicationName": "NDepend",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": true,
+    "split": false,
+    "merged": false,
+    "original_text": "Bug Fixes "
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "Hiding a row with all NULL values would also incorrectly hide the grand totals row.",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "6.0.2",
+    "ReleaseDate": "15/12/2010",
+    "ApplicationName": "Tableau",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Hiding a row with all NULL values would also incorrectly hide the grand totals row."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "Hiding a row with all NULL values would also incorrectly hide the grand totals row.",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "6.0.2",
+    "ReleaseDate": "15/12/2010",
+    "ApplicationName": "Tableau",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": true,
+    "split": false,
+    "merged": false,
+    "original_text": "Hiding a row with all NULL values would also incorrectly hide the grand totals row."
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "Layer styles are now scaled when you resize your image.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "3.0.2",
+    "ReleaseDate": "31/05/2011",
+    "ApplicationName": "Acorn",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Layer styles are now scaled when you resize your image."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "Layer styles are now scaled when you resize your image.",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "3.0.2",
+    "ReleaseDate": "31/05/2011",
+    "ApplicationName": "Acorn",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Layer styles are now scaled when you resize your image."
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "This release isnt about big heroic new features, but the everyday heroes that help make 1Password shine.",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "5.0.2",
+    "ReleaseDate": "30/10/2014",
+    "ApplicationName": "1PasswordD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "This release isnt about big heroic new features, but the everyday heroes that help make 1Password shine."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "This release isnt about big heroic new features, but the everyday heroes that help make 1Password shine.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "5.0.2",
+    "ReleaseDate": "30/10/2014",
+    "ApplicationName": "1PasswordD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": true,
+    "split": false,
+    "merged": false,
+    "original_text": "This release isn�t about big heroic new features, but the everyday heroes that help make 1Password shine."
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "New part joints",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "0.23.5",
+    "ReleaseDate": "01/04/2014",
+    "ApplicationName": "Kerbal Space Program",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "New part joints"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "New part joints",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "0.23.5",
+    "ReleaseDate": "01/04/2014",
+    "ApplicationName": "Kerbal Space Program",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "New part joints"
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "In the panel Project Properties > Code to Analyze, when drag-and-droppig many folders or many assemblies, the UI could take time to refresh and response.",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "5.0.0.8041",
+    "ReleaseDate": "24/02/2010",
+    "ApplicationName": "NDepend",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "In the panel Project Properties > Code to Analyze, when drag-and-droppig many folders or many assemblies, the UI could take time to refresh and response."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "In the panel Project Properties > Code to Analyze, when drag-and-droppig many folders or many assemblies, the UI could take time to refresh and response.",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "5.0.0.8041",
+    "ReleaseDate": "24/02/2010",
+    "ApplicationName": "NDepend",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "In the panel Project Properties > Code to Analyze, when drag-and-droppig many folders or many assemblies, the UI could take time to refresh and response."
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "When analyzing thousands of assemblies, an exception could popup because the analysis log relating assemblies resolving could be too large.",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "5.0.0.8041",
+    "ReleaseDate": "24/02/2010",
+    "ApplicationName": "NDepend",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "When analyzing thousands of assemblies, an exception could popup because the analysis log relating assemblies resolving could be too large."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "When analyzing thousands of assemblies, an exception could popup because the analysis log relating assemblies resolving could be too large.",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "5.0.0.8041",
+    "ReleaseDate": "24/02/2010",
+    "ApplicationName": "NDepend",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "When analyzing thousands of assemblies, an exception could popup because the analysis log relating assemblies resolving could be too large."
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "\t•\tCompletely remodelled the Communotron 88-88 Comms Dish. The new mesh uses the same placement rules so it won't break ships that have it.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "0.22",
+    "ReleaseDate": "16/10/2013",
+    "ApplicationName": "Kerbal Space Program",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t•\tCompletely remodelled the Communotron 88-88 Comms Dish. The new mesh uses the same placement rules so it won't break ships that have it."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "\t•\tCompletely remodelled the Communotron 88-88 Comms Dish. The new mesh uses the same placement rules so it won't break ships that have it.",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "0.22",
+    "ReleaseDate": "16/10/2013",
+    "ApplicationName": "Kerbal Space Program",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t•\tCompletely remodelled the Communotron 88-88 Comms Dish. The new mesh uses the same placement rules so it won't break ships that have it."
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "Computation of the metrics LCOM and LCOM-HS defined on types no longer takes into account compiler generated members.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "3.0.0.4527",
+    "ReleaseDate": "15/02/2010",
+    "ApplicationName": "NDepend",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Computation of the metrics LCOM and LCOM-HS defined on types no longer takes into account compiler generated members."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "Computation of the metrics LCOM and LCOM-HS defined on types no longer takes into account compiler generated members.",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "3.0.0.4527",
+    "ReleaseDate": "15/02/2010",
+    "ApplicationName": "NDepend",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Computation of the metrics LCOM and LCOM-HS defined on types no longer takes into account compiler generated members."
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "Catalan and Danish localization",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "4.2",
+    "ReleaseDate": "11/03/2014",
+    "ApplicationName": "1PasswordD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": true,
+    "split": false,
+    "merged": false,
+    "original_text": "Catalan and Danish localization"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "Catalan and Danish localization",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "4.2",
+    "ReleaseDate": "11/03/2014",
+    "ApplicationName": "1PasswordD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Catalan and Danish localization"
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "\t•\tWhen saving a version of a duplicated file when running Mac OS X v10.7, the “dirty” close button should go away.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "5.3.1",
+    "ReleaseDate": "17/08/2011",
+    "ApplicationName": "OmniGraffleD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t•\tWhen saving a version of a duplicated file when running Mac OS X v10.7, the “dirty” close button should go away."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "\t•\tWhen saving a version of a duplicated file when running Mac OS X v10.7, the “dirty” close button should go away.",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "5.3.1",
+    "ReleaseDate": "17/08/2011",
+    "ApplicationName": "OmniGraffleD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": true,
+    "split": false,
+    "merged": false,
+    "original_text": "\t•\tWhen saving a version of a duplicated file when running Mac OS X v10.7, the “dirty” close button should go away."
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "- Immediate responsivness with asynchronous assemblies loading.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "2.6.0.1607",
+    "ReleaseDate": "10/12/2007",
+    "ApplicationName": "NDepend",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Immediate responsivness with asynchronous assemblies loading."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "- Immediate responsivness with asynchronous assemblies loading.",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "2.6.0.1607",
+    "ReleaseDate": "10/12/2007",
+    "ApplicationName": "NDepend",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Immediate responsivness with asynchronous assemblies loading."
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "\t•\tGraphics: 800x600 is no longer a valid resolution option. Minimum possible resolution is now 960x720.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "0.18.2",
+    "ReleaseDate": "20/12/2012",
+    "ApplicationName": "Kerbal Space Program",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t•\tGraphics: 800x600 is no longer a valid resolution option. Minimum possible resolution is now 960x720."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "\t•\tGraphics: 800x600 is no longer a valid resolution option. Minimum possible resolution is now 960x720.",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "0.18.2",
+    "ReleaseDate": "20/12/2012",
+    "ApplicationName": "Kerbal Space Program",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t•\tGraphics: 800x600 is no longer a valid resolution option. Minimum possible resolution is now 960x720."
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "\t•\tRedesigned Stencil Window supporting local searches and searches on Graffletopia.com.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "5.2",
+    "ReleaseDate": "28/08/2009",
+    "ApplicationName": "OmniGraffleD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t•\tRedesigned Stencil Window supporting local searches and searches on Graffletopia.com."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "\t•\tRedesigned Stencil Window supporting local searches and searches on Graffletopia.com.",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "5.2",
+    "ReleaseDate": "28/08/2009",
+    "ApplicationName": "OmniGraffleD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t•\tRedesigned Stencil Window supporting local searches and searches on Graffletopia.com."
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "The error \"Tableau Exception: Could not send Query (connection dead)\" would sometimes display when accessing a published workbook that connects to an Amazon Redshift data source. ",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "7.0.16",
+    "ReleaseDate": "11/06/2013",
+    "ApplicationName": "Tableau",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "The error \"Tableau Exception: Could not send Query (connection dead)\" would sometimes display when accessing a published workbook that connects to an Amazon Redshift data source. "
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "The error \"Tableau Exception: Could not send Query (connection dead)\" would sometimes display when accessing a published workbook that connects to an Amazon Redshift data source. ",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "7.0.16",
+    "ReleaseDate": "11/06/2013",
+    "ApplicationName": "Tableau",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": true,
+    "split": false,
+    "merged": false,
+    "original_text": "The error \"Tableau Exception: Could not send Query (connection dead)\" would sometimes display when accessing a published workbook that connects to an Amazon Redshift data source. "
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "For iPhone and iPod Touch owners, this update includes all the same great features from Pandora 4.0:",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "4.1",
+    "ReleaseDate": "17/11/2012",
+    "ApplicationName": "Pandora",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "For iPhone and iPod Touch owners, this update includes all the same great features from Pandora 4.0:"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "For iPhone and iPod Touch owners, this update includes all the same great features from Pandora 4.0:",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "4.1",
+    "ReleaseDate": "17/11/2012",
+    "ApplicationName": "Pandora",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": true,
+    "split": false,
+    "merged": false,
+    "original_text": "For iPhone and iPod Touch owners, this update includes all the same great features from Pandora 4.0:"
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "Minor New Stuff",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "4.5.1",
+    "ReleaseDate": "03/09/2014",
+    "ApplicationName": "Acorn",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Minor New Stuff"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "Minor New Stuff",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "4.5.1",
+    "ReleaseDate": "03/09/2014",
+    "ApplicationName": "Acorn",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Minor New Stuff"
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "The --administrator option is one of the options you can use with the tabcmd syncgroup command. In earlier versions it assigned the Administrator user right to a group of users. Now it also allows you to designate an Administrator type of system, content, or none.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "7.0.4",
+    "ReleaseDate": "24/05/2012",
+    "ApplicationName": "Tableau",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "The --administrator option is one of the options you can use with the tabcmd syncgroup command. In earlier versions it assigned the Administrator user right to a group of users. Now it also allows you to designate an Administrator type of system, content, or none."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "The --administrator option is one of the options you can use with the tabcmd syncgroup command. In earlier versions it assigned the Administrator user right to a group of users. Now it also allows you to designate an Administrator type of system, content, or none.",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "7.0.4",
+    "ReleaseDate": "24/05/2012",
+    "ApplicationName": "Tableau",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "The --administrator option is one of the options you can use with the tabcmd syncgroup command. In earlier versions it assigned the Administrator user right to a group of users. Now it also allows you to designate an Administrator type of system, content, or none."
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "Enabled zoom and pan for dual axis charts in the iPad application.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "6.1.3",
+    "ReleaseDate": "05/10/2011",
+    "ApplicationName": "Tableau",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Enabled zoom and pan for dual axis charts in the iPad application."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "Enabled zoom and pan for dual axis charts in the iPad application.",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "6.1.3",
+    "ReleaseDate": "05/10/2011",
+    "ApplicationName": "Tableau",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Enabled zoom and pan for dual axis charts in the iPad application."
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "- Updates to PSN connectivity",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "2.8",
+    "ReleaseDate": "21/06/2013",
+    "ApplicationName": "RaptrM",
+    "ApplicationType": {
+        "str_type": "Sibling - Mobile",
+        "int_type": 4
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Updates to PSN connectivity"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "- Updates to PSN connectivity",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "2.8",
+    "ReleaseDate": "21/06/2013",
+    "ApplicationName": "RaptrM",
+    "ApplicationType": {
+        "str_type": "Sibling - Mobile",
+        "int_type": 4
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Updates to PSN connectivity"
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "\t\tAPI Breaking Changes: Types",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "5.0.0.8041",
+    "ReleaseDate": "24/02/2010",
+    "ApplicationName": "NDepend",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t\tAPI Breaking Changes: Types"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "\t\tAPI Breaking Changes: Types",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "5.0.0.8041",
+    "ReleaseDate": "24/02/2010",
+    "ApplicationName": "NDepend",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t\tAPI Breaking Changes: Types"
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "The VisualStudio Add-In might not work properly for some VB.NET methods with some Object parameters.",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "2.9.1.2235",
+    "ReleaseDate": "08/08/2008",
+    "ApplicationName": "NDepend",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "The VisualStudio Add-In might not work properly for some VB.NET methods with some Object parameters."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "The VisualStudio Add-In might not work properly for some VB.NET methods with some Object parameters.",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "2.9.1.2235",
+    "ReleaseDate": "08/08/2008",
+    "ApplicationName": "NDepend",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": true,
+    "split": false,
+    "merged": false,
+    "original_text": "The VisualStudio Add-In might not work properly for some VB.NET methods with some Object parameters."
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "The metric NbVariables defined on method now doesn't take account of compiler generated variables anymore.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "5.0.0.8041",
+    "ReleaseDate": "24/02/2010",
+    "ApplicationName": "NDepend",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "The metric NbVariables defined on method now doesn't take account of compiler generated variables anymore."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "The metric NbVariables defined on method now doesn't take account of compiler generated variables anymore.",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "5.0.0.8041",
+    "ReleaseDate": "24/02/2010",
+    "ApplicationName": "NDepend",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "The metric NbVariables defined on method now doesn't take account of compiler generated variables anymore."
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "- Decide when your apes should rampage against research labs, move apes to avoid detection from military drones and use ape migration to prevent scientists from conducting aggressive ape experiments.",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "1.9.1",
+    "ReleaseDate": "14/07/2014",
+    "ApplicationName": "Plague Inc",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Decide when your apes should rampage against research labs, move apes to avoid detection from military drones and use ape migration to prevent scientists from conducting aggressive ape experiments."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "- Decide when your apes should rampage against research labs, move apes to avoid detection from military drones and use ape migration to prevent scientists from conducting aggressive ape experiments.",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "1.9.1",
+    "ReleaseDate": "14/07/2014",
+    "ApplicationName": "Plague Inc",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Decide when your apes should rampage against research labs, move apes to avoid detection from military drones and use ape migration to prevent scientists from conducting aggressive ape experiments."
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "4.2.1 is a minor bugfix update. 4.2's changes:",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "4.2.1",
+    "ReleaseDate": "21/05/2012",
+    "ApplicationName": "Instapaper",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "4.2.1 is a minor bugfix update. 4.2's changes:"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "4.2.1 is a minor bugfix update. 4.2's changes:",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "4.2.1",
+    "ReleaseDate": "21/05/2012",
+    "ApplicationName": "Instapaper",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": true,
+    "split": false,
+    "merged": false,
+    "original_text": "4.2.1 is a minor bugfix update. 4.2's changes:"
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "Closing a document while it has a web export window open will now close that web export window.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "3.1",
+    "ReleaseDate": "19/09/2011",
+    "ApplicationName": "Acorn",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Closing a document while it has a web export window open will now close that web export window."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "Closing a document while it has a web export window open will now close that web export window.",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "3.1",
+    "ReleaseDate": "19/09/2011",
+    "ApplicationName": "Acorn",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Closing a document while it has a web export window open will now close that web export window."
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "IMPROVED BOOKMARKS LIST",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "1.1",
+    "ReleaseDate": "05/10/2010",
+    "ApplicationName": "Versions",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "IMPROVED BOOKMARKS LIST"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "IMPROVED BOOKMARKS LIST",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "1.1",
+    "ReleaseDate": "05/10/2010",
+    "ApplicationName": "Versions",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": true,
+    "split": false,
+    "merged": false,
+    "original_text": "IMPROVED BOOKMARKS LIST"
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "Empty static constructor can be discarded.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "2.10.0.2393",
+    "ReleaseDate": "09/09/2008",
+    "ApplicationName": "NDepend",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Empty static constructor can be discarded."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "Empty static constructor can be discarded.",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "2.10.0.2393",
+    "ReleaseDate": "09/09/2008",
+    "ApplicationName": "NDepend",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Empty static constructor can be discarded."
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "\t•\tThe render distance is only 1500 km, and Kerbin will \"sink\" into the sky background, vanishing entirely as that altitude is achieved",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "0.7.3",
+    "ReleaseDate": "24/06/2011",
+    "ApplicationName": "Kerbal Space Program",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t•\tThe render distance is only 1500 km, and Kerbin will \"sink\" into the sky background, vanishing entirely as that altitude is achieved"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "\t•\tThe render distance is only 1500 km, and Kerbin will \"sink\" into the sky background, vanishing entirely as that altitude is achieved",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "0.7.3",
+    "ReleaseDate": "24/06/2011",
+    "ApplicationName": "Kerbal Space Program",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t•\tThe render distance is only 1500 km, and Kerbin will \"sink\" into the sky background, vanishing entirely as that altitude is achieved"
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "\t•\tCompletely overhauled the interior models for the VAB and SPH buildings, complete with animated trucks and cargo lifts.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "0.21",
+    "ReleaseDate": "24/07/2013",
+    "ApplicationName": "Kerbal Space Program",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t•\tCompletely overhauled the interior models for the VAB and SPH buildings, complete with animated trucks and cargo lifts."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "\t•\tCompletely overhauled the interior models for the VAB and SPH buildings, complete with animated trucks and cargo lifts.",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "0.21",
+    "ReleaseDate": "24/07/2013",
+    "ApplicationName": "Kerbal Space Program",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t•\tCompletely overhauled the interior models for the VAB and SPH buildings, complete with animated trucks and cargo lifts."
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "_ Archers get new bow techniques and fashionable tiaras from their Queen",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "3.25",
+    "ReleaseDate": "05/02/2013",
+    "ApplicationName": "Clash of Clans",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "_ Archers get new bow techniques and fashionable tiaras from their Queen"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "_ Archers get new bow techniques and fashionable tiaras from their Queen",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "3.25",
+    "ReleaseDate": "05/02/2013",
+    "ApplicationName": "Clash of Clans",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "_ Archers get new bow techniques and fashionable tiaras from their Queen"
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "\t•\tWhen dragging an image from a web browser to a canvas, the image should now land under the mouse cursor and not off the canvas to the lower left corner.",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "5.4",
+    "ReleaseDate": "04/06/2012",
+    "ApplicationName": "OmniGraffleD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t•\tWhen dragging an image from a web browser to a canvas, the image should now land under the mouse cursor and not off the canvas to the lower left corner."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "\t•\tWhen dragging an image from a web browser to a canvas, the image should now land under the mouse cursor and not off the canvas to the lower left corner.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "5.4",
+    "ReleaseDate": "04/06/2012",
+    "ApplicationName": "OmniGraffleD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t•\tWhen dragging an image from a web browser to a canvas, the image should now land under the mouse cursor and not off the canvas to the lower left corner."
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "Added additional automatic reconnect logic for Microsoft Analysis Services connections when the database drops the connection.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "5.0.2",
+    "ReleaseDate": "04/08/2009",
+    "ApplicationName": "Tableau",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Added additional automatic reconnect logic for Microsoft Analysis Services connections when the database drops the connection."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "Added additional automatic reconnect logic for Microsoft Analysis Services connections when the database drops the connection.",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "5.0.2",
+    "ReleaseDate": "04/08/2009",
+    "ApplicationName": "Tableau",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Added additional automatic reconnect logic for Microsoft Analysis Services connections when the database drops the connection."
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "\t•\tFixed a typo in Tutorial 6 in the OmniGraffle Help.",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "5.2",
+    "ReleaseDate": "28/08/2009",
+    "ApplicationName": "OmniGraffleD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t•\tFixed a typo in Tutorial 6 in the OmniGraffle Help."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "\t•\tFixed a typo in Tutorial 6 in the OmniGraffle Help.",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "5.2",
+    "ReleaseDate": "28/08/2009",
+    "ApplicationName": "OmniGraffleD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t•\tFixed a typo in Tutorial 6 in the OmniGraffle Help."
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "_ Our sharing menu is now a good iOS 7 citizen",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "4.5.3",
+    "ReleaseDate": "21/06/2014",
+    "ApplicationName": "1PasswordM",
+    "ApplicationType": {
+        "str_type": "Sibling - Mobile",
+        "int_type": 4
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "_ Our sharing menu is now a good iOS 7 citizen"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "_ Our sharing menu is now a good iOS 7 citizen",
+    "classification": {
+        "str_type": "Advertisement",
+        "int_type": 4
+    },
+    "VersionNumber": "4.5.3",
+    "ReleaseDate": "21/06/2014",
+    "ApplicationName": "1PasswordM",
+    "ApplicationType": {
+        "str_type": "Sibling - Mobile",
+        "int_type": 4
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": true,
+    "split": false,
+    "merged": false,
+    "original_text": "_ Our sharing menu is now a good iOS 7 citizen"
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "\t•\tIncreased Jool's rotating frame threshold altitude to prevent entering its atmosphere with the rotating frame disabled.",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "0.18.4",
+    "ReleaseDate": "14/02/2013",
+    "ApplicationName": "Kerbal Space Program",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t•\tIncreased Jool's rotating frame threshold altitude to prevent entering its atmosphere with the rotating frame disabled."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "\t•\tIncreased Jool's rotating frame threshold altitude to prevent entering its atmosphere with the rotating frame disabled.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "0.18.4",
+    "ReleaseDate": "14/02/2013",
+    "ApplicationName": "Kerbal Space Program",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t•\tIncreased Jool's rotating frame threshold altitude to prevent entering its atmosphere with the rotating frame disabled."
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "Holding down the shift key while rotating when using the Layer ▸ Rotate and Transform ▸ Scale and Rotate menu item will snap the rotation to 45° increments.",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "3.5",
+    "ReleaseDate": "09/10/2012",
+    "ApplicationName": "Acorn",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Holding down the shift key while rotating when using the Layer ▸ Rotate and Transform ▸ Scale and Rotate menu item will snap the rotation to 45° increments."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "Holding down the shift key while rotating when using the Layer ▸ Rotate and Transform ▸ Scale and Rotate menu item will snap the rotation to 45° increments.",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "3.5",
+    "ReleaseDate": "09/10/2012",
+    "ApplicationName": "Acorn",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": true,
+    "split": false,
+    "merged": false,
+    "original_text": "Holding down the shift key while rotating when using the Layer ▸ Rotate and Transform ▸ Scale and Rotate menu item will snap the rotation to 45° increments."
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "When clicking 'Run Analysis' from a project edied without any analysis result currently loaded, if the NDepend project had a Baseline for comparison (UI) defined, this baseline wasn't loaded in the interactive UI once the new analysis result (produced by the triggered analysis) was reloaded.",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "5.0.0.8041",
+    "ReleaseDate": "24/02/2010",
+    "ApplicationName": "NDepend",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "When clicking 'Run Analysis' from a project edied without any analysis result currently loaded, if the NDepend project had a Baseline for comparison (UI) defined, this baseline wasn't loaded in the interactive UI once the new analysis result (produced by the triggered analysis) was reloaded."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "When clicking 'Run Analysis' from a project edied without any analysis result currently loaded, if the NDepend project had a Baseline for comparison (UI) defined, this baseline wasn't loaded in the interactive UI once the new analysis result (produced by the triggered analysis) was reloaded.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "5.0.0.8041",
+    "ReleaseDate": "24/02/2010",
+    "ApplicationName": "NDepend",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": true,
+    "split": false,
+    "merged": false,
+    "original_text": "When clicking 'Run Analysis' from a project edied without any analysis result currently loaded, if the NDepend project had a Baseline for comparison (UI) defined, this baseline wasn't loaded in the interactive UI once the new analysis result (produced by the triggered analysis) was reloaded."
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "Tableau 6.1 is loaded with new features. We've added incremental updates, faster extracts, and for the first time, the Desktop application is available in French and German. We're also introducing Tableau for iPad. Tableau Server views are now optimized to deliver touch experiences when accessed on devices like the Apple iPad. These are all just the beginning of what's new in this version.",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "6.1",
+    "ReleaseDate": "29/07/2011",
+    "ApplicationName": "Tableau",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Tableau 6.1 is loaded with new features. We've added incremental updates, faster extracts, and for the first time, the Desktop application is available in French and German. We're also introducing Tableau for iPad. Tableau Server views are now optimized to deliver touch experiences when accessed on devices like the Apple iPad. These are all just the beginning of what's new in this version."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "Tableau 6.1 is loaded with new features. We've added incremental updates, faster extracts, and for the first time, the Desktop application is available in French and German. We're also introducing Tableau for iPad. Tableau Server views are now optimized to deliver touch experiences when accessed on devices like the Apple iPad. These are all just the beginning of what's new in this version.",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "6.1",
+    "ReleaseDate": "29/07/2011",
+    "ApplicationName": "Tableau",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": true,
+    "split": false,
+    "merged": false,
+    "original_text": "Tableau 6.1 is loaded with new features. We've added incremental updates, faster extracts, and for the first time, the Desktop application is available in French and German. We're also introducing Tableau for iPad. Tableau Server views are now optimized to deliver touch experiences when accessed on devices like the Apple iPad. These are all just the beginning of what's new in this version."
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "- Use active abilities like �Zombie Horde� in the battle against Z Com � humanity's last defense against the dead!",
+    "classification": {
+        "str_type": "Advertisement",
+        "int_type": 4
+    },
+    "VersionNumber": "1.5",
+    "ReleaseDate": "26/02/2013",
+    "ApplicationName": "Plague Inc",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Use active abilities like �Zombie Horde� in the battle against Z Com � humanity's last defense against the dead!"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "- Use active abilities like �Zombie Horde� in the battle against Z Com � humanity's last defense against the dead!",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "1.5",
+    "ReleaseDate": "26/02/2013",
+    "ApplicationName": "Plague Inc",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": true,
+    "split": false,
+    "merged": false,
+    "original_text": "- Use active abilities like �Zombie Horde� in the battle against Z Com � humanity's last defense against the dead!"
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "When displaying the query result of a query containing a METHODS WHERE ... XXXWritingField \\ ...XXXDeriveFrom \\ Implements \\ ReturnTypeIs \\ FieldIsOfType \\ HasAttribute clause, the targeted code element is now displayed in the query target section of the result.",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "3.0.0.4527",
+    "ReleaseDate": "15/02/2010",
+    "ApplicationName": "NDepend",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "When displaying the query result of a query containing a METHODS WHERE ... XXXWritingField \\ ...XXXDeriveFrom \\ Implements \\ ReturnTypeIs \\ FieldIsOfType \\ HasAttribute clause, the targeted code element is now displayed in the query target section of the result."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "When displaying the query result of a query containing a METHODS WHERE ... XXXWritingField \\ ...XXXDeriveFrom \\ Implements \\ ReturnTypeIs \\ FieldIsOfType \\ HasAttribute clause, the targeted code element is now displayed in the query target section of the result.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "3.0.0.4527",
+    "ReleaseDate": "15/02/2010",
+    "ApplicationName": "NDepend",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "When displaying the query result of a query containing a METHODS WHERE ... XXXWritingField \\ ...XXXDeriveFrom \\ Implements \\ ReturnTypeIs \\ FieldIsOfType \\ HasAttribute clause, the targeted code element is now displayed in the query target section of the result."
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "_ Our sharing menu is now a good iOS 7 citizen",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "4.5.2",
+    "ReleaseDate": "30/05/2014",
+    "ApplicationName": "1PasswordM",
+    "ApplicationType": {
+        "str_type": "Sibling - Mobile",
+        "int_type": 4
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "_ Our sharing menu is now a good iOS 7 citizen"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "_ Our sharing menu is now a good iOS 7 citizen",
+    "classification": {
+        "str_type": "Advertisement",
+        "int_type": 4
+    },
+    "VersionNumber": "4.5.2",
+    "ReleaseDate": "30/05/2014",
+    "ApplicationName": "1PasswordM",
+    "ApplicationType": {
+        "str_type": "Sibling - Mobile",
+        "int_type": 4
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "_ Our sharing menu is now a good iOS 7 citizen"
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "_ Heroes are immortal! Unlike other troops, they will not perish in combat. If they are injured, they can simply sleep it off",
+    "classification": {
+        "str_type": "Advertisement",
+        "int_type": 4
+    },
+    "VersionNumber": "3.3",
+    "ReleaseDate": "10/01/2013",
+    "ApplicationName": "Clash of Clans",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "_ Heroes are immortal! Unlike other troops, they will not perish in combat. If they are injured, they can simply sleep it off"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "_ Heroes are immortal! Unlike other troops, they will not perish in combat. If they are injured, they can simply sleep it off",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "3.3",
+    "ReleaseDate": "10/01/2013",
+    "ApplicationName": "Clash of Clans",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "_ Heroes are immortal! Unlike other troops, they will not perish in combat. If they are injured, they can simply sleep it off"
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "Updated the version of MSVCRT distributed with Tableau Server to version 2.0.50727.4053.",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "5.0.5",
+    "ReleaseDate": "05/11/2009",
+    "ApplicationName": "Tableau",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": true,
+    "split": false,
+    "merged": false,
+    "original_text": "Updated the version of MSVCRT distributed with Tableau Server to version 2.0.50727.4053."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "Updated the version of MSVCRT distributed with Tableau Server to version 2.0.50727.4053.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "5.0.5",
+    "ReleaseDate": "05/11/2009",
+    "ApplicationName": "Tableau",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Updated the version of MSVCRT distributed with Tableau Server to version 2.0.50727.4053."
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "Named Pipe connections are now only created when needed by the application. Pre-creating this type of connection would sometimes cause the following error message: \"UniquifyForUser failed to get unique name size, code 14.\"",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "5.0.1",
+    "ReleaseDate": "01/07/2009",
+    "ApplicationName": "Tableau",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Named Pipe connections are now only created when needed by the application. Pre-creating this type of connection would sometimes cause the following error message: \"UniquifyForUser failed to get unique name size, code 14.\""
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "Named Pipe connections are now only created when needed by the application. Pre-creating this type of connection would sometimes cause the following error message: \"UniquifyForUser failed to get unique name size, code 14.\"",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "5.0.1",
+    "ReleaseDate": "01/07/2009",
+    "ApplicationName": "Tableau",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Named Pipe connections are now only created when needed by the application. Pre-creating this type of connection would sometimes cause the following error message: \"UniquifyForUser failed to get unique name size, code 14.\""
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "\t\tUpdated the Help documentation with an FAQ page",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "1.0.4",
+    "ReleaseDate": "20/05/2009",
+    "ApplicationName": "Versions",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t\tUpdated the Help documentation with an FAQ page"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "\t\tUpdated the Help documentation with an FAQ page",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "1.0.4",
+    "ReleaseDate": "20/05/2009",
+    "ApplicationName": "Versions",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t\tUpdated the Help documentation with an FAQ page"
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "Heuristic to find types moved from one namespace or assembly to another",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "5.0.0.8041",
+    "ReleaseDate": "24/02/2010",
+    "ApplicationName": "NDepend",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Heuristic to find types moved from one namespace or assembly to another"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "Heuristic to find types moved from one namespace or assembly to another",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "5.0.0.8041",
+    "ReleaseDate": "24/02/2010",
+    "ApplicationName": "NDepend",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": true,
+    "split": false,
+    "merged": false,
+    "original_text": "Heuristic to find types moved from one namespace or assembly to another"
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "The marching ants for selections are now drawn over any guides that might be showing.",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "2.6.1",
+    "ReleaseDate": "30/04/2010",
+    "ApplicationName": "Acorn",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": true,
+    "split": false,
+    "merged": false,
+    "original_text": "The marching ants for selections are now drawn over any guides that might be showing."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "The marching ants for selections are now drawn over any guides that might be showing.",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "2.6.1",
+    "ReleaseDate": "30/04/2010",
+    "ApplicationName": "Acorn",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": true,
+    "split": false,
+    "merged": false,
+    "original_text": "The marching ants for selections are now drawn over any guides that might be showing."
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "_ Push notifications display an alert now if you receive one while actively using the app",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "2.4",
+    "ReleaseDate": "06/02/2013",
+    "ApplicationName": "RaptrM",
+    "ApplicationType": {
+        "str_type": "Sibling - Mobile",
+        "int_type": 4
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "_ Push notifications display an alert now if you receive one while actively using the app"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "_ Push notifications display an alert now if you receive one while actively using the app",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "2.4",
+    "ReleaseDate": "06/02/2013",
+    "ApplicationName": "RaptrM",
+    "ApplicationType": {
+        "str_type": "Sibling - Mobile",
+        "int_type": 4
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "_ Push notifications display an alert now if you receive one while actively using the app"
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "\t\tUpdated License Agreement and Acknowledgements information",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "2.0 - build 104",
+    "ReleaseDate": "14/12/2010",
+    "ApplicationName": "KaleidoscopeD",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t\tUpdated License Agreement and Acknowledgements information"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "\t\tUpdated License Agreement and Acknowledgements information",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "2.0 - build 104",
+    "ReleaseDate": "14/12/2010",
+    "ApplicationName": "KaleidoscopeD",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t\tUpdated License Agreement and Acknowledgements information"
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "Adjusted how double-clicking zooms on maps to correct occasional inconsistencies.",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "7.0.7",
+    "ReleaseDate": "07/08/2012",
+    "ApplicationName": "Tableau",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Adjusted how double-clicking zooms on maps to correct occasional inconsistencies."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "Adjusted how double-clicking zooms on maps to correct occasional inconsistencies.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "7.0.7",
+    "ReleaseDate": "07/08/2012",
+    "ApplicationName": "Tableau",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Adjusted how double-clicking zooms on maps to correct occasional inconsistencies."
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "_We_ve listened to your feedback on the _This is CNN_ welcome greeting and have made changes to the feature. It is now turned off by default. You can turn it on when you launch the app for the first time or at any time by tapping the red CNN logo, selecting settings and adjusting your preference. Thank you for your feedback!",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "1.8.3",
+    "ReleaseDate": "01/05/2013",
+    "ApplicationName": "CNN",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": true,
+    "split": false,
+    "merged": false,
+    "original_text": "_We_ve listened to your feedback on the _This is CNN_ welcome greeting and have made changes to the feature. It is now turned off by default. You can turn it on when you launch the app for the first time or at any time by tapping the red CNN logo, selecting settings and adjusting your preference. Thank you for your feedback!"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "_We_ve listened to your feedback on the _This is CNN_ welcome greeting and have made changes to the feature. It is now turned off by default. You can turn it on when you launch the app for the first time or at any time by tapping the red CNN logo, selecting settings and adjusting your preference. Thank you for your feedback!",
+    "classification": {
+        "str_type": "Advertisement",
+        "int_type": 4
+    },
+    "VersionNumber": "1.8.3",
+    "ReleaseDate": "01/05/2013",
+    "ApplicationName": "CNN",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "_We_ve listened to your feedback on the _This is CNN_ welcome greeting and have made changes to the feature. It is now turned off by default. You can turn it on when you launch the app for the first time or at any time by tapping the red CNN logo, selecting settings and adjusting your preference. Thank you for your feedback!"
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "* Added fill animations to make it easy (and fun) to see where fields are filled. ",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "4.2.7",
+    "ReleaseDate": "13/09/2013",
+    "ApplicationName": "1PasswordM",
+    "ApplicationType": {
+        "str_type": "Sibling - Mobile",
+        "int_type": 4
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "* Added fill animations to make it easy (and fun) to see where fields are filled. "
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "* Added fill animations to make it easy (and fun) to see where fields are filled. ",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "4.2.7",
+    "ReleaseDate": "13/09/2013",
+    "ApplicationName": "1PasswordM",
+    "ApplicationType": {
+        "str_type": "Sibling - Mobile",
+        "int_type": 4
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "* Added fill animations to make it easy (and fun) to see where fields are filled. "
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "- Easily change which headphones are being optimized for HQ Audio in Settings section ",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "2.91",
+    "ReleaseDate": "25/03/2013",
+    "ApplicationName": "Songza",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Easily change which headphones are being optimized for HQ Audio in Settings section "
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "- Easily change which headphones are being optimized for HQ Audio in Settings section ",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "2.91",
+    "ReleaseDate": "25/03/2013",
+    "ApplicationName": "Songza",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Easily change which headphones are being optimized for HQ Audio in Settings section "
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "\t•\tWhen re-starting Spotify your last playlist position will now be available",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "0.9.4",
+    "ReleaseDate": "23/09/2013",
+    "ApplicationName": "SpotifyD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t•\tWhen re-starting Spotify your last playlist position will now be available"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "\t•\tWhen re-starting Spotify your last playlist position will now be available",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "0.9.4",
+    "ReleaseDate": "23/09/2013",
+    "ApplicationName": "SpotifyD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t•\tWhen re-starting Spotify your last playlist position will now be available"
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "- Pinch and zoom functionality has been added when you use one of our shaped frames.",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "1.4",
+    "ReleaseDate": "22/02/2013",
+    "ApplicationName": "Afterlight",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Pinch and zoom functionality has been added when you use one of our shaped frames."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "- Pinch and zoom functionality has been added when you use one of our shaped frames.",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "1.4",
+    "ReleaseDate": "22/02/2013",
+    "ApplicationName": "Afterlight",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Pinch and zoom functionality has been added when you use one of our shaped frames."
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "Area code boundaries and area code labels now display together correctly at lower zoom scales.",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "4.1.2",
+    "ReleaseDate": "03/12/2008",
+    "ApplicationName": "Tableau",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Area code boundaries and area code labels now display together correctly at lower zoom scales."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "Area code boundaries and area code labels now display together correctly at lower zoom scales.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "4.1.2",
+    "ReleaseDate": "03/12/2008",
+    "ApplicationName": "Tableau",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": true,
+    "split": false,
+    "merged": false,
+    "original_text": "Area code boundaries and area code labels now display together correctly at lower zoom scales."
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "  -Log your workouts into RunKeeper all in one step",
+    "classification": {
+        "str_type": "Advertisement",
+        "int_type": 4
+    },
+    "VersionNumber": "4.2",
+    "ReleaseDate": "03/12/2013",
+    "ApplicationName": "Run Keeper",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "  -Log your workouts into RunKeeper all in one step"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "  -Log your workouts into RunKeeper all in one step",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "4.2",
+    "ReleaseDate": "03/12/2013",
+    "ApplicationName": "Run Keeper",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "  -Log your workouts into RunKeeper all in one step"
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "\t•\tFixed: The translations are more accurate.",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "0.7.6",
+    "ReleaseDate": "07/02/2014",
+    "ApplicationName": "SpotifyM",
+    "ApplicationType": {
+        "str_type": "Sibling - Mobile",
+        "int_type": 4
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t•\tFixed: The translations are more accurate."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "\t•\tFixed: The translations are more accurate.",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "0.7.6",
+    "ReleaseDate": "07/02/2014",
+    "ApplicationName": "SpotifyM",
+    "ApplicationType": {
+        "str_type": "Sibling - Mobile",
+        "int_type": 4
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t•\tFixed: The translations are more accurate."
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "\t\tAdded support for Developer ID on Mac OS X 10.8.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "1.1.11",
+    "ReleaseDate": "23/07/2012",
+    "ApplicationName": "Versions",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": true,
+    "split": false,
+    "merged": false,
+    "original_text": "\t\tAdded support for Developer ID on Mac OS X 10.8."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "\t\tAdded support for Developer ID on Mac OS X 10.8.",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "1.1.11",
+    "ReleaseDate": "23/07/2012",
+    "ApplicationName": "Versions",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t\tAdded support for Developer ID on Mac OS X 10.8."
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "_ iPhone 5 support",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "1.1",
+    "ReleaseDate": "19/03/2013",
+    "ApplicationName": "Credit Karma",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "_ iPhone 5 support"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "_ iPhone 5 support",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "1.1",
+    "ReleaseDate": "19/03/2013",
+    "ApplicationName": "Credit Karma",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": true,
+    "split": false,
+    "merged": false,
+    "original_text": "_ iPhone 5 support"
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "We hope everyone enjoys this update, and we'll see you again for version 1.6 next month!",
+    "classification": {
+        "str_type": "Advertisement",
+        "int_type": 4
+    },
+    "VersionNumber": "1.5",
+    "ReleaseDate": "11/03/2013",
+    "ApplicationName": "Afterlight",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "We hope everyone enjoys this update, and we'll see you again for version 1.6 next month!"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "We hope everyone enjoys this update, and we'll see you again for version 1.6 next month!",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "1.5",
+    "ReleaseDate": "11/03/2013",
+    "ApplicationName": "Afterlight",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "We hope everyone enjoys this update, and we'll see you again for version 1.6 next month!"
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "_ Explore the artists and music you love directly on your device",
+    "classification": {
+        "str_type": "Advertisement",
+        "int_type": 4
+    },
+    "VersionNumber": "4.1",
+    "ReleaseDate": "17/11/2012",
+    "ApplicationName": "Pandora",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "_ Explore the artists and music you love directly on your device"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "_ Explore the artists and music you love directly on your device",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "4.1",
+    "ReleaseDate": "17/11/2012",
+    "ApplicationName": "Pandora",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": true,
+    "split": false,
+    "merged": false,
+    "original_text": "_ Explore the artists and music you love directly on your device"
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "- Clear the clutter! Pick up all buildings and walls at once and design your village from a clean slate",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "5.2",
+    "ReleaseDate": "30/09/2013",
+    "ApplicationName": "Clash of Clans",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Clear the clutter! Pick up all buildings and walls at once and design your village from a clean slate"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "- Clear the clutter! Pick up all buildings and walls at once and design your village from a clean slate",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "5.2",
+    "ReleaseDate": "30/09/2013",
+    "ApplicationName": "Clash of Clans",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Clear the clutter! Pick up all buildings and walls at once and design your village from a clean slate"
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "- The frames now have a new color option to give you full control to pick any color you want.",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "2.1",
+    "ReleaseDate": "05/11/2013",
+    "ApplicationName": "Afterlight",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- The frames now have a new color option to give you full control to pick any color you want."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "- The frames now have a new color option to give you full control to pick any color you want.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "2.1",
+    "ReleaseDate": "05/11/2013",
+    "ApplicationName": "Afterlight",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- The frames now have a new color option to give you full control to pick any color you want."
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "- All-New Favorites section - You asked for quick access to your most used stuff, you got it!",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "4.0.2",
+    "ReleaseDate": "11/12/2012",
+    "ApplicationName": "1PasswordM",
+    "ApplicationType": {
+        "str_type": "Sibling - Mobile",
+        "int_type": 4
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- All-New Favorites section - You asked for quick access to your most used stuff, you got it!"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "- All-New Favorites section - You asked for quick access to your most used stuff, you got it!",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "4.0.2",
+    "ReleaseDate": "11/12/2012",
+    "ApplicationName": "1PasswordM",
+    "ApplicationType": {
+        "str_type": "Sibling - Mobile",
+        "int_type": 4
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- All-New Favorites section - You asked for quick access to your most used stuff, you got it!"
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "Updated app icon",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "3.4",
+    "ReleaseDate": "23/02/2012",
+    "ApplicationName": "Dictionary com",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Updated app icon"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "Updated app icon",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "3.4",
+    "ReleaseDate": "23/02/2012",
+    "ApplicationName": "Dictionary com",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Updated app icon"
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "* Added the ability to expand search results across all fields. ",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "4.2.6",
+    "ReleaseDate": "11/09/2013",
+    "ApplicationName": "1PasswordM",
+    "ApplicationType": {
+        "str_type": "Sibling - Mobile",
+        "int_type": 4
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "* Added the ability to expand search results across all fields. "
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "* Added the ability to expand search results across all fields. ",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "4.2.6",
+    "ReleaseDate": "11/09/2013",
+    "ApplicationName": "1PasswordM",
+    "ApplicationType": {
+        "str_type": "Sibling - Mobile",
+        "int_type": 4
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "* Added the ability to expand search results across all fields. "
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "\t•\tBetter handling of articles with empty titles.",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "4.0 Public Beta 6",
+    "ReleaseDate": "26/08/2013",
+    "ApplicationName": "Net News",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t•\tBetter handling of articles with empty titles."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "\t•\tBetter handling of articles with empty titles.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "4.0 Public Beta 6",
+    "ReleaseDate": "26/08/2013",
+    "ApplicationName": "Net News",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t•\tBetter handling of articles with empty titles."
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "- Turbo Strain: Starting country is 100% infected",
+    "classification": {
+        "str_type": "Advertisement",
+        "int_type": 4
+    },
+    "VersionNumber": "1.8",
+    "ReleaseDate": "22/04/2014",
+    "ApplicationName": "Plague Inc",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Turbo Strain: Starting country is 100% infected"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "- Turbo Strain: Starting country is 100% infected",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "1.8",
+    "ReleaseDate": "22/04/2014",
+    "ApplicationName": "Plague Inc",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Turbo Strain: Starting country is 100% infected"
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "",
+    "classification": {
+        "str_type": "Not Classified",
+        "int_type": 6
+    },
+    "VersionNumber": "2.99",
+    "ReleaseDate": "25/08/2014",
+    "ApplicationName": "Lumosity",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": ""
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "2.99",
+    "ReleaseDate": "25/08/2014",
+    "ApplicationName": "Lumosity",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": ""
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "Rules that didn't compile with CQL prevented following sibling rules in the same group to be displayed in the report.",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "2.9.1.2235",
+    "ReleaseDate": "08/08/2008",
+    "ApplicationName": "NDepend",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Rules that didn't compile with CQL prevented following sibling rules in the same group to be displayed in the report."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "Rules that didn't compile with CQL prevented following sibling rules in the same group to be displayed in the report.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "2.9.1.2235",
+    "ReleaseDate": "08/08/2008",
+    "ApplicationName": "NDepend",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Rules that didn't compile with CQL prevented following sibling rules in the same group to be displayed in the report."
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "\t•\tCustom user data on objects (OmniGraffle Professional only).",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "5.2",
+    "ReleaseDate": "28/08/2009",
+    "ApplicationName": "OmniGraffleD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t•\tCustom user data on objects (OmniGraffle Professional only)."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "\t•\tCustom user data on objects (OmniGraffle Professional only).",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "5.2",
+    "ReleaseDate": "28/08/2009",
+    "ApplicationName": "OmniGraffleD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": true,
+    "split": false,
+    "merged": false,
+    "original_text": "\t•\tCustom user data on objects (OmniGraffle Professional only)."
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "New: Support for IE 11 (64-bit) and Windows 8.1",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "0.0.0",
+    "ReleaseDate": "09/12/2013",
+    "ApplicationName": "DashlaneD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": true,
+    "split": false,
+    "merged": false,
+    "original_text": "New: Support for IE 11 (64-bit) and Windows 8.1"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "New: Support for IE 11 (64-bit) and Windows 8.1",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "0.0.0",
+    "ReleaseDate": "09/12/2013",
+    "ApplicationName": "DashlaneD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": true,
+    "split": false,
+    "merged": false,
+    "original_text": "New: Support for IE 11 (64-bit) and Windows 8.1"
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "\t•\tYou can now Tab out of the Side Margin field in the Text Inspector and have that value applied.",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "5.1.1",
+    "ReleaseDate": "19/11/2008",
+    "ApplicationName": "OmniGraffleD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t•\tYou can now Tab out of the Side Margin field in the Text Inspector and have that value applied."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "\t•\tYou can now Tab out of the Side Margin field in the Text Inspector and have that value applied.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "5.1.1",
+    "ReleaseDate": "19/11/2008",
+    "ApplicationName": "OmniGraffleD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t•\tYou can now Tab out of the Side Margin field in the Text Inspector and have that value applied."
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "Avoid referencing source file out of Visual Studio project directory",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "5.0.0.8041",
+    "ReleaseDate": "24/02/2010",
+    "ApplicationName": "NDepend",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Avoid referencing source file out of Visual Studio project directory"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "Avoid referencing source file out of Visual Studio project directory",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "5.0.0.8041",
+    "ReleaseDate": "24/02/2010",
+    "ApplicationName": "NDepend",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Avoid referencing source file out of Visual Studio project directory"
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "\t•\tClicking in a different input field in the Text Position Inspector will now act the same as Enter or Return on PPC machines.",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "4.1.2",
+    "ReleaseDate": "22/08/2007",
+    "ApplicationName": "OmniGraffleD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t•\tClicking in a different input field in the Text Position Inspector will now act the same as Enter or Return on PPC machines."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "\t•\tClicking in a different input field in the Text Position Inspector will now act the same as Enter or Return on PPC machines.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "4.1.2",
+    "ReleaseDate": "22/08/2007",
+    "ApplicationName": "OmniGraffleD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t•\tClicking in a different input field in the Text Position Inspector will now act the same as Enter or Return on PPC machines."
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "All new custom multi-shot camera",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "1.2.1",
+    "ReleaseDate": "02/07/2012",
+    "ApplicationName": "Evernote Food",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "All new custom multi-shot camera"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "All new custom multi-shot camera",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "1.2.1",
+    "ReleaseDate": "02/07/2012",
+    "ApplicationName": "Evernote Food",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "All new custom multi-shot camera"
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "Turning on data labels for a measure that is being used as a dimension and contains null values no longer causes the application to unexpectedly exit.",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "5.0.4",
+    "ReleaseDate": "12/10/2009",
+    "ApplicationName": "Tableau",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Turning on data labels for a measure that is being used as a dimension and contains null values no longer causes the application to unexpectedly exit."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "Turning on data labels for a measure that is being used as a dimension and contains null values no longer causes the application to unexpectedly exit.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "5.0.4",
+    "ReleaseDate": "12/10/2009",
+    "ApplicationName": "Tableau",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Turning on data labels for a measure that is being used as a dimension and contains null values no longer causes the application to unexpectedly exit."
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "New: Sign up to join our beta program from within the desktop app.",
+    "classification": {
+        "str_type": "Advertisement",
+        "int_type": 4
+    },
+    "VersionNumber": "1.7.5",
+    "ReleaseDate": "31/01/2013",
+    "ApplicationName": "DashlaneD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "New: Sign up to join our beta program from within the desktop app."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "New: Sign up to join our beta program from within the desktop app.",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "1.7.5",
+    "ReleaseDate": "31/01/2013",
+    "ApplicationName": "DashlaneD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "New: Sign up to join our beta program from within the desktop app."
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "-Following conditions are now support on Types, Methods, Fields: ",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "2.5.0.1382",
+    "ReleaseDate": "15/10/2007",
+    "ApplicationName": "NDepend",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "-Following conditions are now support on Types, Methods, Fields: "
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "-Following conditions are now support on Types, Methods, Fields: ",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "2.5.0.1382",
+    "ReleaseDate": "15/10/2007",
+    "ApplicationName": "NDepend",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "-Following conditions are now support on Types, Methods, Fields: "
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "When using embedded views with trusted authentication, Tableau Server now correctly enforces the restriction that only the requested view may be retrieved. Access to the standard Tableau Server interface (i.e. browse or search functions) do not automatically inherit the trusted authentication session.",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "4.1.1",
+    "ReleaseDate": "24/10/2008",
+    "ApplicationName": "Tableau",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "When using embedded views with trusted authentication, Tableau Server now correctly enforces the restriction that only the requested view may be retrieved. Access to the standard Tableau Server interface (i.e. browse or search functions) do not automatically inherit the trusted authentication session."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "When using embedded views with trusted authentication, Tableau Server now correctly enforces the restriction that only the requested view may be retrieved. Access to the standard Tableau Server interface (i.e. browse or search functions) do not automatically inherit the trusted authentication session.",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "4.1.1",
+    "ReleaseDate": "24/10/2008",
+    "ApplicationName": "Tableau",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "When using embedded views with trusted authentication, Tableau Server now correctly enforces the restriction that only the requested view may be retrieved. Access to the standard Tableau Server interface (i.e. browse or search functions) do not automatically inherit the trusted authentication session."
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "Here's what you'll get with this update for 'Heads Up!'",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "1.2",
+    "ReleaseDate": "11/07/2013",
+    "ApplicationName": "Heads Up",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Here's what you'll get with this update for 'Heads Up!'"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "Here's what you'll get with this update for 'Heads Up!'",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "1.2",
+    "ReleaseDate": "11/07/2013",
+    "ApplicationName": "Heads Up",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Here's what you'll get with this update for 'Heads Up!'"
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "\t•\tIcons in the staging stack can now be multiple selected and moved as a group",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "0.9",
+    "ReleaseDate": "12/08/2011",
+    "ApplicationName": "Kerbal Space Program",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t•\tIcons in the staging stack can now be multiple selected and moved as a group"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "\t•\tIcons in the staging stack can now be multiple selected and moved as a group",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "0.9",
+    "ReleaseDate": "12/08/2011",
+    "ApplicationName": "Kerbal Space Program",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t•\tIcons in the staging stack can now be multiple selected and moved as a group"
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "-_Clear your airspace with an additional Air Bomb and a Seeking Air Mine",
+    "classification": {
+        "str_type": "Advertisement",
+        "int_type": 4
+    },
+    "VersionNumber": "4.53",
+    "ReleaseDate": "17/06/2013",
+    "ApplicationName": "Clash of Clans",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "-_Clear your airspace with an additional Air Bomb and a Seeking Air Mine"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "-_Clear your airspace with an additional Air Bomb and a Seeking Air Mine",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "4.53",
+    "ReleaseDate": "17/06/2013",
+    "ApplicationName": "Clash of Clans",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "-_Clear your airspace with an additional Air Bomb and a Seeking Air Mine"
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "Optmz network monitoring is only be enabled for Android API levels 10 - 18.",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "4.0.0",
+    "ReleaseDate": "26/08/2013",
+    "ApplicationName": "Crittercisms",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Optmz network monitoring is only be enabled for Android API levels 10 - 18."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "Optmz network monitoring is only be enabled for Android API levels 10 - 18.",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "4.0.0",
+    "ReleaseDate": "26/08/2013",
+    "ApplicationName": "Crittercisms",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": true,
+    "split": false,
+    "merged": false,
+    "original_text": "Optmz network monitoring is only be enabled for Android API levels 10 - 18."
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "\t•\tSymmetrically placed Icons are grouped into a single icon",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "0.9",
+    "ReleaseDate": "12/08/2011",
+    "ApplicationName": "Kerbal Space Program",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t•\tSymmetrically placed Icons are grouped into a single icon"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "\t•\tSymmetrically placed Icons are grouped into a single icon",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "0.9",
+    "ReleaseDate": "12/08/2011",
+    "ApplicationName": "Kerbal Space Program",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t•\tSymmetrically placed Icons are grouped into a single icon"
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "- Foursquare icons illustrate cuisine or venue type",
+    "classification": {
+        "str_type": "Advertisement",
+        "int_type": 4
+    },
+    "VersionNumber": "1.2.1",
+    "ReleaseDate": "02/07/2012",
+    "ApplicationName": "Evernote Food",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Foursquare icons illustrate cuisine or venue type"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "- Foursquare icons illustrate cuisine or venue type",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "1.2.1",
+    "ReleaseDate": "02/07/2012",
+    "ApplicationName": "Evernote Food",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Foursquare icons illustrate cuisine or venue type"
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "5.3.1 beta 1 Bug Fixes",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "5.3.1",
+    "ReleaseDate": "21/07/2011",
+    "ApplicationName": "OmniGraffleD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "5.3.1 beta 1 Bug Fixes"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "5.3.1 beta 1 Bug Fixes",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "5.3.1",
+    "ReleaseDate": "21/07/2011",
+    "ApplicationName": "OmniGraffleD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "5.3.1 beta 1 Bug Fixes"
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "\t•\tYou can now access actions on locked layers.",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "5.1.1",
+    "ReleaseDate": "19/11/2008",
+    "ApplicationName": "OmniGraffleD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t•\tYou can now access actions on locked layers."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "\t•\tYou can now access actions on locked layers.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "5.1.1",
+    "ReleaseDate": "19/11/2008",
+    "ApplicationName": "OmniGraffleD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t•\tYou can now access actions on locked layers."
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "Upgrading to Tableau Server 7.0.2 from earlier versions could fail with the error \"unable to create unique index.\" This error was caused by a change in how multiple customized views are handled. This issue only affected Tableau Server and has been corrected.",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "7.0.3",
+    "ReleaseDate": "02/04/2012",
+    "ApplicationName": "Tableau",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Upgrading to Tableau Server 7.0.2 from earlier versions could fail with the error \"unable to create unique index.\" This error was caused by a change in how multiple customized views are handled. This issue only affected Tableau Server and has been corrected."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "Upgrading to Tableau Server 7.0.2 from earlier versions could fail with the error \"unable to create unique index.\" This error was caused by a change in how multiple customized views are handled. This issue only affected Tableau Server and has been corrected.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "7.0.3",
+    "ReleaseDate": "02/04/2012",
+    "ApplicationName": "Tableau",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Upgrading to Tableau Server 7.0.2 from earlier versions could fail with the error \"unable to create unique index.\" This error was caused by a change in how multiple customized views are handled. This issue only affected Tableau Server and has been corrected."
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "_ Multiple Dropbox accounts - Have more than one Dropbox account? Great! You can now sync vaults that are shared from different accounts",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "4.5.3",
+    "ReleaseDate": "21/06/2014",
+    "ApplicationName": "1PasswordM",
+    "ApplicationType": {
+        "str_type": "Sibling - Mobile",
+        "int_type": 4
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "_ Multiple Dropbox accounts - Have more than one Dropbox account? Great! You can now sync vaults that are shared from different accounts"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "_ Multiple Dropbox accounts - Have more than one Dropbox account? Great! You can now sync vaults that are shared from different accounts",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "4.5.3",
+    "ReleaseDate": "21/06/2014",
+    "ApplicationName": "1PasswordM",
+    "ApplicationType": {
+        "str_type": "Sibling - Mobile",
+        "int_type": 4
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "_ Multiple Dropbox accounts - Have more than one Dropbox account? Great! You can now sync vaults that are shared from different accounts"
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "\t•\tNo Plugin loading.",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "0.18.3",
+    "ReleaseDate": "12/02/2013",
+    "ApplicationName": "Kerbal Space Program",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": true,
+    "split": false,
+    "merged": false,
+    "original_text": "\t•\tNo Plugin loading."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "\t•\tNo Plugin loading.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "0.18.3",
+    "ReleaseDate": "12/02/2013",
+    "ApplicationName": "Kerbal Space Program",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t•\tNo Plugin loading."
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "Upload videos to YouTube in one quick step.",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "2.7.1",
+    "ReleaseDate": "17/06/2014",
+    "ApplicationName": "Youtube",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Upload videos to YouTube in one quick step."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "Upload videos to YouTube in one quick step.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "2.7.1",
+    "ReleaseDate": "17/06/2014",
+    "ApplicationName": "Youtube",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Upload videos to YouTube in one quick step."
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "- The Black Death is back. The original strain failed 700 years ago but can you do things differently this time?",
+    "classification": {
+        "str_type": "Advertisement",
+        "int_type": 4
+    },
+    "VersionNumber": "1.7.3",
+    "ReleaseDate": "02/01/2014",
+    "ApplicationName": "Plague Inc",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- The Black Death is back. The original strain failed 700 years ago but can you do things differently this time?"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "- The Black Death is back. The original strain failed 700 years ago but can you do things differently this time?",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "1.7.3",
+    "ReleaseDate": "02/01/2014",
+    "ApplicationName": "Plague Inc",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- The Black Death is back. The original strain failed 700 years ago but can you do things differently this time?"
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "\t•\tA pausing glitch that would happen every time the menu was selected.",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "0.11.1",
+    "ReleaseDate": "13/10/2011",
+    "ApplicationName": "Kerbal Space Program",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t•\tA pausing glitch that would happen every time the menu was selected."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "\t•\tA pausing glitch that would happen every time the menu was selected.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "0.11.1",
+    "ReleaseDate": "13/10/2011",
+    "ApplicationName": "Kerbal Space Program",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t•\tA pausing glitch that would happen every time the menu was selected."
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "\t◦\tOmniGraffle Professional 5 now has a built in parser to convert the binary Visio file format (VSD) to XML for import.",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "5.0",
+    "ReleaseDate": "05/05/2008",
+    "ApplicationName": "OmniGraffleD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t◦\tOmniGraffle Professional 5 now has a built in parser to convert the binary Visio file format (VSD) to XML for import."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "\t◦\tOmniGraffle Professional 5 now has a built in parser to convert the binary Visio file format (VSD) to XML for import.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "5.0",
+    "ReleaseDate": "05/05/2008",
+    "ApplicationName": "OmniGraffleD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t◦\tOmniGraffle Professional 5 now has a built in parser to convert the binary Visio file format (VSD) to XML for import."
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "\t\tUnsaved files will now be properly marked as dirty in changesets.",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "2.1 - build 134",
+    "ReleaseDate": "19/02/2013",
+    "ApplicationName": "KaleidoscopeD",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t\tUnsaved files will now be properly marked as dirty in changesets."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "\t\tUnsaved files will now be properly marked as dirty in changesets.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "2.1 - build 134",
+    "ReleaseDate": "19/02/2013",
+    "ApplicationName": "KaleidoscopeD",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t\tUnsaved files will now be properly marked as dirty in changesets."
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "- Experience Plague Inc.'s toughest challenge yet and try to infect a world with random medical checks, genetic drift and research tech improvements. Adapt or die...",
+    "classification": {
+        "str_type": "Advertisement",
+        "int_type": 4
+    },
+    "VersionNumber": "1.8",
+    "ReleaseDate": "22/04/2014",
+    "ApplicationName": "Plague Inc",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Experience Plague Inc.'s toughest challenge yet and try to infect a world with random medical checks, genetic drift and research tech improvements. Adapt or die..."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "- Experience Plague Inc.'s toughest challenge yet and try to infect a world with random medical checks, genetic drift and research tech improvements. Adapt or die...",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "1.8",
+    "ReleaseDate": "22/04/2014",
+    "ApplicationName": "Plague Inc",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Experience Plague Inc.'s toughest challenge yet and try to infect a world with random medical checks, genetic drift and research tech improvements. Adapt or die..."
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "- Update passwords in supported apps, 1Password updates your item.",
+    "classification": {
+        "str_type": "Advertisement",
+        "int_type": 4
+    },
+    "VersionNumber": "5.0",
+    "ReleaseDate": "17/09/2014",
+    "ApplicationName": "1PasswordM",
+    "ApplicationType": {
+        "str_type": "Sibling - Mobile",
+        "int_type": 4
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Update passwords in supported apps, 1Password updates your item."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "- Update passwords in supported apps, 1Password updates your item.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "5.0",
+    "ReleaseDate": "17/09/2014",
+    "ApplicationName": "1PasswordM",
+    "ApplicationType": {
+        "str_type": "Sibling - Mobile",
+        "int_type": 4
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Update passwords in supported apps, 1Password updates your item."
+}
+===========================Splits===========================
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "- Lots of improvements ",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "3.2.0",
+    "ReleaseDate": "07/11/2013",
+    "ApplicationName": "Wish",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": true,
+    "merged": false,
+    "original_text": "- Lots of improvements and fixes"
+}
+
+{
+    "entry": "and fixes",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "3.2.0",
+    "ReleaseDate": "",
+    "ApplicationName": "Wish",
+    "ApplicationType": {
+        "str_type": "Not Classified",
+        "int_type": 3
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Lots of improvements and fixes"
+}
+
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "- Lots of improvements and fixes",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "3.2.0",
+    "ReleaseDate": "07/11/2013",
+    "ApplicationName": "Wish",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Lots of improvements and fixes"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "Bug Fixes and ",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "0.20.1",
+    "ReleaseDate": "29/05/2013",
+    "ApplicationName": "Kerbal Space Program",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": true,
+    "merged": false,
+    "original_text": "Bug Fixes and Tweaks"
+}
+
+{
+    "entry": "Tweaks",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "0.20.1",
+    "ReleaseDate": "",
+    "ApplicationName": "Kerbal Space Program",
+    "ApplicationType": {
+        "str_type": "Not Classified",
+        "int_type": 3
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Bug Fixes and Tweaks"
+}
+
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "Bug Fixes and Tweaks",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "0.20.1",
+    "ReleaseDate": "29/05/2013",
+    "ApplicationName": "Kerbal Space Program",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": true,
+    "split": false,
+    "merged": false,
+    "original_text": "Bug Fixes and Tweaks"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "Stability enhancements ",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "7.0.6",
+    "ReleaseDate": "13/08/2013",
+    "ApplicationName": "SplashIDM",
+    "ApplicationType": {
+        "str_type": "Not Classified",
+        "int_type": 3
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": true,
+    "merged": false,
+    "original_text": "Stability enhancements and bug fixes"
+}
+
+{
+    "entry": "and bug fixes",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "7.0.6",
+    "ReleaseDate": "",
+    "ApplicationName": "SplashIDM",
+    "ApplicationType": {
+        "str_type": "Not Classified",
+        "int_type": 3
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Stability enhancements and bug fixes"
+}
+
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "Stability enhancements and bug fixes",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "7.0.6",
+    "ReleaseDate": "13/08/2013",
+    "ApplicationName": "SplashIDM",
+    "ApplicationType": {
+        "str_type": "Not Classified",
+        "int_type": 3
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": true,
+    "split": false,
+    "merged": false,
+    "original_text": "Stability enhancements and bug fixes"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "1Password 4.0.2 adds Quick Tour for new users and fixes several critical bugs: ",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "4.0.2",
+    "ReleaseDate": "11/12/2012",
+    "ApplicationName": "1PasswordM",
+    "ApplicationType": {
+        "str_type": "Sibling - Mobile",
+        "int_type": 4
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "1Password 4.0.2 adds Quick Tour for new users and fixes several critical bugs: "
+}
+
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "1Password 4.0.2 adds Quick Tour for new users and ",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "4.0.2",
+    "ReleaseDate": "11/12/2012",
+    "ApplicationName": "1PasswordM",
+    "ApplicationType": {
+        "str_type": "Sibling - Mobile",
+        "int_type": 4
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": true,
+    "merged": false,
+    "original_text": "1Password 4.0.2 adds Quick Tour for new users and fixes several critical bugs: "
+}
+
+{
+    "entry": "fixes several critical bugs: ",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "4.0.2",
+    "ReleaseDate": "",
+    "ApplicationName": "1PasswordM",
+    "ApplicationType": {
+        "str_type": "Not Classified",
+        "int_type": 3
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "1Password 4.0.2 adds Quick Tour for new users and fixes several critical bugs: "
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "\t•\tAs noted above, 64-bit mode offers increased stability ",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "5.4",
+    "ReleaseDate": "21/05/2012",
+    "ApplicationName": "OmniGraffleD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": true,
+    "merged": false,
+    "original_text": "\t•\tAs noted above, 64-bit mode offers increased stability and neatly avoids a number of existing reported crashes in the reproducible test cases we have found."
+}
+
+{
+    "entry": "and neatly avoids a number of existing reported crashes in the reproducible test cases we have found.",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "5.4",
+    "ReleaseDate": "21/05/2012",
+    "ApplicationName": "OmniGraffleD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": true,
+    "merged": false,
+    "original_text": "\t•\tAs noted above, 64-bit mode offers increased stability and neatly avoids a number of existing reported crashes in the reproducible test cases we have found."
+}
+
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "\t•\tAs noted above, 64-bit mode offers increased stability and neatly avoids a number of existing reported crashes in the reproducible test cases we have found.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "5.4",
+    "ReleaseDate": "21/05/2012",
+    "ApplicationName": "OmniGraffleD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t•\tAs noted above, 64-bit mode offers increased stability and neatly avoids a number of existing reported crashes in the reproducible test cases we have found."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "\t•\tAs noted above, 64-bit mode offers increased stability ",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "5.4",
+    "ReleaseDate": "04/06/2012",
+    "ApplicationName": "OmniGraffleD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": true,
+    "merged": false,
+    "original_text": "\t•\tAs noted above, 64-bit mode offers increased stability and neatly avoids a number of existing reported crashes in the reproducible test cases we have found."
+}
+
+{
+    "entry": "and neatly avoids a number of existing reported crashes in the reproducible test cases we have found.",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "5.4",
+    "ReleaseDate": "04/06/2012",
+    "ApplicationName": "OmniGraffleD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": true,
+    "merged": false,
+    "original_text": "\t•\tAs noted above, 64-bit mode offers increased stability and neatly avoids a number of existing reported crashes in the reproducible test cases we have found."
+}
+
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "\t•\tAs noted above, 64-bit mode offers increased stability and neatly avoids a number of existing reported crashes in the reproducible test cases we have found.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "5.4",
+    "ReleaseDate": "04/06/2012",
+    "ApplicationName": "OmniGraffleD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t•\tAs noted above, 64-bit mode offers increased stability and neatly avoids a number of existing reported crashes in the reproducible test cases we have found."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "- Active Abilities fixed to cost 2 DNA on casual, 4 DNA on normal and 5 DNA on brutal.",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "1.5.3",
+    "ReleaseDate": "13/03/2013",
+    "ApplicationName": "Plague Inc",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": true,
+    "merged": false,
+    "original_text": "- Active Abilities fixed to cost 2 DNA on casual, 4 DNA on normal and 5 DNA on brutal. Game progress will save as intended 1.5.2"
+}
+
+{
+    "entry": " Game progress will save as intended 1.5.2",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "1.5.3",
+    "ReleaseDate": "13/03/2013",
+    "ApplicationName": "Plague Inc",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": true,
+    "merged": false,
+    "original_text": "- Active Abilities fixed to cost 2 DNA on casual, 4 DNA on normal and 5 DNA on brutal. Game progress will save as intended 1.5.2"
+}
+
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "- Active Abilities fixed to cost 2 DNA on casual, 4 DNA on normal and 5 DNA on brutal. Game progress will save as intended 1.5.2",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "1.5.3",
+    "ReleaseDate": "13/03/2013",
+    "ApplicationName": "Plague Inc",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": true,
+    "split": false,
+    "merged": false,
+    "original_text": "- Active Abilities fixed to cost 2 DNA on casual, 4 DNA on normal and 5 DNA on brutal. Game progress will save as intended 1.5.2"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": " Bug fixes and",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "5.0.8",
+    "ReleaseDate": "03/04/2014",
+    "ApplicationName": "Instagram",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": true,
+    "merged": false,
+    "original_text": " Bug fixes and performance improvements."
+}
+
+{
+    "entry": " performance improvements.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "5.0.8",
+    "ReleaseDate": "03/04/2014",
+    "ApplicationName": "Instagram",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": true,
+    "merged": false,
+    "original_text": " Bug fixes and performance improvements."
+}
+
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": " Bug fixes and ",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "5.0.8",
+    "ReleaseDate": "03/04/2014",
+    "ApplicationName": "Instagram",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": true,
+    "merged": false,
+    "original_text": " Bug fixes and performance improvements."
+}
+
+{
+    "entry": "performance improvements.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "5.0.8",
+    "ReleaseDate": "",
+    "ApplicationName": "Instagram",
+    "ApplicationType": {
+        "str_type": "Not Classified",
+        "int_type": 3
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": " Bug fixes and performance improvements."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
+{
+    "entry": "OmniGraffle for iPad 1.8 is a major update that adds a new drawing tools interface as well as",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "1.8",
+    "ReleaseDate": "19/09/2012",
+    "ApplicationName": "OmniGraffleM",
+    "ApplicationType": {
+        "str_type": "Sibling - Mobile",
+        "int_type": 4
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": true,
+    "merged": false,
+    "original_text": "OmniGraffle for iPad 1.8 is a major update that adds a new drawing tools interface as well as better support for iPads with Retina displays and fixes a number of bugs."
+}
+
+{
+    "entry": " better support for iPads with Retina displays and",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "1.8",
+    "ReleaseDate": "19/09/2012",
+    "ApplicationName": "OmniGraffleM",
+    "ApplicationType": {
+        "str_type": "Sibling - Mobile",
+        "int_type": 4
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": true,
+    "merged": false,
+    "original_text": "OmniGraffle for iPad 1.8 is a major update that adds a new drawing tools interface as well as better support for iPads with Retina displays and fixes a number of bugs."
+}
+
+{
+    "entry": " fixes a number of bugs.",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "1.8",
+    "ReleaseDate": "19/09/2012",
+    "ApplicationName": "OmniGraffleM",
+    "ApplicationType": {
+        "str_type": "Sibling - Mobile",
+        "int_type": 4
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": true,
+    "merged": false,
+    "original_text": "OmniGraffle for iPad 1.8 is a major update that adds a new drawing tools interface as well as better support for iPads with Retina displays and fixes a number of bugs."
+}
+
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
+{
+    "entry": "OmniGraffle for iPad 1.8 is a major update that adds a new drawing tools interface as well as better support for iPads with Retina displays and fixes a number of bugs.",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "1.8",
+    "ReleaseDate": "19/09/2012",
+    "ApplicationName": "OmniGraffleM",
+    "ApplicationType": {
+        "str_type": "Sibling - Mobile",
+        "int_type": 4
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": true,
+    "split": false,
+    "merged": false,
+    "original_text": "OmniGraffle for iPad 1.8 is a major update that adds a new drawing tools interface as well as better support for iPads with Retina displays and fixes a number of bugs."
+}
+
