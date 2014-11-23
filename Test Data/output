@@ -1,0 +1,616 @@
+Percent Agreement:	0	 Total Classified:	15	 Number Different:	15	Total Split:	0
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Test Data\CSharpTest1
+{
+    "entry": "bug",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "1.0",
+    "ReleaseDate": "10-10-2010",
+    "ApplicationName": "",
+    "ApplicationType": {
+        "str_type": "Not Classified",
+        "int_type": 3
+    },
+    "datePattern": null,
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "bug"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Test Data\CSharpTestAllDiff
+{
+    "entry": "bug",
+    "classification": {
+        "str_type": "Advertisement",
+        "int_type": 4
+    },
+    "VersionNumber": "1.0",
+    "ReleaseDate": "10-10-2010",
+    "ApplicationName": "",
+    "ApplicationType": {
+        "str_type": "Not Classified",
+        "int_type": 3
+    },
+    "datePattern": null,
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "bug"
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Test Data\CSharpTest1
+{
+    "entry": "bug ",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "1.0",
+    "ReleaseDate": "10-10-2010",
+    "ApplicationName": "",
+    "ApplicationType": {
+        "str_type": "Not Classified",
+        "int_type": 3
+    },
+    "datePattern": null,
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "bug "
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Test Data\CSharpTestAllDiff
+{
+    "entry": "bug ",
+    "classification": {
+        "str_type": "Advertisement",
+        "int_type": 4
+    },
+    "VersionNumber": "1.0",
+    "ReleaseDate": "10-10-2010",
+    "ApplicationName": "",
+    "ApplicationType": {
+        "str_type": "Not Classified",
+        "int_type": 3
+    },
+    "datePattern": null,
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "bug "
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Test Data\CSharpTest1
+{
+    "entry": "feature",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "1.0",
+    "ReleaseDate": "10-10-2010",
+    "ApplicationName": "",
+    "ApplicationType": {
+        "str_type": "Not Classified",
+        "int_type": 3
+    },
+    "datePattern": null,
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "feature"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Test Data\CSharpTestAllDiff
+{
+    "entry": "feature",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "1.0",
+    "ReleaseDate": "10-10-2010",
+    "ApplicationName": "",
+    "ApplicationType": {
+        "str_type": "Not Classified",
+        "int_type": 3
+    },
+    "datePattern": null,
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "feature"
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Test Data\CSharpTest1
+{
+    "entry": "freature",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "1.0",
+    "ReleaseDate": "10-10-2010",
+    "ApplicationName": "",
+    "ApplicationType": {
+        "str_type": "Not Classified",
+        "int_type": 3
+    },
+    "datePattern": null,
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "freature"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Test Data\CSharpTestAllDiff
+{
+    "entry": "freature",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "1.0",
+    "ReleaseDate": "10-10-2010",
+    "ApplicationName": "",
+    "ApplicationType": {
+        "str_type": "Not Classified",
+        "int_type": 3
+    },
+    "datePattern": null,
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "freature"
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Test Data\CSharpTest1
+{
+    "entry": "junk",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "1.0",
+    "ReleaseDate": "10-10-2010",
+    "ApplicationName": "",
+    "ApplicationType": {
+        "str_type": "Not Classified",
+        "int_type": 3
+    },
+    "datePattern": null,
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "junk"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Test Data\CSharpTestAllDiff
+{
+    "entry": "junk",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "1.0",
+    "ReleaseDate": "10-10-2010",
+    "ApplicationName": "",
+    "ApplicationType": {
+        "str_type": "Not Classified",
+        "int_type": 3
+    },
+    "datePattern": null,
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "junk"
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Test Data\CSharpTest1
+{
+    "entry": "bug",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "1.0",
+    "ReleaseDate": "10-10-2010",
+    "ApplicationName": "",
+    "ApplicationType": {
+        "str_type": "Not Classified",
+        "int_type": 3
+    },
+    "datePattern": null,
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "bug"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Test Data\CSharpTestAllDiff
+{
+    "entry": "bug",
+    "classification": {
+        "str_type": "Advertisement",
+        "int_type": 4
+    },
+    "VersionNumber": "1.0",
+    "ReleaseDate": "10-10-2010",
+    "ApplicationName": "",
+    "ApplicationType": {
+        "str_type": "Not Classified",
+        "int_type": 3
+    },
+    "datePattern": null,
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "bug"
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Test Data\CSharpTest1
+{
+    "entry": "enhancement",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "1.0",
+    "ReleaseDate": "10-10-2010",
+    "ApplicationName": "",
+    "ApplicationType": {
+        "str_type": "Not Classified",
+        "int_type": 3
+    },
+    "datePattern": null,
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "enhancement"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Test Data\CSharpTestAllDiff
+{
+    "entry": "enhancement",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "1.0",
+    "ReleaseDate": "10-10-2010",
+    "ApplicationName": "",
+    "ApplicationType": {
+        "str_type": "Not Classified",
+        "int_type": 3
+    },
+    "datePattern": null,
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "enhancement"
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Test Data\CSharpTest1
+{
+    "entry": "bug",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "1.1",
+    "ReleaseDate": "10-11-2011",
+    "ApplicationName": "",
+    "ApplicationType": {
+        "str_type": "Not Classified",
+        "int_type": 3
+    },
+    "datePattern": null,
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "bug"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Test Data\CSharpTestAllDiff
+{
+    "entry": "bug",
+    "classification": {
+        "str_type": "Advertisement",
+        "int_type": 4
+    },
+    "VersionNumber": "1.1",
+    "ReleaseDate": "10-11-2011",
+    "ApplicationName": "",
+    "ApplicationType": {
+        "str_type": "Not Classified",
+        "int_type": 3
+    },
+    "datePattern": null,
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "bug"
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Test Data\CSharpTest1
+{
+    "entry": "bug",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "1.1",
+    "ReleaseDate": "10-11-2011",
+    "ApplicationName": "",
+    "ApplicationType": {
+        "str_type": "Not Classified",
+        "int_type": 3
+    },
+    "datePattern": null,
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "bug"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Test Data\CSharpTestAllDiff
+{
+    "entry": "bug",
+    "classification": {
+        "str_type": "Advertisement",
+        "int_type": 4
+    },
+    "VersionNumber": "1.1",
+    "ReleaseDate": "10-11-2011",
+    "ApplicationName": "",
+    "ApplicationType": {
+        "str_type": "Not Classified",
+        "int_type": 3
+    },
+    "datePattern": null,
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "bug"
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Test Data\CSharpTest1
+{
+    "entry": "bug ",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "1.2",
+    "ReleaseDate": "11-11-2011",
+    "ApplicationName": "",
+    "ApplicationType": {
+        "str_type": "Not Classified",
+        "int_type": 3
+    },
+    "datePattern": null,
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "bug "
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Test Data\CSharpTestAllDiff
+{
+    "entry": "bug ",
+    "classification": {
+        "str_type": "Advertisement",
+        "int_type": 4
+    },
+    "VersionNumber": "1.2",
+    "ReleaseDate": "11-11-2011",
+    "ApplicationName": "",
+    "ApplicationType": {
+        "str_type": "Not Classified",
+        "int_type": 3
+    },
+    "datePattern": null,
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "bug "
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Test Data\CSharpTest1
+{
+    "entry": "feature",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "1.2",
+    "ReleaseDate": "11-11-2011",
+    "ApplicationName": "",
+    "ApplicationType": {
+        "str_type": "Not Classified",
+        "int_type": 3
+    },
+    "datePattern": null,
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "feature"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Test Data\CSharpTestAllDiff
+{
+    "entry": "feature",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "1.2",
+    "ReleaseDate": "11-11-2011",
+    "ApplicationName": "",
+    "ApplicationType": {
+        "str_type": "Not Classified",
+        "int_type": 3
+    },
+    "datePattern": null,
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "feature"
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Test Data\CSharpTest1
+{
+    "entry": "freature",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "1.2",
+    "ReleaseDate": "11-11-2011",
+    "ApplicationName": "",
+    "ApplicationType": {
+        "str_type": "Not Classified",
+        "int_type": 3
+    },
+    "datePattern": null,
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "freature"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Test Data\CSharpTestAllDiff
+{
+    "entry": "freature",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "1.2",
+    "ReleaseDate": "11-11-2011",
+    "ApplicationName": "",
+    "ApplicationType": {
+        "str_type": "Not Classified",
+        "int_type": 3
+    },
+    "datePattern": null,
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "freature"
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Test Data\CSharpTest1
+{
+    "entry": "junk",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "1.2",
+    "ReleaseDate": "11-11-2011",
+    "ApplicationName": "",
+    "ApplicationType": {
+        "str_type": "Not Classified",
+        "int_type": 3
+    },
+    "datePattern": null,
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "junk"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Test Data\CSharpTestAllDiff
+{
+    "entry": "junk",
+    "classification": {
+        "str_type": "Rating Related",
+        "int_type": 5
+    },
+    "VersionNumber": "1.2",
+    "ReleaseDate": "11-11-2011",
+    "ApplicationName": "",
+    "ApplicationType": {
+        "str_type": "Not Classified",
+        "int_type": 3
+    },
+    "datePattern": null,
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "junk"
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Test Data\CSharpTest1
+{
+    "entry": "junk junk",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "1.2",
+    "ReleaseDate": "11-11-2011",
+    "ApplicationName": "",
+    "ApplicationType": {
+        "str_type": "Not Classified",
+        "int_type": 3
+    },
+    "datePattern": null,
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "junk junk"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Test Data\CSharpTestAllDiff
+{
+    "entry": "junk junk",
+    "classification": {
+        "str_type": "Rating Related",
+        "int_type": 5
+    },
+    "VersionNumber": "1.2",
+    "ReleaseDate": "11-11-2011",
+    "ApplicationName": "",
+    "ApplicationType": {
+        "str_type": "Not Classified",
+        "int_type": 3
+    },
+    "datePattern": null,
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "junk junk"
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Test Data\CSharpTest1
+{
+    "entry": "junk",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "1.2",
+    "ReleaseDate": "11-11-2011",
+    "ApplicationName": "",
+    "ApplicationType": {
+        "str_type": "Not Classified",
+        "int_type": 3
+    },
+    "datePattern": null,
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "junk"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Test Data\CSharpTestAllDiff
+{
+    "entry": "junk",
+    "classification": {
+        "str_type": "Rating Related",
+        "int_type": 5
+    },
+    "VersionNumber": "1.2",
+    "ReleaseDate": "11-11-2011",
+    "ApplicationName": "",
+    "ApplicationType": {
+        "str_type": "Not Classified",
+        "int_type": 3
+    },
+    "datePattern": null,
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "junk"
+}
