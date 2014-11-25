@@ -1,5 +1,4 @@
-﻿Delete 0.14.3 and 0.14.1, as there are no date.--Angie
-v0.25
+﻿v0.25
 Released 7th October, 2014.
 Destructible Facilties at KSC
 	•	Crashing into buildings at KSC can now cause them to collapse, which although satisfying, is very counter-productive to the Space Program.
@@ -934,7 +933,7 @@ Bug Fixes:
 	•	Fixed a bug with symmetry in the VAB.
 	•	Fixed an issue with the main camera that would create sporadic moments of lag in map view.
 	•	Fixed a bug that caused symmetrical parts to lose the reference to one of their counterparts, leading to incorrect symmetrical placements.
-Note : As of the 26th of January 2012, v0.13.2 is the final free version.
+Note : As of the 26th of January 2012, <<this Version>> is the final free version.
 v0.13.1
 Released 11th January, 2012
 New on 0.13.1:

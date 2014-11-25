@@ -94,7 +94,7 @@ namespace GetDateCycles
                         {
                             //Console.Out.WriteLine("i: " + i);
                             txtWriter.Write(VersionList[i][0].ApplicationName + ":");
-                            for (int j = 0; j < cycleList[i].Count-1; j ++ )
+                            for (int j = 0; j < cycleList[i].Count; j ++ )
                             {
                               //  Console.Out.WriteLine("j: " + j);
                                 txtWriter.Write(cycleList[i][j] + ",");
@@ -121,16 +121,16 @@ namespace GetDateCycles
 
             List<int> cycleLengths = new List<int>();
             ls.Reverse();
-            for (int i = 0; i < ls.Count - 2; i ++ )
+            for (int i = 0; i < ls.Count-1; i ++ )
             {
                 DateTime.TryParseExact(ls[i].ReleaseDate, "dd/MM/yyyy", enUS, DateTimeStyles.None, out NewDate);
                 DateTime.TryParseExact(ls[i + 1].ReleaseDate, "dd/MM/yyyy", enUS, DateTimeStyles.None, out OldDate);
 
                 TimeSpan ts = OldDate - NewDate;
-
+    //            Console.Out.WriteLine(OldDate.ToString() + " - " + NewDate.ToString() + " = " + ts.Days.ToString());
                 if (ts.Days < 0 || ts.Days > 1000)
                 {
-                    Console.Out.WriteLine(ts.Days);
+                    Console.Out.WriteLine(OldDate.ToString() + " " + NewDate.ToString() + " " + ts.Days);
                 }
 
                 cycleLengths.Add(ts.Days);
@@ -138,6 +138,8 @@ namespace GetDateCycles
 
             return cycleLengths;
         }
+
+
 
         static public List<ReleaseContainer> Read_Our_File(string filename)
         {

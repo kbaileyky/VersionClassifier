@@ -1,5 +1,7 @@
-Kaleidoscope\s\d+\.\d+\s-\sbuild\s\d+
-\d+\.\d+\s-\sbuild\s\d+
-(J|F|M|A|S|O|N|D)\w*\s\d{1,2}(th|st|rd|nd)?\s\d{4}
+Kaleidoscope\s\d+(\.\d+)+\s-\sbuild\s\d+
+\d+(\.\d+)+\s-\sbuild\s\d+
+(J|F|M|A|S|O|N|D)\w*\s\d{1,2}(th|st|rd|nd)?(,)?\s\d{4}
 MMMM d yyyy
 MMMM dd yyyy
+MMMM d, yyyy
+MMMM dd, yyyy

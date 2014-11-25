@@ -1,5 +1,4 @@
-﻿Version
-**5.4.1.8430
+﻿**5.4.1.8430
 Date
 15th of September 2014
 Description
@@ -236,7 +235,7 @@ Description
 
 Major Features 
 
-Support for Visual Studio 2013: NDepend v5.0 integrates into Visual Studio 2013, 2012, 2010 and 2008.
+Support for Visual Studio 2013: NDepend v5.0 integrates into Visual Studio 2013, 2012, 2010 <<&>> 2008.
 New Dashboard Panel: NDepend v5.0 proposes a new Dashboard that shows at a glance the state of your code base.
 Trend Monitoring: NDepend v5.0 can monitor trend metrics and shows trend charts. Default trend metrics and trend charts are proposed and custom ones can be created.
 Churning Rules and Queries: NDepend v5.0 lets list Rules and Queries according to common criterions. Listing all Rules Violated is now a one click operation.

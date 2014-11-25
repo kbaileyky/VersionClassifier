@@ -1473,7 +1473,7 @@ Fixed bugs
 	?	11465 Functions: ds_map_write() creates a non-existent key for empty maps
 	?	11030 Functions: json_decode() does not parse arrays of objects
 	?	12456 Physics: Crash using physics_fixture_bind() [when incomplete setup of physics object]
-	?	12809 04/10/2013 is not a valid date - and empty tutorials page
+	?	12809 <<April Tenth 2013>> is not a valid date - and empty tutorials page
 	?	11896 HTML5: Array keys cannot have decimals in HTML5 but in Windows they do not crash
 	?	12830 Native Crash (GMSpineApi)
 	?	12822 Scripts: Using return in a with() causes a memory leak

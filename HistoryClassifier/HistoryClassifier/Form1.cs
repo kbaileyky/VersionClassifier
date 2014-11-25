@@ -45,23 +45,25 @@ namespace HistoryClassifier
 
         private void DrawItemHandler(object sender, DrawItemEventArgs e)
         {
-            e.DrawBackground();
-            e.DrawFocusRectangle();
-            if (e.Index < 0)
+            if (lsbxVersions.Items.Count > 0)
             {
-                e.Graphics.DrawString(activeHistory[lsboxindex].Get_ID(),
-                                       Control.DefaultFont,
-                                    colors[activeHistory[lsboxindex].Get_Classification()],
-                                     e.Bounds);
+                e.DrawBackground();
+                e.DrawFocusRectangle();
+                if (e.Index < 0)
+                {
+                    e.Graphics.DrawString(activeHistory[lsboxindex].Get_ID(),
+                                           Control.DefaultFont,
+                                        colors[activeHistory[lsboxindex].Get_Classification()],
+                                         e.Bounds);
+                }
+                else
+                {
+                    e.Graphics.DrawString(activeHistory[e.Index].Get_ID(),
+                                            Control.DefaultFont,
+                                         colors[activeHistory[e.Index].Get_Classification()],
+                                          e.Bounds);
+                }
             }
-            else
-            {
-                e.Graphics.DrawString(activeHistory[e.Index].Get_ID(),
-                                        Control.DefaultFont,
-                                     colors[activeHistory[e.Index].Get_Classification()],
-                                      e.Bounds);
-            }
-
         }
 
         private void MeasureItemHandler(object sender, MeasureItemEventArgs e)
@@ -158,9 +160,12 @@ namespace HistoryClassifier
         {
             lsbxHistory.Items.Clear();
             activeHistory = selection.Get_Entry_List();
-            foreach (HistoryEntry h in activeHistory)
+            if (activeHistory.Count > 0)
             {
-                lsbxHistory.Items.Add(h.Get_ID());
+                foreach (HistoryEntry h in activeHistory)
+                {
+                    lsbxHistory.Items.Add(h.Get_ID());
+                }
             }
         }
 
