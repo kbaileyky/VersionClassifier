@@ -329,6 +329,8 @@ namespace HistoryClassifier
         private void rawFileToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ReleaseList.Clear();
+            groupBox1.Enabled = true;
+            btnSet.Enabled = true;
             string filename = string.Empty;
             try
             {
@@ -351,7 +353,8 @@ namespace HistoryClassifier
         private void savedFileToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ReleaseList.Clear();
-
+            groupBox1.Enabled = true;
+            btnSet.Enabled = true;
             string filename = string.Empty;
             try
             {
@@ -668,7 +671,8 @@ namespace HistoryClassifier
         private void comparisonFileToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ReleaseList.Clear();
-
+            groupBox1.Enabled = false;
+            btnSet.Enabled = false;
             string filename = string.Empty;
             try
             {
@@ -714,12 +718,12 @@ namespace HistoryClassifier
                     case 'r':
                         Classify_Statement(new Junk());
                         break;
-                    case 'u':
-                        Classify_Statement(new Ad());
-                        break;
-                    case 'i':
-                        Classify_Statement(new RevChangeRequest());
-                        break;
+                    //case 'u':
+                    //    Classify_Statement(new Ad());
+                    //    break;
+                    //case 'i':
+                    //    Classify_Statement(new RevChangeRequest());
+                    //    break;
                     case '\r':
                         MoveToNextIndex();
                         break;

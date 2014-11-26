@@ -238,9 +238,7 @@
             this.lsbxHistory.Size = new System.Drawing.Size(84, 303);
             this.lsbxHistory.TabIndex = 9;
             this.lsbxHistory.SelectedIndexChanged += new System.EventHandler(this.lsbxHistory_SelectedIndexChanged);
-
             this.lsbxHistory.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lsbxHistory_KeyPress);
-
             // 
             // label1
             // 
@@ -269,6 +267,7 @@
             this.btnAd.TabIndex = 12;
             this.btnAd.Text = "Advertisement (U)";
             this.btnAd.UseVisualStyleBackColor = true;
+            this.btnAd.Visible = false;
             this.btnAd.Click += new System.EventHandler(this.btnAd_Click);
             // 
             // btnChangeRating
@@ -279,6 +278,7 @@
             this.btnChangeRating.TabIndex = 13;
             this.btnChangeRating.Text = "Rating Related (I)";
             this.btnChangeRating.UseVisualStyleBackColor = true;
+            this.btnChangeRating.Visible = false;
             this.btnChangeRating.Click += new System.EventHandler(this.btnChangeRating_Click);
             // 
             // statusStrip1
