@@ -1,12 +1,14 @@
 #!/bin/bash
 
-rm ./MasterJsonFile2.txt
+file=./MasterJsonFile3k.txt
+
+rm $file
 echo "Old file removed"
 
-cat ./CompJson/* >> MasterJsonFile2.txt
+cat ./CompJson/* >> $file
 echo "Master File Created"
 
-numLines=$(cat MasterJsonFile2.txt | wc -l)
+numLines=$(cat $file | wc -l)
 echo "Total Lines "$numLines
 
 
