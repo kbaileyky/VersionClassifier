@@ -1799,6 +1799,9 @@ C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCo
     "merged": false,
     "original_text": "When clicking 'Run Analysis' from a project edied without any analysis result currently loaded, if the NDepend project had a Baseline for comparison (UI) defined, this baseline wasn't loaded in the interactive UI once the new analysis result (produced by the triggered analysis) was reloaded."
 }
+
+
+
 C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
 {
     "entry": "Tableau 6.1 is loaded with new features. We've added incremental updates, faster extracts, and for the first time, the Desktop application is available in French and German. We're also introducing Tableau for iPad. Tableau Server views are now optimized to deliver touch experiences when accessed on devices like the Apple iPad. These are all just the beginning of what's new in this version.",
@@ -2249,6 +2252,9 @@ C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCo
     "merged": false,
     "original_text": "The marching ants for selections are now drawn over any guides that might be showing."
 }
+
+
+
 C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
 {
     "entry": "_ Push notifications display an alert now if you receive one while actively using the app",
@@ -2384,6 +2390,9 @@ C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCo
     "merged": false,
     "original_text": "Adjusted how double-clicking zooms on maps to correct occasional inconsistencies."
 }
+
+
+
 C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
 {
     "entry": "_We_ve listened to your feedback on the _This is CNN_ welcome greeting and have made changes to the feature. It is now turned off by default. You can turn it on when you launch the app for the first time or at any time by tapping the red CNN logo, selecting settings and adjusting your preference. Thank you for your feedback!",
@@ -2429,6 +2438,8 @@ C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCo
     "merged": false,
     "original_text": "_We_ve listened to your feedback on the _This is CNN_ welcome greeting and have made changes to the feature. It is now turned off by default. You can turn it on when you launch the app for the first time or at any time by tapping the red CNN logo, selecting settings and adjusting your preference. Thank you for your feedback!"
 }
+
+
 C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
 {
     "entry": "* Added fill animations to make it easy (and fun) to see where fields are filled. ",
@@ -2451,6 +2462,7 @@ C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCo
     "merged": false,
     "original_text": "* Added fill animations to make it easy (and fun) to see where fields are filled. "
 }
+
 
 C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
 {
@@ -2609,6 +2621,8 @@ C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCo
     "merged": false,
     "original_text": "- Pinch and zoom functionality has been added when you use one of our shaped frames."
 }
+
+
 C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
 {
     "entry": "Area code boundaries and area code labels now display together correctly at lower zoom scales.",
@@ -2701,7 +2715,7 @@ C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCo
 }
 C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
 {
-    "entry": "\t•\tFixed: The translations are more accurate.",
+    "entry": "\t•\t Fixed: The translations are more accurate.",
     "classification": {
         "str_type": "Non-Functional",
         "int_type": 3
@@ -2924,6 +2938,7 @@ C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCo
     "merged": false,
     "original_text": "_ Explore the artists and music you love directly on your device"
 }
+
 C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
 {
     "entry": "- Clear the clutter! Pick up all buildings and walls at once and design your village from a clean slate",
@@ -3059,6 +3074,7 @@ C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCo
     "merged": false,
     "original_text": "- All-New Favorites section - You asked for quick access to your most used stuff, you got it!"
 }
+
 C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
 {
     "entry": "Updated app icon",
@@ -3174,7 +3190,7 @@ C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCo
 
 C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
 {
-    "entry": "\t•\tBetter handling of articles with empty titles.",
+    "entry": "\t•\t Better handling of articles with empty titles.",
     "classification": {
         "str_type": "Enhancement",
         "int_type": 2
@@ -3331,7 +3347,7 @@ C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCo
 }
 C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
 {
-    "entry": "\t•\tCustom user data on objects (OmniGraffle Professional only).",
+    "entry": "\t•\t Custom user data on objects (OmniGraffle Professional only).",
     "classification": {
         "str_type": "Feature",
         "int_type": 1
@@ -3669,7 +3685,7 @@ C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCo
 
 C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCompFiles3per.json
 {
-    "entry": "New: Sign up to join our beta program from within the desktop app.",
+    "entry": " New: Sign up to join our beta program from within the desktop app.",
     "classification": {
         "str_type": "Feature",
         "int_type": 1
@@ -3961,7 +3977,7 @@ C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCo
 }
 C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
 {
-    "entry": "\t•\tSymmetrically placed Icons are grouped into a single icon",
+    "entry": "\t•\t Symmetrically placed Icons are grouped into a single icon",
     "classification": {
         "str_type": "Feature",
         "int_type": 1
@@ -4094,6 +4110,8 @@ C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCo
     "merged": false,
     "original_text": "5.3.1 beta 1 Bug Fixes"
 }
+
+
 C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
 {
     "entry": "\t•\tYou can now access actions on locked layers.",
@@ -4456,7 +4474,7 @@ C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\HongyanCo
 }
 C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\Progress\KendallCompFiles3per2.json
 {
-    "entry": "\t\tUnsaved files will now be properly marked as dirty in changesets.",
+    "entry": "\t\t Unsaved files will now be properly marked as dirty in changesets.",
     "classification": {
         "str_type": "Bug",
         "int_type": 0
