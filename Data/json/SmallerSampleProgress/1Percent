@@ -1,0 +1,501 @@
+Percent Agreement:	70.9677419354839	 Total Classified:	31	 Number Different:	9	Total Split:	3
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Kendall3k1per.json
+{
+    "entry": "- Updated Settings page including link to \"My Rewards\"",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "1.1.0",
+    "ReleaseDate": "26/07/2012",
+    "ApplicationName": "Wish",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Updated Settings page including link to \"My Rewards\""
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Hongyan3k1per.json
+{
+    "entry": "- Updated Settings page including link to \"My Rewards\"",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "1.1.0",
+    "ReleaseDate": "26/07/2012",
+    "ApplicationName": "Wish",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Updated Settings page including link to \"My Rewards\""
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Kendall3k1per.json
+{
+    "entry": "- Score Attack Mode: a new way to play through the story! You start at level one with all Spirits and Idols unlocked. Combat performance is rated for efficiency, and all areas are repeatable.",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "8",
+    "ReleaseDate": "14/12/2011",
+    "ApplicationName": "BastionD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Score Attack Mode: a new way to play through the story! You start at level one with all Spirits and Idols unlocked. Combat performance is rated for efficiency, and all areas are repeatable."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Hongyan3k1per.json
+{
+    "entry": "- Score Attack Mode: a new way to play through the story! You start at level one with all Spirits and Idols unlocked. Combat performance is rated for efficiency, and all areas are repeatable.",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "8",
+    "ReleaseDate": "14/12/2011",
+    "ApplicationName": "BastionD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Score Attack Mode: a new way to play through the story! You start at level one with all Spirits and Idols unlocked. Combat performance is rated for efficiency, and all areas are repeatable."
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Kendall3k1per.json
+{
+    "entry": "_ Reduced battery usage",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "3.2",
+    "ReleaseDate": "06/07/2012",
+    "ApplicationName": "Pandora",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "_ Reduced battery usage"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Hongyan3k1per.json
+{
+    "entry": "_ Reduced battery usage",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "3.2",
+    "ReleaseDate": "06/07/2012",
+    "ApplicationName": "Pandora",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "_ Reduced battery usage"
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Kendall3k1per.json
+{
+    "entry": "- The size buttons now show what size they will be saving.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "1.1",
+    "ReleaseDate": "20/11/2012",
+    "ApplicationName": "Afterlight",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- The size buttons now show what size they will be saving."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Hongyan3k1per.json
+{
+    "entry": "- The size buttons now show what size they will be saving.",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "1.1",
+    "ReleaseDate": "20/11/2012",
+    "ApplicationName": "Afterlight",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": true,
+    "split": false,
+    "merged": false,
+    "original_text": "- The size buttons now show what size they will be saving."
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Kendall3k1per.json
+{
+    "entry": "-Search for new RunKeeper friends by full name",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "4.3",
+    "ReleaseDate": "04/02/2014",
+    "ApplicationName": "Run Keeper",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "-Search for new RunKeeper friends by full name"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Hongyan3k1per.json
+{
+    "entry": "-Search for new RunKeeper friends by full name",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "4.3",
+    "ReleaseDate": "04/02/2014",
+    "ApplicationName": "Run Keeper",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "-Search for new RunKeeper friends by full name"
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Kendall3k1per.json
+{
+    "entry": "Say hello to a leaner, cleaner RunKeeper! ",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "4.0",
+    "ReleaseDate": "17/09/2013",
+    "ApplicationName": "Run Keeper",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Say hello to a leaner, cleaner RunKeeper! "
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Hongyan3k1per.json
+{
+    "entry": "Say hello to a leaner, cleaner RunKeeper! ",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "4.0",
+    "ReleaseDate": "17/09/2013",
+    "ApplicationName": "Run Keeper",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Say hello to a leaner, cleaner RunKeeper! "
+}
+===========================Splits===========================
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Kendall3k1per.json
+{
+    "entry": "_ Performance ",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "2.2.0",
+    "ReleaseDate": "08/01/2013",
+    "ApplicationName": "Wish",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": true,
+    "merged": false,
+    "original_text": "_ Performance and bug fixes"
+}
+
+{
+    "entry": "and bug fixes",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "2.2.0",
+    "ReleaseDate": "08/01/2013",
+    "ApplicationName": "Wish",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": true,
+    "merged": false,
+    "original_text": "_ Performance and bug fixes"
+}
+
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Hongyan3k1per.json
+{
+    "entry": "_ Performance and bug fixes",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "2.2.0",
+    "ReleaseDate": "08/01/2013",
+    "ApplicationName": "Wish",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "_ Performance and bug fixes"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Kendall3k1per.json
+{
+    "entry": "- The cropping tool has been enhanced. The free transform option has more control, and we've added a golden ratio crop option.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "1.5",
+    "ReleaseDate": "11/03/2013",
+    "ApplicationName": "Afterlight",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- The cropping tool has been enhanced. The free transform option has more control, and we've added a golden ratio crop option."
+}
+
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Hongyan3k1per.json
+{
+    "entry": "- The cropping tool has been enhanced. ",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "1.5",
+    "ReleaseDate": "11/03/2013",
+    "ApplicationName": "Afterlight",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": true,
+    "merged": false,
+    "original_text": "- The cropping tool has been enhanced. The free transform option has more control, and we've added a golden ratio crop option."
+}
+
+{
+    "entry": "The free transform option has more control, ",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "1.5",
+    "ReleaseDate": "11/03/2013",
+    "ApplicationName": "Afterlight",
+    "ApplicationType": {
+        "str_type": "Not Classified",
+        "int_type": 3
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": true,
+    "merged": false,
+    "original_text": "- The cropping tool has been enhanced. The free transform option has more control, and we've added a golden ratio crop option."
+}
+
+{
+    "entry": "and we've added a golden ratio crop option.",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "1.5",
+    "ReleaseDate": "11/03/2013",
+    "ApplicationName": "Afterlight",
+    "ApplicationType": {
+        "str_type": "Not Classified",
+        "int_type": 3
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- The cropping tool has been enhanced. The free transform option has more control, and we've added a golden ratio crop option."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Kendall3k1per.json
+{
+    "entry": " Bug fixes ",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "5.0.13",
+    "ReleaseDate": "29/05/2014",
+    "ApplicationName": "Instagram",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": true,
+    "merged": false,
+    "original_text": " Bug fixes and performance improvements"
+}
+
+{
+    "entry": "and performance improvements",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "5.0.13",
+    "ReleaseDate": "29/05/2014",
+    "ApplicationName": "Instagram",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": true,
+    "merged": false,
+    "original_text": " Bug fixes and performance improvements"
+}
+
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Hongyan3k1per.json
+{
+    "entry": " Bug fixes and performance improvements",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "5.0.13",
+    "ReleaseDate": "29/05/2014",
+    "ApplicationName": "Instagram",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": " Bug fixes and performance improvements"
+}
+

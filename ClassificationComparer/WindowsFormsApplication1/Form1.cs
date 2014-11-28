@@ -204,7 +204,7 @@ namespace WindowsFormsApplication1
                         splitlist.Add(Create_Split_List(ls1, ls2, ref i, ref j));
 
                     } else {
-                        throw new FormatException("There is a missing entry! Cannot compare " + textBox1.Text + " " + ls1[i].ApplicationName + " " +  ls1[i].VersionNumber + " and" +  textBox2.Text + " " + ls2[j].ApplicationName + " " + ls2[j].VersionNumber);
+                        throw new FormatException("There is a missing entry! Cannot compare " + textBox1.Text + " " + ls1[i].ApplicationName + " " +  ls1[i].VersionNumber + "at Line " + i + " and" +  textBox2.Text + " " + ls2[j].ApplicationName + " " + ls2[j].VersionNumber + "at Line " + j);
                     }
 
                 } else {
