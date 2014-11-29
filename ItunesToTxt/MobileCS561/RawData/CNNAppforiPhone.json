@@ -22,40 +22,40 @@
             "topApps": {
                 "ipad": {
                     "ids": [
-                        367623543, 
+                        444519360, 
                         407824176, 
-                        898117224, 
+                        367623543, 
                         357066198, 
-                        358801284, 
-                        579581125, 
-                        427593622, 
-                        364387007, 
-                        369021520, 
-                        364257176, 
-                        914453825, 
                         923394341, 
-                        364147881, 
+                        358801284, 
+                        364257176, 
                         304158842, 
-                        364183644
+                        364387007, 
+                        646100661, 
+                        364183644, 
+                        364147881, 
+                        352969997, 
+                        914453825, 
+                        369021520
                     ], 
                     "title": "Top Free iPad News Apps"
                 }, 
                 "iphone": {
                     "ids": [
-                        304158842, 
-                        438875956, 
                         923187241, 
+                        304158842, 
                         352969997, 
+                        438875956, 
                         367623543, 
+                        498408628, 
                         358801284, 
                         284862083, 
+                        913753848, 
                         912592124, 
-                        579581125, 
-                        498408628, 
-                        369021520, 
                         364147881, 
-                        364387007, 
-                        784982356
+                        784982356, 
+                        794163692, 
+                        646100661
                     ], 
                     "title": "Top Free iPhone News Apps"
                 }
@@ -203,7 +203,7 @@
             "pageDetails": "CNN Interactive Group, Inc._CNN App for iPhone", 
             "pageId": "331786748", 
             "language": "1", 
-            "serverInstance": "2126956", 
+            "serverInstance": "2125125", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
@@ -253,7 +253,7 @@
                 "label": "CNN Interactive Group, Inc."
             }
         ], 
-        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/95A6/frameworks-sf6/images/", 
+        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/9548/frameworks-sf6/images/", 
         "omnitureMetrics": {
             "shouldTrackBrowserPlugins": false, 
             "format": "HTML", 
@@ -283,14 +283,14 @@
                 ]
             }
         }, 
-        "resourceImagePath": "https://s.mzstatic.com/htmlResources/95A6/di6-storefront/images/", 
-        "resourceBasePath": "/htmlResources/95A6/files/", 
+        "resourceImagePath": "https://s.mzstatic.com/htmlResources/9548/di6-storefront/images/", 
+        "resourceBasePath": "/htmlResources/9548/files/", 
         "flagLink": {
             "url": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/countrySelectorPage?cc=us", 
             "imageSrc": "https://s.mzstatic.com/images/flags/-dsi-30/usa.png", 
             "imageAltText": "My Store: United States, Choose Store"
         }, 
-        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/95A6/frameworks-dt6/images/", 
+        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/9548/frameworks-dt6/images/", 
         "termsLink": {
             "url": "https://www.apple.com/legal/itunes/us/terms.html", 
             "label": "Terms and Conditions"
@@ -426,10 +426,10 @@
                     "releaseDate": "2009-09-29", 
                     "artistId": 331786752, 
                     "userRating": {
-                        "ratingCountCurrentVersion": 291, 
+                        "ratingCountCurrentVersion": 532, 
                         "valueCurrentVersion": 3.5, 
                         "value": 4, 
-                        "ratingCount": 87181
+                        "ratingCount": 87356
                     }, 
                     "artistUrl": "https://itunes.apple.com/us/artist/cnn-interactive-group-inc./id331786752?mt=8", 
                     "itunesNotes": null, 
@@ -524,27 +524,27 @@
                             "height": 240
                         }, 
                         {
-                            "url": "http://a5.mzstatic.com/us/r30/Purple1/v4/d0/90/5c/d0905cd3-5dd3-2a88-f7aa-a078ccb9c6bb/icon1024x1024.png", 
+                            "url": "http://a2.mzstatic.com/us/r30/Purple1/v4/d0/90/5c/d0905cd3-5dd3-2a88-f7aa-a078ccb9c6bb/icon1024x1024.jpeg", 
                             "width": 1024, 
                             "height": 1024
                         }, 
                         {
-                            "url": "http://a4.mzstatic.com/us/r30/Purple1/v4/d0/90/5c/d0905cd3-5dd3-2a88-f7aa-a078ccb9c6bb/icon440x440.jpeg", 
+                            "url": "http://a5.mzstatic.com/us/r30/Purple1/v4/d0/90/5c/d0905cd3-5dd3-2a88-f7aa-a078ccb9c6bb/icon440x440.png", 
                             "width": 440, 
                             "height": 440
                         }, 
                         {
-                            "url": "http://a1.mzstatic.com/us/r30/Purple1/v4/d0/90/5c/d0905cd3-5dd3-2a88-f7aa-a078ccb9c6bb/icon220x220.png", 
+                            "url": "http://a5.mzstatic.com/us/r30/Purple1/v4/d0/90/5c/d0905cd3-5dd3-2a88-f7aa-a078ccb9c6bb/icon220x220.jpeg", 
                             "width": 220, 
                             "height": 220
                         }, 
                         {
-                            "url": "http://a5.mzstatic.com/us/r30/Purple1/v4/d0/90/5c/d0905cd3-5dd3-2a88-f7aa-a078ccb9c6bb/icon400x400.jpeg", 
+                            "url": "http://a1.mzstatic.com/us/r30/Purple1/v4/d0/90/5c/d0905cd3-5dd3-2a88-f7aa-a078ccb9c6bb/icon400x400.png", 
                             "width": 400, 
                             "height": 400
                         }, 
                         {
-                            "url": "http://a1.mzstatic.com/us/r30/Purple1/v4/d0/90/5c/d0905cd3-5dd3-2a88-f7aa-a078ccb9c6bb/icon512x512.png", 
+                            "url": "http://a3.mzstatic.com/us/r30/Purple1/v4/d0/90/5c/d0905cd3-5dd3-2a88-f7aa-a078ccb9c6bb/icon512x512.jpeg", 
                             "width": 512, 
                             "height": 512
                         }
@@ -1158,7 +1158,7 @@
         }
     }, 
     "properties": {
-        "ITSResourceRevNum": "95A6", 
+        "ITSResourceRevNum": "9548", 
         "isCobaltJavascriptRedirectEnabled": true, 
         "isModern": false, 
         "ITSLogger.ServerReportingApp": "MZUserXP", 
@@ -1168,7 +1168,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "2126956", 
+        "ITSServerInstance": "2125125", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
@@ -1307,7 +1307,7 @@
         "countryCode": "usa", 
         "GlobalLists": {
             "removeFromWishlistUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/removeFromWishlist", 
-            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=95A6", 
+            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=9548", 
             "updateRadioHistoryUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/updateRadioHistory", 
             "popover": {
                 "width": "350", 

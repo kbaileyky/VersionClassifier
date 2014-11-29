@@ -21,39 +21,39 @@
                 "ipad": {
                     "ids": [
                         349554263, 
-                        332615624, 
-                        341922306, 
-                        721048927, 
-                        450123799, 
-                        567008119, 
+                        914635909, 
+                        287455446, 
                         364740856, 
+                        450123799, 
                         576588894, 
-                        300845855, 
-                        287462072, 
-                        804637783, 
-                        286041914, 
-                        301349397, 
-                        287734809, 
-                        383462870
+                        447919187, 
+                        567008119, 
+                        721048927, 
+                        411970514, 
+                        553178973, 
+                        300991597, 
+                        695061867, 
+                        570955497, 
+                        927842423
                     ], 
                     "title": "Top Grossing iPad Reference Apps"
                 }, 
                 "iphone": {
                     "ids": [
-                        287734809, 
-                        892128363, 
                         349554263, 
-                        341922306, 
-                        385756768, 
-                        334989259, 
-                        291270748, 
+                        914635909, 
+                        287734809, 
                         576588894, 
-                        301349397, 
-                        804637783, 
                         647922968, 
-                        447498678, 
-                        332615624, 
-                        695061867
+                        385756768, 
+                        341922306, 
+                        695061867, 
+                        804637783, 
+                        542466961, 
+                        334989259, 
+                        308018823, 
+                        570955497, 
+                        478126577
                     ], 
                     "title": "Top Grossing iPhone Reference Apps"
                 }
@@ -237,11 +237,11 @@
             "pageDetails": "Dictionary.com, LLC_Dictionary.com Dictionary & Thesaurus", 
             "pageId": "308750436", 
             "language": "1", 
-            "serverInstance": "2126820", 
+            "serverInstance": "512076", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
-            "environmentDataCenter": "ST11", 
+            "environmentDataCenter": "NWK", 
             "pageType": "Software", 
             "platformName": "iTunes12", 
             "page": "Software_308750436"
@@ -287,7 +287,7 @@
                 "label": "Dictionary.com, LLC"
             }
         ], 
-        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/95A6/frameworks-sf6/images/", 
+        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/9548/frameworks-sf6/images/", 
         "omnitureMetrics": {
             "shouldTrackBrowserPlugins": false, 
             "format": "HTML", 
@@ -317,14 +317,14 @@
                 ]
             }
         }, 
-        "resourceImagePath": "https://s.mzstatic.com/htmlResources/95A6/di6-storefront/images/", 
-        "resourceBasePath": "/htmlResources/95A6/files/", 
+        "resourceImagePath": "https://s.mzstatic.com/htmlResources/9548/di6-storefront/images/", 
+        "resourceBasePath": "/htmlResources/9548/files/", 
         "flagLink": {
             "url": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/countrySelectorPage?cc=us", 
             "imageSrc": "https://s.mzstatic.com/images/flags/-dsi-30/usa.png", 
             "imageAltText": "My Store: United States, Choose Store"
         }, 
-        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/95A6/frameworks-dt6/images/", 
+        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/9548/frameworks-dt6/images/", 
         "termsLink": {
             "url": "https://www.apple.com/legal/itunes/us/terms.html", 
             "label": "Terms and Conditions"
@@ -460,10 +460,10 @@
                     "releaseDate": "2009-04-07", 
                     "artistId": 308750439, 
                     "userRating": {
-                        "ratingCountCurrentVersion": 512, 
+                        "ratingCountCurrentVersion": 586, 
                         "valueCurrentVersion": 4.5, 
                         "value": 4, 
-                        "ratingCount": 192219
+                        "ratingCount": 192270
                     }, 
                     "artistUrl": "https://itunes.apple.com/us/artist/dictionary.com-llc/id308750439?mt=8", 
                     "itunesNotes": null, 
@@ -544,7 +544,7 @@
                     "editorialBadgeInfo": null, 
                     "artwork": [
                         {
-                            "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/29/49/d8/2949d8cf-dd7f-4993-3884-8ce192c03941/icon240x240.png", 
+                            "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/29/49/d8/2949d8cf-dd7f-4993-3884-8ce192c03941/icon240x240.jpeg", 
                             "width": 240, 
                             "height": 240
                         }, 
@@ -554,7 +554,7 @@
                             "height": 1024
                         }, 
                         {
-                            "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/29/49/d8/2949d8cf-dd7f-4993-3884-8ce192c03941/icon440x440.png", 
+                            "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/29/49/d8/2949d8cf-dd7f-4993-3884-8ce192c03941/icon440x440.jpeg", 
                             "width": 440, 
                             "height": 440
                         }, 
@@ -564,12 +564,12 @@
                             "height": 220
                         }, 
                         {
-                            "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/29/49/d8/2949d8cf-dd7f-4993-3884-8ce192c03941/icon400x400.png", 
+                            "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/29/49/d8/2949d8cf-dd7f-4993-3884-8ce192c03941/icon400x400.jpeg", 
                             "width": 400, 
                             "height": 400
                         }, 
                         {
-                            "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/29/49/d8/2949d8cf-dd7f-4993-3884-8ce192c03941/icon512x512.png", 
+                            "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/29/49/d8/2949d8cf-dd7f-4993-3884-8ce192c03941/icon512x512.jpeg", 
                             "width": 512, 
                             "height": 512
                         }
@@ -970,7 +970,7 @@
         }
     }, 
     "properties": {
-        "ITSResourceRevNum": "95A6", 
+        "ITSResourceRevNum": "9548", 
         "isCobaltJavascriptRedirectEnabled": true, 
         "isModern": false, 
         "ITSLogger.ServerReportingApp": "MZUserXP", 
@@ -980,7 +980,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "2126820", 
+        "ITSServerInstance": "512076", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
@@ -1010,7 +1010,7 @@
                 "platformId": "28", 
                 "storeFront": "143441", 
                 "storeFrontHeader": "143441-1,28", 
-                "environmentDataCenter": "ST11", 
+                "environmentDataCenter": "NWK", 
                 "platformName": "iTunes12"
             }, 
             "postFrequency": 60000, 
@@ -1119,7 +1119,7 @@
         "countryCode": "usa", 
         "GlobalLists": {
             "removeFromWishlistUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/removeFromWishlist", 
-            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=95A6", 
+            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=9548", 
             "updateRadioHistoryUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/updateRadioHistory", 
             "popover": {
                 "width": "350", 

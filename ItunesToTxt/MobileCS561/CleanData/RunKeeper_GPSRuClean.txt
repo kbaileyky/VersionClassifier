@@ -1,3 +1,10 @@
+Version Number: 5.1
+Release Date: 2014-11-28T01:11:37Z
+- Apple Health Integration (iOS 8 Only): Connect RunKeeper with Apple_s Health app to sync your workouts and measurements_
+- Indoor Tracking Improvements: We made switching between Stopwatch and GPS mode easier by bringing a toggle to the main start screen_
+- Support for SMS Audio BioSport Earbuds: Built-in optical sensor continuously measures your heart rate while you listen to music during your workout_
+- Support for Timex IRONMAN Run x50+: Connect your Timex IRONMAN Run x50+ watch to RunKeeper and view your workout stats right on your wrist while your phone stays in your pocket
+
 Version Number: 5.0.1
 Release Date: 2014-11-14T17:06:24Z
 5.0.1
@@ -160,8 +167,4 @@ We've totally revamped our experience for iOS 7 to focus more on your data and p
 - Overhauled "Start" screen experience!
 - Easier access to logging workouts you forgot to track with RunKeeper (doh)!
 - iOS7 Background fetch to make everything snappier when you launch the app!
-
-Version Number: 3.7.1
-Release Date: 2013-08-02T22:29:55Z
-Bug fixes!
 

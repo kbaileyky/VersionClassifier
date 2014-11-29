@@ -23,40 +23,40 @@
             "topApps": {
                 "ipad": {
                     "ids": [
-                        586328581, 
-                        512350210, 
-                        308368164, 
-                        613398383, 
-                        412351574, 
-                        893927401, 
-                        891450541, 
-                        509343934, 
-                        491771721, 
-                        601437586, 
                         540872054, 
-                        719219382, 
-                        573533575, 
+                        891450541, 
+                        512350210, 
+                        586328581, 
+                        613398383, 
+                        562413829, 
+                        435588892, 
+                        308368164, 
+                        664306853, 
+                        536371867, 
                         364894352, 
-                        882931712
+                        565200595, 
+                        871230822, 
+                        871694174, 
+                        719219382
                     ], 
                     "title": "Top Grossing iPad Education Apps"
                 }, 
                 "iphone": {
                     "ids": [
+                        540872054, 
                         613398383, 
-                        467329677, 
-                        893927401, 
-                        565200595, 
-                        891453663, 
-                        548801568, 
-                        518334522, 
-                        323887414, 
-                        369946804, 
-                        376413870, 
-                        536371867, 
                         562413829, 
-                        373493387, 
-                        385758163
+                        369946804, 
+                        891453663, 
+                        892279069, 
+                        565200595, 
+                        601629394, 
+                        806223188, 
+                        467329677, 
+                        435588892, 
+                        682046579, 
+                        569632660, 
+                        625614526
                     ], 
                     "title": "Top Grossing iPhone Education Apps"
                 }
@@ -66,6 +66,11 @@
             }, 
             "appRatingsLearnMoreUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/appRatings?cc=us", 
             "versionHistory": [
+                {
+                    "releaseDate": "2014-11-24T19:37:00Z", 
+                    "releaseNotes": "Thanksgiving is almost here, and there\u2019s plenty to be thankful for \u2014 including a new game in your mobile training! Explore the mind-bending world of Disillusion. Use your task switching skills to keep up the pace, unlock harder levels, and collect optical illusions.\n\nWe\u2019ve also made Raindrops more exciting and responsive. The faster you solve the math problems, the heavier it starts to rain \u2014 so think fast to keep from getting soaked!\n\nDid you have problems while racing through Color Match? We fixed a nasty bug that affected some of our speedier players. Thanks to all of you who gave us feedback to let us know about this bug. And keep the feedback coming \u2014 we love to hear from you.", 
+                    "versionString": "3.5"
+                }, 
                 {
                     "releaseDate": "2014-11-06T23:57:26Z", 
                     "releaseNotes": "Bug fixes", 
@@ -185,11 +190,6 @@
                     "releaseDate": "2013-06-12T17:02:53Z", 
                     "releaseNotes": "\u2022 New game Pinball Recall! Test your memory with our new arcade-inspired game!\n\u2022 New Lumosity subscriber experience.\n\u2022 Improvements to performance to get you up and training faster!", 
                     "versionString": "2.5"
-                }, 
-                {
-                    "releaseDate": "2013-05-17T19:29:02Z", 
-                    "releaseNotes": "\u2022 New game Pinball Recall! Test your memory with our new arcade-inspired game!\n\u2022 New Lumosity subscriber experience: free users will now be limited to three games per workout\n\u2022 Improvements to performance to get you up and training faster!", 
-                    "versionString": "1.06"
                 }
             ], 
             "addOns": [
@@ -228,11 +228,11 @@
             "pageDetails": "Lumos Labs, Inc._Lumosity Mobile", 
             "pageId": "577232024", 
             "language": "1", 
-            "serverInstance": "613705", 
+            "serverInstance": "1002006", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
-            "environmentDataCenter": "ST11", 
+            "environmentDataCenter": "NWK", 
             "pageType": "Software", 
             "platformName": "iTunes12", 
             "page": "Software_577232024"
@@ -278,7 +278,7 @@
                 "label": "Lumos Labs, Inc."
             }
         ], 
-        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/95A6/frameworks-sf6/images/", 
+        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/9548/frameworks-sf6/images/", 
         "omnitureMetrics": {
             "shouldTrackBrowserPlugins": false, 
             "format": "HTML", 
@@ -308,14 +308,14 @@
                 ]
             }
         }, 
-        "resourceImagePath": "https://s.mzstatic.com/htmlResources/95A6/di6-storefront/images/", 
-        "resourceBasePath": "/htmlResources/95A6/files/", 
+        "resourceImagePath": "https://s.mzstatic.com/htmlResources/9548/di6-storefront/images/", 
+        "resourceBasePath": "/htmlResources/9548/files/", 
         "flagLink": {
             "url": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/countrySelectorPage?cc=us", 
             "imageSrc": "https://s.mzstatic.com/images/flags/-dsi-30/usa.png", 
             "imageAltText": "My Store: United States, Choose Store"
         }, 
-        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/95A6/frameworks-dt6/images/", 
+        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/9548/frameworks-dt6/images/", 
         "termsLink": {
             "url": "https://www.apple.com/legal/itunes/us/terms.html", 
             "label": "Terms and Conditions"
@@ -451,10 +451,10 @@
                     "releaseDate": "2013-06-20", 
                     "artistId": 297628735, 
                     "userRating": {
-                        "ratingCountCurrentVersion": 416, 
+                        "ratingCountCurrentVersion": 78, 
                         "valueCurrentVersion": 4.5, 
                         "value": 5, 
-                        "ratingCount": 88340
+                        "ratingCount": 88502
                     }, 
                     "artistUrl": "https://itunes.apple.com/us/artist/lumos-labs-inc./id297628735?mt=8", 
                     "itunesNotes": null, 
@@ -519,16 +519,16 @@
                             "assets": [
                                 {
                                     "flavor": "iosSoftware", 
-                                    "size": 54171843
+                                    "size": 54422007
                                 }
                             ], 
                             "priceFormatted": "$0.00", 
                             "price": 0, 
                             "version": {
-                                "externalId": 766602679, 
-                                "display": "3.4"
+                                "externalId": 810788632, 
+                                "display": "3.5"
                             }, 
-                            "buyParams": "productType=C&price=0&salableAdamId=577232024&pricingParameters=STDQ&appExtVrsId=766602679", 
+                            "buyParams": "productType=C&price=0&salableAdamId=577232024&pricingParameters=STDQ&appExtVrsId=810788632", 
                             "type": "get"
                         }
                     ], 
@@ -538,32 +538,32 @@
                     }, 
                     "artwork": [
                         {
-                            "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/b5/8e/7e/b58e7e69-e752-d50c-bd06-29db1a6ee7bf/icon240x240.jpeg", 
+                            "url": "http://a1.mzstatic.com/us/r30/Purple5/v4/0a/34/a4/0a34a463-c9b9-d32b-9d92-090130900a7f/icon240x240.png", 
                             "width": 240, 
                             "height": 240
                         }, 
                         {
-                            "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/b5/8e/7e/b58e7e69-e752-d50c-bd06-29db1a6ee7bf/icon1024x1024.png", 
+                            "url": "http://a5.mzstatic.com/us/r30/Purple5/v4/0a/34/a4/0a34a463-c9b9-d32b-9d92-090130900a7f/icon1024x1024.jpeg", 
                             "width": 1024, 
                             "height": 1024
                         }, 
                         {
-                            "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/b5/8e/7e/b58e7e69-e752-d50c-bd06-29db1a6ee7bf/icon440x440.jpeg", 
+                            "url": "http://a4.mzstatic.com/us/r30/Purple5/v4/0a/34/a4/0a34a463-c9b9-d32b-9d92-090130900a7f/icon440x440.jpeg", 
                             "width": 440, 
                             "height": 440
                         }, 
                         {
-                            "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/b5/8e/7e/b58e7e69-e752-d50c-bd06-29db1a6ee7bf/icon220x220.jpeg", 
+                            "url": "http://a2.mzstatic.com/us/r30/Purple5/v4/0a/34/a4/0a34a463-c9b9-d32b-9d92-090130900a7f/icon220x220.jpeg", 
                             "width": 220, 
                             "height": 220
                         }, 
                         {
-                            "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/b5/8e/7e/b58e7e69-e752-d50c-bd06-29db1a6ee7bf/icon400x400.png", 
+                            "url": "http://a1.mzstatic.com/us/r30/Purple5/v4/0a/34/a4/0a34a463-c9b9-d32b-9d92-090130900a7f/icon400x400.png", 
                             "width": 400, 
                             "height": 400
                         }, 
                         {
-                            "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/b5/8e/7e/b58e7e69-e752-d50c-bd06-29db1a6ee7bf/icon512x512.jpeg", 
+                            "url": "http://a3.mzstatic.com/us/r30/Purple5/v4/0a/34/a4/0a34a463-c9b9-d32b-9d92-090130900a7f/icon512x512.jpeg", 
                             "width": 512, 
                             "height": 512
                         }
@@ -990,7 +990,7 @@
         }
     }, 
     "properties": {
-        "ITSResourceRevNum": "95A6", 
+        "ITSResourceRevNum": "9548", 
         "isCobaltJavascriptRedirectEnabled": true, 
         "isModern": false, 
         "ITSLogger.ServerReportingApp": "MZUserXP", 
@@ -1000,7 +1000,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "613705", 
+        "ITSServerInstance": "1002006", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
@@ -1030,7 +1030,7 @@
                 "platformId": "28", 
                 "storeFront": "143441", 
                 "storeFrontHeader": "143441-1,28", 
-                "environmentDataCenter": "ST11", 
+                "environmentDataCenter": "NWK", 
                 "platformName": "iTunes12"
             }, 
             "postFrequency": 60000, 
@@ -1139,7 +1139,7 @@
         "countryCode": "usa", 
         "GlobalLists": {
             "removeFromWishlistUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/removeFromWishlist", 
-            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=95A6", 
+            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=9548", 
             "updateRadioHistoryUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/updateRadioHistory", 
             "popover": {
                 "width": "350", 

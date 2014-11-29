@@ -8,38 +8,38 @@
                 "ipad": {
                     "ids": [
                         323229106, 
-                        340268949, 
+                        915571252, 
                         585193266, 
-                        682438211, 
+                        340268949, 
+                        324384027, 
                         447442214, 
                         504677517, 
+                        682438211, 
                         495230948, 
-                        561866269, 
                         378640003, 
-                        324384027, 
-                        547464550, 
-                        703796787, 
                         553771681, 
-                        915571252
+                        744966613, 
+                        703796787, 
+                        547464550
                     ], 
                     "title": "Top Free iPad Navigation Apps"
                 }, 
                 "iphone": {
                     "ids": [
                         323229106, 
-                        316126557, 
-                        467816643, 
-                        447442214, 
-                        585193266, 
-                        498477945, 
-                        905449457, 
                         324384027, 
+                        467816643, 
+                        316126557, 
+                        585193266, 
+                        447442214, 
                         307529605, 
+                        329541503, 
                         498151501, 
+                        443936245, 
                         303217144, 
-                        340268949, 
-                        751972942, 
-                        561866269
+                        498477945, 
+                        568196110, 
+                        557871911
                     ], 
                     "title": "Top Free iPhone Navigation Apps"
                 }
@@ -57,14 +57,15 @@
                 544007664, 
                 535886823, 
                 284815942, 
-                507874739, 
-                842842640, 
+                680819774, 
                 422689480, 
                 293622097, 
-                842849113, 
-                879478102, 
+                507874739, 
+                842842640, 
                 643496868, 
-                447119634
+                447119634, 
+                414706506, 
+                842849113
             ], 
             "appRatingsLearnMoreUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/appRatings?cc=us", 
             "versionHistory": [
@@ -150,7 +151,7 @@
             "pageDetails": "Google, Inc._Google Maps", 
             "pageId": "585027354", 
             "language": "1", 
-            "serverInstance": "2126690", 
+            "serverInstance": "2126482", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
@@ -200,7 +201,7 @@
                 "label": "Google, Inc."
             }
         ], 
-        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/95A6/frameworks-sf6/images/", 
+        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/9548/frameworks-sf6/images/", 
         "omnitureMetrics": {
             "shouldTrackBrowserPlugins": false, 
             "format": "HTML", 
@@ -230,14 +231,14 @@
                 ]
             }
         }, 
-        "resourceImagePath": "https://s.mzstatic.com/htmlResources/95A6/di6-storefront/images/", 
-        "resourceBasePath": "/htmlResources/95A6/files/", 
+        "resourceImagePath": "https://s.mzstatic.com/htmlResources/9548/di6-storefront/images/", 
+        "resourceBasePath": "/htmlResources/9548/files/", 
         "flagLink": {
             "url": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/countrySelectorPage?cc=us", 
             "imageSrc": "https://s.mzstatic.com/images/flags/-dsi-30/usa.png", 
             "imageAltText": "My Store: United States, Choose Store"
         }, 
-        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/95A6/frameworks-dt6/images/", 
+        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/9548/frameworks-dt6/images/", 
         "termsLink": {
             "url": "https://www.apple.com/legal/itunes/us/terms.html", 
             "label": "Terms and Conditions"
@@ -373,10 +374,10 @@
                     "releaseDate": "2012-12-13", 
                     "artistId": 281956209, 
                     "userRating": {
-                        "ratingCountCurrentVersion": 1828, 
+                        "ratingCountCurrentVersion": 2569, 
                         "valueCurrentVersion": 4, 
                         "value": 4.5, 
-                        "ratingCount": 100304
+                        "ratingCount": 100965
                     }, 
                     "artistUrl": "https://itunes.apple.com/us/artist/google-inc./id281956209?mt=8", 
                     "itunesNotes": null, 
@@ -476,7 +477,7 @@
                             "height": 240
                         }, 
                         {
-                            "url": "http://a2.mzstatic.com/us/r30/Purple1/v4/d6/64/7f/d6647f94-e6b1-8645-ceee-eeecd63da949/icon1024x1024.png", 
+                            "url": "http://a4.mzstatic.com/us/r30/Purple1/v4/d6/64/7f/d6647f94-e6b1-8645-ceee-eeecd63da949/icon1024x1024.jpeg", 
                             "width": 1024, 
                             "height": 1024
                         }, 
@@ -501,7 +502,7 @@
                             "height": 512
                         }
                     ], 
-                    "requiredCapabilities": "armv7 location-services opengles-2 ", 
+                    "requiredCapabilities": "opengles-2 armv7 location-services ", 
                     "name": "Google Maps", 
                     "kind": "iosSoftware", 
                     "tellAFriendMessageContentsUrl": "https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendEmailBody?cc=us&displayable-kind=11&id=585027354&name=s&type=14", 
@@ -516,7 +517,7 @@
                         "ipad": [
                             [
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple5/v4/ad/37/6f/ad376f25-a75e-a7a2-9a4c-331e3d592ba9/screen261x261-50.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple5/v4/ad/37/6f/ad376f25-a75e-a7a2-9a4c-331e3d592ba9/screen261x261-65.jpeg", 
                                     "width": 196, 
                                     "height": 261
                                 }, 
@@ -548,7 +549,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/8f/f2/32/8ff23213-ca67-e915-1b65-67d2312d123f/screen261x261-50.jpeg", 
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/8f/f2/32/8ff23213-ca67-e915-1b65-67d2312d123f/screen261x261-65.jpeg", 
                                     "width": 196, 
                                     "height": 261
                                 }, 
@@ -580,7 +581,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple5/v4/74/f3/a9/74f3a95c-4047-918d-5a52-79e8617bdbb1/screen261x261-50.jpeg", 
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple5/v4/74/f3/a9/74f3a95c-4047-918d-5a52-79e8617bdbb1/screen261x261-65.jpeg", 
                                     "width": 196, 
                                     "height": 261
                                 }, 
@@ -612,7 +613,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/d6/7f/10/d67f1021-c80b-b752-2150-960894f04ac1/screen261x261-50.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/d6/7f/10/d67f1021-c80b-b752-2150-960894f04ac1/screen261x261-65.jpeg", 
                                     "width": 196, 
                                     "height": 261
                                 }, 
@@ -644,7 +645,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/ad/d8/26/add826c1-d13e-5831-2afa-389095602b4d/screen261x261-50.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/ad/d8/26/add826c1-d13e-5831-2afa-389095602b4d/screen261x261-65.jpeg", 
                                     "width": 196, 
                                     "height": 261
                                 }, 
@@ -1051,31 +1052,6 @@
                         ]
                     }, 
                     "videoPreviewByType": {
-                        "ipad": {
-                            "video": "http://a1781.phobos.apple.com/us/r30/PurpleVideo1/v4/34/94/75/349475e6-0be8-df09-81a4-b7c6cf01cb35/P29509609_default.m3u8", 
-                            "previewFrame": [
-                                {
-                                    "url": "http://a2.mzstatic.com/us/r30/Video3/v4/01/10/5b/01105b0c-ec91-6514-63a4-a320ad5847ef/image500x376.jpeg", 
-                                    "width": 282, 
-                                    "height": 376
-                                }, 
-                                {
-                                    "url": "http://a2.mzstatic.com/us/r30/Video3/v4/01/10/5b/01105b0c-ec91-6514-63a4-a320ad5847ef/image400x226.jpeg", 
-                                    "width": 170, 
-                                    "height": 226
-                                }, 
-                                {
-                                    "url": "http://a2.mzstatic.com/us/r30/Video3/v4/01/10/5b/01105b0c-ec91-6514-63a4-a320ad5847ef/image408x300.jpeg", 
-                                    "width": 225, 
-                                    "height": 300
-                                }, 
-                                {
-                                    "url": "http://a5.mzstatic.com/us/r30/Video3/v4/01/10/5b/01105b0c-ec91-6514-63a4-a320ad5847ef/image630x420.jpeg", 
-                                    "width": 315, 
-                                    "height": 420
-                                }
-                            ]
-                        }, 
                         "iphone6": {
                             "video": "http://a1987.phobos.apple.com/us/r30/PurpleVideo3/v4/20/42/3d/20423d4a-87be-971a-33c3-1725f264f62c/P29506632_default.m3u8", 
                             "previewFrame": [
@@ -1098,6 +1074,31 @@
                                     "url": "http://a2.mzstatic.com/us/r30/Video1/v4/1a/41/8a/1a418a1d-3dc1-81aa-5c14-155ef52b01fb/image400x226.jpeg", 
                                     "width": 127, 
                                     "height": 226
+                                }
+                            ]
+                        }, 
+                        "ipad": {
+                            "video": "http://a1781.phobos.apple.com/us/r30/PurpleVideo1/v4/34/94/75/349475e6-0be8-df09-81a4-b7c6cf01cb35/P29509609_default.m3u8", 
+                            "previewFrame": [
+                                {
+                                    "url": "http://a2.mzstatic.com/us/r30/Video3/v4/01/10/5b/01105b0c-ec91-6514-63a4-a320ad5847ef/image500x376.jpeg", 
+                                    "width": 282, 
+                                    "height": 376
+                                }, 
+                                {
+                                    "url": "http://a2.mzstatic.com/us/r30/Video3/v4/01/10/5b/01105b0c-ec91-6514-63a4-a320ad5847ef/image400x226.jpeg", 
+                                    "width": 170, 
+                                    "height": 226
+                                }, 
+                                {
+                                    "url": "http://a2.mzstatic.com/us/r30/Video3/v4/01/10/5b/01105b0c-ec91-6514-63a4-a320ad5847ef/image408x300.jpeg", 
+                                    "width": 225, 
+                                    "height": 300
+                                }, 
+                                {
+                                    "url": "http://a5.mzstatic.com/us/r30/Video3/v4/01/10/5b/01105b0c-ec91-6514-63a4-a320ad5847ef/image630x420.jpeg", 
+                                    "width": 315, 
+                                    "height": 420
                                 }
                             ]
                         }, 
@@ -1160,7 +1161,7 @@
         }
     }, 
     "properties": {
-        "ITSResourceRevNum": "95A6", 
+        "ITSResourceRevNum": "9548", 
         "isCobaltJavascriptRedirectEnabled": true, 
         "isModern": false, 
         "ITSLogger.ServerReportingApp": "MZUserXP", 
@@ -1170,7 +1171,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "2126690", 
+        "ITSServerInstance": "2126482", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
@@ -1309,7 +1310,7 @@
         "countryCode": "usa", 
         "GlobalLists": {
             "removeFromWishlistUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/removeFromWishlist", 
-            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=95A6", 
+            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=9548", 
             "updateRadioHistoryUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/updateRadioHistory", 
             "popover": {
                 "width": "350", 

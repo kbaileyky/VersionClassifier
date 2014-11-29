@@ -8,38 +8,38 @@
                 "ipad": {
                     "ids": [
                         284882215, 
-                        429047995, 
                         442012681, 
+                        429047995, 
                         333903271, 
-                        288429040, 
-                        643496868, 
-                        447119634, 
                         466122094, 
-                        372513032, 
-                        913855602, 
-                        738989604, 
-                        428845974, 
+                        643496868, 
                         414478124, 
-                        566223681
+                        447119634, 
+                        372513032, 
+                        428845974, 
+                        738989604, 
+                        913855602, 
+                        453718989, 
+                        288429040
                     ], 
                     "title": "Top Free iPad Social Networking Apps"
                 }, 
                 "iphone": {
                     "ids": [
                         284882215, 
+                        357218860, 
+                        429047995, 
                         310633997, 
                         333903271, 
-                        429047995, 
-                        357218860, 
                         304878510, 
                         382617920, 
-                        730992767, 
-                        569077959, 
                         738989604, 
+                        730992767, 
+                        466122094, 
                         372513032, 
-                        288429040, 
-                        447119634, 
-                        443904275
+                        428845974, 
+                        569077959, 
+                        643496868
                     ], 
                     "title": "Top Free iPhone Social Networking Apps"
                 }
@@ -53,6 +53,16 @@
             ], 
             "appRatingsLearnMoreUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/appRatings?cc=us", 
             "versionHistory": [
+                {
+                    "releaseDate": "2014-11-26T01:54:05Z", 
+                    "releaseNotes": "Fixed issues to make the app more reliable.\n\nNow you can adjust the focus and lighting of photos you take in the app.\nFixed issues with sending messages.", 
+                    "versionString": "16.1"
+                }, 
+                {
+                    "releaseDate": "2014-11-20T15:58:07Z", 
+                    "releaseNotes": "Now you can adjust the focus and lighting of photos you take in the app.\nFixed issues with sending messages.", 
+                    "versionString": "16.0"
+                }, 
                 {
                     "releaseDate": "2014-11-13T15:53:18Z", 
                     "releaseNotes": "Fixed issues with sending messages.", 
@@ -167,16 +177,6 @@
                     "releaseDate": "2013-12-17T00:12:59Z", 
                     "releaseNotes": "- Tap on someone's profile picture in any conversation to view their Timeline or call for free.\r\n- Bug fixes", 
                     "versionString": "3.1.1"
-                }, 
-                {
-                    "releaseDate": "2013-12-10T18:21:27Z", 
-                    "releaseNotes": "- Tap on someone's profile picture in any conversation to view their Timeline or call for free.\n- Bug fixes, including improved Japanese translations.", 
-                    "versionString": "3.1"
-                }, 
-                {
-                    "releaseDate": "2013-11-18T20:12:25Z", 
-                    "releaseNotes": "A completely new design, updated for iOS 7.  Original in-app sounds.\n\nNot just for Facebook friends: Now you can message people in your phone book. And it's easy to add new contacts\u2014just enter a phone number.", 
-                    "versionString": "3.0.1"
                 }
             ], 
             "id": 454638411
@@ -185,7 +185,7 @@
             "pageDetails": "Facebook, Inc._Facebook Messenger", 
             "pageId": "454638411", 
             "language": "1", 
-            "serverInstance": "2126863", 
+            "serverInstance": "615465", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
@@ -235,7 +235,7 @@
                 "label": "Facebook, Inc."
             }
         ], 
-        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/95A6/frameworks-sf6/images/", 
+        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/9548/frameworks-sf6/images/", 
         "omnitureMetrics": {
             "shouldTrackBrowserPlugins": false, 
             "format": "HTML", 
@@ -265,14 +265,14 @@
                 ]
             }
         }, 
-        "resourceImagePath": "https://s.mzstatic.com/htmlResources/95A6/di6-storefront/images/", 
-        "resourceBasePath": "/htmlResources/95A6/files/", 
+        "resourceImagePath": "https://s.mzstatic.com/htmlResources/9548/di6-storefront/images/", 
+        "resourceBasePath": "/htmlResources/9548/files/", 
         "flagLink": {
             "url": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/countrySelectorPage?cc=us", 
             "imageSrc": "https://s.mzstatic.com/images/flags/-dsi-30/usa.png", 
             "imageAltText": "My Store: United States, Choose Store"
         }, 
-        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/95A6/frameworks-dt6/images/", 
+        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/9548/frameworks-dt6/images/", 
         "termsLink": {
             "url": "https://www.apple.com/legal/itunes/us/terms.html", 
             "label": "Terms and Conditions"
@@ -408,10 +408,10 @@
                     "releaseDate": "2011-08-09", 
                     "artistId": 284882218, 
                     "userRating": {
-                        "ratingCountCurrentVersion": 1150, 
+                        "ratingCountCurrentVersion": 360, 
                         "valueCurrentVersion": 1.5, 
                         "value": 3, 
-                        "ratingCount": 258222
+                        "ratingCount": 259889
                     }, 
                     "artistUrl": "https://itunes.apple.com/us/artist/facebook-inc./id284882218?mt=8", 
                     "itunesNotes": null, 
@@ -476,48 +476,48 @@
                             "assets": [
                                 {
                                     "flavor": "iosSoftware", 
-                                    "size": 42662276
+                                    "size": 43733192
                                 }
                             ], 
                             "priceFormatted": "$0.00", 
                             "price": 0, 
                             "version": {
-                                "externalId": 799522682, 
-                                "display": "15.1"
+                                "externalId": 810792171, 
+                                "display": "16.1"
                             }, 
-                            "buyParams": "productType=C&price=0&salableAdamId=454638411&pricingParameters=STDQ&appExtVrsId=799522682", 
+                            "buyParams": "productType=C&price=0&salableAdamId=454638411&pricingParameters=STDQ&appExtVrsId=810792171", 
                             "type": "get"
                         }
                     ], 
                     "editorialBadgeInfo": null, 
                     "artwork": [
                         {
-                            "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/14/cd/5b/14cd5b39-b9e4-c2a8-eb27-c0b6a70c48a5/icon240x240.jpeg", 
+                            "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/20/ba/c7/20bac7ff-3ad4-899c-a217-90475d43c0b5/icon240x240.png", 
                             "width": 240, 
                             "height": 240
                         }, 
                         {
-                            "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/14/cd/5b/14cd5b39-b9e4-c2a8-eb27-c0b6a70c48a5/icon1024x1024.png", 
+                            "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/20/ba/c7/20bac7ff-3ad4-899c-a217-90475d43c0b5/icon1024x1024.png", 
                             "width": 1024, 
                             "height": 1024
                         }, 
                         {
-                            "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/14/cd/5b/14cd5b39-b9e4-c2a8-eb27-c0b6a70c48a5/icon440x440.png", 
+                            "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/20/ba/c7/20bac7ff-3ad4-899c-a217-90475d43c0b5/icon440x440.jpeg", 
                             "width": 440, 
                             "height": 440
                         }, 
                         {
-                            "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/14/cd/5b/14cd5b39-b9e4-c2a8-eb27-c0b6a70c48a5/icon220x220.png", 
+                            "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/20/ba/c7/20bac7ff-3ad4-899c-a217-90475d43c0b5/icon220x220.png", 
                             "width": 220, 
                             "height": 220
                         }, 
                         {
-                            "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/14/cd/5b/14cd5b39-b9e4-c2a8-eb27-c0b6a70c48a5/icon400x400.png", 
+                            "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/20/ba/c7/20bac7ff-3ad4-899c-a217-90475d43c0b5/icon400x400.jpeg", 
                             "width": 400, 
                             "height": 400
                         }, 
                         {
-                            "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/14/cd/5b/14cd5b39-b9e4-c2a8-eb27-c0b6a70c48a5/icon512x512.jpeg", 
+                            "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/20/ba/c7/20bac7ff-3ad4-899c-a217-90475d43c0b5/icon512x512.jpeg", 
                             "width": 512, 
                             "height": 512
                         }
@@ -534,104 +534,6 @@
                     ], 
                     "artistName": "Facebook, Inc.", 
                     "screenshotsByType": {
-                        "ipad": [
-                            [
-                                {
-                                    "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/3c/dd/e3/3cdde3b7-f59f-9f0e-4331-179244e51981/screen261x261-50.jpeg", 
-                                    "width": 196, 
-                                    "height": 261
-                                }, 
-                                {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/3c/dd/e3/3cdde3b7-f59f-9f0e-4331-179244e51981/screen460x460.jpeg", 
-                                    "width": 345, 
-                                    "height": 460
-                                }, 
-                                {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/3c/dd/e3/3cdde3b7-f59f-9f0e-4331-179244e51981/screen920x920.jpeg", 
-                                    "width": 690, 
-                                    "height": 920
-                                }, 
-                                {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/3c/dd/e3/3cdde3b7-f59f-9f0e-4331-179244e51981/screen600x600.jpeg", 
-                                    "width": 450, 
-                                    "height": 600
-                                }, 
-                                {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/3c/dd/e3/3cdde3b7-f59f-9f0e-4331-179244e51981/screen310x414.jpeg", 
-                                    "width": 310, 
-                                    "height": 413
-                                }, 
-                                {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/3c/dd/e3/3cdde3b7-f59f-9f0e-4331-179244e51981/screen768x768.jpeg", 
-                                    "width": 576, 
-                                    "height": 768
-                                }
-                            ], 
-                            [
-                                {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple1/v4/fb/b0/45/fbb04556-5798-0a98-4414-a087536d6c59/screen261x261-50.jpeg", 
-                                    "width": 196, 
-                                    "height": 261
-                                }, 
-                                {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple1/v4/fb/b0/45/fbb04556-5798-0a98-4414-a087536d6c59/screen460x460.jpeg", 
-                                    "width": 345, 
-                                    "height": 460
-                                }, 
-                                {
-                                    "url": "http://a5.mzstatic.com/us/r30/Purple1/v4/fb/b0/45/fbb04556-5798-0a98-4414-a087536d6c59/screen920x920.jpeg", 
-                                    "width": 690, 
-                                    "height": 920
-                                }, 
-                                {
-                                    "url": "http://a5.mzstatic.com/us/r30/Purple1/v4/fb/b0/45/fbb04556-5798-0a98-4414-a087536d6c59/screen600x600.jpeg", 
-                                    "width": 450, 
-                                    "height": 600
-                                }, 
-                                {
-                                    "url": "http://a5.mzstatic.com/us/r30/Purple1/v4/fb/b0/45/fbb04556-5798-0a98-4414-a087536d6c59/screen310x414.jpeg", 
-                                    "width": 310, 
-                                    "height": 413
-                                }, 
-                                {
-                                    "url": "http://a5.mzstatic.com/us/r30/Purple1/v4/fb/b0/45/fbb04556-5798-0a98-4414-a087536d6c59/screen768x768.jpeg", 
-                                    "width": 576, 
-                                    "height": 768
-                                }
-                            ], 
-                            [
-                                {
-                                    "url": "http://a5.mzstatic.com/us/r30/Purple5/v4/53/9d/70/539d705a-e550-cea0-4b4b-7706f6e8231b/screen261x261-50.jpeg", 
-                                    "width": 196, 
-                                    "height": 261
-                                }, 
-                                {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple5/v4/53/9d/70/539d705a-e550-cea0-4b4b-7706f6e8231b/screen460x460.jpeg", 
-                                    "width": 345, 
-                                    "height": 460
-                                }, 
-                                {
-                                    "url": "http://a5.mzstatic.com/us/r30/Purple5/v4/53/9d/70/539d705a-e550-cea0-4b4b-7706f6e8231b/screen920x920.jpeg", 
-                                    "width": 690, 
-                                    "height": 920
-                                }, 
-                                {
-                                    "url": "http://a5.mzstatic.com/us/r30/Purple5/v4/53/9d/70/539d705a-e550-cea0-4b4b-7706f6e8231b/screen600x600.jpeg", 
-                                    "width": 450, 
-                                    "height": 600
-                                }, 
-                                {
-                                    "url": "http://a5.mzstatic.com/us/r30/Purple5/v4/53/9d/70/539d705a-e550-cea0-4b4b-7706f6e8231b/screen310x414.jpeg", 
-                                    "width": 310, 
-                                    "height": 413
-                                }, 
-                                {
-                                    "url": "http://a5.mzstatic.com/us/r30/Purple5/v4/53/9d/70/539d705a-e550-cea0-4b4b-7706f6e8231b/screen768x768.jpeg", 
-                                    "width": 576, 
-                                    "height": 768
-                                }
-                            ]
-                        ], 
                         "iphone6": [
                             [
                                 {
@@ -741,6 +643,104 @@
                                     "url": "http://a2.mzstatic.com/us/r30/Purple1/v4/09/7a/74/097a74d0-9b74-c31d-1bc2-73b23e3ec8d7/screen670x377.jpeg", 
                                     "width": 212, 
                                     "height": 377
+                                }
+                            ]
+                        ], 
+                        "ipad": [
+                            [
+                                {
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/3c/dd/e3/3cdde3b7-f59f-9f0e-4331-179244e51981/screen261x261-65.jpeg", 
+                                    "width": 196, 
+                                    "height": 261
+                                }, 
+                                {
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/3c/dd/e3/3cdde3b7-f59f-9f0e-4331-179244e51981/screen460x460.jpeg", 
+                                    "width": 345, 
+                                    "height": 460
+                                }, 
+                                {
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/3c/dd/e3/3cdde3b7-f59f-9f0e-4331-179244e51981/screen920x920.jpeg", 
+                                    "width": 690, 
+                                    "height": 920
+                                }, 
+                                {
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/3c/dd/e3/3cdde3b7-f59f-9f0e-4331-179244e51981/screen600x600.jpeg", 
+                                    "width": 450, 
+                                    "height": 600
+                                }, 
+                                {
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/3c/dd/e3/3cdde3b7-f59f-9f0e-4331-179244e51981/screen310x414.jpeg", 
+                                    "width": 310, 
+                                    "height": 413
+                                }, 
+                                {
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/3c/dd/e3/3cdde3b7-f59f-9f0e-4331-179244e51981/screen768x768.jpeg", 
+                                    "width": 576, 
+                                    "height": 768
+                                }
+                            ], 
+                            [
+                                {
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple1/v4/fb/b0/45/fbb04556-5798-0a98-4414-a087536d6c59/screen261x261-65.jpeg", 
+                                    "width": 196, 
+                                    "height": 261
+                                }, 
+                                {
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple1/v4/fb/b0/45/fbb04556-5798-0a98-4414-a087536d6c59/screen460x460.jpeg", 
+                                    "width": 345, 
+                                    "height": 460
+                                }, 
+                                {
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple1/v4/fb/b0/45/fbb04556-5798-0a98-4414-a087536d6c59/screen920x920.jpeg", 
+                                    "width": 690, 
+                                    "height": 920
+                                }, 
+                                {
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple1/v4/fb/b0/45/fbb04556-5798-0a98-4414-a087536d6c59/screen600x600.jpeg", 
+                                    "width": 450, 
+                                    "height": 600
+                                }, 
+                                {
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple1/v4/fb/b0/45/fbb04556-5798-0a98-4414-a087536d6c59/screen310x414.jpeg", 
+                                    "width": 310, 
+                                    "height": 413
+                                }, 
+                                {
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple1/v4/fb/b0/45/fbb04556-5798-0a98-4414-a087536d6c59/screen768x768.jpeg", 
+                                    "width": 576, 
+                                    "height": 768
+                                }
+                            ], 
+                            [
+                                {
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple5/v4/53/9d/70/539d705a-e550-cea0-4b4b-7706f6e8231b/screen261x261-65.jpeg", 
+                                    "width": 196, 
+                                    "height": 261
+                                }, 
+                                {
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple5/v4/53/9d/70/539d705a-e550-cea0-4b4b-7706f6e8231b/screen460x460.jpeg", 
+                                    "width": 345, 
+                                    "height": 460
+                                }, 
+                                {
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple5/v4/53/9d/70/539d705a-e550-cea0-4b4b-7706f6e8231b/screen920x920.jpeg", 
+                                    "width": 690, 
+                                    "height": 920
+                                }, 
+                                {
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple5/v4/53/9d/70/539d705a-e550-cea0-4b4b-7706f6e8231b/screen600x600.jpeg", 
+                                    "width": 450, 
+                                    "height": 600
+                                }, 
+                                {
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple5/v4/53/9d/70/539d705a-e550-cea0-4b4b-7706f6e8231b/screen310x414.jpeg", 
+                                    "width": 310, 
+                                    "height": 413
+                                }, 
+                                {
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple5/v4/53/9d/70/539d705a-e550-cea0-4b4b-7706f6e8231b/screen768x768.jpeg", 
+                                    "width": 576, 
+                                    "height": 768
                                 }
                             ]
                         ], 
@@ -1240,7 +1240,7 @@
         }
     }, 
     "properties": {
-        "ITSResourceRevNum": "95A6", 
+        "ITSResourceRevNum": "9548", 
         "isCobaltJavascriptRedirectEnabled": true, 
         "isModern": false, 
         "ITSLogger.ServerReportingApp": "MZUserXP", 
@@ -1250,7 +1250,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "2126863", 
+        "ITSServerInstance": "615465", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
@@ -1389,7 +1389,7 @@
         "countryCode": "usa", 
         "GlobalLists": {
             "removeFromWishlistUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/removeFromWishlist", 
-            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=95A6", 
+            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=9548", 
             "updateRadioHistoryUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/updateRadioHistory", 
             "popover": {
                 "width": "350", 

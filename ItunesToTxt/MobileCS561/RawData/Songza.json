@@ -22,20 +22,20 @@
                 "ipad": {
                     "ids": [
                         284035177, 
-                        324684580, 
                         781817640, 
-                        933296264, 
+                        324684580, 
+                        421254504, 
                         402300086, 
                         897824086, 
-                        421254504, 
+                        509993510, 
+                        691029645, 
+                        510855668, 
                         418987775, 
                         336353151, 
-                        510855668, 
-                        691029645, 
-                        509993510, 
                         408878018, 
-                        895761050, 
-                        895347090
+                        524299475, 
+                        898631029, 
+                        909573739
                     ], 
                     "title": "Top Free iPad Music Apps"
                 }, 
@@ -45,17 +45,17 @@
                         897824086, 
                         324684580, 
                         781817640, 
-                        336353151, 
-                        290638154, 
-                        284993459, 
                         691029645, 
-                        899067390, 
+                        336353151, 
+                        421254504, 
+                        284993459, 
                         898631029, 
-                        895761050, 
+                        290638154, 
+                        509993510, 
                         895347090, 
-                        933296264, 
                         418987775, 
-                        421254504
+                        524299475, 
+                        895761050
                     ], 
                     "title": "Top Free iPhone Music Apps"
                 }
@@ -206,7 +206,7 @@
             "pageDetails": "Songza Media, Inc._Songza", 
             "pageId": "453111583", 
             "language": "1", 
-            "serverInstance": "2126750", 
+            "serverInstance": "2126638", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
@@ -256,7 +256,7 @@
                 "label": "Songza Media, Inc."
             }
         ], 
-        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/95A6/frameworks-sf6/images/", 
+        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/9548/frameworks-sf6/images/", 
         "omnitureMetrics": {
             "shouldTrackBrowserPlugins": false, 
             "format": "HTML", 
@@ -286,14 +286,14 @@
                 ]
             }
         }, 
-        "resourceImagePath": "https://s.mzstatic.com/htmlResources/95A6/di6-storefront/images/", 
-        "resourceBasePath": "/htmlResources/95A6/files/", 
+        "resourceImagePath": "https://s.mzstatic.com/htmlResources/9548/di6-storefront/images/", 
+        "resourceBasePath": "/htmlResources/9548/files/", 
         "flagLink": {
             "url": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/countrySelectorPage?cc=us", 
             "imageSrc": "https://s.mzstatic.com/images/flags/-dsi-30/usa.png", 
             "imageAltText": "My Store: United States, Choose Store"
         }, 
-        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/95A6/frameworks-dt6/images/", 
+        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/9548/frameworks-dt6/images/", 
         "termsLink": {
             "url": "https://www.apple.com/legal/itunes/us/terms.html", 
             "label": "Terms and Conditions"
@@ -429,10 +429,10 @@
                     "releaseDate": "2011-09-13", 
                     "artistId": 453111586, 
                     "userRating": {
-                        "ratingCountCurrentVersion": 43, 
+                        "ratingCountCurrentVersion": 89, 
                         "valueCurrentVersion": 4, 
                         "value": 4.5, 
-                        "ratingCount": 33398
+                        "ratingCount": 33437
                     }, 
                     "artistUrl": "https://itunes.apple.com/us/artist/songza-media-inc./id453111586?mt=8", 
                     "itunesNotes": null, 
@@ -534,7 +534,7 @@
                             "height": 1024
                         }, 
                         {
-                            "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/55/ea/2f/55ea2fdf-c55a-a1db-00ad-8223e3b477d7/icon440x440.png", 
+                            "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/55/ea/2f/55ea2fdf-c55a-a1db-00ad-8223e3b477d7/icon440x440.jpeg", 
                             "width": 440, 
                             "height": 440
                         }, 
@@ -544,12 +544,12 @@
                             "height": 220
                         }, 
                         {
-                            "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/55/ea/2f/55ea2fdf-c55a-a1db-00ad-8223e3b477d7/icon400x400.jpeg", 
+                            "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/55/ea/2f/55ea2fdf-c55a-a1db-00ad-8223e3b477d7/icon400x400.png", 
                             "width": 400, 
                             "height": 400
                         }, 
                         {
-                            "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/55/ea/2f/55ea2fdf-c55a-a1db-00ad-8223e3b477d7/icon512x512.png", 
+                            "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/55/ea/2f/55ea2fdf-c55a-a1db-00ad-8223e3b477d7/icon512x512.jpeg", 
                             "width": 512, 
                             "height": 512
                         }
@@ -1112,7 +1112,7 @@
         }
     }, 
     "properties": {
-        "ITSResourceRevNum": "95A6", 
+        "ITSResourceRevNum": "9548", 
         "isCobaltJavascriptRedirectEnabled": true, 
         "isModern": false, 
         "ITSLogger.ServerReportingApp": "MZUserXP", 
@@ -1122,7 +1122,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "2126750", 
+        "ITSServerInstance": "2126638", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
@@ -1261,7 +1261,7 @@
         "countryCode": "usa", 
         "GlobalLists": {
             "removeFromWishlistUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/removeFromWishlist", 
-            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=95A6", 
+            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=9548", 
             "updateRadioHistoryUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/updateRadioHistory", 
             "popover": {
                 "width": "350", 

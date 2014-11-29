@@ -23,40 +23,40 @@
             "topApps": {
                 "ipad": {
                     "ids": [
-                        377298193, 
-                        455066445, 
+                        519555211, 
                         924695435, 
                         495716481, 
+                        377298193, 
+                        535811906, 
                         697826715, 
-                        459248037, 
+                        455066445, 
+                        438596432, 
+                        922521498, 
                         688831692, 
-                        382451198, 
-                        576729372, 
-                        489389646, 
-                        486781045, 
-                        548077023, 
-                        552100086, 
-                        926024111, 
-                        365152940
+                        915861546, 
+                        757539889, 
+                        615563599, 
+                        540334095, 
+                        378396561
                     ], 
                     "title": "Top Grossing iPad Photo & Video Apps"
                 }, 
                 "iphone": {
                     "ids": [
                         606310581, 
-                        329670577, 
-                        588013838, 
-                        486781045, 
-                        615563599, 
                         869138137, 
-                        907159478, 
+                        535811906, 
+                        486781045, 
+                        588013838, 
+                        342115564, 
+                        878601569, 
+                        329670577, 
+                        615563599, 
                         417571834, 
-                        867338987, 
-                        645746786, 
+                        915861546, 
                         756298885, 
-                        459248037, 
-                        576729372, 
-                        878601569
+                        454768104, 
+                        438596432
                     ], 
                     "title": "Top Grossing iPhone Photo & Video Apps"
                 }
@@ -183,11 +183,11 @@
             "pageDetails": "Afterlight Collective, Inc_Afterlight", 
             "pageId": "573116090", 
             "language": "1", 
-            "serverInstance": "1013300", 
+            "serverInstance": "2125797", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
-            "environmentDataCenter": "NWK", 
+            "environmentDataCenter": "ST11", 
             "pageType": "Software", 
             "platformName": "iTunes12", 
             "page": "Software_573116090"
@@ -233,7 +233,7 @@
                 "label": "Afterlight Collective, Inc"
             }
         ], 
-        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/95A6/frameworks-sf6/images/", 
+        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/9548/frameworks-sf6/images/", 
         "omnitureMetrics": {
             "shouldTrackBrowserPlugins": false, 
             "format": "HTML", 
@@ -263,14 +263,14 @@
                 ]
             }
         }, 
-        "resourceImagePath": "https://s.mzstatic.com/htmlResources/95A6/di6-storefront/images/", 
-        "resourceBasePath": "/htmlResources/95A6/files/", 
+        "resourceImagePath": "https://s.mzstatic.com/htmlResources/9548/di6-storefront/images/", 
+        "resourceBasePath": "/htmlResources/9548/files/", 
         "flagLink": {
             "url": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/countrySelectorPage?cc=us", 
             "imageSrc": "https://s.mzstatic.com/images/flags/-dsi-30/usa.png", 
             "imageAltText": "My Store: United States, Choose Store"
         }, 
-        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/95A6/frameworks-dt6/images/", 
+        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/9548/frameworks-dt6/images/", 
         "termsLink": {
             "url": "https://www.apple.com/legal/itunes/us/terms.html", 
             "label": "Terms and Conditions"
@@ -406,10 +406,10 @@
                     "releaseDate": "2012-11-05", 
                     "artistId": 573116093, 
                     "userRating": {
-                        "ratingCountCurrentVersion": 643, 
+                        "ratingCountCurrentVersion": 724, 
                         "valueCurrentVersion": 4.5, 
                         "value": 4.5, 
-                        "ratingCount": 10233
+                        "ratingCount": 10300
                     }, 
                     "artistUrl": "https://itunes.apple.com/us/artist/afterlight-collective-inc/id573116093?mt=8", 
                     "itunesNotes": null, 
@@ -490,7 +490,7 @@
                     }, 
                     "artwork": [
                         {
-                            "url": "http://a1.mzstatic.com/us/r30/Purple5/v4/62/b2/e0/62b2e0f9-ee11-573e-dcb8-db0dba2bb80b/icon240x240.jpeg", 
+                            "url": "http://a1.mzstatic.com/us/r30/Purple5/v4/62/b2/e0/62b2e0f9-ee11-573e-dcb8-db0dba2bb80b/icon240x240.png", 
                             "width": 240, 
                             "height": 240
                         }, 
@@ -510,7 +510,7 @@
                             "height": 220
                         }, 
                         {
-                            "url": "http://a2.mzstatic.com/us/r30/Purple5/v4/62/b2/e0/62b2e0f9-ee11-573e-dcb8-db0dba2bb80b/icon400x400.jpeg", 
+                            "url": "http://a1.mzstatic.com/us/r30/Purple5/v4/62/b2/e0/62b2e0f9-ee11-573e-dcb8-db0dba2bb80b/icon400x400.png", 
                             "width": 400, 
                             "height": 400
                         }, 
@@ -534,7 +534,7 @@
                         "ipad": [
                             [
                                 {
-                                    "url": "http://a5.mzstatic.com/us/r30/Purple5/v4/3a/8e/9b/3a8e9b29-f8c4-0127-baa3-9886c69ad651/screen261x261-65.jpeg", 
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple5/v4/3a/8e/9b/3a8e9b29-f8c4-0127-baa3-9886c69ad651/screen261x261-50.jpeg", 
                                     "width": 196, 
                                     "height": 261
                                 }, 
@@ -566,7 +566,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a5.mzstatic.com/us/r30/Purple4/v4/dc/86/cc/dc86cc6f-3bd0-05f5-70ad-c53be6e16501/screen261x261-65.jpeg", 
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple4/v4/dc/86/cc/dc86cc6f-3bd0-05f5-70ad-c53be6e16501/screen261x261-50.jpeg", 
                                     "width": 196, 
                                     "height": 261
                                 }, 
@@ -598,7 +598,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple4/v4/06/58/e7/0658e731-fb57-e695-aab0-8226631be788/screen261x261-65.jpeg", 
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple4/v4/06/58/e7/0658e731-fb57-e695-aab0-8226631be788/screen261x261-50.jpeg", 
                                     "width": 196, 
                                     "height": 261
                                 }, 
@@ -630,7 +630,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple4/v4/58/d6/36/58d636e3-3530-a417-1f00-17112748112b/screen261x261-65.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple4/v4/58/d6/36/58d636e3-3530-a417-1f00-17112748112b/screen261x261-50.jpeg", 
                                     "width": 196, 
                                     "height": 261
                                 }, 
@@ -662,7 +662,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/8a/5f/7e/8a5f7e23-7f07-adbd-7680-24ed0e06052e/screen261x261-65.jpeg", 
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/8a/5f/7e/8a5f7e23-7f07-adbd-7680-24ed0e06052e/screen261x261-50.jpeg", 
                                     "width": 196, 
                                     "height": 261
                                 }, 
@@ -1103,7 +1103,7 @@
         }
     }, 
     "properties": {
-        "ITSResourceRevNum": "95A6", 
+        "ITSResourceRevNum": "9548", 
         "isCobaltJavascriptRedirectEnabled": true, 
         "isModern": false, 
         "ITSLogger.ServerReportingApp": "MZUserXP", 
@@ -1113,7 +1113,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "1013300", 
+        "ITSServerInstance": "2125797", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
@@ -1143,7 +1143,7 @@
                 "platformId": "28", 
                 "storeFront": "143441", 
                 "storeFrontHeader": "143441-1,28", 
-                "environmentDataCenter": "NWK", 
+                "environmentDataCenter": "ST11", 
                 "platformName": "iTunes12"
             }, 
             "postFrequency": 60000, 
@@ -1252,7 +1252,7 @@
         "countryCode": "usa", 
         "GlobalLists": {
             "removeFromWishlistUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/removeFromWishlist", 
-            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=95A6", 
+            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=9548", 
             "updateRadioHistoryUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/updateRadioHistory", 
             "popover": {
                 "width": "350", 

@@ -24,41 +24,41 @@
             "topApps": {
                 "ipad": {
                     "ids": [
+                        941143328, 
                         479516143, 
                         912536422, 
-                        728293409, 
+                        904737541, 
                         625334537, 
-                        899626973, 
-                        364234221, 
-                        623592465, 
-                        915074326, 
+                        728293409, 
+                        937166097, 
                         868692227, 
-                        426747278, 
-                        940202798, 
-                        363282253, 
-                        881270303, 
-                        525818839, 
-                        622613679
+                        681814050, 
+                        720725216, 
+                        891194610, 
+                        640364616, 
+                        364234221, 
+                        522704697, 
+                        814977594
                     ], 
                     "title": "Top Paid iPad Games Apps"
                 }, 
                 "iphone": {
                     "ids": [
+                        941143328, 
                         912536422, 
-                        940202798, 
                         479516143, 
-                        623592465, 
+                        469343097, 
+                        904737816, 
                         728293409, 
                         625334537, 
+                        891194610, 
+                        814977594, 
                         932315244, 
-                        525818839, 
                         337021781, 
-                        511459648, 
                         343200656, 
-                        899607767, 
+                        723795263, 
                         326912270, 
-                        563718995, 
-                        937255144
+                        868692227
                     ], 
                     "title": "Top Paid iPhone Games Apps"
                 }
@@ -71,17 +71,18 @@
                 "rating-text": "Rated 12+ for the following:"
             }, 
             "moreByThisDeveloper": [
+                623592465, 
                 575658129, 
                 727420266, 
                 681370499, 
-                349051443, 
                 582417365, 
                 922621329, 
                 681253652, 
                 758999884, 
                 663965632, 
                 855556927, 
-                620012789
+                349051443, 
+                556084641
             ], 
             "appRatingsLearnMoreUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/appRatings?cc=us", 
             "versionHistory": [
@@ -107,11 +108,11 @@
             "pageDetails": "Warner Bros._Bastion", 
             "pageId": "537773100", 
             "language": "1", 
-            "serverInstance": "1007804", 
+            "serverInstance": "2004001", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
-            "environmentDataCenter": "NWK", 
+            "environmentDataCenter": "ST11", 
             "pageType": "Software", 
             "platformName": "iTunes12", 
             "page": "Software_537773100"
@@ -157,7 +158,7 @@
                 "label": "Warner Bros."
             }
         ], 
-        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/95A6/frameworks-sf6/images/", 
+        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/9548/frameworks-sf6/images/", 
         "omnitureMetrics": {
             "shouldTrackBrowserPlugins": false, 
             "format": "HTML", 
@@ -187,14 +188,14 @@
                 ]
             }
         }, 
-        "resourceImagePath": "https://s.mzstatic.com/htmlResources/95A6/di6-storefront/images/", 
-        "resourceBasePath": "/htmlResources/95A6/files/", 
+        "resourceImagePath": "https://s.mzstatic.com/htmlResources/9548/di6-storefront/images/", 
+        "resourceBasePath": "/htmlResources/9548/files/", 
         "flagLink": {
             "url": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/countrySelectorPage?cc=us", 
             "imageSrc": "https://s.mzstatic.com/images/flags/-dsi-30/usa.png", 
             "imageAltText": "My Store: United States, Choose Store"
         }, 
-        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/95A6/frameworks-dt6/images/", 
+        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/9548/frameworks-dt6/images/", 
         "termsLink": {
             "url": "https://www.apple.com/legal/itunes/us/terms.html", 
             "label": "Terms and Conditions"
@@ -330,10 +331,10 @@
                     "releaseDate": "2012-08-30", 
                     "artistId": 298372283, 
                     "userRating": {
-                        "ratingCountCurrentVersion": 1616, 
+                        "ratingCountCurrentVersion": 1630, 
                         "valueCurrentVersion": 4.5, 
                         "value": 4.5, 
-                        "ratingCount": 13172
+                        "ratingCount": 13182
                     }, 
                     "artistUrl": "https://itunes.apple.com/us/artist/warner-bros./id298372283?mt=8", 
                     "itunesNotes": null, 
@@ -345,12 +346,12 @@
                             "name": "Games"
                         }, 
                         {
-                            "url": "https://itunes.apple.com/us/genre/id7014", 
-                            "name": "Role Playing"
-                        }, 
-                        {
                             "url": "https://itunes.apple.com/us/genre/id7001", 
                             "name": "Action"
+                        }, 
+                        {
+                            "url": "https://itunes.apple.com/us/genre/id7014", 
+                            "name": "Role Playing"
                         }
                     ], 
                     "copyright": "\u00a9 2012 Supergiant Games LLC. All rights reserved. WB GAMES LOGO, WB SHIELD: \u2122 and \u00a9 Warner Bros. Entertainment Inc.", 
@@ -439,12 +440,12 @@
                             "height": 440
                         }, 
                         {
-                            "url": "http://a5.mzstatic.com/us/r30/Purple/v4/8f/d5/06/8fd50613-22ae-a954-32ea-13812af3c314/icon220x220.jpeg", 
+                            "url": "http://a1.mzstatic.com/us/r30/Purple/v4/8f/d5/06/8fd50613-22ae-a954-32ea-13812af3c314/icon220x220.png", 
                             "width": 220, 
                             "height": 220
                         }, 
                         {
-                            "url": "http://a3.mzstatic.com/us/r30/Purple/v4/8f/d5/06/8fd50613-22ae-a954-32ea-13812af3c314/icon256x256.jpeg", 
+                            "url": "http://a2.mzstatic.com/us/r30/Purple/v4/8f/d5/06/8fd50613-22ae-a954-32ea-13812af3c314/icon256x256.png", 
                             "width": 256, 
                             "height": 256
                         }, 
@@ -462,8 +463,8 @@
                     "url": "https://itunes.apple.com/us/app/bastion/id537773100?mt=8", 
                     "genreNames": [
                         "Games", 
-                        "Role Playing", 
-                        "Action"
+                        "Action", 
+                        "Role Playing"
                     ], 
                     "artistName": "Warner Bros.", 
                     "screenshotsByType": {
@@ -963,7 +964,7 @@
         }
     }, 
     "properties": {
-        "ITSResourceRevNum": "95A6", 
+        "ITSResourceRevNum": "9548", 
         "isCobaltJavascriptRedirectEnabled": true, 
         "isModern": false, 
         "ITSLogger.ServerReportingApp": "MZUserXP", 
@@ -973,7 +974,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "1007804", 
+        "ITSServerInstance": "2004001", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
@@ -1003,7 +1004,7 @@
                 "platformId": "28", 
                 "storeFront": "143441", 
                 "storeFrontHeader": "143441-1,28", 
-                "environmentDataCenter": "NWK", 
+                "environmentDataCenter": "ST11", 
                 "platformName": "iTunes12"
             }, 
             "postFrequency": 60000, 
@@ -1112,7 +1113,7 @@
         "countryCode": "usa", 
         "GlobalLists": {
             "removeFromWishlistUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/removeFromWishlist", 
-            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=95A6", 
+            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=9548", 
             "updateRadioHistoryUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/updateRadioHistory", 
             "popover": {
                 "width": "350", 

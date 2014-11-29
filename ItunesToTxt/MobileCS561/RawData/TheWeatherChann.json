@@ -10,36 +10,36 @@
                         628677149, 
                         404516121, 
                         364616869, 
+                        281940292, 
                         749083919, 
                         322439990, 
-                        281940292, 
-                        749133753, 
-                        408451987, 
                         906099986, 
+                        408451987, 
+                        749133753, 
                         364884105, 
-                        403037266, 
-                        537308269, 
+                        842428499, 
                         649264704, 
+                        333252638, 
                         483922001
                     ], 
                     "title": "Top Free iPad Weather Apps"
                 }, 
                 "iphone": {
                     "ids": [
-                        300048137, 
-                        281940292, 
                         628677149, 
+                        281940292, 
+                        300048137, 
                         486154808, 
                         322439990, 
                         404516121, 
-                        935459156, 
-                        749133753, 
                         749083919, 
+                        842428499, 
+                        749133753, 
+                        550882015, 
                         414215658, 
-                        935445197, 
-                        585726025, 
-                        935468776, 
-                        649264704
+                        649264704, 
+                        561206553, 
+                        649202100
                     ], 
                     "title": "Top Free iPhone Weather Apps"
                 }
@@ -53,6 +53,11 @@
             ], 
             "appRatingsLearnMoreUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/appRatings?cc=us", 
             "versionHistory": [
+                {
+                    "releaseDate": "2014-11-20T13:27:40Z", 
+                    "releaseNotes": "Ski Module: find the perfect powder near you, and around the globe, with our newly activated ski forecast module, which tells you the snow conditions at all of the resorts near your saved locations.\n\nSocial Weather: report any weather condition to us using Social Weather. Now, with more weather conditions to choose from!\n\nEasier Sharing: share world-class, up-to-the-minute news and videos with easy-to-use share buttons.\n\nHybrid units of weather: customize your measurement preferences between Imperial, Metric, and Hybrid units of measure.\n\nBug fixes", 
+                    "versionString": "6.4"
+                }, 
                 {
                     "releaseDate": "2014-11-01T01:49:18Z", 
                     "releaseNotes": "Bug fixes.", 
@@ -172,11 +177,6 @@
                     "releaseDate": "2011-08-26T17:32:33Z", 
                     "releaseNotes": "***************\nUSERS: We appreciate your feedback about our app crashing and slowness of the interactive maps. Our teams have diligently worked to quickly identify and fix these problems in this version 4.1.0. \n\nIn light of the active hurricane season, we value your safety and wanted to provide you with this update for stability and performance as soon as possible.  We will continue to improve our map experience, including occasional missing map tiles.\n\nPlease rate this version to let us know how we're doing, and also send any feedback to us directly at iphone@talk2.weather.com. Thank you for using The Weather Channel!\n*************** \n\n\u2022 Hurricane Central - inside the Maps section, you\u2019ll find a new collection of storm track maps and projected path maps for active hurricanes and storms, plus maps for other tropical activity in the Atlantic, Gulf of Mexico, Caribbean, and Pacific. \n\n\u2022 Improved performance and speed of Interactive Maps\n\n\u2022 Fixed crash issues", 
                     "versionString": "4.1.0"
-                }, 
-                {
-                    "releaseDate": "2011-08-15T23:02:54Z", 
-                    "releaseNotes": "USERS: We have heard your feedback about the GPS Location Services arrow staying on.\n\nThis version 4.0.1 will correct the issue as soon as you download the update and launch the app.", 
-                    "versionString": "4.0.1"
                 }
             ], 
             "id": 295646461
@@ -185,11 +185,11 @@
             "pageDetails": "The Weather Channel Interactive_The Weather Channel and weather.com - local forecasts, radar, and storm tracking", 
             "pageId": "295646461", 
             "language": "1", 
-            "serverInstance": "512074", 
+            "serverInstance": "2125212", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
-            "environmentDataCenter": "NWK", 
+            "environmentDataCenter": "ST11", 
             "pageType": "Software", 
             "platformName": "iTunes12", 
             "page": "Software_295646461"
@@ -235,7 +235,7 @@
                 "label": "The Weather Channel Interactive"
             }
         ], 
-        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/95A6/frameworks-sf6/images/", 
+        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/9548/frameworks-sf6/images/", 
         "omnitureMetrics": {
             "shouldTrackBrowserPlugins": false, 
             "format": "HTML", 
@@ -265,14 +265,14 @@
                 ]
             }
         }, 
-        "resourceImagePath": "https://s.mzstatic.com/htmlResources/95A6/di6-storefront/images/", 
-        "resourceBasePath": "/htmlResources/95A6/files/", 
+        "resourceImagePath": "https://s.mzstatic.com/htmlResources/9548/di6-storefront/images/", 
+        "resourceBasePath": "/htmlResources/9548/files/", 
         "flagLink": {
             "url": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/countrySelectorPage?cc=us", 
             "imageSrc": "https://s.mzstatic.com/images/flags/-dsi-30/usa.png", 
             "imageAltText": "My Store: United States, Choose Store"
         }, 
-        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/95A6/frameworks-dt6/images/", 
+        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/9548/frameworks-dt6/images/", 
         "termsLink": {
             "url": "https://www.apple.com/legal/itunes/us/terms.html", 
             "label": "Terms and Conditions"
@@ -408,10 +408,10 @@
                     "releaseDate": "2008-11-09", 
                     "artistId": 295646464, 
                     "userRating": {
-                        "ratingCountCurrentVersion": 1714, 
+                        "ratingCountCurrentVersion": 1046, 
                         "valueCurrentVersion": 4, 
                         "value": 3.5, 
-                        "ratingCount": 411989
+                        "ratingCount": 412781
                     }, 
                     "artistUrl": "https://itunes.apple.com/us/artist/weather-channel-interactive/id295646464?mt=8", 
                     "itunesNotes": null, 
@@ -475,16 +475,16 @@
                             "assets": [
                                 {
                                     "flavor": "iosSoftware", 
-                                    "size": 37820490
+                                    "size": 38315693
                                 }
                             ], 
                             "priceFormatted": "$0.00", 
                             "price": 0, 
                             "version": {
-                                "externalId": 755372744, 
-                                "display": "6.3.3"
+                                "externalId": 793293372, 
+                                "display": "6.4"
                             }, 
-                            "buyParams": "productType=C&price=0&salableAdamId=295646461&pricingParameters=STDQ&appExtVrsId=755372744", 
+                            "buyParams": "productType=C&price=0&salableAdamId=295646461&pricingParameters=STDQ&appExtVrsId=793293372", 
                             "type": "get"
                         }
                     ], 
@@ -494,32 +494,32 @@
                     }, 
                     "artwork": [
                         {
-                            "url": "http://a2.mzstatic.com/us/r30/Purple5/v4/c1/44/21/c14421b9-242d-d9fe-f37f-736b871bcc20/icon240x240.png", 
+                            "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/2c/79/92/2c799206-6a1e-760e-4976-5e673c38421e/icon240x240.jpeg", 
                             "width": 240, 
                             "height": 240
                         }, 
                         {
-                            "url": "http://a4.mzstatic.com/us/r30/Purple5/v4/c1/44/21/c14421b9-242d-d9fe-f37f-736b871bcc20/icon1024x1024.jpeg", 
+                            "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/2c/79/92/2c799206-6a1e-760e-4976-5e673c38421e/icon1024x1024.jpeg", 
                             "width": 1024, 
                             "height": 1024
                         }, 
                         {
-                            "url": "http://a4.mzstatic.com/us/r30/Purple5/v4/c1/44/21/c14421b9-242d-d9fe-f37f-736b871bcc20/icon440x440.png", 
+                            "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/2c/79/92/2c799206-6a1e-760e-4976-5e673c38421e/icon440x440.png", 
                             "width": 440, 
                             "height": 440
                         }, 
                         {
-                            "url": "http://a3.mzstatic.com/us/r30/Purple5/v4/c1/44/21/c14421b9-242d-d9fe-f37f-736b871bcc20/icon220x220.jpeg", 
+                            "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/2c/79/92/2c799206-6a1e-760e-4976-5e673c38421e/icon220x220.png", 
                             "width": 220, 
                             "height": 220
                         }, 
                         {
-                            "url": "http://a5.mzstatic.com/us/r30/Purple5/v4/c1/44/21/c14421b9-242d-d9fe-f37f-736b871bcc20/icon400x400.png", 
+                            "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/2c/79/92/2c799206-6a1e-760e-4976-5e673c38421e/icon400x400.jpeg", 
                             "width": 400, 
                             "height": 400
                         }, 
                         {
-                            "url": "http://a5.mzstatic.com/us/r30/Purple5/v4/c1/44/21/c14421b9-242d-d9fe-f37f-736b871bcc20/icon512x512.png", 
+                            "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/2c/79/92/2c799206-6a1e-760e-4976-5e673c38421e/icon512x512.jpeg", 
                             "width": 512, 
                             "height": 512
                         }
@@ -996,7 +996,7 @@
         }
     }, 
     "properties": {
-        "ITSResourceRevNum": "95A6", 
+        "ITSResourceRevNum": "9548", 
         "isCobaltJavascriptRedirectEnabled": true, 
         "isModern": false, 
         "ITSLogger.ServerReportingApp": "MZUserXP", 
@@ -1006,7 +1006,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "512074", 
+        "ITSServerInstance": "2125212", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
@@ -1036,7 +1036,7 @@
                 "platformId": "28", 
                 "storeFront": "143441", 
                 "storeFrontHeader": "143441-1,28", 
-                "environmentDataCenter": "NWK", 
+                "environmentDataCenter": "ST11", 
                 "platformName": "iTunes12"
             }, 
             "postFrequency": 60000, 
@@ -1145,7 +1145,7 @@
         "countryCode": "usa", 
         "GlobalLists": {
             "removeFromWishlistUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/removeFromWishlist", 
-            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=95A6", 
+            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=9548", 
             "updateRadioHistoryUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/updateRadioHistory", 
             "popover": {
                 "width": "350", 

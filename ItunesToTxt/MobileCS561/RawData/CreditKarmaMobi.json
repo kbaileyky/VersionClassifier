@@ -27,17 +27,17 @@
                         370697773, 
                         579446739, 
                         694133485, 
-                        389607479, 
                         469439008, 
-                        415376179, 
-                        300238550, 
-                        370811491, 
-                        328412701, 
-                        398018310, 
                         511125261, 
-                        469405092, 
+                        415376179, 
+                        389607479, 
                         449751021, 
-                        517166254
+                        300238550, 
+                        328412701, 
+                        469405092, 
+                        515328530, 
+                        398018310, 
+                        571256745
                     ], 
                     "title": "Top Free iPad Finance Apps"
                 }, 
@@ -46,16 +46,17 @@
                         298867247, 
                         284847138, 
                         311548709, 
+                        283646709, 
                         407558537, 
                         351727428, 
                         362348516, 
-                        300238550, 
                         338010821, 
+                        300238550, 
+                        548615579, 
                         312325565, 
+                        883324671, 
                         301724680, 
-                        458734623, 
-                        370811491, 
-                        303113127
+                        458734623
                     ], 
                     "title": "Top Free iPhone Finance Apps"
                 }
@@ -65,6 +66,11 @@
             }, 
             "appRatingsLearnMoreUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/appRatings?cc=us", 
             "versionHistory": [
+                {
+                    "releaseDate": "2014-11-25T03:56:20Z", 
+                    "releaseNotes": "******** iPhone 4s Users on iOS 8.1 ********\nWe\u2019re aware of a bug that is pushing the \"Continue\" button below the screen\u2014 please rest assured that we are working to fix this as soon as possible. In the meantime, visiting www.creditkarma.com, logging in, and continuing there will allow you to bypass the troublesome screen in the app. We apologize for this inconvenience and thank you for letting us know!\n\nBest,\nThe Credit Karma Team\n\n\nWhat's New:\n\n\u2022 We\u2019ve built in our Best Credit Cards feature. Now, you can explore our most popular credit cards right from the app.\n\u2022 We\u2019ve added a bottom navigation bar to your home screen to make getting around even easier.\n\u2022 We\u2019ve made general improvements to further perfect your experience.", 
+                    "versionString": "1.5.0"
+                }, 
                 {
                     "releaseDate": "2014-10-11T21:34:39Z", 
                     "releaseNotes": "Bug Fixes", 
@@ -142,7 +148,7 @@
             "pageDetails": "Credit Karma, Inc._Credit Karma Mobile - Free Credit Score & Credit Monitoring", 
             "pageId": "519817714", 
             "language": "1", 
-            "serverInstance": "2126439", 
+            "serverInstance": "2003001", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
@@ -192,7 +198,7 @@
                 "label": "Credit Karma, Inc."
             }
         ], 
-        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/95A6/frameworks-sf6/images/", 
+        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/9548/frameworks-sf6/images/", 
         "omnitureMetrics": {
             "shouldTrackBrowserPlugins": false, 
             "format": "HTML", 
@@ -222,14 +228,14 @@
                 ]
             }
         }, 
-        "resourceImagePath": "https://s.mzstatic.com/htmlResources/95A6/di6-storefront/images/", 
-        "resourceBasePath": "/htmlResources/95A6/files/", 
+        "resourceImagePath": "https://s.mzstatic.com/htmlResources/9548/di6-storefront/images/", 
+        "resourceBasePath": "/htmlResources/9548/files/", 
         "flagLink": {
             "url": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/countrySelectorPage?cc=us", 
             "imageSrc": "https://s.mzstatic.com/images/flags/-dsi-30/usa.png", 
             "imageAltText": "My Store: United States, Choose Store"
         }, 
-        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/95A6/frameworks-dt6/images/", 
+        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/9548/frameworks-dt6/images/", 
         "termsLink": {
             "url": "https://www.apple.com/legal/itunes/us/terms.html", 
             "label": "Terms and Conditions"
@@ -365,10 +371,10 @@
                     "releaseDate": "2012-07-18", 
                     "artistId": 519816000, 
                     "userRating": {
-                        "ratingCountCurrentVersion": 2991, 
-                        "valueCurrentVersion": 5, 
+                        "ratingCountCurrentVersion": 263, 
+                        "valueCurrentVersion": 4, 
                         "value": 5, 
-                        "ratingCount": 68680
+                        "ratingCount": 69180
                     }, 
                     "artistUrl": "https://itunes.apple.com/us/artist/credit-karma-inc./id519816000?mt=8", 
                     "itunesNotes": null, 
@@ -387,7 +393,7 @@
                     "copyright": "\u00a9 2007-2014 Credit Karma, Inc.", 
                     "supportsPassbook": false, 
                     "description": {
-                        "standard": "Get your truly free credit score and free on-the-go credit monitoring with Credit Karma Mobile. \n\nBecome a member for free in-app and get your free credit score in just two minutes. \n\nIn its first week of launch, Credit Karma Mobile \n-Reached the #1 spot in financial apps \n-Reached the #7 spot in top free apps \n-Was given a 5-star rating by app users \n\nFEATURES \n- Truly free credit scores \n- Free on-the-go credit monitoring \n- Notifications when something important changes in your credit report \n- Credit report card, which tells you about factors influencing your credit score \n- Free membership. No credit card required. \n\nTESTIMONIALS FROM OUR MEMBERS \n\u201cCredit Karma helped me save over $3,000 on my credit card debt. It was quick and easy!\u201d \u2013 James, MA \n\u201cMy credit score has gone up 43 points in a single month after following some of their advice!\u201d \u2013 Leslie, CA \n\n\nCredit Karma provides more than 21 million consumers with free credit scores and access to free credit monitoring to help them realize the everyday cost savings of having good credit. It also provides financial education and access to free tools that empower consumers to take charge of their financial health including the free Credit Report Card, Credit Score Simulator and Credit Card Statistics. To learn more, visit www.creditkarma.com."
+                        "standard": "Get your truly free credit score, credit report and credit monitoring with the Credit Karma app.\n\nBecome a member for free in-app and get your free credit score in just two minutes.\n\nIn its first week of launch, Credit Karma Mobile \n-Reached the #1 spot in financial apps \n-Reached the #7 spot in top free apps \n-Was given a 5-star rating by app users \n\nFEATURES\n\n\u2022 Truly free credit scores\n\u2022 Free credit reports\n\u2022 Free credit monitoring\n\u2022 Personalized recommendations\n\u2022 Free membership. No credit card required.\n\u2022 Safe and secure.\n\nTESTIMONIALS FROM OUR MEMBERS\n\n\u201cCredit Karma helped me save over $3,000 on my credit card debt. It was quick and easy!\u201d \u2013 James, MA\n\n\u201cMy credit score has gone up 43 points in a single month after following some of their advice!\u201d \u2013 Leslie, CA\n\nCREDIT KARMA HAS BEEN FEATURED IN\n\n\u2022 MSNBC\n\u2022 SmartMoney\n\u2022 USA TODAY\n\u2022 TIME Moneyland\n\u2022 TechCrunch\n\nCredit Karma provides more than 30 million consumers with free credit scores and access to free credit monitoring to help them realize the everyday cost savings of having good credit by offering personalized savings recommendations for credit cards, student, auto, mortgage and home equity loans. It also provides financial education and access to free tools that empower consumers to take charge of their financial health including the free Credit Report Card, Credit Score Simulator and Credit Card Statistics. To learn more, visit www.creditkarma.com."
                     }, 
                     "softwareInfo": {
                         "privacyPolicyUrl": "http://www.creditkarma.com/about/privacy", 
@@ -432,48 +438,48 @@
                             "assets": [
                                 {
                                     "flavor": "iosSoftware", 
-                                    "size": 23592124
+                                    "size": 21323511
                                 }
                             ], 
                             "priceFormatted": "$0.00", 
                             "price": 0, 
                             "version": {
-                                "externalId": 720342713, 
-                                "display": "1.4.4"
+                                "externalId": 810814617, 
+                                "display": "1.5.0"
                             }, 
-                            "buyParams": "productType=C&price=0&salableAdamId=519817714&pricingParameters=STDQ&appExtVrsId=720342713", 
+                            "buyParams": "productType=C&price=0&salableAdamId=519817714&pricingParameters=STDQ&appExtVrsId=810814617", 
                             "type": "get"
                         }
                     ], 
                     "editorialBadgeInfo": null, 
                     "artwork": [
                         {
-                            "url": "http://a5.mzstatic.com/us/r30/Purple5/v4/48/26/f5/4826f53a-6c82-5206-8bcb-3da7fa1aca8c/icon240x240.jpeg", 
+                            "url": "http://a3.mzstatic.com/us/r30/Purple1/v4/db/1f/86/db1f8609-c7b8-f3db-6a26-01353c708ebf/icon240x240.png", 
                             "width": 240, 
                             "height": 240
                         }, 
                         {
-                            "url": "http://a5.mzstatic.com/us/r30/Purple5/v4/48/26/f5/4826f53a-6c82-5206-8bcb-3da7fa1aca8c/icon1024x1024.jpeg", 
+                            "url": "http://a5.mzstatic.com/us/r30/Purple1/v4/db/1f/86/db1f8609-c7b8-f3db-6a26-01353c708ebf/icon1024x1024.jpeg", 
                             "width": 1024, 
                             "height": 1024
                         }, 
                         {
-                            "url": "http://a1.mzstatic.com/us/r30/Purple5/v4/48/26/f5/4826f53a-6c82-5206-8bcb-3da7fa1aca8c/icon440x440.png", 
+                            "url": "http://a5.mzstatic.com/us/r30/Purple1/v4/db/1f/86/db1f8609-c7b8-f3db-6a26-01353c708ebf/icon440x440.png", 
                             "width": 440, 
                             "height": 440
                         }, 
                         {
-                            "url": "http://a2.mzstatic.com/us/r30/Purple5/v4/48/26/f5/4826f53a-6c82-5206-8bcb-3da7fa1aca8c/icon220x220.png", 
+                            "url": "http://a1.mzstatic.com/us/r30/Purple1/v4/db/1f/86/db1f8609-c7b8-f3db-6a26-01353c708ebf/icon220x220.png", 
                             "width": 220, 
                             "height": 220
                         }, 
                         {
-                            "url": "http://a3.mzstatic.com/us/r30/Purple5/v4/48/26/f5/4826f53a-6c82-5206-8bcb-3da7fa1aca8c/icon400x400.jpeg", 
+                            "url": "http://a1.mzstatic.com/us/r30/Purple1/v4/db/1f/86/db1f8609-c7b8-f3db-6a26-01353c708ebf/icon400x400.jpeg", 
                             "width": 400, 
                             "height": 400
                         }, 
                         {
-                            "url": "http://a2.mzstatic.com/us/r30/Purple5/v4/48/26/f5/4826f53a-6c82-5206-8bcb-3da7fa1aca8c/icon512x512.png", 
+                            "url": "http://a3.mzstatic.com/us/r30/Purple1/v4/db/1f/86/db1f8609-c7b8-f3db-6a26-01353c708ebf/icon512x512.png", 
                             "width": 512, 
                             "height": 512
                         }
@@ -874,7 +880,7 @@
         }
     }, 
     "properties": {
-        "ITSResourceRevNum": "95A6", 
+        "ITSResourceRevNum": "9548", 
         "isCobaltJavascriptRedirectEnabled": true, 
         "isModern": false, 
         "ITSLogger.ServerReportingApp": "MZUserXP", 
@@ -884,7 +890,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "2126439", 
+        "ITSServerInstance": "2003001", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
@@ -1023,7 +1029,7 @@
         "countryCode": "usa", 
         "GlobalLists": {
             "removeFromWishlistUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/removeFromWishlist", 
-            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=95A6", 
+            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=9548", 
             "updateRadioHistoryUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/updateRadioHistory", 
             "popover": {
                 "width": "350", 

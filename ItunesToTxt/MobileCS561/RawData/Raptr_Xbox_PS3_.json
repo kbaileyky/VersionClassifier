@@ -7,7 +7,6 @@
                 349864361, 
                 443472808, 
                 577628510, 
-                428851691, 
                 486115720, 
                 403667925, 
                 722294701, 
@@ -18,21 +17,21 @@
             "topApps": {
                 "ipad": {
                     "ids": [
-                        454638411, 
                         284882215, 
-                        429047995, 
+                        454638411, 
                         442012681, 
+                        429047995, 
                         333903271, 
-                        288429040, 
-                        643496868, 
-                        447119634, 
                         466122094, 
-                        372513032, 
-                        913855602, 
-                        738989604, 
-                        428845974, 
+                        643496868, 
                         414478124, 
-                        566223681
+                        447119634, 
+                        372513032, 
+                        428845974, 
+                        738989604, 
+                        913855602, 
+                        453718989, 
+                        288429040
                     ], 
                     "title": "Top Free iPad Social Networking Apps"
                 }, 
@@ -40,19 +39,19 @@
                     "ids": [
                         454638411, 
                         284882215, 
+                        357218860, 
+                        429047995, 
                         310633997, 
                         333903271, 
-                        429047995, 
-                        357218860, 
                         304878510, 
                         382617920, 
-                        730992767, 
-                        569077959, 
                         738989604, 
+                        730992767, 
+                        466122094, 
                         372513032, 
-                        288429040, 
-                        447119634, 
-                        443904275
+                        428845974, 
+                        569077959, 
+                        643496868
                     ], 
                     "title": "Top Free iPhone Social Networking Apps"
                 }
@@ -194,11 +193,11 @@
             "pageDetails": "Raptr, Inc._Raptr - Xbox, PS3, PC Friends Tracker", 
             "pageId": "374989053", 
             "language": "1", 
-            "serverInstance": "1004504", 
+            "serverInstance": "2004201", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
-            "environmentDataCenter": "NWK", 
+            "environmentDataCenter": "ST11", 
             "pageType": "Software", 
             "platformName": "iTunes12", 
             "page": "Software_374989053"
@@ -244,7 +243,7 @@
                 "label": "Raptr, Inc."
             }
         ], 
-        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/95A6/frameworks-sf6/images/", 
+        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/9548/frameworks-sf6/images/", 
         "omnitureMetrics": {
             "shouldTrackBrowserPlugins": false, 
             "format": "HTML", 
@@ -274,14 +273,14 @@
                 ]
             }
         }, 
-        "resourceImagePath": "https://s.mzstatic.com/htmlResources/95A6/di6-storefront/images/", 
-        "resourceBasePath": "/htmlResources/95A6/files/", 
+        "resourceImagePath": "https://s.mzstatic.com/htmlResources/9548/di6-storefront/images/", 
+        "resourceBasePath": "/htmlResources/9548/files/", 
         "flagLink": {
             "url": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/countrySelectorPage?cc=us", 
             "imageSrc": "https://s.mzstatic.com/images/flags/-dsi-30/usa.png", 
             "imageAltText": "My Store: United States, Choose Store"
         }, 
-        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/95A6/frameworks-dt6/images/", 
+        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/9548/frameworks-dt6/images/", 
         "termsLink": {
             "url": "https://www.apple.com/legal/itunes/us/terms.html", 
             "label": "Terms and Conditions"
@@ -417,10 +416,10 @@
                     "releaseDate": "2010-06-15", 
                     "artistId": 374989056, 
                     "userRating": {
-                        "ratingCountCurrentVersion": 14, 
-                        "valueCurrentVersion": 2.5, 
+                        "ratingCountCurrentVersion": 17, 
+                        "valueCurrentVersion": 2, 
                         "value": 4, 
-                        "ratingCount": 4062
+                        "ratingCount": 4063
                     }, 
                     "artistUrl": "https://itunes.apple.com/us/artist/raptr-inc./id374989056?mt=8", 
                     "itunesNotes": null, 
@@ -505,7 +504,7 @@
                             "height": 240
                         }, 
                         {
-                            "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/70/65/17/706517e8-8209-e329-c37b-4afa8f08da36/icon1024x1024.jpeg", 
+                            "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/70/65/17/706517e8-8209-e329-c37b-4afa8f08da36/icon1024x1024.png", 
                             "width": 1024, 
                             "height": 1024
                         }, 
@@ -515,7 +514,7 @@
                             "height": 440
                         }, 
                         {
-                            "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/70/65/17/706517e8-8209-e329-c37b-4afa8f08da36/icon220x220.jpeg", 
+                            "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/70/65/17/706517e8-8209-e329-c37b-4afa8f08da36/icon220x220.png", 
                             "width": 220, 
                             "height": 220
                         }, 
@@ -852,7 +851,7 @@
         }
     }, 
     "properties": {
-        "ITSResourceRevNum": "95A6", 
+        "ITSResourceRevNum": "9548", 
         "isCobaltJavascriptRedirectEnabled": true, 
         "isModern": false, 
         "ITSLogger.ServerReportingApp": "MZUserXP", 
@@ -862,7 +861,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "1004504", 
+        "ITSServerInstance": "2004201", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
@@ -892,7 +891,7 @@
                 "platformId": "28", 
                 "storeFront": "143441", 
                 "storeFrontHeader": "143441-1,28", 
-                "environmentDataCenter": "NWK", 
+                "environmentDataCenter": "ST11", 
                 "platformName": "iTunes12"
             }, 
             "postFrequency": 60000, 
@@ -1001,7 +1000,7 @@
         "countryCode": "usa", 
         "GlobalLists": {
             "removeFromWishlistUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/removeFromWishlist", 
-            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=95A6", 
+            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=9548", 
             "updateRadioHistoryUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/updateRadioHistory", 
             "popover": {
                 "width": "350", 

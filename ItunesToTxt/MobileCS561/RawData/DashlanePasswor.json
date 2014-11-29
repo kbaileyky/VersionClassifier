@@ -24,41 +24,41 @@
             "topApps": {
                 "ipad": {
                     "ids": [
-                        586447913, 
-                        743974925, 
                         281796108, 
-                        586683407, 
-                        361309726, 
-                        360593530, 
-                        778658393, 
                         327630330, 
-                        528122602, 
-                        287170072, 
-                        363448914, 
-                        374211477, 
-                        904071710, 
+                        586447913, 
+                        506003812, 
+                        743974925, 
+                        830708155, 
+                        586683407, 
                         443369807, 
-                        586449534
+                        360593530, 
+                        904071710, 
+                        287170072, 
+                        918098375, 
+                        586449534, 
+                        361309726, 
+                        489262811
                     ], 
                     "title": "Top Grossing iPad Productivity Apps"
                 }, 
                 "iphone": {
                     "ids": [
                         327630330, 
-                        287170072, 
                         281796108, 
+                        287170072, 
                         443369807, 
                         849732663, 
-                        514917848, 
                         695429656, 
-                        319185557, 
-                        407108860, 
-                        430478223, 
+                        932228994, 
                         695415794, 
-                        614810693, 
-                        380732176, 
-                        690305341, 
-                        406644151
+                        319185557, 
+                        493136154, 
+                        886930144, 
+                        481881465, 
+                        718043190, 
+                        918098375, 
+                        430478223
                     ], 
                     "title": "Top Grossing iPhone Productivity Apps"
                 }
@@ -231,12 +231,12 @@
                     "name": "3 Years of Dashlane Premium"
                 }, 
                 {
-                    "price": "$69.99", 
-                    "name": "Dashlane Premium Plan"
-                }, 
-                {
                     "price": "$89.99", 
                     "name": "3 Years of Dashlane Premium"
+                }, 
+                {
+                    "price": "$69.99", 
+                    "name": "Dashlane Premium Plan"
                 }
             ], 
             "id": 517914548
@@ -245,11 +245,11 @@
             "pageDetails": "Dashlane_Dashlane Password Manager & Secure Digital Wallet", 
             "pageId": "517914548", 
             "language": "1", 
-            "serverInstance": "1003106", 
+            "serverInstance": "2000305", 
             "platformId": "28", 
             "storeFront": "143441", 
             "storeFrontHeader": "143441-1,28", 
-            "environmentDataCenter": "NWK", 
+            "environmentDataCenter": "ST11", 
             "pageType": "Software", 
             "platformName": "iTunes12", 
             "page": "Software_517914548"
@@ -295,7 +295,7 @@
                 "label": "Dashlane"
             }
         ], 
-        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/95A6/frameworks-sf6/images/", 
+        "sf6ResourceImagePath": "https://s.mzstatic.com/htmlResources/9548/frameworks-sf6/images/", 
         "omnitureMetrics": {
             "shouldTrackBrowserPlugins": false, 
             "format": "HTML", 
@@ -325,14 +325,14 @@
                 ]
             }
         }, 
-        "resourceImagePath": "https://s.mzstatic.com/htmlResources/95A6/di6-storefront/images/", 
-        "resourceBasePath": "/htmlResources/95A6/files/", 
+        "resourceImagePath": "https://s.mzstatic.com/htmlResources/9548/di6-storefront/images/", 
+        "resourceBasePath": "/htmlResources/9548/files/", 
         "flagLink": {
             "url": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/countrySelectorPage?cc=us", 
             "imageSrc": "https://s.mzstatic.com/images/flags/-dsi-30/usa.png", 
             "imageAltText": "My Store: United States, Choose Store"
         }, 
-        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/95A6/frameworks-dt6/images/", 
+        "resourceImagePathFrameworksDt6": "https://s.mzstatic.com/htmlResources/9548/frameworks-dt6/images/", 
         "termsLink": {
             "url": "https://www.apple.com/legal/itunes/us/terms.html", 
             "label": "Terms and Conditions"
@@ -468,10 +468,10 @@
                     "releaseDate": "2012-05-21", 
                     "artistId": 507134346, 
                     "userRating": {
-                        "ratingCountCurrentVersion": 139, 
+                        "ratingCountCurrentVersion": 257, 
                         "valueCurrentVersion": 4.5, 
                         "value": 4.5, 
-                        "ratingCount": 7579
+                        "ratingCount": 7682
                     }, 
                     "artistUrl": "https://itunes.apple.com/us/artist/dashlane/id507134346?mt=8", 
                     "itunesNotes": null, 
@@ -573,7 +573,7 @@
                             "height": 440
                         }, 
                         {
-                            "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/67/bb/a5/67bba512-dbe3-0eae-a58f-2acfd337991b/icon220x220.jpeg", 
+                            "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/67/bb/a5/67bba512-dbe3-0eae-a58f-2acfd337991b/icon220x220.png", 
                             "width": 220, 
                             "height": 220
                         }, 
@@ -583,7 +583,7 @@
                             "height": 400
                         }, 
                         {
-                            "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/67/bb/a5/67bba512-dbe3-0eae-a58f-2acfd337991b/icon512x512.png", 
+                            "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/67/bb/a5/67bba512-dbe3-0eae-a58f-2acfd337991b/icon512x512.jpeg", 
                             "width": 512, 
                             "height": 512
                         }
@@ -603,7 +603,7 @@
                         "ipad": [
                             [
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/16/6f/be/166fbe85-25c9-b6f1-6a36-3e5438a53933/screen261x261-50.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/16/6f/be/166fbe85-25c9-b6f1-6a36-3e5438a53933/screen261x261-65.jpeg", 
                                     "width": 261, 
                                     "height": 196
                                 }, 
@@ -623,12 +623,12 @@
                                     "height": 414
                                 }, 
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/16/6f/be/166fbe85-25c9-b6f1-6a36-3e5438a53933/screen420x420.jpeg", 
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/16/6f/be/166fbe85-25c9-b6f1-6a36-3e5438a53933/screen420x316.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
                                 {
-                                    "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/16/6f/be/166fbe85-25c9-b6f1-6a36-3e5438a53933/screen420x316.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/16/6f/be/166fbe85-25c9-b6f1-6a36-3e5438a53933/screen420x420.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
@@ -640,7 +640,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple5/v4/a8/b8/0b/a8b80b85-84fd-0bc2-c209-7bdf4d45c670/screen261x261-50.jpeg", 
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple5/v4/a8/b8/0b/a8b80b85-84fd-0bc2-c209-7bdf4d45c670/screen261x261-65.jpeg", 
                                     "width": 261, 
                                     "height": 196
                                 }, 
@@ -660,12 +660,12 @@
                                     "height": 414
                                 }, 
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple5/v4/a8/b8/0b/a8b80b85-84fd-0bc2-c209-7bdf4d45c670/screen420x420.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple5/v4/a8/b8/0b/a8b80b85-84fd-0bc2-c209-7bdf4d45c670/screen420x316.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
                                 {
-                                    "url": "http://a5.mzstatic.com/us/r30/Purple5/v4/a8/b8/0b/a8b80b85-84fd-0bc2-c209-7bdf4d45c670/screen420x316.jpeg", 
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple5/v4/a8/b8/0b/a8b80b85-84fd-0bc2-c209-7bdf4d45c670/screen420x420.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
@@ -677,7 +677,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/e2/2b/24/e22b24a5-1aeb-37da-2556-62089023b844/screen261x261-50.jpeg", 
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/e2/2b/24/e22b24a5-1aeb-37da-2556-62089023b844/screen261x261-65.jpeg", 
                                     "width": 261, 
                                     "height": 196
                                 }, 
@@ -697,12 +697,12 @@
                                     "height": 414
                                 }, 
                                 {
-                                    "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/e2/2b/24/e22b24a5-1aeb-37da-2556-62089023b844/screen420x420.jpeg", 
+                                    "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/e2/2b/24/e22b24a5-1aeb-37da-2556-62089023b844/screen420x316.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/e2/2b/24/e22b24a5-1aeb-37da-2556-62089023b844/screen420x316.jpeg", 
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/e2/2b/24/e22b24a5-1aeb-37da-2556-62089023b844/screen420x420.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
@@ -714,7 +714,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/36/6a/e9/366ae940-146d-9fd6-7716-3b4325c03f44/screen261x261-50.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/36/6a/e9/366ae940-146d-9fd6-7716-3b4325c03f44/screen261x261-65.jpeg", 
                                     "width": 261, 
                                     "height": 196
                                 }, 
@@ -734,12 +734,12 @@
                                     "height": 414
                                 }, 
                                 {
-                                    "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/36/6a/e9/366ae940-146d-9fd6-7716-3b4325c03f44/screen420x420.jpeg", 
+                                    "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/36/6a/e9/366ae940-146d-9fd6-7716-3b4325c03f44/screen420x316.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
                                 {
-                                    "url": "http://a4.mzstatic.com/us/r30/Purple3/v4/36/6a/e9/366ae940-146d-9fd6-7716-3b4325c03f44/screen420x316.jpeg", 
+                                    "url": "http://a1.mzstatic.com/us/r30/Purple3/v4/36/6a/e9/366ae940-146d-9fd6-7716-3b4325c03f44/screen420x420.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
@@ -751,7 +751,7 @@
                             ], 
                             [
                                 {
-                                    "url": "http://a2.mzstatic.com/us/r30/Purple3/v4/62/76/db/6276dbc5-692e-353a-ed90-ba718c24866d/screen261x261-50.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/62/76/db/6276dbc5-692e-353a-ed90-ba718c24866d/screen261x261-65.jpeg", 
                                     "width": 261, 
                                     "height": 196
                                 }, 
@@ -771,12 +771,12 @@
                                     "height": 414
                                 }, 
                                 {
-                                    "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/62/76/db/6276dbc5-692e-353a-ed90-ba718c24866d/screen420x420.jpeg", 
+                                    "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/62/76/db/6276dbc5-692e-353a-ed90-ba718c24866d/screen420x316.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
                                 {
-                                    "url": "http://a3.mzstatic.com/us/r30/Purple3/v4/62/76/db/6276dbc5-692e-353a-ed90-ba718c24866d/screen420x316.jpeg", 
+                                    "url": "http://a5.mzstatic.com/us/r30/Purple3/v4/62/76/db/6276dbc5-692e-353a-ed90-ba718c24866d/screen420x420.jpeg", 
                                     "width": 420, 
                                     "height": 315
                                 }, 
@@ -1197,7 +1197,7 @@
         }
     }, 
     "properties": {
-        "ITSResourceRevNum": "95A6", 
+        "ITSResourceRevNum": "9548", 
         "isCobaltJavascriptRedirectEnabled": true, 
         "isModern": false, 
         "ITSLogger.ServerReportingApp": "MZUserXP", 
@@ -1207,7 +1207,7 @@
         "SF6.Personalization.isCMSEnabled": true, 
         "cobaltBundleId": "com.apple.itunesu", 
         "ITSLogger.SenderName": "ITSClient", 
-        "ITSServerInstance": "1003106", 
+        "ITSServerInstance": "2000305", 
         "iTunesUEnrollLink": "https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us", 
         "isDesktopBuyingGiftCertificateEnabled": true, 
         "getCobaltAppLink": "https://itunes.apple.com/us/app/id490217893", 
@@ -1237,7 +1237,7 @@
                 "platformId": "28", 
                 "storeFront": "143441", 
                 "storeFrontHeader": "143441-1,28", 
-                "environmentDataCenter": "NWK", 
+                "environmentDataCenter": "ST11", 
                 "platformName": "iTunes12"
             }, 
             "postFrequency": 60000, 
@@ -1346,7 +1346,7 @@
         "countryCode": "usa", 
         "GlobalLists": {
             "removeFromWishlistUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/removeFromWishlist", 
-            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=95A6", 
+            "viewUrl": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGlobalLists?revNum=9548", 
             "updateRadioHistoryUrl": "https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/updateRadioHistory", 
             "popover": {
                 "width": "350", 
