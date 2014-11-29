@@ -48,8 +48,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppType.cs" />
-    <Compile Include="Class1.cs" />
+    <Compile Include="ReleaseContainter.cs" />
+    <Compile Include="SplistEntry.cs" />
     <Compile Include="Class2.cs" />
+    <Compile Include="Returner.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
