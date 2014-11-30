@@ -1,0 +1,1949 @@
+Percent Agreement:	75.4966887417219	 Total Classified:	151	 Number Different:	37	Total Split:	9
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Hongyan3k5per.json
+{
+    "entry": "- Updated Settings page including link to \"My Rewards\"",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "1.1.0",
+    "ReleaseDate": "26/07/2012",
+    "ApplicationName": "Wish",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Updated Settings page including link to \"My Rewards\""
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Kendall3k5per.json
+{
+    "entry": "- Updated Settings page including link to \"My Rewards\"",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "1.1.0",
+    "ReleaseDate": "26/07/2012",
+    "ApplicationName": "Wish",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Updated Settings page including link to \"My Rewards\""
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Hongyan3k5per.json
+{
+    "entry": "- Score Attack Mode: a new way to play through the story! You start at level one with all Spirits and Idols unlocked. Combat performance is rated for efficiency, and all areas are repeatable.",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "8",
+    "ReleaseDate": "14/12/2011",
+    "ApplicationName": "BastionD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Score Attack Mode: a new way to play through the story! You start at level one with all Spirits and Idols unlocked. Combat performance is rated for efficiency, and all areas are repeatable."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Kendall3k5per.json
+{
+    "entry": "- Score Attack Mode: a new way to play through the story! You start at level one with all Spirits and Idols unlocked. Combat performance is rated for efficiency, and all areas are repeatable.",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "8",
+    "ReleaseDate": "14/12/2011",
+    "ApplicationName": "BastionD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Score Attack Mode: a new way to play through the story! You start at level one with all Spirits and Idols unlocked. Combat performance is rated for efficiency, and all areas are repeatable."
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Hongyan3k5per.json
+{
+    "entry": "_ Reduced battery usage",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "3.2",
+    "ReleaseDate": "06/07/2012",
+    "ApplicationName": "Pandora",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "_ Reduced battery usage"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Kendall3k5per.json
+{
+    "entry": "_ Reduced battery usage",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "3.2",
+    "ReleaseDate": "06/07/2012",
+    "ApplicationName": "Pandora",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "_ Reduced battery usage"
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Hongyan3k5per.json
+{
+    "entry": "- The size buttons now show what size they will be saving.",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "1.1",
+    "ReleaseDate": "20/11/2012",
+    "ApplicationName": "Afterlight",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": true,
+    "split": false,
+    "merged": false,
+    "original_text": "- The size buttons now show what size they will be saving."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Kendall3k5per.json
+{
+    "entry": "- The size buttons now show what size they will be saving.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "1.1",
+    "ReleaseDate": "20/11/2012",
+    "ApplicationName": "Afterlight",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- The size buttons now show what size they will be saving."
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Hongyan3k5per.json
+{
+    "entry": "-Search for new RunKeeper friends by full name",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "4.3",
+    "ReleaseDate": "04/02/2014",
+    "ApplicationName": "Run Keeper",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "-Search for new RunKeeper friends by full name"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Kendall3k5per.json
+{
+    "entry": "-Search for new RunKeeper friends by full name",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "4.3",
+    "ReleaseDate": "04/02/2014",
+    "ApplicationName": "Run Keeper",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "-Search for new RunKeeper friends by full name"
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Hongyan3k5per.json
+{
+    "entry": "Say hello to a leaner, cleaner RunKeeper! ",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "4.0",
+    "ReleaseDate": "17/09/2013",
+    "ApplicationName": "Run Keeper",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Say hello to a leaner, cleaner RunKeeper! "
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Kendall3k5per.json
+{
+    "entry": "Say hello to a leaner, cleaner RunKeeper! ",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "4.0",
+    "ReleaseDate": "17/09/2013",
+    "ApplicationName": "Run Keeper",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Say hello to a leaner, cleaner RunKeeper! "
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Hongyan3k5per.json
+{
+    "entry": "\t\tClicking the file shelf button in a background tab now selects the tab",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "2.0 - build 104",
+    "ReleaseDate": "14/12/2010",
+    "ApplicationName": "KaleidoscopeD",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t\tClicking the file shelf button in a background tab now selects the tab"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Kendall3k5per.json
+{
+    "entry": "\t\tClicking the file shelf button in a background tab now selects the tab",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "2.0 - build 104",
+    "ReleaseDate": "14/12/2010",
+    "ApplicationName": "KaleidoscopeD",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t\tClicking the file shelf button in a background tab now selects the tab"
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Hongyan3k5per.json
+{
+    "entry": "\t\tIntegration",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "2.0 - build 104",
+    "ReleaseDate": "14/12/2010",
+    "ApplicationName": "KaleidoscopeD",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": true,
+    "split": false,
+    "merged": false,
+    "original_text": "\t\tIntegration"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Kendall3k5per.json
+{
+    "entry": "\t\tIntegration",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "2.0 - build 104",
+    "ReleaseDate": "14/12/2010",
+    "ApplicationName": "KaleidoscopeD",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t\tIntegration"
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Hongyan3k5per.json
+{
+    "entry": "- Fixed an issue in the Bullhead Trial where the text stated that the Gold Prize requirement involved completing the trial having taken less than two hits instead of three.",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "4",
+    "ReleaseDate": "19/08/2011",
+    "ApplicationName": "BastionD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Fixed an issue in the Bullhead Trial where the text stated that the Gold Prize requirement involved completing the trial having taken less than two hits instead of three."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Kendall3k5per.json
+{
+    "entry": "- Fixed an issue in the Bullhead Trial where the text stated that the Gold Prize requirement involved completing the trial having taken less than two hits instead of three.",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "4",
+    "ReleaseDate": "19/08/2011",
+    "ApplicationName": "BastionD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Fixed an issue in the Bullhead Trial where the text stated that the Gold Prize requirement involved completing the trial having taken less than two hits instead of three."
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Hongyan3k5per.json
+{
+    "entry": "* See if a comment was shared privately or publicly",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "2.5.0",
+    "ReleaseDate": "17/03/2014",
+    "ApplicationName": "Youtube",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "* See if a comment was shared privately or publicly"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Kendall3k5per.json
+{
+    "entry": "* See if a comment was shared privately or publicly",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "2.5.0",
+    "ReleaseDate": "17/03/2014",
+    "ApplicationName": "Youtube",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "* See if a comment was shared privately or publicly"
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Hongyan3k5per.json
+{
+    "entry": "This update includes a major upgrade, from CEF1 to CEF3.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "0.9.4",
+    "ReleaseDate": "23/09/2013",
+    "ApplicationName": "SpotifyD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "This update includes a major upgrade, from CEF1 to CEF3."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Kendall3k5per.json
+{
+    "entry": "This update includes a major upgrade, from CEF1 to CEF3.",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "0.9.4",
+    "ReleaseDate": "23/09/2013",
+    "ApplicationName": "SpotifyD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "This update includes a major upgrade, from CEF1 to CEF3."
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Hongyan3k5per.json
+{
+    "entry": "\t\tToolbar and menu options are more consistently disabled when invalid for a selection",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "1.0b3",
+    "ReleaseDate": "30/06/2008",
+    "ApplicationName": "Versions",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t\tToolbar and menu options are more consistently disabled when invalid for a selection"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Kendall3k5per.json
+{
+    "entry": "\t\tToolbar and menu options are more consistently disabled when invalid for a selection",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "1.0b3",
+    "ReleaseDate": "30/06/2008",
+    "ApplicationName": "Versions",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t\tToolbar and menu options are more consistently disabled when invalid for a selection"
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Hongyan3k5per.json
+{
+    "entry": "Complete the Stranger's Dream with five or more Shrine Idols invoked.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "8",
+    "ReleaseDate": "14/12/2011",
+    "ApplicationName": "BastionD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Complete the Stranger's Dream with five or more Shrine Idols invoked."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Kendall3k5per.json
+{
+    "entry": "Complete the Stranger's Dream with five or more Shrine Idols invoked.",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "8",
+    "ReleaseDate": "14/12/2011",
+    "ApplicationName": "BastionD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Complete the Stranger's Dream with five or more Shrine Idols invoked."
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Hongyan3k5per.json
+{
+    "entry": "_ Re-discover your favorite music on your profile page",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "4.1",
+    "ReleaseDate": "17/11/2012",
+    "ApplicationName": "Pandora",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "_ Re-discover your favorite music on your profile page"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Kendall3k5per.json
+{
+    "entry": "_ Re-discover your favorite music on your profile page",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "4.1",
+    "ReleaseDate": "17/11/2012",
+    "ApplicationName": "Pandora",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "_ Re-discover your favorite music on your profile page"
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Hongyan3k5per.json
+{
+    "entry": "Product Update - Valve",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "11",
+    "ReleaseDate": "04/05/2012",
+    "ApplicationName": "BastionD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Product Update - Valve"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Kendall3k5per.json
+{
+    "entry": "Product Update - Valve",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "11",
+    "ReleaseDate": "04/05/2012",
+    "ApplicationName": "BastionD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Product Update - Valve"
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Hongyan3k5per.json
+{
+    "entry": "- Add more photos to a product from camera or URL",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "1.1.0",
+    "ReleaseDate": "26/07/2012",
+    "ApplicationName": "Wish",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Add more photos to a product from camera or URL"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Kendall3k5per.json
+{
+    "entry": "- Add more photos to a product from camera or URL",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "1.1.0",
+    "ReleaseDate": "26/07/2012",
+    "ApplicationName": "Wish",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Add more photos to a product from camera or URL"
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Hongyan3k5per.json
+{
+    "entry": "Ability to watch videos in Windows Media Player if you do not have Flash installed",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "4.0.0",
+    "ReleaseDate": "28/07/2014",
+    "ApplicationName": "Raptr - D",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": true,
+    "split": false,
+    "merged": false,
+    "original_text": "Ability to watch videos in Windows Media Player if you do not have Flash installed"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Kendall3k5per.json
+{
+    "entry": "Ability to watch videos in Windows Media Player if you do not have Flash installed",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "4.0.0",
+    "ReleaseDate": "28/07/2014",
+    "ApplicationName": "Raptr - D",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Ability to watch videos in Windows Media Player if you do not have Flash installed"
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Hongyan3k5per.json
+{
+    "entry": "* Delete specific nights",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "4.0",
+    "ReleaseDate": "20/09/2012",
+    "ApplicationName": "Sleep Cycle",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "* Delete specific nights"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Kendall3k5per.json
+{
+    "entry": "* Delete specific nights",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "4.0",
+    "ReleaseDate": "20/09/2012",
+    "ApplicationName": "Sleep Cycle",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "* Delete specific nights"
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Hongyan3k5per.json
+{
+    "entry": "\t•\tWhen tabs are open a new tab indicator appears at the bottom right of the article pane. Clicking it shows or hides the tab bar. Eventually this will only show when tabs are otherwise hidden.",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "4.0 Public Beta 11",
+    "ReleaseDate": "04/11/2013",
+    "ApplicationName": "Net News",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t•\tWhen tabs are open a new tab indicator appears at the bottom right of the article pane. Clicking it shows or hides the tab bar. Eventually this will only show when tabs are otherwise hidden."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Kendall3k5per.json
+{
+    "entry": "\t•\tWhen tabs are open a new tab indicator appears at the bottom right of the article pane. Clicking it shows or hides the tab bar. Eventually this will only show when tabs are otherwise hidden.",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "4.0 Public Beta 11",
+    "ReleaseDate": "04/11/2013",
+    "ApplicationName": "Net News",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t•\tWhen tabs are open a new tab indicator appears at the bottom right of the article pane. Clicking it shows or hides the tab bar. Eventually this will only show when tabs are otherwise hidden."
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Hongyan3k5per.json
+{
+    "entry": "\t\tKaleidoscope now handles different color spaces more reliably in Image Scope.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "2.1 - build 134",
+    "ReleaseDate": "19/02/2013",
+    "ApplicationName": "KaleidoscopeD",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t\tKaleidoscope now handles different color spaces more reliably in Image Scope."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Kendall3k5per.json
+{
+    "entry": "\t\tKaleidoscope now handles different color spaces more reliably in Image Scope.",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "2.1 - build 134",
+    "ReleaseDate": "19/02/2013",
+    "ApplicationName": "KaleidoscopeD",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t\tKaleidoscope now handles different color spaces more reliably in Image Scope."
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Hongyan3k5per.json
+{
+    "entry": "",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "2.6",
+    "ReleaseDate": "27/11/2006",
+    "ApplicationName": "Charles",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": ""
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Kendall3k5per.json
+{
+    "entry": "",
+    "classification": {
+        "str_type": "Not Classified",
+        "int_type": 6
+    },
+    "VersionNumber": "2.6",
+    "ReleaseDate": "27/11/2006",
+    "ApplicationName": "Charles",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": ""
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Hongyan3k5per.json
+{
+    "entry": "",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "3.5",
+    "ReleaseDate": "23/12/2009",
+    "ApplicationName": "Charles",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": ""
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Kendall3k5per.json
+{
+    "entry": "",
+    "classification": {
+        "str_type": "Not Classified",
+        "int_type": 6
+    },
+    "VersionNumber": "3.5",
+    "ReleaseDate": "23/12/2009",
+    "ApplicationName": "Charles",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": ""
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Hongyan3k5per.json
+{
+    "entry": "\t\tSubversion 1.6 upgraded to release 1.6.5",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "1.0.5",
+    "ReleaseDate": "02/09/2009",
+    "ApplicationName": "Versions",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t\tSubversion 1.6 upgraded to release 1.6.5"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Kendall3k5per.json
+{
+    "entry": "\t\tSubversion 1.6 upgraded to release 1.6.5",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "1.0.5",
+    "ReleaseDate": "02/09/2009",
+    "ApplicationName": "Versions",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t\tSubversion 1.6 upgraded to release 1.6.5"
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Hongyan3k5per.json
+{
+    "entry": "New: Our menus are more gorgeous than ever.",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "1.3.0",
+    "ReleaseDate": "15/08/2014",
+    "ApplicationName": "SpotifyM",
+    "ApplicationType": {
+        "str_type": "Sibling - Mobile",
+        "int_type": 4
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "New: Our menus are more gorgeous than ever."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Kendall3k5per.json
+{
+    "entry": "New: Our menus are more gorgeous than ever.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "1.3.0",
+    "ReleaseDate": "15/08/2014",
+    "ApplicationName": "SpotifyM",
+    "ApplicationType": {
+        "str_type": "Sibling - Mobile",
+        "int_type": 4
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "New: Our menus are more gorgeous than ever."
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Hongyan3k5per.json
+{
+    "entry": "In-Game HUD",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "4.1.0",
+    "ReleaseDate": "01/08/2014",
+    "ApplicationName": "Raptr - D",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "In-Game HUD"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Kendall3k5per.json
+{
+    "entry": "In-Game HUD",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "4.1.0",
+    "ReleaseDate": "01/08/2014",
+    "ApplicationName": "Raptr - D",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "In-Game HUD"
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Hongyan3k5per.json
+{
+    "entry": "* Enrich colors with Warmth and Saturation",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "6.0.1",
+    "ReleaseDate": "04/06/2014",
+    "ApplicationName": "Instagram",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "* Enrich colors with Warmth and Saturation"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Kendall3k5per.json
+{
+    "entry": "* Enrich colors with Warmth and Saturation",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "6.0.1",
+    "ReleaseDate": "04/06/2014",
+    "ApplicationName": "Instagram",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "* Enrich colors with Warmth and Saturation"
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Hongyan3k5per.json
+{
+    "entry": "Disabled Secure Search in Google to improve monitoring, filtering, and reporting.",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "5.1.5.52",
+    "ReleaseDate": "30/10/2014",
+    "ApplicationName": "Covenant EyesD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": true,
+    "split": false,
+    "merged": false,
+    "original_text": "Disabled Secure Search in Google to improve monitoring, filtering, and reporting."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Kendall3k5per.json
+{
+    "entry": "Disabled Secure Search in Google to improve monitoring, filtering, and reporting.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "5.1.5.52",
+    "ReleaseDate": "30/10/2014",
+    "ApplicationName": "Covenant EyesD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Disabled Secure Search in Google to improve monitoring, filtering, and reporting."
+}
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Hongyan3k5per.json
+{
+    "entry": "\t\tChanged Command + Shift + \\ to now toggle the toolbar",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "1.1.3",
+    "ReleaseDate": "23/12/2010",
+    "ApplicationName": "Versions",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t\tChanged Command + Shift + \\ to now toggle the toolbar"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Kendall3k5per.json
+{
+    "entry": "\t\tChanged Command + Shift + \\ to now toggle the toolbar",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "1.1.3",
+    "ReleaseDate": "23/12/2010",
+    "ApplicationName": "Versions",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t\tChanged Command + Shift + \\ to now toggle the toolbar"
+}
+===========================Splits===========================
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Hongyan3k5per.json
+{
+    "entry": "_ Performance and bug fixes",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "2.2.0",
+    "ReleaseDate": "08/01/2013",
+    "ApplicationName": "Wish",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "_ Performance and bug fixes"
+}
+
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Kendall3k5per.json
+{
+    "entry": "_ Performance ",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "2.2.0",
+    "ReleaseDate": "08/01/2013",
+    "ApplicationName": "Wish",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": true,
+    "merged": false,
+    "original_text": "_ Performance and bug fixes"
+}
+
+{
+    "entry": "and bug fixes",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "2.2.0",
+    "ReleaseDate": "08/01/2013",
+    "ApplicationName": "Wish",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": true,
+    "merged": false,
+    "original_text": "_ Performance and bug fixes"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Hongyan3k5per.json
+{
+    "entry": "- The cropping tool has been enhanced. ",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "1.5",
+    "ReleaseDate": "11/03/2013",
+    "ApplicationName": "Afterlight",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": true,
+    "merged": false,
+    "original_text": "- The cropping tool has been enhanced. The free transform option has more control, and we've added a golden ratio crop option."
+}
+
+{
+    "entry": "The free transform option has more control, ",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "1.5",
+    "ReleaseDate": "11/03/2013",
+    "ApplicationName": "Afterlight",
+    "ApplicationType": {
+        "str_type": "Not Classified",
+        "int_type": 3
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": true,
+    "merged": false,
+    "original_text": "- The cropping tool has been enhanced. The free transform option has more control, and we've added a golden ratio crop option."
+}
+
+{
+    "entry": "and we've added a golden ratio crop option.",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "1.5",
+    "ReleaseDate": "11/03/2013",
+    "ApplicationName": "Afterlight",
+    "ApplicationType": {
+        "str_type": "Not Classified",
+        "int_type": 3
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- The cropping tool has been enhanced. The free transform option has more control, and we've added a golden ratio crop option."
+}
+
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Kendall3k5per.json
+{
+    "entry": "- The cropping tool has been enhanced. The free transform option has more control, and we've added a golden ratio crop option.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "1.5",
+    "ReleaseDate": "11/03/2013",
+    "ApplicationName": "Afterlight",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- The cropping tool has been enhanced. The free transform option has more control, and we've added a golden ratio crop option."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Hongyan3k5per.json
+{
+    "entry": " Bug fixes and performance improvements",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "5.0.13",
+    "ReleaseDate": "29/05/2014",
+    "ApplicationName": "Instagram",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": " Bug fixes and performance improvements"
+}
+
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Kendall3k5per.json
+{
+    "entry": " Bug fixes ",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "5.0.13",
+    "ReleaseDate": "29/05/2014",
+    "ApplicationName": "Instagram",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": true,
+    "merged": false,
+    "original_text": " Bug fixes and performance improvements"
+}
+
+{
+    "entry": "and performance improvements",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "5.0.13",
+    "ReleaseDate": "29/05/2014",
+    "ApplicationName": "Instagram",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": true,
+    "merged": false,
+    "original_text": " Bug fixes and performance improvements"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Hongyan3k5per.json
+{
+    "entry": "-Bug fixes and ",
+    "classification": {
+        "str_type": "Not Classified",
+        "int_type": 6
+    },
+    "VersionNumber": "4.2.1",
+    "ReleaseDate": "10/12/2013",
+    "ApplicationName": "Run Keeper",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": true,
+    "merged": false,
+    "original_text": "-Bug fixes and improvements"
+}
+
+{
+    "entry": "improvements",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "4.2.1",
+    "ReleaseDate": "10/12/2013",
+    "ApplicationName": "Run Keeper",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": true,
+    "merged": false,
+    "original_text": "-Bug fixes and improvements"
+}
+
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Kendall3k5per.json
+{
+    "entry": "-Bug fixes ",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "4.2.1",
+    "ReleaseDate": "10/12/2013",
+    "ApplicationName": "Run Keeper",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": true,
+    "merged": false,
+    "original_text": "-Bug fixes and improvements"
+}
+
+{
+    "entry": "and improvements",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "4.2.1",
+    "ReleaseDate": "10/12/2013",
+    "ApplicationName": "Run Keeper",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": true,
+    "merged": false,
+    "original_text": "-Bug fixes and improvements"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Hongyan3k5per.json
+{
+    "entry": "Other improvements and ",
+    "classification": {
+        "str_type": "Not Classified",
+        "int_type": 6
+    },
+    "VersionNumber": "5.3",
+    "ReleaseDate": "14/04/2014",
+    "ApplicationName": "Pandora",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": true,
+    "merged": false,
+    "original_text": "Other improvements and bug fixes to give you the best listening experience"
+}
+
+{
+    "entry": "bug fixes to give you the best listening experience",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "5.3",
+    "ReleaseDate": "14/04/2014",
+    "ApplicationName": "Pandora",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": true,
+    "merged": false,
+    "original_text": "Other improvements and bug fixes to give you the best listening experience"
+}
+
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Kendall3k5per.json
+{
+    "entry": "Other improvements ",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "5.3",
+    "ReleaseDate": "14/04/2014",
+    "ApplicationName": "Pandora",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": true,
+    "merged": false,
+    "original_text": "Other improvements and bug fixes to give you the best listening experience"
+}
+
+{
+    "entry": "and bug fixes to give you the best listening experience",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "5.3",
+    "ReleaseDate": "14/04/2014",
+    "ApplicationName": "Pandora",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": true,
+    "merged": false,
+    "original_text": "Other improvements and bug fixes to give you the best listening experience"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Hongyan3k5per.json
+{
+    "entry": "- Your pace gets calculated when you enter your total distance after your workout\t",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "5.0",
+    "ReleaseDate": "03/11/2014",
+    "ApplicationName": "Run Keeper",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": true,
+    "merged": true,
+    "original_text": "- Your pace gets calculated when you enter your total distance after your workout"
+}
+
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Kendall3k5per.json
+{
+    "entry": "- Your pace gets calculated when you enter your total distance after your workout",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "5.0",
+    "ReleaseDate": "03/11/2014",
+    "ApplicationName": "Run Keeper",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Your pace gets calculated when you enter your total distance after your workout"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Hongyan3k5per.json
+{
+    "entry": "\tChangesets",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "1.1 - build 40",
+    "ReleaseDate": "01/06/2010",
+    "ApplicationName": "KaleidoscopeD",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": true,
+    "merged": false,
+    "original_text": "\t\tChangesets"
+}
+
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Kendall3k5per.json
+{
+    "entry": "\t\tChangesets",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "1.1 - build 40",
+    "ReleaseDate": "01/06/2010",
+    "ApplicationName": "KaleidoscopeD",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t\tChangesets"
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Hongyan3k5per.json
+{
+    "entry": "Additional improvements and ",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "5.5.1",
+    "ReleaseDate": "22/08/2014",
+    "ApplicationName": "Pandora",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": true,
+    "merged": false,
+    "original_text": "Additional improvements and bug fixes to give you the best listening experience."
+}
+
+{
+    "entry": "bug fixes to give you the best listening experience.",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "5.5.1",
+    "ReleaseDate": "22/08/2014",
+    "ApplicationName": "Pandora",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": true,
+    "merged": false,
+    "original_text": "Additional improvements and bug fixes to give you the best listening experience."
+}
+
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Kendall3k5per.json
+{
+    "entry": "Additional improvements ",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "5.5.1",
+    "ReleaseDate": "22/08/2014",
+    "ApplicationName": "Pandora",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": true,
+    "merged": false,
+    "original_text": "Additional improvements and bug fixes to give you the best listening experience."
+}
+
+{
+    "entry": "and bug fixes to give you the best listening experience.",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "5.5.1",
+    "ReleaseDate": "22/08/2014",
+    "ApplicationName": "Pandora",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": true,
+    "merged": false,
+    "original_text": "Additional improvements and bug fixes to give you the best listening experience."
+}
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Hongyan3k5per.json
+{
+    "entry": "- Tons of fixes and ",
+    "classification": {
+        "str_type": "Not Classified",
+        "int_type": 6
+    },
+    "VersionNumber": "3.3.0",
+    "ReleaseDate": "09/12/2013",
+    "ApplicationName": "Wish",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": true,
+    "merged": false,
+    "original_text": "- Tons of fixes and improvements"
+}
+
+{
+    "entry": "improvements",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "3.3.0",
+    "ReleaseDate": "09/12/2013",
+    "ApplicationName": "Wish",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": true,
+    "merged": false,
+    "original_text": "- Tons of fixes and improvements"
+}
+
+
+C:\Users\Kitsune\Documents\GitHub\VersionClassifier\Data\json\SmallerSampleProgress\Kendall3k5per.json
+{
+    "entry": "- Tons of fixes ",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "3.3.0",
+    "ReleaseDate": "09/12/2013",
+    "ApplicationName": "Wish",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": true,
+    "merged": false,
+    "original_text": "- Tons of fixes and improvements"
+}
+
+{
+    "entry": "and improvements",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "3.3.0",
+    "ReleaseDate": "09/12/2013",
+    "ApplicationName": "Wish",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": true,
+    "merged": false,
+    "original_text": "- Tons of fixes and improvements"
+}
+

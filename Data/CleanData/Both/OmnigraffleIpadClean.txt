@@ -1,0 +1,410 @@
+﻿
+Version: 2.0
+September 17, 2014
+iOS 8+
+Welcome to OmniGraffle for iPad 2! Some highlights of the new features include:
+	•	Several Professional features such as Visio support, shape combinations, tables, and more are now available as an In-App Purchase (available for free to customers who upgrade from v1).
+	•	You can now search for user-submitted stencils at our own repository, Stenciltown.
+	•	A new Style system has been introduced to make it easier to set and apply Favorite visual styles as well as picking from available styles that exist on the canvas.
+	•	Interface changes have been made to bring OmniGraffle up to date with iOS 8. A new Canvases sidebar has been added, as well as the ability to hide interface controls completely.
+	•	Combine two or more objects on the canvas to create a custom shape. Included with the Pro In-App Purchase.
+	•	Import and export support for Visio file formats. Included with the Pro In-App Purchase.
+	•	Import and export support for OmniOutliner files.
+	•	New fill, stroke, and shadow styles have been added.
+	•	Easily AirDrop files between iOS 8 and Mac OS X 10.10 apps.
+	•	Manipulate vertex points on shapes with the Freehand Tool, and convert them to Bézier points.
+	•	Use built-in stencils or draw customizable shapes
+	•	Freehand sketch directly onto your canvas
+	•	Touch and drag to connect shapes together
+	•	Touch “lay out now” to automatically arrange your diagram
+	•	Smart guides help you align, rotate, and size objects
+	•	Create multiple page (“canvas”) documents
+	•	Share items between your canvases with shared layers
+	•	Wrap text to fit within a shape
+	•	View what styles make up a shape in your diagram
+	•	Select a whole class of objects at once to make changes
+	•	Choose colors from built-in themes
+	•	Create custom colors with support for HSB, RGB, and grayscale
+	•	Create linear and radial fills, blending up to three colors with customizable centers and angles
+	•	Set stroke/line thickness, color, and customize line styles
+	•	Create transparent shape shadows which fall on objects or layers that are behind it
+	•	Define shadow blur/sharpness, transparency, color, and position
+	•	Pinch to zoom in and out
+	•	Combine any two shapes in your document into a table
+	•	Share native OmniGraffle documents via email, or email as a scalable PDF
+	•	Save documents as a graphic in your Photos library
+
+
+Version: 1.9.3
+September 10, 2013
+iOS 6+
+OmniGraffle for iPad 1.9.3 is a minor update that adds a small security fix when using OmniPresence, and addresses compatibility issues when running under iOS 7.
+Bug Fixes
+	•	Implemented a security fix for use with OmniPresence when syncing to certain WebDAV server configurations.
+	•	Various compatibility and bug fixes when running on iOS 7.
+
+
+Version: 1.9.2
+June 24, 2013
+iOS 6+
+OmniGraffle for iPad 1.9.2 is a minor update that adds crash reporting, improves the OmniPresence experience, and fixes a number of important bugs.
+Bug Fixes
+	•	In the unfortunate circumstance that OmniGraffle for iPad crashes, on the next launch there will now be a prompt with the option to email us the crash report so that we may assist you however possible and hopefully fix the crash.
+	•	Users who are running OmniPresence on a server with a self-signed certificate will again be prompted upon the first run of OmniGraffle for iPad 1.9.2 as it connects to the server due to a change in certificate handling.
+	•	WebDAV accounts now have a 3-way control switch in their configuration to use the server for OmniPresence, import/export, or both. This can be changed at any time through Cloud Setup.
+	•	Minor changes to the OmniPresence configuration process have been made to improve the experience.
+	•	Updates have been made to the trash to properly separate it from other containers.
+	•	Localizations have been updated to account for previous changes.
+	•	The Zoom Level should be retained when an open document is refreshed via OmniPresence.
+	•	Removed the touch highlight on the file name while editing a document.
+	•	The OmniPresence icon should no longer overlap the Contents Popover button in any situation.
+	•	Fixed a bug where the Image Scale slider would not update dynamically.
+	•	Fixed a bug where images from the the Photo Roll would not always duplicate properly.
+
+
+Version: 1.9.1
+May 31, 2013
+iPad running iOS 6 or later
+OmniGraffle for iPad 1.9.1 is a minor update that fixes a critical text rendering bug, along with other text-related bug fixes.
+Bug Fixes
+	•	Fixed a critical bug where text alignment and margin settings would cause text to not render unless being edited.
+	•	Fixed a bug where objects coming from the Desktop version of OmniGraffle that have the Text Position setting of ‘resize to fit’ but only have spaces in them can render on the iPad at an incorrect size.
+
+
+Version: 1.9
+May 22, 2013
+iPad running iOS 6 or later
+OmniGraffle for iPad 1.9 is a major update that adds OmniPresence Document Syncing, a new Notes and Data Inspector, and offers a number of important bug fixes.
+New Features
+	•	OmniPresence Support - OmniGraffle documents that are present in an OmniPresence folder will sync to OmniGraffle for iPad.
+	•	New Notes and Data Inspector - Annotate objects with handy notes and key-value metadata pairs.
+Bug Fixes
+	•	Interface improvements have been made to the Drawing Tools Inspector popover.
+	•	Interface improvements have been made to the Stencils popover to better relay information about stencils in an OmniPresence folder and their state.
+	•	Very small objects in the Stencils popover will now scale up to fit in their respective cell.
+	•	When snap to grid is on, dragging out a stencil should now place it snapped to the grid.
+	•	Snap-to-Grid should now prefer the closest edge of an object instead of the closest corner.
+	•	Zoom state is now saved along with the document.
+	•	Opening the Info Inspector with a locked object selected should now return to the root level of the popover.
+	•	Fixed a hang when attempting to open documents created in previous versions of OmniGraffle for iPad.
+	•	The Text Position Inspector popover now works when text is selected.
+	•	Fixed a crash when tapping away from the radial fill before it finished loading in the Fill Inspector popover.
+	•	In progress text edits are now saved when backgrounding the app.
+	•	Fixed a bug where resizing an object could cause it to move position when aspect ratio was on.
+	•	Minor localization fixes have been made.
+	•	Fixed a bug where text that overflowed its object wouldn’t fully redraw after changing the text alignment.
+	•	Fixed a number of zoom-related gestures.
+
+
+Version: 1.8.1
+November 8, 2012
+iPad running iOS 5.1 or later
+OmniGraffle for iPad 1.8.1 is a minor update that addresses some known issues, adds missing localizations, and fixes documentation bugs.
+Bug Fixes
+	•	Fixed a hang while generating large numbers of document previews in the diagram picker while using a 1st Generation iPad.
+	•	Fixed a crash when pasting an image from another application.
+	•	Fixed a bug on iOS 6 where it was impossible split the keyboard.
+	•	Fixed a bug where the navigation button in the Stencils Popover would go missing when browsing the Photo Library.
+	•	Fixed a bug where the image scale controller would not appear for tiled images.
+	•	Fixed a bug where Squiggle fills could draw outside of certain shapes.
+	•	WYSIWYG zooming options should work appropriately for the resolution of the iPad mini.
+	•	Various bug fixes and improvements to the inspectors.
+	•	Bug fixes and usability improvements to the new Drawing Tools bar.
+	•	Missing Localizations have been added.
+	•	Documentation bug fixes.
+
+
+Version: 1.8
+September 19, 2012
+iPad running iOS 5.1 or later
+OmniGraffle for iPad 1.8 is a major update that adds a new drawing tools interface as well as better support for iPads with Retina displays and fixes a number of bugs.
+New Features
+	•	New Drawing Tools
+	◦	A new toolbar has been added to house the drawing tools, improving usability and allowing the addition of future drawing tools.
+	•	Full Retina Display Support
+	◦	Controls have been added to the Canvas Size Inspector to set whether the zoom level and object geometry is based on Apple points, screen pixels, or PostScript points.
+	•	The Inspector interface has been greatly improved.
+	•	A new Artistic Fill Style, Stipple, has been added.
+	•	Performance optimizations for placed images and artistic fills have been added.
+Bug Fixes
+	•	Addresses a number of compatibility issues when running on iOS 6.
+	•	The Stroke Inspector thickness steppers should now handle values less than one point.
+	•	Improved performance when dealing with multiple canves documents that have text variables.
+	•	Fixed some corner radius rendering issues on Retina displays.
+	•	Fixed a bug where placed PDFs would vanish when exporting a document.
+	•	Fixed some issues when double-tapping stencils to add them to the canvas.
+	•	Fixed a crash when attempting to change the font after clearing text from an object.
+
+
+Version: 1.7.1
+March 15, 2012
+iPad running iOS 4 or later
+OmniGraffle for iPad 1.7.1 is a minor update that adds support for iPads with Retina displays.
+New Features
+	•	Support for Retina displays has been added along with high-resolution versions of the image resources.
+Bug Fixes
+	•	Fixed some potential issues when browsing WebDAV servers that may have document types not associated with OmniGraffle.
+
+
+Version: 1.7
+March 6, 2012
+iPad running iOS 4 or later
+OmniGraffle for iPad 1.7 is a major update that adds a new Document Browser, new application, document, and inspector icons, along with other improvements and bug fixes.
+New Features
+	•	New Document Browser — We’ve created a new interface for viewing and managing your documents. Some key features:
+	◦	A new matrix or grid-based view of your documents for easier access when you have a large number of files.
+	◦	The ability to select multiple documents for deletion, etc. when in Edit Mode.
+	◦	Included stencils can now be deleted from the application altogether if not needed (with the ability to restore them from the Import button in the upper left of the Document Browser toolbar).
+	•	We’ve introduced a new application icon for OmniGraffle for iPad, along with generic document and stencil icons, as well as placeholder images to match.
+	•	The Style Inspector popover has a new set of icons for each section.
+	•	A new artistic fill style, Squiggle, has been added to the Fill Inspector popover.
+	•	Opening of .zip archives should now be handled by the application itself and not by the operating system.
+Bug Fixes
+	•	Fixed a bug where radial fill types would render differently on the iPad than they did on the Mac.
+	•	The Unit Scale stepper field now has better looking plus and minus symbols.
+
+
+Version: 1.6.1
+October 10, 2011
+iPad running iOS 4 or later
+OmniGraffle for iPad 1.6.1 improves compatibility with future iOS updates and fixes a handful of bugs.
+Bug Fixes
+	•	Orthogonal line control handles can now be returned to their default location by tapping the handle a second time and tapping the Reset contextual menu.
+	•	Fixed a bug where the contextual menu for a line’s midpoint would not display when zoomed in.
+	•	Fixed a bug when going from a three color gradient fill to a single color fill could render an extraneous color well in the Fill inspector popover.
+	•	Addressed a font baseline problem in the Font inspector popover.
+	•	Fixed a bug where deleting all the text in the document name in the titlebar would keep the input field for the rename showing.
+
+
+Version: 1.6
+September 6, 2011
+iPad running iOS 4 or later
+OmniGraffle 1.6 for iPad is a major update which adds a new Connections Inspector, new object styles, better text editing, and other improvements and bug fixes.
+New Features
+	•	A new Connections Inspector has been added to manage magnet placement on shapes and overall connectivity for objects.
+	•	A new marker fill style and hand-drawn stroke style have been added to help objects have a more ‘analog’ style.
+	•	Inspectors have been remade in a lighter visual style and have had their interface polished in various places.
+	•	Users running OmniGraffle on the iPad 2 can now take advantage of the new screen mirroring.
+	•	Performance when working with placed images has been greatly improved.
+	•	Text editing has been improved, thanks in part to work done on OmniOutliner for iPad. Auto-correct, auto-capitalize, paragraph formatting, and many bug fixes have been made in this release.
+Bug Fixes
+	•	Fixed a bug when exporting files that had a question mark in their name to WebDAV servers.
+	•	You can now export to PNG or PDF with a transparent background.
+	•	When sending a document to the Photos app, all canvases are sent as individual image files.
+	•	The ‘Creator’ text variable now reflects the device name instead of ‘Mobile user’.
+	•	Fixed a number of bugs with respect to text variables and unit scale.
+	•	Copying as an image now takes text variables into account.
+	•	You can now style all objects in a group when the group is selected.
+	•	Fixed a bug where undoing the unlocking of a layer could leave a locked object selected and editable.
+	•	Addressed an issue where it could be impossible to move objects in front of other locked objects.
+	•	Fixed a bug when placing an image taken with the camera on the iPad 2 where the image would be flipped depending on the orientation of the device when the photo was taken.
+
+
+Version: 1.5
+March 15, 2011
+iPad running iOS 3.2 or later
+OmniGraffle 1.5 for iPad is a major update which adds Tier 1 language localizations, new gesture support, interface improvements, and other improvements and bug fixes.
+New Features
+<
+ul>
+Localizations
+
+	•	OmniGraffle for iPad is now localized in the following languages: German, Spanish, French, Italian, Japanese, Dutch, and Simplified Chinese.
+</li>
+<li>Gestures
+    <ul>
+        <li>Our gesture code has been rewritten from the ground up to exhibit hysteresis and allow the addition of new gestures to facilitate common operations, such as:<ul>
+        <li>A long press on an object and a three-finger tap elsewhere on the canvas will duplicate the shape.</li>
+        <li>A long press on an object and swiping quickly elsewhere will nudge the object in that direction.</li>
+        <li>A long press on an object and a two-finger drag up or down elsewhere on the canvas will move the object forwards or backwards in the z-dimension.</li>
+    </ul>
+</li>
+<li>A new smart guide has been added to maintain aspect ratio when resizing a shape.</li>
+<li>Various user interface improvements have been made to toolbar elements, HUD interfaces, and inspector popovers.</li>
+
+Bug Fixes
+	•	OmniGraffle for iPad now handles self-signed WebDAV certs properly.
+	•	You can now paste in your password when signing in to a WebDAV server or MobileMe iDisk.
+	•	It’s no longer necessary to add a trailing slash character to the URL of a WebDAV server if it’s not needed.
+	•	The bevelled rectangle shape is now recognized by OmniGraffle for iPad and displays properly.
+	•	Addressed an issue recognizing pasteboard data when copying a document as an image from OmniGraphSketcher for iPad.
+	•	Fixed a quivering issue when dragging an object along a smart alignment guide.
+	•	The “locked” resize knobs are now an appropriate size.
+	•	Fixed a bug where it was difficult to edit components of some tables (particularly in the UML stencil).
+	•	Swiping to delete a layer in the Contents Popover should no longer cause another layer to enter a partial edit state.
+	•	Date variables should export properly now to the Photo Library or when emailing as a PNG.
+	•	Fixed a text justification and alignment bug for auto-resizing text objects.
+	•	Newly created documents with no changes no longer display a creation or modification date of <<Some Date>>.
+	•	Fixed a bug where the Font Inspector popover could inaccurately show bold-italic-underline styles after deleting text.
+	•	When copying a table with cells that contain text, we now place tab-separated text on the pasteboard for use in other applications.
+	•	Duplicating a layer will inherit the name of the originating layer.
+Crashes
+	•	Fixed a crash upon using Command-Shift-arrows whilst editing a text field with external keyboard.
+	•	Fixed a crash when attempting to delete selected text in file name while in the document picker.
+	•	Fixed a crash using option-up/down arrows while editing text with external keyboard.
+	•	Fixed a crash when importing filenames with spécîål characters via WebDAV.
+	•	Fixed a crash when selecting an object after deleting the last object in list while selected while running in iOS 3.
+
+
+Version: 1.4
+November 8, 2010
+iPad running iPhone OS 3.2 or later
+OmniGraffle 1.4 for iPad is a major update which adds support for printing and multitasking in iOS 4.2, improvements to the Document Browser, stencil management, remote iDisk and WebDAV support, as well as other improvements and bug fixes.
+New Features
+	•	iOS 4.2 Compatibility
+	◦	Printing
+	▪	AirPrint support has been added for those users running iOS 4.2. Printing controls are accessible from the Document Browser. By default, all documents are set to fit canvases on one printer page, this setting can be toggled in the Canvas Size Inspector popover.
+	◦	Multitasking
+	▪	OmniGraffle for iPad 1.4 takes advantage of Multitasking in iOS 4.2 to better maintain application state and perform tasks when in the background.
+	•	Document Management
+	◦	Stencil Management and Creation
+	▪	Users are now able to create their own custom stencils from scratch.
+	▪	The ability to selectively show and hide any or all stencils in the Stencils popover has now been added.
+	▪	A server-side flag at Graffletopia has been put in place to expressly not show certain stencils that perform poorly or not at all on the iPad. Said stencils will not show in a search from within OmniGraffle for iPad.
+	▪	The Konigi Wireframe stencils now come bundled with OmniGraffle for iPad.
+	◦	Document Browser Improvements
+	▪	The ability to selectively view documents based on file type has been added, users can choose to look at normal diagrams or at custom and downloaded stencils.
+	▪	The ability to change the sorting order in the Document Browser has been added as well, allowing users to view documents in a list based on title or modification date.
+	▪	A scrubber of sorts has been added to the bottom of the Document Browser view, providing quick navigation from one end of the list of documents to the other.
+	•	Remote iDisk and WebDAV support
+	◦	Support to access and write to files at a WebDAV server or MobileMe iDisk account has been added. Documents in both the local and remote locations will be overwritten with a prompt to better facilitate round-trip operations for working with the same file.
+	◦	Documents can be exported and emailed natively or as PDFs and PNGs to WebDAV and iDisk as well as to the iTunes directory for access via the desktop.
+	•	Text Editing Improvements
+	◦	A new and improved Font Inspector popover is in place, making bold and italic typeface selection easier.
+	◦	Text can now be underlined.
+	◦	Various improvements to the Text Tool in Drawing Mode have been made.
+Bug Fixes
+	•	Better descriptive clues have been added to the controls to filter by style in the Selection view in the Contents popover.
+	•	Locked layers are indicated as such in the Object List view in the Contents popover.
+	•	Fixed a bug where it was possible to move a shape into a locked layer.
+	•	The Text selection contextual menu now has a Select option for easier text selection.
+	•	Fixed a bug where the Geometry Inspector steppers were not working properly if a file coming from the desktop had a custom ruler origin.
+	•	Fixed an issue with Linear Blend fills not displaying properly if they had transparent outer colors.
+	•	Fixed a bug where transparent canvas backgrounds would expose previous documents or views.
+	•	Addressed some rotation snapping problems.
+
+
+Version: 1.3
+October 2, 2010
+iPad running iPhone OS 3.2 or later
+OmniGraffle 1.3 for iPad is a major update which adds image placement and manipulation, Graffletopia stencil searching and installation, new drawing tools, and other usability and rich text editing improvements.
+New Features
+	•	Image Placement and Manipulation - Place images from the Photos Library, set their opacity, resize, crop, or tile them within your shapes.
+	•	Graffletopia Search and Install - Search Graffletopia.com’s large catalog of OmniGraffle stencils, download and install, all without having to leave OmniGraffle for iPad.
+	•	New Drawing Tools - A new Line Tool and Text Tool have been added to the Drawing Mode, as well as adding favorite and default styles for all of the drawing tools.
+	•	Rich Text Improvements - The ability to have multiple fonts and colors for labels has been added, along with many other text editing bug fixes and improvements.
+	•	Interface and Usability Improvements - A number of enhancements and features have been added to make working with OmniGraffle easier, including Unit Scale, easier document naming in the Document Browser, Canvas background fill colors, emailing your files as PNG, and many others.
+Bug Fixes
+	•	Fixed a crash when manipulating multiple line midpoints.
+	•	Fixed a crash when tapping on a document and the New Document button at the same time
+	•	Fixed a crash when dragging a shape from a shared layer to the bottom of an empty layer in the Contents Popover.
+	•	OmniGraffle no longer reloads a file on launch if it crashed previously trying to load it.
+	•	Fixed a crash when selecting a locked object.
+	•	Fixed a crash that could occur when double tapping on text in the Welcome document.
+	•	Fixed a crash when using the Japanese input system with a Bluetooth keyboard.
+	•	You can now select offered substitutions for Japanese characters when using a hardware keyboard.
+	•	Fixed a bug where the Japanese Input Substition Menu when using a hardware keyboard started off super tiny.
+	•	OmniGraffle should now be displaying all Japanese Input substitution options when using a hardware keyboard.
+	•	Fixed a bug where dragging a shape underneath an empty layer would create an extra layer.
+	•	Fixed a bug where duplicating canvases, moving objects between layers, and sending to front or back could make text temporarily disappear.
+	•	Fixed a bug where objects on a shared layer would multiply by tapping on them in the object list popover. (Tribbles!)
+	•	Fixed a bug where switching from one layer name field to the other after editing would dismiss the keyboard.
+	•	The Geometry Inspector should now appropriately handle multiple selection.
+	•	Fixed a Stroke Pattern Picker overscrolling problem.
+	•	Fixed a duplicate or missing color issue in the Font Inspector.
+	•	The Stroke Inspector now reports in the unit of choice in both places.
+	•	Fixed a hang when changing the freehand stroke pattern.
+	•	Font transparency is no longer lost when closing and reopening a file.
+	•	Fixed a bug where the Text View Selection Reticle did not reliably show up.
+	•	Much easier now to directly edit the label text of a group or table component.
+	•	Editing text will now save the changes when exiting to the Document Browser.
+	•	Fixed a bug where the text insertion point loupe didn’t work on document titles or any other light-colored text.
+	•	If you leave a new label without typing anything, it should now go away.
+	•	Fixed a bug where it was impossible to undo after making some Rich Text changes.
+	•	You can no longer rotate objects while in Drawing Mode.
+	•	Fixed a bug where it was possible to connect a line to the shape you were starting out on.
+	•	You can no longer add midpoints to a line while in Drawing Mode.
+	•	Fixed a bug where line artifacts could appear when drawing a freehand line.
+	•	You can now rename files while using an external or Bluetooth keyboard.
+	•	Fixed some annoying canvas repositioning issues.
+	•	The tap target it box for lines and freehand shapes that are line-like has been increased for easier selection.
+	•	Fixed a bug when going to the Document Browser wouldn’t center the document properly while in landscape orientation.
+	•	Addressed some issues with the Context Menu and shapes in front of or behind other objects.
+	•	Pasting images should now place it under your finger in both orientations.
+	•	Pasting text should now place it under your finger in when zoomed in.
+	•	Fixed a resolution problem when going back to the Document Browser in some cases.
+	•	Documents that are file packages can now be emailed properly.
+	•	Fixed some irritating Multi-Touch issues between zooming and rotating.
+	•	An error is now displayed when using invalid characters in a document name.
+	•	Connecting shapes should now trigger the purple highlight for the destination object.
+	•	Fixed a bug where the purple connection highlight would flash repeatedly when connecting the tail end of a line to a shape.
+	•	Fixed a bug where copying and pasting would re-order objects in virtual groups.
+	•	Along with supporting image placement and manipulation, a number of bugs involving existing documents and stencils with images have been addressed.
+	•	Files coming from the Desktop that have a transparent canvas fill color should display properly now.
+	•	Fixed an issue where the iPad’s passcode could be shown on an external display via the VGA Adaptor when the iPad was woken from standby.
+	•	Fixed a bug where shadows were lost on export to PDF or PNG.
+	•	Fixed a bug when pasting an image copied out of the Photos app that would also create an object that contained the image file name.
+	•	OmniGraffle now shows a warning when an image type is not supported in an existing document.
+	•	Fixed yet another bug concerning the UML stencils resizing improperly when editing text.
+	•	Duplicated canvases and layers are more smartly named now.
+	•	A three-finger swipe up or down will navigate to the previous or next canvas.
+	•	Smart Guides are less aggressive now.
+	•	The Object List in the Contents Popover is now in Edit Mode by default.
+	•	Auto-resizing canvases should pad away from shape a little better now.
+
+
+Version: 1.2
+June 3, 2010
+iPad running iPhone OS 3.2 or later
+OmniGraffle 1.2 for iPad is a maintenance and feature release which has fixes for Japanese and Chinese keyboard input, added VGA adapter support, usability improvments and many other bug fixes.
+Internationalization
+	•	Japanese and Chinese keyboard input has been fixed.
+Interface Improvements
+	•	It is now possible to rename documents in the Document Browser by tapping on the filename.
+	•	VGA projector adaptor support has been added.
+	•	The contextual menu should spawn off of a selection more properly instead of where the tap occurred.
+	•	Improvements to the HUD have been made in where and how it displays, and a HUD for rotation has been added.
+	•	Some minor improvements to inspector popover UI.
+	•	A menu has been added to the Undo button offering both Undo and Redo options when the button is tapped and held.
+Bug Fixes
+	•	Editing text has been improved; wrapping and shifting text when editing should no longer occur.
+	•	Transparent gradients should no longer render as opaque in the document preview.
+	•	Fixed a Cocoa Error 4 when working with legacy documents that had no Quick Look preview.
+	•	Fixed a rendering issue when using the Freehand tool in Drawing Mode.
+	•	Rotating the device should zoom the document if it was set to fit to the screen.
+	•	You no longer have the option of making a table out of selected lines.
+	•	You no longer have the option of making a table out of a locked shape.
+	•	You can no longer add a label to a locked object.
+	•	The blue selection reticle should be less pervasive when tapping the canvas.
+
+
+Version: 1.1
+April 26, 2010
+iPad running iPhone OS 3.2 or later
+Performance Enhancements
+	•	Added a set of tiling scroll view classes that greatly improve performance when moving and manipulating objects and panning the view.
+Multi-Touch Gestures
+	•	Added the ability to tap and hold one object and tap other objects to add to the selection.
+	•	Support for two-finger rotation of objects has been added.
+	•	Two-finger double-tapping an object will zoom to fit the object in the view.
+	•	Tapping an object while moving another will invoke temporary smart alignment guides.
+Text Editing
+	•	Improved selection when editing text.
+	•	Improved performance with respect to displaying fonts.
+File Handling
+	•	Custom stencils downloaded via Safari on the iPad or sent via email now remain as stencil files even after editing.
+File Browser
+	•	Document previews are now closer together so that neighboring graphs are always visible.
+	•	Animations when opening, closing, duplicating and deleting documents are smoother.
+	•	Fixed an issue where document previews were sometimes missing.
+	•	Delete button now spawns a popover instead of an alert.
+Stability
+	•	Fixed a number of low memory termination crashes.
+	•	Fixed a crash when using connecting shapes.
+	•	Fixed a crash when working with placed PDF images.
+	•	Fixed a crash when drawing short freehand line objects.
+
+
+Version: 1.0.1
+April 2, 2010
+iPad running iPhone OS 3.2 or later
