@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace HistoryClassifier
 {
 
-    class HistoryEntry : IEquatable<HistoryEntry>
+    class HistoryEntry : IEquatable<HistoryEntry>, IComparable<HistoryEntry>
     {
         public string entry;
         public Classification classification;
@@ -26,6 +26,19 @@ namespace HistoryClassifier
         public bool split = false;
         public bool merged = false;
         public string original_text = String.Empty;
+
+        public int CompareTo(HistoryEntry other)
+        {
+            if (other == null) return 1;
+
+            if (ApplicationName.CompareTo(other.ApplicationName) != 0) return ApplicationName.CompareTo(other.ApplicationName);
+            if (VersionNumber.CompareTo(other.VersionNumber) != 0) return VersionNumber.CompareTo(other.VersionNumber);
+            if (original_text.CompareTo(other.original_text) != 0) return original_text.CompareTo(other.original_text);
+
+
+            return entry.CompareTo(other.entry);
+
+        }
 
         public bool Equals(HistoryEntry other){
 

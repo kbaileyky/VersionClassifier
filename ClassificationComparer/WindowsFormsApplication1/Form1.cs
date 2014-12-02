@@ -283,6 +283,171 @@ namespace WindowsFormsApplication1
             textBox2.Text = filename;
         }
 
+        private void btnReturn_Click(object sender, EventArgs e)
+        {
+            List<List<HistoryEntry>> diffList;
+            List<Splist_Entry> splitlist = new List<Splist_Entry>();
+            string filename = String.Empty;
+            string MobilePath = "C:\\Users\\Kitsune\\Documents\\GitHub\\VersionClassifier\\Data\\json\\VersionJson\\Mobile";
+            string DesktopPath = "C:\\Users\\Kitsune\\Documents\\GitHub\\VersionClassifier\\Data\\json\\VersionJson\\Desktop";
+            string SiblingPath = "C:\\Users\\Kitsune\\Documents\\GitHub\\VersionClassifier\\Data\\json\\VersionJson\\Both";
+
+            Entries1.Clear();
+          //  Entries2.Clear();
+            Read_Comp_File(textBox1.Text, Entries1);
+          //  Read_Comp_File(textBox2.Text, Entries2);
+            try
+            {
+                foreach (HistoryEntry h in Entries1)
+                {
+                    Console.Out.WriteLine(h.ApplicationName + " " + h.VersionNumber);
+                }
+                Console.Out.WriteLine("\n\nSorted\n\n");
+                Entries1.Sort();
+                foreach (HistoryEntry h in Entries1)
+                {
+                    Console.Out.WriteLine(h.ApplicationName+ " " + h.VersionNumber);
+                }
+
+                PutBack(Entries1, MobilePath);
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+             
+        }
+
+        private void InsertNewlyClassified(List<HistoryEntry> entrylist, List<ReleaseContainer> Releases)
+        {
+              for(int i = 0; i < entrylist.Count; i++)
+                    {
+                        HistoryEntry e = entrylist[i];
+                        if(e.ApplicationName.Equals(Releases[0].ApplicationName)){
+
+                            foreach(ReleaseContainer rc in Releases){
+
+                                if(e.VersionNumber.Equals(rc.VersionNumber)){
+
+                                    for(int j = 0; j < rc.EntryList.Count; j ++){
+                                        HistoryEntry he = rc.EntryList[j];
+                                        if(he.Equals(e)){
+                                            he.Set_Classification(e.classification);
+                                        } else if(he.OriginallyMerged(e)){
+
+                                           if(he.entry.Equals(he.original_text)){
+                                               he.Set_Entry(e.entry);
+                                               he.Set_Classification(e.classification);
+                                               he.Set_Split(true);
+                                           } else {
+                                               rc.EntryList.Insert(rc.EntryList.IndexOf(he)+1, e);
+                                           }
+
+                                        }
+                                    }
+
+                                }
+
+                            }
+
+                        }
+                    }
+        }
+
+        private void PutBack(List<HistoryEntry> entrylist, string Path)
+        {
+           
+
+            string[] filePaths = Directory.GetFiles(Path);
+
+
+            List<ReleaseContainer> Releases = new List<ReleaseContainer>();
+            foreach (string s in filePaths)
+            {
+                if (!(s.Contains(".txt")))
+                {
+                    Console.WriteLine(s);
+                    Releases = Read_Our_File(s);
+                    InsertNewlyClassified(entrylist, Releases);
+
+
+                   Save_By_Version(Releases, s);
+                }
+
+            }
+
+        }
+
+        private List<ReleaseContainer> Read_Our_File(string filename)
+        {
+            StreamReader txtReader;
+            List<ReleaseContainer> newRelease = new List<ReleaseContainer>();
+            try
+            {
+
+                String VersionString = String.Empty;
+                String tempString = String.Empty;
+                txtReader = new StreamReader(filename);
+
+
+                using (txtReader)
+                {
+
+                    while ((tempString = txtReader.ReadLine()) != null)
+                    {
+                        newRelease.Add(JsonConvert.DeserializeObject<ReleaseContainer>(tempString));
+                    } //end reading file
+
+                } //end using stream
+
+                txtReader.Close();
+
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            return newRelease;
+
+        }
+
+
+        private void Save_By_Version(List<ReleaseContainer> ReleaseList, String Filename)
+        {
+
+            StreamWriter txtWriter;
+       
+                try
+                {
+
+                    String VersionString = String.Empty;
+                    String tempString = String.Empty;
+                    txtWriter = new StreamWriter(Filename);
+
+                    using (txtWriter)
+                    {
+
+                        foreach (ReleaseContainer v in ReleaseList)
+                        {
+                            txtWriter.WriteLine(JsonConvert.SerializeObject(v));
+                        }
+                    }
+                    txtWriter.Close();
+                }
+                catch (Exception ex)
+                {
+
+                    MessageBox.Show(ex.Message);
+
+                }
+
+
+
+            
+        }
+
     }
 
 }

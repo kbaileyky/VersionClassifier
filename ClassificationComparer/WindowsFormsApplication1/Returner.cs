@@ -12,6 +12,8 @@ namespace ClassificationComparer
     class Returner
     {
 
+        List<HistoryEntry> compEntries;
+
         private bool CompAppName(HistoryEntry entry, ReleaseContainer release)
         {
             return entry.ApplicationName.Equals(release.ApplicationName);
