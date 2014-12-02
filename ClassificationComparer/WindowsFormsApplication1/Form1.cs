@@ -310,6 +310,8 @@ namespace WindowsFormsApplication1
                 }
 
                 PutBack(Entries1, MobilePath);
+                PutBack(Entries1, DesktopPath);
+                PutBack(Entries1, SiblingPath);
 
             }
             catch (Exception ex)
@@ -342,6 +344,7 @@ namespace WindowsFormsApplication1
                                                he.Set_Split(true);
                                            } else {
                                                rc.EntryList.Insert(rc.EntryList.IndexOf(he)+1, e);
+                                               j = j + 1;
                                            }
 
                                         }
