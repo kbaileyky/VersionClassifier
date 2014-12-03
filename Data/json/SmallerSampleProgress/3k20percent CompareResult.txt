@@ -1,0 +1,5930 @@
+Percent Agreement:	79.3548387096774	 Total Classified:	620	 Number Different:	128	Total Split:	7
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "- Updated Settings page including link to \"My Rewards\"",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "1.1.0",
+    "ReleaseDate": "26/07/2012",
+    "ApplicationName": "Wish",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Updated Settings page including link to \"My Rewards\""
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "- Updated Settings page including link to \"My Rewards\"",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "1.1.0",
+    "ReleaseDate": "26/07/2012",
+    "ApplicationName": "Wish",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Updated Settings page including link to \"My Rewards\""
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "- Score Attack Mode: a new way to play through the story! You start at level one with all Spirits and Idols unlocked. Combat performance is rated for efficiency, and all areas are repeatable.",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "8",
+    "ReleaseDate": "14/12/2011",
+    "ApplicationName": "BastionD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Score Attack Mode: a new way to play through the story! You start at level one with all Spirits and Idols unlocked. Combat performance is rated for efficiency, and all areas are repeatable."
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "- Score Attack Mode: a new way to play through the story! You start at level one with all Spirits and Idols unlocked. Combat performance is rated for efficiency, and all areas are repeatable.",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "8",
+    "ReleaseDate": "14/12/2011",
+    "ApplicationName": "BastionD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Score Attack Mode: a new way to play through the story! You start at level one with all Spirits and Idols unlocked. Combat performance is rated for efficiency, and all areas are repeatable."
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "_ Reduced battery usage",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "3.2",
+    "ReleaseDate": "06/07/2012",
+    "ApplicationName": "Pandora",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "_ Reduced battery usage"
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "_ Reduced battery usage",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "3.2",
+    "ReleaseDate": "06/07/2012",
+    "ApplicationName": "Pandora",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "_ Reduced battery usage"
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "- The size buttons now show what size they will be saving.",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "1.1",
+    "ReleaseDate": "20/11/2012",
+    "ApplicationName": "Afterlight",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": true,
+    "split": false,
+    "merged": false,
+    "original_text": "- The size buttons now show what size they will be saving."
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "- The size buttons now show what size they will be saving.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "1.1",
+    "ReleaseDate": "20/11/2012",
+    "ApplicationName": "Afterlight",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- The size buttons now show what size they will be saving."
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "-Search for new RunKeeper friends by full name",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "4.3",
+    "ReleaseDate": "04/02/2014",
+    "ApplicationName": "Run Keeper",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "-Search for new RunKeeper friends by full name"
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "-Search for new RunKeeper friends by full name",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "4.3",
+    "ReleaseDate": "04/02/2014",
+    "ApplicationName": "Run Keeper",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "-Search for new RunKeeper friends by full name"
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "Say hello to a leaner, cleaner RunKeeper! ",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "4.0",
+    "ReleaseDate": "17/09/2013",
+    "ApplicationName": "Run Keeper",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Say hello to a leaner, cleaner RunKeeper! "
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "Say hello to a leaner, cleaner RunKeeper! ",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "4.0",
+    "ReleaseDate": "17/09/2013",
+    "ApplicationName": "Run Keeper",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Say hello to a leaner, cleaner RunKeeper! "
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "\t\tClicking the file shelf button in a background tab now selects the tab",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "2.0 - build 104",
+    "ReleaseDate": "14/12/2010",
+    "ApplicationName": "KaleidoscopeD",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t\tClicking the file shelf button in a background tab now selects the tab"
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "\t\tClicking the file shelf button in a background tab now selects the tab",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "2.0 - build 104",
+    "ReleaseDate": "14/12/2010",
+    "ApplicationName": "KaleidoscopeD",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t\tClicking the file shelf button in a background tab now selects the tab"
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "\t\tIntegration",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "2.0 - build 104",
+    "ReleaseDate": "14/12/2010",
+    "ApplicationName": "KaleidoscopeD",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": true,
+    "split": false,
+    "merged": false,
+    "original_text": "\t\tIntegration"
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "\t\tIntegration",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "2.0 - build 104",
+    "ReleaseDate": "14/12/2010",
+    "ApplicationName": "KaleidoscopeD",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t\tIntegration"
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "- Fixed an issue in the Bullhead Trial where the text stated that the Gold Prize requirement involved completing the trial having taken less than two hits instead of three.",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "4",
+    "ReleaseDate": "19/08/2011",
+    "ApplicationName": "BastionD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Fixed an issue in the Bullhead Trial where the text stated that the Gold Prize requirement involved completing the trial having taken less than two hits instead of three."
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "- Fixed an issue in the Bullhead Trial where the text stated that the Gold Prize requirement involved completing the trial having taken less than two hits instead of three.",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "4",
+    "ReleaseDate": "19/08/2011",
+    "ApplicationName": "BastionD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Fixed an issue in the Bullhead Trial where the text stated that the Gold Prize requirement involved completing the trial having taken less than two hits instead of three."
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "* See if a comment was shared privately or publicly",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "2.5.0",
+    "ReleaseDate": "17/03/2014",
+    "ApplicationName": "Youtube",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "* See if a comment was shared privately or publicly"
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "* See if a comment was shared privately or publicly",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "2.5.0",
+    "ReleaseDate": "17/03/2014",
+    "ApplicationName": "Youtube",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "* See if a comment was shared privately or publicly"
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "This update includes a major upgrade, from CEF1 to CEF3.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "0.9.4",
+    "ReleaseDate": "23/09/2013",
+    "ApplicationName": "SpotifyD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "This update includes a major upgrade, from CEF1 to CEF3."
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "This update includes a major upgrade, from CEF1 to CEF3.",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "0.9.4",
+    "ReleaseDate": "23/09/2013",
+    "ApplicationName": "SpotifyD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "This update includes a major upgrade, from CEF1 to CEF3."
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "\t\tToolbar and menu options are more consistently disabled when invalid for a selection",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "1.0b3",
+    "ReleaseDate": "30/06/2008",
+    "ApplicationName": "Versions",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t\tToolbar and menu options are more consistently disabled when invalid for a selection"
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "\t\tToolbar and menu options are more consistently disabled when invalid for a selection",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "1.0b3",
+    "ReleaseDate": "30/06/2008",
+    "ApplicationName": "Versions",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t\tToolbar and menu options are more consistently disabled when invalid for a selection"
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "Complete the Stranger's Dream with five or more Shrine Idols invoked.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "8",
+    "ReleaseDate": "14/12/2011",
+    "ApplicationName": "BastionD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Complete the Stranger's Dream with five or more Shrine Idols invoked."
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "Complete the Stranger's Dream with five or more Shrine Idols invoked.",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "8",
+    "ReleaseDate": "14/12/2011",
+    "ApplicationName": "BastionD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Complete the Stranger's Dream with five or more Shrine Idols invoked."
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "_ Re-discover your favorite music on your profile page",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "4.1",
+    "ReleaseDate": "17/11/2012",
+    "ApplicationName": "Pandora",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "_ Re-discover your favorite music on your profile page"
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "_ Re-discover your favorite music on your profile page",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "4.1",
+    "ReleaseDate": "17/11/2012",
+    "ApplicationName": "Pandora",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "_ Re-discover your favorite music on your profile page"
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "Product Update - Valve",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "11",
+    "ReleaseDate": "04/05/2012",
+    "ApplicationName": "BastionD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Product Update - Valve"
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "Product Update - Valve",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "11",
+    "ReleaseDate": "04/05/2012",
+    "ApplicationName": "BastionD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Product Update - Valve"
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "- Add more photos to a product from camera or URL",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "1.1.0",
+    "ReleaseDate": "26/07/2012",
+    "ApplicationName": "Wish",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Add more photos to a product from camera or URL"
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "- Add more photos to a product from camera or URL",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "1.1.0",
+    "ReleaseDate": "26/07/2012",
+    "ApplicationName": "Wish",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Add more photos to a product from camera or URL"
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "Ability to watch videos in Windows Media Player if you do not have Flash installed",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "4.0.0",
+    "ReleaseDate": "28/07/2014",
+    "ApplicationName": "Raptr - D",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": true,
+    "split": false,
+    "merged": false,
+    "original_text": "Ability to watch videos in Windows Media Player if you do not have Flash installed"
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "Ability to watch videos in Windows Media Player if you do not have Flash installed",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "4.0.0",
+    "ReleaseDate": "28/07/2014",
+    "ApplicationName": "Raptr - D",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Ability to watch videos in Windows Media Player if you do not have Flash installed"
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "Other improvements and ",
+    "classification": {
+        "str_type": "Not Classified",
+        "int_type": 6
+    },
+    "VersionNumber": "5.3",
+    "ReleaseDate": "14/04/2014",
+    "ApplicationName": "Pandora",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": true,
+    "merged": false,
+    "original_text": "Other improvements and bug fixes to give you the best listening experience"
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "Other improvements and ",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "5.3",
+    "ReleaseDate": "14/04/2014",
+    "ApplicationName": "Pandora",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": true,
+    "merged": false,
+    "original_text": "Other improvements and bug fixes to give you the best listening experience"
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "* Delete specific nights",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "4.0",
+    "ReleaseDate": "20/09/2012",
+    "ApplicationName": "Sleep Cycle",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "* Delete specific nights"
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "* Delete specific nights",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "4.0",
+    "ReleaseDate": "20/09/2012",
+    "ApplicationName": "Sleep Cycle",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "* Delete specific nights"
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "\t•\tWhen tabs are open a new tab indicator appears at the bottom right of the article pane. Clicking it shows or hides the tab bar. Eventually this will only show when tabs are otherwise hidden.",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "4.0 Public Beta 11",
+    "ReleaseDate": "04/11/2013",
+    "ApplicationName": "Net News",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t•\tWhen tabs are open a new tab indicator appears at the bottom right of the article pane. Clicking it shows or hides the tab bar. Eventually this will only show when tabs are otherwise hidden."
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "\t•\tWhen tabs are open a new tab indicator appears at the bottom right of the article pane. Clicking it shows or hides the tab bar. Eventually this will only show when tabs are otherwise hidden.",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "4.0 Public Beta 11",
+    "ReleaseDate": "04/11/2013",
+    "ApplicationName": "Net News",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t•\tWhen tabs are open a new tab indicator appears at the bottom right of the article pane. Clicking it shows or hides the tab bar. Eventually this will only show when tabs are otherwise hidden."
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "\t\tKaleidoscope now handles different color spaces more reliably in Image Scope.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "2.1 - build 134",
+    "ReleaseDate": "19/02/2013",
+    "ApplicationName": "KaleidoscopeD",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t\tKaleidoscope now handles different color spaces more reliably in Image Scope."
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "\t\tKaleidoscope now handles different color spaces more reliably in Image Scope.",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "2.1 - build 134",
+    "ReleaseDate": "19/02/2013",
+    "ApplicationName": "KaleidoscopeD",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t\tKaleidoscope now handles different color spaces more reliably in Image Scope."
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "\t\tSubversion 1.6 upgraded to release 1.6.5",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "1.0.5",
+    "ReleaseDate": "02/09/2009",
+    "ApplicationName": "Versions",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t\tSubversion 1.6 upgraded to release 1.6.5"
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "\t\tSubversion 1.6 upgraded to release 1.6.5",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "1.0.5",
+    "ReleaseDate": "02/09/2009",
+    "ApplicationName": "Versions",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t\tSubversion 1.6 upgraded to release 1.6.5"
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "New: Our menus are more gorgeous than ever.",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "1.3.0",
+    "ReleaseDate": "15/08/2014",
+    "ApplicationName": "SpotifyM",
+    "ApplicationType": {
+        "str_type": "Sibling - Mobile",
+        "int_type": 4
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "New: Our menus are more gorgeous than ever."
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "New: Our menus are more gorgeous than ever.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "1.3.0",
+    "ReleaseDate": "15/08/2014",
+    "ApplicationName": "SpotifyM",
+    "ApplicationType": {
+        "str_type": "Sibling - Mobile",
+        "int_type": 4
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "New: Our menus are more gorgeous than ever."
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "In-Game HUD",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "4.1.0",
+    "ReleaseDate": "01/08/2014",
+    "ApplicationName": "Raptr - D",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "In-Game HUD"
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "In-Game HUD",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "4.1.0",
+    "ReleaseDate": "01/08/2014",
+    "ApplicationName": "Raptr - D",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "In-Game HUD"
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "* Enrich colors with Warmth and Saturation",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "6.0.1",
+    "ReleaseDate": "04/06/2014",
+    "ApplicationName": "Instagram",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "* Enrich colors with Warmth and Saturation"
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "* Enrich colors with Warmth and Saturation",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "6.0.1",
+    "ReleaseDate": "04/06/2014",
+    "ApplicationName": "Instagram",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "* Enrich colors with Warmth and Saturation"
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "- Tons of fixes and ",
+    "classification": {
+        "str_type": "Not Classified",
+        "int_type": 6
+    },
+    "VersionNumber": "3.3.0",
+    "ReleaseDate": "09/12/2013",
+    "ApplicationName": "Wish",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": true,
+    "merged": false,
+    "original_text": "- Tons of fixes and improvements"
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "- Tons of fixes and ",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "3.3.0",
+    "ReleaseDate": "09/12/2013",
+    "ApplicationName": "Wish",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": true,
+    "merged": false,
+    "original_text": "- Tons of fixes and improvements"
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "Disabled Secure Search in Google to improve monitoring, filtering, and reporting.",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "5.1.5.52",
+    "ReleaseDate": "30/10/2014",
+    "ApplicationName": "Covenant EyesD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": true,
+    "split": false,
+    "merged": false,
+    "original_text": "Disabled Secure Search in Google to improve monitoring, filtering, and reporting."
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "Disabled Secure Search in Google to improve monitoring, filtering, and reporting.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "5.1.5.52",
+    "ReleaseDate": "30/10/2014",
+    "ApplicationName": "Covenant EyesD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Disabled Secure Search in Google to improve monitoring, filtering, and reporting."
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "\t\tChanged Command + Shift + \\ to now toggle the toolbar",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "1.1.3",
+    "ReleaseDate": "23/12/2010",
+    "ApplicationName": "Versions",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t\tChanged Command + Shift + \\ to now toggle the toolbar"
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "\t\tChanged Command + Shift + \\ to now toggle the toolbar",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "1.1.3",
+    "ReleaseDate": "23/12/2010",
+    "ApplicationName": "Versions",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t\tChanged Command + Shift + \\ to now toggle the toolbar"
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "\t\tThe context menu for repository bookmarks now has a “Copy Remote URL” menu item",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "1.1",
+    "ReleaseDate": "05/10/2010",
+    "ApplicationName": "Versions",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t\tThe context menu for repository bookmarks now has a “Copy Remote URL” menu item"
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "\t\tThe context menu for repository bookmarks now has a “Copy Remote URL” menu item",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "1.1",
+    "ReleaseDate": "05/10/2010",
+    "ApplicationName": "Versions",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t\tThe context menu for repository bookmarks now has a “Copy Remote URL” menu item"
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "New: Added a button to select all items in a category in a click (PC only)",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "3.0",
+    "ReleaseDate": "16/07/2014",
+    "ApplicationName": "DashlaneD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "New: Added a button to select all items in a category in a click (PC only)"
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "New: Added a button to select all items in a category in a click (PC only)",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "3.0",
+    "ReleaseDate": "16/07/2014",
+    "ApplicationName": "DashlaneD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "New: Added a button to select all items in a category in a click (PC only)"
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "- Raptr hosted videos: Sharing on Raptr will now upload videos to our own servers.  Uploading to Youtube is still supported when selecting this option from the right click menu in the gallery.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "4.1.1",
+    "ReleaseDate": "15/10/2014",
+    "ApplicationName": "Raptr - D",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": true,
+    "split": false,
+    "merged": false,
+    "original_text": "- Raptr hosted videos: Sharing on Raptr will now upload videos to our own servers.  Uploading to Youtube is still supported when selecting this option from the right click menu in the gallery."
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "- Raptr hosted videos: Sharing on Raptr will now upload videos to our own servers.  Uploading to Youtube is still supported when selecting this option from the right click menu in the gallery.",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "4.1.1",
+    "ReleaseDate": "15/10/2014",
+    "ApplicationName": "Raptr - D",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Raptr hosted videos: Sharing on Raptr will now upload videos to our own servers.  Uploading to Youtube is still supported when selecting this option from the right click menu in the gallery."
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "\t•\tFind Next and Find Previous menu items should now cycle you through find bar results.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "4.0 Public Beta 3",
+    "ReleaseDate": "15/07/2013",
+    "ApplicationName": "Net News",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": true,
+    "split": false,
+    "merged": false,
+    "original_text": "\t•\tFind Next and Find Previous menu items should now cycle you through find bar results."
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "\t•\tFind Next and Find Previous menu items should now cycle you through find bar results.",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "4.0 Public Beta 3",
+    "ReleaseDate": "15/07/2013",
+    "ApplicationName": "Net News",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t•\tFind Next and Find Previous menu items should now cycle you through find bar results."
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "\t•\tBetter article text consistency and other cleanup.",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "4.0 Public Beta 10",
+    "ReleaseDate": "21/10/2013",
+    "ApplicationName": "Net News",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t•\tBetter article text consistency and other cleanup."
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "\t•\tBetter article text consistency and other cleanup.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "4.0 Public Beta 10",
+    "ReleaseDate": "21/10/2013",
+    "ApplicationName": "Net News",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t•\tBetter article text consistency and other cleanup."
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "Added a warning to notify about enabling non-market apps and included a button to get to the setting.",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "1.1.2",
+    "ReleaseDate": "04/12/2012",
+    "ApplicationName": "Covenant EyesM",
+    "ApplicationType": {
+        "str_type": "Sibling - Mobile",
+        "int_type": 4
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Added a warning to notify about enabling non-market apps and included a button to get to the setting."
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "Added a warning to notify about enabling non-market apps and included a button to get to the setting.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "1.1.2",
+    "ReleaseDate": "04/12/2012",
+    "ApplicationName": "Covenant EyesM",
+    "ApplicationType": {
+        "str_type": "Sibling - Mobile",
+        "int_type": 4
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Added a warning to notify about enabling non-market apps and included a button to get to the setting."
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "Changed Covenant Eyes icons and images to match new branding (fixed in 4.4.0.1502).",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "4.4.1.1552",
+    "ReleaseDate": "25/10/2010",
+    "ApplicationName": "Covenant EyesD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": true,
+    "split": false,
+    "merged": false,
+    "original_text": "Changed Covenant Eyes icons and images to match new branding (fixed in 4.4.0.1502)."
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "Changed Covenant Eyes icons and images to match new branding (fixed in 4.4.0.1502).",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "4.4.1.1552",
+    "ReleaseDate": "25/10/2010",
+    "ApplicationName": "Covenant EyesD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Changed Covenant Eyes icons and images to match new branding (fixed in 4.4.0.1502)."
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "Complete the Stranger's Dream with all ten Shrine Idols invoked.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "8",
+    "ReleaseDate": "14/12/2011",
+    "ApplicationName": "BastionD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Complete the Stranger's Dream with all ten Shrine Idols invoked."
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "Complete the Stranger's Dream with all ten Shrine Idols invoked.",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "8",
+    "ReleaseDate": "14/12/2011",
+    "ApplicationName": "BastionD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Complete the Stranger's Dream with all ten Shrine Idols invoked."
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "Updated messaging in the Games Library Gallery Tab",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "4.0.0",
+    "ReleaseDate": "28/07/2014",
+    "ApplicationName": "Raptr - D",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": true,
+    "split": false,
+    "merged": false,
+    "original_text": "Updated messaging in the Games Library Gallery Tab"
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "Updated messaging in the Games Library Gallery Tab",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "4.0.0",
+    "ReleaseDate": "28/07/2014",
+    "ApplicationName": "Raptr - D",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Updated messaging in the Games Library Gallery Tab"
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "\t\tBookmark folders can now be renamed from their contextual menus",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "1.0b8",
+    "ReleaseDate": "22/09/2008",
+    "ApplicationName": "Versions",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t\tBookmark folders can now be renamed from their contextual menus"
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "\t\tBookmark folders can now be renamed from their contextual menus",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "1.0b8",
+    "ReleaseDate": "22/09/2008",
+    "ApplicationName": "Versions",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t\tBookmark folders can now be renamed from their contextual menus"
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "Upload videos to YouTube in one quick step.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "2.7.1",
+    "ReleaseDate": "17/06/2014",
+    "ApplicationName": "Youtube",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Upload videos to YouTube in one quick step."
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "Upload videos to YouTube in one quick step.",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "2.7.1",
+    "ReleaseDate": "17/06/2014",
+    "ApplicationName": "Youtube",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Upload videos to YouTube in one quick step."
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "\t•\tFixed: The notification icon now looks super-smooth on high-res devices.",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "0.7.0",
+    "ReleaseDate": "23/09/2013",
+    "ApplicationName": "SpotifyM",
+    "ApplicationType": {
+        "str_type": "Sibling - Mobile",
+        "int_type": 4
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t•\tFixed: The notification icon now looks super-smooth on high-res devices."
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "\t•\tFixed: The notification icon now looks super-smooth on high-res devices.",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "0.7.0",
+    "ReleaseDate": "23/09/2013",
+    "ApplicationName": "SpotifyM",
+    "ApplicationType": {
+        "str_type": "Sibling - Mobile",
+        "int_type": 4
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t•\tFixed: The notification icon now looks super-smooth on high-res devices."
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "Note: To access the Stranger's Dream sequence as well as Score Attack Mode, you need to have finished the game at least once. The Stranger�s Dream sequence will be available early on in your New Game Plus or Score Attack play-through.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "8",
+    "ReleaseDate": "14/12/2011",
+    "ApplicationName": "BastionD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": true,
+    "split": false,
+    "merged": false,
+    "original_text": "Note: To access the Stranger's Dream sequence as well as Score Attack Mode, you need to have finished the game at least once. The Stranger�s Dream sequence will be available early on in your New Game Plus or Score Attack play-through."
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "Note: To access the Stranger's Dream sequence as well as Score Attack Mode, you need to have finished the game at least once. The Stranger�s Dream sequence will be available early on in your New Game Plus or Score Attack play-through.",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "8",
+    "ReleaseDate": "14/12/2011",
+    "ApplicationName": "BastionD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Note: To access the Stranger's Dream sequence as well as Score Attack Mode, you need to have finished the game at least once. The Stranger�s Dream sequence will be available early on in your New Game Plus or Score Attack play-through."
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "Reminders for social games � conveniently lets you set a time to check back on your games with a list of active reminders embedded in the buddy list for easy access. Just play your favorite social game and the reminder options will display when you finish.",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "1.10.3",
+    "ReleaseDate": "15/12/2011",
+    "ApplicationName": "Raptr - D",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Reminders for social games � conveniently lets you set a time to check back on your games with a list of active reminders embedded in the buddy list for easy access. Just play your favorite social game and the reminder options will display when you finish."
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "Reminders for social games � conveniently lets you set a time to check back on your games with a list of active reminders embedded in the buddy list for easy access. Just play your favorite social game and the reminder options will display when you finish.",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "1.10.3",
+    "ReleaseDate": "15/12/2011",
+    "ApplicationName": "Raptr - D",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Reminders for social games � conveniently lets you set a time to check back on your games with a list of active reminders embedded in the buddy list for easy access. Just play your favorite social game and the reminder options will display when you finish."
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "- Your videos will now also be displayed in the new Plays.tv gallery.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "4.2.1",
+    "ReleaseDate": "17/11/2014",
+    "ApplicationName": "Raptr - D",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Your videos will now also be displayed in the new Plays.tv gallery."
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "- Your videos will now also be displayed in the new Plays.tv gallery.",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "4.2.1",
+    "ReleaseDate": "17/11/2014",
+    "ApplicationName": "Raptr - D",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Your videos will now also be displayed in the new Plays.tv gallery."
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "- Added an \"Auto save to camera roll\" setting for the camera mode.",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "2.1",
+    "ReleaseDate": "05/11/2013",
+    "ApplicationName": "Afterlight",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Added an \"Auto save to camera roll\" setting for the camera mode."
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "- Added an \"Auto save to camera roll\" setting for the camera mode.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "2.1",
+    "ReleaseDate": "05/11/2013",
+    "ApplicationName": "Afterlight",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Added an \"Auto save to camera roll\" setting for the camera mode."
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "\t•\tNew: Now you can control playback from the notification area. Skip and be happy. Android version 4.1 and above.",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "0.6.4.46",
+    "ReleaseDate": "20/06/2013",
+    "ApplicationName": "SpotifyM",
+    "ApplicationType": {
+        "str_type": "Sibling - Mobile",
+        "int_type": 4
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t•\tNew: Now you can control playback from the notification area. Skip and be happy. Android version 4.1 and above."
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "\t•\tNew: Now you can control playback from the notification area. Skip and be happy. Android version 4.1 and above.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "0.6.4.46",
+    "ReleaseDate": "20/06/2013",
+    "ApplicationName": "SpotifyM",
+    "ApplicationType": {
+        "str_type": "Sibling - Mobile",
+        "int_type": 4
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t•\tNew: Now you can control playback from the notification area. Skip and be happy. Android version 4.1 and above."
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "- Autologin to your accounts and autofill your personal info as you browse",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "2.5",
+    "ReleaseDate": "09/09/2013",
+    "ApplicationName": "DashlaneM",
+    "ApplicationType": {
+        "str_type": "Sibling - Mobile",
+        "int_type": 4
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Autologin to your accounts and autofill your personal info as you browse"
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "- Autologin to your accounts and autofill your personal info as you browse",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "2.5",
+    "ReleaseDate": "09/09/2013",
+    "ApplicationName": "DashlaneM",
+    "ApplicationType": {
+        "str_type": "Sibling - Mobile",
+        "int_type": 4
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Autologin to your accounts and autofill your personal info as you browse"
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "* Stability improvements, including ",
+    "classification": {
+        "str_type": "Not Classified",
+        "int_type": 6
+    },
+    "VersionNumber": "1.4",
+    "ReleaseDate": "20/06/2013",
+    "ApplicationName": "Youtube",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": true,
+    "merged": false,
+    "original_text": "* Stability improvements, including fix for application crashes"
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "* Stability improvements, including ",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "1.4",
+    "ReleaseDate": "20/06/2013",
+    "ApplicationName": "Youtube",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": true,
+    "merged": false,
+    "original_text": "* Stability improvements, including fix for application crashes"
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "- Photos can be taken with the volume buttons.",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "1.4",
+    "ReleaseDate": "22/02/2013",
+    "ApplicationName": "Afterlight",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Photos can be taken with the volume buttons."
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "- Photos can be taken with the volume buttons.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "1.4",
+    "ReleaseDate": "22/02/2013",
+    "ApplicationName": "Afterlight",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Photos can be taken with the volume buttons."
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "\t\tThe Versions main menu no longer lists registration or purchase options after being registered",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "1.1.4",
+    "ReleaseDate": "24/01/2011",
+    "ApplicationName": "Versions",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t\tThe Versions main menu no longer lists registration or purchase options after being registered"
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "\t\tThe Versions main menu no longer lists registration or purchase options after being registered",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "1.1.4",
+    "ReleaseDate": "24/01/2011",
+    "ApplicationName": "Versions",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t\tThe Versions main menu no longer lists registration or purchase options after being registered"
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "- The Stranger's Dream: a new fully narrated Who Knows Where sequence, bigger and tougher than the others.",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "8",
+    "ReleaseDate": "14/12/2011",
+    "ApplicationName": "BastionD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- The Stranger's Dream: a new fully narrated Who Knows Where sequence, bigger and tougher than the others."
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "- The Stranger's Dream: a new fully narrated Who Knows Where sequence, bigger and tougher than the others.",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "8",
+    "ReleaseDate": "14/12/2011",
+    "ApplicationName": "BastionD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- The Stranger's Dream: a new fully narrated Who Knows Where sequence, bigger and tougher than the others."
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "\t•\tExtended the demo expiration date.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "4.0 Public Beta 18",
+    "ReleaseDate": "11/09/2014",
+    "ApplicationName": "Net News",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t•\tExtended the demo expiration date."
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "\t•\tExtended the demo expiration date.",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "4.0 Public Beta 18",
+    "ReleaseDate": "11/09/2014",
+    "ApplicationName": "Net News",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t•\tExtended the demo expiration date."
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "* Slower increase of volume to maximum level if the user does not wake up",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "4.1",
+    "ReleaseDate": "12/12/2012",
+    "ApplicationName": "Sleep Cycle",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "* Slower increase of volume to maximum level if the user does not wake up"
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "* Slower increase of volume to maximum level if the user does not wake up",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "4.1",
+    "ReleaseDate": "12/12/2012",
+    "ApplicationName": "Sleep Cycle",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "* Slower increase of volume to maximum level if the user does not wake up"
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "- Your Steam Rating appears in your profile again",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "2.7",
+    "ReleaseDate": "03/06/2013",
+    "ApplicationName": "RaptrM",
+    "ApplicationType": {
+        "str_type": "Sibling - Mobile",
+        "int_type": 4
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": true,
+    "split": false,
+    "merged": false,
+    "original_text": "- Your Steam Rating appears in your profile again"
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "- Your Steam Rating appears in your profile again",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "2.7",
+    "ReleaseDate": "03/06/2013",
+    "ApplicationName": "RaptrM",
+    "ApplicationType": {
+        "str_type": "Sibling - Mobile",
+        "int_type": 4
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Your Steam Rating appears in your profile again"
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "SLEEP NOTES See how events such as drinking coffee, eating too much or having a stressful day affect your sleep quality.",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "4.0",
+    "ReleaseDate": "20/09/2012",
+    "ApplicationName": "Sleep Cycle",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "SLEEP NOTES See how events such as drinking coffee, eating too much or having a stressful day affect your sleep quality."
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "SLEEP NOTES See how events such as drinking coffee, eating too much or having a stressful day affect your sleep quality.",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "4.0",
+    "ReleaseDate": "20/09/2012",
+    "ApplicationName": "Sleep Cycle",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "SLEEP NOTES See how events such as drinking coffee, eating too much or having a stressful day affect your sleep quality."
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "This update is a small update for a new button on the home page. The button will take you to our new store, where we now sell Afterlight t-shirts. 100% of the profit will be going to charity, so please take a look!",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "1.7.1",
+    "ReleaseDate": "15/06/2013",
+    "ApplicationName": "Afterlight",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "This update is a small update for a new button on the home page. The button will take you to our new store, where we now sell Afterlight t-shirts. 100% of the profit will be going to charity, so please take a look!"
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "This update is a small update for a new button on the home page. The button will take you to our new store, where we now sell Afterlight t-shirts. 100% of the profit will be going to charity, so please take a look!",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "1.7.1",
+    "ReleaseDate": "15/06/2013",
+    "ApplicationName": "Afterlight",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "This update is a small update for a new button on the home page. The button will take you to our new store, where we now sell Afterlight t-shirts. 100% of the profit will be going to charity, so please take a look!"
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "FPS & APM display in-game!  You can now view what FPS (frames per second) and (actions per second) while playing in-game!  Hit PageUp-F while in-game to activate it.  Go to preferences->in-game to see how to customize it",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "3.5.1",
+    "ReleaseDate": "25/10/2013",
+    "ApplicationName": "Raptr - D",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "FPS & APM display in-game!  You can now view what FPS (frames per second) and (actions per second) while playing in-game!  Hit PageUp-F while in-game to activate it.  Go to preferences->in-game to see how to customize it"
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "FPS & APM display in-game!  You can now view what FPS (frames per second) and (actions per second) while playing in-game!  Hit PageUp-F while in-game to activate it.  Go to preferences->in-game to see how to customize it",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "3.5.1",
+    "ReleaseDate": "25/10/2013",
+    "ApplicationName": "Raptr - D",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "FPS & APM display in-game!  You can now view what FPS (frames per second) and (actions per second) while playing in-game!  Hit PageUp-F while in-game to activate it.  Go to preferences->in-game to see how to customize it"
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "In-Game HUD",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "4.1.0",
+    "ReleaseDate": "01/08/2014",
+    "ApplicationName": "Raptr - D",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "In-Game HUD"
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "In-Game HUD",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "4.1.0",
+    "ReleaseDate": "01/08/2014",
+    "ApplicationName": "Raptr - D",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "In-Game HUD"
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "- No-Sweat Mode: for those who just want to experience the story of Bastion, this mode provides unlimited chances to carry on from where you left off if you�re defeated in battle.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "8",
+    "ReleaseDate": "14/12/2011",
+    "ApplicationName": "BastionD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- No-Sweat Mode: for those who just want to experience the story of Bastion, this mode provides unlimited chances to carry on from where you left off if you�re defeated in battle."
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "- No-Sweat Mode: for those who just want to experience the story of Bastion, this mode provides unlimited chances to carry on from where you left off if you�re defeated in battle.",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "8",
+    "ReleaseDate": "14/12/2011",
+    "ApplicationName": "BastionD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- No-Sweat Mode: for those who just want to experience the story of Bastion, this mode provides unlimited chances to carry on from where you left off if you�re defeated in battle."
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "Put in a hold over to stop dropdown menus from popping people out of games",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "3.0.18",
+    "ReleaseDate": "12/11/2012",
+    "ApplicationName": "Raptr - D",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Put in a hold over to stop dropdown menus from popping people out of games"
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "Put in a hold over to stop dropdown menus from popping people out of games",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "3.0.18",
+    "ReleaseDate": "12/11/2012",
+    "ApplicationName": "Raptr - D",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Put in a hold over to stop dropdown menus from popping people out of games"
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "\t\tWorking Copies bookmarks now automatically keep track of working copies when they are moved or renamed",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "1.0",
+    "ReleaseDate": "17/11/2008",
+    "ApplicationName": "Versions",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t\tWorking Copies bookmarks now automatically keep track of working copies when they are moved or renamed"
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "\t\tWorking Copies bookmarks now automatically keep track of working copies when they are moved or renamed",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "1.0",
+    "ReleaseDate": "17/11/2008",
+    "ApplicationName": "Versions",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t\tWorking Copies bookmarks now automatically keep track of working copies when they are moved or renamed"
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "- Our good friends The Honey Trees (@thehoneytrees) have created a new Guest Filter called Bright Fire, named after their brand new album. Check it out on iTunes!",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "2.3",
+    "ReleaseDate": "14/04/2014",
+    "ApplicationName": "Afterlight",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Our good friends The Honey Trees (@thehoneytrees) have created a new Guest Filter called Bright Fire, named after their brand new album. Check it out on iTunes!"
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "- Our good friends The Honey Trees (@thehoneytrees) have created a new Guest Filter called Bright Fire, named after their brand new album. Check it out on iTunes!",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "2.3",
+    "ReleaseDate": "14/04/2014",
+    "ApplicationName": "Afterlight",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Our good friends The Honey Trees (@thehoneytrees) have created a new Guest Filter called Bright Fire, named after their brand new album. Check it out on iTunes!"
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "\t\tWhen trying to ignore versioned items you now get a helpful message",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "1.1.4",
+    "ReleaseDate": "24/01/2011",
+    "ApplicationName": "Versions",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t\tWhen trying to ignore versioned items you now get a helpful message"
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "\t\tWhen trying to ignore versioned items you now get a helpful message",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "1.1.4",
+    "ReleaseDate": "24/01/2011",
+    "ApplicationName": "Versions",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t\tWhen trying to ignore versioned items you now get a helpful message"
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "- Share notes and passwords without switching to Mail app",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "2.4.2",
+    "ReleaseDate": "03/07/2013",
+    "ApplicationName": "DashlaneM",
+    "ApplicationType": {
+        "str_type": "Sibling - Mobile",
+        "int_type": 4
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Share notes and passwords without switching to Mail app"
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "- Share notes and passwords without switching to Mail app",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "2.4.2",
+    "ReleaseDate": "03/07/2013",
+    "ApplicationName": "DashlaneM",
+    "ApplicationType": {
+        "str_type": "Sibling - Mobile",
+        "int_type": 4
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Share notes and passwords without switching to Mail app"
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "\t\tNote: JIRA tickets now include the project abbreviation in the URL, so if you already use JIRA tickets linked from your Timeline, you will have to adjust your ticket URL in your repository bookmark",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "1.1.2",
+    "ReleaseDate": "14/12/2010",
+    "ApplicationName": "Versions",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t\tNote: JIRA tickets now include the project abbreviation in the URL, so if you already use JIRA tickets linked from your Timeline, you will have to adjust your ticket URL in your repository bookmark"
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "\t\tNote: JIRA tickets now include the project abbreviation in the URL, so if you already use JIRA tickets linked from your Timeline, you will have to adjust your ticket URL in your repository bookmark",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "1.1.2",
+    "ReleaseDate": "14/12/2010",
+    "ApplicationName": "Versions",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t\tNote: JIRA tickets now include the project abbreviation in the URL, so if you already use JIRA tickets linked from your Timeline, you will have to adjust your ticket URL in your repository bookmark"
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "_\tView your extended 10-day local weather forecast ",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "1.8.4",
+    "ReleaseDate": "24/07/2013",
+    "ApplicationName": "CNN",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "_\tView your extended 10-day local weather forecast "
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "_\tView your extended 10-day local weather forecast ",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "1.8.4",
+    "ReleaseDate": "24/07/2013",
+    "ApplicationName": "CNN",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "_\tView your extended 10-day local weather forecast "
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "\t\tWhen Versions is hidden or minimized, progress sheets no longer get stuck when they should have been dismissed",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "1.0.7",
+    "ReleaseDate": "10/12/2009",
+    "ApplicationName": "Versions",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t\tWhen Versions is hidden or minimized, progress sheets no longer get stuck when they should have been dismissed"
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "\t\tWhen Versions is hidden or minimized, progress sheets no longer get stuck when they should have been dismissed",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "1.0.7",
+    "ReleaseDate": "10/12/2009",
+    "ApplicationName": "Versions",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t\tWhen Versions is hidden or minimized, progress sheets no longer get stuck when they should have been dismissed"
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "- Words Coach to practice",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "1.1",
+    "ReleaseDate": "10/04/2014",
+    "ApplicationName": "New Words with Friends",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Words Coach to practice"
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "- Words Coach to practice",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "1.1",
+    "ReleaseDate": "10/04/2014",
+    "ApplicationName": "New Words with Friends",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Words Coach to practice"
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "+ if you shut down Sleep Cycle during the night and start it up again it will continue on the same graph + warning shown on nights that are too short (less than 2.5 hours)",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "3.0",
+    "ReleaseDate": "11/11/2010",
+    "ApplicationName": "Sleep Cycle",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "+ if you shut down Sleep Cycle during the night and start it up again it will continue on the same graph + warning shown on nights that are too short (less than 2.5 hours)"
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "+ if you shut down Sleep Cycle during the night and start it up again it will continue on the same graph + warning shown on nights that are too short (less than 2.5 hours)",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "3.0",
+    "ReleaseDate": "11/11/2010",
+    "ApplicationName": "Sleep Cycle",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "+ if you shut down Sleep Cycle during the night and start it up again it will continue on the same graph + warning shown on nights that are too short (less than 2.5 hours)"
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "\t\tDirect Sale fulfillment emails will now properly activate Kaleidoscope for users with diacritics in their names.",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "2.1 - build 134",
+    "ReleaseDate": "19/02/2013",
+    "ApplicationName": "KaleidoscopeD",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t\tDirect Sale fulfillment emails will now properly activate Kaleidoscope for users with diacritics in their names."
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "\t\tDirect Sale fulfillment emails will now properly activate Kaleidoscope for users with diacritics in their names.",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "2.1 - build 134",
+    "ReleaseDate": "19/02/2013",
+    "ApplicationName": "KaleidoscopeD",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t\tDirect Sale fulfillment emails will now properly activate Kaleidoscope for users with diacritics in their names."
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "_ Timer added to the track progress indicator - drag the player controls up to reveal the timer",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "4.0.1",
+    "ReleaseDate": "01/11/2012",
+    "ApplicationName": "Pandora",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "_ Timer added to the track progress indicator - drag the player controls up to reveal the timer"
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "_ Timer added to the track progress indicator - drag the player controls up to reveal the timer",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "4.0.1",
+    "ReleaseDate": "01/11/2012",
+    "ApplicationName": "Pandora",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "_ Timer added to the track progress indicator - drag the player controls up to reveal the timer"
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "Hello everyone, we just updated the Android app.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "0.5.12.52",
+    "ReleaseDate": "03/04/2013",
+    "ApplicationName": "SpotifyM",
+    "ApplicationType": {
+        "str_type": "Sibling - Mobile",
+        "int_type": 4
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Hello everyone, we just updated the Android app."
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "Hello everyone, we just updated the Android app.",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "0.5.12.52",
+    "ReleaseDate": "03/04/2013",
+    "ApplicationName": "SpotifyM",
+    "ApplicationType": {
+        "str_type": "Sibling - Mobile",
+        "int_type": 4
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Hello everyone, we just updated the Android app."
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "\t•\tWe started rolling out this update today and everyone should have it by this evening.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "0.7.4",
+    "ReleaseDate": "06/12/2013",
+    "ApplicationName": "SpotifyM",
+    "ApplicationType": {
+        "str_type": "Sibling - Mobile",
+        "int_type": 4
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t•\tWe started rolling out this update today and everyone should have it by this evening."
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "\t•\tWe started rolling out this update today and everyone should have it by this evening.",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "0.7.4",
+    "ReleaseDate": "06/12/2013",
+    "ApplicationName": "SpotifyM",
+    "ApplicationType": {
+        "str_type": "Sibling - Mobile",
+        "int_type": 4
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t•\tWe started rolling out this update today and everyone should have it by this evening."
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "Chrome and Firefox no longer report the Covenant Eyes download as malicious.",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "5.1.5.52",
+    "ReleaseDate": "30/10/2014",
+    "ApplicationName": "Covenant EyesD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Chrome and Firefox no longer report the Covenant Eyes download as malicious."
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "Chrome and Firefox no longer report the Covenant Eyes download as malicious.",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "5.1.5.52",
+    "ReleaseDate": "30/10/2014",
+    "ApplicationName": "Covenant EyesD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Chrome and Firefox no longer report the Covenant Eyes download as malicious."
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "Fixes to iPad layout.",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "2.13.11403",
+    "ReleaseDate": "23/10/2014",
+    "ApplicationName": "Youtube",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Fixes to iPad layout."
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "Fixes to iPad layout.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "2.13.11403",
+    "ReleaseDate": "23/10/2014",
+    "ApplicationName": "Youtube",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Fixes to iPad layout."
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "_ Share your latest discoveries with friends on Pandora, Facebook, and Twitter",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "4.0.1",
+    "ReleaseDate": "01/11/2012",
+    "ApplicationName": "Pandora",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "_ Share your latest discoveries with friends on Pandora, Facebook, and Twitter"
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "_ Share your latest discoveries with friends on Pandora, Facebook, and Twitter",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "4.0.1",
+    "ReleaseDate": "01/11/2012",
+    "ApplicationName": "Pandora",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "_ Share your latest discoveries with friends on Pandora, Facebook, and Twitter"
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "Fixed: Smoother switching between wifi and mobile data.",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "0.7.9",
+    "ReleaseDate": "10/04/2014",
+    "ApplicationName": "SpotifyM",
+    "ApplicationType": {
+        "str_type": "Sibling - Mobile",
+        "int_type": 4
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Fixed: Smoother switching between wifi and mobile data."
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "Fixed: Smoother switching between wifi and mobile data.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "0.7.9",
+    "ReleaseDate": "10/04/2014",
+    "ApplicationName": "SpotifyM",
+    "ApplicationType": {
+        "str_type": "Sibling - Mobile",
+        "int_type": 4
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Fixed: Smoother switching between wifi and mobile data."
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "- This is a universal app, so you only need one app for both your iPhone and iPad",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "2.5",
+    "ReleaseDate": "09/09/2013",
+    "ApplicationName": "DashlaneM",
+    "ApplicationType": {
+        "str_type": "Sibling - Mobile",
+        "int_type": 4
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- This is a universal app, so you only need one app for both your iPhone and iPad"
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "- This is a universal app, so you only need one app for both your iPhone and iPad",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "2.5",
+    "ReleaseDate": "09/09/2013",
+    "ApplicationName": "DashlaneM",
+    "ApplicationType": {
+        "str_type": "Sibling - Mobile",
+        "int_type": 4
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- This is a universal app, so you only need one app for both your iPhone and iPad"
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "* Clickable links in video descriptions",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "1.1.0.4136",
+    "ReleaseDate": "04/12/2012",
+    "ApplicationName": "Youtube",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "* Clickable links in video descriptions"
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "* Clickable links in video descriptions",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "1.1.0.4136",
+    "ReleaseDate": "04/12/2012",
+    "ApplicationName": "Youtube",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "* Clickable links in video descriptions"
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "\t•\tAdded Undo for bookmarking.",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "4.0 Public Beta 11",
+    "ReleaseDate": "04/11/2013",
+    "ApplicationName": "Net News",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t•\tAdded Undo for bookmarking."
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "\t•\tAdded Undo for bookmarking.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "4.0 Public Beta 11",
+    "ReleaseDate": "04/11/2013",
+    "ApplicationName": "Net News",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t•\tAdded Undo for bookmarking."
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "Replaced the Restart Covenant Eyes menu option with Refresh Covenant Eyes.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "5.0.4.49",
+    "ReleaseDate": "08/01/2014",
+    "ApplicationName": "Covenant EyesD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Replaced the Restart Covenant Eyes menu option with Refresh Covenant Eyes."
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "Replaced the Restart Covenant Eyes menu option with Refresh Covenant Eyes.",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "5.0.4.49",
+    "ReleaseDate": "08/01/2014",
+    "ApplicationName": "Covenant EyesD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Replaced the Restart Covenant Eyes menu option with Refresh Covenant Eyes."
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "* Choose your video quality while on Wi-Fi",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "2.2.0",
+    "ReleaseDate": "15/10/2013",
+    "ApplicationName": "Youtube",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": true,
+    "split": false,
+    "merged": false,
+    "original_text": "* Choose your video quality while on Wi-Fi"
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "* Choose your video quality while on Wi-Fi",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "2.2.0",
+    "ReleaseDate": "15/10/2013",
+    "ApplicationName": "Youtube",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "* Choose your video quality while on Wi-Fi"
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "- We now have 36 new frames in the new free Type pack.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "1.6",
+    "ReleaseDate": "11/04/2013",
+    "ApplicationName": "Afterlight",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- We now have 36 new frames in the new free Type pack."
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "- We now have 36 new frames in the new free Type pack.",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "1.6",
+    "ReleaseDate": "11/04/2013",
+    "ApplicationName": "Afterlight",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- We now have 36 new frames in the new free Type pack."
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "Accountability Reports now display which application was used to access a URL.",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "5.1.5.52",
+    "ReleaseDate": "30/10/2014",
+    "ApplicationName": "Covenant EyesD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Accountability Reports now display which application was used to access a URL."
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "Accountability Reports now display which application was used to access a URL.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "5.1.5.52",
+    "ReleaseDate": "30/10/2014",
+    "ApplicationName": "Covenant EyesD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Accountability Reports now display which application was used to access a URL."
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "Free Calls: Talk as long as you want and stay in touch wherever you are. (Calls are free over Wi-Fi. Otherwise, standard data charges apply.)",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "4.2",
+    "ReleaseDate": "18/04/2014",
+    "ApplicationName": "Facebook Messenger",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Free Calls: Talk as long as you want and stay in touch wherever you are. (Calls are free over Wi-Fi. Otherwise, standard data charges apply.)"
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "Free Calls: Talk as long as you want and stay in touch wherever you are. (Calls are free over Wi-Fi. Otherwise, standard data charges apply.)",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "4.2",
+    "ReleaseDate": "18/04/2014",
+    "ApplicationName": "Facebook Messenger",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Free Calls: Talk as long as you want and stay in touch wherever you are. (Calls are free over Wi-Fi. Otherwise, standard data charges apply.)"
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "Allows a custom joystick dead zone for players experiencingissues with their gamepads. Value is the fraction at which input should register. Example: \"-deadzone 0.4\".",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "3",
+    "ReleaseDate": "18/08/2011",
+    "ApplicationName": "BastionD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": true,
+    "split": false,
+    "merged": false,
+    "original_text": "Allows a custom joystick dead zone for players experiencingissues with their gamepads. Value is the fraction at which input should register. Example: \"-deadzone 0.4\"."
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "Allows a custom joystick dead zone for players experiencingissues with their gamepads. Value is the fraction at which input should register. Example: \"-deadzone 0.4\".",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "3",
+    "ReleaseDate": "18/08/2011",
+    "ApplicationName": "BastionD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Allows a custom joystick dead zone for players experiencingissues with their gamepads. Value is the fraction at which input should register. Example: \"-deadzone 0.4\"."
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "4. Create a folder in Steam\\steamapps\\common\\bastion\\Content\\Subtitles\\r u",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "7",
+    "ReleaseDate": "02/09/2011",
+    "ApplicationName": "BastionD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": true,
+    "split": false,
+    "merged": false,
+    "original_text": "4. Create a folder in Steam\\steamapps\\common\\bastion\\Content\\Subtitles\\r u"
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "4. Create a folder in Steam\\steamapps\\common\\bastion\\Content\\Subtitles\\r u",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "7",
+    "ReleaseDate": "02/09/2011",
+    "ApplicationName": "BastionD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "4. Create a folder in Steam\\steamapps\\common\\bastion\\Content\\Subtitles\\r u"
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": " We are hard at work on the next big update to Sleep Cycle, in the meanwhile here is a minor update that fixes problems with iOS S.",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "3.0.1",
+    "ReleaseDate": "11/10/2011",
+    "ApplicationName": "Sleep Cycle",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": " We are hard at work on the next big update to Sleep Cycle, in the meanwhile here is a minor update that fixes problems with iOS S."
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": " We are hard at work on the next big update to Sleep Cycle, in the meanwhile here is a minor update that fixes problems with iOS S.",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "3.0.1",
+    "ReleaseDate": "11/10/2011",
+    "ApplicationName": "Sleep Cycle",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": " We are hard at work on the next big update to Sleep Cycle, in the meanwhile here is a minor update that fixes problems with iOS S."
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "- With Premium, you can get automatic backup and sync for your account, and take your password everywhere!",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "2.5",
+    "ReleaseDate": "09/09/2013",
+    "ApplicationName": "DashlaneM",
+    "ApplicationType": {
+        "str_type": "Sibling - Mobile",
+        "int_type": 4
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- With Premium, you can get automatic backup and sync for your account, and take your password everywhere!"
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "- With Premium, you can get automatic backup and sync for your account, and take your password everywhere!",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "2.5",
+    "ReleaseDate": "09/09/2013",
+    "ApplicationName": "DashlaneM",
+    "ApplicationType": {
+        "str_type": "Sibling - Mobile",
+        "int_type": 4
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- With Premium, you can get automatic backup and sync for your account, and take your password everywhere!"
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "My PC Games screen now displays your rank in each game, your friend leaderboard, and personalized content based on your gameplay",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "2.0.1",
+    "ReleaseDate": "01/03/2012",
+    "ApplicationName": "Raptr - D",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": true,
+    "split": false,
+    "merged": false,
+    "original_text": "My PC Games screen now displays your rank in each game, your friend leaderboard, and personalized content based on your gameplay"
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "My PC Games screen now displays your rank in each game, your friend leaderboard, and personalized content based on your gameplay",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "2.0.1",
+    "ReleaseDate": "01/03/2012",
+    "ApplicationName": "Raptr - D",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "My PC Games screen now displays your rank in each game, your friend leaderboard, and personalized content based on your gameplay"
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "New: A brand new design, perfectly adapted and optimized for Yosemite",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "0.0.0",
+    "ReleaseDate": "15/10/2014",
+    "ApplicationName": "DashlaneD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "New: A brand new design, perfectly adapted and optimized for Yosemite"
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "New: A brand new design, perfectly adapted and optimized for Yosemite",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "0.0.0",
+    "ReleaseDate": "15/10/2014",
+    "ApplicationName": "DashlaneD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "New: A brand new design, perfectly adapted and optimized for Yosemite"
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "Complete the Kid's Dream with five or more Shrine Idols invoked.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "6",
+    "ReleaseDate": "24/08/2011",
+    "ApplicationName": "BastionD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Complete the Kid's Dream with five or more Shrine Idols invoked."
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "Complete the Kid's Dream with five or more Shrine Idols invoked.",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "6",
+    "ReleaseDate": "24/08/2011",
+    "ApplicationName": "BastionD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Complete the Kid's Dream with five or more Shrine Idols invoked."
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "A new app for messages!",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "0.9.4",
+    "ReleaseDate": "23/09/2013",
+    "ApplicationName": "SpotifyD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "A new app for messages!"
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "A new app for messages!",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "0.9.4",
+    "ReleaseDate": "23/09/2013",
+    "ApplicationName": "SpotifyD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "A new app for messages!"
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "_ Tap the album artwork to discover additional music details including lyrics, artist info, and more",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "4.3",
+    "ReleaseDate": "21/05/2013",
+    "ApplicationName": "Pandora",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "_ Tap the album artwork to discover additional music details including lyrics, artist info, and more"
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "_ Tap the album artwork to discover additional music details including lyrics, artist info, and more",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "4.3",
+    "ReleaseDate": "21/05/2013",
+    "ApplicationName": "Pandora",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "_ Tap the album artwork to discover additional music details including lyrics, artist info, and more"
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "_ Now you can review and adjust what your shared RunKeeper activity will look like before posting to Facebook and Twitter",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "4.6",
+    "ReleaseDate": "26/06/2014",
+    "ApplicationName": "Run Keeper",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "_ Now you can review and adjust what your shared RunKeeper activity will look like before posting to Facebook and Twitter"
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "_ Now you can review and adjust what your shared RunKeeper activity will look like before posting to Facebook and Twitter",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "4.6",
+    "ReleaseDate": "26/06/2014",
+    "ApplicationName": "Run Keeper",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "_ Now you can review and adjust what your shared RunKeeper activity will look like before posting to Facebook and Twitter"
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "- Check out the Guest Filters for two new filters! Be sure to check the info page to see the creators.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "1.1",
+    "ReleaseDate": "20/11/2012",
+    "ApplicationName": "Afterlight",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Check out the Guest Filters for two new filters! Be sure to check the info page to see the creators."
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "- Check out the Guest Filters for two new filters! Be sure to check the info page to see the creators.",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "1.1",
+    "ReleaseDate": "20/11/2012",
+    "ApplicationName": "Afterlight",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Check out the Guest Filters for two new filters! Be sure to check the info page to see the creators."
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "Improved specificity and clarity of URL reporting.",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "1.8.1",
+    "ReleaseDate": "26/06/2014",
+    "ApplicationName": "Covenant EyesM",
+    "ApplicationType": {
+        "str_type": "Sibling - Mobile",
+        "int_type": 4
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Improved specificity and clarity of URL reporting."
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "Improved specificity and clarity of URL reporting.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "1.8.1",
+    "ReleaseDate": "26/06/2014",
+    "ApplicationName": "Covenant EyesM",
+    "ApplicationType": {
+        "str_type": "Sibling - Mobile",
+        "int_type": 4
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Improved specificity and clarity of URL reporting."
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "Another fabulous update!",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "0.6.2",
+    "ReleaseDate": "28/05/2013",
+    "ApplicationName": "SpotifyM",
+    "ApplicationType": {
+        "str_type": "Sibling - Mobile",
+        "int_type": 4
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Another fabulous update!"
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "Another fabulous update!",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "0.6.2",
+    "ReleaseDate": "28/05/2013",
+    "ApplicationName": "SpotifyM",
+    "ApplicationType": {
+        "str_type": "Sibling - Mobile",
+        "int_type": 4
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Another fabulous update!"
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "Complete the Kid's Dream with all ten Shrine Idols invoked.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "6",
+    "ReleaseDate": "24/08/2011",
+    "ApplicationName": "BastionD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Complete the Kid's Dream with all ten Shrine Idols invoked."
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "Complete the Kid's Dream with all ten Shrine Idols invoked.",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "6",
+    "ReleaseDate": "24/08/2011",
+    "ApplicationName": "BastionD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Complete the Kid's Dream with all ten Shrine Idols invoked."
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "\t•\tA new app for messages!",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "0.9.4",
+    "ReleaseDate": "23/09/2013",
+    "ApplicationName": "SpotifyD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t•\tA new app for messages!"
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "\t•\tA new app for messages!",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "0.9.4",
+    "ReleaseDate": "23/09/2013",
+    "ApplicationName": "SpotifyD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t•\tA new app for messages!"
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "Shortcuts to stickers: When someone sends you a sticker, press and hold down on it to get the pack. ",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "5.1",
+    "ReleaseDate": "13/05/2014",
+    "ApplicationName": "Facebook Messenger",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Shortcuts to stickers: When someone sends you a sticker, press and hold down on it to get the pack. "
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "Shortcuts to stickers: When someone sends you a sticker, press and hold down on it to get the pack. ",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "5.1",
+    "ReleaseDate": "13/05/2014",
+    "ApplicationName": "Facebook Messenger",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": true,
+    "split": false,
+    "merged": false,
+    "original_text": "Shortcuts to stickers: When someone sends you a sticker, press and hold down on it to get the pack. "
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "FULL BACKGROUND SUPPORT Set your alarm and exit Sleep Cycle � analysis will continue in the background.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "4.0",
+    "ReleaseDate": "20/09/2012",
+    "ApplicationName": "Sleep Cycle",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "FULL BACKGROUND SUPPORT Set your alarm and exit Sleep Cycle � analysis will continue in the background."
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "FULL BACKGROUND SUPPORT Set your alarm and exit Sleep Cycle � analysis will continue in the background.",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "4.0",
+    "ReleaseDate": "20/09/2012",
+    "ApplicationName": "Sleep Cycle",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "FULL BACKGROUND SUPPORT Set your alarm and exit Sleep Cycle � analysis will continue in the background."
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "- Font size customization",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "1.5",
+    "ReleaseDate": "21/05/2012",
+    "ApplicationName": "CNN",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Font size customization"
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "- Font size customization",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "1.5",
+    "ReleaseDate": "21/05/2012",
+    "ApplicationName": "CNN",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Font size customization"
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "- Integrated SNS sharing.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "2.5.1",
+    "ReleaseDate": "19/09/2014",
+    "ApplicationName": "Afterlight",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Integrated SNS sharing."
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "- Integrated SNS sharing.",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "2.5.1",
+    "ReleaseDate": "19/09/2014",
+    "ApplicationName": "Afterlight",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Integrated SNS sharing."
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "The Desktop application uses the \"Chromium Embedded Framework\" (CEF), which is a way to include the functionality of a web browser (based on Chrome) in the application - this enables us to develop features in modern programming languages and gives us the possibility to fix issues faster.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "0.9.4",
+    "ReleaseDate": "23/09/2013",
+    "ApplicationName": "SpotifyD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "The Desktop application uses the \"Chromium Embedded Framework\" (CEF), which is a way to include the functionality of a web browser (based on Chrome) in the application - this enables us to develop features in modern programming languages and gives us the possibility to fix issues faster."
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "The Desktop application uses the \"Chromium Embedded Framework\" (CEF), which is a way to include the functionality of a web browser (based on Chrome) in the application - this enables us to develop features in modern programming languages and gives us the possibility to fix issues faster.",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "0.9.4",
+    "ReleaseDate": "23/09/2013",
+    "ApplicationName": "SpotifyD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "The Desktop application uses the \"Chromium Embedded Framework\" (CEF), which is a way to include the functionality of a web browser (based on Chrome) in the application - this enables us to develop features in modern programming languages and gives us the possibility to fix issues faster."
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "- Users that have connected their PSN accounts: you can now view your friend's PSN level & trophies, and if available, when they last logged in to PSN",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "1.1.18",
+    "ReleaseDate": "14/03/2012",
+    "ApplicationName": "RaptrM",
+    "ApplicationType": {
+        "str_type": "Sibling - Mobile",
+        "int_type": 4
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Users that have connected their PSN accounts: you can now view your friend's PSN level & trophies, and if available, when they last logged in to PSN"
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "- Users that have connected their PSN accounts: you can now view your friend's PSN level & trophies, and if available, when they last logged in to PSN",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "1.1.18",
+    "ReleaseDate": "14/03/2012",
+    "ApplicationName": "RaptrM",
+    "ApplicationType": {
+        "str_type": "Sibling - Mobile",
+        "int_type": 4
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Users that have connected their PSN accounts: you can now view your friend's PSN level & trophies, and if available, when they last logged in to PSN"
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "_ Artist biographies",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "3.2",
+    "ReleaseDate": "06/07/2012",
+    "ApplicationName": "Pandora",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "_ Artist biographies"
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "_ Artist biographies",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "3.2",
+    "ReleaseDate": "06/07/2012",
+    "ApplicationName": "Pandora",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "_ Artist biographies"
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "* Quick access to new uploads from subscriptions via \"My Subscriptions\" feed on the Guide  ",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "1.3",
+    "ReleaseDate": "15/04/2013",
+    "ApplicationName": "Youtube",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "* Quick access to new uploads from subscriptions via \"My Subscriptions\" feed on the Guide  "
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "* Quick access to new uploads from subscriptions via \"My Subscriptions\" feed on the Guide  ",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "1.3",
+    "ReleaseDate": "15/04/2013",
+    "ApplicationName": "Youtube",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "* Quick access to new uploads from subscriptions via \"My Subscriptions\" feed on the Guide  "
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "Instant photo sharing: Take a photo and send it in just one tap, without leaving the conversation. ",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "5.1",
+    "ReleaseDate": "13/05/2014",
+    "ApplicationName": "Facebook Messenger",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Instant photo sharing: Take a photo and send it in just one tap, without leaving the conversation. "
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "Instant photo sharing: Take a photo and send it in just one tap, without leaving the conversation. ",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "5.1",
+    "ReleaseDate": "13/05/2014",
+    "ApplicationName": "Facebook Messenger",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Instant photo sharing: Take a photo and send it in just one tap, without leaving the conversation. "
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "_ Read and watch stories with new easy-to-use navigation ",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "1.6",
+    "ReleaseDate": "27/08/2012",
+    "ApplicationName": "CNN",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "_ Read and watch stories with new easy-to-use navigation "
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "_ Read and watch stories with new easy-to-use navigation ",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "1.6",
+    "ReleaseDate": "27/08/2012",
+    "ApplicationName": "CNN",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "_ Read and watch stories with new easy-to-use navigation "
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "What is worth mentioning though is that this is a major \"under the hood\" change (techies may be interested in reading more on http://en.wikipedia.org/wiki/Chromium_Embedded_Framework.)",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "0.9.4",
+    "ReleaseDate": "23/09/2013",
+    "ApplicationName": "SpotifyD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "What is worth mentioning though is that this is a major \"under the hood\" change (techies may be interested in reading more on http://en.wikipedia.org/wiki/Chromium_Embedded_Framework.)"
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "What is worth mentioning though is that this is a major \"under the hood\" change (techies may be interested in reading more on http://en.wikipedia.org/wiki/Chromium_Embedded_Framework.)",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "0.9.4",
+    "ReleaseDate": "23/09/2013",
+    "ApplicationName": "SpotifyD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "What is worth mentioning though is that this is a major \"under the hood\" change (techies may be interested in reading more on http://en.wikipedia.org/wiki/Chromium_Embedded_Framework.)"
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "- A light grey theme is now available for editing. Choose your theme in the settings, or swipe up/down with two fingers while editing to switch between the two color themes.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "2.2",
+    "ReleaseDate": "07/02/2014",
+    "ApplicationName": "Afterlight",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- A light grey theme is now available for editing. Choose your theme in the settings, or swipe up/down with two fingers while editing to switch between the two color themes."
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "- A light grey theme is now available for editing. Choose your theme in the settings, or swipe up/down with two fingers while editing to switch between the two color themes.",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "2.2",
+    "ReleaseDate": "07/02/2014",
+    "ApplicationName": "Afterlight",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- A light grey theme is now available for editing. Choose your theme in the settings, or swipe up/down with two fingers while editing to switch between the two color themes."
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "Post-activity notifications",
+    "classification": {
+        "str_type": "Not Classified",
+        "int_type": 6
+    },
+    "VersionNumber": "4.4",
+    "ReleaseDate": "25/03/2014",
+    "ApplicationName": "Run Keeper",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Post-activity notifications"
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "Post-activity notifications",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "4.4",
+    "ReleaseDate": "25/03/2014",
+    "ApplicationName": "Run Keeper",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Post-activity notifications"
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "\t\tAdded an option to start Versions in “Verbose mode” option + shift keys to log all errors to the Console",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "1.0.4",
+    "ReleaseDate": "20/05/2009",
+    "ApplicationName": "Versions",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t\tAdded an option to start Versions in “Verbose mode” option + shift keys to log all errors to the Console"
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "\t\tAdded an option to start Versions in “Verbose mode” option + shift keys to log all errors to the Console",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "1.0.4",
+    "ReleaseDate": "20/05/2009",
+    "ApplicationName": "Versions",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t\tAdded an option to start Versions in “Verbose mode” option + shift keys to log all errors to the Console"
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "_\tThe CNN logo now disappears as you scroll down a story page and will no longer cover headlines and photos",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "1.8.4",
+    "ReleaseDate": "24/07/2013",
+    "ApplicationName": "CNN",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "_\tThe CNN logo now disappears as you scroll down a story page and will no longer cover headlines and photos"
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "_\tThe CNN logo now disappears as you scroll down a story page and will no longer cover headlines and photos",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "1.8.4",
+    "ReleaseDate": "24/07/2013",
+    "ApplicationName": "CNN",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "_\tThe CNN logo now disappears as you scroll down a story page and will no longer cover headlines and photos"
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "MINOR CHANGES",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "4.4.1",
+    "ReleaseDate": "03/01/2014",
+    "ApplicationName": "Sleep Cycle",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "MINOR CHANGES"
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "MINOR CHANGES",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "4.4.1",
+    "ReleaseDate": "03/01/2014",
+    "ApplicationName": "Sleep Cycle",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "MINOR CHANGES"
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "- The free Type frame pack now has 6 new frames.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "1.7",
+    "ReleaseDate": "17/05/2013",
+    "ApplicationName": "Afterlight",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- The free Type frame pack now has 6 new frames."
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "- The free Type frame pack now has 6 new frames.",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "1.7",
+    "ReleaseDate": "17/05/2013",
+    "ApplicationName": "Afterlight",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- The free Type frame pack now has 6 new frames."
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "- This update comes with the Instant Film pack. It includes 19 new textures and 3 new frames. All inspired by and created with instant film. This will be a growing pack that will receive new content.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "1.5",
+    "ReleaseDate": "11/03/2013",
+    "ApplicationName": "Afterlight",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- This update comes with the Instant Film pack. It includes 19 new textures and 3 new frames. All inspired by and created with instant film. This will be a growing pack that will receive new content."
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "- This update comes with the Instant Film pack. It includes 19 new textures and 3 new frames. All inspired by and created with instant film. This will be a growing pack that will receive new content.",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "1.5",
+    "ReleaseDate": "11/03/2013",
+    "ApplicationName": "Afterlight",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- This update comes with the Instant Film pack. It includes 19 new textures and 3 new frames. All inspired by and created with instant film. This will be a growing pack that will receive new content."
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "\t•\tSeparated out Hide Read Articles from Hide Read Sites, so you can toggle these individually via View menu or keyboard shortcuts.",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "4.0 Public Beta 12",
+    "ReleaseDate": "03/12/2013",
+    "ApplicationName": "Net News",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t•\tSeparated out Hide Read Articles from Hide Read Sites, so you can toggle these individually via View menu or keyboard shortcuts."
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "\t•\tSeparated out Hide Read Articles from Hide Read Sites, so you can toggle these individually via View menu or keyboard shortcuts.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "4.0 Public Beta 12",
+    "ReleaseDate": "03/12/2013",
+    "ApplicationName": "Net News",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t•\tSeparated out Hide Read Articles from Hide Read Sites, so you can toggle these individually via View menu or keyboard shortcuts."
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "- We've added three new original textures.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "1.6",
+    "ReleaseDate": "11/04/2013",
+    "ApplicationName": "Afterlight",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- We've added three new original textures."
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "- We've added three new original textures.",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "1.6",
+    "ReleaseDate": "11/04/2013",
+    "ApplicationName": "Afterlight",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- We've added three new original textures."
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "\t•\tCorrected inaccuracies in the Help documentation.",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "4.0 Public Beta 15",
+    "ReleaseDate": "20/01/2014",
+    "ApplicationName": "Net News",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t•\tCorrected inaccuracies in the Help documentation."
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "\t•\tCorrected inaccuracies in the Help documentation.",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "4.0 Public Beta 15",
+    "ReleaseDate": "20/01/2014",
+    "ApplicationName": "Net News",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t•\tCorrected inaccuracies in the Help documentation."
+}
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "- Six great new professional fonts designed for long-form reading and maximum legibility.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "4.1",
+    "ReleaseDate": "16/03/2012",
+    "ApplicationName": "Instapaper",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Six great new professional fonts designed for long-form reading and maximum legibility."
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "- Six great new professional fonts designed for long-form reading and maximum legibility.",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "4.1",
+    "ReleaseDate": "16/03/2012",
+    "ApplicationName": "Instapaper",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Six great new professional fonts designed for long-form reading and maximum legibility."
+}
+===========================Splits===========================
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "_ Performance and bug fixes",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "2.2.0",
+    "ReleaseDate": "08/01/2013",
+    "ApplicationName": "Wish",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "_ Performance and bug fixes"
+}
+
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "_ Performance ",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "2.2.0",
+    "ReleaseDate": "08/01/2013",
+    "ApplicationName": "Wish",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": true,
+    "merged": false,
+    "original_text": "_ Performance and bug fixes"
+}
+
+{
+    "entry": "and bug fixes",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "2.2.0",
+    "ReleaseDate": "08/01/2013",
+    "ApplicationName": "Wish",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": true,
+    "merged": false,
+    "original_text": "_ Performance and bug fixes"
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "- The cropping tool has been enhanced. ",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "1.5",
+    "ReleaseDate": "11/03/2013",
+    "ApplicationName": "Afterlight",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": true,
+    "merged": false,
+    "original_text": "- The cropping tool has been enhanced. The free transform option has more control, and we've added a golden ratio crop option."
+}
+
+{
+    "entry": "The free transform option has more control, ",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "1.5",
+    "ReleaseDate": "11/03/2013",
+    "ApplicationName": "Afterlight",
+    "ApplicationType": {
+        "str_type": "Not Classified",
+        "int_type": 3
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": true,
+    "merged": false,
+    "original_text": "- The cropping tool has been enhanced. The free transform option has more control, and we've added a golden ratio crop option."
+}
+
+{
+    "entry": "and we've added a golden ratio crop option.",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "1.5",
+    "ReleaseDate": "11/03/2013",
+    "ApplicationName": "Afterlight",
+    "ApplicationType": {
+        "str_type": "Not Classified",
+        "int_type": 3
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- The cropping tool has been enhanced. The free transform option has more control, and we've added a golden ratio crop option."
+}
+
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "- The cropping tool has been enhanced. The free transform option has more control, and we've added a golden ratio crop option.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "1.5",
+    "ReleaseDate": "11/03/2013",
+    "ApplicationName": "Afterlight",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- The cropping tool has been enhanced. The free transform option has more control, and we've added a golden ratio crop option."
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": " Bug fixes and performance improvements",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "5.0.13",
+    "ReleaseDate": "29/05/2014",
+    "ApplicationName": "Instagram",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": " Bug fixes and performance improvements"
+}
+
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": " Bug fixes ",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "5.0.13",
+    "ReleaseDate": "29/05/2014",
+    "ApplicationName": "Instagram",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": true,
+    "merged": false,
+    "original_text": " Bug fixes and performance improvements"
+}
+
+{
+    "entry": "and performance improvements",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "5.0.13",
+    "ReleaseDate": "29/05/2014",
+    "ApplicationName": "Instagram",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": true,
+    "merged": false,
+    "original_text": " Bug fixes and performance improvements"
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "- Your pace gets calculated when you enter your total distance after your workout\t",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "5.0",
+    "ReleaseDate": "03/11/2014",
+    "ApplicationName": "Run Keeper",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": true,
+    "merged": true,
+    "original_text": "- Your pace gets calculated when you enter your total distance after your workout"
+}
+
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "- Your pace gets calculated when you enter your total distance after your workout",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "5.0",
+    "ReleaseDate": "03/11/2014",
+    "ApplicationName": "Run Keeper",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "- Your pace gets calculated when you enter your total distance after your workout"
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "New: A New Sharing Center in the main menu. Easily and securely share passwords and notes with other users. Manage shared items and access levels. ",
+    "classification": {
+        "str_type": "Not Classified",
+        "int_type": 6
+    },
+    "VersionNumber": "3.0.5",
+    "ReleaseDate": "28/07/2014",
+    "ApplicationName": "DashlaneD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": true,
+    "merged": false,
+    "original_text": "New: A New Sharing Center in the main menu. Easily and securely share passwords and notes with other users. Manage shared items and access levels. Updates to shared items sync automatically between users."
+}
+
+{
+    "entry": "Updates to shared items sync automatically between users.",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "3.0.5",
+    "ReleaseDate": "28/07/2014",
+    "ApplicationName": "DashlaneD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": true,
+    "merged": false,
+    "original_text": "New: A New Sharing Center in the main menu. Easily and securely share passwords and notes with other users. Manage shared items and access levels. Updates to shared items sync automatically between users."
+}
+
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "New: A New Sharing Center in the main menu. Easily and securely share passwords and notes with other users. Manage shared items and access levels. Updates to shared items sync automatically between users.",
+    "classification": {
+        "str_type": "Feature",
+        "int_type": 1
+    },
+    "VersionNumber": "3.0.5",
+    "ReleaseDate": "28/07/2014",
+    "ApplicationName": "DashlaneD",
+    "ApplicationType": {
+        "str_type": "Sibling - Desktop",
+        "int_type": 2
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "New: A New Sharing Center in the main menu. Easily and securely share passwords and notes with other users. Manage shared items and access levels. Updates to shared items sync automatically between users."
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "Stabilization and minor bug fixes.",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "2.7.0",
+    "ReleaseDate": "11/06/2014",
+    "ApplicationName": "Youtube",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "Stabilization and minor bug fixes."
+}
+
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "Stabilization ",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "2.7.0",
+    "ReleaseDate": "11/06/2014",
+    "ApplicationName": "Youtube",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": true,
+    "merged": false,
+    "original_text": "Stabilization and minor bug fixes."
+}
+
+{
+    "entry": "and minor bug fixes.",
+    "classification": {
+        "str_type": "Bug",
+        "int_type": 0
+    },
+    "VersionNumber": "2.7.0",
+    "ReleaseDate": "11/06/2014",
+    "ApplicationName": "Youtube",
+    "ApplicationType": {
+        "str_type": "Mobile",
+        "int_type": 1
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": true,
+    "merged": false,
+    "original_text": "Stabilization and minor bug fixes."
+}
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Hongyan3k20per.json
+{
+    "entry": "\t\tImproved Main Menu and Contextual Menu layout and ",
+    "classification": {
+        "str_type": "Not Classified",
+        "int_type": 6
+    },
+    "VersionNumber": "1.0b5",
+    "ReleaseDate": "02/08/2008",
+    "ApplicationName": "Versions",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": true,
+    "split": true,
+    "merged": false,
+    "original_text": "\t\tImproved Main Menu and Contextual Menu layout and language"
+}
+
+{
+    "entry": "language",
+    "classification": {
+        "str_type": "Non-Functional",
+        "int_type": 3
+    },
+    "VersionNumber": "1.0b5",
+    "ReleaseDate": "02/08/2008",
+    "ApplicationName": "Versions",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": true,
+    "merged": false,
+    "original_text": "\t\tImproved Main Menu and Contextual Menu layout and language"
+}
+
+
+C:\Users\yi\Desktop\SmallerSampleProgress 1\Kendall3k20per.json
+{
+    "entry": "\t\tImproved Main Menu and Contextual Menu layout and language",
+    "classification": {
+        "str_type": "Enhancement",
+        "int_type": 2
+    },
+    "VersionNumber": "1.0b5",
+    "ReleaseDate": "02/08/2008",
+    "ApplicationName": "Versions",
+    "ApplicationType": {
+        "str_type": "Desktop",
+        "int_type": 0
+    },
+    "datePattern": [
+        ""
+    ],
+    "flag": false,
+    "split": false,
+    "merged": false,
+    "original_text": "\t\tImproved Main Menu and Contextual Menu layout and language"
+}
+
