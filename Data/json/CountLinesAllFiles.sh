@@ -1,6 +1,6 @@
 #!/bin/bash
 
-FILES=./CompJson/*D
+FILES=./CompJson/MinimizedData/*D
 
 numLines=0
 for f in $FILES
@@ -16,7 +16,7 @@ done
 echo "Total Lines Desktop: "$numLines
 
 
-FILES=./CompJson/*M
+FILES=./CompJson/MinimizedData/*M
 numLines=0
 for f in $FILES
 do 
@@ -29,7 +29,7 @@ do
 done
 echo "Total Lines Mobile: "$numLines
 
-FILES=./CompJson/*S
+FILES=./CompJson/MinimizedData/*S
 numLines=0
 for f in $FILES
 do 
@@ -42,7 +42,7 @@ do
 done
 echo "Total Lines Sibling: "$numLines
 
-FILES=./CompJson/*
+FILES=./CompJson/MinimizedData/*
 numLines=0
 for f in $FILES
 do 
