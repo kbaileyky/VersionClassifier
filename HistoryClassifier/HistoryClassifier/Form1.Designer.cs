@@ -265,9 +265,8 @@
             this.btnAd.Name = "btnAd";
             this.btnAd.Size = new System.Drawing.Size(104, 37);
             this.btnAd.TabIndex = 12;
-            this.btnAd.Text = "Advertisement (U)";
+            this.btnAd.Text = "Junk (U)";
             this.btnAd.UseVisualStyleBackColor = true;
-            this.btnAd.Visible = false;
             this.btnAd.Click += new System.EventHandler(this.btnAd_Click);
             // 
             // btnChangeRating

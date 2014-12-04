@@ -22,7 +22,7 @@ namespace HistoryClassifier
 
         public Ad()
         {
-            str_type = "Advertisement";
+            str_type = "Junk";
      //       enum_type = desc.Ads;
             int_type = 4;
         }
