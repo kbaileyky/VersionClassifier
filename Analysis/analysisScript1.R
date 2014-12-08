@@ -73,13 +73,21 @@ sibDeskFeatures = sibDeskJson$Features$Data
 sibDeskEnhancements = sibDeskJson$Enhacements$Data
 sibDeskNonFunc = sibDeskJson$NonFunc$Data
 
-#makeTable(mobileBugs, desktopBugs, siblingBugs, sibMobBugs, sibDeskBugs)
+runReleaseAnalysis <- function(){
+	graphDirectory_file = "C:\\Users\\Kitsune\\Documents\\GitHub\\VersionClassifier\\Analysis"
 
-graphDirectory_file = "C:\\Users\\Kitsune\\Documents\\GitHub\\VersionClassifier\\Analysis"
+
+	generateBoxPlot("Bugs per Release", mobileBugs, desktopBugs, siblingBugs, sibMobBugs, sibDeskBugs, "Application Type", "Number Bugs", graphDirectory_file, "\\BugBoxPlot.pdf")
+
+	generateBoxPlot("Features per Release", mobileFeatures, desktopFeatures, siblingFeatures, sibMobFeatures, sibDeskFeatures, "Application Type", "Number Features", graphDirectory_file, "\\FeatureBoxPlot.pdf")
+	generateBoxPlot("Enhancements per Release", mobileEnhancements, desktopEnhancements, siblingEnhancements, sibMobEnhancements, sibDeskEnhancements, "Application Type", "Number Enhancements", graphDirectory_file, "\\EnhancementBoxPlot.pdf")
+	generateBoxPlot("Non-Functional per Release", mobileNonFunc, desktopNonFunc, siblingNonFunc, sibMobNonFunc, sibDeskNonFunc, "Application Type", "Number Non-Functional", graphDirectory_file, "\\NonFuncBoxPlot.pdf")
 
 
-generateBoxPlot("Bugs per Release", mobileBugs, desktopBugs, siblingBugs, sibMobBugs, sibDeskBugs, "Application Type", "Number Bugs", graphDirectory_file, "\\BugBoxPlot.pdf")
+	print(t.test(mobileBugs, desktopBugs, alternative="two.sided", var.equal=FALSE))
+	print(t.test(mobileBugs, siblingBugs, alternative="two.sided", var.equal=FALSE))
+	print(t.test(desktopBugs, siblingBugs, alternative="two.sided", var.equal=FALSE))
+}
 
-generateBoxPlot("Features per Release", mobileFeatures, desktopFeatures, siblingFeatures, sibMobFeatures, sibDeskFeatures, "Application Type", "Number Features", graphDirectory_file, "\\FeatureBoxPlot.pdf")
-generateBoxPlot("Enhancements per Release", mobileEnhancements, desktopEnhancements, siblingEnhancements, sibMobEnhancements, sibDeskEnhancements, "Application Type", "Number Enhancements", graphDirectory_file, "\\EnhancementBoxPlot.pdf")
-generateBoxPlot("Non-Functional per Release", mobileNonFunc, desktopNonFunc, siblingNonFunc, sibMobNonFunc, sibDeskNonFunc, "Application Type", "Number Non-Functional", graphDirectory_file, "\\NonFuncBoxPlot.pdf")
+
+

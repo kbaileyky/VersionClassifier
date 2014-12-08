@@ -1167,7 +1167,7 @@ Feature:
 Possibility to open from VisualNDepend the source code definition of a method written in any .NET language (C#, VB.NET, F#...) as long as the PDBs files are provided the during analysis.
 More accurate information message about source files parsing in the Error List.
 NDepend doesn't consider anymore that a class is using directly the types of the attribute that tag its base class(es).
-Silverlight default support for Silverlight 2.0 RTM (v2.0.31005.0).
+Silverlight default support for Silverlight 2.0 RTM (<<Some Version>>).
 
 
 Bug fixed: 
@@ -1202,11 +1202,11 @@ Possibility to remove empty row & column in Matrix.
 Possibility to remove a node in the graph.
 The default CQL rule 'Types should not extend System.ApplicationException' doesn't match anymore exception class defined in tier assemblie.
 The default CQL rules 'Instance fields should be prefixed with a 'm_'' and 'Static fields should be prefixed with a 's_'' doesn't match anymore IsSpecialName and IsEventDelegateObject fields.
-Silverlight default support for Silverlight Release Candidate 0 (v2.0.30923.0).
+Silverlight default support for Silverlight Release Candidate 0 (<<Some Version>>).
 
 
 Bug fixed: 
-Since the previous 2.10.2 version, in Ribbon with VisualStudio 2008 Skin, ComboBox background was black when not hovered with the mouse.
+Since the previous<<Some Version>>version, in Ribbon with VisualStudio 2008 Skin, ComboBox background was black when not hovered with the mouse.
 When the 'Cell Weight Mode' of the Matrix and the 'Edge Thickness' of the Graph were different, right-clicking an edge of the graph and selecting 'Open this dependency on Matrix (keeping only involved elements) or by (keeping only changed elements)' could throw an exception.
 When the 'Edge Thickness' of the Graph was set to constant, the menu displayed when right clicking an edge could contain some invalid commands in this context.
 During build comparison, ignore assemblies name case. For example System.dll and system.dll will be compared.
