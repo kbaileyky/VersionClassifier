@@ -9,6 +9,7 @@ improvements.
 - Choosing a photo is now easier with the ability to swipe left/right when in the preview menu.
 - Sub menus are now hidden when moving sliders.
 - There is now a horizontal guide in the Camera Mode. Toggle it with the Grid button.
+- We have now partnered with Mosaic, who offer incredible photo books printed with your personal photos. Check it out in the Save & Share menu after editing a photo.
 - An automatic landscape mode is now supported for iPhone.
 - The App icon and Afterlight's entire UI have been re-designed for iOS 7.
 - Photos are now automatically saved to your camera roll in camera mode.
@@ -45,6 +46,8 @@ _ Enhanced design inspired by the display of the iPhone 5
 _ Updated navigation to more quickly find stories and videos that interest you
 _ Live TV closed captioning 
 _ Optimized for iOS6 
+_ Read and watch stories with new easy-to-use navigation 
+- Now one consolidated global app, giving you both US and worldwide perspectives on the news
 - Increased app speed
 - Inclusion of CNNMoney and Opinion headlines and additional CNN blog stories 
 - Font size customization
@@ -225,6 +228,9 @@ enhancements
 - Updated Twitter sharing to use native Twitter links instead of j.mp.
 - Improved typography: now supports ligatures and advanced kerning in most articles when using the Lyon, Tisa, Meta, or Hoefler Text fonts.
  improvements.
+- All-new Fast Pagination mode, a complete rewrite from the old pagination code that greatly improves accuracy and page-turn speed
+- The subtle Twilight Sepia color tint can now be selected at any time
+and performance improvements
 - New draggable dot bar to replace the scroll bar in pagination mode
 - Full-screen now has "Auto" mode to switch to full screen after a few seconds
 - The subtle Twilight Sepia color tint can now be selected at any time
@@ -265,8 +271,11 @@ Additional improvements
 Improvements and
 Improvements and 
 Improvements and
+_ Not ready to wake up? Adjust the snooze time to catch more zzz_s 
 Other improvements 
 If you love the Sleep Timer for your iPhone or iPod, you_ll be happy to know it is now available for iPad 
+_     Adjust the countdown time from 15, 30 or 60 minutes 
+_     Hear about new music or comedy added to your stations 
 The usual improvements and
 _ Refreshed app design just for iOS 7
 _ Other small improvements and
@@ -320,6 +329,8 @@ Elite Improvements
 -Performance improvements on Me tab
 -Many other improvements and 
 and improvements
+  -Listen to British audio cues by selecting UK language setting
+  -We now support new activity types like strength training, spinning, yoga and many more 
  improvements for all you iOS7'ers
 - Brand new look and feel!
 - Overhauled "Start" screen experience!
@@ -355,6 +366,16 @@ SUPPORT FOR TIME ZONES Sleep Cycle automatically adapts your graphs to the local
 * Background stability improved
 - Sleep Cycle remembers where the user is while deleting nights
 - Fixed sound compatibility issues with iOS 6
+* Delete specific nights
+* Wake-up mood � track how you feel each morning
+* Simplified navigation between nights with list view
+* Simplified and improved volume management
+* Statistics view shows best, worst, longest and shortest night
+- Stop alarm without leaving Sleep Cycle
+* Turn off various reminders
+* Delete entire database
+* Improved support for headsets
+* Improved saving of alarm time for future sessions
 USER INTERFACE Improved and simplified UI.
 PERFORMANCE Vastly improved general performance and graph loading.
 * Simplified navigation between nights with list view
@@ -381,6 +402,7 @@ anything from 0 minutes (regular alarm clock mode) to 10, 15, 20, 30, 45, 60 and
 - Average sleep time is more accurate now.
 + Steps in the alarm spinner changed from 1 minute to 5
 * The screen is now completely turned off when the phone is placed in bed
+- this reduces the heat produced by the phone considerably. The screen is turned off automatically.
 * New placement recommendation that keeps the phone cooler.
 - Vibration is now only used as a back up when the wake-up melody has played for about a minute
 -New and improved iPad redesign
@@ -438,15 +460,18 @@ Lots of improvements and
 - Improved search experience
 - Many visual and performance improvements
 - New Comment System
+Brand new commenting system that is easier and faster to use
 - Tons of Improvements and
 - Brand new look!
 - New and improved checkout flow with credit card scanning
 - Redesigned activity stream
 - Many other improvements
 - Easy access to wishlists
+Swipe to the left to reveal all your wishlists
 - Redesigned wishlist editing
 - Lots of other improvements
 - Tons of performance and visual tweaks
+We've gone through the app and cleaned things up to give you an even better experience
 _ New browse section with image previews
 _ Updated menu UI
 _ Improved checkout experience
@@ -469,6 +494,8 @@ _ Revamped design on profile page
 _ Better Facebook Integration
 Improvements
 _ Improved Details Page
+    - Follow uploader directly from details page
+    - Other various UI improvements
 _ Improved Recommendation & Invite Pages
 _ Quicker Access to Following and Followers on Profile
 - View more photos on certain products
@@ -545,6 +572,7 @@ Mac OS X 10.7 support improved
 Rewrite tool URL rewrite now allows query strings to be created
 Mirror tool, filename length limit increased
 Firefox add-on detection improved for newer Firefox versions
+and minor enhancements.
 Include response status in filtering for sequence view
 Add "Use External Proxy Servers" toggle in Windows tray icon menu
 Add OAuth authentication header support

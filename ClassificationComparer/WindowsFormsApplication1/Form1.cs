@@ -288,9 +288,9 @@ namespace WindowsFormsApplication1
             List<List<HistoryEntry>> diffList;
             List<Splist_Entry> splitlist = new List<Splist_Entry>();
             string filename = String.Empty;
-            string MobilePath = "C:\\Users\\Kitsune\\Documents\\GitHub\\VersionClassifier\\Data\\json\\VersionJson\\Mobile";
-            string DesktopPath = "C:\\Users\\Kitsune\\Documents\\GitHub\\VersionClassifier\\Data\\json\\VersionJson\\Desktop";
-            string SiblingPath = "C:\\Users\\Kitsune\\Documents\\GitHub\\VersionClassifier\\Data\\json\\VersionJson\\Both";
+            string MobilePath = "C:\\Users\\Kitsune\\Documents\\GitHub\\VersionClassifier\\Data\\json\\VersionJsonClassified\\Mobile";
+            string DesktopPath = "C:\\Users\\Kitsune\\Documents\\GitHub\\VersionClassifier\\Data\\json\\VersionJsonClassified\\Desktop";
+            string SiblingPath = "C:\\Users\\Kitsune\\Documents\\GitHub\\VersionClassifier\\Data\\json\\VersionJsonClassified\\Both";
 
             Entries1.Clear();
           //  Entries2.Clear();

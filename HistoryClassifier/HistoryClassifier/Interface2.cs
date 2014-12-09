@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HistoryClassifier
 {
-    
+
     interface Classification
     {
 
@@ -17,13 +17,13 @@ namespace HistoryClassifier
     class Ad : Classification
     {
         public string str_type;
-      //  public desc enum_type;
+        //  public desc enum_type;
         public int int_type;
 
         public Ad()
         {
             str_type = "Junk";
-     //       enum_type = desc.Ads;
+            //       enum_type = desc.Ads;
             int_type = 4;
         }
 
@@ -42,13 +42,13 @@ namespace HistoryClassifier
     class Bug : Classification
     {
         public string str_type;
-    //    public desc enum_type;
+        //    public desc enum_type;
         public int int_type;
 
         public Bug()
         {
             str_type = "Bug";
-   //         enum_type = desc.Bug;
+            //         enum_type = desc.Bug;
             int_type = 0;
         }
 
@@ -68,13 +68,13 @@ namespace HistoryClassifier
     class Enhancement : Classification
     {
         public string str_type;
-  //      public desc enum_type;
+        //      public desc enum_type;
         public int int_type;
 
         public Enhancement()
         {
             str_type = "Enhancement";
-      //      enum_type = desc.Enhancement;
+            //      enum_type = desc.Enhancement;
             int_type = 2;
         }
 
@@ -94,13 +94,13 @@ namespace HistoryClassifier
     class Feature : Classification
     {
         public string str_type;
-     //   public desc enum_type;
+        //   public desc enum_type;
         public int int_type;
 
         public Feature()
         {
             str_type = "Feature";
-     //       enum_type = desc.Feature;
+            //       enum_type = desc.Feature;
             int_type = 1;
         }
 
@@ -119,13 +119,13 @@ namespace HistoryClassifier
     class Junk : Classification
     {
         public string str_type;
-  //      public desc enum_type;
+        //      public desc enum_type;
         public int int_type;
 
         public Junk()
         {
             str_type = "Non-Functional";
-   //         enum_type = desc.Junk;
+            //         enum_type = desc.Junk;
             int_type = 3;
         }
 
@@ -144,13 +144,13 @@ namespace HistoryClassifier
     class NotClassified : Classification
     {
         public string str_type;
-    //    public desc enum_type;
+        //    public desc enum_type;
         public int int_type;
 
         public NotClassified()
         {
             str_type = "Not Classified";
-   //         enum_type = desc.NotClassified;
+            //         enum_type = desc.NotClassified;
             int_type = 6;
         }
 
@@ -166,16 +166,40 @@ namespace HistoryClassifier
 
     }
 
-    class RevChangeRequest : Classification
+    class Feedback : Classification
     {
         public string str_type;
-   //     public desc enum_type;
+        //     public desc enum_type;
         public int int_type;
 
-        public RevChangeRequest()
+        public Feedback()
         {
-            str_type = "Rating Related";
-      //      enum_type = desc.RevChangeRequest;
+            str_type = "Contact/feedback";
+            //      enum_type = desc.RevChangeRequest;
+            int_type = 7;
+        }
+
+        public string Get_String()
+        {
+            return str_type;
+        }
+
+        public int Get_Int()
+        {
+            return int_type;
+        }
+    }
+
+    class Gratitude : Classification
+    {
+        public string str_type;
+        //     public desc enum_type;
+        public int int_type;
+
+        public Gratitude()
+        {
+            str_type = "Gratitude";
+            //      enum_type = desc.RevChangeRequest;
             int_type = 5;
         }
 

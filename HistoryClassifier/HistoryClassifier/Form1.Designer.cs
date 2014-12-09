@@ -45,6 +45,7 @@
             this.saveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.saveForComparisonToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.saveByVersionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.removeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lsbxHistory = new System.Windows.Forms.ListBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -71,7 +72,7 @@
             this.btnMergeUp = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.lblReleaseDate = new System.Windows.Forms.Label();
-            this.removeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.button1 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -90,7 +91,7 @@
             // 
             this.btnBug.Location = new System.Drawing.Point(102, 344);
             this.btnBug.Name = "btnBug";
-            this.btnBug.Size = new System.Drawing.Size(104, 37);
+            this.btnBug.Size = new System.Drawing.Size(90, 37);
             this.btnBug.TabIndex = 1;
             this.btnBug.Text = "Bug (Q)";
             this.btnBug.UseVisualStyleBackColor = true;
@@ -107,9 +108,9 @@
             // 
             // btnFeature
             // 
-            this.btnFeature.Location = new System.Drawing.Point(223, 344);
+            this.btnFeature.Location = new System.Drawing.Point(198, 344);
             this.btnFeature.Name = "btnFeature";
-            this.btnFeature.Size = new System.Drawing.Size(104, 37);
+            this.btnFeature.Size = new System.Drawing.Size(90, 37);
             this.btnFeature.TabIndex = 3;
             this.btnFeature.Text = "Feature (W)";
             this.btnFeature.UseVisualStyleBackColor = true;
@@ -117,9 +118,9 @@
             // 
             // btnEnhancement
             // 
-            this.btnEnhancement.Location = new System.Drawing.Point(344, 344);
+            this.btnEnhancement.Location = new System.Drawing.Point(294, 344);
             this.btnEnhancement.Name = "btnEnhancement";
-            this.btnEnhancement.Size = new System.Drawing.Size(104, 37);
+            this.btnEnhancement.Size = new System.Drawing.Size(90, 37);
             this.btnEnhancement.TabIndex = 4;
             this.btnEnhancement.Text = "Enhancement (E)";
             this.btnEnhancement.UseVisualStyleBackColor = true;
@@ -127,9 +128,9 @@
             // 
             // btnIrrelevant
             // 
-            this.btnIrrelevant.Location = new System.Drawing.Point(465, 344);
+            this.btnIrrelevant.Location = new System.Drawing.Point(390, 344);
             this.btnIrrelevant.Name = "btnIrrelevant";
-            this.btnIrrelevant.Size = new System.Drawing.Size(104, 37);
+            this.btnIrrelevant.Size = new System.Drawing.Size(90, 37);
             this.btnIrrelevant.TabIndex = 5;
             this.btnIrrelevant.Text = "Non-Functional (R)";
             this.btnIrrelevant.UseVisualStyleBackColor = true;
@@ -231,6 +232,14 @@
             this.saveByVersionToolStripMenuItem.Text = "Save By Version";
             this.saveByVersionToolStripMenuItem.Click += new System.EventHandler(this.saveByVersionToolStripMenuItem_Click);
             // 
+            // removeToolStripMenuItem
+            // 
+            this.removeToolStripMenuItem.Name = "removeToolStripMenuItem";
+            this.removeToolStripMenuItem.Size = new System.Drawing.Size(62, 20);
+            this.removeToolStripMenuItem.Text = "Remove";
+            this.removeToolStripMenuItem.Visible = false;
+            this.removeToolStripMenuItem.Click += new System.EventHandler(this.removeToolStripMenuItem_Click);
+            // 
             // lsbxHistory
             // 
             this.lsbxHistory.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
@@ -263,9 +272,9 @@
             // 
             // btnAd
             // 
-            this.btnAd.Location = new System.Drawing.Point(586, 344);
+            this.btnAd.Location = new System.Drawing.Point(486, 344);
             this.btnAd.Name = "btnAd";
-            this.btnAd.Size = new System.Drawing.Size(104, 37);
+            this.btnAd.Size = new System.Drawing.Size(90, 37);
             this.btnAd.TabIndex = 12;
             this.btnAd.Text = "Junk (U)";
             this.btnAd.UseVisualStyleBackColor = true;
@@ -273,13 +282,12 @@
             // 
             // btnChangeRating
             // 
-            this.btnChangeRating.Location = new System.Drawing.Point(707, 344);
+            this.btnChangeRating.Location = new System.Drawing.Point(582, 344);
             this.btnChangeRating.Name = "btnChangeRating";
-            this.btnChangeRating.Size = new System.Drawing.Size(104, 37);
+            this.btnChangeRating.Size = new System.Drawing.Size(90, 37);
             this.btnChangeRating.TabIndex = 13;
-            this.btnChangeRating.Text = "Rating Related (I)";
+            this.btnChangeRating.Text = "Gratitude (I)";
             this.btnChangeRating.UseVisualStyleBackColor = true;
-            this.btnChangeRating.Visible = false;
             this.btnChangeRating.Click += new System.EventHandler(this.btnChangeRating_Click);
             // 
             // statusStrip1
@@ -473,19 +481,22 @@
             this.lblReleaseDate.TabIndex = 22;
             this.lblReleaseDate.Text = ".";
             // 
-            // removeToolStripMenuItem
+            // button1
             // 
-            this.removeToolStripMenuItem.Name = "removeToolStripMenuItem";
-            this.removeToolStripMenuItem.Size = new System.Drawing.Size(62, 20);
-            this.removeToolStripMenuItem.Text = "Remove";
-            this.removeToolStripMenuItem.Visible = false;
-            this.removeToolStripMenuItem.Click += new System.EventHandler(this.removeToolStripMenuItem_Click);
+            this.button1.Location = new System.Drawing.Point(678, 344);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(90, 37);
+            this.button1.TabIndex = 23;
+            this.button1.Text = "Feedback (O)";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(869, 406);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.lblReleaseDate);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.btnMergeUp);
@@ -569,6 +580,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label lblReleaseDate;
         private System.Windows.Forms.ToolStripMenuItem removeToolStripMenuItem;
+        private System.Windows.Forms.Button button1;
     }
 }
 

@@ -152,6 +152,7 @@ Bug fixes and
 - Miscellaneous bug fixes.
 - Miscellaneous bug fixes and
 4.2.1 is a minor bugfix update. 4.2's changes:
+- Many bugfixes 
 - Many bugfixes and 
 - Fixed Elena's thin rendering of certain letters in landscape
 - Fixed a frequent dark-mode crash on iPad
@@ -243,6 +244,10 @@ Bug fixes!
 - Fixed issues with Facebook posting
 * Fixed a crash when using your own alarm sound
 - Fixed various wake-up volume issues
+* Unintentional PM alarm time warning
+- Fixed issues with Facebook posting
+* Fixed a crash when using your own alarm sound
+- Fixed various wake-up volume issues
 + fixed bug: fixed problems with non-gregorian calendars (like thai andjapanese calendars)
 + fixed bug: AM/PM being clipped in statistics view
 + fixed bug: navigation arrows in statistics are now always correctly dimmed
@@ -307,6 +312,7 @@ minor bugfixes.
 Configuration fixes for Protobuf and others
 Map Remote bug fixed when mapping https to http
 Retina toolbar icons on Mac OS X no longer go rogue when disabled or pressed
+Bug fixes
 Character set detection fixed so unicode characters (and others) will be correctly displayed.
 CSS viewer fixed so that CSS files with windows ('\r\n') line endings and a multi-line comment can be displayed.
 Fix corrupt saved or exported files.
@@ -362,6 +368,7 @@ Improved multipart body viewer detection of multipart/form-data bodies
 Authentication viewer bug fix
 Fault on startup due to invalid data in RewriteConfiguration
 Map Remote bug where Set-Cookie headers set a domain with a port of -1 
+Bug fixes 
 Fix bug in table views for multipart responses
 Fix SSL certificate bugs in Internet Explorer
 Fix bug when using a custom CA cert that needs a password on startup
@@ -370,6 +377,7 @@ Fix Base64 decode popup positioning over text areas
 Fix multi-monitor positioning of the Charles window
 Fix bug where on Mac OS X the "Grant Privileges" prompt would repeat endlessly
 Fix POST support when authenticating with external proxy servers
+Minor bug fixes.
 Repeat advanced tool: fix bug which caused it to stop prematurely after a number of requests
 Auto save tool: fix bug where "Enable on startup" didn't work
 Memory usage problems on large downloads fixed
@@ -430,6 +438,7 @@ Activating tools from request popup menu now correctly activated Selected Hosts 
 	◦	System proxy settings correctly reverted on Windows shutdown
 	◦	Quit cleanly when another instance of Charles already running
 SSL proxying bug on Java 1.4 fixed (was introduced in 3.0.3)
+Fixes launch bug on computers that haven't used Charles before
 minor bug fixes
 Map Local mime-type handling improved for server-side scripting pages and unknown file types
 Rewrite tool with body rules now doesn't mangle binaries
@@ -538,6 +547,7 @@ bug fixes to ksdiff.
 		Fixed an issue where the text view would not display properly when toggling line-wrapping
 		Fixed a bug where searching for line breaks in an empty file would return results
 		Fixed a bug where searching for line breaks in an empty file would return results
+		Fixed a crash when comparing text with Chinese characters
 		Fixed a crash when comparing two empty files
 		Fixed a rare crash when files were edited in an external editor
 		Fixed updating the badges in the File Shelf when swapping files

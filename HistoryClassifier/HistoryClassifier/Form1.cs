@@ -19,6 +19,8 @@ namespace HistoryClassifier
 
         List<ReleaseContainer> ReleaseList = new List<ReleaseContainer>();
 
+
+
         private string firstVersionPattern = "\\d+\\.\\d+";
         private string SecondVersionPattern = "\\d+\\.\\d+";
         private string datePattern = "\\d{1,2}-\\d{1,2}-(\\d{4}|\\d{2})";
@@ -26,7 +28,7 @@ namespace HistoryClassifier
 
         //so there are pretty colors
         private List<HistoryEntry> activeHistory = new List<HistoryEntry>();
-        private SolidBrush[] colors = { new SolidBrush(Color.DarkRed), new SolidBrush(Color.Blue), new SolidBrush(Color.Purple), new SolidBrush(Color.Gray), new SolidBrush(Color.Green), new SolidBrush(Color.Gold), new SolidBrush(Color.Black) };
+        private SolidBrush[] colors = { new SolidBrush(Color.DarkRed), new SolidBrush(Color.Blue), new SolidBrush(Color.Purple), new SolidBrush(Color.Gray), new SolidBrush(Color.Green), new SolidBrush(Color.Gold), new SolidBrush(Color.Black), new SolidBrush(Color.Fuchsia) };
         private int lsboxindex = 0;
 
         public Form1()
@@ -253,7 +255,7 @@ namespace HistoryClassifier
 
         private void btnChangeRating_Click(object sender, EventArgs e)
         {
-            Classify_Statement(new RevChangeRequest());
+            Classify_Statement(new Gratitude());
         }
 
         private void Classify_Statement(Classification type)
@@ -309,7 +311,10 @@ namespace HistoryClassifier
                         Classify_Statement(new Ad());
                         break;
                     case 'i':
-                        Classify_Statement(new RevChangeRequest());
+                        Classify_Statement(new Gratitude());
+                        break;
+                    case 'o':
+                        Classify_Statement(new Feedback());
                         break;
                     case '\r':
                         MoveToNextIndex();
@@ -740,6 +745,11 @@ namespace HistoryClassifier
                 ReleaseList[lsbxVersions.SelectedIndex].EntryList.RemoveAt(lsbxHistory.SelectedIndex);
                 Repopulate_Entry_List(ReleaseList[lsbxVersions.SelectedIndex]);
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Classify_Statement(new Feedback());
         }
      
 
