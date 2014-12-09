@@ -80,6 +80,7 @@ _ Limited passcode lock issue
 1. Major speed improvements
 2. Cleaner reading layout
 -FREE advanced Learner_s Dictionary provides additional content for English learners, or anyone looking for more context.
+-Various improvements and 
 _ Exciting new content: Idioms & Phrases, Grammar & Tips, Slang Dictionary, and a complete Encyclopedia (available as premium upgrades) 
 _ Exciting new content: Idioms & Phrases, Grammar & Tips, Slang Dictionary, and a complete Encyclopedia (available as premium upgrades)
 _ New sleek and updated design, ready for iOS7
@@ -215,6 +216,7 @@ enhancements
 * Darker splash screen for better night reading experience
 - Upgraded the Open-Dyslexic font to Dyslexie, a prior typeface by Christian Boer of StudioStudio better optimized for dyslexia.
 - iPhone 5 compatibility
+- Improved pagination performance.
 - Improved dark-mode colors and link colors. (More on that front soon.)
 - Removed instapaper.com/z short URLs from all remaining Twitter sharing methods. Now that t.co URLs are supported by nearly all apps, custom short URLs are unnecessary and they only inconvenience Twitter readers, so they're gone. Your links are yours and should have as few intermediaries as possible.
 - Removed rarely-used "Print" feature.
@@ -260,6 +262,7 @@ implemented additional optimizations to improve your Words With Friends experien
 - A modern and refreshed experience
 Improvements and 
 Additional improvements 
+Improvements and
 Improvements and 
 Improvements and
 Other improvements 
@@ -756,6 +759,7 @@ Firefox setting status in Charles updated by any manual changes in FF
 		Added support for sending arbitrary changesets and partial changsets with ksdiff.
 		Added support for arbitrary merges and diffs using ksdiff.
 		Integration with third-party tools now requires installation of the ksdiff command-line tool from the Integration window. You can find the Integration window by selecting “Integration” from the “Kaleidoscope” menu.
+		Stability improvements and 
 stability improvements.
 		Adds support for Developer ID on Mac OS X 10.8.
 		Implemented full screen support for Mac OS X 10.7 (Lion)

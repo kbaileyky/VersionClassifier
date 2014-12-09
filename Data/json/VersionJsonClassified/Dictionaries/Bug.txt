@@ -1,3 +1,4 @@
+- Bug fixes and 
 - A crash that occurred when an image is sent to Afterlight from another app has been fixed.
 - Other small bug fixes and 
 We fixed some minor bugs in this small update.
@@ -507,6 +508,7 @@ Bug fix – port forwarding data wasn't shown in session viewer
 		Fixed an issue that sometimes led to poor vertical alignment in the File Shelf.
 		Fixed a bug that caused accessing files from the Recents list to sometimes stop working.
 bug fixes to ksdiff.
+		General bug fixes and 
 		Corrects a problem that broke full-screen mode on Mac OS X 10.7.
 		Fixed a bug where Kaleidoscope would launch twice following an update
 		Fixed a bug where comparing license agreements would display an empty window for expired trial versions
