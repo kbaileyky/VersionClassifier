@@ -732,6 +732,15 @@ namespace HistoryClassifier
                 }
             }
         }
+
+        private void removeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if(lsbxHistory.SelectedIndex > -1)
+            {
+                ReleaseList[lsbxVersions.SelectedIndex].EntryList.RemoveAt(lsbxHistory.SelectedIndex);
+                Repopulate_Entry_List(ReleaseList[lsbxVersions.SelectedIndex]);
+            }
+        }
      
 
     }
