@@ -7,6 +7,10 @@ improved Japanese translations.
 improved Japanese translations.
 improved Japanese translations.
 improved Japanese translations.
+improved Japanese translations.
+improved Japanese translations.
+improved Japanese translations.
+improved Japanese translations.
 * Instapaper Premium (formerly subscription): $2.99 per month or $29.99 per year for full-text search, unlimited highlights, and text-to-speech playlists!
   * Your highlights are immediately synced to all your mobile devices and Instapaper.com
 * New Instapaper logo and icons
@@ -68,51 +72,31 @@ Changed wording of browser configuration menu items and settings panel for clari
 	•	This will be the final Public Beta.
 	•	The Bookmark icon is properly grayed out now when the Toolbar is set to Text Only and no article is selected.
 	•	Quick Look for article images! Activate it via the contextual menu. Great for zooming in on webcomics and much more.
-	•	Fast Mode enabled! Significant performance enhancements include:
 	•	Goodbye linen when running on 10.9.
 	•	There is no missing Beta 5.
 	•	Tweaked app icon to be less “droopy.”
-	•	Hello, world!
 		Updated License Agreement and Acknowledgements information
 		Updated ownership and contact information from Sofa to Black Pixel
 		Updated the license agreement
 		Fixed a typo in the Copy and Move sheet
 		This only works with Kaleidoscope (1.1 or later) as your file comparison tool, with any other tool, Versions behaves the same as before
 		Note: JIRA tickets now include the project abbreviation in the URL, so if you already use JIRA tickets linked from your Timeline, you will have to adjust your ticket URL in your repository bookmark
-		Bugfixes:
 		The main toolbar icons no longer look pixelated when small
 Please note: This release no longer works on Mac OS X 10.4 or PowerPC-based Macs.
-GENERAL IMPROVEMENTS
-REDESIGNED AND IMPROVED TIMELINE
-IMPROVED BROWSE VIEW DRAG & DROP SUPPORT
 		The “Move Item” and “Copy Item” dialogs are now more informative
-IMPROVED BOOKMARKS LIST
-		When deleting a bookmark, Versions no longer offers to delete the corresponding working copy folder if:
-OTHER IMPROVEMENTS
 		Upgraded the trial period to 30 days instead of 21
 		This update resets the trial period
 		Updated the built-in Help
 Sofa has acquired all Versions intellectual property from Pico. You can read the entire press release here.
-This is a bugfix release that fixes issues that cropped up in the previous Versions 1.0.8 release.
-We would like to thank everybody who enabled us to make a significant donation to Doctors Without Borders by buying Versions between January 14 and February 15th. We would also like to introduce and welcome Pieter de Bie as a new member to the Versions development team.
-		Made several key improvements to file comparison stability and functionality:
 		The “Compare Diff” toolbar item has been renamed to “Compare”
-A big thank you to everyone who tested pre-release builds, and everybody else for their patience.
-		This issue was specific to svn+ssh:// connections
 		If you switched off the “Show badges with working copy changes” preference to get less of these crash reports, you can safely switch that back on
 		This means that after this update, the next update will no longer request access to passwords in your Keychain that were last used with earlier releases of Versions
-		This issue was caused by child processes that got stuck making svn+ssh:// connections on some machines
-We'd like to thank everybody who tested, and gave us feedback on, our tiny Snow Leopard beta.
-		This allows edits made in FileMerge to be saved more easily
 		Updated the Help documentation with an FAQ page
 		Corrected a linguistic error in the EULA, seize -> cease
 		This also switches off the orange badges on folders with changed contents in the Browse view
 		Small update to the Help documentation
 		Changed section B1 in the license agreement to be more clear about registering Versions on multiple computers
-To everyone who tried the beta, and especially those of you who provided feedback: Thank you!  We are very grateful for your support and Versions wouldn't be what is today without your help.
-		This enables undoing adding or deleting a file
 		Added extensive Help documentation, accessible from the Help menu and the Versions website
-		Information about Subversion in general
 		Getting started with Versions
 		Workflows in Versions
 		Links to various online resources
@@ -126,24 +110,12 @@ To everyone who tried the beta, and especially those of you who provided feedbac
 		Expiration date extended to September 9th 2008
 		Expiration date extended to September 3rd 2008
 		Expiration date extended to August 1st 2008
-An update to Bastion has been released. The major changes include:
-Bastion Update Released
-Product Update - Valve
-An update to Bastion has been released. The major changes include:
-An update to Bastion has been released. The major changes include:
-Hey, we've just posted our ninth update, which tweaks the new Score Attack mode and addresses two issues with the game. This update will be applied automatically when players are signed in to the Steam client. The change list includes:
 - Fixed an issue where certain subtitles containing accented characters appeared as asterisks.
-Thanks for your continued support!
-Hey! Our eighth update, featuring the new Stranger's Dream free DLC, should be deploying today. This update will be applied automatically when players run their Steam client. The change list includes:
-Note: To access the Stranger's Dream sequence as well as Score Attack Mode, you need to have finished the game at least once. The Stranger�s Dream sequence will be available early on in your New Game Plus or Score Attack play-through.
-- Added four new Steam Achievements! They are:
 Use the Skyway in the Wharf District.
 Complete the Stranger's Dream with five or more Shrine Idols invoked.
 Complete the Stranger's Dream with all ten Shrine Idols invoked.
 Earn a total of at least 1,000,000 points in Score Attack Mode.
 - Fixed some English-language subtitles.
-We hope you enjoy the new content! Thanks everyone for your continued support of this game.
-Hey, our seventh update should be deploying today. It addresses several issues and adds support for other alphabets, enabling translations in other languages. This update will be applied automatically when players restart their Steam client. The change list includes:
 - Added custom language support for alphabets based on Latin, Greek, and Cyrillic, to support requests for player-created translations to other languages. To add a custom language to the game, follow these steps:
 1. Determine the two-letter language code according to ISO 639-1
 (http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
@@ -155,9 +127,6 @@ The following example is for creating a Russian (ru) translation.
 5. Copy over the files in Steam\steamapps\common\bastion\Content\Subtitles\e n, and translate them.
 6. Launch the game with '-lang ru' Launch Options
 (for Launch option instructions: https://support.steampowered.com/kb_...1040-JWMT-2947)
-Thanks to those of you expressing interest in taking the time to create fan translations and for playing.
-Hey, our sixth update should be deploying today. It addresses additional crash issues and also adds seven new Steam Achievements. This update will be applied automatically when players restart their Steam client. The change list includes:
-- Added seven new Steam Achievements! They are:
 Use the Forge to fully upgrade every weapon.
 Complete the Kid's Dream with five or more Shrine Idols invoked.
 Complete the Kid's Dream with all ten Shrine Idols invoked.
@@ -166,16 +135,9 @@ Complete the Singer's Dream with all ten Shrine Idols invoked.
 Complete the Survivor's Dream with five or more Shrine Idols invoked.
 Complete the Survivor's Dream with all ten Shrine Idols invoked.
 Note: These achievements will not be awarded retroactively to players who met the requirements before this update. Man-at-Arms will be awarded when entering a fully upgraded Forge. 
-Thanks again to everyone who's taken the time to send crash logs, and to all of you for playing.
-Hey, our fifth update should be deploying today. This update is focused on improving game stability and will be applied automatically when players restart their Steam client. The change list includes:
 - Fix to typographical error in the Memorial Vigil, "The Skippers".
-Thank you to everyone who's taken the time to send crash logs. 
-We plan to continue updating the game in the coming days. Thank you for playing.
-Our third update for Bastion should be out now, addressing several issues reported by players as well as adding some advanced settings. This update will be applied automatically when players restart their Steam client. The change list includes: 
-- Added support for several advanced command-line parameters (aka Launch Options in Steam).
 To set Launch Options in Steam, right-click on Bastion inyour game library, select Properties, then select Set Launch Options.
 NOTE: Please be advised that these settings are recommended for advanced users and may adversely affect your game experience.
-The parameters are:
 Using the default Slinger-style WASD controls, diagonal movements will more closely adhere to the isometric perspective. We would appreciate your feedback about this change. 
 Forces the game to start in windowed mode.
 Forces the game to a specific X resolution.
@@ -185,243 +147,72 @@ Runs the game in windowed mode but with no windows titlebar or border. (This may
 Allows a custom joystick dead zone for players experiencingissues with their gamepads. Value is the fraction at which input should register. Example: "-deadzone 0.4".
 Forces the game to load a specific text language. Available options are "en", "fr", "it","de", and "es" for English, French, Italian, German, and Spanish, respectively. Example: "-lang de"
 Turns off fixed time step so that the game no longer dictates the frame rate. (This may improve performance for some users but may also lead to erratic performance in other cases.)
-Thank you for playing Bastion.
-Our second update should be going out now. Please exit out of the game to apply it. The fixes include:
-We'll continue monitoring the feedback in this thread and via email. Thank you guys for your support.
-Our first update should be going out now. Exit out of the game to apply it. The fixes include:
-We will continue monitoring the feedback in this thread and via email. To those of you who've experienced any issues with the launch of the game, we appreciate your patience.
-Bastion now takes advantage of some of the latest features of iOS 7! Thank you to all our fans for your continued support.
-Bastion is now a Universal App! Thank you to all our fans for your continued support.
 * Note: To transfer existing data to iCloud, please update the app and load each save slot you want to sync.
-Other Fixes
  You must uninstall Covenant Eyes before installing this version. We understand uninstalling Covenant Eyes can be a problem for you and really do try to avoid requiring it. We apologize for this inconvenience.
-Replaced the Restart Covenant Eyes menu option with Refresh Covenant Eyes.
-Improvements and bug fixes:
-Menu changes:
 Changed �Configure� to �Preferences.�
 Changed �Panic Button� to �Panic��
 Changed �Check for software upgrade� to �Check for upgrades.�
 Changed �About�� to �About Covenant Eyes.�
 Changed Covenant Eyes icons and images to match new branding (fixed in 4.4.0.1502).
 Changed Covenant Eyes icons and images to match new branding.
-Requirements
 Requires Windows XP, Vista (32- or 64-bit) or Windows 7 (32- or 64-bit).
-Enhancements and Fixes
-Requirements
-Requires Windows XP, Vista (32- or 64-bit) or Windows 7 (32- or 64-bit).
-Enhancements and Fixes
-Known Issues
-Enhancements and Fixes
-Enhancements and Fixes
-Enhancements and Fixes
-Enhancements and Fixes
-Enhancements and Fixes
-Enhancements and Fixes
 Search Creative Cloud Market using Japanese keywords.[1]
-[1] Japanese version only
 You can access the Release Notes from Preferences > General > Account > Version # 
-Adobe Creative Cloud for iPhone and iPad: Your work, your inspiration, your creativity, with you wherever you go.
-Introducing Dashlane 3 - An All-New, Team-Friendly Dashlane!
-Introducing <<Some Version>> - An All-New, Team-Friendly Dashlane!
 New: Dashlane is now available in Spanish
 New: Dashlane icon
-PC
-Mac
 Note: This is the first major update that silently updates in the background � enjoy!
 (Currently available on Chrome, Firefox and Safari)
 New: Sign up to join our beta program from within the desktop app.
-<<Some Version>> updates the app to:
-Use Dashlane Courier to share logins/passwords and secure notes, manually add purchases to your Dashlane account, and get notices when ID's and credit cards are about to (or already have) expired.
-This release makes full use of iOS 8_s new features and then some. Here_s what new:
-This release makes full use of iOS 8_s new features and then some. Here_s what new:
-Love Dashlane? Leave us a nice review.
-Like using Dashlane? Please leave a nice review.
-Introducing the Dashlane iPad app
 - This is a universal app, so you only need one app for both your iPhone and iPad
-- With Premium, you can get automatic backup and sync for your account, and take your password everywhere!
 Changes to unregistered users
 - To continue accumulating Reward Points, users must register with Raptr.
-In-Game HUD
-GVR:
-Sharing:
-Optimizations
 - Support for display of Chinese characters
-Control Center Home:
-Media Gallery & Sharing:
-In-Game Features
 Translated client! � Raptr client is now translated into 10 different languages.  To change your language setting, right click on systray icon -> preferences -> general -> language, pick your preferred language and restart the client
-New features and improvements:
-Other bug fixes
-Thanks for the overwhelming support and feedback of the previous release of 3.0.17.  We listened to your feedback and we worked our butt off to bring you some of these bug fixes and new features in the last few days that should address many of your concerns!
-improvements
-New features and 
-New features and 
-New features and 
-New features and 
-New features and 
-New features and 
-New features and 
-New features and 
-New features and 
-New features and 
-New features and 
-New features and 
-New features and 
-New features and 
-New features and 
-New features and 
-New features and 
-New features and 
-New features and 
-New features and 
-New features and 
-New features and 
-New features and 
-New features and 
-New features and 
-improvements
-improvements
-improvements
-improvements
-improvements
-improvements
-New features and 
-New features and 
-improvements
-Bug fixes and enhancements:
-New features:
-Bug fixes and enhancements:
-New features:
 Reminders for social games � conveniently lets you set a time to check back on your games with a list of active reminders embedded in the buddy list for easy access. Just play your favorite social game and the reminder options will display when you finish.
-Bug fixes and tweaks:
-New Features:
-Bug fixes and tweaks:
-What's new in 2.9
 Forming relationships on Raptr is now easier than ever. We know it was a bit confusing before as to whether you "friended" someone or "followed" them -- so we_re switching over to a follower system. With this update, the iOS app has been updated to reflect the changes on Raptr.com, which in the simplest terms means that there is no longer a "Friend Requests" menu.
 You will still get push notifications with new followers, and as always can disable them in your Notifications Preferences.
-Other changes in this update:
-This release contains improvements to those users that connect their Steam account to the app:
 NOTE: You might not be able to connect to Steam if you are in the Steam Trading Card Beta. We're addressing it now and the next update should restore Steam connectivity for those affected
 Note: We're aware of an issue affecting some Xbox logins. An update is in the works to address this issue.
-_ Full iPhone 5/iPod Touch 5G support coming soon, as we just got our hands on one of these magical unicorn devices.
-What's new in v1.2:
-== Finding Friends on Raptr == 
-== Messaging ==
-== Xbox ==
-== Steam ==
-== Other ==
 NOTE: (6/18/2012) We're aware of the Xbox messaging not appearing in your Inbox...a new version has been submitted to Apple & we're just waiting for approval.
-The dinos are working hard & we've got more updates in the queue coming soon!
 Colorful icons
-First version 7 public release
 Colorful icons
 Updated app icon
-First version 7 public release
 	•	Adding Finnish language translations
-You can discuss this update here.
---
 	•	Fictitious: All backend changes were done by Mr. Schrödinger, and they weren't.
-You can discuss this update here.
---
-You can discuss this update here.
---
 	•	Spotify now speaks Japanese, Russian and Indonesian
-You can discuss this update here.
---
-	•	A new app for messages!
 	•	this is gradually rolling out, so don't fret if you don't see a change right away
 	•	More languages!
-	•	Coming soon!
-Additional technical notes:
 The Desktop application uses the "Chromium Embedded Framework" (CEF), which is a way to include the functionality of a web browser (based on Chrome) in the application - this enables us to develop features in modern programming languages and gives us the possibility to fix issues faster.
-This update includes a major upgrade, from CEF1 to CEF3.
-What is worth mentioning though is that this is a major "under the hood" change (techies may be interested in reading more on http://en.wikipedia.org/wiki/Chromium_Embedded_Framework.)
 Also, there's always a risk of unexpected issues with such "big" changes, but we are sure that it's the right thing for us to do - and hopefully our users will understand that they will get a much improved experience thanks to this.
---
---
 	•	Fixed: Translation errors have been corrected.
----
----
----
----
 	•	New: Now available in Traditional Chinese and Latin American Spanish.
 	•	New: Say hello to our new logo.
 	•	New: Added some extra space to accommodate for Chinese characters
 	•	New: Enlarged some fonts to accommodate for Chinese characters
 	•	Fictitious: This app has an extensive collection of hotel toiletries.
-Known issues:
 Hi everyone, we just released an update. Over the next week it will gradually be going out to everyone.
 	•	Fictitious: This app dances with wolves.
-Notes:
-You can discuss this update here.
----
 	•	New: Spotify can now speak Swedish and Québécois.
 	•	Fictitious: This app is wearing a leopard-print onesy.
-Notes:
-You can discuss this update here.
----
 	•	New: Tap an album or playlist cover art for a surprise.
 	•	Fictitious: This app can stop a volcano from erupting.
-Notes:
-	•	
-You can discuss this update here.
----
 	•	New: Spotify now speaks Finnish.
 	•	Fictitious: This app was a hand model in the eighties.
-Notes:
 	•	This version only applies to users whose phone uses ARMv7 or x86.
-You can discuss this update here.
----
 	•	Fictitious: This was the first app on the moon.
-	•	
-Notes:
-	•	-
-You can discuss this update here.
----
 	•	Fictitious: This app will make you chicken soup.
-	•	
-Notes:
-	•	-
-You can discuss this update here.
----
 	•	Fictitious: This app is dating a rather attractive vending machine.
-Notes:
-You can discuss this update here.
----
 	•	Fictitious: This app now features a removable helmet and detachable hands.
-Notes:
-	•	-
-You can discuss this update here.
----
 	•	Fixed: The translations are more accurate.
 	•	Fictitious: This app can play through Super Mario in less than 9 minutes.
-Notes:
-	•	-
-You can discuss this update here.
----
 	•	Fictitious: This app was assembled from old clock parts.
-Notes:
----
-Notes:
 	•	We started rolling out this update today and everyone should have it by this evening.
-You can discuss this update here.
----
----
 	•	New: Spotify speaks Greek, Indonesian, Japanese and Russian.
 	•	Fictitious: This app is dry clean only.
----
 	•	Fictitious: This app is now available for cats.
----
 	•	Fixed: The notification icon now looks super-smooth on high-res devices.
 	•	Fictitious: This app can juggle five oranges at once.
----
 	•	New: Spotify now speaks Thai, Brazilian Portuguese, Turkish and Malay
 	•	Fictitious: This app goes well with cheese and biscuits.
----
 	•	Fictitious (or is it?): This app can be controlled using telepathy.
----
-Notes:
 This update is being released during the course of this week. If you don't get the update right away, do not worry. you will have it very soon.
----
----
----

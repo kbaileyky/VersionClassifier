@@ -1,0 +1,347 @@
+
+\documentclass{acm_proc_article-sp}
+
+\input{macros.tex}
+\begin{document}
+
+\title{Mobile and Desktop Release Cycles}
+
+\numberofauthors{2} 
+\author{
+\alignauthor
+Kendall Bailey \\
+       \affaddr{Oregon State University}
+% 2nd. author
+\alignauthor
+Hongyan Yi \\
+       \affaddr{Oregon State University}
+}
+
+\maketitle
+%\begin{abstract}
+
+%\end{abstract}
+
+% A category with the (minimum) three required fields
+ %\category{H.4}{Information Systems Applications}{Miscellaneous}
+%A category including the fourth, optional field follows...
+%\category{D.2.8}{Software Engineering}{Metrics}[complexity measures, performance measures]
+
+\section{Introduction}
+
+It has been believed by the software community that mobile application release cycles are shorter than desktop release cycles. 
+The rapid rise of mobile technology has changed expectations from consumers and added pressure to developers to take advantage of new technology and quickly push it to the market.
+This fast-paced business model gels with agile and extreme programming methodologies.
+
+Companies know that mobile applications now represent a large segment of the market and often provide both mobile and desktop versions of their software to reach the most consumers possible.
+The growing group of applications that belong to both mobile and desktop applications have not yet been looked at as single distinct group.
+In this paper we analyze some of the properties of these application ``siblings.''
+
+\MyParagraph{Siblings: }We define \textbf{\sibs} as applications that have the same name and are released by the same company for different platforms. 
+For this research \sibs refers to a mobile application (iOS or Android) and desktop application (OSX, Windows Vista/7/8, or Linux) pairing.
+An example of \sibs would be OmniGraffle, which maintains both a iOS and OSX application of the same name with different version histories, though often version histories of sibling applications are not separated.
+
+\TODO{Change from speculative to concrete when done}
+In this paper we our goal is to collect the data from \NumDesktopApps desktop applications, \NumMobileApps mobile applications, and \NumSiblingpApps sibling applications. 
+If we maintain our minimum number of releases at \MinNumReleases releases, this will give us at least \TotalNumReleases releases to use for analysis.
+
+Our analysis focuses on the length of release cycles of the different types of applications and the contents of the releases.
+
+\TODO{Overview of results}
+
+
+%\keywords{ACM proceedings, \LaTeX, text tagging} % NOT required for Proceedings
+%\section{Experimental Setup}
+\section{Procedure}
+We collected the release notes or change logs of suitable applications that consist of a healthy mix of mobile applications, desktop applications, or  mobile applications with a desktop applications sibling. 
+Suitable applications will have:
+
+\begin{enumerate}
+	\item A version history length of at least \MinNumReleases releases
+	\item The date of each release
+	\item Release notes that mention bugs, features, enhancements, etc.
+\end{enumerate}
+
+To collect the data we grab text from any release histories found on the application developers' website or application distributors' documentation. 
+%To get release history data from locations that block conventional copy and pasting (\eg iTunes), we spoof the iTunes user agent to retrieve the needed documentation. \feedback{Should we admit to this?}
+
+As the granularity of change, we chose release histories because it allowed for more similar analysis of statements in both open source and proprietary applications. 
+Often, open source applications allow users to view the open and closed issues across the history of the applications. 
+The bugs/features/enhancements are reported by and communicated to users with high technical skills. 
+However because releases can span many commits, release notes are often more general than the notes from each commit.
+
+Proprietary applications tend to be more vague in their descriptions of the contents of each release to prevent lost of customer confidence and to protect their intellectual property. 
+Proprietary applications also appeal to a wider audience who have a collectively lower level of technological understanding which also affects the level of the language chosen.
+
+\begin{table*}[t]
+\centering
+			\begin{tabular}{|c|c|c|} \hline
+				\multicolumn{3}{|c|}{\large Mobile Applications}\\ \hline 
+				\textbf{Afterlight\ios} & \textbf{CNN\ios} & Clash of Clans\ios \\
+				\textbf{Credit Karma\ios} & Crittercisms\android & \textbf{Dictionary\ios} \\
+				Evernote Food\ios & \textbf{Facebook Messenger\ios} & \textbf{Heads Up\ios}  \\
+				\textbf{Instagram\android} & \textbf{Instapaper\ios} & \textbf{Luminosity\ios}  \\
+				\textbf{New Words with Friends\android} & \textbf{Pandora\ios} & Plague Inc\ios \\
+				\textbf{Run Keeper\ios} & \textbf{Sleep Cycle Alarm\android} & \textbf{Songza\ios} \\
+				\textbf{Wish\ios} & \textbf{Youtube\ios} & \\\hline
+		\end{tabular}
+\vspace{.5cm}
+	
+	\begin{tabular}{c c}
+		\begin{tabular*}{.5\textwidth}{|c|c|}  \cline{1-2}
+		
+			\multicolumn{2}{|c|}{\large Desktop Applications} \\  \cline{1-2}
+
+			Acorn\mac & Aptana\windows\mac\linux \\
+			\textbf{Charles\windows\mac\linux} & GameMaker\windows \\
+			\textbf{Kaleidoscope\mac} & Kerbal Space Program\windows\mac\linux \\
+			NDepend\windows & \textbf{NetNewsWire\mac} \\
+			Tableau\windows & VM Ware Fusion\mac \\
+			Valgrind\linux & \textbf{Versions\mac} \\  \cline{1-2}
+		\end{tabular*}	
+	&
+	\begin{tabular*}{.5\textwidth}{|c|c|} \cline{1-2}
+			\multicolumn{2}{|c|}{\large Sibling Applications} \\  \cline{1-2}
+			1Password\mac\ios & \textbf{Bastion\windows\mac\linux\ios} \\
+			\textbf{Covenant Eyes\windows\android} & \textbf{Creative Cloud\windows\mac\ios} \\
+			\textbf{Dashlane\mac\windows\ios} & OmniGraffle\mac\ios \\
+			\textbf{Raptr\windows\ios} & \textbf{SplashID\mac\android} \\
+			\textbf{Spotify\windows\mac\linux\android} & \\  \cline{1-2}
+		\end{tabular*}	
+
+	\end{tabular}
+
+	\caption{Our corpus divided into the three categories: Mobile, Desktop, and Sibling applications. Bolded application names indicate we classified the release notes of those applications. The superscript symbols represent the platform from which each of the release notes was taken and are as follows: \ios indicates iOS applications, \android indicates Android applications, \windows indicates Windows applications, \mac indicates OSX applications, \linux indicates Linux applications. For desktop applicaitons, if the source of the release notes did not indicate to which platform the release notes specifically related all possible platforms are marked.}
+	\label{tab:corpus}
+\end{table*}
+
+In choosing our corpus we tried to not focus on a certain genre of application while still choosing popular applications from the top sellers/downloads lists provided by distributors.
+We also tried to maintain a balance of Android and iOS applications. On the occasion that an application had release notes for multiple platforms and each platform had differentiated release notes, only one platform's application was chosen to add to the corpus.
+Table~\ref{tab:corpus} shows the contents of our corpus and how we classified each application.
+
+Using the data from our corpus, we first analyzed the release cycles of the different categories of applications. This was done using each release in the corpus listed in Table~\ref{tab:corpus}. 
+
+
+Then, we classified each of the statements within the release notes to fall into one of six categories: bugs, enhancements, features, non-functional requirements, advertisements, and rating change request.
+Statements which describe two or more changes are split into atomic parts for more accurate classification.
+\TODO{Add historgram results of common word usages for each category}
+
+\MyParagraph{Bugs: }The bugs category describes statements in release notes that correct flaws within the application.
+An example of a statement belonging in the bugs category is "Fixed a crash when closing documents while there was an active text insertion point."
+Statements belonging to the bugs category most often contain the words "...", "...", and "..."
+
+\MyParagraph{Enhacements: }The enhancements category describes statements in release notes that build on previously introduced features or improve performance, but do not correct overt flaws like those in the bugs category. 
+An example of a statement belonging in the enhancement category is "Improved the performance of the Stroke and Fill layer styles."
+Statements belonging to the enhancements category most often contain the words "...", "...", and "..." 
+
+\MyParagraph{Features: }The features category describes statements in release notes that  introduce new functionality or properties to an application.
+An example of a statement belonging in the enhancement category is "Added preference setting for prompting to save session information on close."
+Statements belonging to the features category most often contain the words "...", "...", and "..." 
+
+\MyParagraph{Non-Functional Requirements: }The non-functional requirements category describes statements in release notes that do not fix or enhance old functionalities or introduce new functionality to the application.
+This category includes all changes to application user interfaces and balancing in game applications as well as miscellaneous information the developer includes.
+Two examples of statements belonging in the non-functional requirements category are "Thanks for using Afterlight, and we hope you enjoy this free update! You can follow us personally for occasional hints at new features, @simonfilip and @keynut" and "We polished up our font so all the letter tiles should come back sharp."
+Statements belonging to the non-functional requirements category most often contain the words "...", "...", and "..." 
+
+\MyParagraph{Advertisements: }The advertisements category describes statements in release notes that try to drum up support and market the application.
+This type of release note statement commonly appears in mobile application release notes and \TODO{infrequently | never} in desktop applications.
+An example of a statement belonging in the advertisements category is "Keep tagging your Instagram photos with \#afterglowapp, we love seeing them!"
+Statements belonging to the advertisements category most often contain the words "...", "...", and "..." 
+
+\MyParagraph{Rating change request : }The rating change request category describes statements in release notes that solicit users to improve their previous rating of the application.
+This type of release note statement appears in mobile application release notes in response to bad reviews that describe a bug released in a specific version and \TODO{infrequently | never} in desktop applications.
+An example of a statement belonging in the rating change request category is "If you've left a 1-star review for a 4.0.2 crash and this update fixes it for you, I'd appreciate it if you'd update your review. Thank you."
+Statements belonging to the advertisements category most often contain the words "...", "...", and "..." 
+
+
+\TODO{reWrite}
+Next, we will store our classifications into json.
+We chose json because it is a widely used data storage format for which many programming languages have support. 
+We implemented a tool to help us efficiently and atomically classify each statement.
+By using a well supported data container, we will be able to switch quickly between the different languages.
+Additionally, if we wanted to share our data, using json increases the ease for other researchers to handle our data.
+
+The data is organized by version (see Figure \ref{fig:jsonEx}). Each version contains: 
+\begin{itemize}
+	\item the name of the application
+	\item a version number
+		\mysubitem{this is used to quickly corroborate contents with the original release notes}
+	\item the release date
+		\mysubitem{this allows for the calculation of release intervals}
+	\item a string representing all of the statements in the version
+		\mysubitem {a raw version of the release notes is retained in case the statements are split when our tool breaks the text into statements. We are able to look back at the context and properly classify the statement. \TODO{Merge operations}}
+	\item the type of the application
+		\mysubitem {this allows for classification based on whether the application is a desktop, mobile, or sibling application}
+	\item flag
+		\mysubitem {Allows researchers to identify atypical releases for later review}
+	\item a list of statements
+		\mysubitem {The contents of the release notes divided into classified, atomic statments.}
+\end{itemize}
+
+
+\begin{figure}
+\begin{verbatim}
+{  
+   "VersionNumber":"1.0",
+   "ReleaseDate":"10-10-2010",
+   "ReleaseContents":"Fixed a crash when closing
+   		 documents while there was an active text 
+   		 insertion point.\nImproved the performance 
+   		 of the Stroke and Fill layer styles.",
+   "ApplicationName":"Example App",
+   "ApplicationType":{  
+      "str_type":"Desktop",
+      "int_type":0
+   },
+   "flag":false,
+   "EntryList":[  
+      {  
+         "entry":"Fixed a crash when closing 
+         	documents while there was an active text
+         	 insertion point.",
+         "classification":{  
+            "str_type":"Bug",
+            "int_type":0
+         }
+      },
+      {  
+         "entry":"Improved the performance of 
+         	the Stroke and Fill layer styles.",
+         "classification":{  
+            "str_type":"Enhancement",
+            "int_type":2
+         }
+      }
+   ]
+}
+\end{verbatim}
+\caption{An example of the structure of our json. This is the information we store for each version of an application.}
+\label{fig:jsonEx}
+\end{figure}
+
+We stored each of the statements with a classification of the type of statement and the text of the atomic statement.
+We chose to maintain  to leave open the potential for developing a dictionary of keywords or a training set for mining release notes in the future.
+
+The flag field allows researchers to quickly identify versions that are irregular and may need to be excluded from analysis.
+One example of a flagged version is "If possible, please skip this update and wait for version 4.2.5. We are very sorry about this and will get it fixed ASAP!"
+We may want to exclude this sample from our general analysis or may want to further investigate the occurrences of recalled releases.
+
+Finally, we will develop scripts that take the information we have stored and perform statistical analysis on the certain cut of our standardized dataset to best answer the three research questions below.
+
+\subsection{Classification of Statements}
+The classification of the statements will be carried out using qualitative thematic coding. 
+Each of the classifications was done manually by the authors using the criteria detailed above.
+Authors' classifications will be validated by reaching 80\% agreement on 20\% of corpus.
+
+\section{Analysis}
+
+
+\subsection{Release Cycles}
+While performing the calculations of the release cycles, we noticed instances where there would be a negative number of days between some releases.
+For example, some release cycle lengths Tableau are: \textellipsis 33, 34, -68, 34, 34, 36, 33, 24, 28, 39, 28, 23, 36, -56, 20 \textellipsis\space . 
+Such patterns only occurred in desktop applications and relate to the simultaneous maintenance of multiple branches. 
+In Tableau, the release cycles of lengths 33, 34 correspond to the 4.1.x branch, release lengths -68, 34, 34, 36, 33, 24, 28, 39, 28, 23, 36 correspond to the 5.0.x branch, and release lengths -56, 20 correspond to the 5.1.x branch.
+
+Negative release cycles not possible and so we decided to handle simultaneously maintained branches by tracing negative release cycles backwards until we found the first positive length of the release cycle and then continued to calculate release cycle lengths down each branch. 
+So the sequence \textellipsis 33, 34, -68, 34, 34, 36, 33, 24, 28, 39, 28, 23, 36, -56, 20 \textellipsis becomes \textellipsis 33, 34, \textbf{36}, 34, 34, 36, 33, 24, 28, 39, 28, 23, 36, \textbf{3}, 20 \textellipsis when simultaneously maintained branches are factored in.
+
+We did not observe this behavior in mobile or \sibs. We suspect that this is due to the nature distribution platforms for mobile applications.
+Where desktop applications often have all their release notes stored on a centralized website or wiki, mobile applications will either show the release notes for the current release if on the Google Play or the Microsoft App Store (though some developers append notes as opposed to replacing them each release) or up to the previous 25 releases if on the iTunes App Store. 
+If the developers do not maintain separate release notes on their own websites it does not make sense to maintain multiple simultaneous release branches for one platform because the release notes can quickly be replaced and leave users confused if for example they have version 5.0, but the most recent release notes are shown to be 4.9.5.
+Multiple branches may be maintained across mobile platforms, but this is not evident because the release notes are stored across two different platforms (e.g. iTunes App Store and Google Play).
+
+
+\subsection{Release Cycle Contents}
+
+\section{Conclusions}
+
+
+\subsection{\RQOne }
+Research question one will be used to establish a baseline for the behavior of both only mobile applications and only desktop applications.
+
+We suspect that mobile applications have shorter release cycles than desktop applications.
+However, if the behavior of both types of applications is essentially identical, we plan to see if release cycles are different considering the purpose of the application (\eg productivity, games, media creation, etc.).
+
+\subsection{\RQTwo }
+Our second research question aims to determine whether the release cycles of \sibs tend to exhibit behavior closer to desktop or mobile behavior. 
+If the behavior follows neither we will further explore how and why the behavior differs.
+
+
+
+
+\subsection{\RQThree }
+This research question would involve us classifying the contents of each release into six categories: bugs, new features, enhancements, non-functional requirements, advertisements, and ratings change requests.
+We will then compare the frequency of each category per release and per time to see if any patterns exist.
+We may also be able to create a dictionary of keywords from our classifications.
+
+\subsubsection{RQ3 specific challenges}
+\begin{itemize}
+
+
+\item A threat to the validity of RQ3 is that theres is a significant business pressure to create \sibs on the market, there must be a reason that desktop applications were unable to migrate to mobile platforms. 
+If the reason has to do with computational power, function, or code size, then it stands to reason that more complicated applications may have more bugs, making our comparison unbalanced.
+
+\item Developers are also, whether intentionally or not, vague about the number of bugs or enhancements they address in each release. 
+We may consider every instance of "bug fixes" or "enhancements" as 2, but in reality we will never know the exact number.
+
+\item Additionally, this process is quite time consuming and has forced us to reduce our initial goals for the number of applications down to around 12 for each category.
+Without research question 3 it is relatively easy to add new data to our corpus which could be done towards the end of the semester.
+
+\item We originally looked to machine learning to discover if there was an option that would automatically classify our collected data, though while being easy to implement a using the natural language processing toolkit, a classifier requires a very large training set.
+If we were to exceed 800 classifications, we may be able to train a naive Bayes classifier to quickly add new data, but in the time remaining in the term we may not be able to classify that much data.
+
+\end{itemize}
+
+\section{Challenges}
+Had this project been executed 5 to 10 years ago it would be easier to find desktop only applications. 
+Business pressure and interests have driven most companies that are willing or organized enough to post release notes to develop \sibs. 
+As a result we may have to reduce the number of applications we add to the corpus so as to not unbalance our data.
+
+Another challenge we have already overcome is the taking of release histories from iTunes, which blocks copy and paste attempts. 
+Web scraping was unsuccessful, spoofing the iTunes user agent provides a successful and automated way to collect the data.
+iTunes maintains a large collection of release histories for each of the applications it sells as well as maintaining a set of application ids on each page which could be used to quickly gather data.
+On the other hand, the Google Play Store only maintains the current version, meaning we have to search for developers to provide the information we need.
+
+We had not factored in web applications to our original research plan. For the time being we plan to not consider web applications as either mobile or desktop applications and therefore not a part of our study.
+
+\section{Implications}
+\MyParagraph{For team management:} Our results may show a significant skew in bugs toward one classification of application. If this was the case, it may provide the stimulus for a manager to add extra members to the QA team or allow extra time for QA before releasing an application. 
+Even within the subsets of application types there may be a certain amount of time that passes between releases that may be associated with fewer bug fixes which management can use as the length of a release cycle.
+
+\MyParagraph{For tool builders:} The data generated by our research may show a high concentration of bugs in a certain type of application. 
+If that is the case a tool builder could look at the bugs for that type of application and determine if a tool needs to be build to help developers avoid a common bug. 
+For example if sibling applications have a high number of bugs there may be specific pitfalls creating a mobile application from a desktop application or vice versa that a tool builder could address.
+
+\MyParagraph{For researchers:} Researchers may find our results useful when doing research on mobile applications.
+Also, for future work we may be able to generate a keywords dictionary or bigram dictionary based on our classification of statements that will allow them to perform more data mining on release notes.
+This would be similar to what Yu \cite{YuChangeLogs} attempted, but with keywords drawn from concrete examples.
+
+
+\section{Related Work}
+
+Gall et al. \cite{GallSoftwareEv} developed a product release database for telecommunication switching system that automatically generated release notes based on the source code.
+Like Gall et al., we plan to analyze software using the release histories provided by developers to derive information about software. 
+However, instead of focusing on a single application, we will use information to compare applications on different platforms. 
+In addition, the release notes we analyze are not generated based on the source code, but are disclosed by the developer.
+
+Tsay et al. \cite{TsayOpenSourceMining} paper presents experiences, including the tools, techniques and pitfalls, in mining open source release histories, and specifically shows that many factors make automating the retrieval of release history information difficult, such as the many sources of data, a lack of relevant standards and a disparity of tools used to create releases. These are the similar problems we've found in our research.
+The different thing from our recent research is that the projects quantity in this paper is very small, but number of versions of each project is very big. For example they collected 1579 distinct releases from 22 different open source projects, so on average 72 release versions per project. However, we focus on more types of software but less release version.
+
+Yu \cite{YuChangeLogs} uses text data mining to extract information from change logs and release notes develop a mathematical model to represent software evolution based on predetermined keywords. Using the model, Yu traced the recurrences of issues across a single project.
+Similarly our research mines release notes to gather information about the nature of software bugs and features, but ours attempts to use the data to compare different applications. 
+Apart from version numbers and dates, our research steers away from filtering out information solely due to predefined keywords because positive spin, marketing terms, and buzz words interfere with simple collection of data. 
+The inconsistencies in language across applications and companies is the reason we originally looked into naive Bayes classifiers to better assess the nature of statements in release notes.
+
+Shobe et al. \cite{ShobeMapping} present an empirical study on the release naming and structure in three open source projects: Google Chrome, GNU gcc, and Subversion.  
+The projected application requires forming a training set for a source-code change prediction model from the committed source code history are needed.
+Our research also mines histories, but we focus less on developing a machine learning engine and more on potentially using one as a tool to help us perform classifications.
+
+Wright and Perry \cite{WrightPitfalls} discusses early results from a set of multiple semi-structured interviews with practicing release engineers and focus on why release process faults and failures occur, how organizations recover from them, and how they can be predicted, avoided or prevented in the future.
+Our research only seeks to look at the frequency, but Wright and Perry's interviews mentioned some root causes such as size, funding, and modularity that affect the frequency of release cycles.
+
+% That's all folks!
+\bibliographystyle{acm}
+\bibliography{relatedwork}
+
+
+\end{document}

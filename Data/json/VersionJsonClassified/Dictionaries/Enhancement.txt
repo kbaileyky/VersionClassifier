@@ -1081,6 +1081,7 @@ Lock Yourself In
 Calamity All Around
 A Lasting Peace
 Ashes in the Sky
+- Added support for several advanced command-line parameters (aka Launch Options in Steam).
 -isomovement
 -windowed
 -x [value]
@@ -1108,6 +1109,7 @@ Improved error reporting.
 Allowed access to Covenant Eyes website when not signed in to our software.
 Added browser extensions for Internet Explorer, Firefox, and Chrome to improve Accountability Reports.
 Improved compatibility with hotspots and workplace network connections.
+Replaced the Restart Covenant Eyes menu option with Refresh Covenant Eyes.
 Improved handling of special characters (i.e. accent marks).
 Architectural changes to prepare for improved Accountability Reports.
 Improved support for hotspots.
@@ -1280,6 +1282,7 @@ Stability improvements
 Stability improvements
 Stability improvements
 Stability improvements and iOS 7 support
+- With Premium, you can get automatic backup and sync for your account, and take your password everywhere!
 Stability improvements.
 Stability improvements.
 Stability improvements
@@ -1422,8 +1425,10 @@ Stability enhancements and
 	•	Proxy authentication support for views
 	•	Linux only: Media key support in Gnome
 	•	Stability and performance fixes
+This update includes a major upgrade, from CEF1 to CEF3.
 CEF 3 is a "multi process" version - this means it can do more things at the same time, and if any single thing that it is doing slows down, the rest of the application can continue normally.
 CEF 3 also allows us to use hardware acceleration on graphics cards - like the latest browsers, it basically uses the computer's hardware both smarter and faster. Users should see much smoother performance in areas that are graphics intensive, like scrolling through long lists.
+What is worth mentioning though is that this is a major "under the hood" change (techies may be interested in reading more on http://en.wikipedia.org/wiki/Chromium_Embedded_Framework.)
 	•	New: Improved start-up performance, especially for OSX users.
 	•	Fixed: We've given the context menu some love.
 	•	New: Some smart architectural changes that will allow us to ship improvements faster and with fewer pesky bugs.

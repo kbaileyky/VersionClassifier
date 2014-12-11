@@ -1006,6 +1006,7 @@ Fixed bug where users were unable to log-in to Steam
 Fixed bug where some users were unable to connect to Raptr IM
 Fixed focus issue when new chat tabs are created
 We have received feedback from some users that 3.0.18 was causing intermittent crashes on some of the other applications that they were using.  We believe we have resolved this issue and 3.0.20 contains the fix for this.  Now that we�ve got this one last bug out of the way, we are going to continue to focus on bringing you some new features that we think you will enjoy.  Stay tuned!
+Other bug fixes
 Dock�s context menu will no longer get stuck
 Manually add games should now return full list of supported games
 Games scanning should no longer get stuck

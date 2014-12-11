@@ -1,0 +1,162 @@
+%!TEX root = ./Milestone1.tex
+
+% !TEX root =  ./VersionPaper.tex
+\usepackage[english]{babel}
+\usepackage{threeparttable}
+\usepackage{amssymb}
+\setcounter{tocdepth}{3}
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage{url}
+\usepackage{array}
+\usepackage{xspace}
+\usepackage{moreverb}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{cite}
+\usepackage{relsize}
+\usepackage{color}
+%\usepackage{wasysym}
+\usepackage{fancybox}
+\usepackage{balance}
+\usepackage{enumitem}
+\usepackage{lmodern}
+\usepackage[style=base]{caption}
+\usepackage{subcaption}
+\usepackage{epstopdf}
+
+\usepackage{amsmath}
+
+\newcommand{\version}[1]{\normalsize{Version #1 - \mydate\today\xspace,\xspace\currenttime}}
+
+%\newdateformat{mydate}{\monthname[\THEMONTH]\xspace\THEDAY}
+
+\newcommand{\fixme}[1]{\textcolor{red}{#1}}
+\newcommand{\TODO}[1]{\textcolor{magenta}{\textbf{TODO: }#1}}
+\newcommand{\feedback}[1]{\textcolor{magenta}{\textbf{ASK: }#1}}
+
+
+\newcommand{\figchoice}[1]{\fontfamily{pcr}\selectfont \textit{#1}}
+\newcommand{\figvn}[1]{\fontfamily{pcr}\selectfont  \textbf{#1}}
+
+\newcommand{\ADD}[1]{\textbf{\textcolor{blue}{#1}}}
+\newcommand{\REMOVE}[1]{\textbf{\textcolor{red}{#1}}}
+
+
+
+\newcommand{\mybox}[1]{
+\begin{center}
+\setlength{\fboxsep}{5pt}%
+\Ovalbox{%
+\begin{minipage}{.45\textwidth}
+\begin{center}
+{\it #1} 
+\end{center}
+\end{minipage}}
+\end{center}
+}
+
+\lstdefinelanguage{CSharp}
+{
+sensitive=true,
+morekeywords=[1]{
+abstract, as, async, await, base, break, case,
+catch, checked, class, const, continue,
+default, delegate, do, else, enum,
+event, explicit, extern, false,
+finally, fixed, for, foreach, goto, if,
+implicit, in, interface, internal, is,
+lock, namespace, new, null, operator,
+out, override, params, private,
+protected, public, readonly, ref,
+return, sealed, sizeof, stackalloc,
+static, struct, switch, this, throw,
+true, try, typeof, unchecked, unsafe,
+using, virtual, volatile, while, bool,
+byte, char, decimal, double, float,
+int, lock, object, sbyte, short, string,
+uint, ulong, ushort, void},
+morecomment=[l]{//},
+morecomment=[s]{/*}{*/},
+morecomment=[l][keywordstyle4]{\#},
+morestring=[b]",
+morestring=[b]',
+}
+
+\lstset{ %
+%frame=bottom,
+  language=CSharp,                % the language of the code
+  basicstyle=\ttfamily\scriptsize,           % the size of the fonts that are used for the code
+  keywordstyle=\color{blue},
+  commentstyle=\color{mygreen},
+  numberstyle=\tiny\color{mygray}
+  stringstyle=\color{mymauve},
+  rulecolor=\color{black}, 
+  stepnumber=1,                   % the step between two line-numbers. If it's 1, each line 
+  %numbers=left,                   % where to put the line-numbers
+  numberstyle=\scriptsize,  
+  numbersep=5pt,  
+  showspaces=false,               % show spaces adding particular underscores
+  showstringspaces=false,         % underline spaces within strings
+  showtabs=false,                 % show tabs within strings adding particular underscores
+  tabsize=2,                      % sets default tabsize to 2 spaces
+  breaklines=false,                % sets automatic line breaking
+  breakatwhitespace=false,        % sets if automatic breaks should only happen at whitespace
+  belowskip=1pt,
+  aboveskip=2pt
+}
+
+
+\newcommand{\codesnippet}[1]{
+\begin{lstlisting}#1\end{lstlisting}}
+
+\newcommand{\readme}[1]{#1}
+
+\newcommand{\etal}{\emph{et~al}.~}
+\newcommand{\Comment}[1]{}%\textbf{\textsl{$\langle\!\langle$#1$\rangle\!\rangle$}}}
+\newcommand{\spacedinlineheader}[1]{\vspace{1.5 mm} \noindent \textbf{#1}}
+\newcommand{\Space}[1]{}
+
+\newcommand{\website}{http our web site\xspace}
+\newcommand{\TotalNumProjects}{59\xspace}
+\newcommand{\TotalVNs}{8686\xspace}
+\newcommand{\numberchoices}{\textit{number of choices for assigning a new version number}\xspace}
+\newcommand{\numberichoices}{\textit{number of immediate choices for assigning a new version number}\xspace}
+\newcommand{\numberextrachoices}{\textit{number of additional choices for assigning a new version number}\xspace}
+\newcommand{\choices}{\textit{choices for assigning a new version number}\xspace}
+\newcommand{\choice}{\textit{choice for assigning a new version number}\xspace}
+
+\newcommand{\code}[1]{\begin{small}\texttt{#1}\end{small}}
+\newcommand{\URL}[1]{\begin{footnotesize}\url{#1}\end{footnotesize}}
+
+\newcommand{\Analyzer}{\begin{small}\textsc{VersionAnalyzer}\end{small}\xspace}
+
+\newcommand{\subParagraph}[1]{\textbf{\emph{#1}}}
+\newcommand{\MyParagraph}[1]{\noindent \textbf{#1}}
+
+% % % % Paper specific Commands % % % % %
+
+\newcommand{\mysubitem}[1]{\begin{itemize}\item[] #1 \end{itemize}}
+
+\newcommand{\mac}{\textsuperscript{$\star$\space}}
+\newcommand{\windows}{\textsuperscript{$\Box$\space}}
+\newcommand{\ios}{\textsuperscript{$\bullet$\space}}
+\newcommand{\android}{\textsuperscript{$\dagger$\space}}
+\newcommand{\linux}{\textsuperscript{$\Diamond$\space}}
+
+\newcommand{\NumTotalApps}{36\space}
+\newcommand{\NumMobileApps}{12\space}
+\newcommand{\NumDesktopApps}{12\space}
+\newcommand{\NumSiblingpApps}{12\space}
+
+\newcommand{\MinNumReleases}{3\space}
+\newcommand{\TotalNumReleases}{288\space}
+
+\newcommand{\RQOne}{\textbf{RQ1:} Do mobile applications exhibit more frequent releases than desktop applications?}
+\newcommand{\RQTwo}{\textbf{RQ2:} Do applications with siblings behave more like mobile or desktop apps?}
+\newcommand{\RQThree}{\textbf{RQ3:} Are bugs/features/enhancements more common in desktop, mobile, or sibling applications?}
+
+\newcommand{\sibs}{sibling applications\space}
+\newcommand{\sib}{sibling application\space}
+
+\newcommand{\eg}{e.g.,\space}

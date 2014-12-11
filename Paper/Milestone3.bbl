@@ -1,0 +1,32 @@
+\begin{thebibliography}{1}
+
+\bibitem{GallSoftwareEv}
+{\sc Gall, H., Jazayeri, M., Kolsch, R.~R., and Trausmuth, G.}
+\newblock Software evolution observations based on product release history.
+\newblock In {\em Proceedings of the International Conference on Software
+  Maintenance 1997}.
+
+\bibitem{ShobeMapping}
+{\sc Shobe, J.~F., Karim, M.~Y., Zanjani, M.~B., and Kagdi, H.}
+\newblock On mapping releases to commits in open source systems.
+\newblock In {\em Proceedings of the 22nd International Conference on Program
+  Comprehension}, pp.~68--71.
+
+\bibitem{TsayOpenSourceMining}
+{\sc Tsay, J., Wright, H.~K., and Perry, D.~E.}
+\newblock Experiences mining open source release histories.
+\newblock In {\em Proceedings of the 2011 International Conference on Software
+  and Systems Process}.
+
+\bibitem{WrightPitfalls}
+{\sc Wright, H.~K., and Perry, D.~E.}
+\newblock Release engineering practices and pitfalls.
+\newblock In {\em Proceedings of the 34th International Conference on Software
+  Engineering}, pp.~1281--1284.
+
+\bibitem{YuChangeLogs}
+{\sc Yu, L.}
+\newblock Mining change logs and release notes to understand software
+  maintenance and evolution.
+
+\end{thebibliography}
