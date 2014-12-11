@@ -11,7 +11,8 @@ appendStr  <- function(str1, str2){
 }
 
 getFiledata <- function(ending){
-	json_file = "C:\\Users\\Kitsune\\Documents\\GitHub\\VersionClassifier\\Data\\json\\VersionJsonClassified\\Summary"
+	#json_file = "C:\\Users\\Kitsune\\Documents\\GitHub\\VersionClassifier\\Data\\json\\VersionJsonClassified\\Summary"
+	json_file = "Research_1/VersionClassifier/Data/json/VersionJsonClassified/Summary"
  	str = appendStr(json_file, ending)
 	json_data = fromJSON(file=str)
 	return (json_data)
