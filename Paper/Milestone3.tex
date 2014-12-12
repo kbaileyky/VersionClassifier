@@ -190,13 +190,13 @@ The data is organized by version (see Figure \ref{fig:jsonEx}). Each version con
 	\item the release date
 		\mysubitem{this allows for the calculation of release intervals}
 	\item a string representing all of the statements in the version
-		\mysubitem {a raw version of the release notes is retained in case the statements are split when our tool breaks the text into statements. We are able to look back at the context and properly classify the statement. \TODO{Merge operations}}
+		\mysubitem {a raw version of the release notes is retained in case the statements are split when our tool breaks the text into statements. We are able to look back at the context and properly classify the statement.}
 	\item the type of the application
 		\mysubitem {this allows for classification based on whether the application is a desktop, mobile, or sibling application}
 	\item flag
 		\mysubitem {Allows researchers to identify atypical releases for later review}
 	\item a list of statements
-		\mysubitem {The contents of the release notes divided into classified, atomic statments.}
+		\mysubitem {The contents of the release notes divided into classified, atomic statments. These entries contain much of the information that versions do because it allows us to select individual statements and determine their origins. }
 \end{itemize}
 
 
@@ -314,6 +314,16 @@ After each release was summarized, we pulled the information from each summary a
 For example, Desktop Application 1 has two releases containing 2 bugs and 2 features and 4 bugs and 0 features. After being grouped by type desktop applications will have a list of bugs containing 2 and 4 and a list of features containing 4 and 0.
 From these lists we are able to calculated the statistics for what type of contents constitute a common release.
 
+\subsubsection{Linear Models }
+
+In addition analyzing the number of occurrences of each category, we also tried to generate a linear model for each of the different categories of application.
+
+The linear model follows the following form:
+
+\begin{multline}
+$$time_{category} = \beta_{0} + \beta_{1}Bugs_{category} + \beta_{2}Features_{category} + \\ \beta_{3} Enhancements_{category} + \beta_{4} NonFunctional_{category} + Error $$
+\end{multline}
+
 \section{Conclusions}
 
 
@@ -376,8 +386,6 @@ This shows the potential hypothesis that age and release cycle length strongly c
 
 \textit{In short, sibling applications exhibit release cycle lengths of mobile applications.}
 
-
-
 \begin{figure}
 \begin{center}
 \includegraphics[width=.5\textwidth]{CycleBoxPlot.pdf}
@@ -398,24 +406,108 @@ This shows the potential hypothesis that age and release cycle length strongly c
 
 
 \subsection{\RQThree }
-This research question would involve us classifying the contents of each release into six categories: bugs, new features, enhancements, non-functional requirements, advertisements, and ratings change requests.
-We will then compare the frequency of each category per release and per time to see if any patterns exist.
-We may also be able to create a dictionary of keywords from our classifications.
+
+
 
 \subsubsection{Bugs}
-
-
-\begin{center}
-\input{tablesbugs}
-\label{tab:bugs}
-\end{center}
 
 \begin{center}
 \input{summariesBugs.tex}
 \label{tab:sumBugs}
 \end{center}
 
-\subsubsection{RQ3 specific challenges}
+\begin{center}
+\input{tablesbugs}
+\label{tab:bugs}
+\end{center}
+
+Table~\ref{tab:sumBugs} contains a summary of the number of bugs found per release of each of the application categories. 
+We once again use the median as our standard for comparison, which shows that desktop applications have more bugs per release than mobile or sibling applications. 
+
+After looking at the causes for the maximum number of bugs being three times that the sibling application maximum number of bugs, we found that desktop applications were more likely to include release notes from publicly release beta builds. 
+We searched each of the application categories corpus to look at instances of the word "beta."
+We noticed that mobile applications mention beta features or accounts or mentions for supporting beta operating systems, but no versions are mentioned as being in beta. 
+Likewise the only mentions of a beta version in the desktop sibling application.
+Many of the desktop applications mention certain versions as being in beta.
+
+The lack of public betas could be attributed to the mobile applications public distribution that automatically checks for updates applications to prevent customers from unknowingly downloading beta applications. 
+It may be the result of the rating system; developers may fear releasing unstable versions that could permanently damage their ratings and thus their profits. 
+The lack of beta versions in mobile applications could be a part of a future work.
+
+Another reason desktop applications have more bugs per release than other categories may be that longer release cycles allow developers to spend more time testing and fixing bugs. 
+
+Another influence on the disparity number of enhancements will discussed in the Threats to Validity.
+
+\subsubsection{Features}
+
+\begin{center}
+\input{summariesFeatures.tex}
+\label{tab:sumfeatures}
+\end{center}
+
+\begin{center}
+\input{tablesfeatures}
+\label{tab:features}
+\end{center}
+
+Table~\ref{tab:sumfeatures} contains a summary of the number of features found per release of each of the application categories. 
+We were surprised to discover that the median value for the number of features for all categories was 0, but that the maximum values were relatively high.
+We also noticed that mobile and desktop applications were essentially the same, while sibling applications followed a different behavior as shown in Table~\ref{tab:features}.
+
+We believe that the low median and the high number of maximum features in a release can be attributed to an ebb and flow of development and maintenance. 
+When looking at an overview of the occurrences of features the non zero numbers cluster together for a few releases and then are separated my many releases with no new features.
+
+For the mobile applications, the maximum number of features was included in the release notes for the longest mobile cycle showing that for the full year the development team had added quite a few new things. 
+For the desktop applications, maximum number of features in a release appeared Kaleidoscope after a relatively long release cycle of about half a year.
+
+We believe one cause of the sparse number of features could be that developing sibling application bogs down developers as they try to translate ideas across two very different platforms. 
+
+
+\subsubsection{Enhancements}
+
+\begin{center}
+\input{summariesEnhancements.tex}
+\label{tab:sumenhance}
+\end{center}
+
+\begin{center}
+\input{tablesenhancements.tex}
+\label{tab:enhancements}
+\end{center}
+
+Table~\ref{tab:sumfeatures} contains a summary of the number of enhancements res found per release of each of the application categories. 
+Similarly to the bugs per release, desktop applications exhibited more enhancements per release than mobile or sibling applications.
+For the number of enhancements, mobile and sibling applications showed the same behavior as seen in Table~\ref{tab:enhancements}.
+
+The largest amount of enhancements per desktop application appeared in Versions after a release cycle of 194 days.
+Desktop applications in general may have more enhancements per release because longer release cycles give the developers more time to test their applications.
+Desktop applications may also be better hiding their bugs as sometimes enhancements are used by developers to hide that bugs were present before.
+The authors could not know the motivation behind each enhancement, bugs may be hidden beneath some of the enhancements for all application categories.
+
+Another influence on the disparity number of enhancements will discussed in the Threats to Validity.
+
+\subsection{Modeling Behavior}
+
+
+
+\begin{center}
+\input{tablesmobileMod}
+\label{tab:mobileModel}
+\end{center}
+
+\begin{center}
+\input{tablesdeskMod}
+\label{tab:desktopModel}
+\end{center}
+
+\begin{center}
+\input{tablessibMod}
+\label{tab:sibModel}
+\end{center}
+
+
+
+\subsubsection{Threats to Validity}
 \begin{itemize}
 
 
@@ -437,51 +529,12 @@ If we were to exceed 800 classifications, we may be able to train a naive Bayes 
 
 
 
-\begin{center}
-\input{tablesenhancements.tex}
-\label{tab:enhancements}
-\end{center}
-
-\begin{center}
-\input{summariesEnhancements.tex}
-\label{tab:sumenhance}
-\end{center}
-
-\begin{center}
-\input{tablesfeatures}
-\label{tab:features}
-\end{center}
-
-\begin{center}
-\input{summariesFeatures.tex}
-\label{tab:sumfeatures}
-\end{center}
 
 
-\begin{center}
-\input{tablesnonFunc}
-\label{tab:nonFunc}
-\end{center}
 
-\begin{center}
-\input{summariesNonFunc.tex}
-\label{tab:sumNonFunc}
-\end{center}
 
-\begin{center}
-\input{tablesmobileMod}
-\label{tab:mobileModel}
-\end{center}
 
-\begin{center}
-\input{tablesdeskMod}
-\label{tab:desktopModel}
-\end{center}
 
-\begin{center}
-\input{tablessibMod}
-\label{tab:sibModel}
-\end{center}
 
 \section{Challenges}
 Had this project been executed 5 to 10 years ago it would be easier to find desktop only applications. 
