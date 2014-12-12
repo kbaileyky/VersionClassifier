@@ -90,6 +90,8 @@ runReleaseAnalysis <- function(){
 	generateBoxPlot("Enhancements per Release", mobileEnhancements, desktopEnhancements, siblingEnhancements, sibMobEnhancements, sibDeskEnhancements, "Application Type", "Number Enhancements", graphDirectory_file, "\\EnhancementBoxPlot.pdf")
 	generateBoxPlot("Non-Functional per Release", mobileNonFunc, desktopNonFunc, siblingNonFunc, sibMobNonFunc, sibDeskNonFunc, "Application Type", "Number Non-Functional", graphDirectory_file, "\\NonFuncBoxPlot.pdf")
 
+	generateBoxPlot("Cycle Length", mobileCyc, desktopCyc, siblingCyc, sibMobNonFunc, sibDeskNonFunc, "Application Type", "Cycle Length (Days)", graphDirectory_file, "\\CycleBoxPlot.pdf")
+
 
 	print(wilcox.test(mobileBugs, desktopBugs))
 	print(wilcox.test(mobileBugs, siblingBugs))
