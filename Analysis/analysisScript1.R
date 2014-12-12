@@ -1,7 +1,7 @@
 #install.packages("rjson")
 #source("C:\\Users\\Kitsune\\Documents\\GitHub\\VersionClassifier\\Analysis\\analysisScript1.R")
 library("rjson")
-
+library("xtable")
 
 appendStr  <- function(str1, str2){
 	ret = paste(str1, str2, sep = "~>~>~")
@@ -85,10 +85,51 @@ runReleaseAnalysis <- function(){
 	generateBoxPlot("Non-Functional per Release", mobileNonFunc, desktopNonFunc, siblingNonFunc, sibMobNonFunc, sibDeskNonFunc, "Application Type", "Number Non-Functional", graphDirectory_file, "\\NonFuncBoxPlot.pdf")
 
 
-	print(t.test(mobileBugs, desktopBugs, alternative="two.sided", var.equal=FALSE))
-	print(t.test(mobileBugs, siblingBugs, alternative="two.sided", var.equal=FALSE))
-	print(t.test(desktopBugs, siblingBugs, alternative="two.sided", var.equal=FALSE))
+	print(wilcox.test(mobileBugs, desktopBugs))
+	print(wilcox.test(mobileBugs, siblingBugs))
+	print(wilcox.test(desktopBugs, siblingBugs, alternative="two.sided", var.equal=FALSE))
 }
 
+runAllWilcoxTests <-function(){
+		filename = "/Users/kendallbailey/Research_1/VersionClassifier/Paper/tables.tex"
+	
+	
+	runWilcoxTests(mobileBugs, desktopBugs, siblingBugs, "Bugs", FALSE, filename)
+	runWilcoxTests(mobileFeatures, desktopFeatures, siblingFeatures, "Features", TRUE, filename)
+	
+	runWilcoxTests(mobileEnhancements, desktopEnhancements, siblingEnhancements, "Enhancements", TRUE, filename)
+	
+	runWilcoxTests(mobileNonFunc, desktopNonFunc, siblingNonFunc, "Enhancements", TRUE, filename)
+	
+	
+}
 
+runWilcoxTests<- function(mobile, desktop, siblings, title, apnd, filename){
+	
+	length = min(length(mobile), length(desktop), length(siblings))
+	
+	print(length)
+	
+	mobSam = sample(mobile, length)
+	deskSam = sample(desktop, length)
+	sibSam = sample(siblings, length)
+	
+	mdP = wilcox.test(mobSam,deskSam)$p.value
+	msP = wilcox.test(mobSam,sibSam)$p.value
+	dsP = wilcox.test(sibSam,deskSam)$p.value
+	heads = c("Mobile vs Desktop", "Mobile vs Sibling", "Sibling vs Desktop")
+	a = c(mdP,msP,dsP)
+	result = table(a)
+	#cat("1,2 ",mdP, "\n")
+#	cat("1,3 ", msP, "\n")
+#	cat("2,3 ", dsP, "\n")
+
+	result = data.frame(heads,a)
+	colnames(result) <- c("Application Comparison", "p-value")
+	
+
+	print(xtable(result, digits=-2,caption = title ), file=filename, append=apnd, include.rownames=FALSE, caption.placement= 'top')
+	}
+	
+	
 
