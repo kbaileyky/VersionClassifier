@@ -217,22 +217,28 @@ The data is organized by version (see Figure \ref{fig:jsonEx}). Each version con
    "flag":false,
    "EntryList":[  
       {  
-         "entry":"Fixed a crash when closing 
-         	documents while there was an active text
-         	 insertion point.",
-         "classification":{  
-            "str_type":"Bug",
-            "int_type":0
-         }
-      },
-      {  
-         "entry":"Improved the performance of 
-         	the Stroke and Fill layer styles.",
-         "classification":{  
+ 		"entry":"Improved the performance of 
+ 		         	the Stroke and Fill layer styles.",
+        "classification":{  
+            "str_type":"Junk",
+            "int_type":4
+         },
+         "VersionNumber":"2.6",
+         "ReleaseDate":"25/09/2014",
+         "ApplicationName":"Afterlight",
+         "ApplicationType":{  
             "str_type":"Enhancement",
             "int_type":2
-         }
-      }
+         },
+         "datePattern":[  
+            ""
+         ],
+         "flag":false,
+         "split":false,
+         "merged":false,
+         "original_text":"Here is what's new in Afterlight 2.6"
+      },
+    
    ]
 }
 \end{verbatim}
@@ -241,15 +247,17 @@ The data is organized by version (see Figure \ref{fig:jsonEx}). Each version con
 \end{figure}
 
 We stored each of the statements with a classification of the type of statement and the text of the atomic statement.
-We chose to maintain  to leave open the potential for developing a dictionary of keywords or a training set for mining release notes in the future.
+We chose to maintain the original text to leave open the potential for developing a dictionary of keywords or a training set for mining release notes in the future.
 
 The flag field allows researchers to quickly identify versions that are irregular and may need to be excluded from analysis.
 One example of a flagged version is "If possible, please skip this update and wait for version 4.2.5. We are very sorry about this and will get it fixed ASAP!"
-We may want to exclude this sample from our general analysis or may want to further investigate the occurrences of recalled releases.
 
-Finally, we will develop scripts that take the information we have stored and perform statistical analysis on the certain cut of our standardized dataset to best answer the three research questions below.
+Finally, we developed scripts that take the information we have stored and perform statistical analysis on the certain cut of our standardized dataset to best answer our three research questions.
 
 \begin{figure}
+
+
+\section{Analysis}
 
 \begin{center}
 \includegraphics[width=.5\textwidth]{mobileFeaturesHist.pdf}
@@ -258,11 +266,9 @@ Finally, we will develop scripts that take the information we have stored and pe
 \end{center}
 \end{figure}
 
-\section{Analysis}
 
 The data collected for all research questions fit into histograms similar to Figure~\ref{fig:mobHist}. 
 Figure~\ref{fig:mobHist} shows that the data does not follow a normal distribution, therefore, throughout the analysis we use the Wilcoxon Rank-Sum test to determine whether application categories exhibit significantly different behavior.
-
 
 
 \subsection{Release Cycles}
@@ -270,6 +276,16 @@ While performing the calculations of the release cycles, we noticed instances wh
 For example, some release cycle lengths Tableau are: \textellipsis 33, 34, -68, 34, 34, 36, 33, 24, 28, 39, 28, 23, 36, -56, 20 \textellipsis\space . 
 Such patterns only occurred in desktop applications and relate to the simultaneous maintenance of multiple branches. 
 In Tableau, the release cycles of lengths 33, 34 correspond to the 4.1.x branch, release lengths -68, 34, 34, 36, 33, 24, 28, 39, 28, 23, 36 correspond to the 5.0.x branch, and release lengths -56, 20 correspond to the 5.1.x branch.
+
+
+
+Negative release cycles not possible and so we decided to handle simultaneously maintained branches by tracing negative release cycles backwards until we found the first positive length of the release cycle and then continued to calculate release cycle lengths down each branch. 
+So the sequence \textellipsis 33, 34, -68, 34, 34, 36, 33, 24, 28, 39, 28, 23, 36, -56, 20 \textellipsis becomes \textellipsis 33, 34, \textbf{36}, 34, 34, 36, 33, 24, 28, 39, 28, 23, 36, \textbf{3}, 20 \textellipsis when simultaneously maintained branches are factored in.
+
+We did not observe this behavior in mobile or \sibs. We suspect that this is due to the nature distribution platforms for mobile applications.
+Where desktop applications often have all their release notes stored on a centralized website or wiki, mobile applications will either show the release notes for the current release if on the Google Play or the Microsoft App Store (though some developers append notes as opposed to replacing them each release) or up to the previous 25 releases if on the iTunes App Store. 
+If the developers do not maintain separate release notes on their own websites it does not make sense to maintain multiple simultaneous release branches for one platform because the release notes can quickly be replaced and leave users confused if for example they have version 5.0, but the most recent release notes are shown to be 4.9.5.
+Multiple branches may be maintained across mobile platforms, but this is not evident because the release notes are stored across two different platforms (e.g. iTunes App Store and Google Play).
 
 \begin{center}
 \input{summariesCycles.tex}
@@ -281,13 +297,6 @@ In Tableau, the release cycles of lengths 33, 34 correspond to the 4.1.x branch,
 \label{tab:cycles}
 \end{center}
 
-Negative release cycles not possible and so we decided to handle simultaneously maintained branches by tracing negative release cycles backwards until we found the first positive length of the release cycle and then continued to calculate release cycle lengths down each branch. 
-So the sequence \textellipsis 33, 34, -68, 34, 34, 36, 33, 24, 28, 39, 28, 23, 36, -56, 20 \textellipsis becomes \textellipsis 33, 34, \textbf{36}, 34, 34, 36, 33, 24, 28, 39, 28, 23, 36, \textbf{3}, 20 \textellipsis when simultaneously maintained branches are factored in.
-
-We did not observe this behavior in mobile or \sibs. We suspect that this is due to the nature distribution platforms for mobile applications.
-Where desktop applications often have all their release notes stored on a centralized website or wiki, mobile applications will either show the release notes for the current release if on the Google Play or the Microsoft App Store (though some developers append notes as opposed to replacing them each release) or up to the previous 25 releases if on the iTunes App Store. 
-If the developers do not maintain separate release notes on their own websites it does not make sense to maintain multiple simultaneous release branches for one platform because the release notes can quickly be replaced and leave users confused if for example they have version 5.0, but the most recent release notes are shown to be 4.9.5.
-Multiple branches may be maintained across mobile platforms, but this is not evident because the release notes are stored across two different platforms (e.g. iTunes App Store and Google Play).
 
 
 Outliers: the authors looked at the outlier for mobile applications which was the applications Sleep Cycle Alarm and had the longest release cycle  for mobile applications at 345 days. There was no indication as to the delay, the comapnies twitter and blog were both silent as to reasons why the release cycle was so long.
@@ -296,7 +305,9 @@ The app essentially went 2 years without an update (minus a small one to fix som
 The maximum for the Sibling applications appears to be victim of missing release notes. 
 The version number suddenly jumps from 3.2.4 to 4.1.2, it is very likely that the documentation either lapsed, was deleted, or misplaced during the 825 day period between releases.
 
-
+For the desktop apps the outlier is NDepend, which didnt update for 606 days. 
+According to the release notes, this release was the jump from .NET 1.0 to .NET 2.0 assemblies.
+During that time, no new Visual studio was release, so maybe very few changes to the code needed to be made.
 
 
 \subsection{Release Cycle Contents}

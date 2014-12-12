@@ -1,7 +1,7 @@
 #source("C:\\Users\\Kitsune\\Documents\\GitHub\\VersionClassifier\\Analysis\\releaseCycleAnalysisScript.R")
 library("rjson")
-#source("C:\\Users\\Kitsune\\Documents\\GitHub\\VersionClassifier\\Analysis\\analysisScript1.R")
-source(file="Research_1/VersionClassifier/Analysis/analysisScript1.R")
+source("C:\\Users\\Kitsune\\Documents\\GitHub\\VersionClassifier\\Analysis\\analysisScript1.R")
+#source(file="Research_1/VersionClassifier/Analysis/analysisScript1.R")
 
 
 mobileJsonCyc = getFiledata("CyclesMobile.json")
