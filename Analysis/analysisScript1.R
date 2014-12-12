@@ -99,7 +99,9 @@ runAllWilcoxTests <-function(){
 	
 	runWilcoxTests(mobileEnhancements, desktopEnhancements, siblingEnhancements, "Enhancements", TRUE, filename)
 	
-	runWilcoxTests(mobileNonFunc, desktopNonFunc, siblingNonFunc, "Enhancements", TRUE, filename)
+	runWilcoxTests(mobileNonFunc, desktopNonFunc, siblingNonFunc, "Non-Functional", TRUE, filename)
+	
+	runWilcoxTests(mobileCyc, desktopCyc, siblingCyc, "Cycle Length", TRUE, filename)
 	
 	
 }
@@ -127,6 +129,7 @@ runWilcoxTests<- function(mobile, desktop, siblings, title, apnd, filename){
 	result = data.frame(heads,a)
 	colnames(result) <- c("Application Comparison", "p-value")
 	
+	print(xtable(result, digits=-2, caption = title))
 
 	print(xtable(result, digits=-2,caption = title ), file=filename, append=apnd, include.rownames=FALSE, caption.placement= 'top')
 	}
