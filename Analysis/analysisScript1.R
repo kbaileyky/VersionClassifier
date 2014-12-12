@@ -20,9 +20,9 @@ getFiledata <- function(ending){
 }
 
 generateBoxPlot <- function(title, mob, desk, sib, sibM, sibD, xb, yb, path, file){
-	seriesLabels = c("Mobile", "Desktop", "Sibling", "Sibling - Mobile", "Sibling - Desktop")
+	seriesLabels = c("Mobile", "Desktop", "Sibling")
 	
-	boxplot(mob, desk, sib, sibM, sibD, names=seriesLabels, main=title, xlab=xb, ylab=yb)
+	boxplot(mob, desk, sib, names=seriesLabels, main=title, xlab=xb, ylab=yb)
 
 
 
@@ -94,6 +94,13 @@ runReleaseAnalysis <- function(){
 	print(wilcox.test(mobileBugs, desktopBugs))
 	print(wilcox.test(mobileBugs, siblingBugs))
 	print(wilcox.test(desktopBugs, siblingBugs, alternative="two.sided", var.equal=FALSE))
+	
+	
+	createHistogram(mobileFeatures, "Mobile Features")
+	#createHistogram(desktopBugs, "Desktop Bugs")
+	#createHistogram(siblingBugs, "Sibling Bugs")
+
+	
 }
 
 runAllWilcoxTests <-function(){
@@ -155,5 +162,9 @@ runLinearModel <- function(time, bugs, features, enhancements, nonFunc, title, f
 	print(texreg(summ, custom.model.names = c(title), custom.coef.names = c("(Intercept)", "Bugs", "Features", "Enhancements", "Non-Functional" )), file=filename, append= apnd)
 }
 	
+createHistogram <-function(data, titl){
+	hist(data, main=titl, ylab="Number of Releases with x Features", xlab = "Number of Features in a Release")
+	
+}
 	
 
