@@ -258,6 +258,7 @@ Finally, we developed scripts that take the information we have stored and perfo
 
 
 \section{Analysis}
+	\label{sec:analysis}
 
 \begin{center}
 \includegraphics[width=.5\textwidth]{mobileFeaturesHist.pdf}
@@ -287,6 +288,100 @@ Where desktop applications often have all their release notes stored on a centra
 If the developers do not maintain separate release notes on their own websites it does not make sense to maintain multiple simultaneous release branches for one platform because the release notes can quickly be replaced and leave users confused if for example they have version 5.0, but the most recent release notes are shown to be 4.9.5.
 Multiple branches may be maintained across mobile platforms, but this is not evident because the release notes are stored across two different platforms (e.g. iTunes App Store and Google Play).
 
+
+
+
+\MyParagraph{Outliers} The authors looked at the outliers from each of the application categories to determine if there were any irregularities.
+For mobile applications, the longest cycle length appeared in the application Sleep Cycle Alarm with a length 345 days. 
+There was no indication as to the delay, neither the release notes nor the developers twitter did not provide any insights as to why the release cycle was so long.
+
+The sibling application OmniGraffle contained the longest release cycle of all application categories at 825 days. 
+However, OmniGraffle appears to be the victim of missing release notes.
+The version number suddenly jumps from 3.2.4 to 4.1.2, it is very likely that the documentation either lapsed, was deleted, or misplaced during the 825 day period between releases.
+As such, the authors removed this data point from the calculations because it does not accurately represent a single release cycle. 
+The next longest cycle length at 442 days belongs to the application Covenant Eyes, which during that cycle completed a large scale architectural change.
+
+The desktop application with the longest cycle length is NDepend, a static analysis tool, which had a cycle length of 606 days. 
+According to the release notes, the two year release cycle spanned the jump from .NET 1.0 to .NET 2.0 assemblies.
+During that time, no new Visual studio was released, so perhaps the developers did not feel the need to update NDepend.
+
+
+\subsection{Release Cycle Contents}
+
+
+
+\section{Conclusions}
+
+
+\subsection{\RQOne }
+
+
+
+\begin{figure}
+\includegraphics[width=.5\textwidth]{ShortCycleBoxPlot.pdf}
+\label{fig:ShortCycleBox}
+\caption{This box plot summarizes the information shown in Table~\ref{tab:sumshortcycles}}
+\end{figure}
+
+\input{summariesShortCycles.tex}
+\label{tab:sumshortcycles}
+
+
+\input{tablesShortcycle.tex}
+\label{tab:shortcycles}
+
+
+Research question one allows the authors to establish a baseline for the behavior of both only mobile applications and only desktop applications.
+The authors originally suspected that mobile applications have shorter release cycles than desktop applications.
+The data shows that this assumption is correct. 
+
+As shown in Table~\ref{tab:sumshortcycles}, we found that both the mean and median for desktop applications' cycle lengths was larger than than of mobile applications. 
+We believe that the median more accurately represents the characteristic cycle length because the cycle lengths do not exhibit a normal distribution as mentioned in Section~\ref{sec:analysis}. 
+
+Given the difference in the maximum cycle lengths between the two categories of application, we expected a more substantial difference between the median cycle lengths.
+However, the data indicates that the difference between the two is only about a week.
+Table~\ref{tab:shortcycles} shows that mobile and desktop applications demonstrate statistically different behavior (p-value < 0.05).
+
+We believe that the mobile applications have shorter release cycles because they were more likely developed in an agile paradigm than the desktop applications. 
+The oldest mobile application was first released in 2009, 8 years after the agile manifesto was published. 
+The oldest desktop application was first published in 2004, only 3 years after the agile manifesto was published so agile programming may not have had enough time to become a common practice during the early development of the desktop applications.
+Additionally, during the initial development of some of the desktop applications, software was still distributed on disks or at least not as conveniently for users as automatic updates. 
+The original need to physically update software may have created a culture of lengthened desktop release cycles.
+
+
+
+\textit{In summary, mobile applications have distinctly shorter release cycles than desktop applications by 7.5 days.}
+
+
+\subsection{\RQTwo }
+Our second research question looks at whether the release cycles of \sibs tend to exhibit behavior closer to desktop or mobile behavior because research question one showed that mobile and desktop release cycles displayed different behavior.
+
+Table~\ref{tab:sumcycles} adds another row to Table~\ref{tab:shortcycles} for sibling applications. 
+Table~\ref{tab:sumcycles} shows that the mean and the maximum cycle length for the sibling applications lies between the mean and the maximum for desktop and mobile applications. 
+Surprisingly, the median cycle length is lower than the mobile median cycle length. 
+Additionally, there is no statistically significant difference between mobile and sibling applications, therefore we claim sibling applications release cycle lengths behave like mobile applications.
+
+
+Sibling applications behaving like mobile applications is unexpected because almost all of the sibling applications were originally desktop applications that later had a sibling mobile application developed.
+The two exceptions for this include Spotify, whose mobile application was released first, and SplashID, whose sibling applications were released on the same day.
+Sibling desktop applications also made up a larger portion of the data points for this category (250 desktop points vs. 62 mobile points), so we anticipated sibling applications to behave more similarly to desktop applications.
+
+The oldest sibling application is OmniGraffle, which first released in 2005.
+However, unlike the desktop application category, OmniGraffle's age is an oddity among the sibling applications, with the next oldest being released 4 year later in 2009. 
+This shows the potential hypothesis that age and release cycle length strongly correlated for future work.
+
+\textit{In short, sibling applications exhibit release cycle lengths of mobile applications.}
+
+
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=.5\textwidth]{CycleBoxPlot.pdf}
+\label{fig:CycleBox}
+\caption{This box plot summarizes the information in Table~\ref{tab:sumcycles}}
+\end{center}
+\end{figure}
+
 \begin{center}
 \input{summariesCycles.tex}
 \label{tab:sumcycles}
@@ -298,19 +393,42 @@ Multiple branches may be maintained across mobile platforms, but this is not evi
 \end{center}
 
 
+\subsection{\RQThree }
+This research question would involve us classifying the contents of each release into six categories: bugs, new features, enhancements, non-functional requirements, advertisements, and ratings change requests.
+We will then compare the frequency of each category per release and per time to see if any patterns exist.
+We may also be able to create a dictionary of keywords from our classifications.
 
-Outliers: the authors looked at the outlier for mobile applications which was the applications Sleep Cycle Alarm and had the longest release cycle  for mobile applications at 345 days. There was no indication as to the delay, the comapnies twitter and blog were both silent as to reasons why the release cycle was so long.
-The app essentially went 2 years without an update (minus a small one to fix some ios 5 bugs).
-
-The maximum for the Sibling applications appears to be victim of missing release notes. 
-The version number suddenly jumps from 3.2.4 to 4.1.2, it is very likely that the documentation either lapsed, was deleted, or misplaced during the 825 day period between releases.
-
-For the desktop apps the outlier is NDepend, which didnt update for 606 days. 
-According to the release notes, this release was the jump from .NET 1.0 to .NET 2.0 assemblies.
-During that time, no new Visual studio was release, so maybe very few changes to the code needed to be made.
+\subsubsection{Bugs}
 
 
-\subsection{Release Cycle Contents}
+\begin{center}
+\input{tablesbugs}
+\label{tab:bugs}
+\end{center}
+
+\begin{center}
+\input{summariesBugs.tex}
+\label{tab:sumBugs}
+\end{center}
+
+\subsubsection{RQ3 specific challenges}
+\begin{itemize}
+
+
+\item A threat to the validity of RQ3 is that theres is a significant business pressure to create \sibs on the market, there must be a reason that desktop applications were unable to migrate to mobile platforms. 
+If the reason has to do with computational power, function, or code size, then it stands to reason that more complicated applications may have more bugs, making our comparison unbalanced.
+
+\item Developers are also, whether intentionally or not, vague about the number of bugs or enhancements they address in each release. 
+We may consider every instance of "bug fixes" or "enhancements" as 2, but in reality we will never know the exact number.
+
+\item Additionally, this process is quite time consuming and has forced us to reduce our initial goals for the number of applications down to around 12 for each category.
+Without research question 3 it is relatively easy to add new data to our corpus which could be done towards the end of the semester.
+
+\item We originally looked to machine learning to discover if there was an option that would automatically classify our collected data, though while being easy to implement a using the natural language processing toolkit, a classifier requires a very large training set.
+If we were to exceed 800 classifications, we may be able to train a naive Bayes classifier to quickly add new data, but in the time remaining in the term we may not be able to classify that much data.
+
+\end{itemize}
+
 
 
 
@@ -335,15 +453,6 @@ During that time, no new Visual studio was release, so maybe very few changes to
 \label{tab:sumfeatures}
 \end{center}
 
-\begin{center}
-\input{tablesbugs}
-\label{tab:bugs}
-\end{center}
-
-\begin{center}
-\input{summariesBugs.tex}
-\label{tab:sumBugs}
-\end{center}
 
 \begin{center}
 \input{tablesnonFunc}
@@ -369,46 +478,6 @@ During that time, no new Visual studio was release, so maybe very few changes to
 \input{tablessibMod}
 \label{tab:sibModel}
 \end{center}
-
-
-\section{Conclusions}
-
-
-\subsection{\RQOne }
-Research question one will be used to establish a baseline for the behavior of both only mobile applications and only desktop applications.
-
-We suspect that mobile applications have shorter release cycles than desktop applications.
-However, if the behavior of both types of applications is essentially identical, we plan to see if release cycles are different considering the purpose of the application (\eg productivity, games, media creation, etc.).
-
-\subsection{\RQTwo }
-Our second research question aims to determine whether the release cycles of \sibs tend to exhibit behavior closer to desktop or mobile behavior. 
-If the behavior follows neither we will further explore how and why the behavior differs.
-
-
-
-
-\subsection{\RQThree }
-This research question would involve us classifying the contents of each release into six categories: bugs, new features, enhancements, non-functional requirements, advertisements, and ratings change requests.
-We will then compare the frequency of each category per release and per time to see if any patterns exist.
-We may also be able to create a dictionary of keywords from our classifications.
-
-\subsubsection{RQ3 specific challenges}
-\begin{itemize}
-
-
-\item A threat to the validity of RQ3 is that theres is a significant business pressure to create \sibs on the market, there must be a reason that desktop applications were unable to migrate to mobile platforms. 
-If the reason has to do with computational power, function, or code size, then it stands to reason that more complicated applications may have more bugs, making our comparison unbalanced.
-
-\item Developers are also, whether intentionally or not, vague about the number of bugs or enhancements they address in each release. 
-We may consider every instance of "bug fixes" or "enhancements" as 2, but in reality we will never know the exact number.
-
-\item Additionally, this process is quite time consuming and has forced us to reduce our initial goals for the number of applications down to around 12 for each category.
-Without research question 3 it is relatively easy to add new data to our corpus which could be done towards the end of the semester.
-
-\item We originally looked to machine learning to discover if there was an option that would automatically classify our collected data, though while being easy to implement a using the natural language processing toolkit, a classifier requires a very large training set.
-If we were to exceed 800 classifications, we may be able to train a naive Bayes classifier to quickly add new data, but in the time remaining in the term we may not be able to classify that much data.
-
-\end{itemize}
 
 \section{Challenges}
 Had this project been executed 5 to 10 years ago it would be easier to find desktop only applications. 

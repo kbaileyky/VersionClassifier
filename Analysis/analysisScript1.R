@@ -35,6 +35,22 @@ generateBoxPlot <- function(title, mob, desk, sib, sibM, sibD, xb, yb, path, fil
 #	dev.off()
 }
 
+generateShortBoxPlot <- function(title, mob, desk, sib, sibM, sibD, xb, yb, path, file){
+	seriesLabels = c("Mobile", "Desktop")
+	
+	boxplot(mob, desk, names=seriesLabels, main=title, xlab=xb, ylab=yb)
+
+
+
+
+	str =  appendStr(path, file)
+	dev.copy(pdf,str)
+	dev.off()
+#	jpeg(file=str)
+#	boxplot(write)
+#	dev.off()
+}
+
 
 makeTable <- function(mob, desk, sib, sibM, sibD){
 	x1 <- mob
@@ -81,7 +97,7 @@ sibDeskEnhancements = sibDeskJson$Enhacements$Data
 sibDeskNonFunc = sibDeskJson$NonFunc$Data
 
 runReleaseAnalysis <- function(){
-	graphDirectory_file = "C:\\Users\\Kitsune\\Documents\\GitHub\\VersionClassifier\\Analysis"
+	graphDirectory_file = "C:\\Users\\Kitsune\\Documents\\GitHub\\VersionClassifier\\Paper\\"
 
 
 	generateBoxPlot("Bugs per Release", mobileBugs, desktopBugs, siblingBugs, sibMobBugs, sibDeskBugs, "Application Type", "Number Bugs", graphDirectory_file, "\\BugBoxPlot.pdf")
@@ -91,6 +107,9 @@ runReleaseAnalysis <- function(){
 	generateBoxPlot("Non-Functional per Release", mobileNonFunc, desktopNonFunc, siblingNonFunc, sibMobNonFunc, sibDeskNonFunc, "Application Type", "Number Non-Functional", graphDirectory_file, "\\NonFuncBoxPlot.pdf")
 
 	generateBoxPlot("Cycle Length", mobileCyc, desktopCyc, siblingCyc, sibMobNonFunc, sibDeskNonFunc, "Application Type", "Cycle Length (Days)", graphDirectory_file, "\\CycleBoxPlot.pdf")
+
+	generateShortBoxPlot("Cycle Length", mobileCyc, desktopCyc, siblingCyc, sibMobNonFunc, sibDeskNonFunc, "Application Type", "Cycle Length (Days)", graphDirectory_file, "\\ShortCycleBoxPlot.pdf")
+
 
 
 	print(wilcox.test(mobileBugs, desktopBugs))
@@ -106,7 +125,9 @@ runReleaseAnalysis <- function(){
 }
 
 runAllWilcoxTests <-function(){
-		filename = "/Users/kendallbailey/Research_1/VersionClassifier/Paper/tables"
+	#	filename = "/Users/kendallbailey/Research_1/VersionClassifier/Paper/tables"
+	filename = "C:\\Users\\Kitsune\\Documents\\GitHub\\VersionClassifier\\Paper\\tables"
+
 	
 	
 	runWilcoxTests(mobileBugs, desktopBugs, siblingBugs, "Bugs", FALSE, appendStr(filename, "bugs.tex"))
@@ -124,8 +145,40 @@ runAllWilcoxTests <-function(){
 	
 	runLinearModel(siblingCycles, siblingBugs, siblingFeatures, siblingEnhancements, siblingNonFunc, "Sibling Applications", appendStr(filename, "sibMod.tex"), FALSE)
 	
+	runShortWilcoxTests(mobileCyc, desktopCyc, siblingCyc, "Cycle Length", FALSE, appendStr(filename, "Shortcycle.tex"))
+	
+
+	
 	
 }
+
+runShortWilcoxTests<- function(mobile, desktop, siblings, title, apnd, filename){
+	
+	length = min(length(mobile), length(desktop))
+	
+	print(length)
+	
+	mobSam = sample(mobile, length)
+	deskSam = sample(desktop, length)
+
+	
+	mdP = wilcox.test(mobSam,deskSam)$p.value
+
+	heads = c("Mobile vs Desktop")
+	a = c(mdP)
+	result = table(a)
+	#cat("1,2 ",mdP, "\n")
+#	cat("1,3 ", msP, "\n")
+#	cat("2,3 ", dsP, "\n")
+
+	result = data.frame(heads,a)
+	colnames(result) <- c("Application Comparison", "p-value")
+	
+	print(xtable(result, digits=-2, caption = title))
+
+	print(xtable(result, digits=-2,caption = title ), file=filename, append=apnd, include.rownames=FALSE, caption.placement= 'top')
+	}
+
 
 runWilcoxTests<- function(mobile, desktop, siblings, title, apnd, filename){
 	
@@ -165,8 +218,9 @@ runLinearModel <- function(time, bugs, features, enhancements, nonFunc, title, f
 }
 
 generateAllSummaries <- function(){
-	filename = "/Users/kendallbailey/Research_1/VersionClassifier/Paper/summaries" 
-	
+	#filename = "/Users/kendallbailey/Research_1/VersionClassifier/Paper/summaries" 
+	filename = "C:\\Users\\Kitsune\\Documents\\GitHub\\VersionClassifier\\Paper\\summaries"
+
 	generateSummary(mobileCyc, desktopCyc, siblingCyc, "Cycle Summary", appendStr(filename, "Cycles.tex"))
 	
 	generateSummary(mobileBugs, desktopBugs, siblingBugs, "Bug Summary", appendStr(filename, "Bugs.tex"))
@@ -177,7 +231,26 @@ generateAllSummaries <- function(){
 	
 	generateSummary(mobileNonFunc, desktopNonFunc, siblingNonFunc, "Non-Functional Summary", appendStr(filename, "NonFunc.tex"))
 	
+	generateShortSummary(mobileCyc, desktopCyc, "Cycle Summary", appendStr(filename, "ShortCycles.tex"))
 }
+
+generateShortSummary <- function(mobdata, deskdata,  title, filename){
+	mn = c(mean(mobdata), mean(deskdata))
+	mdn = c(median(mobdata), median(deskdata))
+	sdev = c(sd(mobdata), sd(deskdata))
+	mx = c(max(mobdata), max(deskdata))
+	
+		result = data.frame(mn,mdn,sdev,mx, row.names = c( "Mobile Applications", "Desktop Applications"))
+	#result = data.frame(m,d,s)
+	#result = data.frame(mn,mdn,sdev,mx)
+
+	colnames(result) <- c("mean", "median", "std", "max")
+	print(result)
+		
+	print(xtable(result, digits=3,caption = title ), file=filename, append=FALSE, include.rownames=TRUE, caption.placement= 'top', hline.after =TRUE)
+	
+}
+
 
 generateSummary <- function(mobdata, deskdata, sibdata, title, filename){
 	mn = c(mean(mobdata), mean(deskdata), mean(sibdata))
