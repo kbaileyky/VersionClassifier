@@ -161,6 +161,42 @@ runLinearModel <- function(time, bugs, features, enhancements, nonFunc, title, f
 	
 	print(texreg(summ, custom.model.names = c(title), custom.coef.names = c("(Intercept)", "Bugs", "Features", "Enhancements", "Non-Functional" )), file=filename, append= apnd)
 }
+
+generateAllSummaries <- function(){
+	filename = "/Users/kendallbailey/Research_1/VersionClassifier/Paper/summaries" 
+	
+	generateSummary(mobileCyc, desktopCyc, siblingCyc, "Cycle Summary", appendStr(filename, "Cycles.tex"))
+	
+	generateSummary(mobileBugs, desktopBugs, siblingBugs, "Bug Summary", appendStr(filename, "Bugs.tex"))
+	
+	generateSummary(mobileFeatures, desktopFeatures, siblingFeatures, "Feature Summary", appendStr(filename, "Features.tex"))
+	
+	generateSummary(mobileEnhancements, desktopEnhancements, siblingEnhancements, "Enhancement Summary", appendStr(filename, "Enhancements.tex"))
+	
+	generateSummary(mobileNonFunc, desktopNonFunc, siblingNonFunc, "Non-Functional Summary", appendStr(filename, "NonFunc.tex"))
+	
+}
+
+generateSummary <- function(mobdata, deskdata, sibdata, title, filename){
+	mn = c(mean(mobdata), mean(deskdata), mean(sibdata))
+	mdn = c(median(mobdata), median(deskdata), median(sibdata))
+	sdev = c(sd(mobdata), sd(deskdata), sd(sibdata))
+	mx = c(max(mobdata), max(deskdata), max(sibdata))
+	
+	m = c(mean(mobdata), median(mobdata), sd(mobdata), max(mobdata))
+	d = c(mean(deskdata), median(deskdata), sd(deskdata), max(deskdata))
+	s = c(mean(sibdata), median(sibdata), sd(sibdata), max(sibdata))
+	
+	result = data.frame(mn,mdn,sdev,mx, row.names = c( "Mobile Applications", "Desktop Applications", "Sibling Applications"))
+	#result = data.frame(m,d,s)
+	#result = data.frame(mn,mdn,sdev,mx)
+
+	colnames(result) <- c("mean", "median", "std", "max")
+	print(result)
+		
+	print(xtable(result, digits=3,caption = title ), file=filename, append=FALSE, include.rownames=FALSE, caption.placement= 'top', hline.after =TRUE)
+	
+}
 	
 createHistogram <-function(data, titl){
 	hist(data, main=titl, ylab="Number of Releases with x Features", xlab = "Number of Features in a Release")
