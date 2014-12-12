@@ -2,6 +2,7 @@
 #source("C:\\Users\\Kitsune\\Documents\\GitHub\\VersionClassifier\\Analysis\\analysisScript1.R")
 library("rjson")
 library("xtable")
+library("texreg")
 
 appendStr  <- function(str1, str2){
 	ret = paste(str1, str2, sep = "~>~>~")
@@ -49,18 +50,23 @@ mobileBugs = mobileJson$Bugs$Data
 mobileFeatures = mobileJson$Features$Data
 mobileEnhancements = mobileJson$Enhacements$Data
 mobileNonFunc = mobileJson$NonFunc$Data
+mobileCycles = mobileJson$Cycle$Data
+
+length(mobileCycles)
 
 desktopJson = getFiledata("Desktop.json")
 desktopBugs = desktopJson$Bugs$Data
 desktopFeatures = desktopJson$Features$Data
 desktopEnhancements = desktopJson$Enhacements$Data
 desktopNonFunc = desktopJson$NonFunc$Data
+desktopCycles = desktopJson$Cycle$Data
 
 siblingJson = getFiledata("Sibling.json")
 siblingBugs = siblingJson$Bugs$Data
 siblingFeatures = siblingJson$Features$Data
 siblingEnhancements = siblingJson$Enhacements$Data
 siblingNonFunc = siblingJson$NonFunc$Data
+siblingCycles = siblingJson$Cycle$Data
 
 sibMobJson = getFiledata("SibMob.json")
 sibMobBugs = sibMobJson$Bugs$Data
@@ -91,17 +97,23 @@ runReleaseAnalysis <- function(){
 }
 
 runAllWilcoxTests <-function(){
-		filename = "/Users/kendallbailey/Research_1/VersionClassifier/Paper/tables.tex"
+		filename = "/Users/kendallbailey/Research_1/VersionClassifier/Paper/tables"
 	
 	
-	runWilcoxTests(mobileBugs, desktopBugs, siblingBugs, "Bugs", FALSE, filename)
-	runWilcoxTests(mobileFeatures, desktopFeatures, siblingFeatures, "Features", TRUE, filename)
+	runWilcoxTests(mobileBugs, desktopBugs, siblingBugs, "Bugs", FALSE, appendStr(filename, "bugs.tex"))
+	runWilcoxTests(mobileFeatures, desktopFeatures, siblingFeatures, "Features", FALSE, appendStr(filename, "features"))
 	
-	runWilcoxTests(mobileEnhancements, desktopEnhancements, siblingEnhancements, "Enhancements", TRUE, filename)
+	runWilcoxTests(mobileEnhancements, desktopEnhancements, siblingEnhancements, "Enhancements", FALSE, appendStr(filename, "enhancements.tex"))
 	
-	runWilcoxTests(mobileNonFunc, desktopNonFunc, siblingNonFunc, "Non-Functional", TRUE, filename)
+	runWilcoxTests(mobileNonFunc, desktopNonFunc, siblingNonFunc, "Non-Functional", FALSE, appendStr(filename, "nonFunc.tex"))
 	
-	runWilcoxTests(mobileCyc, desktopCyc, siblingCyc, "Cycle Length", TRUE, filename)
+	runWilcoxTests(mobileCyc, desktopCyc, siblingCyc, "Cycle Length", FALSE, appendStr(filename, "cycle.tex"))
+	
+	runLinearModel(mobileCycles, mobileBugs, mobileFeatures, mobileEnhancements, mobileNonFunc, "Mobile Applications", appendStr(filename, "mobileMod.tex"), FALSE)
+	
+	runLinearModel(desktopCycles, desktopBugs, desktopFeatures, desktopEnhancements, desktopNonFunc, "Desktop Applications", appendStr(filename, "deskMod.tex"), FALSE)
+	
+	runLinearModel(siblingCycles, siblingBugs, siblingFeatures, siblingEnhancements, siblingNonFunc, "Sibling Applications", appendStr(filename, "sibMod.tex"), FALSE)
 	
 	
 }
@@ -133,6 +145,15 @@ runWilcoxTests<- function(mobile, desktop, siblings, title, apnd, filename){
 
 	print(xtable(result, digits=-2,caption = title ), file=filename, append=apnd, include.rownames=FALSE, caption.placement= 'top')
 	}
+	
+	
+runLinearModel <- function(time, bugs, features, enhancements, nonFunc, title, filename, apnd) {
+	print(length(time))
+	
+	summ = lm(formula= time ~bugs + features + enhancements + nonFunc)
+	
+	print(texreg(summ, custom.model.names = c(title), custom.coef.names = c("(Intercept)", "Bugs", "Features", "Enhancements", "Non-Functional" )), file=filename, append= apnd)
+}
 	
 	
 

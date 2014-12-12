@@ -1,5 +1,5 @@
 % latex table generated in R 3.1.1 by xtable 1.7-4 package
-% Thu Dec 11 18:49:47 2014
+% Thu Dec 11 20:37:22 2014
 \begin{table}[ht]
 \centering
 \caption{Bugs} 
@@ -7,14 +7,14 @@
   \hline
 Application Comparison & p-value \\ 
   \hline
-Mobile vs Desktop & 2.20E-17 \\ 
-  Mobile vs Sibling & 5.69E-04 \\ 
-  Sibling vs Desktop & 1.13E-09 \\ 
+Mobile vs Desktop & 5.68E-17 \\ 
+  Mobile vs Sibling & 1.03E-02 \\ 
+  Sibling vs Desktop & 3.97E-11 \\ 
    \hline
 \end{tabular}
 \end{table}
 % latex table generated in R 3.1.1 by xtable 1.7-4 package
-% Thu Dec 11 18:49:47 2014
+% Thu Dec 11 20:37:22 2014
 \begin{table}[ht]
 \centering
 \caption{Features} 
@@ -22,14 +22,14 @@ Mobile vs Desktop & 2.20E-17 \\
   \hline
 Application Comparison & p-value \\ 
   \hline
-Mobile vs Desktop & 9.89E-01 \\ 
-  Mobile vs Sibling & 4.83E-03 \\ 
-  Sibling vs Desktop & 1.29E-02 \\ 
+Mobile vs Desktop & 3.80E-01 \\ 
+  Mobile vs Sibling & 1.88E-02 \\ 
+  Sibling vs Desktop & 1.56E-03 \\ 
    \hline
 \end{tabular}
 \end{table}
 % latex table generated in R 3.1.1 by xtable 1.7-4 package
-% Thu Dec 11 18:49:47 2014
+% Thu Dec 11 20:37:22 2014
 \begin{table}[ht]
 \centering
 \caption{Enhancements} 
@@ -37,14 +37,14 @@ Mobile vs Desktop & 9.89E-01 \\
   \hline
 Application Comparison & p-value \\ 
   \hline
-Mobile vs Desktop & 1.48E-08 \\ 
-  Mobile vs Sibling & 7.96E-01 \\ 
-  Sibling vs Desktop & 9.59E-08 \\ 
+Mobile vs Desktop & 5.50E-08 \\ 
+  Mobile vs Sibling & 7.88E-01 \\ 
+  Sibling vs Desktop & 3.72E-07 \\ 
    \hline
 \end{tabular}
 \end{table}
 % latex table generated in R 3.1.1 by xtable 1.7-4 package
-% Thu Dec 11 18:49:47 2014
+% Thu Dec 11 20:37:22 2014
 \begin{table}[ht]
 \centering
 \caption{Non-Functional} 
@@ -52,14 +52,14 @@ Mobile vs Desktop & 1.48E-08 \\
   \hline
 Application Comparison & p-value \\ 
   \hline
-Mobile vs Desktop & 8.49E-03 \\ 
-  Mobile vs Sibling & 1.15E-01 \\ 
-  Sibling vs Desktop & 3.08E-01 \\ 
+Mobile vs Desktop & 5.18E-03 \\ 
+  Mobile vs Sibling & 2.26E-01 \\ 
+  Sibling vs Desktop & 1.08E-01 \\ 
    \hline
 \end{tabular}
 \end{table}
 % latex table generated in R 3.1.1 by xtable 1.7-4 package
-% Thu Dec 11 18:49:47 2014
+% Thu Dec 11 20:37:22 2014
 \begin{table}[ht]
 \centering
 \caption{Cycle Length} 
@@ -67,9 +67,37 @@ Mobile vs Desktop & 8.49E-03 \\
   \hline
 Application Comparison & p-value \\ 
   \hline
-Mobile vs Desktop & 1.57E-02 \\ 
-  Mobile vs Sibling & 7.15E-01 \\ 
-  Sibling vs Desktop & 9.16E-03 \\ 
+Mobile vs Desktop & 1.81E-02 \\ 
+  Mobile vs Sibling & 7.65E-01 \\ 
+  Sibling vs Desktop & 1.55E-02 \\ 
    \hline
 \end{tabular}
+\end{table}
+
+\begin{table}
+\begin{center}
+\begin{tabular}{l c }
+\hline
+               & Mobile Applications \\
+\hline
+(Intercept)    & $23.77^{***}$ \\
+               & $(3.46)$      \\
+Bugs           & $1.52$        \\
+               & $(2.57)$      \\
+Features       & $6.95^{***}$  \\
+               & $(1.43)$      \\
+Enhancements   & $3.61^{*}$    \\
+               & $(1.52)$      \\
+Non-Functional & $2.06$        \\
+               & $(3.58)$      \\
+\hline
+R$^2$          & 0.13          \\
+Adj. R$^2$     & 0.12          \\
+Num. obs.      & 346           \\
+\hline
+\multicolumn{2}{l}{\scriptsize{$^{***}p<0.001$, $^{**}p<0.01$, $^*p<0.05$}}
+\end{tabular}
+\caption{Statistical models}
+\label{table:coefficients}
+\end{center}
 \end{table}
