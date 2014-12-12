@@ -82,7 +82,7 @@ Proprietary applications also appeal to a wider audience who have a collectively
 				Evernote Food\ios & \textbf{Facebook Messenger\ios} & \textbf{Heads Up\ios}  \\
 				\textbf{Instagram\android} & \textbf{Instapaper\ios} & \textbf{Luminosity\ios}  \\
 				\textbf{New Words with Friends\android} & \textbf{Pandora\ios} & Plague Inc\ios \\
-				\textbf{Run Keeper\ios} & \textbf{Sleep Cycle Alarm\android} & \textbf{Songza\ios} \\
+				\textbf{Run Keeper\ios} & \textbf{Sleep Cycle Alarm\ios} & \textbf{Songza\ios} \\
 				\textbf{Wish\ios} & \textbf{Youtube\ios} & \\\hline
 		\end{tabular}
 \vspace{.5cm}
@@ -249,9 +249,20 @@ We may want to exclude this sample from our general analysis or may want to furt
 
 Finally, we will develop scripts that take the information we have stored and perform statistical analysis on the certain cut of our standardized dataset to best answer the three research questions below.
 
+\begin{figure}
 
+\begin{center}
+\includegraphics[width=.5\textwidth]{mobileFeaturesHist.pdf}
+\label{fig:mobHist}
+\caption{Mobile Features: this is a histogram of the frequency of releases containing a certain number of statements classified as features}
+\end{center}
+\end{figure}
 
 \section{Analysis}
+
+The data collected for all research questions fit into histograms similar to Figure~\ref{fig:mobHist}. 
+Figure~\ref{fig:mobHist} shows that the data does not follow a normal distribution, therefore, throughout the analysis we use the Wilcoxon Rank-Sum test to determine whether application categories exhibit significantly different behavior.
+
 
 
 \subsection{Release Cycles}
@@ -259,6 +270,16 @@ While performing the calculations of the release cycles, we noticed instances wh
 For example, some release cycle lengths Tableau are: \textellipsis 33, 34, -68, 34, 34, 36, 33, 24, 28, 39, 28, 23, 36, -56, 20 \textellipsis\space . 
 Such patterns only occurred in desktop applications and relate to the simultaneous maintenance of multiple branches. 
 In Tableau, the release cycles of lengths 33, 34 correspond to the 4.1.x branch, release lengths -68, 34, 34, 36, 33, 24, 28, 39, 28, 23, 36 correspond to the 5.0.x branch, and release lengths -56, 20 correspond to the 5.1.x branch.
+
+\begin{center}
+\input{summariesCycles.tex}
+\label{tab:sumcycles}
+\end{center}
+
+\begin{center}
+\input{tablescycle.tex}
+\label{tab:cycles}
+\end{center}
 
 Negative release cycles not possible and so we decided to handle simultaneously maintained branches by tracing negative release cycles backwards until we found the first positive length of the release cycle and then continued to calculate release cycle lengths down each branch. 
 So the sequence \textellipsis 33, 34, -68, 34, 34, 36, 33, 24, 28, 39, 28, 23, 36, -56, 20 \textellipsis becomes \textellipsis 33, 34, \textbf{36}, 34, 34, 36, 33, 24, 28, 39, 28, 23, 36, \textbf{3}, 20 \textellipsis when simultaneously maintained branches are factored in.
@@ -269,8 +290,74 @@ If the developers do not maintain separate release notes on their own websites i
 Multiple branches may be maintained across mobile platforms, but this is not evident because the release notes are stored across two different platforms (e.g. iTunes App Store and Google Play).
 
 
+Outliers: the authors looked at the outlier for mobile applications which was the applications Sleep Cycle Alarm and had the longest release cycle  for mobile applications at 345 days. There was no indication as to the delay, the comapnies twitter and blog were both silent as to reasons why the release cycle was so long.
+The app essentially went 2 years without an update (minus a small one to fix some ios 5 bugs).
+
+The maximum for the Sibling applications appears to be victim of missing release notes. 
+The version number suddenly jumps from 3.2.4 to 4.1.2, it is very likely that the documentation either lapsed, was deleted, or misplaced during the 825 day period between releases.
+
+
+
+
 \subsection{Release Cycle Contents}
 
+
+
+
+\begin{center}
+\input{tablesenhancements.tex}
+\label{tab:enhancements}
+\end{center}
+
+\begin{center}
+\input{summariesEnhancements.tex}
+\label{tab:sumenhance}
+\end{center}
+
+\begin{center}
+\input{tablesfeatures}
+\label{tab:features}
+\end{center}
+
+\begin{center}
+\input{summariesFeatures.tex}
+\label{tab:sumfeatures}
+\end{center}
+
+\begin{center}
+\input{tablesbugs}
+\label{tab:bugs}
+\end{center}
+
+\begin{center}
+\input{summariesBugs.tex}
+\label{tab:sumBugs}
+\end{center}
+
+\begin{center}
+\input{tablesnonFunc}
+\label{tab:nonFunc}
+\end{center}
+
+\begin{center}
+\input{summariesNonFunc.tex}
+\label{tab:sumNonFunc}
+\end{center}
+
+\begin{center}
+\input{tablesmobileMod}
+\label{tab:mobileModel}
+\end{center}
+
+\begin{center}
+\input{tablesdeskMod}
+\label{tab:desktopModel}
+\end{center}
+
+\begin{center}
+\input{tablessibMod}
+\label{tab:sibModel}
+\end{center}
 
 
 \section{Conclusions}
