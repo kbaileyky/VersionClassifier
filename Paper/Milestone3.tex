@@ -4,7 +4,7 @@
 \input{macros.tex}
 \begin{document}
 
-\title{Mobile and Desktop Release Cycles}
+\title{What's in a release platform? }
 
 \numberofauthors{2} 
 \author{
@@ -18,9 +18,11 @@ Hongyan Yi \\
 }
 
 \maketitle
-%\begin{abstract}
+\begin{abstract}
 
-%\end{abstract}
+
+
+\end{abstract}
 
 % A category with the (minimum) three required fields
  %\category{H.4}{Information Systems Applications}{Miscellaneous}
@@ -41,13 +43,26 @@ In this paper we analyze some of the properties of these application ``siblings.
 For this research \sibs refers to a mobile application (iOS or Android) and desktop application (OSX, Windows Vista/7/8, or Linux) pairing.
 An example of \sibs would be OmniGraffle, which maintains both a iOS and OSX application of the same name with different version histories, though often version histories of sibling applications are not separated.
 
-\TODO{Change from speculative to concrete when done}
-In this paper we our goal is to collect the data from \NumDesktopApps desktop applications, \NumMobileApps mobile applications, and \NumSiblingpApps sibling applications. 
-If we maintain our minimum number of releases at \MinNumReleases releases, this will give us at least \TotalNumReleases releases to use for analysis.
 
-Our analysis focuses on the length of release cycles of the different types of applications and the contents of the releases.
+In this paper we collected the release notes from \NumDesktopApps desktop applications, \NumMobileApps mobile applications, and \NumSiblingpApps sibling applications. 
+If we maintain our minimum number of releases at \MinNumReleases releases, this gave us \TotalNumReleases releases and \TotalNumStatements statements to use for analysis.
 
-\TODO{Overview of results}
+Our analysis focuses on the length of release cycles of the different types of applications and the contents of the releases to answer our three research questions.
+
+\begin{itemize}
+\item \RQOne
+\item \RQTwo
+\item \RQThree
+\end{itemize}
+
+In the course of our research we found that:
+\begin{itemize}
+\item Mobile application release cycles are shorter than desktop release cycles
+\item In reference to release cycles, sibling applications behave like mobile applications
+\item Desktop applications tend to have more bug fixes in each release
+\item Sibling applications tend to have fewer features per release
+\item Desktop applications tend to have more enhancements in each release
+\end{itemize}
 
 
 %\keywords{ACM proceedings, \LaTeX, text tagging} % NOT required for Proceedings
@@ -146,13 +161,13 @@ Statements belonging to the non-functional requirements category most often cont
 %are "Thanks for using Afterlight, and we hope you enjoy this free update! You can follow us personally for occasional hints at new features, @simonfilip and @keynut"
 
 \MyParagraph{Gratitude: }The gratitude category describes statements in release notes that thank or acknowledge users of the application.
-This type of release note statement commonly appears in mobile application release notes and more \TODO{infrequently | never} in desktop applications.
+This type of release note statement commonly appears in mobile application release notes and more infrequently in desktop applications.
 Instances of this category often appear along side instances of the feedback/contact category.
 An example of a statement belonging in the advertisements category is "Thanks so much, everyone, for playing Words with Friends."
 Statements belonging to the advertisements category most often contain the words "...", "...", and "..." 
 
 \MyParagraph{Feedback/Contact : }The feedback/contact category describes statements in release notes that solicit users to provide feedback, acknowledge changes based on user feedback, or ways to get in touch with the developers.
-This type of release note statement appears in mobile application release notes and \TODO{infrequently | never} in desktop applications.
+This type of release note statement appears in mobile application release notes and more infrequently in desktop applications.
 Some examples of statements belonging in the feedback/contact category are "keep the feedback coming!", "We've listened to your feedback and addressed several concerns with this update", and  "If you have a suggestion, you can either leave us a review, or contact us through afterglow-app.com. We'd love to hear your suggestions for Afterglow version 1.3, releasing next month!".
 Statements belonging to the advertisements category most often contain the words "...", "...", and "..." 
 
@@ -236,7 +251,8 @@ The data is organized by version (see Figure \ref{fig:jsonEx}). Each version con
          "flag":false,
          "split":false,
          "merged":false,
-         "original_text":"Here is what's new in Afterlight 2.6"
+         "original_text":"Here is what's new 
+         		in Afterlight 2.6"
       },
     
    ]
@@ -318,11 +334,13 @@ From these lists we are able to calculated the statistics for what type of conte
 
 In addition analyzing the number of occurrences of each category, we also tried to generate a linear model for each of the different categories of application.
 
-The linear model follows the following form:
+The linear model follows the following form, where category would be replaced with desktop, mobile or sibling:
 
 \begin{multline}
 $$time_{category} = \beta_{0} + \beta_{1}Bugs_{category} + \beta_{2}Features_{category} + \\ \beta_{3} Enhancements_{category} + \beta_{4} NonFunctional_{category} + Error $$
 \end{multline}
+
+We hoped to use this model to predict the length of a release cycle based on the contents of its release notes.
 
 \section{Conclusions}
 
@@ -438,6 +456,8 @@ Another reason desktop applications have more bugs per release than other catego
 
 Another influence on the disparity number of enhancements will discussed in the Threats to Validity.
 
+\textit{Desktop applications exhibit more bugs per release than mobile or sibling applications}
+
 \subsubsection{Features}
 
 \begin{center}
@@ -462,7 +482,7 @@ For the desktop applications, maximum number of features in a release appeared K
 
 We believe one cause of the sparse number of features could be that developing sibling application bogs down developers as they try to translate ideas across two very different platforms. 
 
-
+\textit{Sibling applications contain less features per release than desktop or mobile applications}
 \subsubsection{Enhancements}
 
 \begin{center}
@@ -486,7 +506,10 @@ The authors could not know the motivation behind each enhancement, bugs may be h
 
 Another influence on the disparity number of enhancements will discussed in the Threats to Validity.
 
-\subsection{Modeling Behavior}
+
+\textit{Desktop applications exhibit more enhancements per release than mobile or sibling applications}
+\subsection{Linear Modeling of Behavior}
+
 
 
 
@@ -494,6 +517,7 @@ Another influence on the disparity number of enhancements will discussed in the 
 \input{tablesmobileMod}
 \label{tab:mobileModel}
 \end{center}
+
 
 \begin{center}
 \input{tablesdeskMod}
@@ -505,56 +529,63 @@ Another influence on the disparity number of enhancements will discussed in the 
 \label{tab:sibModel}
 \end{center}
 
+Unfortunately, the correlation for our linear models was fairly awful however, we still believe some information may be drawn from our results.
+One of the reasons we believe correlation to be so low is that these applications are likely on a release schedule.
+Instead of using these models to predict the cycle length, we look at what types of release contents adds more time to a release.
+We think that significant co-efficients with large values may indicate the type of release contents that are most likely to cause a delayed release. 
+
+For mobile applications, both the number of features and enhancements significantly affect the length of the release.
+The number of features has almost twice the influence on release cycle length as the enhancements. 
+
+For desktop applications,  only the number of features in a release significantly affects cycle length, though the number of features will influence the release cycle length more strongly than the features in a mobile application.
+
+For sibling applications, only the number of enhancements in a release affects the release cycle length.
+
+Though these models are still in an infant stage, we believe they show promise for predicting what causes delays in releases.
+Interestingly enough, none of the models demonstrated that the number of bug fixes in a release had an effect on the cycle length.
+We believe this shows developers are willing to delay their releases for features and enhancements, but will choose to fix bugs in later releases rather than break schedule.
 
 
 \subsubsection{Threats to Validity}
-\begin{itemize}
 
+One of the most significant is business pressure to create applications that people want to buy.
+Developers, marketing, or public relations, whoever is writing the release notes, write, whether intentionally or not, vaguely about the number of bugs or enhancements they address in each release. 
+We considered every instance of "bug fixes" or "improvements" as a single statement, but in reality we do not know the exact number of bug fixes or enhancements per release unless they were specifically named.
+One of the reasons we believe the mobile and sibling application bugs and enhancements to be so much lower than desktop applications is the introduction of vagueness.
+Mobile application release platform require developers to include some release notes, which also contributes to the instances of vague releases because developers will include a placeholder "bug fixes and improvements" as a permanent release note.
 
-\item A threat to the validity of RQ3 is that theres is a significant business pressure to create \sibs on the market, there must be a reason that desktop applications were unable to migrate to mobile platforms. 
+Another threat to the validity of RQ3 is that theres is a significant business pressure to create \sibs or move to mobile platforms on the market, there must be a reason that desktop applications were unable to migrate to mobile platforms. 
 If the reason has to do with computational power, function, or code size, then it stands to reason that more complicated applications may have more bugs, making our comparison unbalanced.
 
-\item Developers are also, whether intentionally or not, vague about the number of bugs or enhancements they address in each release. 
-We may consider every instance of "bug fixes" or "enhancements" as 2, but in reality we will never know the exact number.
 
-\item Additionally, this process is quite time consuming and has forced us to reduce our initial goals for the number of applications down to around 12 for each category.
-Without research question 3 it is relatively easy to add new data to our corpus which could be done towards the end of the semester.
+\subsection{Gratitude and Feedback/Contact}
 
-\item We originally looked to machine learning to discover if there was an option that would automatically classify our collected data, though while being easy to implement a using the natural language processing toolkit, a classifier requires a very large training set.
-If we were to exceed 800 classifications, we may be able to train a naive Bayes classifier to quickly add new data, but in the time remaining in the term we may not be able to classify that much data.
+\begin{table*}[width=.5\textwidth]
+\begin{tabular}{c c c c}
+ & Desktop Applications & Mobile Applications & Sibling applications \\
+Occurrences of Gratitude & 4 & 23 & 12 \\
+Occurrences of Feedback/Contact & 3 & 40 & 21 \\
+\end{tabular}
+\label{tab:gratandfeed}
+\caption{This table shows the occurrences of the gratitude and feedback/contact categories in each type of application}
+\end{table*}
 
-\end{itemize}
-
-
-
-
-
-
-
-
-
-
-
-
-\section{Challenges}
-Had this project been executed 5 to 10 years ago it would be easier to find desktop only applications. 
-Business pressure and interests have driven most companies that are willing or organized enough to post release notes to develop \sibs. 
-As a result we may have to reduce the number of applications we add to the corpus so as to not unbalance our data.
-
-Another challenge we have already overcome is the taking of release histories from iTunes, which blocks copy and paste attempts. 
-Web scraping was unsuccessful, spoofing the iTunes user agent provides a successful and automated way to collect the data.
-iTunes maintains a large collection of release histories for each of the applications it sells as well as maintaining a set of application ids on each page which could be used to quickly gather data.
-On the other hand, the Google Play Store only maintains the current version, meaning we have to search for developers to provide the information we need.
-
-We had not factored in web applications to our original research plan. For the time being we plan to not consider web applications as either mobile or desktop applications and therefore not a part of our study.
+Though there were not an abundance of occurrences, there were still more mobile and sibling applications that expressed gratitude or mentioned user feedback, as shown in Table~\ref{tab:gratandfeed}.
+From our findings about mobile applications and their lack of beta releases, the increased calls for feedback may be attributed to needing user feedback that does not come with a permanent rating.
+Additionally, mobile applications display their release notes in a more public place so developers may want to show their gratitude toward users in an attempt to elicit better ratings or to entice them to buy the application.
 
 \section{Implications}
-\MyParagraph{For team management:} Our results may show a significant skew in bugs toward one classification of application. If this was the case, it may provide the stimulus for a manager to add extra members to the QA team or allow extra time for QA before releasing an application. 
-Even within the subsets of application types there may be a certain amount of time that passes between releases that may be associated with fewer bug fixes which management can use as the length of a release cycle.
 
-\MyParagraph{For tool builders:} The data generated by our research may show a high concentration of bugs in a certain type of application. 
-If that is the case a tool builder could look at the bugs for that type of application and determine if a tool needs to be build to help developers avoid a common bug. 
-For example if sibling applications have a high number of bugs there may be specific pitfalls creating a mobile application from a desktop application or vice versa that a tool builder could address.
+\MyParagraph{For application developers:} application developers can use the preliminary information from our linear models to keep an eye on how many features and enhancements they plan to complete per application. For example in SCRUM development, developers chose tasks to complete within a certain period of time.
+If developers are aware that features and enhancement are more likely to lengthen release cycles, then they can balance the number of those chosen with bug fixes so as not to overburden themselves.
+
+\MyParagraph{For team management:} Our results show a significant skew in bugs in desktop applications. Therefore, managers may want to add extra members to the QA team or allow extra time for QA before releasing a desktop application. 
+Looking at the results from our linear model, a manager may want to break up mobile and desktop applications with many features into several releases so the release dates are less likely to be delayed or simply schedule extra time for cycles with more releases.
+
+\MyParagraph{For tool builders:} The data generated by our research may show a higher concentration of bugs in each desktop application release. 
+A tool builder may want to look through our data of all bugs to see what bugs plague desktop developers most often and try to help them avoid that.
+Also, our research showed that sibling applications have a low number of features added per release.
+If a tool builder wanted to help sibling application developers find and easier way to transition ideas across the platforms, then developers may be able to spend more time developing new features for sibling applications.
 
 \MyParagraph{For researchers:} Researchers may find our results useful when doing research on mobile applications.
 Also, for future work we may be able to generate a keywords dictionary or bigram dictionary based on our classification of statements that will allow them to perform more data mining on release notes.

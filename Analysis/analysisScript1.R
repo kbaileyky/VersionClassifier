@@ -67,6 +67,8 @@ mobileFeatures = mobileJson$Features$Data
 mobileEnhancements = mobileJson$Enhacements$Data
 mobileNonFunc = mobileJson$NonFunc$Data
 mobileCycles = mobileJson$Cycle$Data
+mobileGrat = mobileJson$Gratitude$Data
+mobileFeed = mobileJson$Feedback$Data
 
 length(mobileCycles)
 
@@ -76,6 +78,8 @@ desktopFeatures = desktopJson$Features$Data
 desktopEnhancements = desktopJson$Enhacements$Data
 desktopNonFunc = desktopJson$NonFunc$Data
 desktopCycles = desktopJson$Cycle$Data
+desktopGrat = desktopJson$Gratitude$Data
+desktopFeed = desktopJson$Feedback$Data
 
 siblingJson = getFiledata("Sibling.json")
 siblingBugs = siblingJson$Bugs$Data
@@ -83,6 +87,8 @@ siblingFeatures = siblingJson$Features$Data
 siblingEnhancements = siblingJson$Enhacements$Data
 siblingNonFunc = siblingJson$NonFunc$Data
 siblingCycles = siblingJson$Cycle$Data
+siblingGrat = siblingJson$Gratitude$Data
+siblingFeed = siblingJson$Feedback$Data
 
 sibMobJson = getFiledata("SibMob.json")
 sibMobBugs = sibMobJson$Bugs$Data
@@ -95,6 +101,8 @@ sibDeskBugs = sibDeskJson$Bugs$Data
 sibDeskFeatures = sibDeskJson$Features$Data
 sibDeskEnhancements = sibDeskJson$Enhacements$Data
 sibDeskNonFunc = sibDeskJson$NonFunc$Data
+
+
 
 runReleaseAnalysis <- function(){
 	graphDirectory_file = "C:\\Users\\Kitsune\\Documents\\GitHub\\VersionClassifier\\Paper\\"
@@ -232,6 +240,13 @@ generateAllSummaries <- function(){
 	generateSummary(mobileNonFunc, desktopNonFunc, siblingNonFunc, "Non-Functional Summary", appendStr(filename, "NonFunc.tex"))
 	
 	generateShortSummary(mobileCyc, desktopCyc, "Cycle Summary", appendStr(filename, "ShortCycles.tex"))
+
+	generateSummary(mobileGrat, desktopGrat, siblingGrat, "Gratitude Summary", appendStr(filename, "Grat.tex"))
+	
+
+generateSummary(mobileNonFunc, desktopNonFunc, siblingNonFunc, "Non-Functional Summary", appendStr(filename, "NonFunc.tex"))
+	
+
 }
 
 generateShortSummary <- function(mobdata, deskdata,  title, filename){
