@@ -1,10 +1,45 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{Antoiol}
+{\sc Antoniol, G., Ayari, K., Di~Penta, M., Khomh, F., and Gu{\'e}h{\'e}neuc,
+  Y.-G.}
+\newblock Is it a bug or an enhancement?: A text-based approach to classify
+  change requests.
+\newblock In {\em Proceedings of the 2008 Conference of the Center for Advanced
+  Studies on Collaborative Research: Meeting of Minds\/} (New York, NY, USA,
+  2008), CASCON '08, ACM, pp.~23:304--23:318.
+
+\bibitem{Cruzes}
+{\sc Cruzes, D., and Dyba, T.}
+\newblock Recommended steps for thematic synthesis in software engineering.
+\newblock In {\em Empirical Software Engineering and Measurement (ESEM), 2011
+  International Symposium on\/} (Sept 2011), pp.~275--284.
+
+\bibitem{HerzigData}
+{\sc Fischer, M., Pinzger, M., and Gall, H.}
+\newblock Populating a release history database from version control and bug
+  tracking systems.
+\newblock In {\em Software Maintenance, 2003. ICSM 2003. Proceedings.
+  International Conference on\/} (Sept 2003), pp.~23--32.
 
 \bibitem{GallSoftwareEv}
 {\sc Gall, H., Jazayeri, M., Kolsch, R.~R., and Trausmuth, G.}
 \newblock Software evolution observations based on product release history.
 \newblock In {\em Proceedings of the International Conference on Software
   Maintenance 1997}.
+
+\bibitem{HerzigMis}
+{\sc Herzig, K., Just, S., and Zeller, A.}
+\newblock It\&\#039;s not a bug, it\&\#039;s a feature: How misclassification
+  impacts bug prediction.
+\newblock In {\em Proceedings of the 2013 International Conference on Software
+  Engineering\/} (Piscataway, NJ, USA, 2013), ICSE '13, IEEE Press,
+  pp.~392--401.
+
+\bibitem{Laura}
+{\sc Moreno, L., Bavota, G., Penta, M.~D., Oliveto, R., Marcus, A., and
+  Canfora, G.}
+\newblock Automatic generation of release notes.
 
 \bibitem{ShobeMapping}
 {\sc Shobe, J.~F., Karim, M.~Y., Zanjani, M.~B., and Kagdi, H.}

@@ -16,6 +16,7 @@ siblingCyc = siblingJsonCyc$Cycle$Data
 sibMobCyc = sibMobJsonCyc$Cycle$Data
 sibDesktCyc = sibDeskJsonCyc$Cycle$Data
 
+
 siblingCyc  = siblingCyc[ - which(siblingCyc  %in% c(max(siblingCyc)))]
 
 RunAnalysis <- function(){

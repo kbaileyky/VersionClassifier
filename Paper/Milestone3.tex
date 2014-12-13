@@ -20,7 +20,10 @@ Hongyan Yi \\
 \maketitle
 \begin{abstract}
 
-
+With the recent explosion of mobile development, this paper looks at the differences between mobile and desktop applications from the perspective of release notes.
+With the growth of mobile development, there has also been an emergence of applications that exist on both platforms that no one has yet tried to characterize.
+This class of applications, which we call sibling applications, does not adhere to the behavior of either mobile or desktop applications, instead appearing to be a distinct group.
+Sibling applications and the information about desktop and mobile applications can be used by developers to better understand where to spend time when developing.
 
 \end{abstract}
 
@@ -139,24 +142,24 @@ Using the data from our corpus, we first analyzed the release cycles of the diff
 
 Then, we classified each of the statements within the release notes to fall into one of six categories: bugs, enhancements, features, non-functional requirements, gratitude, and feedback/contact.
 Statements which describe two or more changes are split into atomic parts for more accurate classification.
-\TODO{Add historgram results of common word usages for each category}
+%\TODO{Add historgram results of common word usages for each category}
 
 \MyParagraph{Bugs: }The bugs category describes statements in release notes that correct flaws within the application.
 An example of a statement belonging in the bugs category is "Fixed a crash when closing documents while there was an active text insertion point."
-Statements belonging to the bugs category most often contain the words "...", "...", and "..."
+%Statements belonging to the bugs category most often contain the words "...", "...", and "..."
 
 \MyParagraph{Enhacements: }The enhancements category describes statements in release notes that build on previously introduced features or improve performance, but do not correct overt flaws like those in the bugs category. 
 An example of a statement belonging in the enhancement category is "Improved the performance of the Stroke and Fill layer styles."
-Statements belonging to the enhancements category most often contain the words "...", "...", and "..." 
+%Statements belonging to the enhancements category most often contain the words "...", "...", and "..." 
 
 \MyParagraph{Features: }The features category describes statements in release notes that  introduce new functionality or properties to an application.
 An example of a statement belonging in the enhancement category is "Added preference setting for prompting to save session information on close."
-Statements belonging to the features category most often contain the words "...", "...", and "..." 
+%Statements belonging to the features category most often contain the words "...", "...", and "..." 
 
 \MyParagraph{Non-Functional Requirements: }The non-functional requirements category describes statements in release notes that do not fix or enhance old functionalities or introduce new functionality to the application.
 This category includes all changes to help documentation, licensing, EULAs, typo fixes, and translations.
 An example of a statement belonging in the non-functional requirements category is "We polished up our font so all the letter tiles should come back sharp."
-Statements belonging to the non-functional requirements category most often contain the words "...", "...", and "..." 
+%Statements belonging to the non-functional requirements category most often contain the words "...", "...", and "..." 
 
 %are "Thanks for using Afterlight, and we hope you enjoy this free update! You can follow us personally for occasional hints at new features, @simonfilip and @keynut"
 
@@ -164,12 +167,12 @@ Statements belonging to the non-functional requirements category most often cont
 This type of release note statement commonly appears in mobile application release notes and more infrequently in desktop applications.
 Instances of this category often appear along side instances of the feedback/contact category.
 An example of a statement belonging in the advertisements category is "Thanks so much, everyone, for playing Words with Friends."
-Statements belonging to the advertisements category most often contain the words "...", "...", and "..." 
+%Statements belonging to the advertisements category most often contain the words "...", "...", and "..." 
 
 \MyParagraph{Feedback/Contact : }The feedback/contact category describes statements in release notes that solicit users to provide feedback, acknowledge changes based on user feedback, or ways to get in touch with the developers.
 This type of release note statement appears in mobile application release notes and more infrequently in desktop applications.
 Some examples of statements belonging in the feedback/contact category are "keep the feedback coming!", "We've listened to your feedback and addressed several concerns with this update", and  "If you have a suggestion, you can either leave us a review, or contact us through afterglow-app.com. We'd love to hear your suggestions for Afterglow version 1.3, releasing next month!".
-Statements belonging to the advertisements category most often contain the words "...", "...", and "..." 
+%Statements belonging to the advertisements category most often contain the words "...", "...", and "..." 
 
 There is an additional category that we do not analyze that contains titles, headers, punctuation, other organizational type text, or duplications that is not considered in our analysis.
 
@@ -187,7 +190,7 @@ We implemented a tool to help us efficiently and atomically classify each statem
 The tool also converted the data from its raw form, to a standardized format broken up by application and release.
 Once uniformly contained, the tool would display a single statement from a chosen release and allow the authors to tag it with a single classification. 
 If multiple classifications applied to a statement, the authors would split the statement into two single-tagged lines.
-For example, "Bug fixes and improvements" splits into "Bug fixes and" placed in the Bug category and improvements" placed in the Enhancements category.
+For example, "Bug fixes and improvements" splits into "Bug fixes and" placed in the Bug category and "improvements" placed in the Enhancements category.
 Our motivation for single-tagged lines considered potential future work using the classifications to create dictionaries for automatic classification, which would be easier if given distinct word banks.
 
 
@@ -327,8 +330,8 @@ During that time, no new Visual studio was released, so perhaps the developers d
 To analyze the release cycle contents after classification, we added up the instances of each category (bug, feature, enhancement, non-functional, gratitude, and feedback/contact) to create a summary of the release.
 
 After each release was summarized, we pulled the information from each summary and grouped by statement category for each application of that type into lists. 
-For example, Desktop Application 1 has two releases containing 2 bugs and 2 features and 4 bugs and 0 features. After being grouped by type desktop applications will have a list of bugs containing 2 and 4 and a list of features containing 4 and 0.
-From these lists we are able to calculated the statistics for what type of contents constitute a common release.
+For example, Desktop Application 1 has two releases containing 2 bugs and 2 features and 4 bugs and 0 features. After being grouped by type desktop applications will have a list of bugs containing 2 and 4 and a list of features containing 2 and 0.
+From these lists we calculated the statistics for what type of contents constitute a common release.
 
 \subsubsection{Linear Models }
 
@@ -356,11 +359,11 @@ We hoped to use this model to predict the length of a release cycle based on the
 \end{figure}
 
 \input{summariesShortCycles.tex}
-\label{tab:sumshortcycles}
+
 
 
 \input{tablesShortcycle.tex}
-\label{tab:shortcycles}
+
 
 
 Research question one allows the authors to establish a baseline for the behavior of both only mobile applications and only desktop applications.
@@ -414,12 +417,12 @@ This shows the potential hypothesis that age and release cycle length strongly c
 
 \begin{center}
 \input{summariesCycles.tex}
-\label{tab:sumcycles}
+
 \end{center}
 
 \begin{center}
 \input{tablescycle.tex}
-\label{tab:cycles}
+
 \end{center}
 
 
@@ -431,12 +434,12 @@ This shows the potential hypothesis that age and release cycle length strongly c
 
 \begin{center}
 \input{summariesBugs.tex}
-\label{tab:sumBugs}
+
 \end{center}
 
 \begin{center}
 \input{tablesbugs}
-\label{tab:bugs}
+
 \end{center}
 
 Table~\ref{tab:sumBugs} contains a summary of the number of bugs found per release of each of the application categories. 
@@ -462,12 +465,12 @@ Another influence on the disparity number of enhancements will discussed in the 
 
 \begin{center}
 \input{summariesFeatures.tex}
-\label{tab:sumfeatures}
+
 \end{center}
 
 \begin{center}
 \input{tablesfeatures}
-\label{tab:features}
+
 \end{center}
 
 Table~\ref{tab:sumfeatures} contains a summary of the number of features found per release of each of the application categories. 
@@ -487,12 +490,12 @@ We believe one cause of the sparse number of features could be that developing s
 
 \begin{center}
 \input{summariesEnhancements.tex}
-\label{tab:sumenhance}
+
 \end{center}
 
 \begin{center}
 \input{tablesenhancements.tex}
-\label{tab:enhancements}
+
 \end{center}
 
 Table~\ref{tab:sumfeatures} contains a summary of the number of enhancements res found per release of each of the application categories. 
@@ -515,18 +518,18 @@ Another influence on the disparity number of enhancements will discussed in the 
 
 \begin{center}
 \input{tablesmobileMod}
-\label{tab:mobileModel}
+
 \end{center}
 
 
 \begin{center}
 \input{tablesdeskMod}
-\label{tab:desktopModel}
+
 \end{center}
 
 \begin{center}
 \input{tablessibMod}
-\label{tab:sibModel}
+
 \end{center}
 
 Unfortunately, the correlation for our linear models was fairly awful however, we still believe some information may be drawn from our results.
@@ -554,7 +557,7 @@ We considered every instance of "bug fixes" or "improvements" as a single statem
 One of the reasons we believe the mobile and sibling application bugs and enhancements to be so much lower than desktop applications is the introduction of vagueness.
 Mobile application release platform require developers to include some release notes, which also contributes to the instances of vague releases because developers will include a placeholder "bug fixes and improvements" as a permanent release note.
 
-Another threat to the validity of RQ3 is that theres is a significant business pressure to create \sibs or move to mobile platforms on the market, there must be a reason that desktop applications were unable to migrate to mobile platforms. 
+Another threat to the validity of RQ3 is that there is a significant business pressure to create \sibs or move to mobile platforms on the market, there must be a reason that desktop applications were unable to migrate to mobile platforms. 
 If the reason has to do with computational power, function, or code size, then it stands to reason that more complicated applications may have more bugs, making our comparison unbalanced.
 
 
@@ -613,6 +616,32 @@ Our research also mines histories, but we focus less on developing a machine lea
 
 Wright and Perry \cite{WrightPitfalls} discusses early results from a set of multiple semi-structured interviews with practicing release engineers and focus on why release process faults and failures occur, how organizations recover from them, and how they can be predicted, avoided or prevented in the future.
 Our research only seeks to look at the frequency, but Wright and Perry's interviews mentioned some root causes such as size, funding, and modularity that affect the frequency of release cycles.
+
+Moreno et al. \cite{Laura} introduce ARENA (Automatic Release Notes generator), an approach for the automatic generation of release notes.
+In the process of generating release notes, Laura et al. manually classified release notes to see what they consisted of like our paper. Fortunately many of the categories were similar, though Laura et al. identified many more categories depending on what was being modified or added.
+However, this study was less concerned with comparing applications and more focused on generating release notes from code changes.
+
+D. S. Cruzes \cite{Cruzes} paper provides guidance on how to properly conduct qualitative thematic coding. 
+All of the statements we classified we according to the process laid out in Cruzes' paper to give our data validity. 
+However, Cruzes' work does not specifically apply his method to a particular case to perform research as we have in this paper.
+
+
+
+G. Antoniol  et al. \cite{Antoiol} investigate whether the test submitted for bug tracking systems is a bug or an enhancement. 
+Like this study, software engineers manually classify text as either a bug or enhancement.
+Antoniol et al.'s work was done with more engineers on a larger scale and also compared their manual results to automatically classified determined labels.
+However, Antoniol et al.'s focus was the extension of use of the Mozilla bug tracking systems to track more than just bugs, while our was on comparing applications.
+
+
+ K. Herzig et al. \cite{HerzigMis} looked at the misclassification of bug reports in open source projects. After manually examining issues they found that 40\% did not have any bugs. 
+ Like our paper they also classified issues relating to bugs, features, and enhancements, but once again, their methods are focused on a system as opposed the applications in the system.
+ Additionally, they looked at open source projects bug tracking systems which allow for tagging of issues as opposed to release notes.
+ 
+
+ K. Herzig et al. \cite{HerzigData} look at the evolution of software projects using a large Mozilla open source project as their data source. They are able to populate a database with the release history as well include normally hidden information such as merge points.
+ In this paper, Herzig et al. had access to the source code and version control system which allowed them finer grained analysis of the program. Our paper choses to use release notes with no code because we wanted to include proprietary projects in our analysis. We also look more at the characteristics of each release compared to the cycle length as opposed to monitoring changes made throughout the project's history.
+ 
+
 
 % That's all folks!
 \bibliographystyle{acm}

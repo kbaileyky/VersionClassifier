@@ -86,7 +86,7 @@ siblingBugs = siblingJson$Bugs$Data
 siblingFeatures = siblingJson$Features$Data
 siblingEnhancements = siblingJson$Enhacements$Data
 siblingNonFunc = siblingJson$NonFunc$Data
-siblingCycles = siblingJson$Cycle$Data
+siblingCyclesums = siblingJson$Cycle$Data
 siblingGrat = siblingJson$Gratitude$Data
 siblingFeed = siblingJson$Feedback$Data
 
