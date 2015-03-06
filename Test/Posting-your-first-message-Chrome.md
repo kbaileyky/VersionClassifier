@@ -7,14 +7,14 @@ This is a guide for posting your first message in Google Chrome.
 ## Getting the Extension
 
 If you do not already have the extension, go to the [Privly downloads page](https://priv.ly/pages/download.html).
-Otherwise skip down to [Logging in](#logging-in)
+Otherwise skip down to [Logging in.](#logging-in)
 
 
 
 Click on the "Download Privly" button, which will direct you to the add-on/extension download page for your browser.
 Please note: right now the Privly extension is only available in alpha for Google Chrome and Mozilla Firefox.
 
-[[File:whereToDownload.JPG|thumb|left|Click the "Download Privly" button to download the extension.]]
+![Click the "Download Privly" button to download the extension.][whereToDownload.JPG]
 
 Once at the extension/add on store, click on the "Add to Chrome" button if you are using Chrome.
 
