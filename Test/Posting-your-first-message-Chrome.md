@@ -14,7 +14,7 @@ Otherwise skip down to [Logging in.](#logging-in)
 Click on the "Download Privly" button, which will direct you to the add-on/extension download page for your browser.
 Please note: right now the Privly extension is only available in alpha for Google Chrome and Mozilla Firefox.
 
-![Click the "Download Privly" button to download the extension.](https://github.com/kbaileyky/VersionClassifier/blob/master/Test/graphics/whereToDownload.JPG "text")
+![Click the "Download Privly" button to download the extension.](https://github.com/kbaileyky/VersionClassifier/blob/master/Test/graphics/whereToDownload.JPG "Click the "Download Privly" button to download the extension.")
 
 Once at the extension/add on store, click on the "Add to Chrome" button if you are using Chrome.
 
