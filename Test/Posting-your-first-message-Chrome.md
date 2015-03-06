@@ -7,7 +7,7 @@ This is a guide for posting your first message in Google Chrome.
 ## Getting the Extension
 
 If you do not already have the extension, go to the [Privly downloads page](https://priv.ly/pages/download.html).
-Otherwise skip down to [[Logging in]]
+Otherwise skip down to [Logging in](#logging-in)
 
 
 
