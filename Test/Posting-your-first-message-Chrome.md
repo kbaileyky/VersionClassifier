@@ -81,7 +81,7 @@ From the drop-down box, select the server that your invitation is associated wit
 ![After selecting the correct content server, click the save button.](https://github.com/kbaileyky/VersionClassifier/blob/master/Test/graphics/contentserver1.JPG "After selecting the correct content server, click the save button.")
 
 Return to the login page and try again.
-(Note: if at any time you remove the Privly extension and re-install it, you will have to resave your content server)
+(Note: if at any time you remove the Privly extension and re-install it, you will have to resave your content server.)
 
 
 ## Creating the Message
@@ -89,12 +89,46 @@ Return to the login page and try again.
 
 Disclaimer: Privly is still in the alpha phase of development and may still not be completely secure. Do not store sensitive data yet.
 
+If you originally clicked on "New Message" after logging in you should be taken to the New Message page.
+If you did not click on the "New Message" option, click it on the navigation bar at the top of the page.
+
+Type your message in the text box and select how long you would like the data to remain on the server, then click the save button.
+
+![Save your message on the content server.](https://github.com/kbaileyky/VersionClassifier/blob/master/Test/graphics/newMessage2.JPG "Save your message on the content server.")
+
+This causes the two yellow boxes to appear on the top of the screen.
+The link in the second box is what you will give to people so that they can see the message you wrote.
+
+Click the link to highlight it and copy and paste to where you want to post your message.
 
 
+![Copy and paste your generated link.](https://github.com/kbaileyky/VersionClassifier/blob/master/Test/graphics/newMessage2.JPG "Copy and paste your generated link.")
 
-## Recieving a Message
+Congratulations! you have just created your first Privly message!
 
 
+## Receiving a Message
+
+This section explains what a Privly message will look like to the receiver(s).
+
+### With Privly Extension
+
+If you have the Privly extension and it is currently "ON" (actively substituting Privly links) the message will appear as a text message for the receiver.
+
+![The Privly message is easily read by the receiver.](https://github.com/kbaileyky/VersionClassifier/blob/master/Test/graphics/RecieveMessage1.JPG "The Privly message is easily read by the reciever.")
+
+
+### Without Privly Extension
+
+If the receiver of a Privly message does not have the extension or the extenstion is currently "OFF" the message will appear as a link.
+
+![The Privly message is a link the reciever can click on.](https://github.com/kbaileyky/VersionClassifier/blob/master/Test/graphics/RecieveMessage1.JPG "The Privly message is a link the receiver can click on.")
+
+The receiver can click on the link to view the message.
+
+![The Privly message after clicking on a link.](https://github.com/kbaileyky/VersionClassifier/blob/master/Test/graphics/RecieveMessage3.JPG "The Privly message after clicking on a link.")
 
 
 ## Disclaimer
+
+TODO add official disclaimer
