@@ -1,5 +1,3 @@
-# Posting Your First Privly Message - Google Chrome
-
 ## Introduction
 
 This is a guide for posting your first message in Google Chrome.
@@ -52,16 +50,16 @@ If you have an account skip down to [Logging in](#creating-the-message)
 If you do not have an account, put your email in the text box under register and click on the "Request invite on https://dev.privly.org" button.
 
 ### Register for PrivlyAlpha
-    
-    Go to the [Privly Alpha website](https://privlyalpha.org) and type your email in the "Want an Invite?" text box and click the "Get Invited" button. 
 
-    You will then recieve an email with further instructions.
+Go to the [Privly Alpha website](https://privlyalpha.org) and type your email in the "Want an Invite?" text box and click the "Get Invited" button. 
+
+You will then receive an email with further instructions.
 
 ### Register for dev.Privly (for developers)
 
 Go to the [Dev.Privly website](https://dev.privly.org) and type your email in the "Want an Invite?" text box and click the "Get Invited" button. 
 
-You will then recieve an email with further instructions.
+You will then receive an email with further instructions.
 
 ## Logging in
 
@@ -90,7 +88,7 @@ From the drop-down box, select the server that your invitation is associated wit
 ![After selecting the correct content server, click the save button.](https://github.com/kbaileyky/VersionClassifier/blob/master/Test/graphics/contentserver1.JPG "After selecting the correct content server, click the save button.")
 
 Return to the login page and try again.
-(Note: if at any time you remove the Privly extension and re-install it, you will have to resave your content server.)
+(Note: if at any time you remove the Privly extension and re-install it, you will have to re-save your content server.)
 
 
 ## Creating the Message
@@ -122,7 +120,6 @@ Click the link to highlight it and copy and paste to where you want to post your
 
 Congratulations! you have just created your first Privly message!
 
-
 ## Receiving a Message
 
 This section explains what a Privly message will look like to the receiver(s).
@@ -131,14 +128,14 @@ This section explains what a Privly message will look like to the receiver(s).
 
 If you have the Privly extension and it is currently "ON" (actively substituting Privly links), the message will appear as a text message for the receiver.
 
-![The Privly message is easily read by the receiver.](https://github.com/kbaileyky/VersionClassifier/blob/master/Test/graphics/RecieveMessage1.JPG "The Privly message is easily read by the reciever.")
+![The Privly message is easily read by the receiver.](https://github.com/kbaileyky/VersionClassifier/blob/master/Test/graphics/RecieveMessage1.JPG "The Privly message is easily read by the receiver.")
 
 
 ### Without Privly Extension
 
-If the receiver of a Privly message does not have the extension or the extenstion is currently "OFF", the message will appear as a link.
+If the receiver of a Privly message does not have the extension or the extension is currently "OFF", the message will appear as a link.
 
-![The Privly message is a link the reciever can click on.](https://github.com/kbaileyky/VersionClassifier/blob/master/Test/graphics/RecieveMessage2.JPG "The Privly message is a link the receiver can click on.")
+![The Privly message is a link the receiver can click on.](https://github.com/kbaileyky/VersionClassifier/blob/master/Test/graphics/RecieveMessage2.JPG "The Privly message is a link the receiver can click on.")
 
 The receiver can click on the link to view the message.
 
@@ -147,5 +144,6 @@ The receiver can click on the link to view the message.
 
 ## Disclaimer
 
-TThe Priv.ly Project is still under active development. Think of using privacy software under “active development” like crossing a bridge that is still under construction.
+The Priv.ly Project is still under active development. Think of using privacy software under “active development” like crossing a bridge that is still under construction.
 Read the [Safety page](https://priv.ly/pages/safety.html) on the Privly website for more information about the security of your data.
+
