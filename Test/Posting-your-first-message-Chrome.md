@@ -99,10 +99,17 @@ Type your message in the text box and select how long you would like the data to
 This causes the two yellow boxes to appear on the top of the screen.
 The link in the second box is what you will give to people so that they can see the message you wrote.
 
-Click the link to highlight it and copy and paste to where you want to post your message.
 
 
 ![Copy and paste your generated link.](https://github.com/kbaileyky/VersionClassifier/blob/master/Test/graphics/NewMessage3.JPG "Copy and paste your generated link.")
+
+
+Click the link to highlight it and copy and paste to where you want to post your message.
+
+![Paste the link to share your Privly message.](https://github.com/kbaileyky/VersionClassifier/blob/master/Test/graphics/PasteMessage.JPG "Paste the link to share your Privly message.")
+
+
+
 
 Congratulations! you have just created your first Privly message!
 
