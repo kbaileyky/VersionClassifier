@@ -18,16 +18,16 @@ Please note: right now the Privly extension is only available in alpha for Googl
 
 Once at the extension/add on store, click on the "Add to Chrome" button if you are using Chrome.
 
-[[File:getPlugin1.JPG|thumb|right|Click the "Add to Chrome" to get the Privly extension to Chrome.]]
+![Click the "Add to Chrome" to get the Privly extension to Chrome.](https://github.com/kbaileyky/VersionClassifier/blob/master/Test/graphics/getPlugin1.JPG "Click the "Add to Chrome" to get the Privly extension to Chrome.")
 
 For Chrome, a pop-up will appear to confirm installation - click the "Add" button.
 
-[[File:getPlugin2.JPG|thumb|right|Click the "Add" button to confirm your addition.]]
+![Click the "Add" button to confirm your addition.](https://github.com/kbaileyky/VersionClassifier/blob/master/Test/graphics/getPlugin2.JPG "Click the "Add" button to confirm your addition.")
 
 The Privly extension should now be visible on your browser. 
 The icon has a small box labeled "ON" to indicate that it will replace Privly links with the message associated with those links.
 
-[[File:extensionIcon.JPG|thumb|left|The Privly icon shows on - indicating it is replacing links with content.]]
+![The Privly icon shows on - indicating it is replacing links with content.](https://github.com/kbaileyky/VersionClassifier/blob/master/Test/graphics/extensionIcon.JPG "The Privly icon shows on - indicating it is replacing links with content.")
 
 Congratulations! You have finished installing the extension!
 
@@ -38,7 +38,7 @@ After installing the extension, the next step is to login or create your account
 
 First, click on the Privly extension icon near the address bar.
 
-[[File:newMessage1.JPG|thumb|right|Click the "New Message" button from the drop down menu.]]
+![Click the "New Message" button from the drop down menu.](https://github.com/kbaileyky/VersionClassifier/blob/master/Test/graphics/newMessage1.JPG "Click the "New Message" button from the drop down menu.")
 
 A drop down menu will appear, click on "New Message".
 (Note: clicking on "View History", "New Message", "Options", and "Help" will all lead you to a link to the login page. Because our goal is to post a message, we chose "New Message" in this case)
