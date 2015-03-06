@@ -94,7 +94,7 @@ If you did not click on the "New Message" option, click it on the navigation bar
 
 Type your message in the text box and select how long you would like the data to remain on the server, then click the save button.
 
-![Save your message on the content server.](https://github.com/kbaileyky/VersionClassifier/blob/master/Test/graphics/newMessage2.JPG "Save your message on the content server.")
+![Save your message on the content server.](https://github.com/kbaileyky/VersionClassifier/blob/master/Test/graphics/NewMessage2.JPG "Save your message on the content server.")
 
 This causes the two yellow boxes to appear on the top of the screen.
 The link in the second box is what you will give to people so that they can see the message you wrote.
@@ -102,7 +102,7 @@ The link in the second box is what you will give to people so that they can see 
 Click the link to highlight it and copy and paste to where you want to post your message.
 
 
-![Copy and paste your generated link.](https://github.com/kbaileyky/VersionClassifier/blob/master/Test/graphics/newMessage2.JPG "Copy and paste your generated link.")
+![Copy and paste your generated link.](https://github.com/kbaileyky/VersionClassifier/blob/master/Test/graphics/NewMessage3.JPG "Copy and paste your generated link.")
 
 Congratulations! you have just created your first Privly message!
 
@@ -113,16 +113,16 @@ This section explains what a Privly message will look like to the receiver(s).
 
 ### With Privly Extension
 
-If you have the Privly extension and it is currently "ON" (actively substituting Privly links) the message will appear as a text message for the receiver.
+If you have the Privly extension and it is currently "ON" (actively substituting Privly links), the message will appear as a text message for the receiver.
 
 ![The Privly message is easily read by the receiver.](https://github.com/kbaileyky/VersionClassifier/blob/master/Test/graphics/RecieveMessage1.JPG "The Privly message is easily read by the reciever.")
 
 
 ### Without Privly Extension
 
-If the receiver of a Privly message does not have the extension or the extenstion is currently "OFF" the message will appear as a link.
+If the receiver of a Privly message does not have the extension or the extenstion is currently "OFF", the message will appear as a link.
 
-![The Privly message is a link the reciever can click on.](https://github.com/kbaileyky/VersionClassifier/blob/master/Test/graphics/RecieveMessage1.JPG "The Privly message is a link the receiver can click on.")
+![The Privly message is a link the reciever can click on.](https://github.com/kbaileyky/VersionClassifier/blob/master/Test/graphics/RecieveMessage2.JPG "The Privly message is a link the receiver can click on.")
 
 The receiver can click on the link to view the message.
 
