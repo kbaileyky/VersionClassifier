@@ -51,8 +51,17 @@ If you have an account skip down to [Logging in](#creating-the-message)
 
 If you do not have an account, put your email in the text box under register and click on the "Request invite on https://dev.privly.org" button.
 
-(This Section is still under construction, Sorry! )
-TODO fill in how to register
+### Register for PrivlyAlpha
+    
+    Go to the [Privly Alpha website](https://privlyalpha.org) and type your email in the "Want an Invite?" text box and click the "Get Invited" button. 
+
+    You will then recieve an email with further instructions.
+
+### Register for dev.Privly (for developers)
+
+Go to the [Dev.Privly website](https://dev.privly.org) and type your email in the "Want an Invite?" text box and click the "Get Invited" button. 
+
+You will then recieve an email with further instructions.
 
 ## Logging in
 
@@ -87,7 +96,7 @@ Return to the login page and try again.
 ## Creating the Message
 
 
-Disclaimer: Privly is still in the alpha phase of development and may still not be completely secure. Do not store sensitive data yet.
+** Disclaimer: Privly is still in the alpha phase of development and may still not be completely secure. Do not store sensitive data yet. See the [Safety page](https://priv.ly/pages/safety.html) for more information. **
 
 If you originally clicked on "New Message" after logging in you should be taken to the New Message page.
 If you did not click on the "New Message" option, click it on the navigation bar at the top of the page.
@@ -138,4 +147,5 @@ The receiver can click on the link to view the message.
 
 ## Disclaimer
 
-TODO add official disclaimer
+TThe Priv.ly Project is still under active development. Think of using privacy software under “active development” like crossing a bridge that is still under construction.
+Read the [Safety page](https://priv.ly/pages/safety.html) on the Privly website for more information about the security of your data.
