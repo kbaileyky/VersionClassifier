@@ -5,7 +5,7 @@ This is a guide for posting your first message in Google Chrome.
 ## Getting the Extension
 
 If you do not already have the extension, go to the [Privly downloads page](https://priv.ly/pages/download.html).
-Otherwise skip down to [Registration](#registration) or [Logging in.](#logging-in)
+Otherwise skip down to [Getting access to Privly](#getting-access-to-privly).
 
 
 
@@ -30,7 +30,7 @@ The icon has a small box labeled "ON" to indicate that it will replace Privly li
 Congratulations! You have finished installing the Privly extension!
 
 
-## Registering
+## Getting access to Privly
 
 After installing the extension, the next step is to login or create your account.
 
@@ -47,21 +47,23 @@ On the Message page, click on the login button on either the highlighted message
 
 If you have an account skip down to [Logging in](#creating-the-message)
 
+### Registering to a content server 
+
 If you do not have an account, put your email in the text box under register and click on the "Request invite on https://dev.privly.org" button.
 
-### Register for PrivlyAlpha
+#### Register for PrivlyAlpha
 
 Go to the [Privly Alpha website](https://privlyalpha.org) and type your email in the "Want an Invite?" text box and click the "Get Invited" button. 
 
 You will then receive an email with further instructions.
 
-### Register for dev.Privly (for developers)
+#### Register for Dev.Privly (for developers)
 
 Go to the [Dev.Privly website](https://dev.privly.org) and type your email in the "Want an Invite?" text box and click the "Get Invited" button. 
 
 You will then receive an email with further instructions.
 
-## Logging in
+### Logging in
 
 Type your email and password into the appropriate boxes and press the "Login to https://dev.privly.org".
 If the login was successful, skip to [Creating the Message](#creating-the-message).
